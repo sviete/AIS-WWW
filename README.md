@@ -37,16 +37,19 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 
 #### to dom Server
 
+rsync to staging folder
+
 ```
-rsync -e "ssh -p 7777" --delete --progress --stats -ravzh /home/andrzej/Projects/AIS-WWW/build/ server-user@SERVER-IP:/var/www/html
+rsync -e "ssh -p 7777" --delete --progress --stats -ravzh /home/andrzej/Projects/AIS-WWW/build/ server-user@SERVER-IP:/var/www/ais-www-staging
 ```
 
 on server:
+
 ```
 cd /var/www/AIS-WWW
 # rm all except apt and audio folder
 rm -rf !(apt|audio)
-mv /var/www/html/* /var/www/AIS-WWW
+cp -R /var/www/ais-www-staging/* /var/www/AIS-WWW
 ```
 
 ### Update OTA only
