@@ -13,7 +13,9 @@ W przypadku problemów z działaniem pilota, proszę zapoznać się z instrukcj�
 
 Pilot do działania potrzebuje 2 baterii AAA. Upewnij się, że baterie są poprawnie zamontowane oraz sprawdź, czy po naciśnięciu przycisku, w pilocie świeci się czerwona dioda (w górnej części pilota)- czy jest poprawne zasilanie z baterii.
 
->Pilot podczas używania pobiera mniej niż 10mA prądu z baterii. Gdy nie jest używany, żużywa mikroamper (czyli prawie nie pobiera żadnego prądu). Jest to zgodne z Europejskim standardem "Energy Star".  
+:::tip
+Pilot podczas używania pobiera mniej niż 10mA prądu z baterii. Gdy nie jest używany, żużywa mikroamper (czyli prawie nie pobiera żadnego prądu). Jest to zgodne z Europejskim standardem "Energy Star".  
+:::
 
 
 ## Sprawdź, czy klucz sprzętowy USB (dongle) jest włożony poprawnie do portu USB
@@ -28,8 +30,9 @@ Pilot komunikuje się z urządzeniem za pomocą adaptera/klucza sprzętowego USB
 
 Klucze USB są fabrycznie parowane z pilotami. Możesz też samodzielnie wykonać parowanie - w tym celu wykonaj poniższą instrukcję:
 
->Naciśnij przycisk **PG-** i jednocześnie przycisk **V-** (dwa przyciski na samym dole pilota). Gdy górna dioda zacznie szybko migać na czerwono, to włóż klucz USB do urządzenia. Dioda powinna się po chwili wyłączyć, co oznacza, że urządzenia są sparowane.  
-
+:::important
+Naciśnij przycisk **PG-** i jednocześnie przycisk **V-** (dwa przyciski na samym dole pilota). Gdy górna dioda zacznie szybko migać na czerwono, to włóż klucz USB do urządzenia. Dioda powinna się po chwili wyłączyć, co oznacza, że urządzenia są sparowane.  
+:::
 
 ## Sprawdź, czy pilot działa w poprawnym trybie
 

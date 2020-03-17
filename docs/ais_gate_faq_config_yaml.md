@@ -25,7 +25,7 @@ Znajdujemy komendę, która zwraca temperaturę CPU w systemie Linux (google.com
 ```bash
 cat /sys/class/thermal/thermal_zone0/temp
 ```
-<img src="/img/en/bramka/faq_sensor_1.png"> </img>
+[](/img/en/bramka/faq_sensor_1.png)
 
 
 ### Edycja pliku configuration.yaml
@@ -54,27 +54,26 @@ sensor:
    value_template: '{{ value | multiply(0.001) | round(1) }}'
 ```
 
-<img src="/img/en/bramka/faq_sensor_2.png"> </img>
+![](/img/en/bramka/faq_sensor_2.png)
 
 
 ### Sprawdzenie konfiguracji i Restart serwera
 
 Upewnijmy się, że nasza konfiguracja jest poprawna — w tym celu kliknij przycisk **Sprawdź konfigurację** dostępny w opcjach ogólnych systemu. Następnie restartujemy serwer przyciskiem **Uruchom ponownie**
 
-<img src="/img/en/bramka/faq_sensor_4.png"> </img>
+![](/img/en/bramka/faq_sensor_4.png)
 
 
 ### Nowa encja
 
 W informacji o stanie encji systemu możemy już odszukać nasz nowo dodany element systemu (czujnik) i zobaczyć jego status.
 
-<img src="/img/en/bramka/faq_sensor_5.png"> </img>
-
+![](/img/en/bramka/faq_sensor_5.png)
 
 ### Wyświetlanie w aplikacji
 
 Każdy element możemy pokazać w aplikacji, wystarczy, że na wybranym widoku dodamy i skonfigurujemy kartę z naszym nowym komponentem.
 
-<img src="/img/en/bramka/faq_sensor_7.png"> </img>
+![](/img/en/bramka/faq_sensor_7.png)
 
-<img src="/img/en/bramka/faq_sensor_6.png"> </img>
+![](/img/en/bramka/faq_sensor_6.png)

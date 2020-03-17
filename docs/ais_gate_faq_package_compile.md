@@ -10,7 +10,7 @@ Nasz system współdzieli jądro Linuksa z systemem Android. Dzięki temu mamy m
 Jest to kompletne środowisko Linuxa, ale z jedną główną różnicą w stosunku do tradycyjnych dystrybucji — nasze środowisko jest z prefiksem.
 Środowisko z prefiksem (prefixed environment) oznacza, że struktura katalogów jest nieco inna niż w klasycznych dystrybucjach — np. w Ubuntu mamy /bin a w AIS-linux mamy $PREFIX /bin, gdzie $PREFIX w naszym przypadku odnosi się do /data/data/pl.sviete.dom/files/usr.
 
-<img src="/img/en/bramka/faq_linux_package_compilation_1.png"> </img>
+![](/img/en/bramka/faq_linux_package_compilation_1.png)
 
 
 ## Kompilacja pakietu
@@ -18,7 +18,7 @@ Jest to kompletne środowisko Linuxa, ale z jedną główną różnicą w stosun
 Prefiks robi różnicę w instalacji i kompilacji pakietów. Tworząc naszą dystrybucję wzorowaliśmy się na Termux - którego jesteśmy forkiem.
 Kompilacja pakietów jest taka sama jak w Termux https://wiki.termux.com/wiki/Main_Page wykonujemy ją w kontenerze Dokera https://github.com/sviete/AIS-linux-packages, a następnie umieszczamy pakiet w repozytorium https://github.com/sviete/DOM-APT-REPO
 
-<img src="/img/en/bramka/faq_linux_package_compilation_2.png"> </img>
+![](img/en/bramka/faq_linux_package_compilation_2.png)
 
 
 ### Dodanie skompilowanego pakietu do repozytorimu AIS-linux

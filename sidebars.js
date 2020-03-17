@@ -93,7 +93,8 @@ module.exports = {
       "ais_remote_index",
       "ais_remote_modes",
       "ais_remote_mode_on_tv",
-      "ais_remote_mode_off_tv"
+      "ais_remote_mode_off_tv",
+      "ais_remote_faq_index"
     ],
     "Komendy głosowe": [
       "ais_app_assistent_commands",

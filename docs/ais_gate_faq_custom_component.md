@@ -86,14 +86,14 @@ hej_dom:
 
 Upewnijmy się, że nasza konfiguracja jest poprawna — w tym celu kliknij przycisk **Sprawdź konfigurację** dostępny w opcjach ogólnych systemu. Następnie restartujemy serwer przyciskiem **Uruchom ponownie**
 
-<img src="/img/en/bramka/faq_sensor_4.png"> </img>
+![](/img/en/bramka/faq_sensor_4.png)
 
 
 ### Nowa encja w systemie
 
 W informacjach o stanie encji systemu możemy już odszukać nasz nowo dodany element systemu (encja hej_dom) i zobaczyć jego status oraz atrybuty
 
-<img src="/img/en/bramka/faq_custom_component_1.png"> </img>
+![](/img/en/bramka/faq_custom_component_1.png)
 
 Oczywiście ten przykład to tylko wprowadzenie w temat, Twój docelowy komponent na pewno będzie bardziej przydatny niż ten z naszego przykładu. Celowo nie dodawaliśmy w kodzie żadnej logiki, żeby nie zaciemniać zagadnienia. Docelowy komponent może sprawdzać kursy walut, wyliczać prawdopodobieństwo wzrostów na giełdzie czy opadów lub zamawiać głosowo piwo — pełna dowolność, my nie osądzamy ;)
 Następnie taki nowy komponent możesz w łatwy sposób połączyć z innymi w systemie Asystent domowy za pomocą automatyzacji i gdy np. zapowiadany jest deszcz -> nie włączasz podlewania trawnika lub gdy w kalendarzu masz rocznicę ślubu, to Asystent przypomina Ci o tym głosowo (a z czasem, będzie zamawiał kolację i włączał scenę romantyczną w salonie, itp).
@@ -112,20 +112,20 @@ w ten sposób Twój komponent zostanie sprawdzony i przetestowany przez setki pr
 
 Może się zdarzyć, że dodana własna integracja (w tym przykłdzie sterowanie telewizorem) nie przechodzi walidacji i nie działa poprawnie, objawia się to zwykle w ten sposób
 
-<img src="/img/en/bramka/faq_custom_component_2.png"> </img>
+![](/img/en/bramka/faq_custom_component_2.png)
 
 oznacza to, że nie udało się Asystentowi domowemu zwalidować i zaimportować komponentu z folderu custom_components. Przyczyną może być błąd w kodzie lub brak na urządzeniu biblioteki, która używana jest w tej integracji.
 To, co należy w takim przypadku zrobić, to sprawdzić kod integracji oraz dostępność na urządzeniu bibliotek stosowanych w integracji.
 
-<img src="/img/en/bramka/faq_custom_component_3.png"> </img>
+![](/img/en/bramka/faq_custom_component_3.png)
 
 W powyższym przypadku widzimy, że w kodzie importowany jest pakiet wakeonlan, ale nie jest on dostępny na urządzeniu, więc go doinstalowujemy ręcznie.
 
 Następnie wracamy do sprawdzenia konfiguracji, restart serwera i możemy już sterować naszym telewizorem.
 
-<img src="/img/en/bramka/faq_custom_component_4.png"> </img>
+![](/img/en/bramka/faq_custom_component_4.png)
 
 
 Gdy stosujemy własny komponent w logach pojawi się stosowne ostrzeżenie
 
-<img src="/img/en/bramka/faq_custom_component_5.png"> </img>
+![](/img/en/bramka/faq_custom_component_5.png)
