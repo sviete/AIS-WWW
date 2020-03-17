@@ -40,8 +40,8 @@ Sebastian poprawił kolory w trybie nocnym
 ### Definicję własnego interfejsu
 
 Nasz użytkownik Darek dostarczył nam ciekawy sposób, na definicję własnego interfejsu oraz dodatkowo opisał fajne rozwiązania z kalendarzem.
-[link do opisu w dokumentacji](/docs/ais_app_ui_config.html#własny-interfejs-użytkownika).
-Dziękujemy i zachęcemy każdego do edycji dokumentacji [Zaangażuj się](/docs/ais_faq_where_is_the_code.html#zaangażuj-się) 🥰
+[link do opisu w dokumentacji](/docs/ais_app_ui_config#własny-interfejs-użytkownika).
+Dziękujemy i zachęcemy każdego do edycji dokumentacji [Zaangażuj się](/docs/ais_faq_where_is_the_code#zaangażuj-się) 🥰
 
 
 ## Zrób coś, gdy...
@@ -59,7 +59,7 @@ W FAQ dodaliśmy sekcję [Kompatybilność z Tasmota](/docs/ais_faq_iot_ap_mode.
 Opisujemy też jak to działa oraz jak to staramy się robić, żeby było najłatwiej jak się da!
 
 PS
-Dodaliśmy też najnowszą wersję oprogramowania do urządzeń AIS dom, piękne kolory w konsoli to nie wszystko ;) w FAQ opisujemy też [jakie ułatwienia dostarczamy](/docs/ais_faq_iot_ap_mode.html#jakie-ułatwienia-dostarczamy)  
+Dodaliśmy też najnowszą wersję oprogramowania do urządzeń AIS dom, piękne kolory w konsoli to nie wszystko ;) w FAQ opisujemy też [jakie ułatwienia dostarczamy](/docs/ais_faq_iot_ap_mode#jakie-ułatwienia-dostarczamy)  
 
 
 ![Reset 5](/img/en/iot/iot_device_menu_upgrade_6.png)

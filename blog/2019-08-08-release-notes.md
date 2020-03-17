@@ -34,7 +34,7 @@ Na pierwszej stronie dodaliśmy kartę z informacją o statusie osób oraz kart�
 Informacje te dostępne też są z pilota (bez monitora).
 
 Automatyzacje możemy włączać głosowo nową komendą: "Uruchom + {nazwa automatyzacji}" lub "Automatyzacja " + {nazwa automatyzacji}
-[Komendy głosowe](/docs/ais_app_assistent_commands.html#uruchamianie-automatyzacji)
+[Komendy głosowe](/docs/ais_app_assistent_commands#uruchamianie-automatyzacji)
 
 
 ![Osoby i automatyzacje](/img/en/blog/persons_and_automations.png)

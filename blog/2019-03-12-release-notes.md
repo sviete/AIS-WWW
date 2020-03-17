@@ -12,7 +12,7 @@ title: Wersja systemu 0.89.4  Spotify
 Spotify to kolejny (po YouTube) serwis muzyczny na AI-Speaker, oferujący dostęp do OGROMNEJ ilości utworów.
 Pozwala to użytkownikom urządzeń z systemem "Aysystent domowy" na **w pełni legalne i darmowe** słuchanie na żądanie praktycznie każdej muzyki.
 
-Dodajemy nową sekcję naszej dokumentacji [Komendy głosowe Spotify](/docs/ais_app_assistent_commands.html#spotify)
+Dodajemy nową sekcję naszej dokumentacji [Komendy głosowe Spotify](/docs/ais_app_assistent_commands#spotify)
 Na początek obsługujemy jedną komendę głosową: "Spotify + {szukana fraza}", {szukana fraza} - może być nazwą wykonawcy, albumu lub nazwą listy utworów. Serwis Spotify oferuje społecznościowe podejście do słuchania i odkrywania nowej muzyki (listy, znajomi, rekomendacje itp.), pozwoli nam to w przyszłości na rozwinięcie tej fukcjonalności, np. komenda "Lubię to" w przypadku odtwarzania ze Spotify doda nam utwór do listy ulubionych na Spotify a komenda "Spotify, playlista ulubione" odtworzy tę listę.
 
 Opis jak włączyć dostęp do Spotify: [Dostęp do Spotify](/docs/ais_app_spotify.html)

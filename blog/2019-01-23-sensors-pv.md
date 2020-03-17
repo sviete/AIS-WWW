@@ -32,7 +32,7 @@ Integracja pozwala uzyskać szczegółowe informacje z instalacji fotowoltaiczne
 
 ## Pytanie o status czujników - Znaj swoją moc!
 
-Oczywiście w naszym systemie **Asystent domowy** o status każdego czujnika możemy też zapytać i asystentka odpowie nam, jaka jest jego wartość. Czyli tak samo jak o temperaturę w pokoju możemy zapytać o to, jaka jest produkcja prądu, szczegółowo jest to opisane w dokumentacji [Komendy - status czujników](/docs/ais_app_assistent_commands.html#status-czujnikow). Przykładowo możemy zapytać:
+Oczywiście w naszym systemie **Asystent domowy** o status każdego czujnika możemy też zapytać i asystentka odpowie nam, jaka jest jego wartość. Czyli tak samo jak o temperaturę w pokoju możemy zapytać o to, jaka jest produkcja prądu, szczegółowo jest to opisane w dokumentacji [Komendy - status czujników](/docs/ais_app_assistent_commands#status-czujnikow). Przykładowo możemy zapytać:
 
 
 ```text

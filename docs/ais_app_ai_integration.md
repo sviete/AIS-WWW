@@ -137,6 +137,6 @@ conversation: !include conversation.yaml
 
 ## API asystenta
 
-Asystent, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/docs/ais_bramka_automation) także tą funkcjonalność i np. uruchamiać [automatyczne mówienie godziny](/docs/ais_faq_automation_tts) o pełnych godzinach.
+Asystent, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/docs/ais_bramka_automation) także tą funkcjonalność i np. uruchamiać automatyczne mówienie godziny o pełnych godzinach.
 
 ![Godzinaais_app_android_index](/img/en/faq/tts_time_3.png)

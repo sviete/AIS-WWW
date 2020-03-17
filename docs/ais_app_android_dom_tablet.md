@@ -24,7 +24,7 @@ Podpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](ht
 
 ## Konfiguracja za pomocą kreatora
 
-Analogicznie jak w [Aplikacji na telefon](/docs/ais_app_android_dom.html#konfiguracja-za-pomocą-kreatora)
+Analogicznie jak w [Aplikacji na telefon](/docs/ais_app_android_dom#konfiguracja-za-pomocą-kreatora)
 
 
 ## Konfiguracja ustawień aplikacji związanych z panelem

@@ -61,7 +61,7 @@ i/lub z serwisu IFTTT
 
 ![AIS dom webhooks](/img/en/frontend/integration_ifttt.png)
 
-Zarządzanie powiadomieniami zwrotnymi dostępne jest w [konfiguracji zdalnego dostępu do bramki](/docs/ais_bramka_configuration.html#konfiguracja-zdalnego-dostępu-do-bramki)
+Zarządzanie powiadomieniami zwrotnymi dostępne jest w [konfiguracji zdalnego dostępu do bramki](/docs/ais_bramka_configuration#konfiguracja-zdalnego-dostępu-do-bramki)
 ![AIS dom webhooks](/img/en/frontend/ais_dom_webhooks.png)
 
 ### Nowe repozytorium pakietów binarnych
@@ -96,11 +96,11 @@ https:
 
 - Możliwość połączenia się z WiFi przy pierwszym uruchomieniu w 2 kroku kreatora (po założeniu konta, przed wykryciem lokalizacji domu).
 
-[Pierwsze uruchomienie -> Lokalizacja Twojego domu -> Konfiguracja WiFi](/docs/ais_bramka_first_run.html#lokalizacja-twojego-domu)
+[Pierwsze uruchomienie -> Lokalizacja Twojego domu -> Konfiguracja WiFi](/docs/ais_bramka_first_run#lokalizacja-twojego-domu)
 
 - Możliwość uwierzytelniania za pomocą hasła przy połączeniu ssh.
 
-[Dostęp w sieci lokalnej -> SSH](/docs/next/ais_bramka_remote_ssh.html#autentykacja-za-pomocą-hasła)
+[Dostęp w sieci lokalnej -> SSH](/docs/next/ais_bramka_remote_ssh#autentykacja-za-pomocą-hasła)
 
 - Poprawione działanie mikrofonu. W przypadku zablokowania mikrofonu dodaliśmy automatyczny reset urządzenia USB, bez fizycznego rozłączania / podłączania.
 

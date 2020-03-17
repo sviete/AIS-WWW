@@ -3,7 +3,7 @@ title: Wprowadzenie
 sidebar_label: Wprowadzenie
 ---
 
-Urządzenia z oprogramowaniem **AIS dom** w bardzo łatwy sposób można zintegrować z bramką **AIS dom**. Taka integracja umożliwia [łatwą konfigurację urządzenia]() oraz wykorzystanie [pełnych możliwości urządzenia](#możliwości-urządzenia-po-dodaniu-do-bramki).
+Urządzenia z oprogramowaniem **AIS dom** w bardzo łatwy sposób można zintegrować z bramką **AIS dom**. Taka integracja umożliwia [łatwą konfigurację urządzenia](/docs/ais_iot_gate/#konfiguracja-urządzenia) oraz wykorzystanie [pełnych możliwości urządzenia](#możliwości-urządzenia-po-dodaniu-do-bramki).
 
 ## Dostęp do urządzeń AIS dom z aplikacji
 

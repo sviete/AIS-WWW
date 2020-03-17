@@ -12,7 +12,7 @@ title: Wersja systemu 0.91.4  Wikipedia, kamery i łatwe dodawnie urządzeń
 **Asystent domowy** udzielając odpowiedzi na pytania typu "kto to jest... ", "kim jest... ", "znajdź informację o..." korzysta z zasobów bazy wiedzy "Google Knowledge Graph". Korzystanie z tego typu bazy wiedzy ma na celu selekcję możliwie najistotniejszych treści i udzielenia krótkiej odpowiedzi na pytanie.
 Źródłem informacji do Google Knowledge Graph jest głównie Wikipedia. Wraz z bieżącą aktualizacją dodajemy możliwość wyszukania i odsłuchania całego artykułu z Wikipedii.
 
-Nowa komenda w sekcji **Wyszukiwanie informacji**: [Komendy głosowe Wikipedia](/docs/ais_app_assistent_commands.html#wyszukiwanie-informacji)
+Nowa komenda w sekcji **Wyszukiwanie informacji**: [Komendy głosowe Wikipedia](/docs/ais_app_assistent_commands#wyszukiwanie-informacji)
 Na początek obsługujemy jedną komendę głosową: "Wikipedia + {szukana fraza}", {szukana fraza} - może być dowolną nazwą.
 
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/wikipedia_1.png)

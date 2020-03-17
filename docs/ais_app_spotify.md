@@ -25,7 +25,7 @@ Możemy sterować odtwarzaczem Spotify z aplikacji Asystent domowy. W aplikacji 
 
 ## Sterowanie pilotem
 
-Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](next/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem). Pilotem można wykonać wyszukanie głosowo mówiąc [odpowiednią komendę](/docs/ais_app_assistent_commands) lub za pomocą wirtualnej klawiatury oraz zwrotnego czytania wpisywanych liter.
+Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](/docs/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem). Pilotem można wykonać wyszukanie głosowo mówiąc [odpowiednią komendę](/docs/ais_app_assistent_commands) lub za pomocą wirtualnej klawiatury oraz zwrotnego czytania wpisywanych liter.
 
 
 ## Konfiguracja w 3 krokach
