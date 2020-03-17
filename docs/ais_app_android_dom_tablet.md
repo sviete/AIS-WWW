@@ -7,7 +7,7 @@ sidebar_label: Panel sterowania
 ## Wprowadzenie
 
 Po zainstalowaniu naszej aplikacji na tablet z systemem Android możesz otrzymać funkcjonalność "Dotykowego panelu / Smart panel" do sterowania automatyką domową i multimediami.
-Aplikacja jest czymś w rodzaju ramki/przeglądarki/interfejsu do [aplikacji internetowej](ais_app_index) działającej na bramce.
+Aplikacja jest czymś w rodzaju ramki/przeglądarki/interfejsu do [aplikacji internetowej](/docs/ais_app_index) działającej na bramce.
 
 
 ## Instalacja
@@ -24,7 +24,7 @@ Podpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](ht
 
 ## Konfiguracja za pomocą kreatora
 
-Analogicznie jak w [Aplikacji na telefon](ais_app_android_dom.html#konfiguracja-za-pomocą-kreatora)
+Analogicznie jak w [Aplikacji na telefon](/docs/ais_app_android_dom.html#konfiguracja-za-pomocą-kreatora)
 
 
 ## Konfiguracja ustawień aplikacji związanych z panelem
@@ -56,7 +56,7 @@ W aplikacji działającej na bramce w zakładce **Audio** automatycznie doda si�
 
 ### Powiększenie aplikacji
 
-Ta opcja pozwala dostosować/wyskalować wielkość [aplikacji internetowej Asystent domowy](ais_app_index) w naszym panelu sterowania.  
+Ta opcja pozwala dostosować/wyskalować wielkość [aplikacji internetowej Asystent domowy](/docs/ais_app_index) w naszym panelu sterowania.  
 Działa to analogicznie jak funkcjonalność powiększania stron w przeglądarce internetowej (bo nasza aplikacja działa na zasadzie takiej przeglądarki internetowej). Celem tej funkcjonalności jest lepsze wyświetlanie planu mieszkania w aplikacji.
 
 ![Smart glass ustawienia](/img/en/frontend/app_smart_glass_go_to_settings_4.png)

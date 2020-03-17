@@ -16,7 +16,7 @@ Przywrócenie urządzenia do pierwotnych ustawień producenta wykonuje się, aby
 
 
 :::tip
-Jeśli eksperymentujesz z ustawieniami systemu, tworzysz własne integracje, zmieniasz kody na bramce, nadpisujesz konfigurację i coś działa nie tak, to [`Wykonanie pełnego resetu aplikacji`](ais_bramka_reset_ais_step_by_step). Polegające na usunięciu wszystkich ustawień i kodów aplikacji Asystent domowy na bramce i nadpisaniu ich **domyślnymi, najnowszymi kodami i ustawieniami** - jest zalecanym bezpiecznym sposobem na rozwiązywanie problemów z systemem.
+Jeśli eksperymentujesz z ustawieniami systemu, tworzysz własne integracje, zmieniasz kody na bramce, nadpisujesz konfigurację i coś działa nie tak, to [`Wykonanie pełnego resetu aplikacji`](/docs/ais_bramka_reset_ais_step_by_step). Polegające na usunięciu wszystkich ustawień i kodów aplikacji Asystent domowy na bramce i nadpisaniu ich **domyślnymi, najnowszymi kodami i ustawieniami** - jest zalecanym bezpiecznym sposobem na rozwiązywanie problemów z systemem.
 :::
 
 ### Przywracanie ustawień fabrycznych wykonuj po konsultacji i pod kontrolą serwisu AI-Speaker.

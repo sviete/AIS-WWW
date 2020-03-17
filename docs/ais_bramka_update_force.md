@@ -8,7 +8,7 @@ Możemy wymusić zainstalowanie wszystkich składowych systemu do najnowszej wer
 
 
 ## Logowanie do konsoli
-Do konsoli bramki możemy zalogować się z innego klienta w sieci lokalnej po [dostęp po SSH](ais_bramka_remote_ssh) lub bezprośrednio z aplikacji na urządzeniu [Konsola na urządzeniu](ustawienia-aplikacji-asystent-domowy)
+Do konsoli bramki możemy zalogować się z innego klienta w sieci lokalnej po [dostęp po SSH](/docs/ais_bramka_remote_ssh) lub bezprośrednio z aplikacji na urządzeniu [Konsola na urządzeniu](ustawienia-aplikacji-asystent-domowy)
 
 ## Komenda uruchamiająca skrypt
 

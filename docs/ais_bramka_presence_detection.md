@@ -18,7 +18,7 @@ Istnieją różne sposoby ustawiania wykrywania obecności w systemie Asystent d
 
 Innym sposobem pozwalającm na dostarczenie szczegółowych informacje o lokalizacji jest uruchomienie aplikacji na telefonie. Dla Androida i iOS rekomendujemy aplikację OwnTracks.
 OwnTracks to darmowa i otwarto źródłowa aplikacja dla systemu iOS i Android, która umożliwia śledzenie lokalizacji i wysyłanie jej bezpośrednio do systemu Asystent domowy.
-Można ją skonfigurować za pomocą integracji dostępnej w konfiguracji systemu - w dokumentacji [integracji OwnTracks](ais_app_owntracks) pokazujemy krok po kroku jak to zrobić.
+Można ją skonfigurować za pomocą integracji dostępnej w konfiguracji systemu - w dokumentacji [integracji OwnTracks](/docs/ais_app_owntracks) pokazujemy krok po kroku jak to zrobić.
 
 
 ## Osoby

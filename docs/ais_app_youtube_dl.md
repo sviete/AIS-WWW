@@ -12,7 +12,7 @@ YouTube to obecnie największy dostępny w Internecie serwis z darmową muzyką.
 
 ## Sterowanie pilotem
 
-Wyszukiwanie na YouTube można też uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem). Pilotem można wykonać wyszukanie głosowo mówiąc [odpowiednią komendę](ais_app_assistent_commands), lub za pomocą wirtualnej klawiatury oraz zwrotnego czytania wpisywanych liter.
+Wyszukiwanie na YouTube można też uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](/docs/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem). Pilotem można wykonać wyszukanie głosowo mówiąc [odpowiednią komendę](/docs/ais_app_assistent_commands), lub za pomocą wirtualnej klawiatury oraz zwrotnego czytania wpisywanych liter.
 
 
 ## YouTube API

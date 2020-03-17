@@ -12,7 +12,7 @@ Usługa FTP działa na standardowym porcie **21** i na porcie **1024**
 
 ## logowanie z systemu Windows
 
-System Windows "fabrycznie" nie wspiera mDNS, więc żeby połaczyć się z bramką będziemy musieli znać jej adres IP [sprawdź adres IP bramki](ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji)
+System Windows "fabrycznie" nie wspiera mDNS, więc żeby połaczyć się z bramką będziemy musieli znać jej adres IP [sprawdź adres IP bramki](/docs/ais_bramka_remote_index#sprawdzenie-adresu-ip-w-aplikacji)
 
 
 Zalecamy użycie pełnowartościowego klienta FTP, ponieważ klient FTP wbudowany w menedżer plików Windowsa ma ograniczone możliwości.

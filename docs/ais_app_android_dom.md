@@ -10,7 +10,7 @@ To nasza główna aplikacja, która działa zarówno na bramce jak i na innych u
 
 ![AIS Dom](/img/en/frontend/ais_dom_tablet_apk.png)
 
-Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](ais_app_index) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
+Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](/docs/ais_app_index) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
 
 ![AIS Dom](/img/en/frontend/ais_dom_apk_screen_mob.png)
 
@@ -80,7 +80,7 @@ W każdej chwili możemy przejść do ustawień aplikacji nasiskając przycisk z
 W ustawieniach możemy ręcznie wybrać parametry aplikacji lub uruchomić ponownie kreator ustawień
 <img src="/img/en/frontend/apk_settings.png" alt="AIS Dom" width="40%"/>
 
-Najważniejszy parametr to adres URL lub identyfikator bramki, **należy poprawnie ustawić adres lub identyfikator bramki, by komunikacja z bramką była możliwa.** Jeżeli chcemy łączyć się z naszą bramką będąc poza siecią domową to należy pamiętać o włączeniu [dostępu z Internetu](ais_bramka_remote_www_index).
+Najważniejszy parametr to adres URL lub identyfikator bramki, **należy poprawnie ustawić adres lub identyfikator bramki, by komunikacja z bramką była możliwa.** Jeżeli chcemy łączyć się z naszą bramką będąc poza siecią domową to należy pamiętać o włączeniu [dostępu z Internetu](/docs/ais_bramka_remote_www_index).
 
 
 ## Sterowanie odtwarzaczem na bramce
@@ -118,7 +118,7 @@ Rysujemy na ekranie gest i zapisujemy go wraz z komendą
 
 ### Przełączenie w tryb sterowania gestami
 
-Ikona na dolnym pasku aplikacj, umieszczona pomiędzy przejściem do ustawień a mikrofonem obrazuje tryb sterowania w aplikacji, by przełączyć w tryb sterowania gestami możemy kliknąć w tą ikonę w aplikacji mobilnej lub zmienić tryb pilotem radiowym [Zmiana trybu sterowania](ais_remote_modes).
+Ikona na dolnym pasku aplikacj, umieszczona pomiędzy przejściem do ustawień a mikrofonem obrazuje tryb sterowania w aplikacji, by przełączyć w tryb sterowania gestami możemy kliknąć w tą ikonę w aplikacji mobilnej lub zmienić tryb pilotem radiowym [Zmiana trybu sterowania](/docs/ais_remote_modes).
 
 ![Przełączenie w tryb sterowania gestami](/img/en/remote/remote_gesture_mode_5.png)
 
@@ -132,7 +132,7 @@ Teraz możemy wykonać zdefinowany gest, co spowoduje wysłanie do asystenta zde
 
 ## Działanie aplikacji
 
-Podstawowa funkcjonalność to wyświetlanie internetowej aplikacji **Asystent domowy** działającej na bramce, tej samej aplikacji, którą możemy uruchamiać i konfigurować w przeglądarce internetowej [Aplikacja internetowa](ais_app_index).
+Podstawowa funkcjonalność to wyświetlanie internetowej aplikacji **Asystent domowy** działającej na bramce, tej samej aplikacji, którą możemy uruchamiać i konfigurować w przeglądarce internetowej [Aplikacja internetowa](/docs/ais_app_index).
 
 Dodatkowo na dolnej belce w aplikacji mamy następujące przyciski:
 

@@ -54,7 +54,7 @@ Możesz teraz uruchomić w dowolnej przeglądarce adres bramki (który jest wyś
 
 ![Sterowanie bez monitora](/img/en/bramka/bramka_start_menu_app_url.png)
 
-Gdy masz już uruchomiony adres bramki w przeglądarce to możesz przejść do [Początkowej konfiguracji Asystenta domowego - dodanie konta właściciela](ais_bramka_first_run_step_account).
+Gdy masz już uruchomiony adres bramki w przeglądarce to możesz przejść do [Początkowej konfiguracji Asystenta domowego - dodanie konta właściciela](/docs/ais_bramka_first_run_step_account).
 
 ### Sterowanie na monitorze
 
@@ -63,4 +63,4 @@ W tym celu wystarczy, że uruchomisz przeglądarkę na bramce:
 
 ![Przeglądarka na bramce](/img/en/bramka/bramka_start_menu_browser.png)
 
-Automatycznie uruchomi się strona startowa aplikacji Asystent domowy i kreator [Początkowej konfiguracji Asystenta domowego - dodanie konta właściciela](ais_bramka_first_run_step_account).
+Automatycznie uruchomi się strona startowa aplikacji Asystent domowy i kreator [Początkowej konfiguracji Asystenta domowego - dodanie konta właściciela](/docs/ais_bramka_first_run_step_account).

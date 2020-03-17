@@ -10,7 +10,7 @@ W tym przykładzie pokażemy krok po kroku jak wykonać Aplet w serwisie IFTTT. 
 
 Nasz przykładowy aplet będzie wysyłał do Asystenta domowego informacje o godzinie (konkretnie o pełnych godzinach), a Asystent domowy będzie tę godzinę czytał.
 
-Oczywiście podaną funkcjonalność można osiągnąć też łatwo lokalnie za pomocą automatyzacji, opisujemy to w [FAQ Mówienie godziny](ais_faq_automation_tts), celem tego przykładu jest jednak pokazanie na prostym przykładzie ogólnej zasady działania apletu w serwisie IFTTT.
+Oczywiście podaną funkcjonalność można osiągnąć też łatwo lokalnie za pomocą automatyzacji, opisujemy to w [FAQ Mówienie godziny](/docs/ais_faq_automation_tts), celem tego przykładu jest jednak pokazanie na prostym przykładzie ogólnej zasady działania apletu w serwisie IFTTT.
 
 
 ## Dodanie apletu

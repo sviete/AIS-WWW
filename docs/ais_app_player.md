@@ -33,20 +33,20 @@ Jeśli posidamy link URL do np. radia internetowego czy innej treści do odtwarz
 
 ## Wysyłanie tekstu do Odtwarzaczy
 
-Możemy przesłać tekst do przeczytania na odtwarzaczu, jest to tak zwana usługa "broadcast". Na tą chwilę działa to tylko z naszym odtwarzaczem audio - więcej info w [Panel sterowania](ais_app_android_dom_tablet#instalacja)
+Możemy przesłać tekst do przeczytania na odtwarzaczu, jest to tak zwana usługa "broadcast". Na tą chwilę działa to tylko z naszym odtwarzaczem audio - więcej info w [Panel sterowania](/docs/ais_app_android_dom_tablet#instalacja)
 
 ![AIS Audio](/img/en/frontend/app_audio_player_2.png)
 
 
 ## Zdalne sterowanie
 
-Możemy zdalnie sterować odtwarzaczem na bramce z poziomu ekranu powiadomień na "Panelu sterowania", więcej informacji w dokumentacji [Panel sterowania - Odtwarzacz audio](ais_app_android_dom_tablet#odtwarzacz-audio)
+Możemy zdalnie sterować odtwarzaczem na bramce z poziomu ekranu powiadomień na "Panelu sterowania", więcej informacji w dokumentacji [Panel sterowania - Odtwarzacz audio](/docs/ais_app_android_dom_tablet#odtwarzacz-audio)
 
 ![AIS Radio](/img/en/frontend/ais_exo_mobile.png)
 
 ## API
 
-Odtwarzacz, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](ais_bramka_automation) sterowanie odtwarzaczem i np. uruchamiać stację radiową jako budzik, włączać wybraną audycję o wybranej porze dnia, itp.
+Odtwarzacz, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/docs/ais_bramka_automation) sterowanie odtwarzaczem i np. uruchamiać stację radiową jako budzik, włączać wybraną audycję o wybranej porze dnia, itp.
 
 
 > Szczegółowy opis w przygotowaniu

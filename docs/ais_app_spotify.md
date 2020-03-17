@@ -25,7 +25,7 @@ Możemy sterować odtwarzaczem Spotify z aplikacji Asystent domowy. W aplikacji 
 
 ## Sterowanie pilotem
 
-Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](next/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem). Pilotem można wykonać wyszukanie głosowo mówiąc [odpowiednią komendę](ais_app_assistent_commands) lub za pomocą wirtualnej klawiatury oraz zwrotnego czytania wpisywanych liter.
+Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego [Pilota radiowego](next/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem). Pilotem można wykonać wyszukanie głosowo mówiąc [odpowiednią komendę](/docs/ais_app_assistent_commands) lub za pomocą wirtualnej klawiatury oraz zwrotnego czytania wpisywanych liter.
 
 
 ## Konfiguracja w 3 krokach
@@ -34,16 +34,16 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 
 * Posiadanie konta w Spotify, konto można założyć za darmo (bez konieczności podawania karty kredytowej) pod tym adresem: https://www.spotify.com/pl/
 
-* Urządzenie z systemem Asystent domowy, zaktualizowane do wersji >= 0.89.1, [Procedura Aktualizacji](ais_bramka_update_index)
+* Urządzenie z systemem Asystent domowy, zaktualizowane do wersji >= 0.89.1, [Procedura Aktualizacji](/docs/ais_bramka_update_index)
 
 
 ### 2. Zaloguj się do aplikacji Spotify na urządzeniu z systemem "Asystent domowy"
 
 * Podłącz urządzenie do telewizora lub monitora po HDMI
 
-* Włącz pilotem tryb "Sterowanie na monitorze" [Tryby działania pilota](ais_remote_modes)
+* Włącz pilotem tryb "Sterowanie na monitorze" [Tryby działania pilota](/docs/ais_remote_modes)
 
-* Przejdź do ustawień aplikacji klikając na ikonkę w lewym dolnym rogu ekranu aplikacji [Ustawienia aplikacji](ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)
+* Przejdź do ustawień aplikacji klikając na ikonkę w lewym dolnym rogu ekranu aplikacji [Ustawienia aplikacji](/docs/ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)
 
 * Wybierz opcję "Integracje" -> "Spotify"
 
@@ -54,7 +54,7 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 
 ### 3. Pozwól "Asystentowi domowemu" na pobieranie danych ze Spotify oraz na sterowanie odtwarzaczem
 
-* Przejdź do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](ais_bramka_remote_http)
+* Przejdź do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/docs/ais_bramka_remote_http)
 
 * Otwórz ***Ustawienia*** -> ***Integracje*** klikając ikonę "rozwijanego menu" w lewym górnym rogu
 
@@ -89,7 +89,7 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 - przez naciśnięcie mikrofonu w aplikacji webowej (tylko w przeglądarkach obsługujących wprowadzanie głosowe)
 - przez mikrofon w telefonie z systemem Android i z zainstalowaną naszą darmową aplikacją dostępną w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)
 
-- przez wywołanie usługi rozmowy z naszego dedykowanego [pilota radiowego](ais_remote_index) z wbudowanym mikrofonem.
+- przez wywołanie usługi rozmowy z naszego dedykowanego [pilota radiowego](/docs/ais_remote_index) z wbudowanym mikrofonem.
 
 
 ![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s6.png)

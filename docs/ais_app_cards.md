@@ -21,4 +21,4 @@ Dodatkowo istnieje wiele typów kart tworzonych przez społeczność [repozytori
 
 ## Włączenie konfiguracji
 
-Włączenie konfiguracji opisane jest tu [Konfiguracja interfejsu użytkownika](ais_app_ui_config)
+Włączenie konfiguracji opisane jest tu [Konfiguracja interfejsu użytkownika](/docs/ais_app_ui_config)

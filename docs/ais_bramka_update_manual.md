@@ -46,4 +46,4 @@ su -c "pm install -r /data/data/pl.sviete.dom/files/usr/tmp/AisPanelApp.apk"
 
 ## Czy nie można prościej?
 
-Oczywiście można - wystarczy uruchomić wszystkie komendy jednym skryptem - patrz [Wymuszenie aktualizacji](ais_bramka_update_force) 
+Oczywiście można - wystarczy uruchomić wszystkie komendy jednym skryptem - patrz [Wymuszenie aktualizacji](/docs/ais_bramka_update_force) 

@@ -15,7 +15,7 @@ Broker MQTT działa na standardowym porcie 1883 (zarezerwowany w [IANA](https://
 
 ## Wykrywanie urządzenia MQTT w systemie Asystent domowy
 
-W poniższym opisie zakładamy, że urządzenie działa na naszym [darmowym oprogramowaniu](ais_iot_firmware_index), oczywiście tego typu działanie można skonfigurować/zaprogramować na każdym urządzeniu, które potrafi komunikować się protokołem MQTT.
+W poniższym opisie zakładamy, że urządzenie działa na naszym [darmowym oprogramowaniu](/docs/ais_iot_firmware_index), oczywiście tego typu działanie można skonfigurować/zaprogramować na każdym urządzeniu, które potrafi komunikować się protokołem MQTT.
 
 Bramka po uruchomieniu publikuje do urządzeń (zapisanych w brokerze MQTT do grupy **dom**) komendę dom/cmnd/**SetOption19** 1 która oznacza, że chcemy by urządzenie było automatycznie wykrywane przez Asystenta domowego.
 

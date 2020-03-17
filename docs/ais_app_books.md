@@ -14,4 +14,4 @@ Kolejnym darmowym serwisem audio dostępnym na bramce są audiobooki. Cała kole
 
 ## Sterowanie pilotem
 
-Autorów, książki, rozdziały można przeglądać oraz uruchamiać ich odtwarzanie za pomocą naszego dedykowanego [Pilota radiowego](ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem).
+Autorów, książki, rozdziały można przeglądać oraz uruchamiać ich odtwarzanie za pomocą naszego dedykowanego [Pilota radiowego](/docs/ais_remote_index) (nie jest do tego potrzebna aplikacja z ekranem).

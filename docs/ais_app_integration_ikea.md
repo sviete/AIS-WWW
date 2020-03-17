@@ -48,8 +48,8 @@ W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik,
 ## Pakiety - uwaga
 
 Wszystkie pakiety binarne potrzebne do sterowania urządzeniami IKEA dodaliśmy jako domyślne w wersji 0.101 - jeżeli kupiłeś bramkę z tą wersją lub większą nie musisz już nic doinstalowywać.
-Jeżeli kipiłeś bramkę z wcześniejszą wersją to przed dodaniem integracji z IKEA Trådfri możesz [wykonać pełny reset](ais_bramka_reset_ais_step_by_step) do aktualnych domyślnych kodów lub zainstalować 2 pakiety autoconf i libsigsegv ręcznie.
-Czyli w [konsoli](ais_bramka_remote_ssh) uruchamiamy takie polecenie:
+Jeżeli kipiłeś bramkę z wcześniejszą wersją to przed dodaniem integracji z IKEA Trådfri możesz [wykonać pełny reset](/docs/ais_bramka_reset_ais_step_by_step) do aktualnych domyślnych kodów lub zainstalować 2 pakiety autoconf i libsigsegv ręcznie.
+Czyli w [konsoli](/docs/ais_bramka_remote_ssh) uruchamiamy takie polecenie:
 
 ```bash
 apt install autoconf libsigsegv -y

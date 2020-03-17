@@ -236,7 +236,7 @@ Automatyzacja {nazwa automatyzacji}
 ## Google  Home
 
 
-Możemy dodać [integrację z Google Home](ais_app_ai_integration_google_home) i przesyłać komendy głosowe do Google:
+Możemy dodać [integrację z Google Home](/docs/ais_app_ai_integration_google_home) i przesyłać komendy głosowe do Google:
 
 ```text
 Google {komenda/polecenie}

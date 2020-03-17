@@ -10,7 +10,7 @@ W tym przykładzie wyjaśnimy jak uruchomić dowolną akcję w Asystencie domowy
 
 ## Dodanie apletu w IFTTT
 
-Dodajmy aplet (w podobny sposób jak zrobiliśmy to na przykładzie z [informacją o godzinie](ais_app_ifttt_time) ), oczywiście tym razem wybieramy serwis, który nas interesuje.
+Dodajmy aplet (w podobny sposób jak zrobiliśmy to na przykładzie z [informacją o godzinie](/docs/ais_app_ifttt_time) ), oczywiście tym razem wybieramy serwis, który nas interesuje.
 
 Jako akcję wybieramy Webhook z tego typu komunikatem JSON w body:
 

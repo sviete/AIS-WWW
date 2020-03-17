@@ -13,7 +13,7 @@ Ustawienia Twoich urządzeń z oprogramowaniem AIS dom dostępne są po wybraniu
 
 ### Producent AI-Speaker
 
-W tabeli z urządzeniami AIS dom wyświetlamy wszystkie urządzenia działające na naszym [darmowym oprogramowaniu](ais_iot_firmware_index) producentem jest **AI-Speaker**.
+W tabeli z urządzeniami AIS dom wyświetlamy wszystkie urządzenia działające na naszym [darmowym oprogramowaniu](/docs/ais_iot_firmware_index) producentem jest **AI-Speaker**.
 
 
 ![Tabela z urządzeniami AIS dom](/img/en/iot/iot_ais_dom_devices_table.png)
@@ -21,7 +21,7 @@ W tabeli z urządzeniami AIS dom wyświetlamy wszystkie urządzenia działające
 
 ### Konfiguracja urządzenia
 
-Po wybraniu urządzenia możemy je konfigurować. Dostępne opcje zależą od typu urządzenia, w przypadku Bramki RF 433 na tej stronie możemy nauczyć Asystenta kodów pilota radiowego (lub innego urządzenia wysyłającego kody radiowe o częstotliwości 433) i łatwo dodać przyciski wysyłające nauczone kody do aplikacji. Więcej w sekcji [Bramka RF 433](ais_iot_gate_device_rf433).
+Po wybraniu urządzenia możemy je konfigurować. Dostępne opcje zależą od typu urządzenia, w przypadku Bramki RF 433 na tej stronie możemy nauczyć Asystenta kodów pilota radiowego (lub innego urządzenia wysyłającego kody radiowe o częstotliwości 433) i łatwo dodać przyciski wysyłające nauczone kody do aplikacji. Więcej w sekcji [Bramka RF 433](/docs/ais_iot_gate_device_rf433).
 
 
 ![RF 433](/img/en/iot/iot_ais_dom_device_config.png)
@@ -33,10 +33,10 @@ Po wybraniu urządzenia możemy je konfigurować. Dostępne opcje zależą od ty
 Po dodaniu do bramki można:
 
 - sterować urządzeniem głosowo:
-wystarczy nazwać urządzenie np. "światło w sypialni" lub "podlewanie trawnika" a następnie powiedzieć "włącz światło w sypialni" lub "włącz podlewanie trawnika". Więcej w sekcji [Wbudowane komendy](ais_app_assistent_commands).
+wystarczy nazwać urządzenie np. "światło w sypialni" lub "podlewanie trawnika" a następnie powiedzieć "włącz światło w sypialni" lub "włącz podlewanie trawnika". Więcej w sekcji [Wbudowane komendy](/docs/ais_app_assistent_commands).
 
 - automatyzować sterowanie:
-w aplikacji można w prosty sposób stworzyć reguły włączenia bądź wyłączenia urządzeń w zależności od obecności, pozycji słońca czy statusu innych urządzeń. Więcej w sekcji [Automatyzacja Asystenta domowego](ais_bramka_automation)
+w aplikacji można w prosty sposób stworzyć reguły włączenia bądź wyłączenia urządzeń w zależności od obecności, pozycji słońca czy statusu innych urządzeń. Więcej w sekcji [Automatyzacja Asystenta domowego](/docs/ais_bramka_automation)
 
 - tworzyć sceny:
 Sceny to definicja stanu, w których chcesz, aby były Twoje urządzenia. Na przykład w scenie, którą nazwiemy "romantyczna kolacja" można określić, że światło główne powinno być włączone, kinkiety powinny być przyciemnione i ma być odtwarzana romantyczna playlista ze Spotify. Podobnie możemy dodać scenę oglądanie filmu, w której rolety są zasłonięte, światło główne wyłączone a telewizor odtwarza film z Netflix-a.

@@ -17,7 +17,7 @@ Można też wykonać automatyzację typu otwarcie bramy i włączenie światła 
 
 ## Oprogramowanie bramki RF
 
-W celu umożliwienia bramce Sonoff RF Bridge 433 komunikacji za pomocą protokołu MQTT z bramką AIS dom, potrzebujemy zastosować nasze [alternatywne darmowe oprogramowanie dla urządzeń automatyki domowej](ais_iot_firmware_index). Najnowszą kompilację można pobrać z naszej strony [OTA](https://www.ai-speaker.com/ota/). W przypadku bramki RF poza oprogramowaniem do układu ESP 8266 RF-Bridge_firmware będziemy jeszcze potrzebowali oprogramowania do układu EFM8BB1 (RF-Bridge-EFM8BB1) - dzięki temu nasza bramka RF będzie obsługiwać większą ilość protokołów niż z oryginalnym oprogramowaniem Sonoff. Szczegóły dotyczące oprogramowania EFM8BB1 dostępne są na stronie wiki projektu [Portisch](https://github.com/Portisch/RF-Bridge-EFM8BB1/wiki).
+W celu umożliwienia bramce Sonoff RF Bridge 433 komunikacji za pomocą protokołu MQTT z bramką AIS dom, potrzebujemy zastosować nasze [alternatywne darmowe oprogramowanie dla urządzeń automatyki domowej](/docs/ais_iot_firmware_index). Najnowszą kompilację można pobrać z naszej strony [OTA](https://www.ai-speaker.com/ota/). W przypadku bramki RF poza oprogramowaniem do układu ESP 8266 RF-Bridge_firmware będziemy jeszcze potrzebowali oprogramowania do układu EFM8BB1 (RF-Bridge-EFM8BB1) - dzięki temu nasza bramka RF będzie obsługiwać większą ilość protokołów niż z oryginalnym oprogramowaniem Sonoff. Szczegóły dotyczące oprogramowania EFM8BB1 dostępne są na stronie wiki projektu [Portisch](https://github.com/Portisch/RF-Bridge-EFM8BB1/wiki).
 
 ![RF 433](/img/en/iot/iot_ais_dom_device_rf433_firmware.png)
 
@@ -26,7 +26,7 @@ Szczegółowy opis wgrywania oprogramowania do bramki Sonoff RF 433 dostępny je
 
 ## Integracja bramki RF z bramką AIS dom
 
-Dodanie bramki RF przebiega w taki sam sposób jak dodanie każdego urządzenia z oprogramowaniem AIS dom. Czyli można to zrobić korzystając z kreatora w aplikacji lub za pomocą pilota radiowego. Na tej stronie prezentujemy [proces dodawania urządzenia krok po kroku](ais_iot_gate_add_device).
+Dodanie bramki RF przebiega w taki sam sposób jak dodanie każdego urządzenia z oprogramowaniem AIS dom. Czyli można to zrobić korzystając z kreatora w aplikacji lub za pomocą pilota radiowego. Na tej stronie prezentujemy [proces dodawania urządzenia krok po kroku](/docs/ais_iot_gate_add_device).
 
 
 ## Uczenie bramki kodów RF

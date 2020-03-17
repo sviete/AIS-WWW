@@ -12,7 +12,7 @@ Oczywiście można to zrobić samemu, jeśli posiada się stosowny sprzęt (USB 
 
 ## Natywne sterowniki dla urządzeń USB w jądrze
 
-Na urządzeniu jest pełny dostęp z poziomu root-a i [środowisko Linux](ais_gate_faq_package_compile#środowisko-linux-a-ktore-mamy-na-urządzeniu), opisujemy jak skompilować pakiet i dostarczyć do naszego repozytorium apt [w FAQ](ais_gate_faq_package_compile#kompilacja-pakietu)
+Na urządzeniu jest pełny dostęp z poziomu root-a i [środowisko Linux](/docs/ais_gate_faq_package_compile#środowisko-linux-a-ktore-mamy-na-urządzeniu), opisujemy jak skompilować pakiet i dostarczyć do naszego repozytorium apt [w FAQ](/docs/ais_gate_faq_package_compile#kompilacja-pakietu)
 
 
 ## Sterowniki w przestrzeni użytkownika Android

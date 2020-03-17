@@ -15,7 +15,7 @@ Włączenie konfiguracji interfejsu użytkownika następuje poprzez wybranie w a
 
 ### Dodanie nowego widoku
 
-Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dodać widoki **"Salon"**, **"Łazienka"**, **"Sypialnia"** i umieścić w nich na [kartach](ais_app_cards) urządzenia znajdujące się w tych pomieszczeniach.
+Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dodać widoki **"Salon"**, **"Łazienka"**, **"Sypialnia"** i umieścić w nich na [kartach](/docs/ais_app_cards) urządzenia znajdujące się w tych pomieszczeniach.
 
 
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/lovelace-ui-conf2.png)

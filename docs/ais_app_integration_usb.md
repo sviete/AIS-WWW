@@ -89,7 +89,7 @@ Biblioteka ta umożliwia aplikacjom (działającym na bramce) na komunikowanie s
 
 
 > Od wersji 0.103.7 automatycznie obsługujemy na bramce Zigbee USB CC2531, **zaprogramowane specjalnym oprogramowaniem**. Szczegóły dostępne są na stronie projektu [Zigbee2Mqtt](https://www.zigbee2mqtt.io/).
-> Dla osób, które nabyły bramki z wcześniejszą wersją oprogramowania, udostępnimy na forum oraz na [osobnej stronie dokumentacji](ais_app_integration_zigbee) informacje techniczne jak dodać obsługę Zigbee.
+> Dla osób, które nabyły bramki z wcześniejszą wersją oprogramowania, udostępnimy na forum oraz na [osobnej stronie dokumentacji](/docs/ais_app_integration_zigbee) informacje techniczne jak dodać obsługę Zigbee.
 
 
 Po dodaniu urządzenia Zigbee USB CC2531 do portu USB bramki, Asysten domowy poinformuje o tym głosowo oraz automatycznie doda nową opcję w aplikacji:

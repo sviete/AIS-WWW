@@ -6,7 +6,7 @@ sidebar_label: Komunikacja za pomocą protokołu MQTT
 ## Wprowadzenie
 
 :::tip
-Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[`Obsługa urządzenia z bramki AIS dom`](ais_iot_gate) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.** Na bramce IoT AIS dom dostępny jest działający i skonfigurowany broker MQTT, urządzenia AIS dom są automatycznie rozpoznawane przez bramkę AIS dom, dzięki czemu proces konfiguracji jest bardzo prosty i nie wymaga wpisywania żadnych parametrów.
+Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[`Obsługa urządzenia z bramki AIS dom`](/docs/ais_iot_gate) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.** Na bramce IoT AIS dom dostępny jest działający i skonfigurowany broker MQTT, urządzenia AIS dom są automatycznie rozpoznawane przez bramkę AIS dom, dzięki czemu proces konfiguracji jest bardzo prosty i nie wymaga wpisywania żadnych parametrów.
 :::
 
 
@@ -15,7 +15,7 @@ MQTT to zalecany protokół do sterowania urządzeniami AIS dom. Jeśli nie masz
 
 ## Skonfiguruj MQTT za pomocą interfejsu w aplikacji na urządzeniu
 
-Gdy już podłączyłeś urządzenie do swojej sieci WiFi i znasz jego adres IP (kroki opisane w [Obsługa urządzenia z przeglądarki](ais_iot_browser)), to w dowolnej przeglądarce możesz przejść do aplikacji na urządzeniu, dzięki której w łatwy sposób możesz wykonać konfigurację urządzenia AIS dom ze swoim brokerem MQTT.
+Gdy już podłączyłeś urządzenie do swojej sieci WiFi i znasz jego adres IP (kroki opisane w [Obsługa urządzenia z przeglądarki](/docs/ais_iot_browser)), to w dowolnej przeglądarce możesz przejść do aplikacji na urządzeniu, dzięki której w łatwy sposób możesz wykonać konfigurację urządzenia AIS dom ze swoim brokerem MQTT.
 
 ![MQTT aktywacja](/img/en/iot/iot_web_app.png)
 
