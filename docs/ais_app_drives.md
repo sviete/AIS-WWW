@@ -19,13 +19,13 @@ W systemie "Asystent domowy" mamy trzy typy dysków, z których możemy odtwarza
 
 ## Sterowanie pilotem
 
-Nasz dedykowany [Pilot radiowy](/docs/en/next/ais_remote_index.html) umożliwia nawigowaie po dyskach oraz wybieranie treści audio do odtwarzania (nie jest do tego potrzebna aplikacja z ekranem).
+Nasz dedykowany [Pilot radiowy](ais_remote_index) umożliwia nawigowaie po dyskach oraz wybieranie treści audio do odtwarzania (nie jest do tego potrzebna aplikacja z ekranem).
 
 
 ## Konfiguracja dysku zdalnego
 
 
-* Otwórz aplikację "Asystent domowy" w przeglądarce Internetowej [Dostęp do bramki po HTTP](/docs/en/ais_bramka_remote_http)
+* Otwórz aplikację "Asystent domowy" w przeglądarce Internetowej [Dostęp do bramki po HTTP](ais_bramka_remote_http)
 
 * Przejdź do widoku audio, wybierz przeglądanie dysków, dyski zdalne, następnie uruchom konfigurator dodawnia dysku zdalnego naciskając przycisk "+ DYSK ZDALNY"
 

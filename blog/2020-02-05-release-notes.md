@@ -59,7 +59,7 @@ Ta funkcjonalność w połączeniu z odtwarzaczem i rozkładem pomieszczeń (flo
 Docelowo mamy ambicję, by zastosować własne słowo aktywujące, które będzie kojarzone z naszą marką. Z tego, co się orientujemy, będzie to pierwszy tego typu projekt w Polsce, który zajmie trochę czasu i zasobów. Na tą chwilę nie podajemy terminów.
 
 
-Więcej szczegółów jak to działa w dokumentacji [Dotykowy panel sterowania](/docs/en/ais_app_android_dom_tablet)
+Więcej szczegółów jak to działa w dokumentacji [Dotykowy panel sterowania](/docs/ais_app_android_dom_tablet)
 
 
 ![Przekierowanie mediów](/img/en/frontend/apk_hot_word_options.png)
@@ -85,7 +85,7 @@ Dodaliśmy możliwość bardziej zaawansowanej obsługi odtwarzaczy. Poza wbudow
 
 
 
-Więcej szczegółów jak to działa w dokumentacji [Odtwarzacze](/docs/en/ais_app_player.html)
+Więcej szczegółów jak to działa w dokumentacji [Odtwarzacze](/docs/ais_app_player)
 
 
 Dodatkowo telefon/tablet/TvBox z systemem Android może być teraz też odtwarzaczem, możesz też wysyłać do niego powiadomienia głosowe. Wystarczy zainstalować naszą darmową aplikację. Z aplikacji możesz też teraz łatwo sterować mediami na bramce z innego urządzenia (telefonu).
@@ -95,7 +95,7 @@ Dodatkowo telefon/tablet/TvBox z systemem Android może być teraz też odtwarza
 
 ![Sterowanie mediami na bramce z telefonu](/img/en/frontend/mob_notification_media.png)
 
-Więcej szczegółów jak to działa w dokumentacji [Sterowanie mediami na bramce z telefonu](/docs/en/ais_app_android_dom.html#sterowanie-odtwarzaczem-na-bramce)
+Więcej szczegółów jak to działa w dokumentacji [Sterowanie mediami na bramce z telefonu](/docs/ais_app_android_dom#sterowanie-odtwarzaczem-na-bramce)
 
 
 ## Nowa wersja naszej aplikacji na zegarki z WearOS
@@ -117,7 +117,7 @@ W skrócie wygląda to teraz tak:
 
 ## Generowanie stylów CSS dla kart (floor plan)
 
-Do integracji [Galeria](/docs/en/next/ais_app_integration_gallery.html) dodaliśmy pierwszą wersję narzędzia ułatwiającego generowanie stylów CSS dla kart (w celu ich rozmieszczenia w rozkładzie pomieszczeń). Celem jest stworzenie narzędzia ułatwiającego tworzenie interaktywnego rzutu pomieszczenia na bazie zdjęcia projektu.
+Do integracji [Galeria](/docs/next/ais_app_integration_gallery) dodaliśmy pierwszą wersję narzędzia ułatwiającego generowanie stylów CSS dla kart (w celu ich rozmieszczenia w rozkładzie pomieszczeń). Celem jest stworzenie narzędzia ułatwiającego tworzenie interaktywnego rzutu pomieszczenia na bazie zdjęcia projektu.
 
 Docelowo planujemy zrobić to bardziej na zasadzie "drag & drop", tak żeby każdy mógł rozmieścić swoje urządzenia na planie i nimi sterować.
 Można zapoznać się ze zarysem funkcjonalności zaprezentowanej na forum: https://ai-speaker.discourse.group/t/rzut-podlogi-floor-plan/155

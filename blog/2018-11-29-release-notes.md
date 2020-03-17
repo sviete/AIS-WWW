@@ -8,7 +8,7 @@ title: Wersja systemu 0.82.3
 ## Wersja systemu 0.82.3  z dnia 29 listopada 2018 roku,
 
 w tej wersji dodano:
-- możliwość (włączenia) dostępu do bramki z Internetu [Dostęp do bramki z Internetu](/docs/en/ais_bramka_remote_serveo)
+- możliwość (włączenia) dostępu do bramki z Internetu [Dostęp do bramki z Internetu](/docs/ais_bramka_remote_serveo)
 - uproszczone sterowanie pilotem
 - restart i wyłączenie bramki dostępne z aplikacji
 - sortowanie czujników

@@ -9,7 +9,7 @@ Na **Bramce IoT dostarczamy zainstalowaną największą na świecie otwartą pla
 
 **Wsparcie dla tych komponentów zapewnia społeczność skupiona wokół platformy do automatyki domowej "Home Assistant"**. Otwartość platformy zapewnia naszemu produktowi stały rozwój i aktualizacje, pracuje na to setki programistów. Rynek Internetu Rzeczy rozwija się bardzo dynamicznie i co tydzień w systemie pojawiają sie integracje z nowymi urządzeniami.
 
-By umożliwić każdemu proste dodawanie nowych urządzeń tworzymy graficzne kreatory, które prowadzą przez proces konfiguracji krok po kroku, mamy też specjalną sekcję urządzeń [Rekomendowane do zastosowania w Twoim domu](/docs/en/ais_iot_works_with.html).
+By umożliwić każdemu proste dodawanie nowych urządzeń tworzymy graficzne kreatory, które prowadzą przez proces konfiguracji krok po kroku, mamy też specjalną sekcję urządzeń [Rekomendowane do zastosowania w Twoim domu](ais_iot_works_with).
 
 
 Sprawdź jakie urządzenia w swoim domu możesz już teraz podłączyć do bramki <a href="https://www.home-assistant.io/components/" target="_blank">Komponenty Home Assistant</a>

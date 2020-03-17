@@ -16,7 +16,7 @@ sidebar_label: Możliwości urządzeń AIS dom
 * Łatwa integracja z systemem automatyki domowej [Home Assistant](https://www.home-assistant.io)
 * Emulacja Wemo i Hue umożliwiająca sterowanie za pomocą systemów wspierających sterowanie urządzeniami Hue, np. Amazon Alexa.
 * Zaawansowani użytkownicy mogą dołączać do urządzeń dodatkowe przełączniki, czujniki, wyświetlacze, mikrofony, odtwarzacze mp3, itd.
-* W pełni zintegrowane z systemem [Asystent domowy](/docs/en/ais_iot_add_to_gate.html) (łatwa integracja z innymi systemami automatyki domowej)
+* W pełni zintegrowane z systemem [Asystent domowy](ais_iot_add_to_gate) (łatwa integracja z innymi systemami automatyki domowej)
 
 
 ## Główne menu aplikacji (na urządzeniu IoT) dostępne w przeglądarce

@@ -37,7 +37,7 @@ W efekcie otrzymamy kartę, która będzie nam pokazywała stan naszego urządze
 
 ![Galeria](/img/en/frontend/gallery_6.png)
 
-Więcej o konfiguracji interfejsu użytkownika jest w sekcji [Konfiguracja interfejsu użytkownika](http://localhost:3000/docs/en/next/ais_app_ui_config.html)
+Więcej o konfiguracji interfejsu użytkownika jest w sekcji [Konfiguracja interfejsu użytkownika](ais_app_ui_config)
 
 
 ## Nagranie wideo z aplikacji

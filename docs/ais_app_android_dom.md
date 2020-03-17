@@ -10,7 +10,7 @@ To nasza główna aplikacja, która działa zarówno na bramce jak i na innych u
 
 ![AIS Dom](/img/en/frontend/ais_dom_tablet_apk.png)
 
-Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](/docs/en/ais_app_index.html) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
+Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](ais_app_index) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
 
 ![AIS Dom](/img/en/frontend/ais_dom_apk_screen_mob.png)
 
@@ -118,7 +118,7 @@ Rysujemy na ekranie gest i zapisujemy go wraz z komendą
 
 ### Przełączenie w tryb sterowania gestami
 
-Ikona na dolnym pasku aplikacj, umieszczona pomiędzy przejściem do ustawień a mikrofonem obrazuje tryb sterowania w aplikacji, by przełączyć w tryb sterowania gestami możemy kliknąć w tą ikonę w aplikacji mobilnej lub zmienić tryb pilotem radiowym [Zmiana trybu sterowania](/docs/en/ais_remote_modes.html).
+Ikona na dolnym pasku aplikacj, umieszczona pomiędzy przejściem do ustawień a mikrofonem obrazuje tryb sterowania w aplikacji, by przełączyć w tryb sterowania gestami możemy kliknąć w tą ikonę w aplikacji mobilnej lub zmienić tryb pilotem radiowym [Zmiana trybu sterowania](ais_remote_modes).
 
 ![Przełączenie w tryb sterowania gestami](/img/en/remote/remote_gesture_mode_5.png)
 

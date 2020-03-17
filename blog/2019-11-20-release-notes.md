@@ -13,7 +13,7 @@ title: Wersja systemu 0.101.4 RF 433 i IKEA TRÅDFRI
 ![RF 433](/img/en/iot/iot_ais_dom_device_rf433_learn_step_7.png)
 
 Żeby umożliwić połączenie pilotów (do bram, rolet), przełączników, czujników i itp. urządzeń komunikujących się za pomocą transmisji radiowej 433 MHz z bramką AIS dom, potrzebujemy dodatkowego urządzenia umożliwiającego wysyłanie i odbieranie kodów RF 433. Polecamy do tego celu urządzenie Sonoff RF Bridge 433 z alternatywnym oprogramowaniem umożliwiającym łatwą integrację z bramką AIS dom (MQTT) oraz obsługującym większą ilość protokołów (oryginalny Sonoff obsługuje tylko jeden protokół z 24 bitami).
-Szczegóły w dokumentacji [Bramka RF 433](/docs/en/ais_iot_gate_device_rf433)
+Szczegóły w dokumentacji [Bramka RF 433](/docs/ais_iot_gate_device_rf433)
 
 <!--truncate-->
 
@@ -28,7 +28,7 @@ Pokazujemy też jak to działa na video:
 ## IKEA TRÅDFRI
 
 Od wersji 0.101 dodaliśmy integrację z IKEA Trådfri jako domyślnie wbudowaną - nie trzeba już doinstalowywać żadnych pakietów.
-Szczegóły w dokumentacji [Integracja IKEA Trådfri ](/docs/en/ais_app_integration_ikea.html)
+Szczegóły w dokumentacji [Integracja IKEA Trådfri ](/docs/ais_app_integration_ikea)
 
 ![Konfiguracja IKEA](/img/en/bramka/integration_ikea_0.jpg)
 
@@ -40,8 +40,8 @@ A tak to może wyglądać w aplikacji Asystent domowy:
 
 ## Przykłady IFTTT
 
-W integracjach dodaliśmy podkategorię z przykładami. Na początek wyjaśniamy krok po kroku [jak założyć konto w serwisie IFTTT](/docs/en/next/ais_app_ifttt_platform_account) i [zbudować nasz pierwszy Aplet](/docs/en/next/ais_app_ifttt_time.html). Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
-W kolejnym przykładzie wyjaśniamy [jak dodać Aplet uruchamiający dowolną akcję w Asystencie domowym z serwisu IFTTT](/docs/en/ais_app_ifttt_action).
+W integracjach dodaliśmy podkategorię z przykładami. Na początek wyjaśniamy krok po kroku [jak założyć konto w serwisie IFTTT](/docs/next/ais_app_ifttt_platform_account) i [zbudować nasz pierwszy Aplet](/docs/next/ais_app_ifttt_time). Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
+W kolejnym przykładzie wyjaśniamy [jak dodać Aplet uruchamiający dowolną akcję w Asystencie domowym z serwisu IFTTT](/docs/ais_app_ifttt_action).
 
 ![IFTTT](/img/en/blog/examples_ifttt.png)
 
@@ -131,7 +131,7 @@ Oczywiście pamiętaj, że jeżeli masz dziesiątki urządzeń, które generują
 
 ![Historia](/img/en/blog/history.png)
 
-Wystarczy dodać 2 linie do pliku z [konfiguracją](/docs/en/ais_gate_faq_config_yaml.html):
+Wystarczy dodać 2 linie do pliku z [konfiguracją](/docs/ais_gate_faq_config_yaml):
 
 ```yaml
 recorder:

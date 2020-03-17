@@ -9,7 +9,6 @@ title: Wersja systemu 0.81.12
 
 w tej wersji dodano:
 - Zeroconf/Avahi/Bonjour - rozgłaszanie usług bramki (HTTP, FTP, MQTT) w lokalnej seici
-- sterowanie gestami [Gesty](/docs/en/ais_remote_mode_gesture.html)
-- wprowadzenie do usług bramki / start opisu API bramki [API](/docs/en/ais_bramka_api_index.html)
+- wprowadzenie do usług bramki / start opisu API bramki [API](/docs/ais_bramka_api_index)
 - najonowszy YouTube-dl
 - najnowszy Home Assistant <a href="https://www.home-assistant.io/blog/2018/10/26/release-81/" target="_blank">0.81</a>

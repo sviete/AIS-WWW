@@ -21,10 +21,10 @@ https://developer.android.com/studio/releases/platform-tools.html
 1. Podłącz bramkę do telewizora lub monitora
 
 2. Wyjdź z aplikacji Asystent domowy,
-[Wyjście z aplikacji](/docs/en/ais_bramka_settings.html#ustawienia-aplikacji-asystent-domowy)
+[Wyjście z aplikacji](ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)
 
 3. Przejdź do ustawień Android
-[Ustawienia systemu Android](/docs/en/ais_bramka_settings.html#ustawienia-systemu-android)
+[Ustawienia systemu Android](ais_bramka_settings#ustawienia-systemu-android)
 
 4. W ustawieniach Android przejdź do **Informacje**
 

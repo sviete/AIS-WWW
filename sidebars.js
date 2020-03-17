@@ -135,8 +135,7 @@ module.exports = {
     ],
     "Integracje dodatkowe": [
       "ais_iot_index",
-      "ais_iot_add_to_gate",
-      "ais_iot_remote"
+      "ais_iot_add_to_gate"
     ]
   },
   "Urządznia": {

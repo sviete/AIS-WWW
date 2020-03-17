@@ -26,4 +26,4 @@ Dostęp do kodu źródłowego to gwarancja otwartości i przejrzystości, ale te
 Dzięki temu urządzenia te są przez nas rekomendowane do zastosowania w Twoim domu.
 
 
-Rozwijamy [Alternatywne oprogramowanie dla urządzeń automatyki domowej](/docs/en/ais_iot_firmware_index.html), które jest w stanie działać z urządzeniami wielu producentów. Lista urządzeń dostępna jest pod tym adresem: <a href="https://blakadder.github.io/templates/all.html" target="_blank">urządzenia działające z oprogramowaniem Tasmota</a>
+Rozwijamy [Alternatywne oprogramowanie dla urządzeń automatyki domowej](ais_iot_firmware_index), które jest w stanie działać z urządzeniami wielu producentów. Lista urządzeń dostępna jest pod tym adresem: <a href="https://blakadder.github.io/templates/all.html" target="_blank">urządzenia działające z oprogramowaniem Tasmota</a>

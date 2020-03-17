@@ -15,7 +15,7 @@ Wykrywanie obecności ma na celu ustalenie, czy i kto jest w domu (lub innej zde
 - Włącz klimatyzację w domu, kiedy wychodzę z pracy
 - Otwórz bramę i włącz na 30 minut oświetlenie zewnętrzne, jeżeli jest noc i moje auto pojawia się w strefie przed bramą wjazdową
 
-Więcej w dokumentacji [Wykrywanie obecności](/docs/en/ais_bramka_presence_detection.html)
+Więcej w dokumentacji [Wykrywanie obecności](/docs/ais_bramka_presence_detection.html)
 
 ![Wykrywanie obecności](/img/en/bramka/presence_detection_14.png)
 
@@ -26,7 +26,7 @@ Więcej w dokumentacji [Wykrywanie obecności](/docs/en/ais_bramka_presence_dete
 
 Asystent domowy oferuje szeroki zakres konfiguracji automatyzacji.
 Zanim zaczniesz tworzyć własne przydatne automatyzacje w swoim domu, ważne jest, aby zrozumieć podstawy.
-W przewodniku postaramy się poprowadzić Cię "krok po kroku" przez podstawowe możliwości i opcje podczas tworzenia prostej reguły automatyzacji, która włącza oświetlenie, gdy zachodzi słońce. [Zapraszamy do automatyzowania!](/docs/en/ais_bramka_automation.html)
+W przewodniku postaramy się poprowadzić Cię "krok po kroku" przez podstawowe możliwości i opcje podczas tworzenia prostej reguły automatyzacji, która włącza oświetlenie, gdy zachodzi słońce. [Zapraszamy do automatyzowania!](/docs/ais_bramka_automation.html)
 
 
 ![Wykrywanie obecności](/img/en/bramka/automation8.png)
@@ -34,7 +34,7 @@ W przewodniku postaramy się poprowadzić Cię "krok po kroku" przez podstawowe 
 
 ### Optymalizacja kodu
 
-Wprowadziliśmy optymalizacje w kodzie, dotyczy to aktywności pokazującej postęp rozpoznawania mowy (RecognitionProgressView). Po tej optymalizacji odnotowaliśmy spory spadek obciążenia procesora na urządzeniu oraz związany z tym spadek temperatury procesora - dokładnie widać to na poniższym wykresie. W nowym dziale FAQ opisaliśmy jak dodać nowy czujnik do systemu właśnie na przykładzie czujnika temperatury CPU [Zaawansowana konfiguracja Asystenta domowego - Przykładowy czujnik](/docs/en/ais_gate_faq_config_yaml.html)
+Wprowadziliśmy optymalizacje w kodzie, dotyczy to aktywności pokazującej postęp rozpoznawania mowy (RecognitionProgressView). Po tej optymalizacji odnotowaliśmy spory spadek obciążenia procesora na urządzeniu oraz związany z tym spadek temperatury procesora - dokładnie widać to na poniższym wykresie. W nowym dziale FAQ opisaliśmy jak dodać nowy czujnik do systemu właśnie na przykładzie czujnika temperatury CPU [Zaawansowana konfiguracja Asystenta domowego - Przykładowy czujnik](/docs/ais_gate_faq_config_yaml.html)
 
 ![Temperatura CPU](/img/en/blog/cpu_temp_after_optimalization.png)
 
@@ -56,7 +56,7 @@ Możemy też kazać przeliterować asystentce status dowolnego elementu systemu 
 Przeliteruj unikalny identyfikator bramki
 ```
 
-W dokumentacji opisane są wszystkie [wbudowane komendy, które rozumie Asystent domowy](/docs/en/ais_app_assistent_commands.html)
+W dokumentacji opisane są wszystkie [wbudowane komendy, które rozumie Asystent domowy](/docs/ais_app_assistent_commands.html)
 
 
 ### Pozostałe istotne zmiany

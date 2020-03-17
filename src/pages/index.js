@@ -151,7 +151,7 @@ function Home() {
             <img className="aisPointInfo" src="img/main/home-assistant.svg" />
             <br />
             </div>
-            System do sterowania automatyką domową i multimiediami<br />z wbudowanym inteligentnym asystentem głosowym
+            System do sterowania automatyką domową i multimiediami<br />z wbudowanym inteligentnym asystentem głosowym.
           </Link>
           <br /><br />
           <p>Nasza innowacyjna bramka steruje urządzeniami lokalnie, zapewniając błyskawiczną reakcję i prywatność, a dodatkowo odtwarza multimedia i ma większe możliwości niż konkurencyjne rozwiązania.</p>

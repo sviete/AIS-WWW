@@ -27,7 +27,7 @@ W dostępnym z aplikacji interfejsie użytkownika mamy domyślnie 2 widoki:
 
 ## Tworzenie własnych widoków
 
-Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dodać widoki **"Salon"**, **"Łazienka"**, **"Sypialnia"** i umieścić w nich na [kartach](/docs/en/ais_app_cards.html) urządzenia znajdujące się w tych pomieszczeniach.
+Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dodać widoki **"Salon"**, **"Łazienka"**, **"Sypialnia"** i umieścić w nich na [kartach](ais_app_cards) urządzenia znajdujące się w tych pomieszczeniach.
 
 
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/lovelace-ui-conf2.png)
@@ -35,4 +35,4 @@ Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dod
 
 ## Włączenie konfiguracji
 
-Włączenie konfiguracji opisane jest tu [Konfiguracja interfejsu użytkownika](/docs/en/ais_app_ui_config.html)
+Włączenie konfiguracji opisane jest tu [Konfiguracja interfejsu użytkownika](ais_app_ui_config)

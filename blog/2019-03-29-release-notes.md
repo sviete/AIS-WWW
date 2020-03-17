@@ -13,7 +13,7 @@ title: Wersja systemu 0.90.5 Dyski
 
 Połączenie z dyskami zdalnymi definiowane jest za pomocą kreatora, który krok po kroku prowadzi przez proces dodawania dysku.
 Krator dostępny jest w ustawieniach aplikacji, w sekcji ***Integracje*** (w tym miejscu zarządzamy urządzeniami i usługami podłączonymi do urządzenia).
-Szczególowy opis wraz z prezentacją wideo dostępny jest tu: [Dyski](/docs/en/ais_app_drives.html)
+Szczególowy opis wraz z prezentacją wideo dostępny jest tu: [Dyski](/docs/ais_app_drives.html)
 
 
 #### Nowa karta odtwarzacza

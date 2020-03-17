@@ -19,7 +19,7 @@ System posiada komponent umożliwiający wydawanie komend i przesyłanie zapyta�
 
 ## Dostępne komendy
 
-Tu jest [lista poleceń](/docs/en/ais_app_assistent_commands.html), które asystent rozumie loklanie (bez potrzeby łączenia się z żadnym serwisem zewnętrznym).
+Tu jest [lista poleceń](ais_app_assistent_commands), które asystent rozumie loklanie (bez potrzeby łączenia się z żadnym serwisem zewnętrznym).
 Np. gdy pytasz "Jaka jest temperatura w kuchni" asystent "rozumie", że intencją jest sprawdzenie statusu czujnika o nazwie "Temperatura w kuchni".
 
 Gdy asystent nie jest w stanie zrozumieć komendy lokalnie, to stara się uzyskać informację w zewnętrznych serwisach lub wyszukać ją w Internecie.
@@ -30,7 +30,7 @@ Sięgamy też po informacje bezpośrednio z Wikipedii oraz z usług internetowyc
 
 <img src="/img/en/frontend/ais_integration_ai_2.png" width="860" align="right"/>
 
-Jeśli dodasz integrację [Google Home](/docs/en/ais_app_ai_integration_google_home.html), to możesz bezpośrednio wysyłać komendy do Asystenta Google, wystarczy, że poprzedzisz komendę słowem "Google", np. "Google, jaka jest pogoda" lub "Google opowiedz jakiś dowcip" itd..
+Jeśli dodasz integrację [Google Home](ais_app_ai_integration_google_home), to możesz bezpośrednio wysyłać komendy do Asystenta Google, wystarczy, że poprzedzisz komendę słowem "Google", np. "Google, jaka jest pogoda" lub "Google opowiedz jakiś dowcip" itd..
 
 
 
@@ -137,6 +137,6 @@ conversation: !include conversation.yaml
 
 ## API asystenta
 
-Asystent, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/docs/en/next/ais_bramka_automation.html) także tą funkcjonalność i np. uruchamiać [automatyczne mówienie godziny](/docs/en/ais_faq_automation_tts.html) o pełnych godzinach.
+Asystent, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](ais_bramka_automation) także tą funkcjonalność i np. uruchamiać [automatyczne mówienie godziny](ais_faq_automation_tts) o pełnych godzinach.
 
 ![Godzinaais_app_android_index](/img/en/faq/tts_time_3.png)

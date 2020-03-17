@@ -8,13 +8,13 @@ title: Wersja systemu 0.105.7 Dyski zdalne i wymienne
 
 ##  0.105.7
 :::tip
-UWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.
+UWAGA Przed aktualizacją zalecamy wykonać [`kopię zapasową konfiguracji`](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.
 :::
 
 W tej wersji przenieśliśmy zależności pakietów (w celu wyeliminowania błędu wielokrotnego instalowania niektórych pakietów z zależnościami). **Aktualizacja może potrwać 40 minut** - poczekaj cierpliwie na koniec aktualizacji. Komunikatami głosowymi informujemy o postępach aktualizacji, możesz śledzić szczegóły wykonywanych czynności podczas aktualizacji łącząc się do bramki po ssh i przeglądając logi poleceniem **pm2 logs**.
 
 :::important
-W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/docs/en/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/en/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.
+W razie problemów po aktualizacji sprawdź procedurę [`Aktualizacja ręczna`](/docs/ais_bramka_update_manual) lub [`Wykonanie pełnego resetu aplikacji`](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.
 :::
 
 ## Dyski zdalne i wymienne

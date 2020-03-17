@@ -3,12 +3,12 @@ title: "Wymuszenie aktualizacji"
 sidebar_label: Wymuszenie aktualizacji
 ---
 
-Możemy wymusić zainstalowanie wszystkich składowych systemu do najnowszej wersji. W tym celu wystarczy uruchomić w konsoli [skrypt aktualizacji](https://raw.githubusercontent.com/sviete/AIS-utils/master/upgrades/force_reinstall.sh) 
+Możemy wymusić zainstalowanie wszystkich składowych systemu do najnowszej wersji. W tym celu wystarczy uruchomić w konsoli [skrypt aktualizacji](https://raw.githubusercontent.com/sviete/AIS-utils/master/upgrades/force_reinstall.sh)
 
 
 
 ## Logowanie do konsoli
-Do konsoli bramki możemy zalogować się z innego klienta w sieci lokalnej po [dostęp po SSH](/docs/en/ais_bramka_remote_ssh.html) lub bezprośrednio z aplikacji na urządzeniu [Konsola na urządzeniu](/docs/en/ustawienia-aplikacji-asystent-domowy.html)
+Do konsoli bramki możemy zalogować się z innego klienta w sieci lokalnej po [dostęp po SSH](ais_bramka_remote_ssh) lub bezprośrednio z aplikacji na urządzeniu [Konsola na urządzeniu](ustawienia-aplikacji-asystent-domowy)
 
 ## Komenda uruchamiająca skrypt
 
@@ -63,5 +63,3 @@ echo "ALL DONE!"
 echo $(date '+%Y %b %d %H:%M') STOP
 
 ```
-
-

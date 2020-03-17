@@ -20,7 +20,7 @@ W aplikacji "Asystent domowy" wybierz z menu pozycję **Konfiguracja**, nastepni
 
 ![Ustawienia sieci](/img/en/bramka/ais_bramka_ip_address.png)
 
-Możesz też wybrać z menu pozycję [Przydatne linki](/docs/en/next/ais_bramka_services.html), by zobaczyć adresy usług w Twojej sieci.
+Możesz też wybrać z menu pozycję [Przydatne linki](ais_bramka_services), by zobaczyć adresy usług w Twojej sieci.
 
 
 ## Zapytanie asystenta o adres IP

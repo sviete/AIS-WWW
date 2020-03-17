@@ -13,13 +13,13 @@ title: Wersja systemu 0.103 Zigbee
 W tej wersji dodaliśmy możliwość łatwego korzystania z urządzeń **Zigbee bez potrzeby stosowania bramek producentów**. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
 
 Integracja sprowadza się do włożenia do portu USB [odpowiednio zaprogramowanego](https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531.html)  urządzenia CC2531.
-Asystent domowy sam [rozpozna to urządzenie USB](/docs/en/ais_app_integration_usb.html#zigbee-usb-sniffer), poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie pojawi się nowa opcja w aplikacji.
+Asystent domowy sam [rozpozna to urządzenie USB](/docs/ais_app_integration_usb#zigbee-usb-sniffer), poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie pojawi się nowa opcja w aplikacji.
 
 <!--truncate-->
 
 ![Zigbee2MQTT](/img/en/blog/202001/zigbee2mqtt_new_menu.png)
 
-Więcej w [naszej dokumentacji integracji Zigbee](/docs/en/ais_app_integration_zigbee.html)
+Więcej w [naszej dokumentacji integracji Zigbee](/docs/ais_app_integration_zigbee)
 
 Na stronie projektu Zigbee2MQTT możesz sprawdzić [listę **(około 500 urządzeń, 100 producentów)**](https://www.zigbee2mqtt.io/information/supported_devices.html) urządzeń, które są wspierane.
 
@@ -52,7 +52,7 @@ Nazwa      | Protokół | Porty | Komenda/URL                                   
 
 ## Kopia zapasowa ustawień
 
-W konfiguracji oprogramowania bramki dodaliśmy opcję wykonywania i przywracania [kopii zapsowej konfiguracji bramki](/docs/en/next/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji)
+W konfiguracji oprogramowania bramki dodaliśmy opcję wykonywania i przywracania [kopii zapsowej konfiguracji bramki](/docs/next/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)
 
 W tym miejscu możesz, sprawdzić poprawność ustawień bramki, wykonać jej kopię i przesłać ją do portalu integratora. Ponieważ konfiguracja może zawierać hasła i tokeny dostępu do usług, zalecamy zaszyfrować ją hasłem. Gdy kopia jest zabezpieczona hasłem, to można ją otworzyć/przywrócić tylko po podaniu hasła.
 
@@ -77,7 +77,7 @@ Na bramce dostarczamy działającą w tle usługę USB, której celem jest wykry
 - uruchomienie karty audio
 - uruchmienie serwsisu do obsługi Zigbee
 
-Więcej w dokumentacji [USB rozpoznawanie urządzeń](/docs/en/ais_app_integration_usb.html)
+Więcej w dokumentacji [USB rozpoznawanie urządzeń](/docs/ais_app_integration_usb)
 
 ![HID USB](/img/en/bramka/usb_integration_zigbee.png)
 
@@ -101,7 +101,7 @@ następnie kod, który się pojawi, należy przepisać w aplikacji Wear (masz na
 
 ![Automatyzacje](/img/en/frontend/ais_dom_wizard_5_wear_apk.png)
 
-Całość opisana jest w [AIS dom Wear OS](/docs/en/ais_app_android_dom_wear.html)
+Całość opisana jest w [AIS dom Wear OS](/docs/ais_app_android_dom_wear)
 
 
 ## Rozbudowa nawigacji pilotem

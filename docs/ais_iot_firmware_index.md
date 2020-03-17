@@ -37,4 +37,4 @@ W naszym rozwiązaniu dane np. o tym, kiedy było włączone światło czy inne 
 Źródła oprogramowania do urządzeń końcowych, dostępne są pod tym adresem:
 [AIS-Tasmota](https://github.com/sviete/AIS-Tasmota)
 
-Aby pobrać skompilowaną wersję i zainstalować na urządzeniu przejdź do kolejnej strony [Aktualizacja oprogramowania urządzeń automatyki domowej](/docs/en/next/ais_iot_firmware_upgrade.html)
+Aby pobrać skompilowaną wersję i zainstalować na urządzeniu przejdź do kolejnej strony [Aktualizacja oprogramowania urządzeń automatyki domowej](ais_iot_firmware_upgrade)

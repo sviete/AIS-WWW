@@ -10,7 +10,7 @@ title: Wersja systemu 0.102 Galeria i QR kody
 ## Galeria
 
 Żeby ułatwić dodawanie zdjęć pomieszczeń, do aplikacji dodaliśmy nowy komponent galeria. Czyli wystarczy wysłać zejęcie do urządzenia a następnie umieścić je na karcie w aplikacji.
-Jak to działa opisaliśmy w [Konfiguracja interfejsu użytkownika](/docs/en/ais_app_ui_config.html#dodanie-własnej-karty)
+Jak to działa opisaliśmy w [Konfiguracja interfejsu użytkownika](/docs/ais_app_ui_config#dodanie-własnej-karty)
 
 [](/img/en/blog/201912/galeria.png)
 
@@ -23,7 +23,7 @@ Od tej wersji do galerii można dodawać łatwo (z aplikacji) zdjęcia i wyświe
 
 ## Kreator i skanowanie identyfikatora bramki
 
-W najnowsze wersji naszej aplikacji mobilnej dodaliśmy [konfigurację ustawień aplikacji mobilej przy pomocy kreatora](/docs/en/ais_app_android_dom.html#konfiguracja-za-pomocą-kreatora).
+W najnowsze wersji naszej aplikacji mobilnej dodaliśmy [konfigurację ustawień aplikacji mobilej przy pomocy kreatora](/docs/ais_app_android_dom.html#konfiguracja-za-pomocą-kreatora).
 
 [](/img/en/frontend/ais_dom_wizard_0_mob_apk.png)
 
@@ -31,7 +31,7 @@ W najnowsze wersji naszej aplikacji mobilnej dodaliśmy [konfigurację ustawień
 Dodaliśmy też możliwość zeskanowania aparatem kodu QR z identyfikatorem bramki.
 
 
-Jeżeli w parametrach połączenia z bramką, podamy identyfikator bramki (a nie adres URL), to aplikacja sama będzie w stanie sama ustalić możliwe połączenie z bramką (lokalne lub przez tunel). Wyjaśniamy jak takie łączenie działa w [dokumentacji aplikacji AIS dom](/docs/en/ais_app_android_dom.html).
+Jeżeli w parametrach połączenia z bramką, podamy identyfikator bramki (a nie adres URL), to aplikacja sama będzie w stanie sama ustalić możliwe połączenie z bramką (lokalne lub przez tunel). Wyjaśniamy jak takie łączenie działa w [dokumentacji aplikacji AIS dom](/docs/ais_app_android_dom).
 
 
 Skanowanie identyfikatora bramki dodaliśmy też do naszego [Panelu Integratora](https://powiedz.co/ords/f?p=DOM1) co powinno ułatwić dodawanie konta
@@ -58,7 +58,7 @@ Od wersji 0.102 dostarczamy i aktualizujemy dwa widoki **Audio** i **Jednostki**
 * W widoku **Audio** dostarczamy odtwarzacz oraz darmową kolekcję treści audio
 * W widoku **Jednostki** automatycznie wypełniamy karty pozycjami spełniającymi określone kryteria, w ten sposób podpowiadamy jak możesz tworzyć własne karty. Sprawdz konfigurację kart na tym widoku i ją kopiuj do własnych widoków.
 
-W instrukcji wyjaśniamy [jak włączyć tryb konfiguracji](/docs/en/ais_app_ui_config.html).
+W instrukcji wyjaśniamy [jak włączyć tryb konfiguracji](/docs/ais_app_ui_config).
 
 ![Asystent](/img/en/blog/201912/lovelace_custom.png)
 
@@ -70,7 +70,7 @@ Pracujemy nad tym, żeby dwa ostatnie nasze widoki **Audio** i **Jednostki** te�
 Najnowszy (stabilny) [Home Assistant 0.102.3](https://www.home-assistant.io/blog/2019/11/20/release-102/)
 
 Wraz z nowym edytorem scen dostępnym z aplikacji, dzięki któremu można zapisać bieżący status urządzeń jako scenę, a następnie aktywować ją komendą głosową [Uruchamianie automatyzacji
-](/docs/en/ais_app_assistent_commands.html#uruchamianie-automatyzacji)
+](/docs/ais_app_assistent_commands#uruchamianie-automatyzacji)
 
 ```text
 'Uruchom {nazwa automatyzacji}'

@@ -9,7 +9,7 @@ sidebar_label: Zigbee
 Integracja Zigbee w Asystencie domowym daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
 
 
-> Zigbee2MQTT jest zainstalowane "fabrycznie" na bramkach sprzedawanych z systemem od wersji 0.103.8 W tych bramkach wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji. Jeżeli kupiłeś bramkę z wcześniejszą wersją systemu i chcesz używać Zigbee na bramce to wystarczy, że doinstalujesz tę funkcjonalność wg [opisu poniżej](/docs/en/next/ais_app_integration_zigbee.html#instalacja-zigbee2mqtt).
+> Zigbee2MQTT jest zainstalowane "fabrycznie" na bramkach sprzedawanych z systemem od wersji 0.103.8 W tych bramkach wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi się nowe menu w aplikacji. Jeżeli kupiłeś bramkę z wcześniejszą wersją systemu i chcesz używać Zigbee na bramce to wystarczy, że doinstalujesz tę funkcjonalność wg [opisu poniżej](ais_app_integration_zigbee#instalacja-zigbee2mqtt).
 
 ## Integracja
 
@@ -77,11 +77,11 @@ Są dwie opcje, żeby samemu dodać Zigbee2MQTT do bramki:
 
 ### Instalacja przez wykonanie pełnego resetu aplikacji
 
-Przed wykonaniem pełnego resetu, jeżeli zależy nam na naszych wcześniejszych ustawieniach, można wykonać [Kopię zapasową konfiguracji](/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji).
+Przed wykonaniem pełnego resetu, jeżeli zależy nam na naszych wcześniejszych ustawieniach, można wykonać [Kopię zapasową konfiguracji](ais_bramka_configuration_software#kopia-zapasowa-konfiguracji).
 
-Opis procedury [Pełny reset aplikacji](/docs/en/ais_bramka_reset_ais_step_by_step.html).
+Opis procedury [Pełny reset aplikacji](ais_bramka_reset_ais_step_by_step).
 
-Po wykonaniu pełnego resetu gdy asystent się uruchomi i nas powita, to można [przywrócić ustawienia](/docs/en/ais_bramka_configuration_software.html#kopia-zapasowa-konfiguracji).
+Po wykonaniu pełnego resetu gdy asystent się uruchomi i nas powita, to można [przywrócić ustawienia](ais_bramka_configuration_software#kopia-zapasowa-konfiguracji).
 
 Zanim zacznie działać rozpoznawanie urządzeń USB należy jeszcze zrestartować urządzenie. Można to zrobić komendą w konsoli:
 
@@ -98,7 +98,7 @@ Teraz wystarczy włożyć urządzenie CC2531 do portu USB i automatycznie pojawi
 
 ### Instalacja skryptem
 
-1. zaloguj się do konsoli bramki [SSH](/docs/en/next/ais_bramka_remote_ssh.html#dostęp-do-konsoli-z-klienta-ssh)
+1. zaloguj się do konsoli bramki [SSH](ais_bramka_remote_ssh#dostęp-do-konsoli-z-klienta-ssh)
 
 ```bash
 ssh <ip_bramki_w_sieci_lokalnej>

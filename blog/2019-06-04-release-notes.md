@@ -40,6 +40,6 @@ W wersji deweloperskiej zachęcamy do eksperymentowania z bramką - dodawanie do
 - Odtwarzanie nie tylko utworów ale też albumów, kanałów artystów i playlist ze Spotify.
 - Możliwość wyłączenia/włączenia odtwarzania losowego ze Spotify.
 - Nowe, uproszczone menu w aplikacji mobilnej (kliencie) i aplikacji na bramce (serwerze)
-- Usuwamy domyślnie włączoną usługę dostępu do bramki w sieci lokalnej po https. Oczywiście nadal można włączyć taką opcję samemu [włączając usługę na bramce](/docs/en/ais_gate_faq_index.html) lub uruchomić [Dostęp do bramki z Internetu](/docs/en/ais_bramka_remote_dom_tunnel.html) - takie połączenie jest automatycznie szyfrowane (i nie wymaga importowania certyfikatu oraz utrzymywania serwera https na bramce).
+- Usuwamy domyślnie włączoną usługę dostępu do bramki w sieci lokalnej po https. Oczywiście nadal można włączyć taką opcję samemu [włączając usługę na bramce](/docs/ais_gate_faq_index.html) lub uruchomić [Dostęp do bramki z Internetu](/docs/ais_bramka_remote_dom_tunnel.html) - takie połączenie jest automatycznie szyfrowane (i nie wymaga importowania certyfikatu oraz utrzymywania serwera https na bramce).
 - Najnowszy Home Assistant.
 <a href="https://www.home-assistant.io/blog/2019/05/16/release-93/" target="_blank">0.93</a>

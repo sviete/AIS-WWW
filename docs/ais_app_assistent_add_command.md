@@ -94,7 +94,7 @@ WhenEOD:
 **speech** to tekst zwracany do obiektu IntentResponse, tekst z tego obiektu wyświetlany jest a aplikacji w okienu konwersacji z asystentem
 ![Test nowej komendy](/img/en/remote/conversation1.png)
 
-szczegóły w [dokumentacji dla developerów Home Assistant](https://developers.home-assistant.io/docs/en/intent_index.html)
+szczegóły w [dokumentacji dla developerów Home Assistant](https://developers.home-assistant.io)
 
 **action** to wykonanie akcji w Asystencie domowym
 **service** to usługa zdefiniowana w systemie

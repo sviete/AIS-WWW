@@ -14,7 +14,7 @@ Instalację wykonamy na przykładzie aplikacji **Asystent domowy**.
 1. Podłącz bramkę po HDMI do telewizora lub monitora
 
 2. Wyjdź z aplikacji Asystent domowy,
-[Wyjście z aplikacji](/docs/en/ais_bramka_settings.html#ustawienia-aplikacji-asystent-domowy)
+[Wyjście z aplikacji](ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)
 
 3. Przejdź do programu **AIS Explorer**
 

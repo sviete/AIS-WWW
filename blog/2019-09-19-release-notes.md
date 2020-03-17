@@ -29,8 +29,8 @@ Przez kilka miesięcy intensywnie rozwijaliśmy interfejs w aplikacji i niektór
 
 Miło nam Cię poinformować, że od wersji 0.98 nie będziemy już nadpisywali widoków tworzonych przez Ciebie. Będziemy jedynie aktualizować trzy pierwsze widoki (dom, audio i urządzenia). Reszta należy do Ciebie- nadszedł czas, żebyś przejął/przejęła kontrolę nad konfiguracją interfejsu!
 
-W instrukcji wyjaśniamy [jak włączyć tryb konfiguracji](/docs/en/ais_app_ui_config.html).
-W FAQ dodaliśmy przykład, jak dodać [własną kartę z wykresem temperatury procesora](/docs/en/ais_gate_faq_config_yaml.html) oraz bardziej zaawansowany tutorial [jak dodać Node-RED](/docs/en/ais_faq_node_red.html), w którym pokazujemy, jak zainstalować na bramce Node-RED oraz jak zintegrować go z aplikacją Asystent domowy (dziękujemy Łukaszowi G. za podesłanie pomysłu).
+W instrukcji wyjaśniamy [jak włączyć tryb konfiguracji](/docs/ais_app_ui_config.html).
+W FAQ dodaliśmy przykład, jak dodać [własną kartę z wykresem temperatury procesora](/docs/ais_gate_faq_config_yaml.html) oraz bardziej zaawansowany tutorial [jak dodać Node-RED](/docs/ais_faq_node_red.html), w którym pokazujemy, jak zainstalować na bramce Node-RED oraz jak zintegrować go z aplikacją Asystent domowy (dziękujemy Łukaszowi G. za podesłanie pomysłu).
 
 ![AIS dom Tryb nocny](/img/en/blog/0.88_definiuj_vidoki_i_karty.png)
 

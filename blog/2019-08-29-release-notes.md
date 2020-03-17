@@ -22,14 +22,14 @@ Od wersji 0.97 Konfiguracja bramki, Przydatne linki i Dokumentacją będą miał
 #### Konfiguracja bramki
 
 Konfiguracja bramki jest dostępna z menu z pozycji **Ustawienia bramki AIS dom**. Z tego miejsca można zarządzać swoją bramką IoT i Audio.
-Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji [Konfiguracja bramki](/docs/en/ais_bramka_configuration)
+Konfiguracja bramki ma 4 sekcje, są one opisane na nowej stronie dokumentacji [Konfiguracja bramki](/docs/ais_bramka_configuration)
 
 ![AIS dom ustawienia bramki](/img/en/frontend/ais_dom_gate_settings_voice.png)
 
 
 #### Przydatne linki
 
-Linki do serwisów działających na bramce umieściliśmy jako nową opcję w menu w aplikacji [Przydatne linki](/docs/en/ais_bramka_services)
+Linki do serwisów działających na bramce umieściliśmy jako nową opcję w menu w aplikacji [Przydatne linki](/docs/ais_bramka_services)
 
 ![AIS dom przydatne linki](/img/en/frontend/ais_dom_links.png)
 
@@ -49,7 +49,7 @@ Wszystko, co jest skonfigurowane do uruchamiania przez wywołanie zwrotne, ma pu
 
 Pozwala to na przesyłanie powiadomień do naszej bramki z Internetu.
 
-W ten sposób możemy np. powiadamiać bramkę o naszej lokalizacji z aplikacji mobilnej - opcja opisana szerzej w [Wykrywanie obecności](/docs/en/ais_bramka_presence_detection.html)
+W ten sposób możemy np. powiadamiać bramkę o naszej lokalizacji z aplikacji mobilnej - opcja opisana szerzej w [Wykrywanie obecności](/docs/ais_bramka_presence_detection.html)
 
 ![AIS dom webhooks](/img/en/frontend/integration_owntracks.png)
 
@@ -61,7 +61,7 @@ i/lub z serwisu IFTTT
 
 ![AIS dom webhooks](/img/en/frontend/integration_ifttt.png)
 
-Zarządzanie powiadomieniami zwrotnymi dostępne jest w [konfiguracji zdalnego dostępu do bramki](/docs/en/ais_bramka_configuration.html#konfiguracja-zdalnego-dostępu-do-bramki)
+Zarządzanie powiadomieniami zwrotnymi dostępne jest w [konfiguracji zdalnego dostępu do bramki](/docs/ais_bramka_configuration.html#konfiguracja-zdalnego-dostępu-do-bramki)
 ![AIS dom webhooks](/img/en/frontend/ais_dom_webhooks.png)
 
 ### Nowe repozytorium pakietów binarnych
@@ -72,7 +72,7 @@ Mamy nowe repozytorium pakietów binarnych na własnym serwerze (nie instalujemy
 
 Przełączenie na nowe repozytorium pakietów binarnych:
 1. Wykonaj standardową aktualizację automatyczną
-2. Wykonaj "Pełny reset aplikacji" - przebieg tej procedury opisany jest w dokumentacji [Pełny reset aplikacji](/docs/en/ais_bramka_reset_ais_step_by_step.html), znajduje się tam też wideo prezentujące przebieg procesu pełnego resetu.
+2. Wykonaj "Pełny reset aplikacji" - przebieg tej procedury opisany jest w dokumentacji [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step.html), znajduje się tam też wideo prezentujące przebieg procesu pełnego resetu.
 
 
 ### Pozostałe istotne zmiany
@@ -96,11 +96,11 @@ https:
 
 - Możliwość połączenia się z WiFi przy pierwszym uruchomieniu w 2 kroku kreatora (po założeniu konta, przed wykryciem lokalizacji domu).
 
-[Pierwsze uruchomienie -> Lokalizacja Twojego domu -> Konfiguracja WiFi](/docs/en/ais_bramka_first_run.html#lokalizacja-twojego-domu)
+[Pierwsze uruchomienie -> Lokalizacja Twojego domu -> Konfiguracja WiFi](/docs/ais_bramka_first_run.html#lokalizacja-twojego-domu)
 
 - Możliwość uwierzytelniania za pomocą hasła przy połączeniu ssh.
 
-[Dostęp w sieci lokalnej -> SSH](/docs/en/next/ais_bramka_remote_ssh.html#autentykacja-za-pomocą-hasła)
+[Dostęp w sieci lokalnej -> SSH](/docs/next/ais_bramka_remote_ssh.html#autentykacja-za-pomocą-hasła)
 
 - Poprawione działanie mikrofonu. W przypadku zablokowania mikrofonu dodaliśmy automatyczny reset urządzenia USB, bez fizycznego rozłączania / podłączania.
 
