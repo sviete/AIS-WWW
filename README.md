@@ -44,7 +44,17 @@ rsync -e "ssh -p 7777" --delete --progress --stats -ravzh /home/andrzej/Projects
 on server:
 ```
 cd /var/www/AIS-WWW
-# rm all except apt, ota and audio folder
-rm -rf !(apt|ota|audio)
+# rm all except apt and audio folder
+rm -rf !(apt|audio)
 mv /var/www/html/* /var/www/AIS-WWW
+```
+
+### Update OTA only
+
+1. add files to /static/ota
+2. add info to /static/ota/index.html
+3. commit & push to GitHub
+4. rsync
+```
+rsync -e "ssh -p 7777" --delete --progress --stats -ravzh /home/andrzej/Projects/AIS-WWW/static/ota/ server-user@SERVER-IP:/var/www/AIS-WWW/ota
 ```
