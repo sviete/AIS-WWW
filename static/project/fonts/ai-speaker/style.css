@@ -1,0 +1,67 @@
+@font-face {
+  font-family: 'ai-speaker';
+  src:  url('fonts/ai-speaker.eot?u8p2y6');
+  src:  url('fonts/ai-speaker.eot?u8p2y6#iefix') format('embedded-opentype'),
+    url('fonts/ai-speaker.ttf?u8p2y6') format('truetype'),
+    url('fonts/ai-speaker.woff?u8p2y6') format('woff'),
+    url('fonts/ai-speaker.svg?u8p2y6#ai-speaker') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'ai-speaker' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-ais-design:before {
+  content: "\e907";
+}
+.icon-ais-sound:before {
+  content: "\e908";
+}
+.icon-ais-intelligence:before {
+  content: "\e909";
+}
+.icon-ais-logo .path1:before {
+  content: "\e900";
+  color: rgb(208, 68, 0);
+}
+.icon-ais-logo .path2:before {
+  content: "\e901";
+  margin-left: -1.4091796875em;
+  color: rgb(246, 149, 98);
+}
+.icon-ais-logo .path3:before {
+  content: "\e902";
+  margin-left: -1.4091796875em;
+  color: rgb(255, 189, 119);
+}
+.icon-ais-logo .path4:before {
+  content: "\e903";
+  margin-left: -1.4091796875em;
+  color: rgb(208, 68, 0);
+}
+.icon-ais-logo .path5:before {
+  content: "\e904";
+  margin-left: -1.4091796875em;
+  color: rgb(246, 149, 98);
+}
+.icon-ais-logo .path6:before {
+  content: "\e905";
+  margin-left: -1.4091796875em;
+  color: rgb(255, 189, 119);
+}
+.icon-ais-logo-bw:before {
+  content: "\e906";
+}
