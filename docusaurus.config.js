@@ -1,10 +1,10 @@
 module.exports = {
   title: 'Asystent domowy',
   tagline: 'Lokalny, niezawodny, szybki i prywatny.',
-  url: 'https://araczkowski.github.io',
+  url: 'https://Ai-Speaker.com',
   baseUrl: '/',
   projectName: 'AI-Speaker',
-  organizationName: 'araczkowski',
+  organizationName: 'sviete',
   favicon: 'img/favicon.ico',
   themeConfig: {
     algolia: {
@@ -43,12 +43,8 @@ module.exports = {
           title: 'Zasoby',
           items: [
             {
-              label: 'O projekcie AI-Speaker',
-              to: 'https://www.ai-speaker.com/project/',
-            },
-            {
-              label: 'Pierwsza prezentacja Asystenta',
-              to: 'https://www.ai-speaker.com/project/dom/',
+              label: 'Repozytorium kodów GitHub',
+              href: 'https://github.com/sviete',
             },
             {
               label: 'Repozytorium aktualizacji OTA',
@@ -61,15 +57,19 @@ module.exports = {
           ],
         },
         {
-          title: 'Społeczność',
+          title: 'Informacje',
           items: [
             {
               label: 'Forum społeczności',
               href: 'https://ai-speaker.discourse.group/',
             },
             {
-              label: 'Repozytorium kodów GitHub',
-              href: 'https://github.com/sviete',
+              label: 'O projekcie AI-Speaker',
+              to: 'https://www.ai-speaker.com/project/',
+            },
+            {
+              label: 'Prezentacja Asystenta',
+              to: 'https://www.ai-speaker.com/project/dom/',
             },
           ],
         },
@@ -97,7 +97,7 @@ module.exports = {
         docs: {
           sidebarPath: require.resolve('./sidebars.js'),
           editUrl:
-            'https://github.com/araczkowski/edit/master/',
+            'https://github.com/sviete/AIS-WWW/edit/master/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),

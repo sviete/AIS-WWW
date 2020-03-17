@@ -26,8 +26,25 @@ This command generates static content into the `build` directory and can be serv
 
 ### Deployment
 
+
+#### to GitHub
 ```
 $ GIT_USER=<Your GitHub username> yarn deploy
 ```
 
 If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+
+#### to dom Server
+
+```
+rsync -e "ssh -p 7777" --delete --progress --stats -ravzh /home/andrzej/Projects/AIS-WWW/build/ server-user@SERVER-IP:/var/www/html
+```
+
+on server:
+```
+cd /var/www/AIS-WWW
+# rm all except apt, ota and audio folder
+rm -rf !(apt|ota|audio)
+mv /var/www/html/* /var/www/AIS-WWW
+```

@@ -10,10 +10,12 @@
   },
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.48",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.48",
     "@docusaurus/preset-classic": "^2.0.0-alpha.48",
     "classnames": "^2.2.6",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "color": "^3.1.2"
   },
   "browserslist": {
     "production": [
