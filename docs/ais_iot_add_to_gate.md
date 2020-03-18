@@ -22,4 +22,4 @@ Urządzenia są automatycznie grupowane w podstawowe grupy (przełączniki, czuj
 
 <img src="/img/en/iot/iot_dev_view.png" />
 
-Nasze urzadzenia możemy też łatwo i szybko (za pomocą edytora dostępnego w przeglądarce) wyświetlić na kartach. [Karty](/docs/ais_app_cards) mogą reprezentować pomieszczenia i pięknie wyglądają oraz działają, zarówno na urządzeniach mobilnych, jak i stacjonarnych.
+Nasze urządzenia możemy też łatwo i szybko (za pomocą edytora dostępnego w przeglądarce) wyświetlić na kartach. [Karty](/docs/ais_app_cards) mogą reprezentować pomieszczenia i pięknie wyglądają oraz działają, zarówno na urządzeniach mobilnych, jak i stacjonarnych.
