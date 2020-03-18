@@ -15,10 +15,10 @@ W tym trybie pilot działa na zasadzie zdalnej myszki komputerowej, można nawig
 
 ### Definicja pulpitu
 
-Można zdefiniować w aplikacji specjalny `Pulpit`(dashboard) który będzie prezentował wybrane przez nas elementy i umożliwiał łatwe sterownaie nimi w trybie `Sterowania na monitorze`.
+Można zdefiniować w aplikacji specjalny `Pulpit`(dashboard), który będzie prezentował wybrane przez nas elementy i umożliwiał łatwe sterownaie nimi w trybie `Sterowania na monitorze`.
 
 :::important
-W wersji 0.107 którą wydamy w kwietniu 2020 roku. Dodana zostanie opcja konfiguracji wielu pulpitów(dashboards).
+W wersji 0.107, którą wydamy w kwietniu 2020 roku, dodana zostanie opcja konfiguracji wielu pulpitów (dashboards).
 Po dodaniu tej opcji zaktualizujemy ten opis.
 :::
 
@@ -27,12 +27,12 @@ Po dodaniu tej opcji zaktualizujemy ten opis.
 
 ### Ustawienie wybranego pulpitu
 
-W celu ustaiwnia jaki pulpit ma się wyświetlać na monitorze, z menu `Sterowania na monitorze` wybieramy pozycję **`Ustawienia serwisu Asystent domowy`**:
+W celu ustawienia, jaki pulpit ma się wyświetlać na monitorze, z menu `Sterowania na monitorze` wybieramy pozycję **`Ustawienia serwisu Asystent domowy`**:
 
-![Przejście do ustawień serwra](/img/en/bramka/settings_ais_service.png)
+![Przejście do ustawień serwera](/img/en/bramka/settings_ais_service.png)
 
 Tu możemy wybrać pulpit oraz dostosować jego rozmiar w aplikacji:
-![Wybrór pulpitu](/img/en/remote/remote_select_dashboard.png)
+![Wybór pulpitu](/img/en/remote/remote_select_dashboard.png)
 
 
 ### Wyświetlanie pulpitu
