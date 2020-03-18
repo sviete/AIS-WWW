@@ -68,7 +68,7 @@ conversation: !include conversation.yaml
 ## Wypróbuj działanie nowej komendy
 
 :::important
-Sprawdz konfigurację i uruchom ponownie Asystenta domowego w celu przetesowania nowej komendy
+Sprawdź konfigurację i uruchom ponownie Asystenta domowego w celu przetestowania nowej komendy
 :::
 
 ![Restart](/img/en/remote/check_config_and_restart.png)
@@ -91,12 +91,14 @@ WhenEOD:
       text: "Jest {{ states.sensor.time.state }}. Nie wiem, zapytaj szefa :)."
 ```
 
-**speech** to tekst zwracany do obiektu IntentResponse, tekst z tego obiektu wyświetlany jest a aplikacji w okienu konwersacji z asystentem
+**speech** to tekst zwracany do obiektu IntentResponse, tekst z tego obiektu wyświetlany jest w aplikacji w okienku konwersacji z asystentem
+
 ![Test nowej komendy](/img/en/remote/conversation1.png)
 
 szczegóły w [dokumentacji dla developerów Home Assistant](https://developers.home-assistant.io)
 
 **action** to wykonanie akcji w Asystencie domowym
+
 **service** to usługa zdefiniowana w systemie
 
 **ais_ai_service.say_it**
@@ -107,9 +109,10 @@ Usługi można testować/wywoływać z **Narzędzi deweloperskich**
 ![Test nowej komendy](/img/en/remote/conversation_dev_service.png)
 
 
-**data_template** to zaawansowana funkcjonalność szablonów, pozwalająca dynamicznie kontrolować informacje przekazywane do usługi
+**data_template** to zaawansowana funkcjonalność szablonów, pozwalająca dynamicznie kontrolować informacje przekazywane do usługi,
+
 szczegóły w [dokumentacji dla developerów Home Assistant](https://www.home-assistant.io/docs/configuration/templating/)
 
-Szablony możesz tworzyć/sprwawdzać w **Narzędziach deweloperskich**
+Szablony możesz tworzyć/sprawdzać w **Narzędziach deweloperskich**
 
 ![Test nowej komendy](/img/en/remote/conversation_dev_template.png)
