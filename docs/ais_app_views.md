@@ -4,7 +4,7 @@ sidebar_label: Widoki
 ---
 
 :::important
-W wersji 0.107 którą wydamy w kwietniu 2020 roku. Dodana zostanie opcja konfiguracji wielu pulpitów(dashboards).
+W wersji 0.107, którą wydamy w kwietniu 2020 roku, dodana zostanie opcja konfiguracji wielu pulpitów (dashboards).
 Po dodaniu tej opcji zaktualizujemy ten opis.
 :::
 
