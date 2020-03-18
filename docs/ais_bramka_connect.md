@@ -5,7 +5,7 @@ sidebar_label: Podłączenie
 
 ## Zawartość opakowania
 
-W pudełku znajdziesz bramkę oraz niezbęde akcesoria:
+W pudełku znajdziesz bramkę oraz niezbędne akcesoria:
 
  * Bramka
  * Zasilacz
