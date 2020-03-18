@@ -6,12 +6,12 @@ sidebar_label: API systemu
 
 ## Wprowadzenie
 
-RESTful API działa na protokole http. Komunikacja poprzez ten protokół odbywa się za pomocą kilku standardowych metod, my wykorzystujemy głównie metodę POST (do wysłania danych) i GET (do pobierania). Webserwisy udostępniane są jako zasoby do których dostęp możliwy jest poprzez odpowiedni adres URL wywoływany z poziomu protokołu http za pomocą określonej metody.
+RESTful API działa na protokole http. Komunikacja poprzez ten protokół odbywa się za pomocą kilku standardowych metod, my wykorzystujemy głównie metodę POST (do wysłania danych) i GET (do pobierania). Webserwisy udostępniane są jako zasoby, do których dostęp możliwy jest poprzez odpowiedni adres URL wywoływany z poziomu protokołu http za pomocą określonej metody.
 
 Na bramce mamy dwa serwisy RESTful:
 
-1. **API bramki** (dostep do natywnych zasobów systemu Android) na porcie 8122
-2. **Standardowe webowe API Home Assistant/Asystenta domowego** na tych samych portach co serwer WWW (80 i 8180 lub w przypadku dostępu z zewnątrz 433)  
+1. **API bramki** (dostęp do natywnych zasobów systemu Android) na porcie 8122
+2. **Standardowe webowe API Home Assistant/Asystenta domowego** na tych samych portach, co serwer WWW (80 i 8180 lub w przypadku dostępu z zewnątrz 433)  
 
 :::tip
 Interfejsy API akceptują i zwracają tylko obiekty zakodowane w JSON.
@@ -23,9 +23,9 @@ W przykładach poniżej używamy lokalnej nazwy hosta bramki: ais-dom.local, je�
 Obecnie dostępne są 2 zasoby `http://ais-dom.local:8122/text_to_speech` i `http://ais-dom.local:8122/command`
 
 :::caution
-**To api dostępne jest tylko w sieci lokalnej, dlatego nie wymagamy autentykacji i szyfrowania.**
+**To api dostępne jest tylko w sieci lokalnej, dlatego nie wymagamy uwierzytelnienia i szyfrowania.**
 
-Jeżeli chcesz wywołać API na bramce z zewnątrz, to robimy to przez API Asystenta domowego, tam wymagamy autentykacji i mamy szyfrowanie (protokół https). Całe lokalne API bramki jest dostępne przez API Asystenta domowego - opisujemy to dokładnie poniżej.
+Jeżeli chcesz wywołać API na bramce z zewnątrz, to robimy to przez API Asystenta domowego, tam wymagamy uwierzytelnienia i mamy szyfrowanie (protokół https). Całe lokalne API bramki jest dostępne przez API Asystenta domowego - opisujemy to dokładnie poniżej.
 :::
 
 
@@ -42,7 +42,7 @@ http://ais-dom.local:8122/text_to_speech
 
 ### Zasób /command
 
-Ten zasób pozwala nam na wysłanie komendy do wykonania, przykładowa komenda to wysłanie audio do odtwarzania na bramce:
+Ten zasób pozwala nam na wysłanie komendy do wykonania. Przykładowa komenda to wysłanie audio do odtwarzania na bramce:
 
 ```
 curl -v --header "Content-Type: application/json" \
@@ -83,10 +83,10 @@ Asystent Domowy udostępnia serwer WWW na porcie 80 oraz 8180
 * http://ais-dom.local:8180/api/ tu znajduje się RESTful API
 
 
-### Wywoływanie/testowanie usług w apllikacji
+### Wywoływanie/testowanie usług w aplikacji
 
 :::tip
-Aby sprawdzić dostępne usługi w aplikacji, z głównego menu przejdź do `Narzędzia deweloperskie` -> `USŁUGI` z tego miejsca możesz wywoływać/testować dowolne usługi dostępne na bramce.
+Aby sprawdzić dostępne usługi w aplikacji, z głównego menu przejdź do `Narzędzia deweloperskie` -> `USŁUGI` Z tego miejsca możesz wywoływać/testować dowolne usługi dostępne na bramce.
 :::
 
 :::important
@@ -97,7 +97,7 @@ Każda usługa ma w aplikacji:
 dlatego nie będziemy szczegółowo opisywać usług w dokumentacji, podamy tu tylko przykładowe wywołania.
 :::
 
-W celu wywołania/przetesotowania usługi:
+W celu wywołania/przetestowania usługi:
 
 1. Zaloguj się do aplikacji Asystent domowy z uprawnieniami `Administrator`.
 2. Przejdź do `Narzędzia deweloperskie` -> `USŁUGI`.
@@ -118,9 +118,9 @@ text: "Cześć, jak się masz?"
 ![Usługi](/img/en/frontend/services_1.png)
 
 :::tip
-Cale RESTful API bramki (opisane szczegółowo powyżej), dostępne jest z poziomu Asystenta domowego za pomocą usługi `ais_ai_service.publish_command_to_frame`.
+Całe RESTful API bramki (opisane szczegółowo powyżej), dostępne jest z poziomu Asystenta domowego za pomocą usługi `ais_ai_service.publish_command_to_frame`.
 
-Dzięki temu możemy wywoływać api na bramce także z zewnątrz, w bezpieczny sposów (szyfrowania i autentykacja tokenem).
+Dzięki temu możemy wywoływać api na bramce także z zewnątrz, w bezpieczny sposób (szyfrowanie i uwierzytelnienie tokenem).
 :::
 
 ![Usługi](/img/en/frontend/services_2.png)
@@ -129,7 +129,7 @@ Dzięki temu możemy wywoływać api na bramce także z zewnątrz, w bezpieczny 
 ### Wywoływanie usług z curl
 
 :::important
-Żeby wywołać API Asystenta domowego z zewnętrznego systemu potrzebujemy token dostępu.
+Żeby wywołać API Asystenta domowego z zewnętrznego systemu, potrzebujemy token dostępu.
 Najpierw z poziomu aplikacji wygenerujmy długoterminowy token dostępu (long-lived access token), który będzie ważny 10 lat.
 :::
 
@@ -150,7 +150,7 @@ kopiujemy token:
 :::caution
 Nie ma możliwości ponownego sprawdzenia wartości tokena, dlatego należy go skopiować w bezpieczne miejsce.
 
-Jeżeli chcemy odwołać dostęp do api to usuwamy token.
+Jeżeli chcemy odwołać dostęp do api, to usuwamy token.
 :::
 
 ![Tokeny](/img/en/frontend/tokens_4.png)
@@ -158,7 +158,7 @@ Jeżeli chcemy odwołać dostęp do api to usuwamy token.
 
 #### Metoda GET na zasobie /api/
 
-Sprawdzamy czy /api/ jest dostępne i czy działa nam autentykacja.
+Sprawdzamy czy /api/ jest dostępne i czy działa nam uwierzytelnianie.
 
 ```bash
 curl -v -H "Authorization: Bearer TOKEN-DOSTĘPU" \
@@ -175,10 +175,10 @@ Zwraca następującą odpowiedź, jeżeli API działa:
 
 ### Metoda POST na /api/services/&lt;domain>/&lt;service>
 
-Komponenty dostępne na bramce udostępniają swoje usługi. Te same usługi komponentu które automatyczne wywołujemy w systemie po wystąpieniu okreśonego zdarzenia można również wywołać z zewnętrznego systemu za pomocą API.
+Komponenty dostępne na bramce udostępniają swoje usługi. Te same usługi komponentu, które automatycznie wywołujemy w systemie po wystąpieniu okreśonego zdarzenia, można również wywołać z zewnętrznego systemu za pomocą API.
 
 
-Przykład wywołania usługi czytanie tekstu przez bramkę za pomocą curl:
+Przykład wywołania usługi czytania tekstu przez bramkę za pomocą curl:
 
 ```bash
 curl -X POST -H "Authorization: Bearer TOKEN-DOSTĘPU" \
