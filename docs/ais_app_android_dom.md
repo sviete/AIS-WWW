@@ -71,7 +71,7 @@ Identyfikator bramki znajdziemy klikając w pozycję "Przydatne linki", w menu p
 
 ## Konfiguracja ustawień apliacji
 
-W każdej chwili możemy przejść do ustawień aplikacji nasiskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji
+W każdej chwili możemy przejść do ustawień aplikacji naciskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji
 
 
 <img src="/img/en/frontend/apk_go_to_settings.png" alt="AIS Dom" width="40%"/>
@@ -96,7 +96,7 @@ Najważniejszy parametr to adres URL lub identyfikator bramki, **należy poprawn
 
 ### Definiowanie gestów
 
-Klikamy na ikonkę po lewej stonie na dole aplikacji żeby przejść do ustawień aplikacji.
+Klikamy na ikonkę po lewej stonie na dole aplikacji, żeby przejść do ustawień aplikacji.
 
 ![Ustawienia aplikacji](/img/en/remote/remote_gesture_mode_1.png)
 
@@ -106,7 +106,7 @@ Z menu dostępnego w ustawieniach wybieramy opcję "Definiowanie gestów"
 ![Definiowanie gestów](/img/en/remote/remote_gesture_mode_2.png)
 
 
-Klikamy przysisk dodaj by przejść do definiowana nowego gestu
+Klikamy przysisk "Dodaj" by przejść do definiowania nowego gestu
 
 ![Definiowanie gestów](/img/en/remote/remote_gesture_mode_3.png)
 
@@ -118,7 +118,7 @@ Rysujemy na ekranie gest i zapisujemy go wraz z komendą
 
 ### Przełączenie w tryb sterowania gestami
 
-Ikona na dolnym pasku aplikacj, umieszczona pomiędzy przejściem do ustawień a mikrofonem obrazuje tryb sterowania w aplikacji, by przełączyć w tryb sterowania gestami możemy kliknąć w tą ikonę w aplikacji mobilnej lub zmienić tryb pilotem radiowym [Zmiana trybu sterowania](/docs/ais_remote_modes).
+Ikona na dolnym pasku aplikacji, umieszczona pomiędzy przejściem do ustawień a mikrofonem obrazuje tryb sterowania w aplikacji, by przełączyć w tryb sterowania gestami możemy kliknąć w tą ikonę w aplikacji mobilnej lub zmienić tryb pilotem radiowym [Zmiana trybu sterowania](/docs/ais_remote_modes).
 
 ![Przełączenie w tryb sterowania gestami](/img/en/remote/remote_gesture_mode_5.png)
 
