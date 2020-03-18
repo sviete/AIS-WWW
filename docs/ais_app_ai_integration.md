@@ -48,12 +48,12 @@ lub
 'Automatyzacja {nazwa automatyzacji}'
 ```
 
-w ten sposób można łatwo dodawać głosowe sterowanie praktycznie dowolnym urządzeniem które mamy zintegrowane w systemie. Przykładowo, gdy chcemy dodać uruchomienie odkurzania głosowo, to wystarczy, że dodamy automatyzację o nazwie np. **Odkurzanie** (lub Start odkurzania) która będzie wywoływała akcję **vacuum.start**. Po zdefiniowanie takiej akcji wystarczy powiedzieć **"Uruchom odkurzanie"** by głosowo uruchomić odkurzanie 💪.
+w ten sposób można łatwo dodawać głosowe sterowanie praktycznie dowolnym urządzeniem, które mamy zintegrowane w systemie. Przykładowo, gdy chcemy dodać uruchomienie odkurzania głosowo, to wystarczy, że dodamy automatyzację o nazwie np. **Odkurzanie** (lub Start odkurzania), która będzie wywoływała akcję **vacuum.start**. Po zdefiniowaniu takiej akcji wystarczy powiedzieć **"Uruchom odkurzanie"**, by głosowo uruchomić odkurzanie 💪
 
 
 ![Automatyzacje](/img/en/frontend/ais_automatization_vacuum_1.png)
 
-W analogiczny sposób możemy dodać kolejne automatyzacje takie jak wstrzymanie (vacuum.pause), wznowienie (vacuum.start), i koniec odkurzania (vacuum.return_to_base), w ten sposób możemy sterować głosowo naszym odkurzaczem.
+W analogiczny sposób możemy dodać kolejne automatyzacje takie jak wstrzymanie (vacuum.pause), wznowienie (vacuum.start) i koniec odkurzania (vacuum.return_to_base). W ten sposób możemy sterować głosowo naszym odkurzaczem.
 
 ![Automatyzacje](/img/en/frontend/ais_automatization_vacuum_2.png)
 
