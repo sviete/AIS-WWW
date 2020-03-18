@@ -133,7 +133,7 @@ Zapytaj "Co to jest ONZ" lub "Kto to jest Andrzej Wajda", by otrzymać zwięzł�
 'Wyszukaj {szukana-fraza}'; 'Znajdź informację o {szukana-fraza}'
 ```
 
-Powiedz "Wikipedia Wielkanoc" lub "Wikipedia Polska" by otrzymać pełny artykół z Wikipedii
+Powiedz "Wikipedia Wielkanoc" lub "Wikipedia Polska" by otrzymać pełny artykuł z Wikipedii
 
 ```text
 'Wikipedia {szukana-fraza}'
