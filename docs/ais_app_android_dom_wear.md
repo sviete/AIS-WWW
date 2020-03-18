@@ -31,7 +31,7 @@ Najłatwiej wykonać konfigurację z bramką za pomocą jednorazowego kodu PIN.
 
 ### Włączenie uwierzytelnienia kodem PIN w aplikacji
 
-W aplikacji Asystent domowy przejdź do **Konfiguracja** **Ustawienia bramki AIS dom**
+W aplikacji Asystent domowy przejdź do **Konfiguracja** a następnie wybierz **Ustawienia bramki AIS dom**
 
 ![Automatyzacje](/img/en/frontend/ais_dom_wizard_2_wear_apk.png)
 
@@ -43,7 +43,7 @@ w sekcji **Szyfrowany tunel** wybierz **GENERUJ KOD PIN**
 
 ![Automatyzacje](/img/en/frontend/ais_dom_wizard_4_wear_apk.png)
 
-kod, który się pojawi przepisz w aplikacji Wear (masz na to 2 minuty)
+kod, który się pojawi, przepisz w aplikacji Wear (masz na to 2 minuty)
 
 ![Automatyzacje](/img/en/frontend/ais_dom_wizard_5_wear_apk.png)
 
@@ -60,6 +60,6 @@ Po pierwszym naciśnięciu mikrofonu pojawi się pytanie o dostęp do mikrofonu
 
 <img src="/img/en/frontend/ais_dom_wizard_8_wear_apk.png" alt="AIS Dom" width="60%"/>
 
-Gdy pozwolimy na dostęp to możemy wysyłać komendy głosowe do bramki AIS dom
+Gdy pozwolimy na dostęp, to możemy wysyłać komendy głosowe do bramki AIS dom.
 
 <img src="/img/en/frontend/ais_dom_wizard_9_wear_apk.png" alt="AIS Dom" width="60%"/>
