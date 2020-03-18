@@ -65,7 +65,7 @@ aby kontynuować należy zatwierdzić warunki serwisu
 
 ### Włączenia API dla Asystenta Google
 
-Kolejny krokiem który należy zrobić po stronie Google jest włączenia API dla Asystenta, w tym celu należy:
+Kolejnym krokiem, który należy zrobić po stronie Google, jest włączenie API dla Asystenta. W tym celu należy:
 
 1. Przejść w nowej karcie przeglądarki do [Google API](https://console.developers.google.com/apis/api/embeddedassistant.googleapis.com/overview)
 
@@ -99,7 +99,7 @@ Wracamy do naszego ekranu integracji w Asystencie domowym i w pole **Poświadcze
 
 ![Konfiguracja Google Home](/img/en/bramka/ais_google_home_13.png)
 
-następnie naciskamy **SUBMIT** by przejść do kolejnego ekranu
+następnie naciskamy **SUBMIT**, by przejść do kolejnego ekranu
 
 
 Klikamy na **link uwierzytelniający** 
@@ -141,7 +141,7 @@ Wracamy do aplikacji Asystent domowy i wklejamy go w pole **Kod**
 
 #### Informacja typu "Zaloguj się"
 
-Jeżeli otrzymujesz informację typu "Zaloguj się na swoje konto", to upewnij się, że na koncie, które dodałeś do integracji z Google Assistant masz możliwość korzystania z Asystenta Google. W tym celu uruchom Google Assistant na tablecie lub telefonie wybierz konto, które autoryzowałeś w integracji na bramce z Asystentem domowym i upewnij się, że działa z telefonu.
+Jeżeli otrzymujesz informację typu "Zaloguj się na swoje konto", to upewnij się, że na koncie, które dodałeś do integracji z Google Assistant masz możliwość korzystania z Asystenta Google. W tym celu uruchom Google Assistant na tablecie lub telefonie, wybierz konto, które autoryzowałeś w integracji na bramce z Asystentem domowym i upewnij się, że działa z telefonu.
 
 Dzieje się tak dlatego, że na niektórych kontach (np. firmowych lub dla edukacji) dodanych w Google administrator kont może decydować o włączeniu dostępu do Asystenta Google.
 
