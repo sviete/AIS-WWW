@@ -17,7 +17,7 @@ Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowan
 
 ## Obsługiwane urządzenia
 
-Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie obsługiwanych jest 496 urządzeń od 99 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Jest to stan na dzień 10 stycznia 2020, projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
+Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie obsługiwanych jest 613 urządzeń od 113 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Jest to stan na dzień 18 marca 2020, projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
 
 ## Dodanie nowego urządzenia Zigbee
 
@@ -41,7 +41,7 @@ Najpierw sprawdź na stronie Zigbee2MQTT w obsługiwanych urządzeniach [instruk
 
 Jeśli nie są dostępne żadne instrukcje, urządzenie można prawdopodobnie sparować przywracając ustawienia fabryczne
 
-### Mapa siseci
+### Mapa sieci
 
 Po sparowaniu urządzenia możemy odświeżyć kartę z mapą sieci Zigbee, by zobaczyć nasze nowe urządzenie podłączone do bramki
 
