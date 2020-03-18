@@ -92,6 +92,6 @@ Biblioteka ta umożliwia aplikacjom (działającym na bramce) na komunikowanie s
 > Dla osób, które nabyły bramki z wcześniejszą wersją oprogramowania, udostępnimy na forum oraz na [osobnej stronie dokumentacji](/docs/ais_app_integration_zigbee) informacje techniczne jak dodać obsługę Zigbee.
 
 
-Po dodaniu urządzenia Zigbee USB CC2531 do portu USB bramki, Asysten domowy poinformuje o tym głosowo oraz automatycznie doda nową opcję w aplikacji:
+Po dodaniu urządzenia Zigbee USB CC2531 do portu USB bramki, Asystent domowy poinformuje o tym głosowo oraz automatycznie doda nową opcję w aplikacji:
 
 ![HID USB](/img/en/bramka/usb_integration_zigbee.png)
