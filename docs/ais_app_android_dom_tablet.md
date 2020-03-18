@@ -29,7 +29,7 @@ Analogicznie jak w [Aplikacji na telefon](/docs/ais_app_android_dom#konfiguracja
 
 ## Konfiguracja ustawień aplikacji związanych z panelem
 
-W każdej chwili możemy przejść do ustawień aplikacji nasiskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji
+W każdej chwili możemy przejść do ustawień aplikacji naciskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji
 
 
 
