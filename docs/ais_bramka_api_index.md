@@ -8,7 +8,7 @@ sidebar_label: API systemu
 
 RESTful API działa na protokole http. Komunikacja poprzez ten protokół odbywa się za pomocą kilku standardowych metod, my wykorzystujemy głównie metodę POST (do wysłania danych) i GET (do pobierania). Webserwisy udostępniane są jako zasoby, do których dostęp możliwy jest poprzez odpowiedni adres URL wywoływany z poziomu protokołu http za pomocą określonej metody.
 
-Na bramce mamy dwa serwisy RESTful:
+Na bramce mamy dwa webowe API:
 
 1. **API bramki** (dostęp do natywnych zasobów systemu Android) na porcie 8122
 2. **Standardowe webowe API Home Assistant/Asystenta domowego** na tych samych portach, co serwer WWW (80 i 8180 lub w przypadku dostępu z zewnątrz 433)  
@@ -18,7 +18,7 @@ Interfejsy API akceptują i zwracają tylko obiekty zakodowane w JSON.
 
 W przykładach poniżej używamy lokalnej nazwy hosta bramki: ais-dom.local, jeżeli bramka nie jest dostępna w Twojej sieci pod tą nazwą to zamiast ais-dom.local użyj jej lokalnego adresu IP.
 :::
-## RESTful API bramki
+## API bramki
 
 Obecnie dostępne są 2 zasoby `http://ais-dom.local:8122/text_to_speech` i `http://ais-dom.local:8122/command`
 
@@ -67,11 +67,11 @@ Dostępne komendy
 | `skipTo` | `100` | Przeskocz do pozycji w Milisekundach (ms) |
 | `tone` | `86` | Odtworzenie tonu , szczegóły w [dokumentacji ToneGenerator Android] (https://developer.android.com/reference/android/media/ToneGenerator) |
 | `setPlayerShuffle` | `false` | Odtwarzanie losowe, przydatne przy Spotify |
-| `setTtsVoice` | `pl-pl-x-oda-local` | Zmiana głosu asystenta, dostępne opcje to: `pl-pl-x-oda-network` - "Jola online", `pl-pl-x-oda-local` - "Jola lokalnie", `pl-pl-x-oda#female_1-local` - "Celina", `pl-pl-x-oda#female_2-local` - "Anżela", `pl-pl-x-oda#female_3-local` - "Asia", `pl-pl-x-oda#male_1-local` - "Sebastian", `pl-pl-x-oda#male_2-local` - "Bartek", `pl-pl-x-oda#male_3-local` - "Andrzej" |
+| `setTtsVoice` | `pl-pl-x-oda-local` | Zmiana głosu asystenta, dostępne opcje to:<ul><li>`pl-pl-x-oda-network` - "Jola online",</li><li>`pl-pl-x-oda-local` - "Jola lokalnie",</li><li>`pl-pl-x-oda#female_1-local` - "Celina",</li><li>`pl-pl-x-oda#female_2-local` - "Anżela",</li><li>`pl-pl-x-oda#female_3-local` - "Asia",</li><li>`pl-pl-x-oda#male_1-local` - "Sebastian",</li><li>`pl-pl-x-oda#male_2-local` - "Bartek",</li><li>`pl-pl-x-oda#male_3-local` - "Andrzej"</li></ul> |
 | `micOn` | `true` | Włączenie mikrofonu |
 | `micOff` | `true` | Wyłączenie mikrofonu |
 | `addBookmark` | `true` | Dodanie zakładki do odtwarzanych multimediów, przydatne przy audiobookach |
-| `goToActivity` | `ActivityMenu` | Przejście do aktywności (ekranu na bramce). Dostępne opcje to: `ActivityMenu` - "Aktywność menu - sterowanie na monitorze", `SplashScreenActivity` - "Sterowanie bez monitora", `ExoPlayerActivity` - "Aktywność odtwarzacz multimediów", `ConsoleActivity` - "Konsola Asystenta domowego", `AndroidSettingsActivity` - "Ustawienia systemu Android", `SettingsActivity`  - "Ustawienia Serwisu Asystent domowy na bramce", `FilesActivity` - "Aplikacja menedżer plików na bramce", `AndroidWifiActivity` - "Ustawienia WiFi w systemie Android" |
+| `goToActivity` | `ActivityMenu` | Przejście do aktywności (ekranu na bramce). Dostępne opcje to:<ul><li>`ActivityMenu` - "Aktywność menu - sterowanie na monitorze",</li><li>`SplashScreenActivity` - "Sterowanie bez monitora",</li><li>`ExoPlayerActivity` - "Aktywność odtwarzacz multimediów",</li><li>`ConsoleActivity` - "Konsola Asystenta domowego", </li><li>`AndroidSettingsActivity` - "Ustawienia systemu Android",</li><li>`SettingsActivity`  - "Ustawienia Serwisu Asystent domowy na bramce",</li><li>`FilesActivity` - "Aplikacja menedżer plików na bramce",</li><li>`AndroidWifiActivity` - "Ustawienia WiFi w systemie Android",</li><li>`SpotifyActivity` - "Przejście do aplikacji Spotify"</li></ul>  |
 
 
 
@@ -118,7 +118,7 @@ text: "Cześć, jak się masz?"
 ![Usługi](/img/en/frontend/services_1.png)
 
 :::tip
-Całe RESTful API bramki (opisane szczegółowo powyżej), dostępne jest z poziomu Asystenta domowego za pomocą usługi `ais_ai_service.publish_command_to_frame`.
+Całe API bramki (opisane szczegółowo powyżej), dostępne jest z poziomu Asystenta domowego za pomocą usługi `ais_ai_service.publish_command_to_frame`.
 
 Dzięki temu możemy wywoływać api na bramce także z zewnątrz, w bezpieczny sposób (szyfrowanie i uwierzytelnienie tokenem).
 :::
