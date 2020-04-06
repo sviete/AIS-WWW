@@ -6,7 +6,7 @@ title: Wersja systemu 0.104.5 Słucham Cię
 ---
 
 
-# Słucham Cię :)
+# 0.104.5 Słucham Cię :)
 
 ![](/img/en/blog/202002/ai-speaker.png)
 

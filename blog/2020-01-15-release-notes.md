@@ -8,14 +8,15 @@ title: Wersja systemu 0.103 Zigbee
 ## Wersja systemu 0.103.8 z dnia 15 stycznia 2020, Zigbee!
 
 
-[](/img/en/blog/202001/zigbee2mqtt_logo.png)
+![](/img/en/blog/202001/zigbee2mqtt_logo.png)
 
-W tej wersji dodaliśmy możliwość łatwego korzystania z urządzeń **Zigbee bez potrzeby stosowania bramek producentów**. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
+W tej wersji dodaliśmy możliwość łatwego korzystania z urządzeń **Zigbee bez potrzeby stosowania bramek producentów**.
+<!--truncate-->
+Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
 
 Integracja sprowadza się do włożenia do portu USB [odpowiednio zaprogramowanego](https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531.html)  urządzenia CC2531.
 Asystent domowy sam [rozpozna to urządzenie USB](/docs/ais_app_integration_usb#zigbee-usb-sniffer), poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie pojawi się nowa opcja w aplikacji.
 
-<!--truncate-->
 
 ![Zigbee2MQTT](/img/en/blog/202001/zigbee2mqtt_new_menu.png)
 

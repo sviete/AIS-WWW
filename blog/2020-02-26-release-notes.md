@@ -6,7 +6,13 @@ title: Wersja systemu 0.105.7 Dyski zdalne i wymienne
 ---
 
 
-##  0.105.7
+##  0.105.7 Dyski zdalne i wymienne
+
+![Dyski](/img/en/frontend/drives_all.png)
+
+
+<!--truncate-->
+
 :::tip
 UWAGA Przed aktualizacją zalecamy wykonać [`kopię zapasową konfiguracji`](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.
 :::

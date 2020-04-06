@@ -16,12 +16,12 @@ Integracja działa poprzez oficjalne [Google Assistant SDK](https://developers.g
 
 ![Konfiguracja AIS Google Home](/img/en/bramka/ais_google_home_1.png)
 
+<!--truncate-->
 Czyli [Asystentka Jolka](/docs/ais_app_ai_integration.html) działa lokalnie i ogarnia rzeczy w Twoim domu, a jeśli chcesz możesz włączyć Assystenta Google i uzyskać na bramce funkcjonalność urządzenie typu Google Home 🥳
 
 W przypadku gdy zapytasz o coś lub wyślesz komendę do Asystenta Google to dostaniesz oryginalną odpowiedz audio zwracane przez serwis Google Assistant. Więc możesz rozmawiać z dwoma asystentami na raz 👧 👨 🚀
 
 
-<!--truncate-->
 ## Android SDK
 
 Wszystkie [nasze aplikacje Android](/docs/ais_app_android_index.html) zostały zmigrowane do SdkVersion 28.

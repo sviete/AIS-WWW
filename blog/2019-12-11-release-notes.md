@@ -7,19 +7,23 @@ title: Wersja systemu 0.102 Galeria i QR kody
 
 ## Wersja systemu 0.102.4 z dnia 11 grudnia 2019 roku,
 
+
+![](/img/en/blog/201912/galeria2.png)
+
+<!--truncate-->
+
 ## Galeria
 
 Żeby ułatwić dodawanie zdjęć pomieszczeń, do aplikacji dodaliśmy nowy komponent galeria. Czyli wystarczy wysłać zejęcie do urządzenia a następnie umieścić je na karcie w aplikacji.
 Jak to działa opisaliśmy w [Konfiguracja interfejsu użytkownika](/docs/ais_app_ui_config#dodanie-własnej-karty)
 
-[](/img/en/blog/201912/galeria.png)
+![](/img/en/blog/201912/galeria.png)
 
 
 Od tej wersji do galerii można dodawać łatwo (z aplikacji) zdjęcia i wyświetlać je w interfejsie jako karty dla urządzeń. W kolejnej wersji opiszemy, w jaki sposób dodać automatyzację, która po wystąpieniu zdarzenia (np. dzwonek do drzwi) wykonuje zdjęcie kamerą lub nagrywa krótki filmik i wyświetlić go na telewizorze, lub wysłać powiadomienie.
 
-[](/img/en/blog/201912/galeria2.png)
 
-<!--truncate-->
+
 
 ## Kreator i skanowanie identyfikatora bramki
 

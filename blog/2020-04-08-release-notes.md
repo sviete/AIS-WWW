@@ -7,8 +7,9 @@ title: Wersja systemu 0.107.7
 
 #  0.107.7
 
-## Pulpity, logi i baza danych
+## Fibaro, Pulpity, logi i baza danych
 
+<!--truncate-->
 
 :::important
 Migracja do nowej wersji będzie niestety bardziej skomplikowana niż normalna aktualizacja, ponieważ musimy odinstalować aplikację i zainstalować jej nową wersję (podpisaną naszym kluczem).

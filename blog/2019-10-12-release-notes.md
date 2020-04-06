@@ -11,13 +11,13 @@ title: Wersja systemu 0.99 Automatyczne Aktualizacje, SUPLA, TAURON eLicznik
 
 W ustawieniach bramki dodaliśmy możliwość włączenia automatycznych aktualizacji. Jeśli je włączysz, to codziennie sprawdzimy i automatycznie zainstalujemy dostępne aktualizacje składowych systemu Asystent domowy.
 
-<!--truncate-->
-
 <div>
   <video width="100%" height="100%" playsinline autoplay muted loop>
     <source src="/video/autoupdate.webm" type="video/webm"/>
   </video>
 </div>
+
+<!--truncate-->
 
 
 > Cześć aktualizacji będzie wymagała restartu urządzenia, który też zostanie automatycznie wykonany.

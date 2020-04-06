@@ -5,13 +5,17 @@ authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.106.7 Migracja serwera na bramce
 ---
 
-#  0.106.7
-
-## Migracja serwera
+#  0.106.7 Migracja serwera
 
 
 Po 1.5 roku testów zdecydowaliśmy się na większą zmianę w architekturze naszego systemu oraz zmianę w sposobie instalowania aktualizacji.
+
+![Serwer](/img/en/blog/202003/new_server.png)
+
+<!--truncate-->
+
 Głównym powodem zmiany jest potrzeba uzyskania pełnej kontroli nad aktualizacjami oprogramowania na bramce. Nasze pierwotne założenie było takie, że wszystkie aplikacje podpisywaliśmy w Google Play i dystrybuowaliśmy przez Google Play. Niestety nie da się w żaden sposób zapewnić czasu instalacji przez Google Play — nikt nie zna algorytmu, kiedy instalacja zostanie wydana i trafi na urządzenie. Dlatego zdecydowaliśmy się na samodzielne podpisywanie i aktualizowanie aplikacji na bramce. Aktualizacje aplikacji na telefon/tablet/zegarek są mniej krytyczne i te oczywiście nadal będą wykonywane przez Google Play.
+
 
 :::important
 Migracja do nowej wersji będzie niestety bardziej skomplikowana niż normalna aktualizacja, ponieważ musimy odinstalować aplikację i zainstalować jej nową wersję (podpisaną naszym kluczem).
