@@ -25,6 +25,7 @@ module.exports = {
           "ais_bramka_configuration_tts",
           "ais_bramka_configuration_night_mode",
           "ais_bramka_configuration_remote_access",
+          "ais_bramka_configuration_logs_and_db",
           "ais_bramka_configuration_restart_stop"
         ]
       },
@@ -65,6 +66,7 @@ module.exports = {
   "Aplikacja": {
     "Aplikacja internetowa": [
       "ais_app_index",
+      "ais_app_dashboards",
       "ais_app_views",
       "ais_app_cards",
       "ais_app_ui_config"
