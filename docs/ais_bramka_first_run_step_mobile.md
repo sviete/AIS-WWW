@@ -3,8 +3,9 @@ title: "Pierwsze uruchomienie - Aplikacja mobilna"
 sidebar_label: Aplikacja mobilna
 ---
 
-
-Docelowo (do wersji 1.0.0) cały proces dodawania aplikacji dodatkowych i łączenia ich z bramką będzie częścią początkowej konfiguracji.
+:::tip
+Docelowo (do wersji 1.0.0) cały proces dodawania aplikacji mobilnej i łączenia jej z bramką będzie częścią początkowej konfiguracji.
+:::
 
 Jeśli chcesz, możesz zainstalować naszą aplikację mobilną i połączyć się z niej ze swoją bramką.
 By to zrobić, przejdź do opisu aplikacji [Aplikacja Andoird AIS dom](/docs/ais_app_android_dom), w którym krok po kroku prezentujemy proces konfiguracji aplikacji mobilnej i połączenia z bramką.

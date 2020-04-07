@@ -1,6 +1,6 @@
 ---
-title: "Automatyzacja Asystenta domowego"
-sidebar_label: Automatyzacja
+title: "Definiowanie Automatyzacji"
+sidebar_label: Definiowanie Automatyzacji
 ---
 
 ## Wprowadzenie

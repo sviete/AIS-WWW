@@ -29,8 +29,15 @@ module.exports = {
           "ais_bramka_configuration_restart_stop"
         ]
       },
-      "ais_bramka_automation",
-      "ais_bramka_presence_detection"
+      {
+        "type": "category",
+        "label": "Automatyzacje",
+        "items": [
+          "ais_bramka_automation",
+          "ais_bramka_automation_helpers",
+          "ais_bramka_presence_detection"
+        ]
+    },
     ],
     "Dostęp w sieci lokalnej": [
       "ais_bramka_remote_index",
