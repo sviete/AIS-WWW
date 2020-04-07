@@ -15,7 +15,7 @@ W tej sekcji możesz skonfigurować zapis logów do pliku na wymiennym dysku ora
 
 ## Zapis zdarzeń do bazy danych
 
-W tej sekcji możemy wybrać silnik bazodanowy, do rejestracji zdarzeń.
+W tej sekcji możemy wybrać silnik bazodanowy do rejestracji zdarzeń.
 
 Najprostszy wybór to baza SQLite, która nie wymaga konfiguracji i może rejestrować dane w pamięci - taka baza jest automatycznie używana, gdy rejestracja zdarzeń włączana jest przez integrację (np. Historia lub Dziennik).
 
