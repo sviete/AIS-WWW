@@ -16,13 +16,13 @@ W aplikacji Asystent domowy otwórz menu (klikając ikonę w lewym górnym rogu)
 
 ## Ekran z listą Pomocników Automatyzacji
 
-Na ekranie z listą "Pomocników Automatyzacji" możemy wybrać pozycję do edycji (klikając w nią) lub zdefiniować nowy element - klikająć przycisk "plus" w prawym dolnym rogu.
+Na ekranie z listą "Pomocników Automatyzacji" możemy wybrać pozycję do edycji (klikając w nią) lub zdefiniować nowy element - klikając przycisk "plus" w prawym dolnym rogu.
 
 ![Pomocnicy automatyzacji](/img/en/bramka/automation_helpers2.png)
 
 ## Definicja Pomocnika Automatyzacji
 
-Z listy wybieramy jakiego typu chcemy utworzyć element, by przejść do definicji jego atrybutów.
+Z listy wybieramy jakiego typu element chcemy utworzyć, by potem przejść do definicji jego atrybutów.
 
 ![Pomocnicy automatyzacji](/img/en/bramka/automation_helpers3.png)
 
@@ -39,11 +39,12 @@ Po zdefiniowaniu atrybutów jak na obrazku powyżej naciskamy "UTWÓRZ".
 
 ### Umieszczamy Pomocnika na karcie
 
+
 Przechodzimy do naszego pulpitu i na wybranym widoku tworzymy nową kartę.
-Może to być najprostrza karta wyświetlająca nasz element ``input_datetime.budzik``
+Może to być najprostsza karta wyświetlająca nasz element ``input_datetime.budzik``
 ![Pomocnik karta](/img/en/bramka/automation_helpers5.png)
 
-Oczywiście kartę możemy "uładnić" dodając ręcznie obrazek, np. zdjęcie szefowej, która czeka na raport itd.:
+Oczywiście kartę możemy "upiększyć" dodając ręcznie obrazek, np. zdjęcie szefowej, która czeka na raport itd.:
 
 ![Pomocnik karta](/img/en/bramka/automation_helpers6.png)
 
@@ -69,7 +70,7 @@ entities:
 
 ![Pomocnik automatyzacja](/img/en/bramka/automation_helpers7.png)
 
-Jako wyzwalacz możemy zastosować szablon - sprawdzimy w nim czy aktualny czas jest równy ustawionemu w polu budzik:
+Jako wyzwalacz możemy zastosować szablon - sprawdzimy w nim, czy aktualny czas jest równy ustawionemu w polu budzik:
 
 ![Pomocnik szablon](/img/en/bramka/automation_helpers8.png)
 
