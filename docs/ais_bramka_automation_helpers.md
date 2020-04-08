@@ -74,7 +74,7 @@ Jako wyzwalacz możemy zastosować szablon - sprawdzimy w nim, czy aktualny czas
 
 ![Pomocnik szablon](/img/en/bramka/automation_helpers8.png)
 
-#### Kod szablonu:
+#### Cały kod szablonu:
 
 ``` javascript
 {{ states('sensor.time') ==
@@ -86,16 +86,46 @@ Jako wyzwalacz możemy zastosować szablon - sprawdzimy w nim, czy aktualny czas
 Kody szablonów możesz sprawdzać w "Narzędzia developerskie" -> "SZABLON"
 :::
 
+Przejdz do sprawdzenia szablonu i w pole edytora szablonów wklej taki kod:
+
+``` javascript
+{{ states('sensor.time') }}
+```
+
+żeby zobaczyć stan sensora czasu w systemie.
+
 ![Pomocnik szablon](/img/en/bramka/automation_helpers9.png)
+
+``sensor.time`` to wbudowany element systemu Asystent domowy - godzina prezentowana w aplikacji.
+
+![Pomocnik szablon](/img/en/bramka/automation_helpers101.png)
+
+Następnie by zobaczyć, odpowiednio sformatowany, aktualny status elementu budzik, wklej taki kod:
+
+``` javascript
+{{ (state_attr('input_datetime.budzik', 'timestamp') | int | timestamp_custom('%H:%M', True)) }}
+```
 
 ![Pomocnik szablon](/img/en/bramka/automation_helpers10.png)
 
+Cały kod sprawdzający, czy aktualna godzina i minuta jest równa nastawionej godzinie i minucie na budziku:
+
+``` javascript
+{{ states('sensor.time') ==
+(state_attr('input_datetime.budzik', 'timestamp') | int
+| timestamp_custom('%H:%M', True)) }}
+```
+
 ![Pomocnik szablon](/img/en/bramka/automation_helpers11.png)
 
-#### Wykonanie akcji
+Gdy warunek będzie spełniony, czyli wartość sensor.time == wartości naszego elementu input_datetime.budzik automatyzacja zostanie uruchomiona.
 
-Akcja automatyzacji może być tekstem, którym Jolka nas obudzi, dodatkowo możemy włączyć radio lub dowolną inną muzykę z dysku czy serwisu zdalnego.
+
+#### Wykonanie akcji automatyzacji
+
+Akcja automatyzacji może być tekstem, który Jolka przeczyta, żeby nas obudzić, dodatkowo możemy włączyć radio lub dowolną inną muzykę z dysku czy serwisu zdalnego.
 
 ![Pomocnik szablon](/img/en/bramka/automation_helpers12.png)
 
-Oczywiście w razie potrzeby możemy też zaświecić światło, stopniowo zwiększać głośność audio itp.
+Akcja opóźnienie pomiędzy akcją powiedzenia tekstu przez Jolkę a akcją włączenia radia, jest po to, żebyśmy zdążyli usłyszeć tekst pobudki, zanim zacznie grać radio.
+Oczywiście to tylko przykład, w razie potrzeby możemy też zaświecić światło, stopniowo zwiększać głośność audio itp.
