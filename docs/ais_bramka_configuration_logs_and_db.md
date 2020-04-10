@@ -23,7 +23,46 @@ Gdy system generuje więcej zdarzeń lub gdy chcesz mieć dostęp do historii, t
 
 ![Konfiguracja zapisu zdarzeń](/img/en/bramka/bramka_ais_dom_config_db.png)
 
+### Konfiguracja połączeń z bazami zdalnymi
 
- Żeby utrzymać system w dobrej kondycji, codziennie dokładnie o godzinie 4:12 rano Asystent usuwa z bazy zdarzenia i stany starsze niż określona liczba dni (2 dni dla bazy w pamięci urządzenia i domyślnie 10 dla innych lokalizacji).  W tym miejscu możesz określić liczbę dni, których historia ma być przechowywana w zdalnej bazie danych.
 
- ![Konfiguracja usuwania zdarzeń z bazy](/img/en/bramka/bramka_ais_dom_config_db2.png)
+Połączenia z bazami danych wymagają doinstalowania sterowników, nie instalujemy ich domyślnie wszystkich, żeby nie zajmować miejsca na urządzeniu.
+Poniżej pokazujemy jak je łatwo doinstalować w narzędziach developerskich. Sprowadza się to do 3 kroków:
+1. Przejście w menu do "Narzędzia developerskie"
+2. Wybranie zakładki "KONSOLA"
+3. Wpisanie w konsoli polecenia/poleceń (poniżej), które spowodują instalację sterowników.
+
+![Konfiguracja zapisu zdarzeń](/img/en/bramka/bramka_ais_dom_config_db_mariadb.png)
+
+1. MariaDB
+
+Tu potrzebne jest doinstalowanie pakietu Pythona, robimy to za pomocą komendy:
+
+``` bash
+pip install pymysql
+```
+
+
+2. MySQL
+
+Instalujemy najpierw binarkę a następnie pakiet Pythona:
+
+``` bash
+apt install mariadb
+pip install mysqlclient
+```
+
+3. PostgreSQL
+
+Instalujemy najpierw binarkę a następnie pakiet Pythona:
+
+``` bash
+apt install postgresql
+pip install psycopg2
+```
+
+## Automatyczne czyszczenie historii
+
+Żeby utrzymać system w dobrej kondycji, codziennie dokładnie o godzinie 4:12 rano Asystent usuwa z bazy zdarzenia i stany starsze niż określona liczba dni (2 dni dla bazy w pamięci urządzenia i domyślnie 10 dla innych lokalizacji).  W tym miejscu możesz określić liczbę dni, których historia ma być przechowywana w zdalnej bazie danych.
+
+![Konfiguracja usuwania zdarzeń z bazy](/img/en/bramka/bramka_ais_dom_config_db2.png)
