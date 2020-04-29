@@ -99,6 +99,11 @@ module.exports = {
           editUrl:
             'https://github.com/sviete/AIS-WWW/edit/master/',
         },
+        blog: {
+          editUrl:
+            'https://github.com/sviete/AIS-WWW/edit/master/',
+          postsPerPage: 10,
+        },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
         },
