@@ -55,11 +55,35 @@ to dopiero początek, w kolejnej wersji strona integracji będzie znacznie ładn
 
 ## ![Bugs](/img/en/blog/202004/bug.png) Poprawki błędów
 
-Poprawiliśmy sporo błędów, ale to też dopiero początek. W nadchodzących wydaniach pojawi się integracja z Z-Wave oraz sporo zmian w aplikacji mobilnej - powiadomienia oraz raportowanie lokalizacji.
+Poprawiliśmy sporo błędów, ale to też dopiero początek. Powoli zamykamy naszą "podstawową funkcjonalność dostępną z pudełka" i będziemy skupiać się na poprawkach.
+
+W nadchodzących wydaniach pojawi się integracja z Z-Wave, piszemy o tym na forum:
+https://ai-speaker.discourse.group/t/z-wave-zapowiedz-integracji-przez-dongle-zwave2mqtt/413
+
+![zwave2mqtt](/img/en/blog/202004/zwave2mqtt.png)
+
+oraz sporo zmian w aplikacji mobilnej - powiadomienia oraz raportowanie lokalizacji, o tym też więcej na forum:
+https://ai-speaker.discourse.group/t/planowane-zmiany-w-aplikacji-mobilnej/412
+
+
+![zwave2mqtt](/img/en/blog/202004/authentication.png)
+
+
 To będzie nasza minimalna funkcjonalność z pudełka. Po tym skupimy się na dopracowaniu całości i poprawkach ułatwiających używanie systemu.
 
 
 Postępy z prac można śledzić w naszych repozytoriach kodu na github https://github.com/sviete
+
+
+Wszystkich chętnych posiadających zdolności programistyczne zapraszamy do kodowania :)
+
+Dodaliśmy nowy dział na forum - wprowadzenie do programowania na bramce, w którym pokazujemy na prostych przykładach jak dodać na bramce program w C, Python, Node.JS i Bash, a następnie wywołać go z poziomu Asystenta domowego.
+
+https://ai-speaker.discourse.group/c/programowanie/15
+
+To dział dla Tych śmiałków, którzy wolą się uczyć i zmieniać własną rzeczywistość 💪 niż czekać i narzekać na forach, że Google, Apple czy Amazon nie dał nam funkcjonalności x. 
+Podejściu "dej mnie mam horom curke" w AI-Speaker mówimy stanowcze... chyba nie ;)
+
 
 
 
