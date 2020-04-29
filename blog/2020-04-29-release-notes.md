@@ -31,7 +31,7 @@ W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/d
 ### [692 urządzenia od 123 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html) 🥰
 
 
-Dodaliśmy możliwość wykonania kopii konfiguracji Zigbee2Mqtt. Zdecydowaliśmy się dodać to jako oddzielną opcję w aplikacji. Dzięki temu w zależności od potrzeby można dodawać/przywracać tylko kopię konfiguracji Home Assistant lub Zigbee2Mqtt albo wszystko.
+Dodaliśmy możliwość wykonania kopii konfiguracji Zigbee2Mqtt. Zdecydowaliśmy się dodać to jako oddzielną opcję w aplikacji. Dzięki temu, w zależności od potrzeby, można dodawać/przywracać tylko kopię konfiguracji Home Assistant, Zigbee2Mqtt lub wszystko razem.
 
 ![Kopia konfiguracji bramki](/img/en/bramka/config_ais_dom_section1_2.png)
 
