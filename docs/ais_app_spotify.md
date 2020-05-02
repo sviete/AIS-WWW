@@ -43,11 +43,9 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 
 * Włącz pilotem tryb "Sterowanie na monitorze" [Tryby działania pilota](/docs/ais_remote_modes)
 
-* Przejdź do ustawień aplikacji klikając na ikonkę w lewym dolnym rogu ekranu aplikacji [Ustawienia aplikacji](/docs/ais_bramka_settings#ustawienia-aplikacji-asystent-domowy)
+* Wybierz przycisk z ikonką  -> "Spotify"
 
-* Wybierz opcję "Integracje" -> "Spotify"
-
-![Przejście do Spotify](/img/en/bramka/spotify_settings.png)
+![Przejście do Spotify](/img/en/frontend/spotify_settings.jpeg)
 
 * Zaloguj się do serwisu Spotify
 
@@ -59,7 +57,7 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 * Otwórz ***Ustawienia*** -> ***Integracje*** klikając ikonę "rozwijanego menu" w lewym górnym rogu
 
 
-![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s1.png)
+![Konfiguracja Spotify](/img/en/bramka/go_to_integrations.png)
 
 
 * Uruchom konfigurator integracji ***AIS Serwis Spotify***
@@ -67,7 +65,7 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 ![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s2.png)
 
 
-* Kliknij na link "Uwierzytelnienie na Spotify"
+* Kliknij "ZATWIERDŹ"
 
 ![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s2.1.png)
 
@@ -75,7 +73,7 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 * Zaloguj się do Spotify na swoje konto (to samo, na które logowaleś się w punkcie 2.)
 
 
-* Zezwól aplikacji AI-Speaker na dostęp
+* Zezwól aplikacji AI-Speaker na dostęp do Spotify
 
 ![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s3.png)
 
