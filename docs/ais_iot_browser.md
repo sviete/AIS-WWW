@@ -6,7 +6,7 @@ sidebar_label: Obsługa urządzenia z przeglądarki
 ## Wprowadzenie
 
 :::tip
-Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[`Obsługa urządzenia z bramki AIS dom`](/docs/ais_iot_gate) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.**
+Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/docs/ais_iot_gate) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.**
 :::
 
 Urządzenie z oprogramowaniem **AIS dom** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak lokalna bramka czy zdalny serwer (chmura). Poniżej przedstawiamy, w jaki sposób urządzenie może być sterowane za pomocą dowolnej przeglądarki internetowej.
@@ -54,7 +54,7 @@ Sprawdź, czy podałeś poprawne dane do sieci i kliknij **Zapisz**, aby zastoso
 -----
 Wysłaliśmy do urządzenia parametry, z jaką siecią WiFi ma się łączyć (skonfigurowaliśmy je do działania w naszej sieci WiFi). **Teraz należy ustalić jaki adres IP ma urządzenie w naszej sieci** - ten adres nadaje router i nie wiemy, jaki on jest.
 
-Żeby ustalić, jaki adres IP ma urządzenie w naszej sieci, należy przejść do kolejnego punktu tej instrukcji [`Adres IP urządzenia`](/docs/ais_iot_browser#adres-ip-urządzenia).
+Żeby ustalić, jaki adres IP ma urządzenie w naszej sieci, należy przejść do kolejnego punktu tej instrukcji [Adres IP urządzenia](/docs/ais_iot_browser#adres-ip-urządzenia).
 
 Po ustaleniu adresu IP będziemy mogli otworzyć ten adres IP za pomocą przeglądarki internetowej z dowolnego urządzenia (komputera, telefonu, tabletu itd.) podłączonego do tej samej sieci i będziemy mieli pełny dostęp do urządzenia w swojej lokalnej sieci.
 :::

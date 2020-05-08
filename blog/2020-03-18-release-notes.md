@@ -21,7 +21,7 @@ Głównym powodem zmiany jest potrzeba uzyskania pełnej kontroli nad aktualizac
 Migracja do nowej wersji będzie niestety bardziej skomplikowana niż normalna aktualizacja, ponieważ musimy odinstalować aplikację i zainstalować jej nową wersję (podpisaną naszym kluczem).
 Dokładną procedurę "krok po kroku" opisujemy na forum. **Zaplanuj sobie migrację, gdy będziesz miał czas (około jednej godziny), żeby wykonać spokojnie całość krok po kroku wg instrukcji:**
 
-[`Link do instrukcji na forum`](https://ai-speaker.discourse.group/t/wip-reczna-akualizacja-serwsiu-ais-dom-na-bramce/299).
+[Link do instrukcji na forum](https://ai-speaker.discourse.group/t/wip-reczna-akualizacja-serwsiu-ais-dom-na-bramce/299).
 :::
 
 ![Serwer](/img/en/blog/202003/new_server.png)
@@ -33,7 +33,7 @@ Dokładną procedurę "krok po kroku" opisujemy na forum. **Zaplanuj sobie migra
 Nic się nie stanie, jeśli nie wykonasz migracji - nadal będziesz dostawał aktualizację aplikacji Asystent domowy.
 Wszystko będzie działało tak jak dotychczas. Nie będziesz miał jedynie dostępu do najnowszych usług takich jak włączanie mikrofonu czy odtwarzanie wideo.
 
-Jeśli coś pójdzie nie tak i nie uda Ci się wykonać migracji, to też nic się nie stanie. W takim przypadku napisz do nas na serwis `info@sviete.pl` i postaramy się pomóc - w najgorszym wypadku, wyślesz nam bramkę a my ją zaktualizujemy - oczywiście usługa bezpłatna, relax :)
+Jeśli coś pójdzie nie tak i nie uda Ci się wykonać migracji, to też nic się nie stanie. W takim przypadku napisz do nas na serwis: [info@sviete.pl](mailto:info@sviete.pl) i postaramy się pomóc - w najgorszym wypadku, wyślesz nam bramkę a my ją zaktualizujemy - oczywiście usługa bezpłatna, relax :)
 :::
 
 ## Nowa strona dokumentacji
@@ -49,7 +49,7 @@ Stara strona działała na GitHub i zostawimy ją jeszcze, bo sporo linków do n
 Mamy coraz więcej użytkowników, którzy mają fajne pomysły na wykorzystanie bramki. Mamy nadzieję, że opis API ułatwi każdemu wykonanie zaawansowanych automatyzacji (włączenie mikrofonu po otwarciu drzwi itd.) i integracji z innymi systemami (np. bramką Fibaro).
 
 
-Tu jest [`link do dokumentacji API`](/docs/ais_bramka_api_index)
+Tu jest [link do dokumentacji API](/docs/ais_bramka_api_index)
 
 ![Usługi](/img/en/frontend/services_2.png)
 
@@ -57,11 +57,11 @@ Tu jest [`link do dokumentacji API`](/docs/ais_bramka_api_index)
 ## Przed aktualizacją
 
 :::tip
-UWAGA Przed aktualizacją zalecamy wykonać [`kopię zapasową konfiguracji`](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.
+UWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.
 :::
 
 :::important
-W razie problemów po aktualizacji sprawdź procedurę [`Aktualizacja ręczna`](/docs/ais_bramka_update_manual) lub [`Wykonanie pełnego resetu aplikacji`](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.
+W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.
 :::
 
 

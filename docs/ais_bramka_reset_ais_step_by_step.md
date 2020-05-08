@@ -10,7 +10,7 @@ Pełny reset aplikacji polega na usunięciu wszystkich ustawień i kodów aplika
 
 :::tip
 Jeśli eksperymentujesz z ustawieniami systemu, tworzysz własne integracje, zmieniasz kody na bramce, nadpisujesz konfigurację i coś działa nie tak, to
-opisany tu **`Pełny reset aplikacji`** jest zalecanym bezpiecznym sposobem na rozwiązywanie problemów z systemem.
+opisany tu **Pełny reset aplikacji** jest zalecanym bezpiecznym sposobem na rozwiązywanie problemów z systemem.
 :::
 
 
@@ -29,7 +29,7 @@ Trwa to tak szybko, ponieważ nie musimy analizować, pobierać i aktualizować 
 :::caution
 **Uwaga!** po takim restarcie / takiej aktualizacji mamy kompletnie nowy system Asystent domowy z domyślnymi ustawieniami i część urządzeń może wymagać ponownej integracji z bramką.
 
-Jeśli wykonałeś wcześniej działającą kopię konfiguracji, to po wykonaniu resetu możesz ją przywrócić korzystając z opcji [`kopia zapasowa konfiguracji`](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)
+Jeśli wykonałeś wcześniej działającą kopię konfiguracji, to po wykonaniu resetu możesz ją przywrócić korzystając z opcji [kopia zapasowa konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)
 :::
 
 ## Co się dzieje podczas resetu ustawień Asystenta domowego do domyślnych

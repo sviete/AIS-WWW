@@ -5,7 +5,7 @@ sidebar_label: Inteligentne gniazdo WiFi
 ## Wprowadzenie
 
 :::tip
-Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową [`AIS dom`](https://allegro.pl/uzytkownik/AI-Speaker).
+Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową [AIS dom](https://allegro.pl/uzytkownik/AI-Speaker).
 Są to urządzenia, które spełniają wszystkie cechy, by były przez nas rekomendowane do zastosowania w Twoim domu.
 :::
 

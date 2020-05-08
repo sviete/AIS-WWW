@@ -48,7 +48,7 @@ on server:
 ```
 cd /var/www/AIS-WWW
 # rm all except apt and audio folder
-rm -rf !(apt|audio)
+rm -rf !(apt|audio|ota)
 cp -R /var/www/ais-www-staging/* /var/www/AIS-WWW
 ```
 

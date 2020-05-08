@@ -90,6 +90,11 @@ module.exports = {
       copyright: `Copyright © ${new Date().getFullYear()} AI-Speaker.com`,
     },
   },
+  scripts: [
+  {
+    src: './drift.js',
+  },
+],
   presets: [
     [
       '@docusaurus/preset-classic',

@@ -29,7 +29,7 @@ Kody źródłowe klienta działającego na urządzeniach są dostępne tu: [dom-
 ## Bezpieczeństwo
 
 :::caution
-W celu zachowania większego bezpieczeństwa, gdy dostęp do urządzenia z Internetu jest włączony, automatycznie blokujemy możliwość łatwego logowania do aplikacji (wybór użytkownika bez podawania hasła). Dodatkowo zalecamy włączenie modułu uwierzytelniania wieloskładnikowego. Więcej informacji w dokumentacji Home Assistant [`Multi-factor authentication`](https://www.home-assistant.io/docs/authentication/multi-factor-auth/)
+W celu zachowania większego bezpieczeństwa, gdy dostęp do urządzenia z Internetu jest włączony, automatycznie blokujemy możliwość łatwego logowania do aplikacji (wybór użytkownika bez podawania hasła). Dodatkowo zalecamy włączenie modułu uwierzytelniania wieloskładnikowego. Więcej informacji w dokumentacji Home Assistant [Multi-factor authentication](https://www.home-assistant.io/docs/authentication/multi-factor-auth/)
 :::
 
 

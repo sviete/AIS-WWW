@@ -14,5 +14,5 @@ Możesz też zainstalować naszą aplikację na zegarek [Aplikacja Andoird AIS d
 
 
 :::tip
-Jeśli chcesz, to możesz też użyć innych aplikacji mobilnych kompatybilnych z Home Assistant, w tym oficjalną aplikację [`Home Assistant dla iOS`](https://apps.apple.com/us/app/home-assistant/id1099568401) oraz [`Home Assistant dla Android`](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android).  
+Jeśli chcesz, to możesz też użyć innych aplikacji mobilnych kompatybilnych z Home Assistant, w tym oficjalną aplikację [Home Assistant dla iOS](https://apps.apple.com/us/app/home-assistant/id1099568401) oraz [Home Assistant dla Android](https://play.google.com/store/apps/details?id=io.homeassistant.companion.android).  
 :::

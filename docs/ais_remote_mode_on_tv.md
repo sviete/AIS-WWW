@@ -27,7 +27,7 @@ Po dodaniu tej opcji zaktualizujemy ten opis.
 
 ### Ustawienie wybranego pulpitu
 
-W celu ustawienia, jaki pulpit ma się wyświetlać na monitorze, z menu `Sterowania na monitorze` wybieramy pozycję **`Ustawienia serwisu Asystent domowy`**:
+W celu ustawienia, jaki pulpit ma się wyświetlać na monitorze, z menu `Sterowania na monitorze` wybieramy pozycję **Ustawienia serwisu Asystent domowy**:
 
 ![Przejście do ustawień serwera](/img/en/bramka/settings_ais_service.png)
 
@@ -37,7 +37,7 @@ Tu możemy wybrać pulpit oraz dostosować jego rozmiar w aplikacji:
 
 ### Wyświetlanie pulpitu
 
-W celu przejścia do pulpitu wystarczy z menu `Sterowania na monitorze` wybrać pozycję **`Pulpit`**:
+W celu przejścia do pulpitu wystarczy z menu `Sterowania na monitorze` wybrać pozycję **Pulpit**:
 
 ![Sterowanie na monitorze](/img/en/remote/remote_go_to_panel.png)
 

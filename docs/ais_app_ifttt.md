@@ -15,7 +15,7 @@ Za pomocą integracji IFTTT można wysyłać powiadomienia/zdarzenie z IFTTT do 
 ## Integracja
 
 :::tip
-Asystent domowy może uruchamiać usługi na podstawie komunikatów przychodzących z IFTTT przez HTTPS. Żeby umożliwić odbieranie takich komunikatów należy [`włączyć dostęp  do bramki z Internetu`](/docs/ais_bramka_remote_www_index).
+Asystent domowy może uruchamiać usługi na podstawie komunikatów przychodzących z IFTTT przez HTTPS. Żeby umożliwić odbieranie takich komunikatów należy [włączyć dostęp  do bramki z Internetu](/docs/ais_bramka_remote_www_index).
 :::
 
 Aby skonfigurować IFTTT, przejdź do konfiguracji a następnie do panelu integracji. Naciśnij pomarańczowy przycisk z ikonką "plus" w prawym dolnym rogu ekranu, żeby otworzyć listę dostępnych integracji. Wybierz z listy integrację **AIS IFTTT**
