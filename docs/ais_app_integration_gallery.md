@@ -3,18 +3,28 @@ title: "Galeria"
 sidebar_label: Galeria
 ---
 
-## Wprowadzenie
 
-Integracja pozwala dodawać zdjęcia do urządzenia oraz zarządzać nagraniami i zdjęciami z kamer na urządzeniu. Dodane zdjęcia mogą być następnie używane jako tło kart (widok pomieszczenia), rzut pomieszczenia itp.
+Jeśli chcesz udostępniać zdjęcia z Asystenta domowego, to możesz to zrobić, dodając je do galerii.
+Pliki dodane do galerii można następnie wyświetlić w przeglądarce, przechodząc do odpowiedniego adresu URL.
+Dzięki temu możesz zdjęcia z kamer lub pliki graficzne dodane z innych programów używać jako tło kart (np. widok pomieszczenia) lub wysyłać w powiadomieniach.
 
 ![Galeria](/img/en/frontend/gallery_1.png)
 
+
+:::caution
+Żeby można było wyświetlać zdjęcia w powiadomieniach, folder z galerią umieszczony jest na "białej liście" (whitelist_external_dirs) w Asystencie domowym. Oznacza to, że znając adres URL zdjęcia, można je wyświetlić bez konieczności logowania do systemu. Dlatego zalecamy nie umieszczać w galerii żadnych prywatnych zdjęć.
+:::
 
 ## Dodawanie zdjęć
 
 Zdjęcia można dodawać po wybraniu przycisku plus na stronie z galerią. Zdjęcie można wybrać z dysku, przeciągnąć i upuścić lub dodać bezpośrednio z aparatu telefonu (w przypadku gdy używamy aplikacji z telefonu).
 
 ![Galeria](/img/en/frontend/gallery_2.png)
+
+
+## Wysyłanie zdjęcia w powiadomieniu
+
+> Opis w przygotowaniu
 
 
 ## Wyświetlanie zdjęć na karcie

@@ -6,6 +6,66 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
+const ais_features = [
+  {
+    title: <>Sterowanie głosowe</>,
+    imageUrl: 'img/main/account-voice.svg',
+    description: (
+      <>
+        - Wbudowane komendy <br/>
+        - Możliwość dodawania własnych komend
+      </>
+    ),
+    addClass: 'col col--4 col--offset-2',
+  },
+  {
+    title: <>Audio</>,
+    imageUrl: 'img/main/monitor-speaker-2.svg',
+    description: (
+      <>
+        - Wbudowane setki stacji radiowych, podkastów, darmowe audiobooki, wbudowana integracja z Youtube oraz Sptify. <br/>
+        - Dedykowany pilot zdalnego sterowania z wbudowanym mikrofonem do łatwego sterowania audio i wysyłania poleceń. <br/>
+        - Możliwość dodawania własnych treści audio w panelu integratora 
+      </>
+    ),
+    addClass: 'col col--4',
+  },
+  {
+    title: <>WiFi</>,
+    imageUrl: 'img/main/wifi.svg',
+    description: (
+      <>
+        - Oferujemy urządzenia WiFi. <br/>
+        - Darmowe oprogramowanie do tych urządzeń bazujące na popularnym otwarto źródłowym projekcie Tasmota. <br/>
+        - Wbudowany broker MQTT 
+        - Dzięki naszym urządzeniom możesz łatwo zacząć przygodę z IoT, a dodatkowo możesz sam do wyboru [ponad 1230](https://templates.blakadder.com/eu.html) które możesz loklanie połączyć do bramki za pomocą protokołu MQTT.
+      </>
+    ),
+    addClass: 'col col--4',
+  },
+  {
+    title: <>Zigbee</>,
+    imageUrl: 'img/main/zigbee.svg',
+    description: (
+      <>
+        Dzięki naszemu dodatkowemu kluczowi USB Zigbee2Mqtt możesz łatwo dołączyć do bramki urządzenia
+        Ponad 740 https://www.zigbee2mqtt.io/information/supported_devices.html
+      </>
+    ),
+    addClass: 'col col--4',
+  },
+  {
+    title: <>Home Assistant</>,
+    imageUrl: 'img/main/ha.svg',
+    description: (
+      <>
+        Ponad 1580 Integracji https://www.home-assistant.io/integrations
+      </>
+    ),
+    addClass: 'col col--4',
+  },
+];
+
 const features = [
   {
     title: 'Prywatność. Nie musisz płacić za usługę smart home utratą prywatności.',
@@ -26,6 +86,7 @@ const features = [
         </p>
       </>
     ),
+    addClass: 'col col--6',
   },
   {
     title: 'Działanie lokalne. Kontroluj swoje urządzenia lokalnie, nie pozwól by zrobiono z Twoich danych produkt.',
@@ -45,6 +106,7 @@ const features = [
       </p>
       </>
     ),
+    addClass: 'col col--6',
   },
   {
     title: 'Wolność. To co ważne',
@@ -67,6 +129,7 @@ const features = [
         </p>
       </>
     ),
+    addClass: 'col col--6',
   },
   {
     title: 'Otwartość i dostępność. Asystent dostępny dla każdego',
@@ -94,13 +157,14 @@ const features = [
         </p>
       </>
     ),
+    addClass: 'col col--6',
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, addClass}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
-    <div className={classnames('col col--6', styles.feature)}>
+    <div className={classnames(addClass, styles.feature)}>
       {imgUrl && (
         <div className="text--center">
           <img className={styles.aisComiksImg} src={imgUrl} alt={title} />
@@ -157,6 +221,30 @@ function Home() {
           <p>Nasza innowacyjna bramka steruje urządzeniami lokalnie, zapewniając błyskawiczną reakcję i prywatność, a dodatkowo odtwarza multimedia i ma większe możliwości niż konkurencyjne rozwiązania.</p>
         </div>
       </div>
+
+      <div className="container">
+        <div className={classnames('row', styles.aisDiferencesFromOthers)}>
+        <h1>
+          <br/>
+          Co oferujemy:
+        </h1>
+        </div>
+     </div>
+
+      <main>
+        {ais_features && ais_features.length && (
+          <section className={styles.features}>
+            <div className="container">
+              <div className="row">
+                {ais_features.map((props, idx) => (
+                  <Feature key={idx} {...props} />
+                ))}
+              </div>
+            </div>
+          </section>
+        )}
+      </main>
+
 
       <div className="container">
         <div className={classnames('row', styles.aisDiferencesFromOthers)}>
