@@ -8,12 +8,45 @@ import styles from './styles.module.css';
 
 const ais_features = [
   {
+    title: <>Ponad 1230 urządzeń WiFi</>,
+    imageUrl: 'img/main/wifi.svg',
+    description: (
+      <>
+        Nasze <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
+        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1230 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
+      </>
+    ),
+    addClass: 'col col--4',
+  },
+  {
+    title: <>Ponad 740 urządzeń Zigbee</>,
+    imageUrl: 'img/main/zigbee.svg',
+    description: (
+      <>
+        Dzięki naszemu <a href="/docs/ais_iot_s26">kluczowi USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
+        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank"> Ponad 740 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
+      </>
+    ),
+    addClass: 'col col--4',
+  },
+  {
+    title: <>Ponad 1580 Integracji Home Assistant</>,
+    imageUrl: 'img/main/ha.svg',
+    description: (
+      <>
+        Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
+        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player">naszymi integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank">ponad 1580 dodatkowych integracji</a> wspieranych i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
+      </>
+    ),
+    addClass: 'col col--4',
+  },
+  {
     title: <>Sterowanie głosowe</>,
     imageUrl: 'img/main/account-voice.svg',
     description: (
       <>
-        - Wbudowane komendy <br/>
-        - Możliwość dodawania własnych komend
+        Na bramce dostarczamy <a href="/docs/ais_app_assistent_commands">wbudowane komendy</a>, dzięki czemu możesz sterować dołączonymi urządzeniami za pomocą komend. Komendy można przesyłać z <a href="/docs/ais_app_index"> aplikacji w przeglądarce</a>  internetowej, naszej<a href="/docs/ais_app_android_dom"> aplikacji mobilnej</a> lub naszego <a href="/docs/ais_remote_index">pilota z mikrofonem</a>.
+        Można też wysyłać komendy z innych systemów/aplikacji za pomocą <a href="/docs/ais_bramka_api_index">API</a>. Oraz definiować <a href="/docs/ais_app_assistent_add_command">własne komendy</a>.
       </>
     ),
     addClass: 'col col--4 col--offset-2',
@@ -23,43 +56,8 @@ const ais_features = [
     imageUrl: 'img/main/monitor-speaker-2.svg',
     description: (
       <>
-        - Wbudowane setki stacji radiowych, podkastów, darmowe audiobooki, wbudowana integracja z Youtube oraz Sptify. <br/>
-        - Dedykowany pilot zdalnego sterowania z wbudowanym mikrofonem do łatwego sterowania audio i wysyłania poleceń. <br/>
-        - Możliwość dodawania własnych treści audio w panelu integratora 
-      </>
-    ),
-    addClass: 'col col--4',
-  },
-  {
-    title: <>WiFi</>,
-    imageUrl: 'img/main/wifi.svg',
-    description: (
-      <>
-        - Oferujemy urządzenia WiFi. <br/>
-        - Darmowe oprogramowanie do tych urządzeń bazujące na popularnym otwarto źródłowym projekcie Tasmota. <br/>
-        - Wbudowany broker MQTT 
-        - Dzięki naszym urządzeniom możesz łatwo zacząć przygodę z IoT, a dodatkowo możesz sam do wyboru [ponad 1230](https://templates.blakadder.com/eu.html) które możesz loklanie połączyć do bramki za pomocą protokołu MQTT.
-      </>
-    ),
-    addClass: 'col col--4',
-  },
-  {
-    title: <>Zigbee</>,
-    imageUrl: 'img/main/zigbee.svg',
-    description: (
-      <>
-        Dzięki naszemu dodatkowemu kluczowi USB Zigbee2Mqtt możesz łatwo dołączyć do bramki urządzenia
-        Ponad 740 https://www.zigbee2mqtt.io/information/supported_devices.html
-      </>
-    ),
-    addClass: 'col col--4',
-  },
-  {
-    title: <>Home Assistant</>,
-    imageUrl: 'img/main/ha.svg',
-    description: (
-      <>
-        Ponad 1580 Integracji https://www.home-assistant.io/integrations
+        Na bramce dostarczmy wbudowany <a href="/docs/ais_app_player">odtwarzacz audio</a>, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z <a href="/docs/ais_app_youtube_dl">YouTube</a> oraz <a href="/docs/ais_app_spotify">Spotify</a>.
+        Istnieje też możliwość dodawania własnych dodatkowych treści audio w <a href="/docs/ais_dom_cloud_login">portalu integratora</a>.
       </>
     ),
     addClass: 'col col--4',
@@ -215,7 +213,7 @@ function Home() {
             <img className="aisPointInfo" src="img/main/home-assistant.svg" />
             <br />
             </div>
-            System do sterowania automatyką domową i multimiediami<br />z wbudowanym inteligentnym asystentem głosowym.
+            Bramka do sterowania automatyką domową i multimiediami<br />z wbudowanym inteligentnym asystentem głosowym.
           </Link>
           <br /><br />
           <p>Nasza innowacyjna bramka steruje urządzeniami lokalnie, zapewniając błyskawiczną reakcję i prywatność, a dodatkowo odtwarza multimedia i ma większe możliwości niż konkurencyjne rozwiązania.</p>
@@ -226,7 +224,7 @@ function Home() {
         <div className={classnames('row', styles.aisDiferencesFromOthers)}>
         <h1>
           <br/>
-          Co oferujemy:
+          Wiele inteligentnych urządzeń i jeden system, by nimi sterować.
         </h1>
         </div>
      </div>
