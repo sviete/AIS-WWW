@@ -1,11 +1,11 @@
 ---
-title: S26, inteligentne gniazdo WiFi
-sidebar_label: Inteligentne gniazdo WiFi
+title: Wprowadzenie
+sidebar_label: Wprowadzenie
 ---
-## Wprowadzenie
+## Inteligentne gniazdo WiFi
 
-:::tip
-Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową [AIS dom](https://allegro.pl/uzytkownik/AI-Speaker).
+:::tip SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ
+Prowadzimy [sprzedaż ![](/img/en/iot/shopping-outline.svg)](https://allegro.pl/uzytkownik/AI-Speaker) inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową [AIS dom](https://allegro.pl/uzytkownik/AI-Speaker).
 Są to urządzenia, które spełniają wszystkie cechy, by były przez nas rekomendowane do zastosowania w Twoim domu.
 :::
 

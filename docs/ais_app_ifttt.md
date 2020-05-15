@@ -14,7 +14,7 @@ Za pomocą integracji IFTTT można wysyłać powiadomienia/zdarzenie z IFTTT do 
 
 ## Integracja
 
-:::tip
+:::tip Wskazówka
 Asystent domowy może uruchamiać usługi na podstawie komunikatów przychodzących z IFTTT przez HTTPS. Żeby umożliwić odbieranie takich komunikatów należy [włączyć dostęp  do bramki z Internetu](/docs/ais_bramka_remote_www_index).
 :::
 

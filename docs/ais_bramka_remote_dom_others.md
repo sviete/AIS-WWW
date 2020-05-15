@@ -3,7 +3,7 @@ title: "Inne metody na dostęp zdalny"
 sidebar_label: Inne metody na dostęp zdalny
 ---
 
-:::caution
+:::caution Uwaga
 Gdy dodajesz dostęp z Internetu do swojej bramki, to **pamiętaj o  bezpieczeństwie**. Należy odpowiednio skonfigurować logowanie do Asystenta domowego w celu zabezpieczenia dostępu, patrz opis: [Zabezpieczenie dostępu do aplikacji](#zabezpieczenie-dostępu-do-aplikacji).
 :::
 

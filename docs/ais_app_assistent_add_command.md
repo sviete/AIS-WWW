@@ -67,7 +67,7 @@ conversation: !include conversation.yaml
 
 ## Wypróbuj działanie nowej komendy
 
-:::important
+:::important informacja
 Sprawdź konfigurację i uruchom ponownie Asystenta domowego w celu przetestowania nowej komendy
 :::
 

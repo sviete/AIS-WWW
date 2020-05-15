@@ -17,7 +17,7 @@ W tym trybie pilot działa na zasadzie zdalnej myszki komputerowej, można nawig
 
 Można zdefiniować w aplikacji specjalny `Pulpit`(dashboard), który będzie prezentował wybrane przez nas elementy i umożliwiał łatwe sterownaie nimi w trybie `Sterowania na monitorze`.
 
-:::important
+:::important informacja
 W wersji 0.107, którą wydamy w kwietniu 2020 roku, dodana zostanie opcja konfiguracji wielu pulpitów (dashboards).
 Po dodaniu tej opcji zaktualizujemy ten opis.
 :::

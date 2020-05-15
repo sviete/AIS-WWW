@@ -83,8 +83,11 @@ module.exports = {
       "ais_app_android_dom_tablet",
       "ais_app_android_dom_wear",
       "ais_app_android_launcher",
-      "ais_app_android_explorer",
-      "ais_app_android_synchro"
+      "ais_app_android_explorer"
+    ],
+    "Komendy głosowe": [
+      "ais_app_assistent_commands",
+      "ais_app_assistent_add_command"
     ],
     "Aktualizacja": [
       "ais_bramka_update_index",
@@ -95,19 +98,6 @@ module.exports = {
     ],
     "Pełny reset aplikacji": [
       "ais_bramka_reset_ais_step_by_step"
-    ]
-  },
-  "Pilot radiowy": {
-    "Pilot radiowy": [
-      "ais_remote_index",
-      "ais_remote_modes",
-      "ais_remote_mode_on_tv",
-      "ais_remote_mode_off_tv",
-      "ais_remote_faq_index"
-    ],
-    "Komendy głosowe": [
-      "ais_app_assistent_commands",
-      "ais_app_assistent_add_command"
     ]
   },
   "Integracje": {
@@ -149,12 +139,21 @@ module.exports = {
     ]
   },
   "Urządznia": {
-    "Urządzenia AIS dom": [
+  "Inteligentne gniazdo WiFi": [
       "ais_iot_s26",
-      "ais_iot_powers",
       "ais_iot_browser",
       "ais_iot_mqtt"
     ],
+  "Pilot radiowy z mikrofonem": [
+    "ais_remote_index",
+    "ais_remote_modes",
+    "ais_remote_mode_on_tv",
+    "ais_remote_mode_off_tv",
+    "ais_remote_faq_index"
+  ],
+  "Zigbee USB CC2531": [
+    "ais_zigbee_index"
+  ],
   "Zarządzanie urządzeniami AIS dom z bramki": [
     "ais_iot_gate",
     "ais_iot_gate_add_device",

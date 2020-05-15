@@ -5,7 +5,7 @@ sidebar_label: Komunikacja za pomocą protokołu MQTT
 
 ## Wprowadzenie
 
-:::tip
+:::tip Wskazówka
 Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/docs/ais_iot_gate) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.** Na bramce IoT AIS dom dostępny jest działający i skonfigurowany broker MQTT, urządzenia AIS dom są automatycznie rozpoznawane przez bramkę AIS dom, dzięki czemu proces konfiguracji jest bardzo prosty i nie wymaga wpisywania żadnych parametrów.
 :::
 

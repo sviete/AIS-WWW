@@ -6,7 +6,7 @@ sidebar_label: Wprowadzenie
 Będąc w sieci lokalnej możesz połączyć się z bramką za pomocą popularnych narzędzi: http(s), ftp, ssh. Dzięki temu możliwe jest używanie aplikacji bramki w przeglądarce internetowej oraz kontrolowanie bramki jak zdalnego serwera.
 
 
-:::important
+:::important informacja
  Żeby połączyć się z bramką kluczowe jest ustalenie, **czy bramka jest widoczna w Twojej sieci po lokalnej nazwie hosta z rozszerzeniem .local, czy tylko po adresie IP?** Lokalna nazwa hosta bramki ustawiona jest fabrycznie jako **ais-dom**. Z taką nazwą  hosta (**ais-dom**) bramka zgłasza się w lokalnej sieci. Następnie bramka rozgłasza swoje usługi (HTTP, FTP, SSH, MQTT) w sieci lokalnej za pomocą mechanizmu Multicast DNS (Zeroconf/Avahi/Bonjour). Jest to tak zwana usługa zero-config – nie wymaga żadnej konfiguracji, aby korzystać z połączenia pomiędzy urządzeniami w sieci lokalnej.
 :::
 

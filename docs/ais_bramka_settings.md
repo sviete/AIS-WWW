@@ -40,6 +40,6 @@ $ pm2 logs
 
 Użytkownik domyślny ma uprawnienia tylko do folderu /data/data/pl.sviete.dom/files, w którym to folderze znajdują się pakiety systemu Linux, oraz do podfolderu data/data/pl.sviete.dom/files/home/AIS, gdzie znajduje się konfiguracja systemu "Asystent domowy".
 
-:::caution
+:::caution Uwaga
 W wersjach developerskich bramek dostępny jest też użytkownik **root** który ma dostęp do całego systemu.
 :::

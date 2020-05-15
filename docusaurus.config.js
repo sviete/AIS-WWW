@@ -20,7 +20,6 @@ module.exports = {
       links: [
         {to: 'docs/ais_bramka_index', label: 'Bramka', position: 'left'},
         {to: 'docs/ais_app_index', label: 'Aplikacja', position: 'left'},
-        {to: 'docs/ais_remote_index', label: 'Pilot', position: 'left'},
         {to: 'docs/ais_app_player', label: 'Integracje', position: 'left'},
         {to: 'docs/ais_iot_s26', label: 'Urządzenia', position: 'left'},
         {

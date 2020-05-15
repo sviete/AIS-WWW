@@ -17,7 +17,7 @@ $ ssh <IP-BRAMKI>
 
  Po zatwierdzeniu powyższego polecenia klawiszem Enter, jeśli łączymy się z serwerm po raz pierwszy, to zostaniemy poproszeni o dodanie hosta do znanych hostów - należy wpisać "yes", nacisnąć Enter, a następnie wpisać hasło użytkownika.
 
-:::tip
+:::tip Wskazówka
 Domyślne hasło to `dom`, można je zmienić komendą passwd (tak jak we wszystkich systemach Linux).
 :::
 

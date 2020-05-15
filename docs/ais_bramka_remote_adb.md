@@ -5,7 +5,7 @@ sidebar_label: ADB
 
 Android Debug Bridge (ADB) to kolejne narzędzie działające w konsoli, które umożliwia komunikację z urządzeniem.
 
-:::tip
+:::tip Wskazówka
 Ta metoda komunikacji jest przydatna szczególnie w sytuacji, gdy nie mamy możliwości łączenia się z Asystentem domowym po SSH, bo go np odinstalowaliśmy z bramki.
 :::
 

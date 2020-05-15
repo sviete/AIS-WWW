@@ -3,7 +3,7 @@ title: Aktualizacja oprogramowania urządzeń automatyki domowej
 sidebar_label: Aktualizacja oprogramowania
 ---
 
-:::tip
+:::tip Wskazówka
 Obecnie aktualizacja wymaga wgrania nowego oprogramowania do urządzenia z przeglądarki internetowej.
 :::
 
@@ -73,11 +73,11 @@ Następnie urządzenie się zrestartuje i powróci do głównego menu, z główn
 
 
 ### Konsola
-:::tip
+:::tip Wskazówka
 Żeby zacząć pracę z całkowicie nowymi ustawieniami w konsoli urządzenia, wykonaj polecenie **Reset 5** dzięki temu będziemy mieli pewność, że urządzenie będzie korzystało tylko z nowych ustawień.
 :::
 
-:::important
+:::important informacja
 Uwaga to polecenie wykasuje wszystkie poprzednie ustawienia (poza konfiguracją WiFi), jeśli urządzenie komunikowało się z systemem automatyki domowej, to może być konieczne nowe parowanie/konfiguracja.
 :::
 

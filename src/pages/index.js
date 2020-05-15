@@ -8,34 +8,34 @@ import styles from './styles.module.css';
 
 const ais_features = [
   {
-    title: <>Ponad 1230 urządzeń WiFi</>,
+    title: <>Ponad <span className="strongInfo">1230</span> urządzeń WiFi</>,
     imageUrl: 'img/main/wifi.svg',
     description: (
       <>
-        Nasze <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
+        <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
         Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1230 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
     addClass: 'col col--4',
   },
   {
-    title: <>Ponad 740 urządzeń Zigbee</>,
+    title: <>Ponad <span className="strongInfo">740</span> urządzeń Zigbee</>,
     imageUrl: 'img/main/zigbee.svg',
     description: (
       <>
-        Dzięki naszemu <a href="/docs/ais_iot_s26">kluczowi USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
+        Dzięki <a href="/docs/ais_zigbee_index"> USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
         <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank"> Ponad 740 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
       </>
     ),
     addClass: 'col col--4',
   },
   {
-    title: <>Ponad 1580 Integracji Home Assistant</>,
+    title: <>Ponad <span className="strongInfo">1580</span> Integracji Home Assistant</>,
     imageUrl: 'img/main/ha.svg',
     description: (
       <>
         Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
-        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player">naszymi integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank">ponad 1580 dodatkowych integracji</a> wspieranych i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
+        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank">ponad 1580 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
       </>
     ),
     addClass: 'col col--4',
@@ -45,7 +45,7 @@ const ais_features = [
     imageUrl: 'img/main/account-voice.svg',
     description: (
       <>
-        Na bramce dostarczamy <a href="/docs/ais_app_assistent_commands">wbudowane komendy</a>, dzięki czemu możesz sterować dołączonymi urządzeniami za pomocą komend. Komendy można przesyłać z <a href="/docs/ais_app_index"> aplikacji w przeglądarce</a>  internetowej, naszej<a href="/docs/ais_app_android_dom"> aplikacji mobilnej</a> lub naszego <a href="/docs/ais_remote_index">pilota z mikrofonem</a>.
+        Na bramce dostarczamy <a href="/docs/ais_app_assistent_commands">wbudowane komendy</a>, dzięki czemu możesz sterować dołączonymi urządzeniami za pomocą komend. Komendy można przesyłać z <a href="/docs/ais_app_index"> aplikacji w przeglądarce</a>  internetowej, naszej<a href="/docs/ais_app_android_dom"> aplikacji mobilnej</a> lub <a href="/docs/ais_remote_index">pilota z mikrofonem</a>.
         Można też wysyłać komendy z innych systemów/aplikacji za pomocą <a href="/docs/ais_bramka_api_index">API</a>. Oraz definiować <a href="/docs/ais_app_assistent_add_command">własne komendy</a>.
       </>
     ),
@@ -57,7 +57,7 @@ const ais_features = [
     description: (
       <>
         Na bramce dostarczmy wbudowany <a href="/docs/ais_app_player">odtwarzacz audio</a>, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z <a href="/docs/ais_app_youtube_dl">YouTube</a> oraz <a href="/docs/ais_app_spotify">Spotify</a>.
-        Istnieje też możliwość dodawania własnych dodatkowych treści audio w <a href="/docs/ais_dom_cloud_login">portalu integratora</a>.
+        Istnieje też możliwość definiowania własnych dodatkowych treści audio w <a href="/docs/ais_dom_cloud_login">portalu integratora</a>.
       </>
     ),
     addClass: 'col col--4',
@@ -224,7 +224,7 @@ function Home() {
         <div className={classnames('row', styles.aisDiferencesFromOthers)}>
         <h1>
           <br/>
-          Wiele inteligentnych urządzeń i jeden system, by nimi sterować.
+          Wiele inteligentnych urządzeń i jeden system, by nimi sterować!
         </h1>
         </div>
      </div>

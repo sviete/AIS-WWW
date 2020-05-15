@@ -13,7 +13,7 @@ Dialogflow to serwis który pozwala na integrację z wieloma popularnymi platfor
 
 ## Integracja
 
-:::tip
+:::tip Wskazówka
 Asystent domowy może uruchamiać usługi na podstawie komunikatów przychodzących z Dialogflow przez HTTPS. Żeby umożliwić odbieranie takich komunikatów należy [włączyć dostęp  do bramki z Internetu](/docs/ais_bramka_remote_www_index).
 :::
 

@@ -13,13 +13,13 @@ title: Wersja systemu 0.105.7 Dyski zdalne i wymienne
 
 <!--truncate-->
 
-:::tip
+:::tip Wskazówka
 UWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.
 :::
 
 W tej wersji przenieśliśmy zależności pakietów (w celu wyeliminowania błędu wielokrotnego instalowania niektórych pakietów z zależnościami). **Aktualizacja może potrwać 40 minut** - poczekaj cierpliwie na koniec aktualizacji. Komunikatami głosowymi informujemy o postępach aktualizacji, możesz śledzić szczegóły wykonywanych czynności podczas aktualizacji łącząc się do bramki po ssh i przeglądając logi poleceniem **pm2 logs**.
 
-:::important
+:::important informacja
 W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.
 :::
 
@@ -48,7 +48,7 @@ Istotne zmiany:
 - Konfigurację rclone przenieśliśmy z folderu ~/dom/rclone.conf do ukrytego folderu ~/AIS/.dom/rclone.conf Umożliwia nam to tworzenie kopii zapasowej konfiguracji dysków zdalnych (bo w kopii zapasowej mamy konfigurację z folderu ~/AIS)
 - dyski-zewnętrzne to pozostałość po wcześniejszej implementacji, w której montowaliśmy dyski (USB czy karty SD) tylko do odczytu. Zostawimy to jeszcze przez 2 miesiące, bo może ktoś używał tej lokalizacji (po tym czasie należy zmienić w swoich automatyzacjach i serwisach lokalizację dyski-zewnętrzne na dyski-wymienne).
 
-:::caution
+:::caution Uwaga
 Jeżeli usuwasz/modyfikujesz/dodajesz coś z dysków zdalnych lub wymiennych na bramce, to doradzamy użyć dysku, na którym nie ma nic cennego (dodanie dysku Google czy Mega na nowe konto to nie problem). W ten sposób nie stracisz żadnych danych w razie błędu w automatyzacji czy komendzie.
 :::
 
@@ -60,7 +60,7 @@ Zauważyliśmy, że część naszych użytkowników, żeby mieć integrację z n
 Następnie mieć do nas pretensje, że coś się nie aktualizuje / nie działa tak jak powinno :(
 Widzimy na forum, że część osób nie przejmuje się tym jak działa i co robi taki niestandardowy komponent. Obserwujemy też jaki procent problemów dotyczy pracy na wersji beta z zainstalowanymi niestandardowymi komponentami.
 
-:::caution
+:::caution Uwaga
 Dlatego jeszcze raz ostrzegamy przed instalowaniem niestandardowych komponentów, z jakiegoś powodu takie komponenty nie znalazły się oficjalnie w Asystencie domowym. Pamiętaj, że robisz to na własną odpowiedzialność. **To tak jak instalowanie aplikacji z nieznanych źródeł - może być wszystko OK a możesz zainstalować wirusa, który zniszczy twój system**.
 :::
 
@@ -71,7 +71,7 @@ Dlatego jeszcze raz ostrzegamy przed instalowaniem niestandardowych komponentów
 - Wpływ na aktualizacje automatyczne. Nikt nie testował tych kodów i nie sprawdzał ich zależności (pakietów, które doinstalowują). Komponenty te mogą instalować pakiety w innych wersjach niż oficjalne, przetestowane i wspierane a w konsekwencji mogą blokować oficjalne aktualizacje.
 - Legalność. Komponenty niestandardowe mogą używać API producentów bez ich zgody. Pamiętaj, żeby robić to świadomie, bo **odpowiedzialność za wszystko, co sam doinstalowujesz i używasz na bramce, spoczywa na Tobie**.
 
-:::important
+:::important informacja
 Na etapie DEV nie chcemy blokować użytkownikom instalowania dowolnych kodów na bramce. Ponieważ jednak z jakiegoś powodu na koniec odpowiedzialność spada na nas, poczynimy kroki, aby uodpornić nasze urządzenie na tego typu praktyki.
 :::
 

@@ -82,7 +82,7 @@ Jako wyzwalacz możemy zastosować szablon - sprawdzimy w nim, czy aktualny czas
 | timestamp_custom('%H:%M', True)) }}
 ```
 
-:::tip
+:::tip Wskazówka
 Kody szablonów możesz sprawdzać w "Narzędzia developerskie" -> "SZABLON"
 :::
 

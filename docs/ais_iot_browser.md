@@ -5,7 +5,7 @@ sidebar_label: Obsługa urządzenia z przeglądarki
 
 ## Wprowadzenie
 
-:::tip
+:::tip Wskazówka
 Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/docs/ais_iot_gate) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.**
 :::
 
@@ -26,7 +26,7 @@ Podłącz urządzenie do źródła zasilania, następnie wprowadź je w tryb kon
 
  Teraz na smartfonie (komputerze, tablecie, laptopie albo innym urządzeniu obsługującym sieć i Wi-Fi) wyszukaj punkt dostępu Wi-Fi o nazwie **dom_xxx_yyyyyy_zzzz** (gdzie xxx_yyyyyy_zzzz jest nazwą modelu i unikalnym identyfikatorem urządzenia) i połącz się z nim. W tym przykładzie punkt dostępu Wi-Fi ma nazwę dom_s20_3EB39C_5020.
 
-:::important
+:::important informacja
 Bezprzewodowy punkt dostępu na urządzeniu jest **aktywny tylko przez 3 minuty**. Jeśli przegapisz to okno czasowe, może być konieczne ponowne wprowadzenie go w tryb parowania.
 :::
 
@@ -49,7 +49,7 @@ Sprawdź, czy podałeś poprawne dane do sieci i kliknij **Zapisz**, aby zastoso
 
 
 
-:::important
+:::important informacja
 **UWAGA to jeszcze nie koniec!**
 -----
 Wysłaliśmy do urządzenia parametry, z jaką siecią WiFi ma się łączyć (skonfigurowaliśmy je do działania w naszej sieci WiFi). **Teraz należy ustalić jaki adres IP ma urządzenie w naszej sieci** - ten adres nadaje router i nie wiemy, jaki on jest.

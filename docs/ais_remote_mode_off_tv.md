@@ -10,7 +10,7 @@ W tym trybie można sterować całym systemem za pomocą dedykowanego menu zorga
 ![Pilot do asystenta](/img/en/remote/remote_off_tv_mode.png)
 
 
-:::tip
+:::tip Wskazówka
 Sterowanie bez monitora to wygodniejszy sposób na korzystanie z systemu Asystent domowy. Aplikację webową dostępną na bramce łatwiej jest obsługiwać z przeglądarki na komputerze, w ten sposób wykorzystamy też, pełne możliwości pilota sterując audio. Asystent domowy od początku zaprojektowany został jako podstawa dla inteligentnego głośnika AI-Speaker. Tryb sterowania bez monitora będzie domyślnym trybem, gdy zakończymy wersję developerską i zaczniemy produkować głośnik.
 :::
 

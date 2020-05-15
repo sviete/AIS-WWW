@@ -12,7 +12,7 @@ OwnTracks to darmowa i otwarto źródłowa aplikacja dla systemu iOS i Android, 
 
 ## Integracja
 
-:::tip
+:::tip Wskazówka
 Asystent domowy będzie rejestrował Twoją lokalizację na podstawie komunikatów przychodzących z OwnTracks przez HTTPS. Żeby umożliwić odbieranie takich komunikatów nawet gdy jesteś poza lokalną domową siecią należy [włączyć dostęp  do bramki z Internetu](/docs/ais_bramka_remote_www_index).
 :::
 

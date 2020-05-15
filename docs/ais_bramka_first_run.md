@@ -19,7 +19,7 @@ Na początek jeżeli nie łączysz bramki do sieci za pomocą kabla sieciowego L
 ![Główne menu](/img/en/bramka/bramka_start_menu_wifi.png)
 
 
-:::tip
+:::tip Wskazówka
 Pierwsze uruchomienie bramki trwa około 3 minut, po tym czasie asystentka wita Cię komunikatem `Witaj w domu, powiedz proszę w czym mogę Ci pomóc?`.
 Czas potrzebny na uruchomienie zależy od tego, ile integracji dodasz do systemu - co asystentka będzie musiała wykonać (z iloma urządzeniami się połączyć) na starcie. Zawsze, gdy słyszysz `Witaj w domu, powiedz proszę w czym mogę Ci pomóc?` to oznacza, że asystent uruchomił się całkowicie i że możesz już wysyłać do niego komendy i sterować urządzeniami.
 :::
@@ -34,7 +34,7 @@ Bramka może być użytkowana w dwóch trybach:
 
 W zależności od wybranego trybu zmienia się działanie pilota. W trybie sterowania na monitorze pilot jest jak myszka, którą możesz wybierać opcje na monitorze i je klikać. W trybie sterowania bez monitora pilot pozwala na nawigowanie po menu Asystenta domowego oraz wybieranie/uruchamianie pozycji. Informacje zwrotne przekazywane są przez Asystenta w formie komunikatów głosowych.
 
-:::important
+:::important informacja
 Bez względu na wybrany tryb, przycisk mikrofonu w pilocie zawsze działa tak samo - uruchamia mikrofon, by umożliwić wysłanie komendy głosowej do wykonania lub pytania do Asystenta.
 Pomiędzy trybami zawsze możesz przełączać się za pomocą górnego klawisza po lewej stronie na pilocie radiowym lub klawisza `esc` w klawiaturze podłączonej do bramki.
 :::

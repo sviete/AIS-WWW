@@ -13,6 +13,6 @@ Przełączanie pomiędzy trybami odbywa się za pomocą przycisku w lewym górny
 ![Pilot do asystenta](/img/en/remote/remote_change_mode.png)
 
 
-:::tip
+:::tip Wskazówka
 Sterowanie komendami głosowymi (przy użyciu przycisku mikrofonu) działa niezależnie od wybranego trybu działania pilota.
 :::

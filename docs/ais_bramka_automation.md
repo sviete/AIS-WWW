@@ -47,7 +47,7 @@ Upewnij się, że typ akcji jest ustawiony na **Urządzenie** i wybierz urządze
 
 ![Dodanie nowej automatyzacji](/img/en/bramka/automation6.png)
 
-:::tip
+:::tip Wskazówka
 W ten sam sposób, w jednej automatyzacji możesz też dodać akcję `opóźnienie`, a następnie akcję `wyłącz`, żeby mieć sterowanie w jednym miejscu.
 :::
 ![Dodanie nowej automatyzacji](/img/en/bramka/automation_6_1.png)
