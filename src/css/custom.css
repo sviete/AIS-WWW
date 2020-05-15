@@ -31,3 +31,25 @@
 .strongInfo {
   font-size: xx-large;
 }
+
+.navbar:before {
+    content: "DEV";
+    position: fixed;
+    width: 80px;
+    height: 25px;
+    background: var(--ifm-color-primary);
+    top: 7px;
+    left: -20px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 27px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-shadow: 9px 8px 12px 0 rgba(0,0,0,.2);
+    font-family: Roboto,sans-serif;
+}
+
+.navbar .navbar__inner {
+  margin-left: 2em;
+}
