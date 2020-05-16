@@ -17,7 +17,7 @@ Decydując się na oprogramowanie do naszych urządzeń  opartych na ESP8266 wyb
 - obsługę harmonogramów i reguł na urządzeniu
 
 
-Oprogramowanie to rozwijane jest od kilku lat w ramach projektu [Tasmota](https://github.com/arendst/Tasmota) i jest alternatywnym oprogramowaniem dla [ponad 150 urządzeń różnych producentów](https://blakadder.github.io/templates/eu.html) oraz dla [kilkudziesięciu czujników](https://github.com/arendst/Tasmota/wiki/supported-sensors) i [wyświetlaczy](https://github.com/arendst/Tasmota/wiki/displays), które można dodatkowo dołączyć do tych urządzeń.
+Oprogramowanie to rozwijane jest od kilku lat w ramach projektu [Tasmota](https://github.com/arendst/Tasmota) i jest alternatywnym oprogramowaniem dla [ponad 1240 urządzeń różnych producentów](https://blakadder.github.io/templates/eu.html) oraz dla [kilkudziesięciu czujników](https://github.com/arendst/Tasmota/wiki/supported-sensors) i [wyświetlaczy](https://github.com/arendst/Tasmota/wiki/displays), które można dodatkowo dołączyć do tych urządzeń.
 
 
 ## Motywacja
