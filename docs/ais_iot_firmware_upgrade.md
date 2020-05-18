@@ -11,18 +11,18 @@ Obecnie aktualizacja wymaga wgrania nowego oprogramowania do urządzenia z przeg
 
 ### Pobranie plików
 
-Pliki ze skompilowaną najnowszą wersją oprogramowania dla urządzeń dostępne są w naszym serwisie pod adresem [OTA](https://www.ai-speaker.com/ota/)
+Pliki ze skompilowaną najnowszą wersją oprogramowania dla urządzeń dostępne są w naszym serwisie, pod adresem [OTA](https://www.ai-speaker.com/ota/).
 Pobierz najnowsze wersje 2 plików:
 
-- [tasmota-minimal.bin](https://powiedz.co/ota/dom/tasmota-minimal.bin)
-- [tasmota-PL.bin](https://powiedz.co/ota/dom/tasmota-PL.bin)
+- [![tasmota-minimal](/img/en/iot/tasmota-minimal.svg) tasmota-minimal.bin](https://powiedz.co/ota/dom/tasmota-minimal.bin)
+- [![tasmota-minimal](/img/en/iot/tasmota-PL.svg) tasmota-PL.bin](https://powiedz.co/ota/dom/tasmota-PL.bin)
 
 ![OTA AIS dom](/img/en/iot/iot_ais_dom_device_rf433_firmware.png)
 
 
 ### Ustalenie adresu IP urządzenia
 
-W systemie Asystent domowy przejdź do grupy "Menu" -> "Konfiguracja" -> "Konfiguracja Urządzeń AIS dom" a następnie wybierz urządzenie i sprawdz jego status by odczytać jego aktualny adres IP
+W systemie Asystent domowy przejdź do grupy "Menu" -> "Konfiguracja" -> "Konfiguracja Urządzeń AIS dom" a następnie wybierz urządzenie i sprawdź jego status, by odczytać jego aktualny adres IP
 
 
 ![Urządzenia w Twojej sieci](/img/en/iot/iot_device_discovery.png)
@@ -31,7 +31,7 @@ W systemie Asystent domowy przejdź do grupy "Menu" -> "Konfiguracja" -> "Konfig
 
 ### Menu urządzenia
 
-Znając IP urządzenia, wpisz go w przeglądarce internetowej, by przejść do strony urządzenia. 
+Znając IP urządzenia, wpisz go w przeglądarce internetowej, by przejść do strony urządzenia.
 ![Główne menu urządzenia](/img/en/iot/iot_device_menu.png)
 
 W głównym menu, aplikacji na urządzeniu wybierz opcję "Aktualizacja oprogramowania"
@@ -52,7 +52,7 @@ Odczekaj, aż pojawi się informacja o powodzeniu aktualizacji i wróć do menu 
 ![Pierwszy plik](/img/en/iot/iot_device_menu_upgrade_2.png)
 
 
-Z głównego menu rzejdź do wgrywania kolejnego pliku
+Z głównego menu przejdź do wgrywania kolejnego pliku
 
 ![Pierwszy plik](/img/en/iot/iot_device_menu_upgrade_3.png)
 
@@ -76,10 +76,10 @@ Z głównego menu możemy przejść do konsoli urządzenia
 ![Przejście do konsoli](/img/en/iot/iot_device_menu_upgrade_5.png)
 
 
-Jeżel chcesz mieć pewność, że urządzenie pracuje z domyślnymi ustawieniami to w konsoli urządzenia, wykonaj polecenie **Reset 5** dzięki temu będziesz miał pewność, że urządzenie będzie korzystało tylko z nowych ustawień.
+Jeżeli chcesz mieć pewność, że urządzenie pracuje z naszymi domyślnymi ustawieniami (a nie ustawieniami z innego oprogramowania, które było na urządzeniu wcześniej) to w konsoli urządzenia, wykonaj polecenie **Reset 5** dzięki temu będziesz miał pewność, że urządzenie będzie miało konfigurację taką jak dostarczona w oprogramowaniu.
 
 :::important informacja
-Uwaga polecenie **Reset 5**  wykasuje wszystkie ustawienia urządzenia (poza konfiguracją WiFi), jeśli urządzenie komunikowało się z systemem automatyki domowej, to może być konieczne nowe parowanie/konfiguracja.
+Uwaga. Polecenie **Reset 5**  wykasuje wszystkie ustawienia urządzenia (poza konfiguracją WiFi), jeśli urządzenie komunikowało się z systemem automatyki domowej, to może być konieczne nowe parowanie lub ręczna konfiguracja.
 :::
 
 ![Reset 5](/img/en/iot/iot_device_menu_upgrade_6.png)
@@ -87,17 +87,17 @@ Uwaga polecenie **Reset 5**  wykasuje wszystkie ustawienia urządzenia (poza kon
 
 ## Konfiguracja
 
-Po poleceniu **Reset 5** urzadzenie wymaga ponownej konfiguracji ustawień. Konfiguracja przesyłana jest podczas dodawania urządzenia do bramki ale możemy ją też wykonać ręcznie - w tym celu wybieramy opcję "Konfiguracja"
+Konfiguracja przesyłana jest automatycznie do urządzenia podczas parowania (dodawania urządzenia do bramki), ale możemy ją też wykonać ręcznie - w tym celu w menu urządzenia wybieramy opcję "Konfiguracja"
 
 ![Reset 5](/img/en/iot/iot_device_menu_upgrade_7.png)
 
 ### Typ urządzenia
 
-Jeżeli chcemy zmienić typ urządzenia z domyślnego (w naszej kompilacji S2X - gniazdko) na inny lub skonfigurować GPIO urządzenia, to przechodzimy do opcji "Konfiguracja modułu"
+Jeżeli chcemy zmienić typ urządzenia z domyślnego (w naszej kompilacji S2X - gniazdko) na inny lub skonfigurować wyjścia i wejścia urządzenia (GPIO urządzenia), to przechodzimy do opcji "Konfiguracja modułu":
 
 ![Reset 5](/img/en/iot/iot_device_menu_upgrade_8.png)
 
-wybieramy opdpowiednie dla nas opcje i zapisujemy
+Wybieramy odpowiednie dla nas opcje i zapisujemy:
 
 ![Reset 5](/img/en/iot/iot_device_menu_upgrade_9.png)
 
@@ -107,24 +107,26 @@ Nazwa urządzenia dostępna jest w pozycji "Inne konfiguracje"
 
 ![Reset 5](/img/en/iot/iot_device_menu_upgrade_10.png)
 
-w tym miejscu można też włączyć komunkację z MQTT
+w tym miejscu można też włączyć komunikację z MQTT
 
 ![Reset 5](/img/en/iot/iot_device_menu_upgrade_11.png)
 
+Ręczna konfiguracja połączenia MQTT opisana jest tu -> [Skonfiguruj MQTT za pomocą interfejsu w aplikacji na urządzeniu](/docs/ais_iot_mqtt)
 
 
 ## Wariant oprogramowania Tasmota
 
 
-Oprogramowanie Tasmota działa na ogromnej liczbie urządzeń z ESP8266, dodatkowo obsługuje wiele protokołów komunikacji, funkcji oraz umożliwia dołączania np. czujników, silników, wyświetlaczy itd.. To powoduje, ogromną ilość możliwych konfiguracji i kompilacji. 
-Nasza kompilacja obsługuje większość funkcji. Udostepniamy 2 pliki binarne:
+Oprogramowanie Tasmota działa na ogromnej liczbie urządzeń z ESP8266, dodatkowo obsługuje wiele protokołów komunikacji, funkcji oraz umożliwia dołączania np. czujników, silników, wyświetlaczy itd. To powoduje, ogromną ilość możliwych konfiguracji i kompilacji.
+Nasza kompilacja, którą udostępniamy i instalujemy na sprzedawanych przez nas urządzeniach, obsługuje większość funkcji. Udostępniamy 2 pliki binarne:
 
-- **tasmota-minimal.bin** - to jest specjalna wersja umożliwiającą aktualizację OTA (bez programatora). Ta wersja służy tylko do wykonania aktualizacji i NIE powinna być używana. Układ ESP8266 ma 1 MB pamięci, a oprogramowanie Tasmota z wszystkimi funkcjami, które mamy włączone zajmuje ponad 600 KB. 
-Czyli w uproszczeniu, z dostępnego 1 MB miejsca na oprogramowanie, mamy na urządzeniu ponad 600 KB zajętego miejsca przez aktualne oprogramowanie i niecałe 400 KB wolnego miejsca. Nie możemy przesłać 600 KB z aktualizacją, bo taki plik się nie zmieści... dlatego wykonujemy pewną "sztuczkę" - w pierwszym kroku podmieniamy oprogramowanie na urządzeniu, które zajmuje 600 KB na oprogramowanie minimal, które zajmuje 266 KB, a w kolejnym kroku wysyłamy docelowe oprogramowanie, bo mamy ponad 600 KB miejsca.
+- ![tasmota-minimal](/img/en/iot/tasmota-minimal.svg) **tasmota-minimal.bin** - to jest specjalna wersja umożliwiającą aktualizację z przeglądarki (bez programatora). Ta wersja służy tylko do wykonania aktualizacji. Układ ESP8266 ma 1 MB pamięci, a oprogramowanie Tasmota z wszystkimi funkcjami, które mamy włączone zajmuje ponad 600 KB. Czyli w uproszczeniu, z dostępnego 1 MB miejsca na oprogramowanie, mamy na urządzeniu ponad 600 KB zajętego miejsca przez aktualne oprogramowanie i niecałe 400 KB wolnego miejsca. Nie możemy przesłać 600 KB z aktualizacją, bo taki plik się nie zmieści... dlatego wykonujemy pewną "sztuczkę" - w pierwszym kroku podmieniamy oprogramowanie na urządzeniu, które zajmuje 600 KB na oprogramowanie minimal, które zajmuje 266 KB, a w kolejnym kroku wysyłamy docelowe oprogramowanie, bo gdy na urządzeniu jest oprogramowanie minimal to mamy już ponad 600 KB miejsca wolnego (dostępnego do przesłania aktualizacji).
 
-- **tasmota-PL.bin** - to jest kompilacja, która obsługuje większość funkcji i jest przez nas wgrywana do urządzeń. Obecnie sprzedajemy gniazdo S26, dlatego w tej kompilacji taki moduł jest ustawiony jako domyślny.
+- ![tasmota-PL](/img/en/iot/tasmota-PL.svg) **tasmota-PL.bin** - to jest kompilacja, która obsługuje większość funkcji i jest przez nas wgrywana do urządzeń. Obecnie sprzedajemy gniazdo S26, dlatego w tej kompilacji taki moduł jest ustawiony jako domyślny.
 
-### Dostępne funkcje i czujniki w naszej kompilacji
+### Dostępne funkcje i czujniki
+
+W kompilacji, którą udostępniamy i wgrywamy do naszych urządzeń mamy następujące ustawienia:
 
 | Feature or Sensor     | minimal | tasmota |
 |-----------------------|---------|---------|
@@ -285,7 +287,9 @@ Czyli w uproszczeniu, z dostępnego 1 MB miejsca na oprogramowanie, mamy na urz�
 | USE_A4988_STEPPER     | - | - |
 
 
-### Ułatwienia w naszej kompilacji
+### AIS a czysta Tasmota
+
+Jesteśmy kompatybilni z Tasmota i dodatkowo mamy kilka ułatwień w naszej kompilacji.
 
 #### Tryb parowania
 
@@ -296,16 +300,22 @@ Motywacją do tej zmiany było umożliwienie łatwego dodawania urządzeń do na
 
 Urządzenia do sterowania nie potrzebują Internetu (serwisu w chmurze producenta). To bardzo ułatwia dostępność i przyśpiesza działanie sterowania, ale niesie ze sobą też kilka wyzwań technologicznych.
 Główny problem to jak znaleźć bramkę w lokalnej sieci. Dla osób zaznajomionych z technologią ustawienie stałego IP dla bramki nie jest problemem, ale są też osoby, które nie wiedzą (i nie chcą wiedzieć) co to jest IP.
-My ten problem rozwiązujemy i umożliwiamy urządzeniu wyszukanie bramki, czyli mając nasze oprogramowanie i bramkę możesz ją przełączać z Ethernet na WiFi, zmieniać jej adres IP a urządzenia i tak ją znajdą i się z nią połączą.
-Tu ważne jest, żeby nazwa unikalnego klienta MQTT (którą ma każde urządzenie) zaczynała się od identyfikatora bramki. Przy takiej konfiguracji urządzenie samo będzie “szukało bramki” w sieci lokalnej. To oczywiście wysyłamy z bramki do urządzenia podczas “parowania urządzenia z bramką”.
+My ten problem rozwiązujemy i umożliwiamy urządzeniu wyszukanie bramki, czyli mając nasze oprogramowanie, możesz przełączać bramkę AIS-dom z Ethernet na WiFi, zmieniać jej adres IP a urządzenia i tak ją znajdą i się z nią połączą.
+:::tip
+Tu ważne jest, żeby nazwa unikalnego Klienta MQTT (którą ma każde urządzenie) zaczynała się od identyfikatora bramki.
+Przy takiej konfiguracji urządzenie samo będzie “szukało bramki” w sieci lokalnej.
+Ten parametr oczywiście wysyłamy z bramki do urządzenia podczas “parowania urządzenia z bramką”.
+:::
+![OTA AIS dom](/img/en/iot/mqtt_client.png)
 
-#### Współpraca z Asystentem domowym
+#### Automatyczna komunikacja z Asystentem domowym
 
-W naszej kompilacji oprogramowania Tasmota automatycznie ustawiamy na urządzeniu, żeby przedstawiało się bramce (mqtt discovery). Wszystkie urządzenia dodane są też do grupy dom. Bramka po uruchomieniu publikuje na tę grupę prośbę o przedstawienie się do urządzeń i ustala komunikację z nowymi urządzeniami. Szczegółowo opisane jest to w dokumentacji w sekcji MQTT
+Automatycznie ustawiamy na urządzeniu, żeby przedstawiało się bramce (mamy włączone mqtt discovery). Wszystkie urządzenia dodane są też do grupy dom.
+Bramka po uruchomieniu publikuje na tę grupę prośbę o przedstawienie się do urządzeń i ustala komunikację z nowymi urządzeniami. Każde urządzenie po restarcie lub zmianie parametrów wysyła do bramki informacje o swoim statusie oraz tym jak się z nim komunikować. Szczegółowo opisane jest to w dokumentacji bramki, w [sekcji MQTT](/docs/ais_bramka_mqtt)
 
 #### Ustawienia lokalne
 
-W naszej kompilacji oprogramowania Tasmota ma lokalne polskie ustawienia:
+Nasza kompilacja oprogramowania Tasmota ma lokalne polskie ustawienia:
 
 - polskie menu,
 - regionalne serwery czasu NTP (pl.pool.ntp.org, 0.pl.pool.ntp.org),
