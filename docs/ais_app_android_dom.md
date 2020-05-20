@@ -83,9 +83,17 @@ W ustawieniach możemy ręcznie wybrać parametry aplikacji lub uruchomić ponow
 Najważniejszy parametr to adres URL lub identyfikator bramki, **należy poprawnie ustawić adres lub identyfikator bramki, by komunikacja z bramką była możliwa.** Jeżeli chcemy łączyć się z naszą bramką będąc poza siecią domową to należy pamiętać o włączeniu [dostępu z Internetu](/docs/ais_bramka_remote_www_index).
 
 
-## Sterowanie odtwarzaczem na bramce
+## Powiadomienia z bramki
 
-> TODO
+Na bramce dostępna jest usługa ``ais_ai_service.mob_notify``, która umożliwia wysłanie z bramki powiadomienia do aplikacji mobilnej **AIS dom**.
+Dzięki temu za pomocą automatyzacji możemy informować o zdarzeniach w naszym domu wybraną aplikację mobilną.
+
+Powiadomienia są nielimitowane, mogą zawierać zdjęcie oraz tekst do przeczytania.
+Przykład, w jaki sposób można skorzystać z tej funkcjonalności, opisany jest w dokumentacji integracji  [Galeria, w sekcji "Wysyłanie zdjęcia w powiadomieniu"](/docs/ais_app_integration_gallery#wysyłanie-zdjęcia-w-powiadomieniu)
+
+![Notify](/img/en/frontend/gallery_notify_1.png)
+
+![Notify](/img/en/frontend/gallery_notify_4.png)
 
 
 ## Sterowanie gestami
