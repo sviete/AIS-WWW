@@ -19,10 +19,11 @@ W tej chwili nie można dodawać pojedynczych urządzeń - wszystkie urządzenia
 
 ## Dodanie integracji
 
-Integracja wymaga podania dwóch parametrów:
+Integracja wymaga podania trzech parametrów:
 
 - Serwer
 - Token
+- Interwał skanowania
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_1.png)
 
@@ -50,3 +51,5 @@ W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik,
     <source src="/video/supla.webm" type="video/webm"/>
   </video>
 </div>
+
+![Integracja SUPLA](/img/en/frontend/integration_supla_4.png)

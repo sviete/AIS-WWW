@@ -12,6 +12,7 @@ tags: [notifications, tasmota, zigbee, home assistant]
 - ![Powiadomienia](/img/en/blog/202005/megaphone.png) Powiadomienia z bramki... nielimitowane! :)
 - ![Tasmota](/img/en/blog/202005/tasmota_small.png) Aktualizacja AIS-Tasmota, oprogramowania do urządzeń WiFi, [1261 urządzeń](https://templates.blakadder.com/index.html)
 - ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt, [741 urządzenia od 133 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
+- ![SUPLA](/img/en/blog/202005/supla.png) Konfiguracja ilości zapytań do serwisu SUPLA
 - ![Icons](/img/en/blog/202004/house.png) Nowy Home Assistant
 
 
@@ -73,6 +74,15 @@ Dodatkowo w dokumentacji wyjaśniamy jaki wariant kompilacji dostarczamy i jakie
 Aktualizacja Zigbee, tak samo jak aktualizacji innych składowych, wykona się automatycznie.
 
 ![Oprogramowanie bramki](/img/en/blog/202005/update.png)
+
+
+## ![SUPLA](/img/en/blog/202005/supla.png) Konfiguracja ilości zapytań do serwisu SUPLA
+
+Dodaliśmy możliwość definiowania interwału skanowania dla integracji SUPLA.
+W ten sposób każdy może ustalić sobie jak często może pytać o status swoich urządzeń (w zależności od ilości urządzeń które ma i aktualnych limitów w SUPLA).
+Szczegóły w dokumentacji [Integracja SUPLA](/docs/ais_app_supla)
+
+![SUPLA](/img/en/blog/202005/supla_limit.png)
 
 
 
