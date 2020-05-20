@@ -65,14 +65,14 @@ Dodatkowo w dokumentacji wyjaśniamy jaki wariant kompilacji dostarczamy i jakie
 ![Oprogramowanie bramki](/img/en/iot/iot_device_menu.png)
 
 
-## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt
+## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt do wersji 1.13.0
 
 ### [741 urządzenia od 133 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html) 🥰
 
 
-Aktualizacja Zigbee wykona się automatycznie.
+Aktualizacja Zigbee, tak samo jak aktualizacji innych składowych, wykona się automatycznie.
 
-![Oprogramowanie bramki](/img/en/bramka/config_ais_dom_section1.png)
+![Oprogramowanie bramki](/img/en/blog/202005/update.png)
 
 
 
