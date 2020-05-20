@@ -10,7 +10,7 @@ tags: [notifications, tasmota, zigbee, home assistant]
 # 0.109.7 Powiadomienia, Tasmota, Zigbee
 
 - ![Powiadomienia](/img/en/blog/202005/megaphone.png) Powiadomienia z bramki... nielimitowane! :)
-- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Aktualizacja AIS-Tasmota, oprogramowania do urządzeń WiFi, [1261 urządzenia](https://templates.blakadder.com/index.html)
+- ![Tasmota](/img/en/blog/202005/tasmota_small.png) Aktualizacja AIS-Tasmota, oprogramowania do urządzeń WiFi, [1261 urządzeń](https://templates.blakadder.com/index.html)
 - ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt, [741 urządzenia od 133 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
 - ![Icons](/img/en/blog/202004/house.png) Nowy Home Assistant
 
