@@ -7,7 +7,13 @@ sidebar_label: Aktualizacja oprogramowania
 Obecnie aktualizacja wymaga wgrania nowego oprogramowania do urządzenia z przeglądarki internetowej.
 :::
 
+
 ## Aktualizacja krok po kroku
+
+:::danger ostrzeżenie
+NIE PRÓBUJ UAKTUALIZOWAĆ WERSJI Z NUMEREM MNIJSZYM NIŻ 7.7 BEZPOŚREDION DO BIEŻĄCEJ WERSJI.
+Sprawdź ścieżkę aktualizacji na stronie projektu [TASMOTA](https://tasmota.github.io/docs/Upgrading/#migration-path) lub skontaktuj się z nami [info@sviete.pl](mailto:info@sviete.pl) w celu uzyskania informacji o bezpiecznej ścieżce migracji do najnowszej wersji z Twojej bieżącej wersji oprogramowania.
+:::
 
 ### Pobranie plików
 
