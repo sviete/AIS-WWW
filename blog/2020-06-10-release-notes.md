@@ -27,7 +27,7 @@ W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/d
 :::
 
 :::caution Uwaga
-![wait](/img/en/blog/202006/wait.png) **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.** W tym czasie aktualizowane są biblioteki do integracji, dodanych na bramce. **Poczekaj cierpliwie na zakończenie aktualizacji.**
+![wait](/img/en/blog/202006/wait.png) **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.** W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce. **Poczekaj cierpliwie na zakończenie aktualizacji.**
 :::
 
 
@@ -43,8 +43,8 @@ Tym razem oprócz nowości i kolejnych integracji, pojawiło się też sporo pop
 ## ![Armbian](/img/en/blog/202006/armbian.png) Armbian - uruchomienie Linuxa z najnowszym jądrem 5.x na bramce AIS dom
 
 
-Armbian to systemu operacyjn na bazie Linux dla wielu komputerów jednopłytkowych (SBC).
-Czym jest Armbian i co potrafi, opisane jest w oficjalnej dokumentacji Armbian: https://docs.armbian.com/ i na jego forum: https://forum.armbian.com/
+Armbian to system operacyjny na bazie Linux dla wielu komputerów jednopłytkowych (SBC).
+Czym jest Armbian i co potrafi opisane jest w oficjalnej dokumentacji Armbian: https://docs.armbian.com/ i na jego forum: https://forum.armbian.com/
 Armbian to bardzo dojrzały projekt i jeżeli ktoś szuka “czystego Linuxa” z najnowszym jądrem 5.5.x do serwerowych zastosowań, to będzie to dobry wybór (3 lata temu robiliśmy naszą platformę do głośnika na Armbian i serwerze muzycznym Mopidy, niestety multimedia to nie jest mocna strona czystego Linuxa, dlatego mamy teraz Android).
 
 ![Armbian](/img/en/blog/202006/armbian.jpeg)
@@ -70,7 +70,7 @@ Na forum pokazujemy krok po kroku jak:
 
 Podczas prac nad wersją 0.110 wykonaliśmy szereg stres testów.  Efektem tych testów jest zmiana trybu zarządzania wejściem i wyjściem na bramce (io scheduler w Linux).
 
-Na forum doaliśmy opis - wprowadzenie do tematu stres testów: https://ai-speaker.discourse.group/t/armbian-stres-testy-na-bramce/512
+Na forum dodaliśmy opis - wprowadzenie do tematu stres testów: https://ai-speaker.discourse.group/t/armbian-stres-testy-na-bramce/512
 
 ![Stress](/img/en/blog/202006/stress.png)
 
@@ -83,7 +83,7 @@ Tu też nie ma wielkiej filozofii… ale jest wielka ilość (setki tysięcy) ba
 ### [785 urządzeń od 140 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
 
 
-Aktualizacja Zigbee, tak samo jak aktualizacji innych składowych, wykona się automatycznie.
+Aktualizacja Zigbee, tak samo jak aktualizacja innych składowych, wykona się automatycznie.
 
 ![Oprogramowanie bramki](/img/en/blog/202006/update.png)
 
