@@ -32,6 +32,10 @@
   font-size: xx-large;
 }
 
+.navbar {
+  background-color: var(--ifm-color-primary-darker);
+  height: 6em;
+}
 .navbar:before {
     content: "DEV";
     position: fixed;

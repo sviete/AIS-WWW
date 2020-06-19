@@ -23,7 +23,7 @@ Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada
 |                       | dev1                                                    |
 |-----------------------|---------------------------------------------------------|
 | oprogramowanie        | Asystent domowy, środowisko Linux, Android 7.1.2(root)  |
-| procesor              | Amlogic S905w ARM Cortex-A53 (cztero-rdzeniowy)         |
+| procesor              | Amlogic S905 ARM Cortex-A53 (cztero-rdzeniowy)          |
 | pamięć                | 1 GB                                                    |
 | wbudowany dysk        | 8 GB                                                    |
 | Gniazdo karty pamięci | SD/MMC                                                  |
