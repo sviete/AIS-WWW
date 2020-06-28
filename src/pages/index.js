@@ -13,7 +13,7 @@ const ais_features = [
     description: (
       <>
         <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
-        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1280 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
+        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1280 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
     addClass: 'col col--4',
@@ -24,7 +24,7 @@ const ais_features = [
     description: (
       <>
         Dzięki <a href="/docs/ais_zigbee_index"> USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
-        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank"> Ponad 780 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
+        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 780 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
       </>
     ),
     addClass: 'col col--4',
@@ -34,8 +34,8 @@ const ais_features = [
     imageUrl: 'img/main/ha.svg',
     description: (
       <>
-        Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
-        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank">ponad 1600 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
+        Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a rel="noopener" href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
+        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1600 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
       </>
     ),
     addClass: 'col col--4',
@@ -71,14 +71,14 @@ const features = [
     description: (
       <>
         <p>
-          <img className="aisPointInfo" src="img/main/issue.svg" />
+          <img alt="AIS dom info" className="aisPointInfo" src="img/main/issue.svg" />
           Gdy masz w domu stale włączony mikrofon firmy, która zarabia na dostarczaniu spersonalizowanych reklam, wtedy
           to o czym rozmawiasz i co robisz w domu, może być towarem sprzedawanym firmom trzecim.
           Dane o Tobie mogą też zostać użyte do politycznej propagandy.
           To nie jest scenariusz z powieści dystopijnej, to już rzeczywistość.
         </p>
         <p>
-        <img className="aisPointInfo" src="img/main/solution.svg" />
+        <img alt="AIS dom info" className="aisPointInfo" src="img/main/solution.svg" />
         To, co nas odróżnia od innych asystentów to fakt, że oferujemy rozwiązanie, które działa lokalnie w Twoim domu i nie wysyła nikomu żadnych Twoich danych.
         Skoro <b>nie gromadzimy danych, to też ich nikomu nie sprzedajemy - proste!</b>
         </p>
@@ -92,12 +92,12 @@ const features = [
     description: (
       <>
       <p>
-          <img className="aisPointInfo" src="img/main/issue.svg" />
+          <img alt="AIS dom info" className="aisPointInfo" src="img/main/issue.svg" />
           Popularne technologie smart home, wykorzystują chmurę do sterowania automatyką domową.
           To niesie ze sobą kilka problemów, takich jak opóźnienia w reakcji urządzeń na komendę, utrata prywatności, uzależnienie się od dostawcy - jeśli firma, od której kupiłeś urządzenie, postanowi zamknąć usługę, Twój smart home przestanie działać.
       </p>
       <p>
-        <img className="aisPointInfo" src="img/main/solution.svg" />
+        <img alt="AIS dom info" className="aisPointInfo" src="img/main/solution.svg" />
         W naszym rozwiązaniu system sterowania działa w Twoim domu, nie w chmurze producenta.
         Dzięki naszej bramce z brokerem MQTT i oprogramowaniem Home Assistant możesz sterować urządzeniami lokalnie.
         <b> Chmurę traktujemy jako rozszerzenie inteligentnego domu, a nie jego podstawę.</b>
@@ -112,14 +112,14 @@ const features = [
     description: (
       <>
         <p>
-          <img className="aisPointInfo" src="img/main/issue.svg" />
+          <img alt="AIS dom info" className="aisPointInfo" src="img/main/issue.svg" />
            Gdy pytasz o daną rzecz lub jej szukasz w sieci, to znaczy, że się nią interesujesz i chętnie wysłuchasz "porady asystenta" lub przejrzysz zwracane wyniki.
            Niestety często nie są to najlepsze dla Ciebie odpowiedzi, ale takie, za które ktoś najwięcej zapłacił, żeby zostały Ci zaprezentowane.
            Reklamy spersonalizowane, godne zaufania, trafne... są prawdziwą kopalnią złota dla gigantów technologicznych.
            Tylko jak można ufać prywatnemu asystentowi, który umieszcza reklamy w odpowiedzi na pytania?
         </p>
         <p>
-        <img className="aisPointInfo" src="img/main/solution.svg" />
+        <img alt="AIS dom info" className="aisPointInfo" src="img/main/solution.svg" />
           Nie "wysysamy" danych z Twojego domu i <b>nie umieszczamy w żaden sposób reklam w żadnej formie w odpowiedziach, które zwracamy</b>
           . Jesteśmy otwarci i udostępniamy kody naszego systemu za darmo dla wszystkich ludzi.
           Asystent domowy to wybór dla ludzi ceniących sobie ponadczasowe wartości, takie jak wolność,
@@ -135,13 +135,13 @@ const features = [
     description: (
       <>
       <p>
-        <img className="aisPointInfo" src="img/main/issue.svg" />
+        <img alt="AIS dom info" className="aisPointInfo" src="img/main/issue.svg" />
         Uzależnienie od dostawcy (ang. vendor lock-in), to sytuacja, w której klient jest uzależniony od produktów dostawcy.
         W przypadku systemów automatyki termin ten odnosi się też do niemożności zastosowania urządzenia innego producenta z powodu niekompatybilności.
         Często niekompatybilność urządzeń jest celowym zamierzeniem dostawcy, który z uzależnienia nabywcy czerpie korzyści – w modelu biznesowym powiązanych produktów, dostawca sprzedaje główny produkt (np. centralkę) po zaniżonej cenie po to, aby czerpać korzyści ze sprzedaży komponentów, które do niego pasują.
       </p>
         <p>
-          <img className="aisPointInfo" src="img/main/solution.svg" />
+          <img alt="AIS dom info" className="aisPointInfo" src="img/main/solution.svg" />
           Nasza <b>bramka może być konfigurowana i sterowana z przeglądarki internetowej</b>, nie zamykamy nikogo w jednym ekosystemie.
           Asystent domowy jest kompatybilny z popularnymi urządzeniami automatyki domowej, jest wyposażony w wiele wbudowanych integracji.
           Bazujemy na Home Assistant, gdzie aktywna społeczność użytkowników dzieli się pomysłami, spostrzeżeniami i rozwiązaniami.
@@ -165,7 +165,7 @@ function Feature({imageUrl, title, description, addClass}) {
     <div className={classnames(addClass, styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.aisComiksImg} src={imgUrl} alt={title} />
+          <img alt="AIS dom feature" className={styles.aisComiksImg} src={imgUrl} alt={title} />
         </div>
       )}
       <h3>{title}</h3>
@@ -189,13 +189,13 @@ function Home() {
               <p className="hero__subtitle">{siteConfig.tagline}</p>
               <div className={styles.buttons}>
                 <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom">
-                  <img className={styles.googlePlayImg}  src="/img/main/google-play-badge.png" />
+                  <img alt="AIS dom on google play" className={styles.googlePlayImg}  src="/img/main/google-play-badge.png" />
                 </a>
               </div>
             </div>
             <a href="docs/ais_bramka_index">
             <div className={classnames('col col--5')}>
-              <img className={styles.heroLogo} src="img/logo-responsive.svg" />
+              <img alt="AIS dom logo" className={styles.heroLogo} src="img/logo-responsive.svg" />
             </div>
             </a>
           </div>
@@ -206,11 +206,11 @@ function Home() {
           <p>Automatyzujemy Twój dom, łącząc zalety lokalnego przetwarzania<br/>z łącznością z usługami w chmurze IoT.</p>
           <Link to={useBaseUrl('/docs/ais_bramka_index')}>
             <div>
-            <img className="aisPointInfo" src="img/main/text-to-speech.svg" />
-            <img className="aisPointInfo" src="img/main/plus.svg" />
-            <img className="aisPointInfo" src="img/main/monitor-speaker.svg" />
-            <img className="aisPointInfo" src="img/main/plus.svg" />
-            <img className="aisPointInfo" src="img/main/home-assistant.svg" />
+            <img alt="AIS dom text to speech" className="aisPointInfo" src="img/main/text-to-speech.svg" />
+            <img alt="AIS dom plus" className="aisPointInfo" src="img/main/plus.svg" />
+            <img alt="AIS dom speaker" className="aisPointInfo" src="img/main/monitor-speaker.svg" />
+            <img alt="AIS dom plus" className="aisPointInfo" src="img/main/plus.svg" />
+            <img alt="AIS dom assistant" className="aisPointInfo" src="img/main/home-assistant.svg" />
             <br />
             </div>
             Bramka do sterowania automatyką domową i multimiediami<br />z wbudowanym inteligentnym asystentem głosowym.
@@ -269,23 +269,23 @@ function Home() {
             <div className="row">
               <div className={classnames('col col--10', styles.aisPeoples)}>
                 <h3>Projekt tworzony i sponsorowany przez ludzi - dziękujemy!</h3>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Andrzej.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Sebastian.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Celka.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Rysio.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Anzela.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Michal.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Bartek.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Asia.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Piotrek.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Kasia.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Tomek.png" /></a>
-                <a href="https://github.com/sviete"><img className={styles.sponsorImg} src="img/main/Ania.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Andrzej.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Sebastian.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Celka.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Rysio.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Anzela.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Michal.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Bartek.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Asia.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Piotrek.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Kasia.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Tomek.png" /></a>
+                <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Ania.png" /></a>
               </div>
               <div className={classnames('col col--2', styles.loveSectionPlea)}>
                 <div>
                   <a href="https://allegro.pl/uzytkownik/AI-Speaker">
-                    <img className={styles.loveImg} src="img/main/join_new_user.svg" alt="Join US" />
+                    <img alt="AIS dom join us" className={styles.loveImg} src="img/main/join_new_user.svg" alt="Join US" />
                   </a>
                 </div>
                 <Link

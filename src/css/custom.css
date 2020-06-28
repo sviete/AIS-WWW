@@ -10,12 +10,24 @@
   --ifm-color-primary: #ff9900;
   --ifm-color-primary-dark: #e68a00;
   --ifm-color-primary-darker: #d98200;
-  --ifm-color-primary-darkest: #b36b00;
+  --ifm-color-primary-darkest: #a96705;
   --ifm-color-primary-light: #ffa31a;
   --ifm-color-primary-lighter: #ffa826;
   --ifm-color-primary-lightest: #ffb84d;
 
 }
+
+a {
+  color: var(--ifm-color-primary-darkest);
+}
+a.button.button--danger {
+  color: white;
+}
+.button.button--danger {
+  background-color: #353f45;
+  border-color: #353f45;
+}
+
 
 .docusaurus-highlight-code-line {
   background-color: rgb(72, 77, 91);
@@ -56,4 +68,20 @@
 
 .navbar .navbar__inner {
   margin-left: 2em;
+}
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 1024px) {
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
 }
