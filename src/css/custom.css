@@ -17,6 +17,10 @@
 
 }
 
+.footer__item {
+    padding: 6px;
+}
+
 a {
   color: var(--ifm-color-primary-darkest);
 }
