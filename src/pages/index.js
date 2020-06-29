@@ -67,7 +67,7 @@ const ais_features = [
 const features = [
   {
     title: 'Prywatność. Nie musisz płacić za usługę smart home utratą prywatności.',
-    imageUrl: 'img/main/pl_voice-threats-featured.jpg',
+    imageUrl: 'img/main/ais-privacy.webp',
     description: (
       <>
         <p>
@@ -88,7 +88,7 @@ const features = [
   },
   {
     title: 'Działanie lokalne. Kontroluj swoje urządzenia lokalnie, nie pozwól by zrobiono z Twoich danych produkt.',
-    imageUrl: 'img/main/great-hack-review-featured.jpg',
+    imageUrl: 'img/main/ais-local.webp',
     description: (
       <>
       <p>
@@ -108,7 +108,7 @@ const features = [
   },
   {
     title: 'Wolność. To co ważne',
-    imageUrl: 'img/main/voice-helper-ads-featured.jpg',
+    imageUrl: 'img/main/ais-freedom.webp',
     description: (
       <>
         <p>
@@ -131,7 +131,7 @@ const features = [
   },
   {
     title: 'Otwartość i dostępność. Asystent dostępny dla każdego',
-    imageUrl: 'img/main/ksc-free-download-featured.jpg',
+    imageUrl: 'img/main/ais-open.webp',
     description: (
       <>
       <p>
