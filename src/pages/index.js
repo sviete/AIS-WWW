@@ -8,29 +8,29 @@ import styles from './styles.module.css';
 
 const ais_features = [
   {
-    title: <>Ponad <span className="strongInfo">1280</span> urządzeń WiFi</>,
+    title: <>Ponad <span className="strongInfo">1380</span> urządzeń WiFi</>,
     imageUrl: 'img/main/wifi.svg',
     description: (
       <>
         <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
-        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1280 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
+        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1380 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
     addClass: 'col col--4',
   },
   {
-    title: <>Ponad <span className="strongInfo">780</span> urządzeń Zigbee</>,
+    title: <>Ponad <span className="strongInfo">840</span> urządzeń Zigbee</>,
     imageUrl: 'img/main/zigbee.svg',
     description: (
       <>
         Dzięki <a href="/docs/ais_zigbee_index"> USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
-        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 780 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
+        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 840 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
       </>
     ),
     addClass: 'col col--4',
   },
   {
-    title: <>Ponad <span className="strongInfo">1580</span> Integracji Home Assistant</>,
+    title: <>Ponad <span className="strongInfo">1600</span> Integracji Home Assistant</>,
     imageUrl: 'img/main/ha.svg',
     description: (
       <>
