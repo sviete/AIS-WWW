@@ -12,7 +12,7 @@ tags: [spotify, zigbee, home assistant, mqtt bridge, exta life]
 - ![Biblioteka Spotify](/img/en/blog/202006/armbian.png) Biblioteka Spotify
 - ![MQTT bridge](/img/en/blog/202006/tuning.png) Skalowanie systemu za pomocą mostu MQTT
 - ![EXTA LIFE](/img/en/blog/202006/tuning.png) EXTA LIFE
-- ![Home Assistant](/img/en/blog/202006/hass.png) Nowy Home Assistant - kliejne wydanie z fajnymi usptawniniami
+- ![Home Assistant](/img/en/blog/202006/hass.png) Nowy Home Assistant - kliejne wydanie z nowymi integracjami dostępnymi z aplikacji oraz usprawnieniami
 - ![Zigbee](/img/en/blog/202006/zigbee.png) Kolejna aktualizacja Zigbee2Mqtt, już [ponad 849 urządzeń od 146 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
 - ![Backup](/img/en/blog/202006/zigbee.png) Jeszcze łatwiejsze przywrócenie konfiguracji z kopii
 
