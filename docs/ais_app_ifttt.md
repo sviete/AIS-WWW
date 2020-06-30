@@ -22,7 +22,7 @@ Aby skonfigurować IFTTT, przejdź do konfiguracji a następnie do panelu integr
 
 ![Konfiguracja IFTTT](/img/en/bramka/ifttt_1.png)
 
-### Adres URL do przesyłania zdażeń z IFTTT
+### Adres URL do przesyłania zdarzeń z IFTTT
 
 Po wybraniu tej integracji otrzymasz adres URL który należy użyć w akcji ["Make a web request"](https://ifttt.com/maker_webhooks) aby wysłać zdarzenia do Asystenta domowego.
 
