@@ -21,7 +21,7 @@ Aby skonfigurować Dialogflow, przejdź do konfiguracji a następnie do panelu i
 
 ![Konfiguracja IFTTT](/img/en/bramka/dialogflow_0.png)
 
-### Adres URL do przesyłania zdażeń z Dialogflow
+### Adres URL do przesyłania zdarzeń z Dialogflow
 
 Po wybraniu tej integracji otrzymasz adres URL który należy użyć w konfiguracji ["Dialogflow Webhook"](https://dialogflow.com/docs/fulfillment#webhook) aby wysłać zdarzenia do Asystenta domowego z Dialogflow.
 
