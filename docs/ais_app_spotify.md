@@ -4,7 +4,7 @@ sidebar_label: Spotify
 ---
 ## Spotify
 
-Integracja ze Spotify pozwala systemowi Asystent domowy na odtwarzanie teści audio z serwisu Spotify.
+Integracja ze Spotify pozwala systemowi Asystent domowy na przeglądanie biblioteki, wyszukiwanie i odtwarzanie teści audio z serwisu Spotify.
 
 ![Przejście do Spotify](/img/en/frontend/spotify_2_way.png)
 
@@ -78,10 +78,21 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 ![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s3.png)
 
 
-* Możesz już głosowo wyszukiwać i uruchamiać muzykę ze Spotify.
+
+## Odtwarzanie muzyki ze Spotify
+
+### Możesz przeglądać swoją bibliotekę i odtwarzać muzykę ze Spotify.
+
+![Konfiguracja Spotify](/img/en/frontend/spotify_lib.png)
+
+
+
+### Możesz też głosowo wyszukiwać i uruchamiać muzykę ze Spotify.
 
 ![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s7.png)
 
+
+## Sterowanie głosowe
 
 ### Przypominamy, że z asystentem możesz rozmawiać:
 - przez naciśnięcie mikrofonu w aplikacji webowej (tylko w przeglądarkach obsługujących wprowadzanie głosowe)

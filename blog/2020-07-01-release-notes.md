@@ -3,11 +3,11 @@ author: Jola AI-Speaker
 authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
-title: Wersja systemu 0.111.5
+title: Wersja systemu 0.111.6
 tags: [spotify, zigbee, home assistant, mqtt bridge, exta life]
 ---
 
-# 0.111.5 Biblioteka Spotify, MQTT bridge, EXTA LIFE...
+# 0.111.6 Biblioteka Spotify, MQTT bridge, EXTA LIFE...
 
 - ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Biblioteka Spotify
 - ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT
@@ -41,16 +41,32 @@ W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/d
 
 ## ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Biblioteka Spotify
 
+W naszej wbudowanej [integracji Spotify](/docs/ais_app_spotify) dodaliśmy obsługę biblioteki ze Spotify. [Sebastian](https://github.com/sgrzys) ciężko się nakodował 🥵 żeby całe to (nie zawsze niestety spójne) [API Spotify](https://developer.spotify.com/documentation/web-api/) wywołać i zaprezentować w aplikacji wyniki. Dzięki temu mamy przyciski które pozwalają na szybkie przeglądanie i odtwarzanie ze Spotify:
+- Polecanych nam list odtwarzania
+- Naszych zapisanych list odtwarzania
+- Naszych ulubionych artystów
+- Nasze ulubione albumy
+- Nasze ulubione piosenki
+
+Sebastian dodał też stronicowanie wyników, dzięki czemu nawet słabsze przeglądarki powinny sobie płynnie radzić z szybkim wyświetlaniem list wyników zwracanych ze Spotify 🥳
+
+![spotify lib](/img/en/blog/202007/spotify_lib.png)
+
+
 ## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE
 
-Autorem integracji Exta Life z Home Assistant jest [dgtal1](https://github.com/dgtal1), który to był tak otwarty i uprzejmy, że zgodził się dodać tę integrację jako wbudowany komponent do bramki AIS. Dzięki temu nasi użytkownicy będą mieli możliwość łatwej konfiguracji integracji z poziomu aplikacji (bez konieczności doinstalowywania niestandardowych komponentów).
+Autorem integracji Exta Life z Home Assistant jest [dgtal1](https://github.com/dgtal1), który to był tak otwarty i uprzejmy, że zgodził się dodać tę integrację jako wbudowany komponent do bramki AIS. **Dzięki dgtal1** 🥰 **!** Dzięki temu nasi użytkownicy mają możliwość łatwej konfiguracji integracji z poziomu aplikacji (bez konieczności doinstalowywania niestandardowych komponentów).
 
-Integracja jest efektem miesięcy kodowania, zachęcamy do zapoznania się z projektem na [forumextalife.pl](https://www.forumextalife.pl/index.php/topic,311.0.html)
+Taka integracja jest efektem miesięcy kodowania, zachęcamy do zapoznania się z projektem na [forumextalife.pl](https://www.forumextalife.pl/index.php/topic,311.0.html)
 
-Jest to ciekawy przykład tego, jak użytkownik technologicznie wyprzedził producenta sprzętu, wziął sprawy w swoje ręce i dodał funkcjonalności. Tak właśnie działa pasja i otwartość, żadna firma nie jest w stanie z tym konkurować zamkniętym rozwiązaniami. Zrozumieli to już tacy giganci jak Microsoft, Google... miejmy nadzieję, że kiedyś zrozumieją to też inni.
-
+Jest to kolejny ciekawy przykład tego, jak skuteczna jest pasja i otwartość, żadna firma nie jest w stanie z tym konkurować zamkniętym rozwiązaniami.
+Zrozumieli to już tacy giganci IT jak Microsoft, Google... miejmy nadzieję, że kiedyś zrozumieją to też inne firmy.
 
 ![EXTA LIFE](/img/en/frontend/extalife_1.png)
+
+Integracja jest jeszcze rozwijana, w przyszłości dodamy ją jako sub moduł do naszego repozytorium kodów i postaramy się dodać jakieś nasze 3 grosze do tego kodu.
+Uzupełnimy też dokumentacje i opiszemy jak dodać konfigurację krok po kroku.
+Tym samym mamy już możliwość konfiguracji z interfejsu użytkownika popularne w Polsce urządzenia: FIBARO, SUPA, BleBox, Exta Life 🥳
 
 ![EXTA LIFE](/img/en/frontend/extalife_2.png)
 
