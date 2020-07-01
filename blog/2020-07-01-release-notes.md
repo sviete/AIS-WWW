@@ -7,14 +7,15 @@ title: Wersja systemu 0.111.5
 tags: [spotify, zigbee, home assistant, mqtt bridge, exta life]
 ---
 
-# 0.111.5 Biblioteka Spotify, MQTT bridge, EXTA LIFE, HA, Zigbee2MQTT...
+# 0.111.5 Biblioteka Spotify, MQTT bridge, EXTA LIFE...
 
-- ![Biblioteka Spotify](/img/en/blog/202006/armbian.png) Biblioteka Spotify
-- ![MQTT bridge](/img/en/blog/202006/tuning.png) Skalowanie systemu za pomocą mostu MQTT
-- ![EXTA LIFE](/img/en/blog/202006/tuning.png) EXTA LIFE
-- ![Home Assistant](/img/en/blog/202006/hass.png) Nowy Home Assistant - kliejne wydanie z nowymi integracjami dostępnymi z aplikacji oraz usprawnieniami
-- ![Zigbee](/img/en/blog/202006/zigbee.png) Kolejna aktualizacja Zigbee2Mqtt, już [ponad 849 urządzeń od 146 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
-- ![Backup](/img/en/blog/202006/zigbee.png) Jeszcze łatwiejsze przywrócenie konfiguracji z kopii
+- ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Biblioteka Spotify
+- ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT
+- ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE
+- ![Restore from backup](/img/en/blog/202007/system_restore.png) Łatwiejsze przywrócenie konfiguracji z kopii
+- ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant - szybsze uruchamianie
+- ![Zigbee](/img/en/blog/202007/zigbee.png) Aktualizacja Zigbee2Mqtt, już [ponad 849 urządzeń od 146 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
+
 
 
 
@@ -28,76 +29,90 @@ UWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/doc
 W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)- to może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.
 :::
 
-:::caution Uwaga
+:::caution Ważna informacja o aktualizacji!
  **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**
 
- ![wait](/img/en/blog/202006/wait.png) w tym czasie aktualizowane są biblioteki do integracji dodanych na bramce, konwertowana jest baza zdarzeń itd...
+ ![wait](/img/en/blog/202007/wait.png) w tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.
 
  **Poczekaj cierpliwie na zakończenie aktualizacji.**
 :::
 
 
-## ![Home Assistant](/img/en/blog/202006/hass.png) Nowy Home Assistant - jedno z największych wydań :)
+
+## ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Biblioteka Spotify
+
+## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE
+
+Autorem integracji Exta Life z Home Assistant jest [dgtal1](https://github.com/dgtal1), który to był tak otwarty i uprzejmy, że zgodził się dodać tę integrację jako wbudowany komponent do bramki AIS. Dzięki temu nasi użytkownicy będą mieli możliwość łatwej konfiguracji integracji z poziomu aplikacji (bez konieczności doinstalowywania niestandardowych komponentów).
+
+Integracja jest efektem miesięcy kodowania, zachęcamy do zapoznania się z projektem na [forumextalife.pl](https://www.forumextalife.pl/index.php/topic,311.0.html)
+
+Jest to ciekawy przykład tego, jak użytkownik technologicznie wyprzedził producenta sprzętu, wziął sprawy w swoje ręce i dodał funkcjonalności. Tak właśnie działa pasja i otwartość, żadna firma nie jest w stanie z tym konkurować zamkniętym rozwiązaniami. Zrozumieli to już tacy giganci jak Microsoft, Google... miejmy nadzieję, że kiedyś zrozumieją to też inni.
 
 
-Najnowszy (stabilny) [Home Assistant 0.110.7](https://www.home-assistant.io/blog/2020/05/20/release-110/)
-Tym razem oprócz nowości i kolejnych integracji, pojawiło się też sporo poprawek zmniejszających rozmiar i przyśpieszających działanie aplikacji!
+![EXTA LIFE](/img/en/frontend/extalife_1.png)
 
-![Home Assistant](/img/en/blog/202006/ha_integrations.png)
-
-
-## ![Armbian](/img/en/blog/202006/armbian.png) Armbian - uruchomienie Linuxa z najnowszym jądrem 5.x na bramce AIS dom
+![EXTA LIFE](/img/en/frontend/extalife_2.png)
 
 
-Armbian to system operacyjny na bazie Linux dla wielu komputerów jednopłytkowych (SBC).
-Czym jest Armbian i co potrafi opisane jest w oficjalnej dokumentacji Armbian: https://docs.armbian.com/ i na jego forum: https://forum.armbian.com/
-Armbian to bardzo dojrzały projekt i jeżeli ktoś szuka “czystego Linuxa” z najnowszym jądrem 5.5.x do serwerowych zastosowań, to będzie to dobry wybór (3 lata temu robiliśmy naszą platformę do głośnika na Armbian i serwerze muzycznym Mopidy, niestety multimedia to nie jest mocna strona czystego Linuxa, dlatego mamy teraz Android).
+## ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT
 
-![Armbian](/img/en/blog/202006/armbian.jpeg)
+Na forum pokazujemy krok po kroku jak połączyć dwie bramki za pomocą MQTT Bridge -> [opis na forum](https://ai-speaker.discourse.group/t/armbian-ubuntu-na-bramce-ais-dom/500)
 
-Na forum pokazujemy krok po kroku jak:
+![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg.png)
 
-1. Uruchomić Armbian na bramce ais dom -> [opis na forum](https://ai-speaker.discourse.group/t/armbian-ubuntu-na-bramce-ais-dom/500)
+Co docelowo da nam taką możliwość łączenia instancji Asystenta domowego:
 
-![Armbian](/img/en/blog/202006/armbian_1.png)
+![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg2.png)
 
-2. Wykonać testy porównawcze na Armbian -> [opis na forum](https://ai-speaker.discourse.group/t/benchmarking-na-armbian/501)
 
-![Armbian](/img/en/blog/202006/animated.gif)
+Oraz jak działa IoT w wielkiej skali - czyli jak połączyć 10 Milionów urządzeń za pomocą brokera EMQX i mostów do bramek MQTT -> [opis na forum](https://ai-speaker.discourse.group/t/10-milionow-urzadzen-skalowanie-systemu-do-sterowania-automatyka-domowa/538)
 
-3. Zainstalować Supervised Home Assistant na Armbian i/lub wiele innych gotowych aplikacji -> [opis na forum](https://ai-speaker.discourse.group/t/armbian-supervised-home-assistant-na-bramce-ais-dom/511)
-
-![Armbian](/img/en/blog/202006/armbian_softy.png)
+![MQTT Bridge](/img/en/blog/202007/emqx_mqtt_bridge.jpeg)
 
 
 
+## ![Restore from backup](/img/en/blog/202007/system_restore.png) Łatwiejsze przywrócenie konfiguracji z kopii
 
-## ![Stress](/img/en/blog/202006/tuning.png) Stres testy bramki i poprawki
+Dotychczas po wykonaniu procedury [Pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step) lub po wykonaniu [Przywrócenie ustawień fabrycznych urządzenia](/docs/ais_bramka_reset_index) żeby przywrócić konfigurację bramki, trzeba było wykonać kilka kroków:
 
-Podczas prac nad wersją 0.110 wykonaliśmy szereg stres testów.  Efektem tych testów jest zmiana trybu zarządzania wejściem i wyjściem na bramce (io scheduler w Linux).
+- Uruchomić bramkę i wykonać “Początkową konfigurację” :
+- dodać nowe konto,
+- wybrać lokalizacje,
+- dodać urządzenia i usługi (lub pominąć ekran).
+- Przejść do “Ustawienia” -> “Konfiguracja bramki AIS dom” -> “Oprogramowanie bramki” -> “Przywracanie ustawień”
+- Zrestartować bramkę i zalogować się na konto z przywróconych ustawień
 
-Na forum dodaliśmy opis -> [wprowadzenie do tematu stres testów](https://ai-speaker.discourse.group/t/armbian-stres-testy-na-bramce/512)
+Teraz będzie łatwiej 😊, bo dodaliśmy do interfejsu użytkownika, możliwość przywrócenia z kopii przed wykonaniem “Początkowej konfiguracji”.
 
-![Stress](/img/en/blog/202006/stress.png)
+![AIS restore](/img/en/blog/202007/ais_restore.png)
 
-Nasz faworyt to test za pomocą aplikacji monkey :monkey_face:
-Tu też nie ma wielkiej filozofii… ale jest wielka ilość (setki tysięcy) bardzo losowych zdarzeń, co daje dość ciekawy efekt :wink:
+Czyli, przed rozpoczęciem konfiguracji systemu, w kroku w którym tworzymy pierwszego użytkownika dodaliśmy możliwość zalogowania się do “Portalu integratora AI-Speaker” i przywrócenia konfiguracji z kopii zapasowej przesłanej do “Portalu integratora AI-Speaker”.
 
-<iframe width="720" height="460"  src="https://www.youtube.com/embed/-1uBMCmMaHg" frameborder="0" allowfullscreen></iframe>
+Opisujemy to w dokumentacji [Pierwsze uruchomienie - Konto właściciela](/docs/ais_bramka_first_run_step_account)
 
-## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt do wersji 1.13.1
 
-### [785 urządzeń od 140 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
+## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt do wersji 1.14.1
+
+### [849 urządzeń od 146 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
 
 
 Aktualizacja Zigbee, tak samo jak aktualizacja innych składowych, wykona się automatycznie.
 
-![Oprogramowanie bramki](/img/en/blog/202006/update.png)
+![CC2531](/img/en/iot/CC2531_Zigbee2MQTT_USB.jpg)
 
+
+## ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant - szybsze uruchamianie
+
+
+Najnowszy (stabilny) [Home Assistant 0.111.4](https://www.home-assistant.io/blog/2020/06/10/release-111/)
+Tym razem oprócz nowości i kolejnych integracji, otrzymujemy poprawki dotyczące uruchamiania serwera Home Assistant.
+
+![Home Assistant](/img/en/blog/202007/ha.png)
 
 
 
 ----
 Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)
-AI-Speaker 06/2020
+AI-Speaker 07/2020
 ----

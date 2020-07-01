@@ -46,10 +46,5 @@ Podczas generowania tokena należy dodać przynajmniej uprawnienia do odczytu ka
 
 Po dodaniu integracji można sterować głosowo urządzeniami SUPLA oraz używać ich w automatyzacjach tak samo, jak wszystkie inne urządzenia.
 W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik, odkurzacz) mają to samo API niezależnie od producenta danego urządzenia.
-<div>
-  <video width="100%" height="100%" playsinline autoplay muted loop>
-    <source src="/video/supla.webm" type="video/webm"/>
-  </video>
-</div>
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_4.png)
