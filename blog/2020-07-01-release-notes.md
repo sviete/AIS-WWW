@@ -52,6 +52,26 @@ Sebastian dodał też stronicowanie wyników, dzięki czemu nawet słabsze przeg
 
 ![spotify lib](/img/en/blog/202007/spotify_lib.png)
 
+:::caution Uwaga.
+ Potrzebujemy więcej uprawnień do Spotify, żeby można było z poziomu AI-Speaker przeglądać ulubione playlist, albumy, wykonawców, utwory.
+ **Nic nie modyfikujemy z poziomu Asystenta domowego w bibliotece Spotify (tylko przeglądamy i odtwarzamy treści).**
+:::
+
+Jeżeli korzystasz z integracji ze Spotify, to po tej aktualizacji należy ją przeinstalować, w tym celu wystarczy:
+
+1. Usunąć integrację ze Spotify
+
+![spotify auth](/img/en/blog/202007/spotify_auth_1.png)
+
+2. Dodać ponownie integrację ze Spotify
+
+![spotify auth](/img/en/blog/202007/spotify_auth_2.png)
+
+
+3. Przyznać więcej uprawnień dla AI-Speaker
+
+![spotify auth](/img/en/blog/202007/spotify_auth_3.png)
+
 
 ## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE
 
