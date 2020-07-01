@@ -41,7 +41,7 @@ W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/d
 
 ## ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Biblioteka Spotify
 
-W naszej wbudowanej [integracji Spotify](/docs/ais_app_spotify) dodaliśmy obsługę biblioteki ze Spotify. [Sebastian](https://github.com/sgrzys) ciężko się nakodował 🥵 żeby całe to (nie zawsze niestety spójne) [API Spotify](https://developer.spotify.com/documentation/web-api/) wywołać i zaprezentować w aplikacji wyniki. Dzięki temu mamy przyciski które pozwalają na szybkie przeglądanie i odtwarzanie ze Spotify:
+W naszej wbudowanej [integracji Spotify](/docs/ais_app_spotify) dodaliśmy obsługę biblioteki ze Spotify. [Sebastian](https://github.com/sgrzys) ciężko się nakodował 🥵 żeby całe to (nie zawsze niestety spójne) [API Spotify](https://developer.spotify.com/documentation/web-api/) wywołać i zaprezentować w aplikacji wyniki. Dzięki temu mamy przyciski, które pozwalają na szybkie przeglądanie i odtwarzanie ze Spotify:
 - Polecanych nam list odtwarzania
 - Naszych zapisanych list odtwarzania
 - Naszych ulubionych artystów
@@ -53,7 +53,7 @@ Sebastian dodał też stronicowanie wyników, dzięki czemu nawet słabsze przeg
 ![spotify lib](/img/en/blog/202007/spotify_lib.png)
 
 :::caution Uwaga.
- Potrzebujemy więcej uprawnień do Spotify, żeby można było z poziomu AI-Speaker przeglądać ulubione playlist, albumy, wykonawców, utwory.
+ Potrzebujemy więcej uprawnień do Spotify, żeby można było z poziomu AI-Speaker przeglądać ulubione playlisty, albumy, wykonawców, utwory.
  **Nic nie modyfikujemy z poziomu Asystenta domowego w bibliotece Spotify (tylko przeglądamy i odtwarzamy treści).**
 :::
 
@@ -75,25 +75,26 @@ Jeżeli korzystasz z integracji ze Spotify, to po tej aktualizacji należy ją p
 
 ## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE
 
-Autorem integracji Exta Life z Home Assistant jest [dgtal1](https://github.com/dgtal1), który to był tak otwarty i uprzejmy, że zgodził się dodać tę integrację jako wbudowany komponent do bramki AIS. **Dzięki dgtal1** 🥰 **!** Dzięki temu nasi użytkownicy mają możliwość łatwej konfiguracji integracji z poziomu aplikacji (bez konieczności doinstalowywania niestandardowych komponentów).
+Autorem integracji Exta Life z Home Assistant jest [dgtal1](https://github.com/dgtal1), który to był tak otwarty i uprzejmy, że zgodził się dodać tę integrację jako wbudowany komponent do bramki AIS. **Dzięki dgtal1** 🥰 **!** 
+Dzięki temu nasi użytkownicy mają możliwość łatwej konfiguracji integracji z poziomu aplikacji (bez konieczności doinstalowywania niestandardowych komponentów).
 
 Taka integracja jest efektem miesięcy kodowania, zachęcamy do zapoznania się z projektem na [forumextalife.pl](https://www.forumextalife.pl/index.php/topic,311.0.html)
 
-Jest to kolejny ciekawy przykład tego, jak skuteczna jest pasja i otwartość, żadna firma nie jest w stanie z tym konkurować zamkniętym rozwiązaniami.
+Jest to kolejny ciekawy przykład tego, jak skuteczna jest pasja i otwartość, żadna firma nie jest w stanie konkurować z tym swoimi zamkniętymi rozwiązaniami.
 Zrozumieli to już tacy giganci IT jak Microsoft, Google... miejmy nadzieję, że kiedyś zrozumieją to też inne firmy.
 
 ![EXTA LIFE](/img/en/frontend/extalife_1.png)
 
 Integracja jest jeszcze rozwijana, w przyszłości dodamy ją jako sub moduł do naszego repozytorium kodów i postaramy się dodać jakieś nasze 3 grosze do tego kodu.
-Uzupełnimy też dokumentacje i opiszemy jak dodać konfigurację krok po kroku.
-Tym samym mamy już możliwość konfiguracji z interfejsu użytkownika popularne w Polsce urządzenia: FIBARO, SUPA, BleBox, Exta Life 🥳
+Uzupełnimy też dokumentację i opiszemy jak dodać konfigurację krok po kroku.
+Tym samym mamy już możliwość konfiguracji z interfejsu użytkownika popularnych w Polsce urządzeń: FIBARO, SUPLA, BleBox, Exta Life 🥳
 
 ![EXTA LIFE](/img/en/frontend/extalife_2.png)
 
 
 ## ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT
 
-Na forum pokazujemy krok po kroku jak połączyć dwie bramki za pomocą MQTT Bridge -> [opis na forum](https://ai-speaker.discourse.group/t/armbian-ubuntu-na-bramce-ais-dom/500)
+Na forum pokazujemy krok po kroku jak połączyć dwie bramki za pomocą MQTT Bridge -> [opis na forum](https://ai-speaker.discourse.group/t/skalowanie-systemu-do-sterowania-automatyka-domowa-most-mqtt-pomiedzy-bramkami/537)
 
 ![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg.png)
 
@@ -102,7 +103,7 @@ Co docelowo da nam taką możliwość łączenia instancji Asystenta domowego:
 ![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg2.png)
 
 
-Oraz jak działa IoT w wielkiej skali - czyli jak połączyć 10 Milionów urządzeń za pomocą brokera EMQX i mostów do bramek MQTT -> [opis na forum](https://ai-speaker.discourse.group/t/10-milionow-urzadzen-skalowanie-systemu-do-sterowania-automatyka-domowa/538)
+Oraz jak działa IoT w wielkiej skali - czyli jak połączyć 10 milionów urządzeń za pomocą brokera EMQX i mostów do bramek MQTT -> [opis na forum](https://ai-speaker.discourse.group/t/10-milionow-urzadzen-skalowanie-systemu-do-sterowania-automatyka-domowa/538)
 
 ![MQTT Bridge](/img/en/blog/202007/emqx_mqtt_bridge.jpeg)
 
@@ -110,20 +111,20 @@ Oraz jak działa IoT w wielkiej skali - czyli jak połączyć 10 Milionów urzą
 
 ## ![Restore from backup](/img/en/blog/202007/system_restore.png) Łatwiejsze przywrócenie konfiguracji z kopii
 
-Dotychczas po wykonaniu procedury [Pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step) lub po wykonaniu [Przywrócenie ustawień fabrycznych urządzenia](/docs/ais_bramka_reset_index) żeby przywrócić konfigurację bramki, trzeba było wykonać kilka kroków:
+Dotychczas po wykonaniu procedury [Pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step) lub po wykonaniu [Przywrócenia ustawień fabrycznych urządzenia](/docs/ais_bramka_reset_index), żeby przywrócić konfigurację bramki, trzeba było wykonać kilka kroków:
 
 - Uruchomić bramkę i wykonać “Początkową konfigurację” :
 - dodać nowe konto,
-- wybrać lokalizacje,
+- wybrać lokalizację,
 - dodać urządzenia i usługi (lub pominąć ekran).
 - Przejść do “Ustawienia” -> “Konfiguracja bramki AIS dom” -> “Oprogramowanie bramki” -> “Przywracanie ustawień”
 - Zrestartować bramkę i zalogować się na konto z przywróconych ustawień
 
-Teraz będzie łatwiej 😊, bo dodaliśmy do interfejsu użytkownika, możliwość przywrócenia z kopii przed wykonaniem “Początkowej konfiguracji”.
+Teraz będzie łatwiej 😊, bo dodaliśmy do interfejsu użytkownika możliwość przywrócenia z kopii przed wykonaniem “Początkowej konfiguracji”.
 
 ![AIS restore](/img/en/blog/202007/ais_restore.png)
 
-Czyli, przed rozpoczęciem konfiguracji systemu, w kroku w którym tworzymy pierwszego użytkownika dodaliśmy możliwość zalogowania się do “Portalu integratora AI-Speaker” i przywrócenia konfiguracji z kopii zapasowej przesłanej do “Portalu integratora AI-Speaker”.
+Czyli przed rozpoczęciem konfiguracji systemu, w kroku, w którym tworzymy pierwszego użytkownika, dodaliśmy możliwość zalogowania się do “Portalu integratora AI-Speaker” i przywrócenia konfiguracji z kopii zapasowej przesłanej do “Portalu Integratora AI-Speaker”.
 
 Opisujemy to w dokumentacji [Pierwsze uruchomienie - Konto właściciela](/docs/ais_bramka_first_run_step_account)
 
