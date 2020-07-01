@@ -10,9 +10,9 @@ tags: [spotify, zigbee, home assistant, mqtt bridge, exta life]
 # 0.111.6 Biblioteka Spotify, MQTT bridge, EXTA LIFE...
 
 - ![Biblioteka Spotify](/img/en/blog/202007/spoify_icon.png) Biblioteka Spotify
-- ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT
 - ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE
 - ![Restore from backup](/img/en/blog/202007/system_restore.png) Łatwiejsze przywrócenie konfiguracji z kopii
+- ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT
 - ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant - szybsze uruchamianie
 - ![Zigbee](/img/en/blog/202007/zigbee.png) Aktualizacja Zigbee2Mqtt, już [ponad 849 urządzeń od 146 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
 
@@ -75,7 +75,7 @@ Jeżeli korzystasz z integracji ze Spotify, to po tej aktualizacji należy ją p
 
 ## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Integracja EXTA LIFE
 
-Autorem integracji Exta Life z Home Assistant jest [dgtal1](https://github.com/dgtal1), który to był tak otwarty i uprzejmy, że zgodził się dodać tę integrację jako wbudowany komponent do bramki AIS. **Dzięki dgtal1** 🥰 **!** 
+Autorem integracji Exta Life z Home Assistant jest [dgtal1](https://github.com/dgtal1), który to był tak otwarty i uprzejmy, że zgodził się dodać tę integrację jako wbudowany komponent do bramki AIS. **Dzięki dgtal1** 🥰 **!**
 Dzięki temu nasi użytkownicy mają możliwość łatwej konfiguracji integracji z poziomu aplikacji (bez konieczności doinstalowywania niestandardowych komponentów).
 
 Taka integracja jest efektem miesięcy kodowania, zachęcamy do zapoznania się z projektem na [forumextalife.pl](https://www.forumextalife.pl/index.php/topic,311.0.html)
@@ -90,23 +90,6 @@ Uzupełnimy też dokumentację i opiszemy jak dodać konfigurację krok po kroku
 Tym samym mamy już możliwość konfiguracji z interfejsu użytkownika popularnych w Polsce urządzeń: FIBARO, SUPLA, BleBox, Exta Life 🥳
 
 ![EXTA LIFE](/img/en/frontend/extalife_2.png)
-
-
-## ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT
-
-Na forum pokazujemy krok po kroku jak połączyć dwie bramki za pomocą MQTT Bridge -> [opis na forum](https://ai-speaker.discourse.group/t/skalowanie-systemu-do-sterowania-automatyka-domowa-most-mqtt-pomiedzy-bramkami/537)
-
-![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg.png)
-
-Co docelowo da nam taką możliwość łączenia instancji Asystenta domowego:
-
-![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg2.png)
-
-
-Oraz jak działa IoT w wielkiej skali - czyli jak połączyć 10 milionów urządzeń za pomocą brokera EMQX i mostów do bramek MQTT -> [opis na forum](https://ai-speaker.discourse.group/t/10-milionow-urzadzen-skalowanie-systemu-do-sterowania-automatyka-domowa/538)
-
-![MQTT Bridge](/img/en/blog/202007/emqx_mqtt_bridge.jpeg)
-
 
 
 ## ![Restore from backup](/img/en/blog/202007/system_restore.png) Łatwiejsze przywrócenie konfiguracji z kopii
@@ -127,6 +110,22 @@ Teraz będzie łatwiej 😊, bo dodaliśmy do interfejsu użytkownika możliwoś
 Czyli przed rozpoczęciem konfiguracji systemu, w kroku, w którym tworzymy pierwszego użytkownika, dodaliśmy możliwość zalogowania się do “Portalu integratora AI-Speaker” i przywrócenia konfiguracji z kopii zapasowej przesłanej do “Portalu Integratora AI-Speaker”.
 
 Opisujemy to w dokumentacji [Pierwsze uruchomienie - Konto właściciela](/docs/ais_bramka_first_run_step_account)
+
+
+## ![MQTT bridge](/img/en/blog/202007/mqtt_bridge.png) Skalowanie systemu za pomocą mostu MQTT
+
+Docelowo wprowadzimy do aplikacji możliwość definiowania mostu MQTT pomiędzy instancjami Asystenta domowego:
+
+![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg2.png)
+
+
+Na forum pokazujemy krok po kroku jak połączyć dwie bramki za pomocą MQTT Bridge -> [opis na forum](https://ai-speaker.discourse.group/t/skalowanie-systemu-do-sterowania-automatyka-domowa-most-mqtt-pomiedzy-bramkami/537)
+
+![MQTT Bridge](/img/en/blog/202007/mosquitto_mqtt_bridg.png)
+
+Oraz jak działa IoT w wielkiej skali - czyli jak połączyć 10 milionów urządzeń za pomocą brokera EMQX i mostów do bramek MQTT -> [opis na forum](https://ai-speaker.discourse.group/t/10-milionow-urzadzen-skalowanie-systemu-do-sterowania-automatyka-domowa/538)
+
+![MQTT Bridge](/img/en/blog/202007/emqx_mqtt_bridge.jpeg)
 
 
 ## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt do wersji 1.14.1
