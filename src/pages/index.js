@@ -67,7 +67,7 @@ const ais_features = [
 const features = [
   {
     title: 'Prywatność. Nie musisz płacić za usługę smart home utratą prywatności.',
-    imageUrl: 'img/main/ais-privacy.webp',
+    imageUrl: 'img/main/ais-privacy.svg',
     description: (
       <>
         <p>
@@ -88,7 +88,7 @@ const features = [
   },
   {
     title: 'Działanie lokalne. Kontroluj swoje urządzenia lokalnie, nie pozwól by zrobiono z Twoich danych produkt.',
-    imageUrl: 'img/main/ais-local.webp',
+    imageUrl: 'img/main/ais-local.svg',
     description: (
       <>
       <p>
@@ -108,7 +108,7 @@ const features = [
   },
   {
     title: 'Wolność. To co ważne',
-    imageUrl: 'img/main/ais-freedom.webp',
+    imageUrl: 'img/main/ais-freedom.svg',
     description: (
       <>
         <p>
@@ -131,7 +131,7 @@ const features = [
   },
   {
     title: 'Otwartość i dostępność. Asystent dostępny dla każdego',
-    imageUrl: 'img/main/ais-open.webp',
+    imageUrl: 'img/main/ais-open.svg',
     description: (
       <>
       <p>
