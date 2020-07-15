@@ -17,6 +17,12 @@
 
 }
 
+html {
+  background-color: #fff;
+}
+html[data-theme="dark"] {
+  background-color: #18191a;
+}
 .footer__item {
     padding: 6px;
 }
@@ -72,6 +78,10 @@ a.button.button--danger {
 
 .navbar .navbar__inner {
   margin-left: 2em;
+}
+
+.announcement_src-pages- {
+  padding-bottom: 0px !important;
 }
 
 

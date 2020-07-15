@@ -8,12 +8,12 @@ import styles from './styles.module.css';
 
 const ais_features = [
   {
-    title: <>Ponad <span className="strongInfo">1380</span> urządzeń WiFi</>,
+    title: <>Ponad <span className="strongInfo">1430</span> urządzeń WiFi</>,
     imageUrl: 'img/main/wifi.svg',
     description: (
       <>
         <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
-        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1380 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
+        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1430 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
     addClass: 'col col--4',
@@ -193,11 +193,19 @@ function Home() {
                 </a>
               </div>
             </div>
-            <a href="docs/ais_bramka_index">
             <div className={classnames('col col--5')}>
-              <img alt="AIS dom logo" className={styles.heroLogo} src="img/logo-responsive.svg" />
+              <a href="docs/ais_bramka_index">
+                <img alt="AIS dom logo" className={styles.heroLogo} src="img/logo-responsive.svg" />
+              </a>
             </div>
-            </a>
+          </div>
+          <div className={classnames(styles.announcement)}>
+            <div className={styles.announcementInner}>
+              Chcesz zobaczyć, jak to działa?<br></br>
+              <Link to="https://demo.ai-speaker.com">
+                Sprawdź DEMO
+              </Link>.
+            </div>
           </div>
         </div>
       </header>
