@@ -22,11 +22,6 @@ module.exports = {
         {to: 'docs/ais_app_index', label: 'Aplikacja', position: 'left'},
         {to: 'docs/ais_app_player', label: 'Integracje', position: 'left'},
         {to: 'docs/ais_iot_s26', label: 'Urządzenia', position: 'left'},
-        {
-          href: 'https://ai-speaker.com/project',
-          label: 'AI-Speaker',
-          position: 'right',
-        },
         {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://ai-speaker.discourse.group/',
