@@ -6,6 +6,7 @@ module.exports = {
   projectName: 'AI-Speaker',
   organizationName: 'sviete',
   favicon: 'img/favicon.ico',
+  plugins: ['@docusaurus/plugin-ideal-image'],
   themeConfig: {
     algolia: {
       apiKey: '147dbf3542b38e29ef7abb54fbc19372',
