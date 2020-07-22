@@ -10,6 +10,8 @@ Możemy pomóc Ci wprowadzić informacje dotyczące Twojej lokalizacji, wysyłaj
 
 ### Konfiguracja WiFi
 
+![Konfiguracja WiFi](/img/en/bramka/onboarding_step_2_0.png)
+
 ![Konfiguracja WiFi](/img/en/bramka/onboarding_step_2.png)
 
 

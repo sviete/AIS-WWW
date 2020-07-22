@@ -9,6 +9,7 @@ module.exports = {
         "label": "Początkowa konfiguracja Asystenta domowego",
         "items": [
           "ais_bramka_first_run_step_account",
+          "ais_bramka_first_run_step_restore_from_backup",
           "ais_bramka_first_run_step_location",
           "ais_bramka_first_run_step_integration",
           "ais_bramka_first_run_step_mobile"

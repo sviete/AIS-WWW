@@ -33,34 +33,39 @@ Podpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](ht
 Po pierwszym uruchomieniu aplikacji pojawi się kreator, który przeprowadzi nas krok po kroku przez prosty proces konfiguracji
 
 
-<img src="/img/en/frontend/ais_dom_wizard_0_mob_apk.png" alt="AIS Dom" width="40%"/>
+<img src="/img/en/frontend/ais_dom_wizard_0_mob_apk.png" alt="AIS Dom"/>
 
 
 ### Dostęp do mikrofonu
 
 W pierwszym kroku kreatora możemy włączyć dostęp do mikrofonu.
 
-<img src="/img/en/frontend/ais_dom_wizard_mob_apk.png" alt="AIS Dom" width="40%"/>
+<img src="/img/en/frontend/ais_dom_wizard_mob_apk.png" alt="AIS Dom"/>
 
 ### Dostęp do dysku
 
 W kolejnym kroku kreatora możemy włączyć dostęp do plików na urządzeniu mobilnym.
 
-<img src="/img/en/frontend/ais_dom_wizard_1_mob_apk.png" alt="AIS Dom" width="40%"/>
+<img src="/img/en/frontend/ais_dom_wizard_1_mob_apk.png" alt="AIS Dom"/>
 
+### Dostęp do lokalizacji
+
+W kolejnym kroku kreatora możemy włączyć dostęp do lokalizacji.
+
+<img src="/img/en/frontend/ais_dom_wizard_1_1_mob_apk.png" alt="AIS Dom"/>
 
 ### Dostęp do kamery
 
 W kolejnym kroku kreatora możemy włączyć dostęp do kamery.
 
-<img src="/img/en/frontend/ais_dom_wizard_2_mob_apk.png" alt="AIS Dom" width="40%"/>
+<img src="/img/en/frontend/ais_dom_wizard_2_mob_apk.png" alt="AIS Dom"/>
 
 
 ### Skanowanie identyfikatora bramki
 
-Na koniec możemy zeskanować identyfikator naszej bramki
+Na koniec możemy zeskanować identyfikator naszej bramki lub połączyć się z bramką demo.
 
-<img src="/img/en/frontend/ais_dom_wizard_3_mob_apk.png" alt="AIS Dom" width="40%"/>
+<img src="/img/en/frontend/ais_dom_wizard_3_mob_apk.png" alt="AIS Dom"/>
 
 
 Każda bramka posiada swój unikalny identyfikator, jest on losowo wygenerowany przy pierwszym uruchomieniu i pozostanie stały przez cały okres użytkowania urządzenia.
@@ -95,6 +100,24 @@ Przykład, w jaki sposób można skorzystać z tej funkcjonalności, opisany jes
 
 ![Notify](/img/en/frontend/gallery_notify_4.png)
 
+
+## Komendy wysyłane z bramki do aplikacji mobilnej
+
+Na bramce dostępna jest usługa ``ais_ai_service.mob_request``, która umożliwia wysłanie z bramki komendy (zapytania/żądania) do aplikacji mobilnej **AIS dom**.
+Dzięki temu za pomocą automatyzacji możemy zdalnie z bramki włączyć mikrofon na urządzeniu mobilnym lub zapytać o aktualną lokalizację urządzenia. 
+
+:::info
+Docelowo pokażemy na przykładach jak wykorzystać tę funkcjonalność i opiszemy w dokumentacji pełne API.
+:::
+
+![Notify](/img/en/blog/202007/mic_on_service.png)
+
+
+:::warning UWAGA
+Można z bramki (do której jesteśmy zalogowani) wysłać komendę do urządzenia mobilnego i zdalnie "zmusić" je do jej wykonania, tylko jeśli włączony jest stosowny dostęp (do mikrofonu i/lub lokalizacji) na urządzeniu mobilnym.
+
+Pokazujemy w powiadomieniu, że taka zdalna komenda jest uruchomiona - żeby było to jasne dla właściciela urządzenia.
+:::
 
 ## Sterowanie gestami
 
