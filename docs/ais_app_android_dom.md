@@ -33,39 +33,39 @@ Podpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](ht
 Po pierwszym uruchomieniu aplikacji pojawi się kreator, który przeprowadzi nas krok po kroku przez prosty proces konfiguracji
 
 
-<img src="/img/en/frontend/ais_dom_wizard_0_mob_apk.png" alt="AIS Dom"/>
+<img src="/img/en/frontend/ais_dom_new_wizard_0_mob_apk.png" alt="AIS Dom"/>
 
 
 ### Dostęp do mikrofonu
 
 W pierwszym kroku kreatora możemy włączyć dostęp do mikrofonu.
 
-<img src="/img/en/frontend/ais_dom_wizard_mob_apk.png" alt="AIS Dom"/>
+<img src="/img/en/frontend/ais_dom_new_wizard_mob_apk.png" alt="AIS Dom"/>
 
 ### Dostęp do dysku
 
 W kolejnym kroku kreatora możemy włączyć dostęp do plików na urządzeniu mobilnym.
 
-<img src="/img/en/frontend/ais_dom_wizard_1_mob_apk.png" alt="AIS Dom"/>
+<img src="/img/en/frontend/ais_dom_new_wizard_1_mob_apk.png" alt="AIS Dom"/>
 
 ### Dostęp do lokalizacji
 
 W kolejnym kroku kreatora możemy włączyć dostęp do lokalizacji.
 
-<img src="/img/en/frontend/ais_dom_wizard_1_1_mob_apk.png" alt="AIS Dom"/>
+<img src="/img/en/frontend/ais_dom_new_wizard_1_1_mob_apk.png" alt="AIS Dom"/>
 
 ### Dostęp do kamery
 
 W kolejnym kroku kreatora możemy włączyć dostęp do kamery.
 
-<img src="/img/en/frontend/ais_dom_wizard_2_mob_apk.png" alt="AIS Dom"/>
+<img src="/img/en/frontend/ais_dom_new_wizard_2_mob_apk.png" alt="AIS Dom"/>
 
 
 ### Skanowanie identyfikatora bramki
 
 Na koniec możemy zeskanować identyfikator naszej bramki lub połączyć się z bramką demo.
 
-<img src="/img/en/frontend/ais_dom_wizard_3_mob_apk.png" alt="AIS Dom"/>
+<img src="/img/en/frontend/ais_dom_new_wizard_3_mob_apk.png" alt="AIS Dom"/>
 
 
 Każda bramka posiada swój unikalny identyfikator, jest on losowo wygenerowany przy pierwszym uruchomieniu i pozostanie stały przez cały okres użytkowania urządzenia.

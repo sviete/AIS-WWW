@@ -103,10 +103,10 @@ Cały proces konfiguracji wstępnej wykonywanej na bramce opisany jest w dokumen
 ### W aplikacji mobilnej:
 
 - dodaliśmy ekran z uprawnieniami do lokalizacji
-<img src="/img/en/frontend/ais_dom_wizard_1_1_mob_apk.png" alt="AIS Dom"/>
+<img src="/img/en/frontend/ais_dom_new_wizard_1_1_mob_apk.png" alt="AIS Dom"/>
 
 - dodaliśmy możliwość połączenia z naszą bramką DEMO
-<img src="/img/en/frontend/ais_dom_wizard_3_mob_apk.png" alt="AIS Dom"/>
+<img src="/img/en/frontend/ais_dom_new_wizard_3_mob_apk.png" alt="AIS Dom"/>
 
 Cały proces konfiguracji wstępnej wykonywanej w aplikacji mobilnej opisany jest w dokumentacji [AIS dom, Konfiguracja za pomocą kreatora](/docs/ais_app_android_dom#konfiguracja-za-pomocą-kreatora)
 
@@ -116,9 +116,9 @@ Cały proces konfiguracji wstępnej wykonywanej w aplikacji mobilnej opisany jes
 Na bramce dostępna jest usługa ``ais_ai_service.mob_request``, która umożliwia wysłanie z bramki komendy (zapytania/żądania) do aplikacji mobilnej **AIS dom**.
 Dzięki temu za pomocą automatyzacji możemy zdalnie z bramki włączyć mikrofon na urządzeniu mobilnym lub zapytać o aktualną lokalizację urządzenia. 
 
+:::info
 **Pomysł pojawił się na forum (dzięki za inspiracje!), spodobała nam się ta funkcjonalność, więc ją dodaliśmy :)**
 
-:::info
 Docelowo pokażemy na przykładach jak wykorzystać tę funkcjonalność i opiszemy w dokumentacji pełne API.
 :::
 
