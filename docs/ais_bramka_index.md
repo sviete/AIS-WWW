@@ -59,6 +59,15 @@ Technicznie nasza platforma zawiera 4 główne komponenty systemowe, pierwsze tr
  * **Usługi online**: w serwisie online mamy zdefiniowane stacje radiowe, podcasty, kanały wiadomości oraz dostępy do usług zewnętrznych wymagających autentykacji.
 
 
- ### Cena
+ ## Dostępność i cena
 
-Aktualna cena urządzeń jest dostępna [na naszej aukcji](https://allegro.pl/uzytkownik/AI-Speaker).
+:::info SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ
+Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową AIS dom.
+Są to urządzenia, które spełniają wszystkie cechy, by były przez nas rekomendowane do zastosowania w Twoim domu.
+
+Aktualna cena urządzeń jest dostępna:
+
+- u naszego oficjalnego dystrybutora [botland.com.pl ![](/img/en/icons/botland.png)](https://botland.com.pl/pl/227_prd_ai-speaker)
+
+- na naszych aukcjach na platformie [allegro.pl ![](/img/en/icons/allegro.png)](https://allegro.pl/uzytkownik/AI-Speaker) 
+:::

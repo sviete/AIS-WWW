@@ -1,13 +1,8 @@
 ---
-title: Wprowadzenie
+title: Inteligentne gniazdo WiFi
 sidebar_label: Wprowadzenie
 ---
-## Inteligentne gniazdo WiFi
 
-:::tip SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ
-Prowadzimy [sprzedaż ![](/img/en/iot/shopping-outline.svg)](https://allegro.pl/uzytkownik/AI-Speaker) inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową [AIS dom](https://allegro.pl/uzytkownik/AI-Speaker).
-Są to urządzenia, które spełniają wszystkie cechy, by były przez nas rekomendowane do zastosowania w Twoim domu.
-:::
 
 ## Specyfikacja urządzenia
 
@@ -92,3 +87,17 @@ Obsługa harmonogramów działania                                            | 
 Współpracuje z systemami automatyki domowej (MQTT, HTTP, KNX)              | **TAK**
 Możliwość konfiguracji i sterowania urządzenia z przeglądarki internetowej | **TAK**
 Automatyczne wykrywania w systemie Asystent domowy                         | **TAK**
+
+
+ ## Dostępność i cena
+
+:::info SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ
+Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową AIS dom.
+Są to urządzenia, które spełniają wszystkie cechy, by były przez nas rekomendowane do zastosowania w Twoim domu.
+
+Aktualna cena urządzeń jest dostępna:
+
+- u naszego oficjalnego dystrybutora [botland.com.pl ![](/img/en/icons/botland.png)](https://botland.com.pl/pl/227_prd_ai-speaker)
+
+- na naszych aukcjach na platformie [allegro.pl ![](/img/en/icons/allegro.png)](https://allegro.pl/uzytkownik/AI-Speaker) 
+:::
