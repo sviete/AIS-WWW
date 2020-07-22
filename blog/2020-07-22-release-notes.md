@@ -11,7 +11,7 @@ tags: [location, demo, home assistant, wizard]
 
 - ![Location](/img/en/blog/202007/gps.png) Raportowanie lokalizacji
 - ![Kreator](/img/en/blog/202007/magic-wand.png) Ulepszone kreatory początkowej konfiguracji
-- ![Komendy](/img/en/blog/202007/mobile-request.png) Wysłanie komend do aplikacji mobilnej 
+- ![Komendy](/img/en/blog/202007/mobile-request.png) Wysyłanie komend do aplikacji mobilnej 
 - ![Demo](/img/en/blog/202007/eye.png) DEMO Aplikacji
 - ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant
 
@@ -42,10 +42,10 @@ W razie problemów po aktualizacji sprawdź procedurę [Aktualizacja ręczna](/d
 
 Aktualizacje lokalizacji mogą być wysyłane z różnych urządzeń/aplikacji do Asystenta domowego. Następnie na podstawie lokalizacji osoby (zmiana strefy) mogą być wykonywane automatyzacje.
 
-Żeby ułatwić konfigurację i używanie tej funkcjonalności Asystenta domowego dodaliśmy wysyłane lokalizacji bezpośrednio z naszej mobilnej aplikacji do bramki AIS dom. 
+Żeby ułatwić konfigurację i używanie tej funkcjonalności Asystenta domowego dodaliśmy wysyłanie lokalizacji bezpośrednio z naszej mobilnej aplikacji do bramki AIS dom. 
 
 :::tip Ta funkcjonalność wymaga aplikacji AIS dom w wersji 1.3.0 lub nowszej.
-Oczywiście, to czy dane o lokalizacji będą wysyłane, zależy od tego, czy przyznasz uprawnienia do sprawdzania lokalizacji dla aplikacji AIS dom i włączysz serwis raportujący lokalizację.
+Oczywiście to, czy dane o lokalizacji będą wysyłane zależy od tego, czy przyznasz uprawnienia do sprawdzania lokalizacji dla aplikacji AIS dom i włączysz serwis raportujący lokalizację.
 :::
 
 Żeby wysyłać dane o lokalizacji wystarczy:
@@ -84,7 +84,7 @@ i wyświetlać na niej ścieżkę z zarejsetrowanych lokalizacji:
 
 ## ![Kreator](/img/en/blog/202007/magic-wand.png) Ulepszone kreatory początkowej konfiguracji
 
-Poprawiliśm konfiguratory konfiguracji początkowej - tu też ma być prościej i ładniej ;) 
+Poprawiliśmy konfiguratory konfiguracji początkowej - tu też ma być prościej i ładniej ;) 
 
 ### W aplikacji webowej:
 
@@ -111,7 +111,7 @@ Cały proces konfiguracji wstępnej wykonywanej na bramce opisany jest w dokumen
 Cały proces konfiguracji wstępnej wykonywanej w aplikacji mobilnej opisany jest w dokumentacji [AIS dom, Konfiguracja za pomocą kreatora](/docs/ais_app_android_dom#konfiguracja-za-pomocą-kreatora)
 
 
-## ![Komendy](/img/en/blog/202007/mobile-request.png) Wysłanie komend do aplikacji mobilnej 
+## ![Komendy](/img/en/blog/202007/mobile-request.png) Wysyłanie komend do aplikacji mobilnej 
 
 Na bramce dostępna jest usługa ``ais_ai_service.mob_request``, która umożliwia wysłanie z bramki komendy (zapytania/żądania) do aplikacji mobilnej **AIS dom**.
 Dzięki temu za pomocą automatyzacji możemy zdalnie z bramki włączyć mikrofon na urządzeniu mobilnym lub zapytać o aktualną lokalizację urządzenia. 
