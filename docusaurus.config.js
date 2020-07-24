@@ -18,7 +18,7 @@ module.exports = {
         alt: 'Asystent domowy Logo',
         src: 'img/logo-responsive.svg',
       },
-      links: [
+      items: [
         {to: 'docs/ais_bramka_index', label: 'Bramka', position: 'left'},
         {to: 'docs/ais_app_index', label: 'Aplikacja', position: 'left'},
         {to: 'docs/ais_app_player', label: 'Integracje', position: 'left'},

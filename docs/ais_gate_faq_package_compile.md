@@ -18,8 +18,6 @@ Jest to kompletne środowisko Linuxa, ale z jedną główną różnicą w stosun
 Prefiks robi różnicę w instalacji i kompilacji pakietów. Tworząc naszą dystrybucję wzorowaliśmy się na Termux - którego jesteśmy forkiem.
 Kompilacja pakietów jest taka sama jak w Termux https://wiki.termux.com/wiki/Main_Page wykonujemy ją w kontenerze Dokera https://github.com/sviete/AIS-linux-packages, a następnie umieszczamy pakiet w repozytorium https://github.com/sviete/DOM-APT-REPO
 
-![](img/en/bramka/faq_linux_package_compilation_2.png)
-
 
 ### Dodanie skompilowanego pakietu do repozytorimu AIS-linux
 
