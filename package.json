@@ -11,11 +11,12 @@
   "dependencies": {
     "@docusaurus/core": "^2.0.0-alpha.59",
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.59",
+    "@docusaurus/plugin-pwa": "^2.0.0-alpha.59",
     "@docusaurus/preset-classic": "^2.0.0-alpha.59",
     "classnames": "^2.2.6",
+    "color": "^3.1.2",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4",
-    "color": "^3.1.2"
+    "react-dom": "^16.8.4"
   },
   "browserslist": {
     "production": [
