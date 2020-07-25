@@ -9,7 +9,7 @@ tags: [zigbee, mqtt, home assistant]
 
 # 0.108.9 Zigbee, Ikony, Poprawki 🥳
 
-- ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt [692 urządzenia od 123 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices.html)
+- ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt [692 urządzenia od 123 różnych producentów](https://www.zigbee2mqtt.io/information/supported_devices)
 - ![Icons](/img/en/blog/202004/picture.png) Ikony i loga w aplikacji
 - ![Icons](/img/en/blog/202004/house.png) Nowy Home Assistant
 - ![Bugs](/img/en/blog/202004/bug.png) Poprawki błędów
@@ -81,7 +81,7 @@ Dodaliśmy nowy dział na forum - wprowadzenie do programowania na bramce, w kt�
 
 https://ai-speaker.discourse.group/c/programowanie/15
 
-To dział dla Tych śmiałków, którzy wolą się uczyć i zmieniać własną rzeczywistość 💪 niż czekać i narzekać na forach, że Google, Apple czy Amazon nie dał nam funkcjonalności x. 
+To dział dla Tych śmiałków, którzy wolą się uczyć i zmieniać własną rzeczywistość 💪 niż czekać i narzekać na forach, że Google, Apple czy Amazon nie dał nam funkcjonalności x.
 Podejściu "dej mnie mam horom curke" w AI-Speaker mówimy stanowcze... chyba nie ;)
 
 
@@ -90,7 +90,7 @@ Podejściu "dej mnie mam horom curke" w AI-Speaker mówimy stanowcze... chyba ni
 
 ## ![Icons](/img/en/blog/202004/house.png) Nowy Home Assistant
 
-Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/2020/04/08/release-108/" target="_blank">0.108.9</a> jak zwykle sporo nowości ❤️ i ułatwień 👍 
+Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/2020/04/08/release-108/" target="_blank">0.108.9</a> jak zwykle sporo nowości ❤️ i ułatwień 👍
 
 
 ----

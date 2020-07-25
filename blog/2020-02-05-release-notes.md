@@ -112,12 +112,12 @@ W skrócie wygląda to teraz tak:
 
 Łatwiejsza zmiana nazwy urządzenia- wystarczy kliknąć węzeł urządzenia na mapie, aktualna nazwa zostanie automatycznie wpisana do formularza zmiany nazwy.
 
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/jYW2V8zgcDI" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/jYW2V8zgcDI" frameBorder="0" allowFullScreen></iframe>
 
 
 ## Generowanie stylów CSS dla kart (floor plan)
 
-Do integracji [Galeria](/docs/next/ais_app_integration_gallery) dodaliśmy pierwszą wersję narzędzia ułatwiającego generowanie stylów CSS dla kart (w celu ich rozmieszczenia w rozkładzie pomieszczeń). Celem jest stworzenie narzędzia ułatwiającego tworzenie interaktywnego rzutu pomieszczenia na bazie zdjęcia projektu.
+Do integracji [Galeria](/docs/ais_app_integration_gallery) dodaliśmy pierwszą wersję narzędzia ułatwiającego generowanie stylów CSS dla kart (w celu ich rozmieszczenia w rozkładzie pomieszczeń). Celem jest stworzenie narzędzia ułatwiającego tworzenie interaktywnego rzutu pomieszczenia na bazie zdjęcia projektu.
 
 Docelowo planujemy zrobić to bardziej na zasadzie "drag & drop", tak żeby każdy mógł rozmieścić swoje urządzenia na planie i nimi sterować.
 Można zapoznać się ze zarysem funkcjonalności zaprezentowanej na forum: https://ai-speaker.discourse.group/t/rzut-podlogi-floor-plan/155

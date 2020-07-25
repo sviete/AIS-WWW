@@ -9,14 +9,14 @@ W tym miejscu podpowiadamy, jak można utworzyć definicję automatyzacji na wyb
 
 ## Jak utworzyć warunek który ma działać tylko w dni robocze od pon do pt?
 
-Zapoznaj się z opisem [wprowadzenie do automatyzacji Asystenta domowego](/docs/ais_bramka_automation.html), żeby poznać podstawy dodawania automatyzacji w systemie.
+Zapoznaj się z opisem [wprowadzenie do automatyzacji Asystenta domowego](/docs/ais_bramka_automation), żeby poznać podstawy dodawania automatyzacji w systemie.
 Dodaj automatyzację z warunkiem typu czas i odpowiednimi wyzwalaczami oraz akcjami.
 
 ![komunikacja MQTT](/img/en/faq/automation_tips_1.png)
 
 Zapoznaj się z dokumentacją Home Assistant na temat definiowania warunków [condition](https://www.home-assistant.io/docs/scripts/conditions/)
 
-Przejdz do [konsoli na urządzeniu](/docs/ais_bramka_remote_ssh.html)
+Przejdz do [konsoli na urządzeniu](/docs/ais_bramka_remote_ssh)
 Edytuj automayzację w pliku **~/AIS/automations.yaml**
 
 ![komunikacja MQTT](/img/en/faq/automation_tips_2.png)

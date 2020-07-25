@@ -12,7 +12,7 @@ title: Wersja systemu 0.99 Automatyczne Aktualizacje, SUPLA, TAURON eLicznik
 W ustawieniach bramki dodaliśmy możliwość włączenia automatycznych aktualizacji. Jeśli je włączysz, to codziennie sprawdzimy i automatycznie zainstalujemy dostępne aktualizacje składowych systemu Asystent domowy.
 
 <div>
-  <video width="100%" height="100%" playsinline autoplay muted loop>
+  <video width="100%" height="100%" playsInline autoPlay muted loop>
     <source src="/video/autoupdate.webm" type="video/webm"/>
   </video>
 </div>
@@ -32,10 +32,10 @@ Aktualizacje dostarczają najnowsze funkcjonalności oraz poprawki zapewniające
 Dodaliśmy pierwszą wersę (jeszcze nie kompletną - obecnie obsługiwane są tylko żaluzje i przełączniki) integracji z SUPLA OpenAPI.
 Bazujemy na pakiecie [PySupla](https://github.com/mwegrzynek/pysupla) i na integracji z Home Assistant autorstwa Michała Węgrzynka [mwegrzynek](https://github.com/mwegrzynek).
 
-[Opis konfiguracji](/docs/ais_app_supla.html)
+[Opis konfiguracji](/docs/ais_app_supla)
 
 <div>
-  <video width="100%" height="100%" playsinline autoplay muted loop>
+  <video width="100%" height="100%" playsInline autoPlay muted loop>
     <source src="/video/supla.webm" type="video/webm" />
   </video>
 </div>
@@ -46,10 +46,10 @@ Ta integracja skierowana jest do osób, które chcą sterować swoimi urządzeni
 
 Dodaliśmy integrację z TAURON eLiczniki. Integracja bazuje na komponencie [Tauron-AMIplus](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus) autorstwa [Piotra Machowskiego](https://github.com/PiotrMachowski)
 
-[Opis konfiguracji](/docs/ais_app_tauron.html)
+[Opis konfiguracji](/docs/ais_app_tauron)
 
 <div>
-  <video width="100%" height="100%" playsinline autoplay muted loop>
+  <video width="100%" height="100%" playsInline autoPlay muted loop>
     <source src="/video/tauron.webm" type="video/webm" />
   </video>
 </div>

@@ -1,3 +1,6 @@
+const path = require('path');
+
+
 module.exports = {
   title: 'Asystent domowy',
   tagline: 'Lokalny, niezawodny, szybki i prywatny.',
@@ -6,7 +9,32 @@ module.exports = {
   projectName: 'AI-Speaker',
   organizationName: 'sviete',
   favicon: 'img/favicon.ico',
-  plugins: ['@docusaurus/plugin-ideal-image'],
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: true,
+        offlineModeActivationStrategies: ['appInstalled', 'queryString'],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/images/logo_ais.png.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: 'rgb(37, 194, 160)',
+          },
+        ],
+      },
+    ],
+  ],
   themeConfig: {
     algolia: {
       apiKey: '147dbf3542b38e29ef7abb54fbc19372',

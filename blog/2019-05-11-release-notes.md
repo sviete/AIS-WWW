@@ -30,7 +30,6 @@ Zakładki i ulubione można usuwać zarówno z aplikacji jak i za pomocą pilota
 - Szybsze uruchamianie audio z YouTube, nowy otwartoźródłowy komponent - <a href="https://github.com/sviete/AIS-media-extractor" target="_blank"> AIS-media-extractor </a>
 
 - Uproszczone menu w aplikacji, ulepszenia w menu dostępnego za pomocą pilota radiowego.
-[Widoki w aplikacji](/docs/ais_app_views.html)
 
 - Automatyczne zwalnianie miejsca na urządzeniu, usuwanie logów i kasowanie historii z lokalnej bazy danych.
 

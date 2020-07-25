@@ -14,7 +14,7 @@ W tej wersji dodaliśmy możliwość łatwego korzystania z urządzeń **Zigbee 
 <!--truncate-->
 Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/). I jest całkowicie zintegrowane z naszym oprogramowaniem, dzięki czemu możesz łatwo dodać swoje urządzenia Zigbee do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
 
-Integracja sprowadza się do włożenia do portu USB [odpowiednio zaprogramowanego](https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531.html)  urządzenia CC2531.
+Integracja sprowadza się do włożenia do portu USB [odpowiednio zaprogramowanego](https://www.zigbee2mqtt.io/getting_started/flashing_the_cc2531)  urządzenia CC2531.
 Asystent domowy sam [rozpozna to urządzenie USB](/docs/ais_app_integration_usb#zigbee-usb-sniffer), poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie pojawi się nowa opcja w aplikacji.
 
 
@@ -22,7 +22,7 @@ Asystent domowy sam [rozpozna to urządzenie USB](/docs/ais_app_integration_usb#
 
 Więcej w [naszej dokumentacji integracji Zigbee](/docs/ais_app_integration_zigbee)
 
-Na stronie projektu Zigbee2MQTT możesz sprawdzić [listę **(około 500 urządzeń, 100 producentów)**](https://www.zigbee2mqtt.io/information/supported_devices.html) urządzeń, które są wspierane.
+Na stronie projektu Zigbee2MQTT możesz sprawdzić [listę **(około 500 urządzeń, 100 producentów)**](https://www.zigbee2mqtt.io/information/supported_devices) urządzeń, które są wspierane.
 
 ## Społecznościowe forum AI-Speaker!
 
@@ -53,7 +53,7 @@ Nazwa      | Protokół | Porty | Komenda/URL                                   
 
 ## Kopia zapasowa ustawień
 
-W konfiguracji oprogramowania bramki dodaliśmy opcję wykonywania i przywracania [kopii zapsowej konfiguracji bramki](/docs/next/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)
+W konfiguracji oprogramowania bramki dodaliśmy opcję wykonywania i przywracania [kopii zapsowej konfiguracji bramki](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)
 
 W tym miejscu możesz, sprawdzić poprawność ustawień bramki, wykonać jej kopię i przesłać ją do portalu integratora. Ponieważ konfiguracja może zawierać hasła i tokeny dostępu do usług, zalecamy zaszyfrować ją hasłem. Gdy kopia jest zabezpieczona hasłem, to można ją otworzyć/przywrócić tylko po podaniu hasła.
 
@@ -139,7 +139,7 @@ Takie dane zestawione z danymi o produkcji prądu ułatwiają nam zorientowanie 
 
 ## Home Assistant
 
-Najnowszy (stabilny) [Home Assistant 0.103.0](href="https://www.home-assistant.io/blog/2019/12/11/release-103/)
+Najnowszy (stabilny) [Home Assistant 0.103.0](https://www.home-assistant.io/blog/2019/12/11/release-103/)
 
 Z ciekawych rzeczy, które bardzo nam się przydadzą, to możliwość definiowania/edycji automatyzacji z aplikacji w formacie YAML. Każdy pojedynczy wyzwalacz, warunek lub akcję można edytować jak YAML. Umożliwia to definiowanie bardzo skomplikowanych automatyzacji w edytorze automatyki i umożliwia szybkie kopiowanie części automatyzacji.
 

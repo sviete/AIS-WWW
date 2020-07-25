@@ -22,7 +22,7 @@ Wszystkie nasze poprawki udostępniamy też społeczności Tasmota, dodatkowo ro
 ### Tryb parowania
 
 Umożliwiamy łatwe wprowadzenie w tryb parowania przez szybkie naciśnięcie przycisku na urządzeniu od 3 do 7 razy lub **poprzez naciśnięcie i przytrzymanie przycisku na urządzeniu przez 4 sekundy**.
-W dokumentacji dodaliśmy opis krok po kroku jak to zrobić [Konfiguracja WiFi](/docs/ais_iot_browser.html#konfiguracja-wi-fi)
+W dokumentacji dodaliśmy opis krok po kroku jak to zrobić [Konfiguracja WiFi](/docs/ais_iot_browser)
 
 Motywacją do tej zmiany było umożliwienie łatwego dodawania urządzeń do naszego systemu przez osoby starsze oraz mające problem ze wzrokiem (dla części osób szybkie wciśnięcie dokładnie cztery razy w krótkich odstępach czasu tak, żeby dioda odpowiednio migała... było "troszkę" problematyczne).
 
@@ -41,10 +41,10 @@ Tu ważne jest, żeby nazwa unikalnego klienta MQTT (którą ma każde urządzen
 
 ### Współpraca z Asystentem domowym
 
-W naszej kompilacji oprogramowania Tasmota automatycznie ustawiamy na urządzeniu, żeby przedstawiało się bramce (mqtt discovery). Wszystkie urządzenia dodane są też do grupy **dom**. Bramka po uruchomieniu publikuje na tę grupę prośbę o przedstawienie się do urządzeń i ustala komunikację z nowymi urządzeniami. Szczegółowo opisane jest to w dokumentacji w sekcji [MQTT](/docs/ais_bramka_mqtt.html)
+W naszej kompilacji oprogramowania Tasmota automatycznie ustawiamy na urządzeniu, żeby przedstawiało się bramce (mqtt discovery). Wszystkie urządzenia dodane są też do grupy **dom**. Bramka po uruchomieniu publikuje na tę grupę prośbę o przedstawienie się do urządzeń i ustala komunikację z nowymi urządzeniami. Szczegółowo opisane jest to w dokumentacji w sekcji [MQTT](/docs/ais_bramka_mqtt)
 
 Udostępniamy też filmy wideo, na których pokazujemy "krok po kroku" jak dodać nowe gniazdo WiFi do bramki AIS dom korzystając z kreatora w aplikacji:
-[Dodanie urządzenia do bramki za pomocą kreatora w aplikacji](/docs/ais_iot_gate.html)
+[Dodanie urządzenia do bramki za pomocą kreatora w aplikacji](/docs/ais_iot_gate)
 
 ### Ustawienia lokalne
 
@@ -64,7 +64,7 @@ Może to jednak nie być tak proste, jak w przypadku naszych urządzeń, poniewa
 
 Są trzy wyjścia, żeby działało:
 
-1. Zrozumieć jak działa MQTT i komunikacja z bramką - co [dokładnie opisujemy](/docs/ais_bramka_mqtt.html) i do czego zachęcamy.
+1. Zrozumieć jak działa MQTT i komunikacja z bramką - co [dokładnie opisujemy](/docs/ais_bramka_mqtt) i do czego zachęcamy.
 2. Wgrać nasze darmowe oprogramowanie do urządzenia.
 3. Kupić nasze gotowe urządzenie i cieszyć się z tego, że wsparło się nasz projekt i wszystko magicznie i fajnie działa - do czego też bardzo zachęcamy :)
 

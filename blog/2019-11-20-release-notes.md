@@ -22,7 +22,7 @@ Szczegóły w dokumentacji [Bramka RF 433](/docs/ais_iot_gate_device_rf433)
 Pokazujemy też jak to działa na video:
 
 <div>
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/NEFd_T3gqNU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/NEFd_T3gqNU" frameBorder="0" allowFullScreen></iframe>
 </div>
 
 ## IKEA TRÅDFRI
@@ -34,13 +34,13 @@ Szczegóły w dokumentacji [Integracja IKEA Trådfri ](/docs/ais_app_integration
 
 A tak to może wyglądać w aplikacji Asystent domowy:
 
-<video width="100%" height="100%" playsinline="" autoplay="" muted="" loop="">
+<video width="100%" height="100%" playsInline="" autoPlay="" muted="" loop="">
   <source src="/video/ikea.webm" type="video/webm"/>
 </video>
 
 ## Przykłady IFTTT
 
-W integracjach dodaliśmy podkategorię z przykładami. Na początek wyjaśniamy krok po kroku [jak założyć konto w serwisie IFTTT](/docs/next/ais_app_ifttt_platform_account) i [zbudować nasz pierwszy Aplet](/docs/next/ais_app_ifttt_time). Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
+W integracjach dodaliśmy podkategorię z przykładami. Na początek wyjaśniamy krok po kroku [jak założyć konto w serwisie IFTTT](/docs/ais_app_ifttt_platform_account) i [zbudować nasz pierwszy Aplet](/docs/ais_app_ifttt_time). Aplet to wg terminologii serwisu IFTTT coś, co łączy ze sobą dwie lub więcej aplikacji lub urządzeń i umożliwia zrobienie czegoś, czego te aplikacje lub urządzenia nie mogłyby zrobić same.
 W kolejnym przykładzie wyjaśniamy [jak dodać Aplet uruchamiający dowolną akcję w Asystencie domowym z serwisu IFTTT](/docs/ais_app_ifttt_action).
 
 ![IFTTT](/img/en/blog/examples_ifttt.png)

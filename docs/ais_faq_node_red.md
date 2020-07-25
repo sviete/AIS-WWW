@@ -18,7 +18,7 @@ Celem tego opisu jest wyjaśnienie na przykładzie kilku rzeczy:
 
 ## Instalacja Node-RED
 
-Przechodzimy do [konsoli na bramce](/docs/ais_bramka_remote_ssh.html#dostęp-do-konsoli-z-aplikacji) i wklejamy/wpisujemy w niej komendę:
+Przechodzimy do [konsoli na bramce](/docs/ais_bramka_remote_ssh) i wklejamy/wpisujemy w niej komendę:
 
 ```bash
 npm i -g --unsafe-perm node-red && termux-fix-shebang /data/data/pl.sviete.dom/files/usr/bin/node-red

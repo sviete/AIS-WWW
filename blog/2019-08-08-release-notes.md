@@ -13,7 +13,7 @@ Nasza <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" targ
 
 Dzięki temu możliwe jest włączanie muzyki i sterowanie urządzeniami domowymi za pomocą komend głosowych przesyłanych do bramki z zegarka czy innych urządzeń z systemem Wear OS. Zobaczcie, jak to działa na filmie poniżej :)
 
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/_PY8FsPDQzA" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/_PY8FsPDQzA" frameBorder="0" allowFullScreen></iframe>
 
 <!--truncate-->
 

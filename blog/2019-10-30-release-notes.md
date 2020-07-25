@@ -9,7 +9,7 @@ title: Wersja systemu 0.100.4 Google Home
 
 ## Google Home
 
-Integracja z [Google Home](/docs/ais_app_ai_integration_google_home.html)
+Integracja z [Google Home](/docs/ais_app_ai_integration_google_home)
 
 Dostarczamy **AIS Google Home** integrację Asystenta domowego z platformą programistyczną dla Asystenta Google.
 Integracja działa poprzez oficjalne [Google Assistant SDK](https://developers.google.com/assistant) i pozwala na wysyłanie poleceń i zadawanie pytań do Asystenta Google z poziomu Asystenta domowego.
@@ -17,14 +17,14 @@ Integracja działa poprzez oficjalne [Google Assistant SDK](https://developers.g
 ![Konfiguracja AIS Google Home](/img/en/bramka/ais_google_home_1.png)
 
 <!--truncate-->
-Czyli [Asystentka Jolka](/docs/ais_app_ai_integration.html) działa lokalnie i ogarnia rzeczy w Twoim domu, a jeśli chcesz możesz włączyć Assystenta Google i uzyskać na bramce funkcjonalność urządzenie typu Google Home 🥳
+Czyli [Asystentka Jolka](/docs/ais_app_ai_integration) działa lokalnie i ogarnia rzeczy w Twoim domu, a jeśli chcesz możesz włączyć Assystenta Google i uzyskać na bramce funkcjonalność urządzenie typu Google Home 🥳
 
 W przypadku gdy zapytasz o coś lub wyślesz komendę do Asystenta Google to dostaniesz oryginalną odpowiedz audio zwracane przez serwis Google Assistant. Więc możesz rozmawiać z dwoma asystentami na raz 👧 👨 🚀
 
 
 ## Android SDK
 
-Wszystkie [nasze aplikacje Android](/docs/ais_app_android_index.html) zostały zmigrowane do SdkVersion 28.
+Wszystkie [nasze aplikacje Android](/docs/ais_app_android_dom) zostały zmigrowane do SdkVersion 28.
 Przy okazji odświeżyliśmy wygląd w kilku miejscach w aplikacjach a w dokumentacji dodaliśmy opis aplikacji wraz z linkami do kodu źródłowego w repozytorium.
 
 ![AIS dom APK](/img/en/frontend/ais_launcher_apk_screen.png)
@@ -55,7 +55,7 @@ Najnowszy (stabilny) Home Assistant <a href="https://www.home-assistant.io/blog/
 ## Tasmota++
 
 Częstym pytaniem które się ostatnio pojawia jest działanie z urządzeniami z oprogramowaniem Tasmota.
-W FAQ dodaliśmy sekcję [Kompatybilność z Tasmota](/docs/ais_faq_iot_ap_mode.html) gdzie wyjaśniamy, że **na bramce jest broker MQTT dlatego każde urządzenie, które rozumie MQTT może działać z Asystentem domowym**.
+W FAQ dodaliśmy sekcję [Kompatybilność z Tasmota](/docs/ais_faq_iot_ap_mode) gdzie wyjaśniamy, że **na bramce jest broker MQTT dlatego każde urządzenie, które rozumie MQTT może działać z Asystentem domowym**.
 Opisujemy też jak to działa oraz jak to staramy się robić, żeby było najłatwiej jak się da!
 
 PS

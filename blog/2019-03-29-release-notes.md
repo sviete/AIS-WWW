@@ -13,13 +13,12 @@ title: Wersja systemu 0.90.5 Dyski
 
 Połączenie z dyskami zdalnymi definiowane jest za pomocą kreatora, który krok po kroku prowadzi przez proces dodawania dysku.
 Krator dostępny jest w ustawieniach aplikacji, w sekcji ***Integracje*** (w tym miejscu zarządzamy urządzeniami i usługami podłączonymi do urządzenia).
-Szczególowy opis wraz z prezentacją wideo dostępny jest tu: [Dyski](/docs/ais_app_drives.html)
 
 
 #### Nowa karta odtwarzacza
 Przeglądanie i odtwarzanie treści audio ze wszyskich dostępnych źródeł (Radio, Podcasty, Muzyka z YouTube i Spotify oraz pliki Audio z dysków) w jednej karcie.
 <div>
-  <video width="100%" height="100%" playsinline autoplay muted loop>
+  <video width="100%" height="100%" playsInline autoPlay muted loop>
     <source src="/video/odtwarzacz_audio_w_Asystencie_domowym.mp4" type="video/mp4"/>
   </video>
 </div>

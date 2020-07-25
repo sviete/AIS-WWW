@@ -29,8 +29,6 @@ Od tej wersji do galerii można dodawać łatwo (z aplikacji) zdjęcia i wyświe
 
 W najnowsze wersji naszej aplikacji mobilnej dodaliśmy [konfigurację ustawień aplikacji mobilej przy pomocy kreatora](/docs/ais_app_android_dom#konfiguracja-za-pomocą-kreatora).
 
-[](/img/en/frontend/ais_dom_wizard_0_mob_apk.png)
-
 
 Dodaliśmy też możliwość zeskanowania aparatem kodu QR z identyfikatorem bramki.
 

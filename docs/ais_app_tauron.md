@@ -63,7 +63,7 @@ W systemie Asystent domowy, wszystkie typy urządzeń (czujnik, przełącznik, o
 ![Integracja TAURON](/img/en/frontend/integration_tauron_4.png)
 
 <div>
-  <video width="100%" height="100%" playsinline autoplay muted loop>
+  <video width="100%" height="100%" playsInline autoPlay muted loop>
     <source src="/video/tauron.webm" type="video/webm"/>
   </video>
 </div>

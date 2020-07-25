@@ -10,7 +10,7 @@ Podobnie można zrobić za pomocą serwera nginx czy apache, ale te serwery nie 
 
 Poniżej opiszemy instalację krok po kroku na podstawie serwera cadd
 
-1. Przejdź do [konsoli na urządzeniu](/docs/ais_bramka_remote_ssh.html)
+1. Przejdź do [konsoli na urządzeniu](/docs/ais_bramka_remote_ssh)
 2. Sprawdź konfigurację serwera caddy za pomocą polecenia
 ```bash
 cat $PREFIX/bin/Caddyfile

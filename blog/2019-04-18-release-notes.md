@@ -35,6 +35,5 @@ Tematem tym planujemy zająć się szerzej, niebawem opiszemy krok po kroku zast
 ### Łatwe dodawanie urządzeń
 
 W celu łatwiejszego dołączania urządzeń do systemu dodaliśmy kreator, który krok po kroku prowadzi przez proces dodawania nowych urządzeń.
-Więcej o naszych urządzeniach, w dokumentacji [Urządzenia](/docs/ais_iot_works_with.html)
 
 ![Kreator dodawania urządzeń](/img/en/frontend/add_device.png)

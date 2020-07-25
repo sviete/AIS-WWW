@@ -5,7 +5,7 @@ sidebar_label: Automatyzacja z powiadomieniami głosowymi
 
 ## Wprowadzenie do automatyzacji
 
-Zapoznaj się z opisem [wprowadzenie do automatyzacji Asystenta domowego](/docs/ais_bramka_automation.html), żeby poznać podstawy dodawania automatyzacji w systemie.
+Zapoznaj się z opisem [wprowadzenie do automatyzacji Asystenta domowego](/docs/ais_bramka_automation), żeby poznać podstawy dodawania automatyzacji w systemie.
 
 
 ## Przykład - Mówienie godziny
@@ -45,6 +45,6 @@ Wszystkie czynności jakie wykonuje Asystent domowy, takie jak włączenie świa
 
 ### Test działania
 
-Nowo dodaną akcję możemy przetestować, wybierając ją na ekranie gównym Asystenta domowego i naciskając uruchom, jeśli wszystko zrobiliśmy dobrze to asystent powinien nam powiedzieć która godzina. 
+Nowo dodaną akcję możemy przetestować, wybierając ją na ekranie gównym Asystenta domowego i naciskając uruchom, jeśli wszystko zrobiliśmy dobrze to asystent powinien nam powiedzieć która godzina.
 
 ![Automatyzacja](/img/en/faq/tts_time_4.png)

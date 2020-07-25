@@ -11,7 +11,7 @@ Dodatkowo, w celu ułatwienia korzystania z aplikacji, umożliwiamy zapamiętani
 
 Użytkownikom, którym zależy na najwyższym poziomie bezpieczeństwa, udostępniamy moduł uwierzytelniania wieloskładnikowego (Multi-factor authentication).
 
-W dokumentacji nakreślono, jak działa [zabezpieczenie dostępu do aplikacji](/docs/ais_bramka_remote_www_index.html#zabezpieczenie-dost%C4%99pu-do-aplikacji), poniżej postaramy się wytłumaczyć to na przykładach.
+W dokumentacji nakreślono, jak działa [zabezpieczenie dostępu do aplikacji](/docs/ais_bramka_remote_www_index), poniżej postaramy się wytłumaczyć to na przykładach.
 
 
 ### Logowanie, gdy bramka działa w sieci lokalnej
@@ -58,7 +58,7 @@ W przypadku, gdy włączony jest dostęp z Internetu, to **dla bezpieczeństwa a
 
 ![Włączenie dostępu z Internetu](/img/en/faq/access_form_internet.png)
 
-Automatycznie konfiguracja jest taka, jak opisano w dokumentacji [wyłączenie łatwego logowania](/docs/ais_bramka_remote_www_index.html#wy%C5%82%C4%85czenie-%C5%82atwego-logowania)
+Automatycznie konfiguracja jest taka, jak opisano w dokumentacji [wyłączenie łatwego logowania](/docs/ais_bramka_remote_www_index)
 
 ```yaml
 homeassistant:
@@ -144,7 +144,7 @@ $ nano configuration.yaml
 
 3. Nadpisujemy domyślną konfigurację systemu
 
-W dokumentacji opisaliśmy jak działa [Zaawansowana konfiguracja Asystenta domowego](/docs/ais_gate_faq_config_yaml.html#plik-konfiguracyjny-configurationyaml)
+W dokumentacji opisaliśmy jak działa [Zaawansowana konfiguracja Asystenta domowego](/docs/ais_gate_faq_config_yaml)
 
 Jeżeli chcemy, żeby logowanie było zawsze za pomocą loginu i hasła (nawet gdy bramka nie jest dostępna przez Internet) to podajemy następującą konfigurację:
 

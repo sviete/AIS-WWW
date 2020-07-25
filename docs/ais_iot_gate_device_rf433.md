@@ -76,4 +76,4 @@ Po dodaniu przycisku możemy go umieścić na karcie i uruchamiać wysyłanie ko
 
 ## Prezentacja wideo
 
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/NEFd_T3gqNU" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/NEFd_T3gqNU" frameBorder="0" allowFullScreen></iframe>

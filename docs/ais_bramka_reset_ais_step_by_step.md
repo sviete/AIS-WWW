@@ -43,4 +43,4 @@ Technicznie procedura polega na wykonaniu trzech kroków:
 
 ## Przebieg pełnego resetu na wideo
 
-<iframe width="560" height="315"  src="https://www.youtube.com/embed/3FO9hBl1V90" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/3FO9hBl1V90" frameBorder="0" allowFullScreen></iframe>

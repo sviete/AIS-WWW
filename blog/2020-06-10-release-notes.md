@@ -81,7 +81,7 @@ Na forum dodaliśmy opis -> [wprowadzenie do tematu stres testów](https://ai-sp
 Nasz faworyt to test za pomocą aplikacji monkey :monkey_face:
 Tu też nie ma wielkiej filozofii… ale jest wielka ilość (setki tysięcy) bardzo losowych zdarzeń, co daje dość ciekawy efekt :wink:
 
-<iframe width="720" height="460"  src="https://www.youtube.com/embed/-1uBMCmMaHg" frameborder="0" allowfullscreen></iframe>
+<iframe width="720" height="460"  src="https://www.youtube.com/embed/-1uBMCmMaHg" frameBorder="0" allowFullScreen></iframe>
 
 ## ![Zigbee](/img/en/blog/202004/honeybee.png) Aktualizacja Zigbee2Mqtt do wersji 1.13.1
 

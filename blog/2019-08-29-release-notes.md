@@ -49,7 +49,7 @@ Wszystko, co jest skonfigurowane do uruchamiania przez wywołanie zwrotne, ma pu
 
 Pozwala to na przesyłanie powiadomień do naszej bramki z Internetu.
 
-W ten sposób możemy np. powiadamiać bramkę o naszej lokalizacji z aplikacji mobilnej - opcja opisana szerzej w [Wykrywanie obecności](/docs/ais_bramka_presence_detection.html)
+W ten sposób możemy np. powiadamiać bramkę o naszej lokalizacji z aplikacji mobilnej - opcja opisana szerzej w [Wykrywanie obecności](/docs/ais_bramka_presence_detection)
 
 ![AIS dom webhooks](/img/en/frontend/integration_owntracks.png)
 
@@ -72,7 +72,7 @@ Mamy nowe repozytorium pakietów binarnych na własnym serwerze (nie instalujemy
 
 Przełączenie na nowe repozytorium pakietów binarnych:
 1. Wykonaj standardową aktualizację automatyczną
-2. Wykonaj "Pełny reset aplikacji" - przebieg tej procedury opisany jest w dokumentacji [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step.html), znajduje się tam też wideo prezentujące przebieg procesu pełnego resetu.
+2. Wykonaj "Pełny reset aplikacji" - przebieg tej procedury opisany jest w dokumentacji [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step), znajduje się tam też wideo prezentujące przebieg procesu pełnego resetu.
 
 
 ### Pozostałe istotne zmiany
@@ -100,7 +100,7 @@ https:
 
 - Możliwość uwierzytelniania za pomocą hasła przy połączeniu ssh.
 
-[Dostęp w sieci lokalnej -> SSH](/docs/next/ais_bramka_remote_ssh#autentykacja-za-pomocą-hasła)
+[Dostęp w sieci lokalnej -> SSH](/docs/ais_bramka_remote_ssh)
 
 - Poprawione działanie mikrofonu. W przypadku zablokowania mikrofonu dodaliśmy automatyczny reset urządzenia USB, bez fizycznego rozłączania / podłączania.
 

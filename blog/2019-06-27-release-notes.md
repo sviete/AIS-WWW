@@ -21,7 +21,7 @@ Cała kolekcja audiobooków <a href="https://wolnelektury.pl/" target="_blank">W
 ### Możliwość wybrania strefy czasowej i zaznaczenia lokalizacji na mapie w aplikacji
 
 Podczas pierwszego uruchomienia Asystent domowy zapyta Cię gdzie mieszkasz. Pomoże to w wyświetlaniu informacji i konfigurowaniu automatyki opartej na położeniu słońca. **Dane te nigdy nie będą udostępniane poza Twoją sieć lokalną.**
-Podczas początkowej prostej konfiguracji wykonywanej przy pierwszym uruchomieniu można też skonfigurować połączenie Wi-Fi oraz dodać urządzenia i usługi. Całość procesu opisana jest w dokumentacji [Pierwsze uruchomienie](/docs/ais_bramka_first_run.html)
+Podczas początkowej prostej konfiguracji wykonywanej przy pierwszym uruchomieniu można też skonfigurować połączenie Wi-Fi oraz dodać urządzenia i usługi.
 
 
 ![Pierwsze uruchomienie](/img/en/frontend/onboarding_step_2.png)

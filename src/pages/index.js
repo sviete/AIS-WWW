@@ -5,8 +5,6 @@ import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
-import Image from '@theme/IdealImage';
-import googleplaylogo from '../../static/img/main/google-play-badge.png';
 
 
 const ais_features = [
@@ -192,7 +190,7 @@ function Home() {
               <p className="hero__subtitle">{siteConfig.tagline}</p>
               <div className={styles.buttons}>
                 <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom">
-                  <Image name="AIS dom on google play" className={styles.googlePlayImg} img={googleplaylogo} />
+                  <img alt="Google Play" name="AIS dom on google play" className={styles.googlePlayImg} src="../../static/img/main/google-play-badge.png" />
                 </a>
               </div>
             </div>

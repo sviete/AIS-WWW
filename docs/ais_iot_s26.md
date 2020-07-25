@@ -10,12 +10,12 @@ sidebar_label: Wprowadzenie
     <thead>
         <tr>
             <th>Gniazdo S26</th>
-            <th colspan="2">Specyfikacja</th>
+            <th colSpan="2">Specyfikacja</th>
         </tr>
     </thead>
     <tbody>
         <tr>
-            <td rowspan="13">
+            <td rowSpan="13">
                 <img src="/img/en/iot/iot_s26.png" width="250"/>
             </td>
             <td>Standard gniazda</td>
@@ -99,5 +99,5 @@ Aktualna cena urządzeń jest dostępna:
 
 - u naszego oficjalnego dystrybutora [botland.com.pl ![](/img/en/icons/botland.png)](https://botland.com.pl/pl/227_prd_ai-speaker)
 
-- na naszych aukcjach na platformie [allegro.pl ![](/img/en/icons/allegro.png)](https://allegro.pl/uzytkownik/AI-Speaker) 
+- na naszych aukcjach na platformie [allegro.pl ![](/img/en/icons/allegro.png)](https://allegro.pl/uzytkownik/AI-Speaker)
 :::

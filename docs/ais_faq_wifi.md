@@ -8,7 +8,7 @@ sidebar_label: Ustawienia WiFi
 
 Definicja połączenia WiFi dostępna jest z aplikacji webowej podczas początkowej prostej konfiguracji, przy pierwszym uruchomieniu urządzenia.
 
-[Konfiguracja WiFi podczas pierwdzego uruchomienia urządzenia](/docs/ais_bramka_first_run.html#konfiguracja-wifi)
+[Konfiguracja WiFi podczas pierwdzego uruchomienia urządzenia](/docs/ais_bramka_first_run)
 
 Konfigurację WiFi można też dodać w każdej chwili w konfiguracji Asystenta domowego.
 W tym celu, po zalogowaniu się w aplikacji należy:
@@ -44,7 +44,7 @@ Opcja konfiguracji połączenia WiFi dostępna jest z pilota po przejściu w men
 
 ## Konfigurowanie WiFi w Android
 
-Istnieje też możliwość konfiguracji połączenia WiFi z poziomu systemu Android. W tym celu należy wyjść z aplikacji **Asystent domowy**, a następnie uruchomić ustawienia systemu Android. Instrukcja krok po kroku znajduje się w dokumentacji [Przejście do ustawień Android](/docs/next/ais_bramka_settings.html#ustawienia-aplikacji-asystent-domowy)
+Istnieje też możliwość konfiguracji połączenia WiFi z poziomu systemu Android. W tym celu należy wyjść z aplikacji **Asystent domowy**, a następnie uruchomić ustawienia systemu Android. Instrukcja krok po kroku znajduje się w dokumentacji [Przejście do ustawień Android](/docs/ais_bramka_settings)
 
 
 ## Ustawienia WiFi w konsoli Linux

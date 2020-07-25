@@ -6,7 +6,7 @@ sidebar_label: Logi dostępne na bramce
 ## Wprowadzenie
 
 W przypadku problemów z działaniem urządzenia, problemów z aktualizacją czy też problemów z własnymi integracjami/komponentami, zalecamy sprawdzenie logów w celu diagnozy problemu.
-Logi dostępne są z konsoli, [do konsoli łączymy się po SSH](/docs/ais_bramka_remote_ssh.html). Poniżej opiszemy jak sprawdzić logi poszczególnych komponentów systemu.
+Logi dostępne są z konsoli, [do konsoli łączymy się po SSH](/docs/ais_bramka_remote_ssh). Poniżej opiszemy jak sprawdzić logi poszczególnych komponentów systemu.
 
 ## Logi procesów Asystenta domowego.
 
@@ -48,12 +48,12 @@ mkdir /sdcard/logs
 cp /data/data/pl.sviete.dom/files/home/.pm2/logs/* /sdcard/logs
 ```
 Połączenie FTP do bramki:
-[do konsoli łączymy się po FTP](/docs/ais_bramka_remote_ftp.html)
+[do konsoli łączymy się po FTP](/docs/ais_bramka_remote_ftp)
 
 
 ## Logi aktualizacji systemu
 
-Logi aktualizacji [dostępne są w aplikacji webowej](/docs/ais_bramka_update_logs.html)
+Logi aktualizacji [dostępne są w aplikacji webowej](/docs/ais_bramka_update_logs)
 
 Możliwy jest też dostęp do nich z konsoli, znajdują się w lokalizacji **/data/data/pl.sviete.dom/files/home/AIS/www**
 w pliku **upgrade_log.txt**.
