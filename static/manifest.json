@@ -30,9 +30,9 @@
         }
     ],
     "lang": "pl-PL",
-    "name": "Asystent domowy",
+    "name": "AIS dokumentacja",
     "prefer_related_applications": false,
-    "short_name": "AIS",
+    "short_name": "AIS docs",
     "start_url": "/",
     "theme_color": "#FF9800"
 }

@@ -28,7 +28,7 @@ module.exports = {
           {
             tagName: 'link',
             rel: 'icon',
-            href: '/images/logo_ais.png.png',
+            href: '/images/logo_ais.png',
           },
           {
             tagName: 'link',
@@ -38,7 +38,7 @@ module.exports = {
           {
             tagName: 'meta',
             name: 'theme-color',
-            content: 'rgb(37, 194, 160)',
+            content: 'rgb(217, 130, 0)',
           },
         ],
       },
