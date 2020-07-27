@@ -183,7 +183,7 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title={`Dokumentacja ${siteConfig.title}`}
+      title="Dokumentacja AIS"
       description="Automatyzujemy Twój dom lokalnie.">
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
@@ -192,8 +192,8 @@ function Home() {
               <h1 className="hero__title">{siteConfig.title}</h1>
               <p className="hero__subtitle">{siteConfig.tagline}</p>
               <div className={styles.buttons}>
-                <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom">
-                  <Image img={googlePlayLogo} />
+                <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" aria-label="Zainstaluj AIS z Google Play">
+                  <Image img={googlePlayLogo} alt="AIS in Google Play"/>
                 </a>
               </div>
             </div>
