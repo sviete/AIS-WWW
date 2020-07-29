@@ -241,3 +241,16 @@ Możemy dodać [integrację z Google Home](/docs/ais_app_ai_integration_google_
 ```text
 Google {komenda/polecenie}
 ```
+
+## Sprawdzenie lokalizacji osoby
+
+Możemy sprawdzić lokalizację osoby za pomocą komendy:
+
+```text
+Gdzie jest {osoba}
+```
+lub
+
+```text
+Lokalizacja {osoba}
+```
