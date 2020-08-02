@@ -24,18 +24,15 @@ $ yarn build
 
 This command generates static content into the `build` directory and can be served using any static contents hosting service.
 
+### Test
+
+```
+$ npx http-server build -p 3000
+```
+
 ### Deployment
 
-
-#### to GitHub
-```
-$ GIT_USER=<Your GitHub username> yarn deploy
-```
-
-If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
-
-
-#### to dom Server
+#### AIS dom Server
 
 rsync to staging folder
 
@@ -54,7 +51,21 @@ cp -R /var/www/ais-www-staging/* /var/www/AIS-WWW
 
 ### Update OTA only
 
-1. add files to /static/ota
+1. add files to /static/o
+#### to GitHub
+```
+#### to GitHub
+```
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+
+$ GIT_USER=<Your GitHub username> yarn deploy
+```
+
+If you are using GitHub pages for hosting, this command is a convenient way to build the website and push to the `gh-pages` branch.
+ta
 2. add info to /static/ota/index.html
 3. commit & push to GitHub
 4. rsync

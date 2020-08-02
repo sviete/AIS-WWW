@@ -81,6 +81,24 @@ module.exports = {
       apiKey: '147dbf3542b38e29ef7abb54fbc19372',
       indexName: 'sviete_ais',
     },
+    colorMode: {
+      defaultMode: 'dark',
+      disableSwitch: false,
+      respectPrefersColorScheme: true,
+      switchConfig: {
+        darkIconStyle: {
+          // Style object passed to inline CSS
+          // For more information about styling options visit: https://reactjs.org/docs/dom-elements.html#style
+          marginLeft: '2px',
+          color: 'yellow',
+        },
+        lightIcon: '☀️',
+        lightIconStyle: {
+          marginLeft: '2px',
+          color: 'yellow',
+        },
+      },
+    },
     navbar: {
       title: 'Asystent domowy',
       logo: {
