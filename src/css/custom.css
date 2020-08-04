@@ -27,6 +27,9 @@ html[data-theme="dark"] {
     padding: 6px;
 }
 
+div.aisFeatureTitle {
+  font-weight: bold;
+}
 .navbar__item.navbar__link[href*="discourse.group"] {
   display: flex;
   font-size: 0.7em;

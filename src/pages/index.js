@@ -12,34 +12,34 @@ import googlePlayLogo from '../../static/img/main/google-play-badge.png';
 
 const ais_features = [
   {
-    title: <>Ponad <span className="strongInfo">1430</span> urządzeń WiFi</>,
+    title: <>Ponad <span className="strongInfo">1480</span> urządzeń WiFi</>,
     imageUrl: 'img/main/wifi.svg',
     description: (
       <>
         <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
-        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1430 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
+        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/eu.html" target="_blank">ponad 1480 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
     addClass: 'col col--4',
   },
   {
-    title: <>Ponad <span className="strongInfo">840</span> urządzeń Zigbee</>,
+    title: <>Ponad <span className="strongInfo">880</span> urządzeń Zigbee</>,
     imageUrl: 'img/main/zigbee.svg',
     description: (
       <>
         Dzięki <a href="/docs/ais_zigbee_index"> USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
-        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 840 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
+        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 880 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
       </>
     ),
     addClass: 'col col--4',
   },
   {
-    title: <>Ponad <span className="strongInfo">1600</span> Integracji Home Assistant</>,
+    title: <>Ponad <span className="strongInfo">1620</span> Integracji Home Assistant</>,
     imageUrl: 'img/main/ha.svg',
     description: (
       <>
         Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a rel="noopener" href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
-        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1600 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
+        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1620 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
       </>
     ),
     addClass: 'col col--4',
@@ -172,7 +172,7 @@ function Feature({imageUrl, title, description, addClass}) {
           <img alt="AIS dom feature" className={styles.aisComiksImg} src={imgUrl} alt={title} />
         </div>
       )}
-      <h3>{title}</h3>
+      <div className="aisFeatureTitle">{title}</div>
       <div>{description}</div>
     </div>
   );
@@ -280,7 +280,7 @@ function Home() {
           <div className={classnames('container')}>
             <div className="row">
               <div className={classnames('col col--10', styles.aisPeoples)}>
-                <h3>Projekt tworzony i sponsorowany przez ludzi - dziękujemy!</h3>
+                <div className="aisFeatureTitle">Projekt tworzony i sponsorowany przez ludzi - dziękujemy!</div>
                 <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Andrzej.webp" /></a>
                 <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Sebastian.webp" /></a>
                 <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Celka.webp" /></a>
