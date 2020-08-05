@@ -260,8 +260,14 @@ function Home() {
         <div className={classnames('row', styles.aisDiferencesFromOthers)}>
         <h1>
           <br/>
-          Co nas wyróżnia, jakie problemy rozwiązujemy:
+          Co nas wyróżnia, jakie problemy rozwiązujemy?
         </h1>
+        <h3>
+          W miarę jak inteligentne domy i technologia głosowa stają się coraz bardziej zintegrowane z naszym codziennym życiem, coraz większe znaczenie mają kluczowe względy dotyczące kosztów, prywatności i praktyczności. 
+          Obecnie dominują rozwiązania oparte na chmurze, które mają wady, co skutkuje nieoptymalnymi doświadczeniami zarówno dla klientów, jak i producentów inteligentnych urządzeń.  
+        </h3>
+        <p>
+          Poniżej przedstawimy, co wyróżnia rozwiązania AI-Speaker i w jaki sposób staramy się skutecznie i etycznie rozszerzać technologie inteligentnego domu, jednocześnie chroniąc prywatność użytkowników, zapewniając długoterminowe wsparcie dla urządzeń oraz budując lojalność i zaufanie pomiędzy producentem i klientami.        </p>
         </div>
      </div>
       <main>
