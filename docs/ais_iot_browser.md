@@ -1,6 +1,6 @@
 ---
-title: Obsługa urządzenia z przeglądarki
-sidebar_label: Obsługa urządzenia z przeglądarki
+title: Konfiguracja urządzenia z przeglądarki
+sidebar_label: Konfiguracja urządzenia z przeglądarki
 ---
 
 ## Wprowadzenie
@@ -9,30 +9,39 @@ sidebar_label: Obsługa urządzenia z przeglądarki
 Jeśli jesteś posiadaczem **bramki IoT AIS dom** i chcesz podłączyć do niej **urządzenie AIS dom**, to możesz pominąć ten opis i przejść do **[Obsługa urządzenia z bramki AIS dom](/docs/ais_iot_gate) gdzie opisaliśmy jak dodać urządzenie za pomocą prostego kreatora.**
 :::
 
-Urządzenie z oprogramowaniem **AIS dom** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak lokalna bramka czy zdalny serwer (chmura). Poniżej przedstawiamy, w jaki sposób urządzenie może być sterowane za pomocą dowolnej przeglądarki internetowej.
+Urządzenie z oprogramowaniem **AIS dom** jest autonomiczne i do podstawowych funkcjonalności nie potrzebuje żadnego dodatkowego komponentu, takiego jak lokalna bramka czy zdalny serwer (chmura). Poniżej przedstawiamy, w jaki sposób urządzenie może być konfigurowane i sterowane za pomocą dowolnej przeglądarki internetowej.
 
 ## Konfiguracja Wi-Fi
+
 Urządzenia AIS dom zapewniają bezprzewodowy punkt dostępu do łatwej konfiguracji Wi-Fi.
 
-Podłącz urządzenie do źródła zasilania, następnie wprowadź je w tryb konfiguracji (bezprzewodowego punktu dostępu) wciskając szybko 4 razy przycisk na urządzeniu, tak jak to pokazano na animacji poniżej:
+### Wprowadzenie urządzenia w tryb parowania / bezprzewodowego punktu dostępu
+
+Jeśli podłączasz urządzenie po raz pierwszy do swojej sieci WiFi, to żeby wprowadzić je w tryb bezprzewodowego punktu dostępu wystarczy podłączyć urządzenie do źródła zasilania.
+
+![wifi](/img/en/iot/iot_ais_dom_wifi_step1.png)
 
 
-<img src="/img/en/iot/ais_s20_2.gif" align="center"/>
-
-
-<img src="/img/en/iot/iot_ais_dom_wifi_step1.png" width="300px" align="left"/>
-
-
-
- Teraz na smartfonie (komputerze, tablecie, laptopie albo innym urządzeniu obsługującym sieć i Wi-Fi) wyszukaj punkt dostępu Wi-Fi o nazwie **dom_xxx_yyyyyy_zzzz** (gdzie xxx_yyyyyy_zzzz jest nazwą modelu i unikalnym identyfikatorem urządzenia) i połącz się z nim. W tym przykładzie punkt dostępu Wi-Fi ma nazwę dom_s20_3EB39C_5020.
-
-:::important informacja
-Bezprzewodowy punkt dostępu na urządzeniu jest **aktywny tylko przez 3 minuty**. Jeśli przegapisz to okno czasowe, może być konieczne ponowne wprowadzenie go w tryb parowania.
+:::caution
+Jeśli urządzenie było już dodane do sieci to, żeby ponownie wprowadzić je w tryb bezprzewodowego punktu dostępu, należy **nacisnąć i przytrzymać przez 4 sekundy** przycisk na urządzeniu, lub w krótkich odstępach czasu nacisnąć przycisk 6 razy (lub więcej).
 :::
 
-<img src="/img/en/iot/iot_ais_dom_wifi_step2.png" width="300px" align="right"/>
-Po połączeniu się z Wi-Fi na urządzeniu otwórz http://192.168.4.1 w przeglądarce internetowej. Niektóre urządzenia mogą wyświetlić powiadomienie o potrzebie zalogowania się do sieci Wi-Fi, wybranie tej opcji powinno otworzyć powyższy adres automatycznie.
+Następnie na smartfonie (komputerze, tablecie, laptopie albo innym urządzeniu obsługującym sieć i Wi-Fi) wyszukaj punkt dostępu Wi-Fi o nazwie **dom_xxx_yyyyyy_zzzz** (gdzie xxx_yyyyyy_zzzz jest nazwą modelu i unikalnym identyfikatorem urządzenia) i połącz się z nim. W tym przykładzie punkt dostępu Wi-Fi ma nazwę dom_s20_3EB39C_5020.
 
+
+
+> Bezprzewodowy punkt dostępu na urządzeniu jest **aktywny tylko przez 3 minuty**. Jeśli przegapisz to okno czasowe, może być konieczne ponowne wprowadzenie go w tryb parowania.
+W tym celu wystarczy, że odłączysz urządzenia od zasilania i połączysz ponownie lub **naciśniesz i przytrzymasz przez 4 sekundy przycisk na urządzeniu**, lub nacisnąć 6 razy (lub więcej) przycisk w krótkich odstępach czasu.
+
+
+> Kiedy łączy się z siecią na urządzeniu, możesz otrzymać ostrzeżenie, że nie ma połączenia z Internetem i zostać poproszony o połączenie z inną siecią. **Nie zezwalaj urządzeniu mobilnemu na wybór innej sieci.**
+
+
+### Połączenie do urządzenia i dodanie go do domowego WiFi
+
+Po połączeniu się z Wi-Fi na urządzeniu otwórz http://192.168.4.1 w przeglądarce internetowej.
+Niektóre urządzenia mogą wyświetlić powiadomienie o potrzebie zalogowania się do sieci Wi-Fi, wybranie tej opcji powinno otworzyć powyższy adres automatycznie.
+<img src="/img/en/iot/iot_ais_dom_wifi_step2.png" width="300px" align="right"/>
 
 Na tej stronie (http://192.168.4.1) możesz przeskanować dostępne sieci Wi-Fi, następnie z listy wykrytych sieci wybrać swoją sieć Wi-Fi, do której chcesz podłączyć urządzenie.
 <img src="/img/en/iot/iot_ais_dom_wifi_step3.png" width="300px" align="left"/>

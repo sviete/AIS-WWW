@@ -1,6 +1,6 @@
 ---
-title: Komunikacja za pomocą protokołu MQTT
-sidebar_label: Komunikacja za pomocą protokołu MQTT
+title: Konfiguracja komunikacji MQTT
+sidebar_label: Konfiguracja komunikacji MQTT
 ---
 
 ## Wprowadzenie

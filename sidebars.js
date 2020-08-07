@@ -143,7 +143,8 @@ module.exports = {
   "Inteligentne gniazdo WiFi": [
       "ais_iot_s26",
       "ais_iot_browser",
-      "ais_iot_mqtt"
+      "ais_iot_mqtt",
+      "ais_iot_apk"
     ],
   "Pilot radiowy z mikrofonem": [
     "ais_remote_index",

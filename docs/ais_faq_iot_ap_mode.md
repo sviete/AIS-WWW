@@ -21,7 +21,7 @@ Wszystkie nasze poprawki udostępniamy też społeczności Tasmota, dodatkowo ro
 
 ### Tryb parowania
 
-Umożliwiamy łatwe wprowadzenie w tryb parowania przez szybkie naciśnięcie przycisku na urządzeniu od 3 do 7 razy lub **poprzez naciśnięcie i przytrzymanie przycisku na urządzeniu przez 4 sekundy**.
+Umożliwiamy łatwe wprowadzenie w tryb parowania **poprzez naciśnięcie i przytrzymanie przycisku na urządzeniu przez 4 sekundy** lub przez szybkie naciśnięcie przycisku na urządzeniu 6 razy (lub więcej).
 W dokumentacji dodaliśmy opis krok po kroku jak to zrobić [Konfiguracja WiFi](/docs/ais_iot_browser)
 
 Motywacją do tej zmiany było umożliwienie łatwego dodawania urządzeń do naszego systemu przez osoby starsze oraz mające problem ze wzrokiem (dla części osób szybkie wciśnięcie dokładnie cztery razy w krótkich odstępach czasu tak, żeby dioda odpowiednio migała... było "troszkę" problematyczne).

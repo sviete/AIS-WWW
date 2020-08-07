@@ -17,7 +17,16 @@ Sprawdź ścieżkę aktualizacji na stronie projektu [TASMOTA](https://tasmota.g
 
 ### Pobranie plików
 
-Pliki ze skompilowaną najnowszą wersją oprogramowania dla urządzeń dostępne są w naszym serwisie, pod adresem [OTA](https://www.ai-speaker.com/ota/).
+Pliki ze skompilowaną najnowszą wersją oprogramowania dla urządzeń dostępne są:
+
+1. W serwisie Github [FIRMWARE](https://github.com/sviete/AIS-Tasmota/tree/firmware) gdzie automatycznie kompilujemy wiele wariantów oprogramowania dla każdej wersji.
+
+![FIRMWARE AIS dom](/img/en/iot/iot_ais_dom_github_firmware.png)
+
+2. Na naszej stronie z aktualizacjami, pod adresem [OTA](https://www.ai-speaker.com/ota/).
+
+
+
 Pobierz najnowsze wersje 2 plików:
 
 - [![tasmota-minimal](/img/en/iot/tasmota-minimal.svg) tasmota-minimal.bin](https://powiedz.co/ota/dom/tasmota-minimal.bin)
@@ -293,14 +302,14 @@ W kompilacji, którą udostępniamy i wgrywamy do naszych urządzeń mamy nastę
 | USE_A4988_STEPPER     | - | - |
 
 
-### AIS a czysta Tasmota
+### AIS vs Tasmota
 
 Jesteśmy kompatybilni z Tasmota i dodatkowo mamy kilka ułatwień w naszej kompilacji.
 
 #### Tryb parowania
 
-Umożliwiamy łatwe wprowadzenie w tryb parowania przez szybkie naciśnięcie przycisku na urządzeniu od 3 do 7 razy lub poprzez naciśnięcie i przytrzymanie przycisku na urządzeniu przez 4 sekundy.
-Motywacją do tej zmiany było umożliwienie łatwego dodawania urządzeń do naszego systemu przez osoby starsze oraz mające problem ze wzrokiem (dla części osób szybkie wciśnięcie dokładnie cztery razy w krótkich odstępach czasu tak, żeby dioda odpowiednio migała… było “troszkę” problematyczne).
+Umożliwiamy łatwe wprowadzenie w tryb parowania **poprzez naciśnięcie i przytrzymanie przycisku na urządzeniu przez 4 sekundy** lub przez szybkie naciśnięcie przycisku na urządzeniu 6 razy (lub więcej).
+Motywacją do tej zmiany było umożliwienie łatwego dodawania urządzeń do naszego systemu przez osoby starsze oraz mające problem ze wzrokiem (dla części osób szybkie wciśnięcie dokładnie 6 razy w krótkich odstępach czasu tak, żeby dioda odpowiednio migała… było “troszkę” problematyczne).
 
 #### Wyszukiwanie bramki
 
@@ -316,7 +325,7 @@ Ten parametr oczywiście wysyłamy z bramki do urządzenia podczas “parowania 
 
 #### Automatyczna komunikacja z Asystentem domowym
 
-Automatycznie ustawiamy na urządzeniu, żeby przedstawiało się bramce (mamy włączone mqtt discovery). Wszystkie urządzenia dodane są też do grupy dom.
+Automatycznie ustawiamy na urządzeniu, żeby przedstawiało się bramce (mamy włączone mqtt discovery). Wszystkie urządzenia z naszym oprogramowaniem automatycznie **dodane są do grupy dom** (nasłuchują poleceń wysyłanych do takiej grupy).
 Bramka po uruchomieniu publikuje na tę grupę prośbę o przedstawienie się do urządzeń i ustala komunikację z nowymi urządzeniami. Każde urządzenie po restarcie lub zmianie parametrów wysyła do bramki informacje o swoim statusie oraz tym jak się z nim komunikować. Szczegółowo opisane jest to w dokumentacji bramki, w [sekcji MQTT](/docs/ais_bramka_mqtt)
 
 #### Ustawienia lokalne
