@@ -14,10 +14,13 @@ Wykrywanie obecności ma na celu ustalenie, czy i kto jest w domu (lub innej zde
 
 ## Wykrywanie obecności
 
-Istnieją różne sposoby ustawiania wykrywania obecności w systemie Asystent domowy. Zazwyczaj najłatwiejszym sposobem jest sprawdzenie, które urządzenia (telefony) są podłączone do domowej sieci - w ten sposób możesz łatwo wykryć, kto jest w domu.
+Istnieją różne sposoby wykrywania obecności w systemie Asystent domowy. Najłatwiejszym i zalecanym przez nas sposobem [jest włączenie raportowania obecności w naszej aplikacji AIS dom, na telefonie](docs/ais_app_android_dom#dostęp-do-lokalizacji) - po zalogowaniu się z telefonu do aplikacji na bramce możesz w łatwy sposób przypisać telefon do osoby i przesyłać zmiany lokalizacji bezpośrednio do bramki domowej.
 
-Innym sposobem pozwalającm na dostarczenie szczegółowych informacje o lokalizacji jest uruchomienie aplikacji na telefonie. Dla Androida i iOS rekomendujemy aplikację OwnTracks.
-OwnTracks to darmowa i otwarto źródłowa aplikacja dla systemu iOS i Android, która umożliwia śledzenie lokalizacji i wysyłanie jej bezpośrednio do systemu Asystent domowy.
+![AIS dom GPS](/img/en/bramka/presence_detection_00.png)
+
+
+Inną aplikacją dostarczającą szczegółowe informacje o lokalizacji jest aplikacja OwnTracks, która działa zarówno dla Androida, jak i iOS.
+OwnTracks warto polecić bo tak jak AIS dom, jest też darmowa i otwarto źródłowa, wykryte zmiany lokalizacji wysyła bezpośrednio do systemu Asystent domowy.
 Można ją skonfigurować za pomocą integracji dostępnej w konfiguracji systemu - w dokumentacji [integracji OwnTracks](/docs/ais_app_owntracks) pokazujemy krok po kroku jak to zrobić.
 
 

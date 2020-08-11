@@ -207,8 +207,8 @@ function Home() {
             <div className={styles.announcementInner}>
               Chcesz zobaczyć, jak to działa?<br></br>
               <Link to="https://demo.ai-speaker.com">
-                Sprawdź DEMO
-              </Link>.
+                <span> Sprawdź DEMO <img alt="AIS dom text to speech" className="aisPointInfo" src="img/main/comment-eye.svg"/></span> 
+              </Link>
             </div>
           </div>
         </div>

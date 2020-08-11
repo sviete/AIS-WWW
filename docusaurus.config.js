@@ -99,6 +99,13 @@ module.exports = {
         },
       },
     },
+    // announcementBar: {
+    //   id: 'try_demo',
+    //   content:
+    //     'Chcesz zobaczyć, jak to działa? Sprawdz:  <a target="_blank" rel="noopener noreferrer" href="https://demo.ai-speaker.com/">DEMO</a>',
+    //   backgroundColor: '#d98200', // Defaults to `#fff`.
+    //   textColor: '#091E42', // Defaults to `#000`.
+    // },
     navbar: {
       title: 'Asystent domowy',
       logo: {

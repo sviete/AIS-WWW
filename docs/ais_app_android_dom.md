@@ -106,12 +106,26 @@ Przykład, w jaki sposób można skorzystać z tej funkcjonalności, opisany jes
 Na bramce dostępna jest usługa ``ais_ai_service.mob_request``, która umożliwia wysłanie z bramki komendy (zapytania/żądania) do aplikacji mobilnej **AIS dom**.
 Dzięki temu za pomocą automatyzacji możemy zdalnie z bramki włączyć mikrofon na urządzeniu mobilnym lub zapytać o aktualną lokalizację urządzenia. 
 
-:::info
-Docelowo pokażemy na przykładach jak wykorzystać tę funkcjonalność i opiszemy w dokumentacji pełne API.
-:::
-
 ![Notify](/img/en/blog/202007/mic_on_service.png)
 
+:::info
+Na przykładach na forum pokazujemy jak wykorzystać tę funkcjonalność, poniżej znajduje się opis serwisów jakie są dostępne.
+:::
+
+| komenda   |     dane/parametry      |  opis |
+|----------|:-------------:|------|
+| micOn | |  Zdalne włączenie mikrofonu na urządzeniu w celu odebrania komendy głosowej |
+| locationUpdate | | Wysłania żądania aktualizacji lokalizacji, uruchomienie serwisu lokalizacji na 30 sekund |
+| locationServiceOn |  | Zdalne włączenie serwisu lokalizacji na telefonie |
+| locationServiceOff |  | Zdalne wyłączenie serwisu lokalizacji na telefonie |
+| hotWordServiceOn |  | Zdalne włączenie serwisu nasłuchiwania słowa aktywującego komendę głosową na telefonie |
+| hotWordServiceOff |  | Zdalne wyłączenie serwisu nasłuchiwania słowa aktywującego komendę głosową na telefonie |
+| audioServiceOn |  | Zdalne włączenie serwisu odtwarzacza audio na telefonie |
+| audioServiceOff |  | Zdalne wyłączenie serwisu odtwarzacza audio na telefonie |
+| sayIt |  { "text": "Cześć co słychać" }| Przesłanie do telefonu tekstu do powiedzenia |
+| playAudio |  { "url": "https://an.cdn.eurozet.pl/ant-kat.mp3" }| Przesłanie do telefonu adresu audio do odtwarzania |
+| stopAudio |  | Zdalne zatrzymanie odtwarzania audio na telefonie |
+| findPhone |  | Zdalne włączenie wyszukiwania telefonu - telefon zwiększa głośność na 100%, mówi "Tu jestem" i dzwoni |
 
 :::warning UWAGA
 Można z bramki (do której jesteśmy zalogowani) wysłać komendę do urządzenia mobilnego i zdalnie "zmusić" je do jej wykonania, tylko jeśli włączony jest stosowny dostęp (do mikrofonu i/lub lokalizacji) na urządzeniu mobilnym.
