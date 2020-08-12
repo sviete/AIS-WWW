@@ -10,7 +10,7 @@ tags: [location, gps, demo, home assistant, zigbee2mqtt, apk api]
 # 0.113.4 Gdzie jest Jolka?
 
 - ![GPS](/img/en/blog/202008/spy.png) Raportowanie adresu [...](/blog/2020/08/12/release-notes#location-raportowanie-adresu)
-- ![Komendy](/img/en/blog/202007/mobile-request.png) Zdalne zapytania o aktualną lokalizacje osoby [...](/blog/2020/08/12/release-notes#komendy-zdalne-zapytania-o-aktualną-lokalizacje-osoby) 
+- ![Komendy](/img/en/blog/202007/mobile-request.png) Zdalne zapytania o aktualną lokalizację osoby [...](/blog/2020/08/12/release-notes#komendy-zdalne-zapytania-o-aktualną-lokalizacje-osoby) 
 - ![Demo](/img/en/blog/202008/demo_icon.png) DEMO Aplikacji [...](/blog/2020/08/12/release-notes#demo-demo-aplikacji)
 - ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.4.0 George [...](/blog/2020/08/12/release-notes#tasmota-tasmota-840-george)
 - ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.2 [...](/blog/2020/08/12/release-notes#zigbee-zigbee2mqtt-1142)
