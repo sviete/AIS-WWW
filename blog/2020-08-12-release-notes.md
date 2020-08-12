@@ -100,6 +100,8 @@ Dzięki temu użytkownik, który sprawdzi jak w systemie działa sterowanie żar
 
 ![DEMO](/img/en/blog/202008/demo.png)
 
+Demo z założenia ma być interaktywne - można kliknąć i sterować urządzeniami albo powiedzieć komendę i wypróbować jak działa. Dodatkowo planujemy pokazać na kamerze efekt tego, co robimy w systemie - demo podłączone jest do prawdziwych urządzeń.
+
 Encje, które opisujemy na początku, to:
 - Air Quality
 - Alarm Control Panel
@@ -123,17 +125,33 @@ Encje, które opisujemy na początku, to:
 
 ## ![Tasmota](/img/en/blog/202005/tasmota_small.png) Tasmota 8.4.0 George
 
-Poprawki w automatyzacji - opisane na naszym forum: https://ai-speaker.discourse.group/t/0-113-beta-wydana/594
+Wydaliśmy kolejną kompilację oprogramowania do urządzeń IoT na bazie ESP8266. 
+
+Jak zwykle doszło kilka poprawek i ulepszeń, opisujemy je wszsytkie na naszym forum:
+https://ai-speaker.discourse.group/t/ais-tasmota-v8-4-0-george/640
+
+Największa zmiana to dodanie większej ilości kompilacji. Wszystkie warianty dostępne są w naszym serwisie [Github FIRMWARE](https://github.com/sviete/AIS-Tasmota/tree/firmware)
+
+![AIS Tasmota](/img/en/blog/202008/ais_tasmota.png)
+
+Doszła też kompilacje dla ESP32, na razie jeszcze eksperymentalnie, ale już widzimy, że Tasmota jest bardziej stabilna i ma większe możliwości niż inne rozwiązania dla ESP32. 
+Mamy nadzieję, że zaowocuje to niebawem wieloma fajnymi dodatkami do Asystenta domowego :)
+![AIS ESP32](/img/en/blog/202008/ESP32.png)
+
 
 
 ## ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.2
 
-Poprawki w automatyzacji - opisane na naszym forum: https://ai-speaker.discourse.group/t/0-113-beta-wydana/594
+Głównie poprawki działania ale też jak zwykle nowe urządzenia. Cały log zmian tu:
+[![AIS zigbee2mqtt](/img/en/blog/202008/zigbee2mqtt.png)](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.14.2)
 
 
 ## ![EXTA LIFE](/img/en/blog/202007/exta_life.png) Najnowsza wersja integracji EXTA LIFE
 
-Poprawki w automatyzacji - opisane na naszym forum: https://ai-speaker.discourse.group/t/0-113-beta-wydana/594
+Cytująć dgtal1
+> Kolejna wersja integracji z kilkoma poprawkami oraz dodanym wsparciem dla obsługi urządzeń z serii Exta Free, tych, które oficjalnie wspiera oprogramowanie kontrolera EFC-01.
+Cały log zmian tu:
+[![AIS exta](/img/en/blog/202008/exta.png)](https://github.com/dgtal1/extalife_custom_component/releases/tag/2.0b2)
 
 
 ## ![Home Assistant](/img/en/blog/202007/hass.png) Nowy Home Assistant

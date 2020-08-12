@@ -78,14 +78,24 @@ Identyfikator bramki znajdziemy klikając w pozycję "Przydatne linki", w menu p
 
 W każdej chwili możemy przejść do ustawień aplikacji naciskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji
 
-
-<img src="/img/en/frontend/apk_go_to_settings.png" alt="AIS Dom" width="40%"/>
+![AIS Dom](/img/en/frontend/apk_go_to_settings.png)
 
 
 W ustawieniach możemy ręcznie wybrać parametry aplikacji lub uruchomić ponownie kreator ustawień
-<img src="/img/en/frontend/apk_settings.png" alt="AIS Dom" width="40%"/>
+![AIS Dom](/img/en/frontend/apk_settings.png)
 
+
+### Adres URL lub identyfikator bramki
 Najważniejszy parametr to adres URL lub identyfikator bramki, **należy poprawnie ustawić adres lub identyfikator bramki, by komunikacja z bramką była możliwa.** Jeżeli chcemy łączyć się z naszą bramką będąc poza siecią domową to należy pamiętać o włączeniu [dostępu z Internetu](/docs/ais_bramka_remote_www_index).
+
+### Raportowanie lokalizacji
+Opcja raportowania lokalizacji uruchomi serwis śledzący lokalizację urządzenia
+![GPS](/img/en/frontend/apk_report_gps.png)
+
+który będzie przesyłał zmiany współrzędnych oraz adresu telefonu bezpośrednio do bramki AIS dom.
+![GPS](/img/en/frontend/apk_report_gps2.png)
+
+Takie dane w powiązaniu z osobą w systemie pozwalają odpowiedzieć na pytanie typu: "Gdzie jest Jolka" oraz na uruchamianie automatyzacji w zależności od lokalizacji osoby - szczegóły w [Automatyzacje - wykrywanie obecności](/docs/ais_bramka_presence_detection)
 
 
 ## Powiadomienia z bramki
