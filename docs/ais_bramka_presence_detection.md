@@ -14,7 +14,7 @@ Wykrywanie obecności ma na celu ustalenie, czy i kto jest w domu (lub innej zde
 
 ## Wykrywanie obecności
 
-Istnieją różne sposoby wykrywania obecności w systemie Asystent domowy. Najłatwiejszym i zalecanym przez nas sposobem [jest włączenie raportowania obecności w naszej aplikacji AIS dom, na telefonie](docs/ais_app_android_dom#dostęp-do-lokalizacji) - po zalogowaniu się z telefonu do aplikacji na bramce możesz w łatwy sposób przypisać telefon do osoby i przesyłać zmiany lokalizacji bezpośrednio do bramki domowej.
+Istnieją różne sposoby wykrywania obecności w systemie Asystent domowy. Najłatwiejszym i zalecanym przez nas sposobem [jest włączenie raportowania obecności w naszej aplikacji AIS dom, na telefonie](/docs/ais_app_android_dom#dostęp-do-lokalizacji) - po zalogowaniu się z telefonu do aplikacji na bramce możesz w łatwy sposób przypisać telefon do osoby i przesyłać zmiany lokalizacji bezpośrednio do bramki domowej.
 
 ![AIS dom GPS](/img/en/bramka/presence_detection_00.png)
 

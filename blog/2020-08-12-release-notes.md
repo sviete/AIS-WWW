@@ -47,7 +47,7 @@ Istnieją różne sposoby wykrywania obecności w systemie Asystent domowy. Wiem
 
 W dokumentacji wyjaśniamy jak skonfigurować [wykrywanie obecności i stowrzyć automatyzację opartą na strefach](/docs/ais_bramka_presence_detection). 
 
-Dodaliśmy też nową komendę [sprawdzenie lokalizacji osoby](!/docs/ais_app_assistent_commands/#sprawdzenie-lokalizacji-osoby), czyli wystarczy zapytać: 
+Dodaliśmy też nową komendę [sprawdzenie lokalizacji osoby](/docs/ais_app_assistent_commands/#sprawdzenie-lokalizacji-osoby), czyli wystarczy zapytać: 
 
 ```text
 Gdzie jest {osoba}
