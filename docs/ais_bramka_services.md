@@ -8,12 +8,13 @@ sidebar_label: Usługi bramki
 
 Na bramce standardowo działają następujące usługi:
 
-Nazwa      | Protokół | Porty | Komenda/URL                                               | Opis
-----       | ----     | ------- | -------                                                | -----------
- Aplikacja | http     | **80** / `8180`  | [http://ais-dom.local](http://ais-dom.local) | serwer http
- FTP       | ftp      | **21** / `1024`  | [ftp://ais-dom.local](ftp://ais-dom.local)   | serwer ftp
- SSH       | ssh      | **22** / `8022`  | ```ssh ais-dom```         | serwer ssh
- MQTT      | mqtt     | **1883**  | ```mosquitto_sub -h ais-dom.local -t '#'```     | serwer mqtt
+Nazwa         | Protokół | Porty | Komenda/URL                                                          | Opis
+----          | ----     | ------- | -------                                                            | -----------
+ Aplikacja    | http     | **80** / `8180`  | [http://ais-dom.local](http://ais-dom.local)              | serwer http
+ FTP          | ftp      | **21** / `1024`  | [ftp://ais-dom.local](ftp://ais-dom.local)                | serwer ftp
+ SSH          | ssh      | **22** / `8022`  | ```ssh ais-dom```                                         | serwer ssh
+ MQTT         | mqtt     | **1883**         | ```mosquitto_sub -h ais-dom.local -t '#'```               | serwer mqtt
+ Web terminal | http     | **8888**         | [http://ais-dom.local:8888](http://ais-dom.local:8888)    | powłoka bash w aplikacji webowej
 
 ## Przydatne linki
 
