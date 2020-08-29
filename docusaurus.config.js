@@ -82,7 +82,7 @@ module.exports = {
       indexName: 'sviete_ais',
     },
     colorMode: {
-      defaultMode: 'dark',
+      defaultMode: 'light',
       disableSwitch: false,
       respectPrefersColorScheme: true,
       switchConfig: {
