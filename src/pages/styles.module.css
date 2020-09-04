@@ -121,6 +121,11 @@
   max-width: 200px;
 }
 
+.aisDemoImg{
+  max-width: 350px;
+  display: inline-block;
+}
+
 html[data-theme="dark"] .loveSection {
   background-image: url(/img/love-bg-dark.svg);
 }

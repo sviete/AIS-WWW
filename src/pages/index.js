@@ -7,28 +7,28 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Image from '@theme/IdealImage';
 import googlePlayLogo from '../../static/img/main/google-play-badge.png';
-
+import domDemoLogo from '../../static/img/main/Anzela-Demo.png';
 
 
 const ais_features = [
   {
-    title: <>Ponad <span className="strongInfo">1530</span> urządzeń WiFi</>,
+    title: <>Ponad <span className="strongInfo">1540</span> urządzeń WiFi</>,
     imageUrl: 'img/main/wifi.svg',
     description: (
       <>
         <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
-        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/index.html" target="_blank">ponad 1530 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
+        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/index.html" target="_blank">ponad 1540 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
     addClass: 'col col--4',
   },
   {
-    title: <>Ponad <span className="strongInfo">900</span> urządzeń Zigbee</>,
+    title: <>Ponad <span className="strongInfo">950</span> urządzeń Zigbee</>,
     imageUrl: 'img/main/zigbee.svg',
     description: (
       <>
         Dzięki <a href="/docs/ais_zigbee_index"> USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
-        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 900 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
+        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 950 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
       </>
     ),
     addClass: 'col col--4',
@@ -206,8 +206,8 @@ function Home() {
           <div className={classnames(styles.announcement)}>
             <div className={styles.announcementInner}>
               Chcesz zobaczyć, jak to działa?<br></br>
-              <Link to="https://demo.ai-speaker.com">
-                <span> Sprawdź DEMO <img alt="AIS dom text to speech" className="aisPointInfo" src="img/main/comment-eye.svg"/></span>
+              <Link to="https://dom-demo.paczka.pro">
+                <Image className={styles.aisDemoImg} img={domDemoLogo} alt="Dom demo"/>
               </Link>
             </div>
           </div>
