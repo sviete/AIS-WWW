@@ -26,7 +26,7 @@ Podpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](ht
 
 ### Kreator integracji na bramce
 
-Integracje rozpoczynamy na bramce uruchamiająć kratora integracji.
+Integrację rozpoczynamy na bramce uruchamiając krator integracji.
 
 
 ![Wear OS](/img/en/frontend/wear_os_wiz_1.png)
@@ -44,7 +44,7 @@ Następnie przechodzimy krok po kroku prosty konfigurator integracji:
 ### Wpisanie kodu PIN w aplikacji na zegarku
 
 
-Po pierwszym uruchomieniu aplikacji na zegarku należy podać jednorazowego kod PIN wygenerowany podczas dodawania integracji na bramce.
+Po pierwszym uruchomieniu aplikacji na zegarku należy podać jednorazowy kod PIN wygenerowany podczas dodawania integracji na bramce.
 
 ![Wear OS](/img/en/frontend/wear_os_wiz_6.png)
 
