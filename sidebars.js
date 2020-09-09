@@ -36,6 +36,7 @@ module.exports = {
         "items": [
           "ais_bramka_automation",
           "ais_bramka_automation_helpers",
+          "ais_bramka_tag_automation",
           "ais_bramka_presence_detection"
         ]
     },

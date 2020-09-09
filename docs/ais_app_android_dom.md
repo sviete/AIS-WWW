@@ -8,7 +8,16 @@ sidebar_label: AIS dom
 
 To nasza główna aplikacja, która działa zarówno na bramce jak i na innych urządzeniach, w tym: tablety, telefony oraz Android TV.
 
-![AIS Dom](/img/en/frontend/ais_dom_tablet_apk.png)
+
+1. Podstawowa funkcjonalność aplikacji mobilnej to wyświetlanie internetowej aplikacji **Asystent domowy** działającej na bramce, tej samej aplikacji, którą możemy uruchamiać i konfigurować w przeglądarce internetowej [Aplikacja internetowa](/docs/ais_app_index).
+![AIS Dom](/img/en/frontend/ais_dom_mob_tech_apk.png)
+
+2. Przejście do ustawień aplikacji.
+3. Sygnalizacja trybu połączenia z bramką (lokalnie / tunel).
+4. Mikrofon do komunikacji z asystentem głosowym.
+5. Wskaźnik poziomu dźwięku w mikrofonie - obrazuje to jak asystent nas słyszy.
+6. uruchomienie trybu gestów.
+
 
 Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](/docs/ais_app_index) działającej na bramce. Dostarcza też nam interfejs do API systemu Android oraz konsolę środowiska Linux (zawierającego minimalny system podstawowy wraz z interpreterem języka Python, Node.js oraz Clang).
 
@@ -88,17 +97,115 @@ W ustawieniach możemy ręcznie wybrać parametry aplikacji lub uruchomić ponow
 ### Adres URL lub identyfikator bramki
 Najważniejszy parametr to adres URL lub identyfikator bramki, **należy poprawnie ustawić adres lub identyfikator bramki, by komunikacja z bramką była możliwa.** Jeżeli chcemy łączyć się z naszą bramką będąc poza siecią domową to należy pamiętać o włączeniu [dostępu z Internetu](/docs/ais_bramka_remote_www_index).
 
-### Raportowanie lokalizacji
-Opcja raportowania lokalizacji uruchomi serwis śledzący lokalizację urządzenia
+
+## Funkcjonalność aplikacji
+
+### Aplikacja Asystent domowy
+
+Podstawowa funkcjonalność aplikacji mobilnej to wyświetlanie internetowej aplikacji **Asystent domowy** działającej na bramce, tej samej aplikacji, którą możemy uruchamiać i konfigurować w przeglądarce internetowej [Aplikacja internetowa](/docs/ais_app_index).
+
+![AIS Dom](/img/en/frontend/ais_dom_mob_local_apk.png)
+
+
+
+### Wysyłanie komend głosowych do bramki
+
+Po naciśnięciu przycisku mikrofonu możemy powiedzieć komendę i przesłać ją do wykonania do bramki.
+![AIS Dom](/img/en/frontend/ais_dom_mob_apk_command.png)
+
+
+### Skanowanie tagów NFC
+
+Jeżeli nasz telefon ma wbudowany czytnik kodów NFC, to możemy przesyłać do bramki komendy zapisane w kodach NFC lub identyfikatory zeskanowanych tagów NFC.
+
+#### Komenda w tagu NFC
+
+Zamiast mówić komendę lub wpisywać ją w okienko czatu z Asystentem domowym możemy przyłożyć odblokowany telefon do taga NFC i przesłać do bramki komendę zapisaną tekstowo w tagu NFC.
+
+Do zapisu testku do tagów NFC polecamy darmową aplikację [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=pl).
+Aplikacja ta jest bardzo intuicyjna. Po jej uruchomieniu w pierwszej zakładce możemy odczytać tag NFC i sprawdzić, czy jest odblokowany do zapisu. Jeżeli tag jest zapisywalny, to przechodzimy do zakładki **ZAPIS** i wybieramy opcję **Dodaj pozycję**. Następnie wybieramy pozycję typu **Tekst** i wprowadzamy tekst polecenia/komendy, którą ma być wykonana na bramce, np. ``Włącz radio Eska Rock`` i zatwierdzamy **OK**.
+
+![AIS Dom](/img/en/frontend/nfc_tools_1.png)
+Po zapisie tekstu komendy do naszego taga NFC wychodzimy z aplikacji NFC Tools.
+
+Teraz zeskanowanie tego taga NFC spowoduje przesłanie zapisanej w nim komedy bezpośrednio do naszej bramki.
+![AIS Dom](/img/en/frontend/nfc_ais_1.png)
+
+Co spowoduje uruchomienie akcji powiązanej z komendą
+![AIS Dom](/img/en/frontend/nfc_ais_2.png)
+
+W ten sposób możemy wykonywać dowolne rzeczy na bramce - uruchamiać automatyzację, sceny, sterować urządzeniami, pytać o status czujników, odtwarzać audio itd..
+
+
+#### Skan identyfikatora NFC
+
+Jeżeli w zeskanowanym tagu NFC nie ma rekordu typu text, to wysyłamy do bramki sam identyfikator zeskanowanego taga NFC.
+W ten sposób wyzwalamy na bramce zdarzenie (event) typu **tag_scanned** a w danych tego zdarzenia (w **event_data**) przekazujemy identyfikator taga **tag_id**.
+Ta funkcjonalność pozwala na wykorzystanie tagów NFC, które mamy w domu, do wykonywania automatyzacji na bramce.
+
+Przykład, w jaki sposób można skorzystać z tej funkcjonalności, opisany jest szczegółowo w [Automatyzacja wyzwalana tagiem NFC](ais_bramka_tag_automation).
+
+
+### Sterowanie gestami
+
+Ikona z prawej strony na dolnym pasku aplikacji, pozwala na przełączanie aplikacji w tryb sterowania gestami - by przełączyć w tryb sterowania gestami należy nacisnąć i przytrzymać tę ikonę.
+
+![Sterowanie gestami](/img/en/frontend/remote_gesture_mode.png)
+
+
+#### Definiowanie gestów
+
+Gesty możemy definiować w ustawieniach aplikacji.
+
+Z menu dostępnego w ustawieniach wybieramy opcję "Definiowanie gestów"
+
+![Definiowanie gestów](/img/en/remote/remote_gesture_mode_2.png)
+
+
+Klikamy przysisk "Dodaj" by przejść do definiowania nowego gestu
+
+![Definiowanie gestów](/img/en/remote/remote_gesture_mode_3.png)
+
+
+Rysujemy na ekranie gest i zapisujemy go wraz z komendą
+
+![Definiowanie gestów](/img/en/remote/remote_gesture_mode_4.png)
+
+
+#### Definiowanie gestów
+
+Klikamy na ikonkę po lewej stonie na dole aplikacji, żeby przejść do ustawień aplikacji.
+
+![Ustawienia aplikacji](/img/en/remote/remote_gesture_mode_1.png)
+
+
+Z menu dostępnego w ustawieniach wybieramy opcję "Definiowanie gestów"
+
+![Definiowanie gestów](/img/en/remote/remote_gesture_mode_2.png)
+
+
+Klikamy przysisk "Dodaj" by przejść do definiowania nowego gestu
+
+![Definiowanie gestów](/img/en/remote/remote_gesture_mode_3.png)
+
+
+Rysujemy na ekranie gest i zapisujemy go wraz z komendą
+
+![Definiowanie gestów](/img/en/remote/remote_gesture_mode_4.png)
+
+
+### Synchronizacja z bramką
+
+Opcja raportowania do bramki uruchomi serwis który okresowo będzie przesyłał do bramki lokalizację urządzenia oraz informacje o stanie niektórych czujników w telefonie.
 ![GPS](/img/en/frontend/apk_report_gps.png)
 
-który będzie przesyłał zmiany współrzędnych oraz adresu telefonu bezpośrednio do bramki AIS dom.
+To ile statusów zostało wysłanych do bramki, możemy zobaczyć w powiadomieniu aplikacji.
 ![GPS](/img/en/frontend/apk_report_gps2.png)
 
-Takie dane w powiązaniu z osobą w systemie pozwalają odpowiedzieć na pytanie typu: "Gdzie jest Jolka" oraz na uruchamianie automatyzacji w zależności od lokalizacji osoby - szczegóły w [Automatyzacje - wykrywanie obecności](/docs/ais_bramka_presence_detection)
+Takie dane w powiązaniu z osobą w systemie pozwalają odpowiedzieć na pytanie typu: "Gdzie jest Jolka" oraz na uruchamianie automatyzacji w zależności statusu czujników w telefonie czy też od lokalizacji osoby - szczegóły w [Automatyzacje - wykrywanie obecności](/docs/ais_bramka_presence_detection)
 
 
-## Powiadomienia z bramki
+### Powiadomienia z bramki
 
 Na bramce dostępna jest usługa ``ais_ai_service.mob_notify``, która umożliwia wysłanie z bramki powiadomienia do aplikacji mobilnej **AIS dom**.
 Dzięki temu za pomocą automatyzacji możemy informować o zdarzeniach w naszym domu wybraną aplikację mobilną.
@@ -111,7 +218,7 @@ Przykład, w jaki sposób można skorzystać z tej funkcjonalności, opisany jes
 ![Notify](/img/en/frontend/gallery_notify_4.png)
 
 
-## Komendy wysyłane z bramki do aplikacji mobilnej
+### Komendy wysyłane z bramki do aplikacji mobilnej
 
 Na bramce dostępna jest usługa ``ais_ai_service.mob_request``, która umożliwia wysłanie z bramki komendy (zapytania/żądania) do aplikacji mobilnej **AIS dom**.
 Dzięki temu za pomocą automatyzacji możemy zdalnie z bramki włączyć mikrofon na urządzeniu mobilnym lub zapytać o aktualną lokalizację urządzenia. 
@@ -143,67 +250,24 @@ Można z bramki (do której jesteśmy zalogowani) wysłać komendę do urządzen
 Pokazujemy w powiadomieniu, że taka zdalna komenda jest uruchomiona - żeby było to jasne dla właściciela urządzenia.
 :::
 
-## Sterowanie gestami
 
+## Opis techniczny działania aplikacji
 
-![Pilot do asystenta](/img/en/remote/remote_gesture_mode.png)
-
-
-### Definiowanie gestów
-
-Klikamy na ikonkę po lewej stonie na dole aplikacji, żeby przejść do ustawień aplikacji.
-
-![Ustawienia aplikacji](/img/en/remote/remote_gesture_mode_1.png)
-
-
-Z menu dostępnego w ustawieniach wybieramy opcję "Definiowanie gestów"
-
-![Definiowanie gestów](/img/en/remote/remote_gesture_mode_2.png)
-
-
-Klikamy przysisk "Dodaj" by przejść do definiowania nowego gestu
-
-![Definiowanie gestów](/img/en/remote/remote_gesture_mode_3.png)
-
-
-Rysujemy na ekranie gest i zapisujemy go wraz z komendą
-
-![Definiowanie gestów](/img/en/remote/remote_gesture_mode_4.png)
-
-
-### Przełączenie w tryb sterowania gestami
-
-Ikona na dolnym pasku aplikacji, umieszczona pomiędzy przejściem do ustawień a mikrofonem obrazuje tryb sterowania w aplikacji, by przełączyć w tryb sterowania gestami możemy kliknąć w tą ikonę w aplikacji mobilnej lub zmienić tryb pilotem radiowym [Zmiana trybu sterowania](/docs/ais_remote_modes).
-
-![Przełączenie w tryb sterowania gestami](/img/en/remote/remote_gesture_mode_5.png)
-
-
-### Wydawanie komendy za pomocą gestu
-
-Teraz możemy wykonać zdefinowany gest, co spowoduje wysłanie do asystenta zdefiniowanej komedny w celu jej wykonania
-
-![Wykonanie gestu](/img/en/remote/remote_gesture_mode_6.png)
-
-
-## Działanie aplikacji
-
-Podstawowa funkcjonalność to wyświetlanie internetowej aplikacji **Asystent domowy** działającej na bramce, tej samej aplikacji, którą możemy uruchamiać i konfigurować w przeglądarce internetowej [Aplikacja internetowa](/docs/ais_app_index).
+Podstawowa funkcjonalność to wyświetlanie internetowej aplikacji **Asystent domowy** działającej na bramce, tej samej aplikacji, którą możemy uruchamiać i konfigurować w przeglądarce internetowej [Aplikacja internetowa](/docs/ais_app_index). Aplikacja wyświetlana jest w komponencie [WebView](https://developer.android.com/reference/android/webkit/WebView) systemu Andorid, komponent ten umożliwia wyświetlanie treści aplikacji webowej jako aktywności w aplikacji. W Android od wersji 7.1.2 komponent WebView może używać tego samego silnika co przeglądarka Chrome, co umożliwia bardzo responsywne działanie aplikacji.
 
 Dodatkowo na dolnej belce w aplikacji mamy następujące przyciski:
 
 * przejście do ustawień aplikacji
 
-* sygnalizacja działania w trybie połączenia lokalnego
+* sygnalizacja trybu połączenia z bramką (lokalnie / tunel)
 
-* sygnalizacja działania w trybie połączenia przez tunel
-
-* mikrofon do komunikacji z asystentem głosowym
+* mikrofon do komunikacji z asystentem głosowym. Mikrofon używa wbudowanego w system Android mechanizmu [SpeechRecognizer](https://developer.android.com/reference/android/speech/SpeechRecognizer)
 
 * uruchomienie trybu gestów
 
 
 
-![AIS Dom](/img/en/frontend/ais_dom_mob_local_apk.webp)
+![AIS Dom](/img/en/frontend/ais_dom_mob_local_apk.png)
 
 
 ### Połączenie z bramką

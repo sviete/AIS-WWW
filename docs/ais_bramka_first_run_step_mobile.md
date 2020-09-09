@@ -28,4 +28,4 @@ Możesz też zainstalować naszą aplikację na zegarek
 
 ![Aplikacja mobilna](/img/en/frontend/ais_dom_wizard_10_wear_apk.png)
 
-Proces parowania z bramką opisany jest tu [Aplikacja Andoird AIS dom Wear](/docs/ais_app_android_dom_wear)
+Proces parowania z bramką opisany jest tu [Aplikacja Andoird AIS dom Wear](ais_app_android_dom_wear)

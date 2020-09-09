@@ -6,12 +6,13 @@ sidebar_label: AIS dom Wear
 
 ## Wprowadzenie
 
-To nasza aplikacja, która działa w systemie Wear OS.
-
-<img src="/img/en/frontend/ais_dom_wizard_10_wear_apk.png" alt="AIS Dom" width="60%"/>
+AIS dom Wear OS to niezależna (niewymagająca aplikacji mobilnej) aplikacja, która działa na urządzeniach z systemem Wear OS.
 
 
-## Instalacja
+![Wear OS](/img/en/blog/202009/wear_os_1.jpeg)
+
+
+## Instalacja na zegarku
 
 Aplikacja dostępna jest za darmo (bez reklam, mikropłatności itp) w sklepie [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom) pod nazwą AIS dom.
 
@@ -20,46 +21,64 @@ Podpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](ht
 
 
 
-## Połączenie z bramką
-
-Po pierwszym uruchomieniu aplikacji pojawi się informacja, że należy skonfigurować połączenie z bramką.
+## Integracja z bramką
 
 
-<img src="/img/en/frontend/ais_dom_wizard_0_wear_apk.png" alt="AIS Dom" width="60%"/>
+### Kreator integracji na bramce
 
-Najłatwiej wykonać konfigurację z bramką za pomocą jednorazowego kodu PIN.
-
-### Włączenie uwierzytelnienia kodem PIN w aplikacji
-
-W aplikacji Asystent domowy przejdź do **Konfiguracja** a następnie wybierz **Ustawienia bramki AIS dom**
-
-![Automatyzacje](/img/en/frontend/ais_dom_wizard_2_wear_apk.png)
-
-następnie wybierz opcję **Zdalny dostęp**
-
-![Automatyzacje](/img/en/frontend/ais_dom_wizard_3_wear_apk.png)
-
-w sekcji **Szyfrowany tunel** wybierz **GENERUJ KOD PIN**
-
-![Automatyzacje](/img/en/frontend/ais_dom_wizard_4_wear_apk.png)
-
-kod, który się pojawi, przepisz w aplikacji Wear (masz na to 2 minuty)
-
-![Automatyzacje](/img/en/frontend/ais_dom_wizard_5_wear_apk.png)
+Integracje rozpoczynamy na bramce uruchamiająć kratora integracji.
 
 
-<img src="/img/en/frontend/ais_dom_wizard_6_wear_apk.png" alt="AIS Dom" width="60%"/>
+![Wear OS](/img/en/frontend/wear_os_wiz_1.png)
 
-Po zatwierdzeniu kodu pojawi się informacja o identyfikatorze bramki, do której nastąpiło połączenie:
+Następnie przechodzimy krok po kroku prosty konfigurator integracji:
 
-<img src="/img/en/frontend/ais_dom_wizard_7_wear_apk.png" alt="AIS Dom" width="60%"/>
+![Wear OS](/img/en/frontend/wear_os_wiz_2.png)
 
-### Używanie aplikacji
+![Wear OS](/img/en/frontend/wear_os_wiz_3.png)
+
+![Wear OS](/img/en/frontend/wear_os_wiz_4.png)
+
+![Wear OS](/img/en/frontend/wear_os_wiz_5.png)
+
+### Wpisanie kodu PIN w aplikacji na zegarku
+
+
+Po pierwszym uruchomieniu aplikacji na zegarku należy podać jednorazowego kod PIN wygenerowany podczas dodawania integracji na bramce.
+
+![Wear OS](/img/en/frontend/wear_os_wiz_6.png)
+
+:::caution Uwaga
+Kod PIN jest ważny tylko 2 minuty. Jeśli przegapiłeś to okno czasowe i nie wpisałeś kodu PIN na zegarku, to wykonaj integrację **AIS Wear OS** ponownie.
+:::
+
+
+Po wpisaniu i zatwierdzeniu kodu na zegarku
+
+![Wear OS](/img/en/frontend/wear_os_wiz_7.png)
+
+pojawi się informacja o identyfikatorze bramki, do której nastąpiło połączenie i nastąpi przekierowanie na ekran główny aplikacji
+
+![Wear OS](/img/en/frontend/wear_os_wiz_8.png)
+
+## Używanie aplikacji
+
+### Komendy głosowe
 
 Po pierwszym naciśnięciu mikrofonu pojawi się pytanie o dostęp do mikrofonu
 
-<img src="/img/en/frontend/ais_dom_wizard_8_wear_apk.png" alt="AIS Dom" width="60%"/>
+![Wear OS](/img/en/frontend/wear_os_wiz_10.png)
 
-Gdy pozwolimy na dostęp, to możemy wysyłać komendy głosowe do bramki AIS dom.
+Gdy pozwolimy na dostęp, to możemy wysyłać komendy głosowe do swojej bramki AIS dom.
 
-<img src="/img/en/frontend/ais_dom_wizard_9_wear_apk.png" alt="AIS Dom" width="60%"/>
+### Synchronizacja z bramką
+
+Możemy włączyć synchronizację z bramką, w ten sposób zezwalamy na wysyłanie do aplikacji na zegarku zapytań z bramki. Działa to w podobny sposób jak [Komendy wysyłane z bramki do aplikacji mobilnej](ais_app_android_dom)
+
+![Wear OS](/img/en/frontend/wear_os_wiz_11.png)
+
+:::info Informacja
+Docelowo będziemy okresowo wysyłać z zegarka do bramki raporty (tętno, aktywność ...) podobnie jak [z aplikacji mobilnej](ais_app_android_dom#raportowanie-do-bramki).
+:::
+
+
