@@ -83,7 +83,7 @@ Podobną funkcjonalność szykujemy na [Wear OS](/docs/ais_app_android_dom_wear#
 
 ## ![](/img/en/blog/202009/fixes.png) Poprawki i ułatwienia
 
-Klika poparwek które dodaliśmy i które da się zauważyć:
+Klika poparwek, które dodaliśmy i które da się zauważyć:
 
 1. Gdzie jest Jolka, ciąg dalszy...
 
@@ -99,7 +99,7 @@ Pytanie ``Gdzie jest Osoba`` działa teraz tak:
 - jeżeli osoba jest poza strefą dom, to sprawdzamy ostatni zaraportowany adres (z ostatniego urządzenia które zaraportowało) i go mówimy:
 ![FIX](/img/en/blog/202009/fix_3.png)
 
-2. Możliwość podania adresu na który chcemy przejść po kliknięciu w powiadomienie push
+2. Możliwość podania adresu, na który chcemy przejść po kliknięciu w powiadomienie push
 
 Nowy parametr nazywa się ``click_action``
 
@@ -131,9 +131,9 @@ Aż dziwne, że to wcześniej nie działało ;)
 
 ## ![](/img/en/blog/202009/demo.png) DEMO Aplikacji 
 
-Nasze demo udostępniliśmy początkowo na serwerze w chmurze. Założenie od początku było takie, żeby pokazać nie prezentacje, ale prawdziwą aplikację, która działa z prawdziwymi urządzeniami (przełącznikami, światłami, roletami, kamerami...).
+Nasze demo udostępniliśmy początkowo na serwerze w chmurze. Założenie od początku było takie, żeby pokazać nie prezentację, ale prawdziwą aplikację, która działa z prawdziwymi urządzeniami (przełącznikami, światłami, roletami, kamerami...).
 
-Zaczęliśmy przekierowywać porty, stawiać brokery i podłączać urządzenia do chmury... i tu się pojawiły schody, bo nasze urządzenia działają oczywiście lokalnie, sterowanie ich przez chmurę, wymagało dodatkowej konfiguracji... postawiliśmy broker mqtt w chmurze i to działa OK. Niestety w przypadku kamer, głośników cast oraz zigbee2mqtt nie jest tak łatwo... sprawę głównie komplikuje nasz biurowy internet z Orange i ich Fun Box2, który sam sobie zmienia porty i wszystko psuje.
+Zaczęliśmy przekierowywać porty, stawiać brokery i podłączać urządzenia do chmury... i tu się pojawiły schody, bo nasze urządzenia działają oczywiście lokalnie, sterowanie nimi przez chmurę wymagało dodatkowej konfiguracji... postawiliśmy broker mqtt w chmurze i to działa OK. Niestety w przypadku kamer, głośników cast oraz zigbee2mqtt nie jest tak łatwo... sprawę głównie komplikuje nasz biurowy internet z Orange i ich Fun Box2, który sam sobie zmienia porty i wszystko psuje.
 
 Ostatecznie zrozumieliśmy, że nie ma co walczyć z wiatrakami, mamy przecież lepsze rozwiązanie (szyfrowany tunel do bramki) i demo będzie działało na takiej samej zasadzie jak każda bramka dom, a dokładnie ``dom-demo``.
 
@@ -152,13 +152,13 @@ ESP32 V162 działa bardzo fajnie z Asystentem domowym (dodajemy do dom-demo), br
 
 ![](/img/en/blog/202009/tasmo_cam.jpg)
 
-Jest też kompilacja do bramki ESP32-BLE, monitorujemy nim kwiatka w biurze ;) 
+Jest też kompilacja do bramki ESP32-BLE, monitorujemy nim roślinkę w biurze ;) 
 
 ![](/img/en/blog/202009/ble.png)
 
 ![](/img/en/blog/202009/ble2.png)
 
-Rozwiązanie będzie oczywiście opublikowane na forum z instrukcją, dla tych, co lubią woń kalafonii z lutownicy o poranku ;)
+Rozwiązanie będzie oczywiście opublikowane na forum z instrukcją dla tych, co lubią woń kalafonii z lutownicy o poranku ;)
 
 
 ## ![](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.14.4
