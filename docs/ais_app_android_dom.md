@@ -122,8 +122,8 @@ Jeżeli nasz telefon ma wbudowany czytnik kodów NFC, to możemy przesyłać do 
 
 Zamiast mówić komendę lub wpisywać ją w okienko czatu z Asystentem domowym możemy przyłożyć odblokowany telefon do taga NFC i przesłać do bramki komendę zapisaną tekstowo w tagu NFC.
 
-Do zapisu testku do tagów NFC polecamy darmową aplikację [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=pl).
-Aplikacja ta jest bardzo intuicyjna. Po jej uruchomieniu w pierwszej zakładce możemy odczytać tag NFC i sprawdzić, czy jest odblokowany do zapisu. Jeżeli tag jest zapisywalny, to przechodzimy do zakładki **ZAPIS** i wybieramy opcję **Dodaj pozycję**. Następnie wybieramy pozycję typu **Tekst** i wprowadzamy tekst polecenia/komendy, którą ma być wykonana na bramce, np. ``Włącz radio Eska Rock`` i zatwierdzamy **OK**.
+Do zapisu tekstu do tagów NFC polecamy darmową aplikację [NFC Tools](https://play.google.com/store/apps/details?id=com.wakdev.wdnfc&hl=pl).
+Aplikacja ta jest bardzo intuicyjna. Po jej uruchomieniu w pierwszej zakładce możemy odczytać tag NFC i sprawdzić, czy jest odblokowany do zapisu. Jeżeli tag jest zapisywalny, to przechodzimy do zakładki **ZAPIS** i wybieramy opcję **Dodaj pozycję**. Następnie wybieramy pozycję typu **Tekst** i wprowadzamy tekst polecenia/komendy, która ma być wykonana na bramce, np. ``Włącz radio Eska Rock`` i zatwierdzamy **OK**.
 
 ![AIS Dom](/img/en/frontend/nfc_tools_1.png)
 Po zapisie tekstu komendy do naszego taga NFC wychodzimy z aplikacji NFC Tools.
