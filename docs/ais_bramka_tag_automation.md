@@ -12,7 +12,7 @@ Funkcjonalność skanowania tagów NFC wbudowana jest w naszą mobilną aplikac
 Po zeskanowaniu taga NFC wyzwalamy na bramce zdarzenie **tag_scanned** a w danych tego zdarzenia (w **event_data**) przekazujemy identyfikator taga **tag_id**.
 Pozwala to na dodanie automatyzacji, której wyzwalaczem jest zdarzenie skanowanie taga NFC.
 
-Poniżej opiszemy dwa przykłady wykożystania tego mechanizmu.
+Poniżej opiszemy dwa przykłady wykorzystania tego mechanizmu.
 
 
 ## Przykład 1. - Informacja głosowa o zeskanowanym identyfikatorze
