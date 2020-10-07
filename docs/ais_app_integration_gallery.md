@@ -21,23 +21,33 @@ Zdjęcia można dodawać po wybraniu przycisku plus na stronie z galerią. Zdję
 
 ![Galeria](/img/en/frontend/gallery_2.png)
 
+![Galeria](/img/en/frontend/gallery_2.1.png)
+
 
 ## Wyświetlanie zdjęć na karcie
 
-Zdjęcia dodane do galerii przechowywane są na urządzeniu w lokalizacji dostępnej z aplikacji pod adresem **/local/img/<nazwa_zdjęcia>**
+Zdjęcia dodane do galerii przechowywane są na urządzeniu.
 
+:::tip Wskazówka
+Zmieniać wygląd aplikacji(dodawać karty) może tylko użytkownik z uprawnieniami administratora.
+:::
 
 Żeby zastosować wybrane zdjęcie jako okładkę do karty w aplikacji, wystarczy:
-- skopiować jego adres lokalny z galerii,
+
+- przejść do galerii i wybrać zdjęcie:
+![Galeria](/img/en/frontend/gallery_3.1.png)
+
+- wybrać opcję "DODAJ DO INTERFEJSU UŻYTKOWNIKA"
 ![Galeria](/img/en/frontend/gallery_3.png)
 
-- w wybranym widoku utworzyć kartę typu **Obraz**
+- wybrać widok
 ![Galeria](/img/en/frontend/gallery_4.png)
 
-- w parametrach karty podać pozycję, która ma reprezentować obraz oraz (1.) adres obrazu w galerii (2.). Dodatkowo można wybrać co ma się dziać po naciśnięciu obrazu - np. przełączenie (3.)
+- wybrać opcję "DODAJ DO INTERFEJSU UŻYTKOWNIKA"
 ![Galeria](/img/en/frontend/gallery_5.png)
 
-W efekcie otrzymamy kartę, która będzie nam pokazywała stan naszego urządzenia. Klikając kartę, możemy sterować urządzeniem (przełączać).
+W efekcie otrzymamy kartę z wbyranym tłem.
+Kartę tą możemy konfigurować tak żeby pokazywała stan naszego urządzenia. Klikając kartę, możemy sterować wybranym urządzeniem (np. włączać podlewanie trawnika).
 ![Galeria](/img/en/frontend/gallery_6.png)
 
 Więcej o konfiguracji interfejsu użytkownika jest w sekcji [Konfiguracja interfejsu użytkownika](/docs/ais_app_ui_config)
@@ -83,16 +93,10 @@ Jeżeli chcemy zapisać nagranie w galerii, to należy podać pełną ścieżkę
 
 ![Galeria](/img/en/frontend/gallery_8.png)
 
-Żeby odświeżyć galerię (nie czekając, aż zrobi to system) wywołujemy jeszcze usługę, **ais_files.refresh_files**
-
-![Galeria](/img/en/frontend/gallery_9.png)
-
-Teraz możemy już przejść do galerii i zobaczyć nasze nagranie z kamery.
-
-![Galeria](/img/en/frontend/gallery_10.png)
-
 
 
 ## Dodanie interaktywnego rzutu pomieszczenia
 
-> Opis w przygotowaniu
+> Opis i funkcjonalność w przygotowaniu
+
+![Galeria](/img/en/frontend/gallery_9.png)

@@ -56,6 +56,7 @@ Jeżeli ktoś nadal ma nasz domyślny widok w aplikacji to po aktualizacji będz
 ![](/img/en/blog/202010/pogoda2.png)
 
 i usunąć “osierocone encje”:
+
 ![](/img/en/blog/202010/pogoda3.png)
 
 Nowy “fabryczny wygląda aplikacji” będzie teraz taki:
@@ -71,34 +72,76 @@ Tworzenie ładnego interfejsu jest teraz jeszcze prostsze z ulepszoną galerią 
 ## ![AIS Media](/img/en/blog/202010/folders.png) Biblioteka multimediów
 
 
-TODO
+W tej wersji dodaliśmy możliwość przeglądania biblioteki multimediów oraz wysyłania ich (Cast'owanie) do wybranego odtwarzacza.
+
+![AIS Galeria](/img/en/blog/202010/media_browser.png)
+
+> Asystent domowy jest jedynie kontrolerem, który wysyła link do mediów. Same media odtwarzane są bezpośrednio przez docelowy odtwarzacz (ten do którego wysłaliśmy link).
+Jeżeli odtwarzacz, do którego wysyłamy link do mediów, nie ma wbudowanej obsługi Spotify czy nie jest w stanie odtwarzać wideo, to przesłana do niego treść nie zadziała.
+**Oczywiście media, które przeglądamy w bibliotece, możemy odtwarzać na wbudowanym odtwarzaczu, na bramce i możemy przesyłać na inne bramki (docelowo głośniki).**
+
+
+Dodatkowo można odtwarzać multimedia bezpośrednio w przeglądarce.
+
+![AIS Galeria](/img/en/blog/202010/play_in_browser.png)
+
 
 
 ## ![AIS Galeria](/img/en/blog/202010/gallery.png) Galeria
 
-W dokumentacji naszgo komponentu galeria, opisujemy jej nowe funkcjonalności - w tym możliwość dodawania i przycinania zdjęć pomieszczeń bezpośrednio z telefonu.
+W dokumentacji naszgo komponentu [galeria](/docs/ais_app_integration_gallery), opisujemy jej nowe funkcjonalności - w tym możliwość dodawania i przycinania zdjęć pomieszczeń bezpośrednio z telefonu :)
+
+![AIS Galeria](/img/en/blog/202010/img1.png)
+
 
 Jak to działa prezentujemy na filmie poniżej:
-<iframe width="560" height="315"  src="" frameBorder="0" allowFullScreen></iframe>
+<iframe width="560" height="315"  src="https://www.youtube.com/embed/iIJcAOnQ6HI" frameBorder="0" allowFullScreen></iframe>
 
 
+## ![Zgłoszenia audio](/img/en/blog/202010/ai.png) Wyszukiwanie lepszego źródła audio
 
-## ![Zgłoszenia audio](/img/en/blog/202010/ai.png) Wyszukiwanie źródła audio
+Jeżeli jest problem z odtwarzaniem jakiegoś radia, to możesz automatycznie sprawdzić, czy jest dostępne bardziej aktualne źródło:
+![AIS Galeria](/img/en/blog/202010/audio_report_1.png)
 
-TODO
+Jeżeli automatyczne sprawdzenie nie pomoże, to będzie można wysłać informację o tym problemie do AI-Speaker.
+
+![AIS Galeria](/img/en/blog/202010/audio_report_2.png)
+
+Gdy otrzymamy zgłosznie to postaramy się jak najszybciej naprawić ten problem.
+Jeżeli zarejstrowałeś się w serwisi integratora to zostaniesz poinformowany o rozwiązaniu zgłosznia - prześlemy Ci wiadomość na podanyn w panelu integratora adres email/login.
 
 
 ## ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.5.0
 
-zigbee2mqtt rozwija się w rekordowym tempie.
+Aktualizacja zigbee to już nie tylko nowe urządzenia Nowy interfejs do Zigbee2Mqtt, już 1015 :)
+![AIS Galeria](/img/en/blog/202010/zigbee1.png)
 
+Ale też nowa aplikacja całkowicie zintegrowana z Asystentem domowym:
+![AIS Galeria](/img/en/blog/202010/zigbee2.png)
 
-TODO
+![AIS Galeria](/img/en/blog/202010/zigbee3.png)
 
+![AIS Galeria](/img/en/blog/202010/zigbee4.png)
+
+Oczywiście są to bardzo świeże funkcjonalności i nie wszystko jeszcze działa tak jakbyśmy chcieli, ale potencjał jest spory i jeszcze kilka aktualizacji i będziemy to mieli doszlifowane ;)
+**Zostawiamy jeszcze dotychczasowy interfejs do konfiguracji zigbee ale w kolejnej wersji przejdziemy już tylko na ten nowy.**
+Gdy ktoś miał problem z działaniem czy zrozumieniem nowego interfesju to na stronie projektu [Zigbee2Mqtt](https://github.com/koenkk/zigbee2mqtt) można zgłszać problemy i pomysły na usprawnienie działania.
+Dziennik zmian w wersji 1.5.0 dostępny na stronie projektu [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.15.0)
 
 ## ![](/img/en/blog/202005/tasmota_small.png) Tasmota 8.5.1 Hannah
 
-TODO
+Udostepniliśmy też najnowszą kompilację Tasmota z numerem 8.5.1
+
+![Tasmota](/img/en/blog/202010/tasmota1.png)
+
+Są to kompilacje, które używamy w urządzeniach przez nas sprzedawanych. **Każdy zaawansowany użytkownik może z nich korzystać za darmo** i wgrywać do swoich urządzeń.
+Do wyboru mamy ponad [1600 urządzeń](https://templates.blakadder.com/index.html):
+
+![Tasmota](/img/en/blog/202010/tasmota2.png)
+
+Na forum tłumaczymy jak to zrobić, na przykładzie [zaworu do podlewania](https://ai-speaker.discourse.group/t/ponad-1540-urzadzen-wifi-co-to-znaczy/707)
+
+Dziennik zmian w wersji 8.5.1 jest dostępny na stronie projektu [Tasmota](https://github.com/arendst/Tasmota/releases/tag/v8.5.1)
 
 
 
@@ -107,7 +150,9 @@ TODO
 
 Najnowszy (stabilny) [Home Assistant 0.115.6](https://www.home-assistant.io/blog/2020/09/17/release-115/)
 
-Wydanie urodzione podstawy naszego systemu :) Kartka z życzeniemi dostarczona ![](/img/en/blog/202010/love-letter.png)
+Wydanie urodzione podstawy naszego systemu :)
+
+Kartka z życzeniemi wysłana ![](/img/en/blog/202010/love-letter.png) i dostarczona:
 
 ![Home Assistant](/img/en/blog/202010/kartka.png)
 
