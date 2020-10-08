@@ -113,7 +113,7 @@ Jeżeli zarejstrowałeś się w serwisie integratora, to zostaniesz poinformowa
 
 ## ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.5.0
 
-Aktualizacja zigbee to już nie tylko nowe urządzenia i nowy interfejs do Zigbee2Mqtt (a wspieranych urządzeń jest już 1015) :)
+Aktualizacja zigbee to już nie tylko nowe urządzenia (a wspieranych urządzeń jest już 1015) :)
 ![AIS Galeria](/img/en/blog/202010/zigbee1.png)
 
 Ale też nowa aplikacja, całkowicie zintegrowana z Asystentem domowym:
