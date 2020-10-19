@@ -197,6 +197,7 @@ module.exports = {
           editUrl:
             'https://github.com/sviete/AIS-WWW/edit/master/',
           postsPerPage: 10,
+          blogSidebarTitle:  'Najnowsze posty',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
