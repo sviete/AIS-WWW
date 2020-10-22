@@ -155,7 +155,8 @@ module.exports = {
     "ais_remote_faq_index"
   ],
   "Zigbee USB CC2531": [
-    "ais_zigbee_index"
+    "ais_zigbee_index",
+    "ais_zigbee_add_to_gate"
   ],
   "Zarządzanie urządzeniami AIS dom z bramki": [
     "ais_iot_gate",

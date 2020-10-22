@@ -3,14 +3,24 @@ title: "Zigbee USB CC2531"
 sidebar_label: Wprowadzenie
 ---
 
-## Opis 
 
-Zigbee USB CC2531 daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [Zigbee2MQTT](https://www.zigbee2mqtt.io/).
+Nasze urządzenie Zigbee USB CC2531 daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. 
+Oprogramowanie na urządzeniu to firmowe oprogramowanie Texas instrument. Komunikacja pomiędzy Asystentem domowym a urządeniem realizowana jest za pomocą oprogramowania [Zigbee2MQTT](https://www.zigbee2mqtt.io/).
 
-![CC2531](/img/en/iot/CC2531_Zigbee2MQTT_USB.jpg)
+![CC2531](/img/en/iot/zigbee_cc2531_0.jpg)
+
+![CC2531](/img/en/iot/zigbee_cc2531_1.jpg)
 
 
- ## Dostępność i cena
+
+## Wysokiej jakości komponenty przemysłowe
+
+![CC2531](/img/en/iot/zigbee_cc2531_2.jpg)
+
+
+##
+
+## Dostępność i cena
 
 :::info SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ
 Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową AIS dom.

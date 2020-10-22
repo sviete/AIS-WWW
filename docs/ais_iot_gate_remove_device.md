@@ -13,6 +13,11 @@ Urządzenia AIS dom są automatycznie wykrywane przez bramkę (za pomocą mechan
 
 ## 2. Usunięcie urządzenia z systemu Asystent domowy
 
-W aplikacji Asystent domowy przejdź do [Konfiguracja Urządzeń AIS dom](/docs/ais_iot_gate#dostęp-do-urządzeń-ais-dom-z-aplikacji), następnie w tabeli urządzeń kliknij urządzenie, które chcesz usunąć, aby przejść do widoku [Konfiguracji urządzenia](/docs/ais_iot_gate#konfiguracja-urządzenia). Aby usunąć urządzenie, kliknij ikonkę po prawej stronie na górze, a następnie potwierdź operację usuwania.
+W aplikacji Asystent domowy przejdź do [Konfiguracja Urządzeń AIS dom](/docs/ais_iot_gate#dostęp-do-urządzeń-ais-dom-z-aplikacji), następnie w tabeli urządzeń kliknij urządzenie, które chcesz usunąć, aby przejść do widoku [Konfiguracji urządzenia](/docs/ais_iot_gate#konfiguracja-urządzenia). 
 
-![Usunięcie urządzenia z bramki](/img/en/frontend/remove_ais_dom_device.png)
+
+![Menu Konfiguracja urządzeń AIS dom](/img/en/iot/iot_ais_dom_devices_menu.png)
+
+Aby usunąć urządzenie, kliknij przycisk "USUŃ" dostępny w karcie z infrmacjami o urządzeniu, a następnie potwierdź operację usuwania.
+
+![Usunięcie urządzenia z bramki](/img/en/iot/remove_ais_dom_device.png)

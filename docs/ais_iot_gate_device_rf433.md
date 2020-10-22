@@ -5,7 +5,7 @@ sidebar_label: Bramka RF 433
 
 ## Wprowadzenie
 
-Żeby umożliwić połączenie pilotów (do bram, rolet), przełączników, czujników i itp. urządzeń komunikujących się za pomocą transmisji radiowej 433 MHz z bramką AIS dom, potrzebujemy dodatkowego urządzenia umożliwiającego wysyłanie i odbieranie kodów RF 433. Polecamy do tego celu urządzenie Sonoff RF Bridge 433 z alternatywnym oprogramowaniem umożliwiającym łatwą integrację z bramką AIS dom (MQTT) oraz obsługującym większą ilość protokołów (oryginalny Sonoff obsługuje tylko jeden protokół z 24 bitami).
+Żeby umożliwić połączenie pilotów (do bram, rolet), przełączników, czujników i itp. urządzeń komunikujących się za pomocą transmisji radiowej 433 MHz z bramką AIS dom, potrzebujemy dodatkowego urządzenia umożliwiającego wysyłanie i odbieranie kodów RF 433. Polecamy do tego celu urządzenie Sonoff RF Bridge 433 z alternatywnym oprogramowaniem umożliwiającym łatwą integrację z bramką AIS dom (MQTT), oraz obsługującym większą ilość protokołów (oryginalny Sonoff obsługuje tylko jeden protokół z 24 bitami) oraz umożliwiającą odbierania RF w trakcie nadawania (co jest szczególnie ważne w przypadku takich urządzeń jak czujniki zalania czy dymu).
 
 ## Zasada działania
 
@@ -19,9 +19,8 @@ Można też wykonać automatyzację typu otwarcie bramy i włączenie światła 
 
 W celu umożliwienia bramce Sonoff RF Bridge 433 komunikacji za pomocą protokołu MQTT z bramką AIS dom, potrzebujemy zastosować nasze [alternatywne darmowe oprogramowanie dla urządzeń automatyki domowej](/docs/ais_iot_firmware_index). Najnowszą kompilację można pobrać z naszej strony [OTA](https://www.ai-speaker.com/ota/). W przypadku bramki RF poza oprogramowaniem do układu ESP 8266 RF-Bridge_firmware będziemy jeszcze potrzebowali oprogramowania do układu EFM8BB1 (RF-Bridge-EFM8BB1) - dzięki temu nasza bramka RF będzie obsługiwać większą ilość protokołów niż z oryginalnym oprogramowaniem Sonoff. Szczegóły dotyczące oprogramowania EFM8BB1 dostępne są na stronie wiki projektu [Portisch](https://github.com/Portisch/RF-Bridge-EFM8BB1/wiki).
 
-![RF 433](/img/en/iot/iot_ais_dom_device_rf433_firmware.png)
 
-Szczegółowy opis wgrywania oprogramowania do bramki Sonoff RF 433 dostępny jest na stronie projektu [Tasmota](https://github.com/arendst/Tasmota/wiki/Sonoff-RF-Bridge-433).
+Szczegółowy opis wgrywania oprogramowania do bramki Sonoff RF 433 dostępny jest w dokumentacji projektu [Tasmota](https://tasmota.github.io/docs/devices/Sonoff-RF-Bridge-433/).
 
 
 ## Integracja bramki RF z bramką AIS dom
@@ -62,9 +61,6 @@ Po dodaniu przycisk z podaną nazwą pojawi się w encjach urządzenia Bramka RF
 
 ![RF 433](/img/en/iot/iot_ais_dom_device_rf433_learn_step_4.png)
 
-oraz w grupie wszystkie przełączniki:
-
-![RF 433](/img/en/iot/iot_ais_dom_device_rf433_learn_step_6.png)
 
 
 ### Wysyłanie kodu RF poleceniem głosowym

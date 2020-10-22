@@ -1,0 +1,18 @@
+---
+title: "Zigbee AIS dom"
+sidebar_label: Dodanie zigbee do bramki AIS dom
+---
+
+Zigbee2MQTT jest zainstalowane "fabrycznie" na bramkach AIS dom. Żeby dodać obsługę zigbee, wystarczy włożyć nasze urządzenie CC2531 do portu USB i automatycznie zostanie uruchomiony serwis odpowiedzialny za komunikacje z CC2531.
+
+Po przejściu do konfiguracji zigbee
+
+
+![CC2531](/img/en/frontend/ais_zigbee_menu.png)
+
+ Można dodawać do bramki urządzeń zigbee oraz wyświetlać mapę podłączonych urządzeń
+
+![CC2531](/img/en/frontend/ais_zigbee_web_app1.png)
+
+
+![CC2531](/img/en/frontend/ais_zigbee_web_app2.png)

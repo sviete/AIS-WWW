@@ -13,24 +13,41 @@ Ustawienia Twoich urządzeń z oprogramowaniem AIS dom dostępne są po wybraniu
 
 ### Producent AI-Speaker
 
-W tabeli z urządzeniami AIS dom wyświetlamy wszystkie urządzenia działające na naszym [darmowym oprogramowaniu].(/docs/ais_iot_firmware_index) Producentem jest **AI-Speaker**.
+W tabeli z urządzeniami AIS dom wyświetlamy wszystkie urządzenia działające na naszym [darmowym oprogramowaniu](/docs/ais_iot_firmware_index) Producentem jest **AI-Speaker**.
 
 
 ![Tabela z urządzeniami AIS dom](/img/en/iot/iot_ais_dom_devices_table.png)
 
 
-### Konfiguracja urządzenia
 
-Po wybraniu urządzenia możemy je konfigurować. Dostępne opcje zależą od typu urządzenia, w przypadku Bramki RF 433, na tej stronie możemy nauczyć Asystenta kodów pilota radiowego (lub innego urządzenia wysyłającego kody radiowe o częstotliwości 433) i łatwo dodać przyciski wysyłające nauczone kody do aplikacji. Więcej w sekcji [Bramka RF 433](/docs/ais_iot_gate_device_rf433).
+### Menu urządznia
+
+Po wybraniu urządzenia przechodzimy do widoku w którym mamy dostępne wszystkie informacje o urządzeniu, jego encje, dostęp do menu na urządzeniu oraz możliwość dodania automatyzacji, scen oraz skryptów powiązanych z urządzeniem.
+
+![RF 433](/img/en/iot/iot_ais_dom_device_config_0.png)
+
+
+Dostępne opcje konfiguracji zależą od tupu urządzenia, w przypadku Bramki RF 433, na tej stronie możemy nauczyć Asystenta kodów pilota radiowego (lub innego urządzenia wysyłającego kody radiowe o częstotliwości 433) i łatwo dodać przyciski wysyłające nauczone kody do aplikacji. Więcej w sekcji [Bramka RF 433](/docs/ais_iot_gate_device_rf433).
 
 
 ![RF 433](/img/en/iot/iot_ais_dom_device_config.png)
 
 
+Z tego miejsca możemy też przejść do wszystkich opcji konfiguracji dostępnych na urządzeniu
+
+![RF 433](/img/en/iot/iot_ais_dom_device_config1.png)
+
+
+oraz do konsoli urządzenia
+
+![RF 433](/img/en/iot/iot_ais_dom_device_config2.png)
+
+
+
 
 ## Możliwości urządzenia po dodaniu do bramki
 
-Po dodaniu do bramki można:
+Po dodaniu urządzenia do bramki AIS dom, można:
 
 - sterować urządzeniem głosowo:
 wystarczy nazwać urządzenie np. "światło w sypialni" lub "podlewanie trawnika" a następnie powiedzieć "włącz światło w sypialni" lub "włącz podlewanie trawnika". Więcej w sekcji [Wbudowane komendy](/docs/ais_app_assistent_commands).
