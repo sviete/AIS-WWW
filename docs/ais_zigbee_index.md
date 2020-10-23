@@ -5,7 +5,7 @@ sidebar_label: Wprowadzenie
 
 
 Nasze urządzenie Zigbee USB CC2531 daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. 
-Oprogramowanie na urządzeniu to firmowe oprogramowanie Texas instrument. Komunikacja pomiędzy Asystentem domowym a urządeniem realizowana jest za pomocą oprogramowania [Zigbee2MQTT](https://www.zigbee2mqtt.io/).
+Oprogramowanie na urządzeniu to firmowe oprogramowanie Texas Instruments. Komunikacja pomiędzy Asystentem domowym a urządeniem realizowana jest za pomocą oprogramowania [Zigbee2MQTT](https://www.zigbee2mqtt.io/).
 
 ![CC2531](/img/en/iot/zigbee_cc2531_0.jpg)
 
