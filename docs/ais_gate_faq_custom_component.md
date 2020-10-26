@@ -5,7 +5,7 @@ sidebar_label: Własny komponent w Asystencie domowym
 
 ## Cel dodania własnego komponentu
 
-Przeszukałeś 1400 gotowych komponentów i nie znalazłeś możliwości integracji ze swoim urządzeniem? Coś nie do końca działa tak jak byś chciał i masz pomysł jak zrobić to lepiej? Siłą projektów OpenSource jest to, że masz dostęp do kodu i masz możliwość jego zmiany pod własne potrzeby. Nadszedł czas, aby napisać swój pierwszy kod do integracji.
+Przeszukałeś 1700 gotowych komponentów i nie znalazłeś możliwości integracji ze swoim urządzeniem? Coś nie do końca działa tak jak byś chciał i masz pomysł jak zrobić to lepiej? Siłą projektów OpenSource jest to, że masz dostęp do kodu i masz możliwość jego zmiany pod własne potrzeby. Nadszedł czas, aby napisać swój pierwszy kod do integracji.
 
 Poniżej opiszemy krok po krok,u w jaki sposób dodać najprostszy komponent do Asystenta domowego.
 Bardziej obszerne przykłady integracji są dostępne w <a href="https://github.com/home-assistant/example-custom-config/tree/master/custom_components/" target="_blank">repozytorium przykładowych własnych integracji Home Assistant</a>

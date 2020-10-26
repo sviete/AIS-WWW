@@ -34,12 +34,12 @@ const ais_features = [
     addClass: 'col col--4',
   },
   {
-    title: <>Ponad <span className="strongInfo">1680</span> Integracji Home Assistant</>,
+    title: <>Ponad <span className="strongInfo">1700</span> Integracji Home Assistant</>,
     imageUrl: 'img/main/ha.svg',
     description: (
       <>
         Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a rel="noopener" href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
-        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1680 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
+        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1700 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
       </>
     ),
     addClass: 'col col--4',

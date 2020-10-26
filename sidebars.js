@@ -133,6 +133,9 @@ module.exports = {
       },
       "ais_app_dialogflow",
       "ais_app_integration_usb",
+      "ais_app_integration_mqtt",
+      "ais_app_integration_terminal",
+      "ais_app_integration_ftp",
       "ais_app_integration_zigbee"
     ],
     "Integracje dodatkowe": [

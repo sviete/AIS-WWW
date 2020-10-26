@@ -1,6 +1,6 @@
 ---
 title: "USB rozpoznawanie urządzeń"
-sidebar_label: USB
+sidebar_label: Urządzenia USB
 ---
 
 ## Wprowadzenie
