@@ -3,12 +3,17 @@ title: "Logi aktualizacji"
 sidebar_label: Logi aktualizacji
 ---
 
-W aplikacji “Asystent domowy”, w zakładce **Przydatne linki** dostępny jest link **“Logi Aktualizacji”**. Po wybraniu tego linku możemy przeglądać logi aktualizacji, w przypadku problemów z aktualizacją logi możemy załączyć do zgłoszenia problemu dla programistów.
-
+W aplikacji “Asystent domowy”, w zakładce **Narzędzia deweloperskie** dostępna jest konsola. 
 
 ![Logi aktualizacji](/img/en/frontend/update_logs.png)
 
->W lokalnej sieci logi dostępne są też pod tym adresem: http://ais-dom.local:8180/local/upgrade_log.txt lub http://**<lokalny_adres_ip_bramki>**:8180/local/upgrade_log.txt
+polecenie `pm2 logs` wyświetla aktualne logi bramki.
 
-![Logi aktualizacji](/img/en/bramka/update_logs_txt.png)
+
+Będą w lokalnej sieci (taj samej co bramka) możemy uruchomić konsole w osobnym oknie przeglądarki, pod adresem: http://ais-dom.local:8888 lub http://**<lokalny_adres_ip_bramki>**:8888
+
+Dzięki temu możemy uruchomić aktualizacje (w jednej karcie przeglądarki) oraz konsole (w drugiej karcie przeglądarki) i ślcedzić logi aktualizacji.
+W przypadku problemu z aktualizacją logi możemy wysłać do serwisu AI-Speaker. info@ai-speaker.com
+
+![Logi aktualizacji](/img/en/frontend/update_logs_txt.png)
 

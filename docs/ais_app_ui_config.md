@@ -9,8 +9,6 @@ Włączenie konfiguracji wybranego pulpitu następuje poprzez wybranie w aplikac
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/lovelace-ui-conf1.png)
 
 
-![Konfiguracja interfejsu użytkownika opcja](/img/en/frontend/frontend-card-edit-1.png)
-
 
 
 ### Dodanie nowego widoku
@@ -26,33 +24,44 @@ Możesz sam tworzyć i zmieniać widoki (zakładki w aplikacji), np. możesz dod
 
 Gdy masz już własny widok, to możesz umieścić na nim kartę. Poniżej pokażemy, w jaki sposób dodać kartę pokazującą naszą sypialnię i jak na takiej karcie umieścić urządzenia, które mamy w tym pomieszczeniu.
 
-1. Zrób zdjęcie pomieszczenia i dodaj je do galerii.
+1. Zrób zdjęcie pomieszczenia i dodaj je do [galerii](/docs/ais_app_integration_gallery).
 Jeżeli używasz Asystenta domowego z telefonu, to zdjęcie do galerii będziesz mógł dodać bezpośrednio z aparatu. W przypadku przeglądarki zdjęcie możesz wysłać z dysku komputera.
-Po dodaniu zdjęcia skopiuj lub zapamietaj jego lokalny adres na bramce **/local/img/<nazwa_pliku>**
+Po dodaniu zdjęcia w galerii możesz wyświetlić informacje o zdjęciu
 
 
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/galery_1.png)
 
 
-2. Przejdź do nowego widoku i w trybie edycji dodaj nową kartę typu Obraz (glance)
+2. W okienku z informacją o zdjęciu naciśnij przycisk **DODAJ DO INTERFEJSU UŻYTKOWNIKA**
 
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/galery_2.png)
 
 
-3. Wypełnij formatkę z parametrami karty
+3. Wybierz pulpit i widok
 
-Podaj ścieżkę do obrazu z galerii
 
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/galery_4.png)
 
-następnie wybierz encje z systemu, które chcesz pokazywać (którymi chcesz sterować) na karcie
+następnie poniownie naciśnij **DODAJ DO INTERFEJSU UŻYTKOWNIKA** 
+
+![Konfiguracja interfejsu użytkownika](/img/en/frontend/galery_5.png)
+
+
+4. Dostosowywanie karty
+
+Kartę możesz dostosować - wybrać encje z systemu, które chcesz na niej pokazywać na karcie oraz którymi chcesz sterować dotykając/klikając kartę
 
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/galery_3.png)
 
+Status urządzenia **Światło w biurze** może być prezentowany na karcie, światło zapalone / włączone:
 
-4. Zapisz zmiany i korzystaj z nowej karty
+![Konfiguracja interfejsu użytkownika](/img/en/frontend/galery_6.png)
 
-![Konfiguracja interfejsu użytkownika](/img/en/frontend/galery_5.png)
+światło wyłączone:
+
+![Konfiguracja interfejsu użytkownika](/img/en/frontend/galery_7.png)
+
+
 
 
 
@@ -60,16 +69,14 @@ następnie wybierz encje z systemu, które chcesz pokazywać (którymi chcesz st
 Więcej informacji technicznych oraz demo interfejsu można znaleźć na stronie projektu platformy Home Assistant [Lovelace UI](https://www.home-assistant.io/lovelace/) https://www.home-assistant.io/lovelace/
 
 
-![Konfiguracja interfejsu użytkownika opcja](/img/en/frontend/frontend-cards-ui-config-on.png)
+### Kopia konfiguracji interfejsu użytkownika
 
-### Kopia konfiguracji
-
-Gdy jesteś w trybie konfiguracji intefrejsu użytkownika, możesz wybrać opcję **"Ręczny edytor konfiguracji"** dostępną w prawym górnym rogu każdej strony w aplikacji będącej w trybie konfiguracji.
+Gdy jesteś w trybie konfiguracji intefrejsu użytkownika, możesz wybrać opcję **"Manualny edytor konfiguracji"** dostępną w prawym górnym rogu każdej strony w aplikacji będącej w trybie konfiguracji.
 
 ![Konfiguracja interfejsu użytkownika kopia](/img/en/frontend/lovelace-ui-conf-raw.png)
 
 
-To spowoduje wyświetlenie tekstowej, surowej wersji konfiguracji interfejsu
+To spowoduje wyświetlenie tekstowej wersji konfiguracji interfejsu
 
 ![Konfiguracja interfejsu użytkownika kopia](/img/en/frontend/lovelace-ui-conf-raw-save.png)
 

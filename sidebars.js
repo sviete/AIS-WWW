@@ -144,6 +144,10 @@ module.exports = {
     ]
   },
   "Urządznia": {
+    "Zigbee USB CC2531": [
+      "ais_zigbee_index",
+      "ais_zigbee_add_to_gate"
+    ],
   "Inteligentne gniazdo WiFi": [
       "ais_iot_s26",
       "ais_iot_browser",
@@ -156,10 +160,6 @@ module.exports = {
     "ais_remote_mode_on_tv",
     "ais_remote_mode_off_tv",
     "ais_remote_faq_index"
-  ],
-  "Zigbee USB CC2531": [
-    "ais_zigbee_index",
-    "ais_zigbee_add_to_gate"
   ],
   "Zarządzanie urządzeniami AIS dom z bramki": [
     "ais_iot_gate",

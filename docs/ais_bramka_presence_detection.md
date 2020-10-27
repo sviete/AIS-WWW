@@ -37,7 +37,7 @@ Kiedy jesteś w domu, twoją pozycję określają najpierw stacjonarne trackery 
 
 Aby dodać nową osobę, przejdź do konfiguracji a następnie wybierz opcję **Osoby**.
 
-![Dodanie osoby](/img/en/bramka/presence_detection_8.png)
+![Dodanie osoby](/img/en/bramka/presence_detection_10.png)
 
 
 Naciśnij pomarańczowy przycisk z ikonką "plus" w prawym dolnym rogu ekranu, żeby otworzyć formularz dodawania osoby. Wybierz urządzenia raportujące lokalizację, tak jak to pokazano poniżej.
@@ -47,10 +47,10 @@ Naciśnij pomarańczowy przycisk z ikonką "plus" w prawym dolnym rogu ekranu, �
 
 ### Ustawienie zdjęcia osoby
 
-Możesz dodać zdjęcie osoby do wyświetlania na mapie. W tym celu przejdź do **Konfiguracja** -> **Dostosowywanie**, wybierz osobę a następnie dodaj jej nowy atrybut **entity_picture** z adresem jej zdjęcia.
+Podczas dodawania lub edycji osoby możesz dodać jej zdjęcie które będzie wyświetlane w aplikacji i na mapie.
 
 
-![Dodanie zdjęcia osoby](/img/en/bramka/presence_detection_10.png)
+![Dodanie zdjęcia osoby](/img/en/bramka/presence_detection_8.png)
 
 
 Osoba na mapie i na kartach w aplikacji będzie teraz wyświetlana wraz ze zdjęciem.

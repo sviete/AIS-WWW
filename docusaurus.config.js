@@ -116,7 +116,7 @@ module.exports = {
         {to: 'docs/ais_bramka_index', label: 'Bramka', position: 'left'},
         {to: 'docs/ais_app_index', label: 'Aplikacja', position: 'left'},
         {to: 'docs/ais_app_player', label: 'Integracje', position: 'left'},
-        {to: 'docs/ais_iot_s26', label: 'Urządzenia', position: 'left'},
+        {to: 'docs/ais_zigbee_index', label: 'Urządzenia', position: 'left'},
         {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://ai-speaker.discourse.group/',

@@ -29,8 +29,13 @@ Aplikacja jest czymś w rodzaju ramki/przeglądarki do [aplikacji internetowej](
 
 Aplikacja dostępna jest za darmo (bez reklam, mikropłatności itp) w sklepie [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom) pod nazwą AIS dom. Możesz zeskanować telefonem poniższy kod, by przejść do instalacji aplikacji w Google Play:
 
+<center>
+
 ![Google Play](/img/en/frontend/barcode_go_to_apk_in_google_play.png)
 
+![Google Play](/img/main/google-play-badge.png)
+
+</center>
 
 Kod źródłowy aplikacji dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-dom)
 Podpisane wersje publikujemy też na naszym [serwisie ze składowymi systemu](https://powiedz.co/ota/)

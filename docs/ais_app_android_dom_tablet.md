@@ -6,15 +6,22 @@ sidebar_label: Panel sterowania
 
 ## Wprowadzenie
 
-Po zainstalowaniu naszej aplikacji na tablet z systemem Android możesz otrzymać funkcjonalność "Dotykowego panelu / Smart panel" do sterowania automatyką domową i multimediami.
-Aplikacja jest czymś w rodzaju ramki/przeglądarki/interfejsu do [aplikacji internetowej](/docs/ais_app_index) działającej na bramce.
+Po zainstalowaniu naszej aplikacji AIS dom na tablet z systemem Android możesz otrzymać funkcjonalność "Dotykowego panelu / Smart panel" do sterowania automatyką domową i multimediami.
+
+![Smart glass ustawienia](/img/en/frontend/app_smart_glass_go_to_settings.png)
 
 
 ## Instalacja
 
 Aplikacja dostępna jest za darmo (bez reklam, mikropłatności itp) w sklepie [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom) pod nazwą AIS dom. Możesz zeskanować telefonem poniższy kod, by przejść do instalacji aplikacji w Google Play:
 
+<center>
+
 ![Google Play](/img/en/frontend/barcode_go_to_apk_in_google_play.png)
+
+![Google Play](/img/main/google-play-badge.png)
+
+</center>
 
 
 Kod źródłowy aplikacji dostępny jest w naszym [publicznie dostępnym repozytorium](https://github.com/sviete/AIS-dom)
@@ -29,12 +36,10 @@ Analogicznie jak w [Aplikacji na telefon](/docs/ais_app_android_dom#konfiguracja
 
 ## Konfiguracja ustawień aplikacji związanych z panelem
 
-W każdej chwili możemy przejść do ustawień aplikacji naciskając przycisk z trzema kropkami po lewej stronie na dolnej belce w aplikacji
-
-
-
-![Smart glass ustawienia](/img/en/frontend/app_smart_glass_go_to_settings.png)
-
+Przydatne opcje w przypadku panelu sterowania to:
+- Odtwarzacz audio
+- Powiększenie aplikacji
+- Nasłuchiwanie wyrażenia aktywującego (funkcjonalność eksperymentalna)
 
 ![Smart glass ustawienia](/img/en/frontend/app_smart_glass_go_to_settings_1.png)
 
@@ -52,7 +57,12 @@ W aplikacji działającej na bramce w zakładce **Audio** automatycznie doda si�
 
 ![Smart glass ustawienia](/img/en/frontend/app_smart_glass_go_to_settings_3.png)
 
-> Uwaga. "Panel sterowania" będzie otrzymywał powiadomienia o odtwarzanych treściach na bramce tylko w naszej sieci lokalnej - gdy będzie połączony do tej samej sieci co bramka. Działa to podobnie jak sterowanie ChromeCast.
+:::caution Uwaga.
+Przekierowanie mediów do odtwarzaczy działa podobnie jak sterowanie ChromeCast.
+Czyli bramka może prezkierowywać treści do "Panelu sterowania" tylko jeśli urządzenia znajdują się w tej samej sieci. 
+:::
+
+Uwaga. "Panel sterowania" będzie otrzymywał powiadomienia o odtwarzanych treściach na bramce tylko w naszej sieci lokalnej - gdy będzie połączony do tej samej sieci co bramka. 
 
 ### Powiększenie aplikacji
 
@@ -65,6 +75,11 @@ Działa to analogicznie jak funkcjonalność powiększania stron w przeglądarce
 ### Nasłuchiwanie wyrażenia aktywującego
 
 ![Smart glass ustawienia](/img/en/frontend/app_smart_glass_go_to_settings_5.png)
+
+:::caution Uwaga.
+Ta opcja jest w fazie eksperymentalnej i może nie działać poprawnie - np. nie wykrywać poprawnie każdego wypowiedzianego słowa kluczowego lub mylić się i wykrywać podobne słowa jako słowa kluczowe.
+:::
+
 
 Jeśli włączysz tę opcję, to uruchomisz w "Panelu sterowania" usługę mikrofonu nasłuchującego wybranego wyrażenia (domyślnie słowo Avokado). Jest to tak zwane wyrażenie aktywujące rejestrowanie i przetwarzanie komendy, zwane też "key word" lub "trigger word". Możesz też dostosować czułość nasłuchiwania wyrażenia aktywującego. Do wykrywania wyrażeń aktywujących używamy bardzo dokładnego i lekkiego silnika Porcupine.
 

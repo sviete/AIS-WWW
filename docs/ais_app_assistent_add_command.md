@@ -19,7 +19,7 @@ W przypadku problemów z działaniem systemu zalecamy usunięcie własnych wpis�
 
 Katalog z konfiguracją domyślnie znajduje się na urządzeniu (bramce) w folderze **/data/data/pl.sviete.dom/files/home/AIS**
 
-ścieżkę do katalogu możesz sprawdzić w aplikacji pod adresem http://ais-dom.local:8180/dev-info/ -> narzędzia deweloperskie -> informacje:
+ścieżkę do katalogu możesz sprawdzić w aplikacji::
 
 ![Konfiguracja folder](/img/en/frontend/frontend-assistant-config.png)
 
