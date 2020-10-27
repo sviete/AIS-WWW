@@ -18,15 +18,22 @@ Interfejsy API akceptują i zwracają tylko obiekty zakodowane w JSON.
 
 W przykładach poniżej używamy lokalnej nazwy hosta bramki: ais-dom.local, jeżeli bramka nie jest dostępna w Twojej sieci pod tą nazwą to zamiast ais-dom.local użyj jej lokalnego adresu IP.
 :::
-## API bramki
+## Lokalne API bramki
 
 Obecnie dostępne są 2 zasoby `http://ais-dom.local:8122/text_to_speech` i `http://ais-dom.local:8122/command`
 
 :::caution Uwaga
 **To api dostępne jest tylko w sieci lokalnej, dlatego nie wymagamy uwierzytelnienia i szyfrowania.**
 
-Jeżeli chcesz wywołać API na bramce z zewnątrz, to robimy to przez API Asystenta domowego, tam wymagamy uwierzytelnienia i mamy szyfrowanie (protokół https). Całe lokalne API bramki jest dostępne przez API Asystenta domowego - opisujemy to dokładnie poniżej.
+Wywołanie API bramki spoza sieci lokalnej (z Internetu) możliwe jest przez API Asystenta domowego. Takie wywołania wymagają uwierzytelnienia i szyfrowania (protokół https).
+Całe lokalne API bramki jest dostępne przez API Asystenta domowego - opisujemy to dokładnie poniżej.
 :::
+
+**Tekst JSON MUSI być zakodowany w Unicode. Domyślne kodowanie to UTF-8.**
+
+Znaki inne niż ASCII (np. symbole istniejące w językach świata), przed wysłaniem do api należy skonwertować do ich znaków kodowych w UTF-8. Takie konwertowanie wykonywane jest zwykle automatycznie przez program / klienta REST, ale można to zrobić też ręcznie, np na tych stronach:
+- https://dencode.com/en/string/unicode-escape 
+- https://www.freeformatter.com/json-escape.html#ad-output
 
 
 ### Zasób /text_to_speech
@@ -49,22 +56,44 @@ Dostępne parametry TTS
 | `rate` |  1.0  | Szybkość mowy / 1.0 to normalna szybkość mowy, niższe wartości spowalniają mowę (0,5 to połowa normalnej szybkości mowy), większe wartości ją przyspieszają (2,0 to dwukrotność normalnej szybkości mowy).|
 | `language` | `pl_PL` | Język / Inne dostępne opcje to uk_UA, en_GB, en_US|
 | `voice` | `pl-pl-x-oda-local` | Głos / Dostępne opcje to: <br/> **pl_PL**<ul><li>`pl-pl-x-oda-network` - "Jola online",</li><li>`pl-pl-x-oda-local` - "Jola lokalnie",</li><li>`pl-pl-x-oda#female_1-local` - "Celina",</li><li>`pl-pl-x-oda#female_2-local` - "Anżela",</li><li>`pl-pl-x-oda#female_3-local` - "Asia",</li><li>`pl-pl-x-oda#male_1-local` - "Sebastian",</li><li>`pl-pl-x-oda#male_2-local` - "Bartek",</li><li>`pl-pl-x-oda#male_3-local` - "Andrzej"</li></ul> <br/> **uk_UA** <ul><li>`uk-UA-language` - "Mariya",</li></ul> <br/> **en_GB** <ul><li>`en-GB-language` - "Allison",</li></ul> <br/> **en_US** <ul><li>`en-us-x-sfg#female_2-local` - "Sophia",</li></ul> <br/> |
+| `path` | - | Ścieżka do zapisu pliku / TODO|
+| `format` | - | Format pliku / mp3 lub wav|
+
 
 Przykłady komunikatów:
 
 - informacja o alarmie pożarowym po angielsku
+
+`Attention. Attention. This is Fire alarm! Evacuation on fire route number five in two minutes`
 ``` json
-{"text": "Attention. Attention. This is Fire alarm!. Evacuation on fire route number five in two minutes.", "voice": "en-GB-language",  "language": "en_GB", "rate": "0.9"}
+{
+  "language": "en_GB",
+  "voice": "en-GB-language",  
+  "rate": "0.9",
+  "text": "Attention. Attention. This is Fire alarm!. Evacuation on fire route number five in two minutes."
+}
 ```
 
 - informacja o przerwie po ukraińsku
+
+`Ми запрошуємо вас на 30-хвилинну перерву на сніданок. Смачного.`
 ``` json
-{"text": "My zaproshuyemo vas na 30-khvylynnu perervu na snidanok. Smachnoho.", "voice": "uk-UA-language",  "language": "uk_UA", "rate": "1"}
+{
+  "language": "uk_UA",
+  "voice": "uk-UA-language",  
+  "rate": "1",
+  "text": "\u041C\u0438 \u0437\u0430\u043F\u0440\u043E\u0448\u0443\u0454\u043C\u043E \u0432\u0430\u0441 \u043D\u0430 30-\u0445\u0432\u0438\u043B\u0438\u043D\u043D\u0443 \u043F\u0435\u0440\u0435\u0440\u0432\u0443 \u043D\u0430 \u0441\u043D\u0456\u0434\u0430\u043D\u043E\u043A. \u0421\u043C\u0430\u0447\u043D\u043E\u0433\u043E."
+}
 ```
 
 - ogłoszenie po polsku
+
+`Mamy więcej zamówień do zrealizowania, prosimy chętnych o pozostanie 2 godziny dłużej w pracy. Płacimy 200% extra.`
 ``` json
-{"text": "Mamy więcej zamówień do zrealizowania, prosimy chętnych o pozostanie 2 godziny dłużej w pracy. Płacimy 200% extra.", "language": "pl_PL"}
+{
+  "language": "pl_PL",
+  "text": "Mamy wi\u0119cej zam\u00F3wie\u0144 do zrealizowania, prosimy ch\u0119tnych o pozostanie 2 godziny d\u0142u\u017Cej w pracy. P\u0142acimy 200% extra."
+}
 ```
 
 Przykład wywołania API z języka Python
@@ -89,7 +118,7 @@ Dostępne komendy
 
 | Komenda | Przykładowa wartość | Opis |
 | --- | --- | --- |
-| `text` | `http://stream3.polskieradio.pl:8080/` | Odtwarzanie audio/video |
+| `playAudio` | `http://stream3.<br/>polskieradio.<br/>pl:8080/` | Odtwarzanie audio/video |
 | `stopAudio` | `true` | Zatrzymanie odtwarzacza |
 | `pauseAudio` | `true` | Pauza odtwarzacza |
 | `setVolume` | `50` | Ustawienie głośności odtwarzacza od 0 do 100 |
