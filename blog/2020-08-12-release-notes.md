@@ -20,7 +20,7 @@ tags: [location, gps, demo, home assistant, zigbee2mqtt, apk api]
 
 <!--truncate-->
 
-## ABC bezproblemowej aktuazliacji
+## ABC bezproblemowej aktualizacji
 
 :::tip A Kopia zapasowa.
 UWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji). W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.
