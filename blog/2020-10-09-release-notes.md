@@ -19,7 +19,7 @@ tags: [media, galeria, zigbee2mqtt, home assistant, tasmota]
 
 <!--truncate-->
 
-## ABC bezproblemowej aktuazliacji
+## ABC bezproblemowej aktualizacji
 
 :::tip Kopia zapasowa.
 ### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.
