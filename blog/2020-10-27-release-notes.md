@@ -17,7 +17,7 @@ tags: [ais dom, ais proxy, home assistant]
 
 <!--truncate-->
 
-## ABC bezproblemowej aktuazliacji
+## ABC bezproblemowej aktualizacji
 
 :::tip Kopia zapasowa.
 ### ![A](/img/en/blog/202009/alpha-a-circle.png) Kopia zapasowa.
