@@ -21,7 +21,7 @@ tags: [sync, demo, home assistant, zigbee2mqtt, nfc, wearos, tasmota]
 
 <!--truncate-->
 
-## ABC bezproblemowej aktuazliacji
+## ABC bezproblemowej aktualizacji
 
 :::tip Kopia zapasowa.
 Kopia zapasow![A](/img/en/blog/202009/alpha-a-circle.png).
