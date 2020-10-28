@@ -9,7 +9,7 @@ tags: [ais dom, ais proxy, home assistant]
 
 # 0.116.6 Szybciej i ładniej
 
-- ![AIS dom](/img/en/blog/202010/mobile-phone.png) **Poprawki ułatwienia i optymlizacje w aplikacji AIS dom**
+- ![AIS dom](/img/en/blog/202010/mobile-phone.png) **Poprawki, ułatwienia i optymlizacje w aplikacji AIS dom**
 - ![AIS docs](/img/en/blog/202010/orange-book.png) Aktualizacja całej dokumentacji
 - ![AIS Proxy](/img/en/blog/202010/robot.png) Nowe menu urządzeń AIS dom
 - ![Home Assistant](/img/en/blog/202010/mechanical-arm.png) Home Assistant 0.116.4
@@ -67,7 +67,7 @@ Ustawienia Twoich urządzeń z oprogramowaniem AIS dom doczekało się sporej ak
 
 ![AIS Galeria](/img/en/blog/202010/ais-dom.png)
 
-Dodaliśmy między innymi mechanizm proxy który pozwala na dosęp do lokalnego menu urządzenia z aplikacji Asystent domowy nawet jeżeli łączysz sie z bramką zdalnie 🤩
+Dodaliśmy między innymi mechanizm proxyt, który pozwala na dostęp do lokalnego menu urządzenia z aplikacji Asystent domowy, nawet jeżeli łączysz sie z bramką zdalnie 🤩
 
 Szczegóły w dokumentacji [Zarządzanie urządzeniami AIS dom z aplikacji Asystent domowy](/docs/ais_iot_gate)
 
