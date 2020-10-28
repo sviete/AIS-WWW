@@ -20,14 +20,14 @@ W tabeli z urządzeniami AIS dom wyświetlamy wszystkie urządzenia działające
 
 
 
-### Menu urządznia
+### Menu urządzenia
 
-Po wybraniu urządzenia przechodzimy do widoku w którym mamy dostępne wszystkie informacje o urządzeniu, jego encje, dostęp do menu na urządzeniu oraz możliwość dodania automatyzacji, scen oraz skryptów powiązanych z urządzeniem.
+Po wybraniu urządzenia przechodzimy do widoku, w którym mamy dostępne wszystkie informacje o urządzeniu, jego encje, dostęp do menu na urządzeniu oraz możliwość dodania automatyzacji, scen oraz skryptów powiązanych z urządzeniem.
 
 ![RF 433](/img/en/iot/iot_ais_dom_device_config_0.png)
 
 
-Dostępne opcje konfiguracji zależą od tupu urządzenia, w przypadku Bramki RF 433, na tej stronie możemy nauczyć Asystenta kodów pilota radiowego (lub innego urządzenia wysyłającego kody radiowe o częstotliwości 433) i łatwo dodać przyciski wysyłające nauczone kody do aplikacji. Więcej w sekcji [Bramka RF 433](/docs/ais_iot_gate_device_rf433).
+Dostępne opcje konfiguracji zależą od typu urządzenia, w przypadku Bramki RF 433, na tej stronie możemy nauczyć Asystenta kodów pilota radiowego (lub innego urządzenia wysyłającego kody radiowe o częstotliwości 433) i łatwo dodać przyciski wysyłające nauczone kody do aplikacji. Więcej w sekcji [Bramka RF 433](/docs/ais_iot_gate_device_rf433).
 
 
 ![RF 433](/img/en/iot/iot_ais_dom_device_config.png)
