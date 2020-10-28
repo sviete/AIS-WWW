@@ -4,7 +4,7 @@ sidebar_label: Usunięcie urządzenia z bramki
 ---
 
 
-Jeśli chcesz usunąć swoje urządzenie AIS dom z bramki AIS to należy to zrobić w 2 krokach opisanych poniżej.
+Jeśli chcesz usunąć swoje urządzenie AIS dom z bramki AIS, to należy to zrobić w 2 krokach opisanych poniżej.
 
 ## 1. Odłączenie urządzenia z sieci
 
@@ -18,6 +18,6 @@ W aplikacji Asystent domowy przejdź do [Konfiguracja Urządzeń AIS dom](/docs/
 
 ![Menu Konfiguracja urządzeń AIS dom](/img/en/iot/iot_ais_dom_devices_menu.png)
 
-Aby usunąć urządzenie, kliknij przycisk "USUŃ" dostępny w karcie z infrmacjami o urządzeniu, a następnie potwierdź operację usuwania.
+Aby usunąć urządzenie, kliknij przycisk "USUŃ" dostępny w karcie z informacjami o urządzeniu, a następnie potwierdź operację usuwania.
 
 ![Usunięcie urządzenia z bramki](/img/en/iot/remove_ais_dom_device.png)
