@@ -7,7 +7,7 @@ sidebar_label: Automatyzacja wyzwalana tagiem NFC
 
 Zamiast mówić komendę lub wpisywać ją w okienko czatu z Asystentem domowym możemy przyłożyć odblokowany telefon do taga NFC i przesłać do bramki jego identyfikator oraz zarejestrować zdarzenie skanowania takiego taga.
 
-Funkcjonalność skanowania tagów NFC wbudowana jest w naszą mobilną aplikację [AIS dom - skanowanie tagów NFC](ais_app_android_dom).
+Funkcjonalność skanowania tagów NFC wbudowana jest w naszą mobilną aplikację [AIS dom - skanowanie tagów NFC](/docs/ais_app_android_dom#skanowanie-tag%C3%B3w-nfc).
 
 Po zeskanowaniu taga NFC wyzwalamy na bramce zdarzenie **tag_scanned** a w danych tego zdarzenia (w **event_data**) przekazujemy identyfikator taga **tag_id**.
 Pozwala to na dodanie automatyzacji, której wyzwalaczem jest zdarzenie skanowanie taga NFC.
