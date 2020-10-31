@@ -31,9 +31,7 @@ Całe lokalne API bramki jest dostępne przez API Asystenta domowego - opisujemy
 
 **Tekst JSON MUSI być zakodowany w Unicode. Domyślne kodowanie to UTF-8.**
 
-Znaki inne niż ASCII (np. symbole istniejące w językach świata), przed wysłaniem do api należy skonwertować do ich znaków kodowych w UTF-8. Takie konwertowanie wykonywane jest zwykle automatycznie przez program / klienta REST, ale można to zrobić też ręcznie, np na tych stronach:
-- https://dencode.com/en/string/unicode-escape 
-- https://www.freeformatter.com/json-escape.html#ad-output
+Znaki inne niż ASCII (np. symbole istniejące w językach świata), przed wysłaniem do api należy skonwertować do ich znaków kodowych w UTF-8. Takie konwertowanie wykonywane jest zwykle automatycznie przez program / klienta REST.
 
 
 ### Zasób /text_to_speech
@@ -82,7 +80,7 @@ Przykłady komunikatów:
   "language": "uk_UA",
   "voice": "uk-UA-language",  
   "rate": "1",
-  "text": "\u041C\u0438 \u0437\u0430\u043F\u0440\u043E\u0448\u0443\u0454\u043C\u043E \u0432\u0430\u0441 \u043D\u0430 30-\u0445\u0432\u0438\u043B\u0438\u043D\u043D\u0443 \u043F\u0435\u0440\u0435\u0440\u0432\u0443 \u043D\u0430 \u0441\u043D\u0456\u0434\u0430\u043D\u043E\u043A. \u0421\u043C\u0430\u0447\u043D\u043E\u0433\u043E."
+  "text": "Ми запрошуємо вас на 30-хвилинну перерву на сніданок. Смачного."
 }
 ```
 
@@ -92,7 +90,7 @@ Przykłady komunikatów:
 ``` json
 {
   "language": "pl_PL",
-  "text": "Mamy wi\u0119cej zam\u00F3wie\u0144 do zrealizowania, prosimy ch\u0119tnych o pozostanie 2 godziny d\u0142u\u017Cej w pracy. P\u0142acimy 200% extra."
+  "text": "Mamy więcej zamówień do zrealizowania, prosimy chętnych o pozostanie 2 godziny dłużej w pracy. Płacimy 200% extra."
 }
 ```
 
