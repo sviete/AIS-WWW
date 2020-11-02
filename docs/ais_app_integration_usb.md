@@ -79,19 +79,18 @@ Jeżeli urządzenie spełnia standard USB HID, to powinno być automatycznie ro
 
 ![HID USB](/img/en/bramka/usb_integration_hid.png)
 
+## Zigbee USB sniffer
+
+
+Po dodaniu urządzenia Zigbee USB CC2531 do portu USB bramki, Asystent domowy poinformuje o tym głosowo, uruchomi usługę do komunikacji z zigbee oraz aplikację do konfiguracji urządzeń zigbee:
+
+![USB Zigbee](/img/en/bramka/usb_integration_zigbee.png)
+
+Szczegóły w opisie działania [Zigbee2MQTT](/docs/ais_app_integration_zigbee)
+
 
 ## Biblioteka libusb
 
 Na bramce dostarczamy [libusb](https://libusb.info/). Jest to biblioteka C, która zapewnia ogólny dostęp do urządzeń USB.
 Biblioteka ta umożliwia aplikacjom (działającym na bramce) na komunikowanie się ze sprzętem USB. Obsługiwane są wszystkie wersje protokołu USB, od 1.0 do 3.1(najnowsza).
 
-### Zigbee USB sniffer
-
-
-> Od wersji 0.103.7 automatycznie obsługujemy na bramce Zigbee USB CC2531, **zaprogramowane specjalnym oprogramowaniem**. Szczegóły dostępne są na stronie projektu [Zigbee2Mqtt](https://www.zigbee2mqtt.io/).
-> Dla osób, które nabyły bramki z wcześniejszą wersją oprogramowania, udostępnimy na forum oraz na [osobnej stronie dokumentacji](/docs/ais_app_integration_zigbee) informacje techniczne jak dodać obsługę Zigbee.
-
-
-Po dodaniu urządzenia Zigbee USB CC2531 do portu USB bramki, Asystent domowy poinformuje o tym głosowo oraz automatycznie doda nową opcję w aplikacji:
-
-![HID USB](/img/en/bramka/usb_integration_zigbee.png)
