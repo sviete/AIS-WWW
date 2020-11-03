@@ -116,7 +116,12 @@ a.button.button--danger {
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
 }
 
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 997px) {
+  div.aisFeatures {
+    background-image: url(/img/ais_gate.png);
+    background-repeat: no-repeat;
+    background-position: center;
+  }
 }
 
 @media only screen and (max-width: 1023px) {
