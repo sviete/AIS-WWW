@@ -13,7 +13,8 @@ import domDemoLogo from '../../static/img/main/Anzela-Demo.png';
 const ais_features = [
   {
     title: <>Ponad <span className="strongInfo">1600</span> urządzeń WiFi</>,
-    imageUrl: 'img/main/wifi.svg',
+    imageUrl: '',
+    imageBttomUrl: 'img/main/wifi.svg',
     description: (
       <>
         <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
@@ -24,7 +25,8 @@ const ais_features = [
   },
   {
     title: <>Ponad <span className="strongInfo">1000</span> urządzeń Zigbee</>,
-    imageUrl: 'img/main/zigbee.svg',
+    imageUrl: '',
+    imageBttomUrl: 'img/main/zigbee.svg',
     description: (
       <>
         Dzięki <a href="/docs/ais_zigbee_index"> USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
@@ -35,7 +37,8 @@ const ais_features = [
   },
   {
     title: <>Ponad <span className="strongInfo">1700</span> Integracji Home Assistant</>,
-    imageUrl: 'img/main/ha.svg',
+    imageUrl: '',
+    imageBttomUrl: 'img/main/ha.svg',
     description: (
       <>
         Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a rel="noopener" href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
@@ -47,6 +50,7 @@ const ais_features = [
   {
     title: <>Sterowanie głosowe</>,
     imageUrl: 'img/main/account-voice.svg',
+    imageBttomUrl: '',
     description: (
       <>
         Na bramce dostarczamy <a href="/docs/ais_app_assistent_commands">wbudowane komendy</a>, dzięki czemu możesz sterować dołączonymi urządzeniami za pomocą komend. Komendy można przesyłać z <a href="/docs/ais_app_index"> aplikacji w przeglądarce</a>  internetowej, naszej<a href="/docs/ais_app_android_dom"> aplikacji mobilnej</a> lub <a href="/docs/ais_remote_index">pilota z mikrofonem</a>.
@@ -58,6 +62,7 @@ const ais_features = [
   {
     title: <>Audio</>,
     imageUrl: 'img/main/monitor-speaker-2.svg',
+    imageBttomUrl: '',
     description: (
       <>
         Na bramce dostarczmy wbudowany <a href="/docs/ais_app_player">odtwarzacz audio</a>, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z <a href="/docs/ais_app_youtube_dl">YouTube</a> oraz <a href="/docs/ais_app_spotify">Spotify</a>.
@@ -163,8 +168,9 @@ const features = [
   },
 ];
 
-function Feature({imageUrl, title, description, addClass}) {
+function Feature({imageUrl, imageBttomUrl, title, description, addClass}) {
   const imgUrl = useBaseUrl(imageUrl);
+  const imgBottomUrl = useBaseUrl(imageBttomUrl);
   return (
     <div className={classnames(addClass, styles.feature)}>
       {imgUrl && (
@@ -174,6 +180,11 @@ function Feature({imageUrl, title, description, addClass}) {
       )}
       <div className="aisFeatureTitle">{title}</div>
       <div>{description}</div>
+      {imgBottomUrl && (
+        <div className="text--center">
+          <img alt="AIS dom feature" className={styles.aisComiksImg} src={imgBottomUrl} alt={title} />
+        </div>
+      )}
     </div>
   );
 }
@@ -245,7 +256,7 @@ function Home() {
         {ais_features && ais_features.length && (
           <section className={styles.features}>
             <div className="container">
-              <div className="row">
+              <div className="row aisFeatures">
                 {ais_features.map((props, idx) => (
                   <Feature key={idx} {...props} />
                 ))}
