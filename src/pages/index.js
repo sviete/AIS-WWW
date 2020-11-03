@@ -13,7 +13,7 @@ import domDemoLogo from '../../static/img/main/Anzela-Demo.png';
 const ais_features = [
   {
     title: <>Ponad <span className="strongInfo">1600</span> urządzeń WiFi</>,
-    imageUrl: '',
+    imageUrl: 'img/main/wifi.svg',
     imageBttomUrl: 'img/main/wifi.svg',
     description: (
       <>
@@ -21,11 +21,12 @@ const ais_features = [
         Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/index.html" target="_blank">ponad 1600 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
-    addClass: 'col col--4',
+    addClass: 'col col--4 aisFeature row1',
+    addImgClass: 'aisFeatureImg',
   },
   {
     title: <>Ponad <span className="strongInfo">1000</span> urządzeń Zigbee</>,
-    imageUrl: '',
+    imageUrl: 'img/main/zigbee.svg',
     imageBttomUrl: 'img/main/zigbee.svg',
     description: (
       <>
@@ -33,11 +34,12 @@ const ais_features = [
         <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 1000 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
       </>
     ),
-    addClass: 'col col--4',
+    addClass: 'col col--4 aisFeature row1',
+    addImgClass: 'aisFeatureImg',
   },
   {
     title: <>Ponad <span className="strongInfo">1700</span> Integracji Home Assistant</>,
-    imageUrl: '',
+    imageUrl: 'img/main/ha.svg',
     imageBttomUrl: 'img/main/ha.svg',
     description: (
       <>
@@ -45,7 +47,8 @@ const ais_features = [
         Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1700 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
       </>
     ),
-    addClass: 'col col--4',
+    addClass: 'col col--4 aisFeature row1',
+    addImgClass: 'aisFeatureImg',
   },
   {
     title: <>Sterowanie głosowe</>,
@@ -57,7 +60,8 @@ const ais_features = [
         Można też wysyłać komendy z innych systemów/aplikacji za pomocą <a href="/docs/ais_bramka_api_index">API</a>. Oraz definiować <a href="/docs/ais_app_assistent_add_command">własne komendy</a>.
       </>
     ),
-    addClass: 'col col--4 col--offset-2',
+    addClass: 'col col--4 col--offset-2 aisFeature row2',
+    addImgClass: 'aisFeatureImg',
   },
   {
     title: <>Audio</>,
@@ -69,7 +73,8 @@ const ais_features = [
         Istnieje też możliwość definiowania własnych dodatkowych treści audio w <a href="/docs/ais_dom_cloud_login">portalu integratora</a>.
       </>
     ),
-    addClass: 'col col--4',
+    addClass: 'col col--4 aisFeature row2',
+    addImgClass: 'aisFeatureImg',
   },
 ];
 
@@ -80,7 +85,6 @@ const features = [
     description: (
       <>
         <p>
-          <img alt="AIS dom info" className="aisPointInfo" src="img/main/issue.svg" />
           Gdy masz w domu stale włączony mikrofon firmy, która zarabia na dostarczaniu spersonalizowanych reklam, wtedy
           to o czym rozmawiasz i co robisz w domu, może być towarem sprzedawanym firmom trzecim.
           Dane o Tobie mogą też zostać użyte do politycznej propagandy.
@@ -101,7 +105,6 @@ const features = [
     description: (
       <>
       <p>
-          <img alt="AIS dom info" className="aisPointInfo" src="img/main/issue.svg" />
           Popularne technologie smart home, wykorzystują chmurę do sterowania automatyką domową.
           To niesie ze sobą kilka problemów, takich jak opóźnienia w reakcji urządzeń na komendę, utrata prywatności, uzależnienie się od dostawcy - jeśli firma, od której kupiłeś urządzenie, postanowi zamknąć usługę, Twój smart home przestanie działać.
       </p>
@@ -121,7 +124,6 @@ const features = [
     description: (
       <>
         <p>
-          <img alt="AIS dom info" className="aisPointInfo" src="img/main/issue.svg" />
            Gdy pytasz o daną rzecz lub jej szukasz w sieci, to znaczy, że się nią interesujesz i chętnie wysłuchasz "porady asystenta" lub przejrzysz zwracane wyniki.
            Niestety często nie są to najlepsze dla Ciebie odpowiedzi, ale takie, za które ktoś najwięcej zapłacił, żeby zostały Ci zaprezentowane.
            Reklamy spersonalizowane, godne zaufania, trafne... są prawdziwą kopalnią złota dla gigantów technologicznych.
@@ -144,7 +146,6 @@ const features = [
     description: (
       <>
       <p>
-        <img alt="AIS dom info" className="aisPointInfo" src="img/main/issue.svg" />
         Uzależnienie od dostawcy (ang. vendor lock-in), to sytuacja, w której klient jest uzależniony od produktów dostawcy.
         W przypadku systemów automatyki termin ten odnosi się też do niemożności zastosowania urządzenia innego producenta z powodu niekompatybilności.
         Często niekompatybilność urządzeń jest celowym zamierzeniem dostawcy, który z uzależnienia nabywcy czerpie korzyści – w modelu biznesowym powiązanych produktów, dostawca sprzedaje główny produkt (np. centralkę) po zaniżonej cenie po to, aby czerpać korzyści ze sprzedaży komponentów, które do niego pasują.
@@ -155,36 +156,24 @@ const features = [
           Asystent domowy jest kompatybilny z popularnymi urządzeniami automatyki domowej, jest wyposażony w wiele wbudowanych integracji.
           Bazujemy na Home Assistant, gdzie aktywna społeczność użytkowników dzieli się pomysłami, spostrzeżeniami i rozwiązaniami.
         </p>
-        <p>
-          Asystent domowy został od podstaw zbudowany w ten sposób, aby można go było używać w sposób wygodny dla każdego z nas.
-          Nie musisz mieć smartfona czy komputera ze specyficznym systemem operacyjnym. Możesz uruchomić Asystenta domowego także w przeglądarce internetowej lub podłączyć naszą bramkę bezpośrednio do monitora/telewizora za pomocą kabla HDMI.
-          Dzięki dedykowanemu pilotowi radiowemu możesz za pomocą fizycznych klawiszy oraz wbudowanego mikrofonu mieć szybki dostęp do każdej opcji systemu.
-          <b> Asystent domowy to nie tylko sterowanie urządzeniami, ale także łatwe odtwarzanie mediów-
-          wystarczy powiedzieć jakiej muzyki chcesz posłuchać.</b>
-        </p>
       </>
     ),
     addClass: 'col col--6',
   },
 ];
 
-function Feature({imageUrl, imageBttomUrl, title, description, addClass}) {
+function Feature({imageUrl, imageBttomUrl, title, description, addClass, addImgClass}) {
   const imgUrl = useBaseUrl(imageUrl);
   const imgBottomUrl = useBaseUrl(imageBttomUrl);
   return (
     <div className={classnames(addClass, styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img alt="AIS dom feature" className={styles.aisComiksImg} src={imgUrl} alt={title} />
+          <img alt="AIS dom feature" className={classnames(addImgClass, styles.aisComiksImg)} src={imgUrl} alt={title} />
         </div>
       )}
       <div className="aisFeatureTitle">{title}</div>
       <div>{description}</div>
-      {imgBottomUrl && (
-        <div className="text--center">
-          <img alt="AIS dom feature" className={styles.aisComiksImg} src={imgBottomUrl} alt={title} />
-        </div>
-      )}
     </div>
   );
 }
@@ -255,7 +244,12 @@ function Home() {
       <main>
         {ais_features && ais_features.length && (
           <section className={styles.features}>
-            <div className="container">
+            <div className="container aisFeaturesConteiner">
+              <div className="pulse-container">
+                    <div className="pulse-box">
+                      <div className="pulse-css"></div>
+                    </div>
+              </div>
               <div className="row aisFeatures">
                 {ais_features.map((props, idx) => (
                   <Feature key={idx} {...props} />

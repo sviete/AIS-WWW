@@ -117,12 +117,117 @@ a.button.button--danger {
 }
 
 @media only screen and (min-width: 997px) {
-  div.aisFeatures {
+  img.aisFeatureImg {
+    display: none;
+  }
+  div.aisFeature.row1 {
+    padding-bottom: 6em;
+  }
+  div.aisFeature.row2 {
+    padding-top: 8em;
+  }
+  div.aisFeaturesConteiner {
     background-image: url(/img/ais_gate.png);
     background-repeat: no-repeat;
     background-position: center;
+    position: relative;
   }
+  img.hideTopImgOnWideScreen {
+    display: none;
+  }
+  div.floatLeft {
+    float: left;
+    text-align: end;
+  }
+  div.floatRight {
+    float: right;
+    text-align: start;
+  }
+  .aisComiksImgBottom::after {
+    background-color: red;
+    content: "";
+    height: 80%;
+    left: 25%;
+    position: absolute;
+    top: 2%;
+    transform: translateZ(0) rotate(-45deg);
+    width: 50%;    
+  }
+
+  .aisComiksImgBottom::after {
+    transform: translateZ(0) rotate(45deg);
+  }
+
+  div.pulse-container {
+    width: 50px;
+    height: 50px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+
+  .pulse-box {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* pulse in CSS */
+  .pulse-css {
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background: orange;
+    position: relative;
+  }
+  .pulse-css:before, .pulse-css:after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    transform: scale(0.5);
+    transform-origin: center center;
+    animation: pulse-me 7s linear infinite;
+  }
+  .pulse-css:after {
+    animation-delay: 2s;
+  }
+  
+  @keyframes pulse-me {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    50% {
+      opacity: 0.1;
+    }
+    70% {
+      opacity: 0.09;
+    }
+    100% {
+      transform: scale(10);
+      opacity: 0;
+    }
+  }
+  
 }
+
+
 
 @media only screen and (max-width: 1023px) {
 }

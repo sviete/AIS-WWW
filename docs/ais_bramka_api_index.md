@@ -53,46 +53,28 @@ Dostępne parametry TTS
 | `pitch` | 1.0  | Ton mowy / 1.0 to normalny ton, niższe wartości obniżają ton syntetyzowanego głosu, większe wartości go zwiększają.|
 | `rate` |  1.0  | Szybkość mowy / 1.0 to normalna szybkość mowy, niższe wartości spowalniają mowę (0,5 to połowa normalnej szybkości mowy), większe wartości ją przyspieszają (2,0 to dwukrotność normalnej szybkości mowy).|
 | `language` | `pl_PL` | Język / Inne dostępne opcje to uk_UA, en_GB, en_US|
-| `voice` | `pl-pl-x-oda-local` | Głos / Dostępne opcje to: <br/> **pl_PL**<ul><li>`pl-pl-x-oda-network` - "Jola online",</li><li>`pl-pl-x-oda-local` - "Jola lokalnie",</li><li>`pl-pl-x-oda#female_1-local` - "Celina",</li><li>`pl-pl-x-oda#female_2-local` - "Anżela",</li><li>`pl-pl-x-oda#female_3-local` - "Asia",</li><li>`pl-pl-x-oda#male_1-local` - "Sebastian",</li><li>`pl-pl-x-oda#male_2-local` - "Bartek",</li><li>`pl-pl-x-oda#male_3-local` - "Andrzej"</li></ul> <br/> **uk_UA** <ul><li>`uk-UA-language` - "Mariya",</li></ul> <br/> **en_GB** <ul><li>`en-GB-language` - "Allison",</li></ul> <br/> **en_US** <ul><li>`en-us-x-sfg#female_2-local` - "Sophia",</li></ul> <br/> |
+| `voice` | `Jola` | Głos / Dostępne opcje to: <br/> **pl_PL: ** Jola, Celina, Anżela, Asia, Sebastian, Bartek, Andrzej<br/> **uk_UA: ** Mariya<br/> **en_GB: ** Allison, Jon<br/> **en_US: ** Sophia, Sam <br/> |
 | `path` | - | Ścieżka do zapisu pliku / TODO|
 | `format` | - | Format pliku / mp3 lub wav|
 
 
-Przykłady komunikatów:
+Dla uproszczenia, zasób **text_to_speech** pozwala też na wywolanie metodą **GET** - czyli wystarczy np. wkleić adres bramki z tekstem do przeczytania do przeglądarki internetowej żeby wywołać API.
+W przypadku metody GET należy parametry podać w ciągu zapytania (Query string). Przykłady komunikatów wywoływanych metodą GET:
 
 - informacja o alarmie pożarowym po angielsku
 
-`Attention. Attention. This is Fire alarm! Evacuation on fire route number five in two minutes`
-``` json
-{
-  "language": "en_GB",
-  "voice": "en-GB-language",  
-  "rate": "0.9",
-  "text": "Attention. Attention. This is Fire alarm!. Evacuation on fire route number five in two minutes."
-}
-```
+`http://ais-dom.local:8122/text_to_speech?language=en_GB&voice=allison&rate=1&pitch=1&text=Attention. Attention. This is Fire alarm! Evacuation on fire route number five in two minutes`
+
 
 - informacja o przerwie po ukraińsku
 
-`Ми запрошуємо вас на 30-хвилинну перерву на сніданок. Смачного.`
-``` json
-{
-  "language": "uk_UA",
-  "voice": "uk-UA-language",  
-  "rate": "1",
-  "text": "Ми запрошуємо вас на 30-хвилинну перерву на сніданок. Смачного."
-}
-```
+`http://ais-dom.local:8122/text_to_speech?language=uk_UA&voice=mariya&rate=1&pitch=1&text=Ми запрошуємо вас на 30-хвилинну перерву на сніданок. Смачного.`
+
 
 - ogłoszenie po polsku
 
-`Mamy więcej zamówień do zrealizowania, prosimy chętnych o pozostanie 2 godziny dłużej w pracy. Płacimy 200% extra.`
-``` json
-{
-  "language": "pl_PL",
-  "text": "Mamy więcej zamówień do zrealizowania, prosimy chętnych o pozostanie 2 godziny dłużej w pracy. Płacimy 200% extra."
-}
-```
+`http://ais-dom.local:8122/text_to_speech?language=pl_PL&voice=jola&rate=1&pitch=1&text=Mamy więcej zamówień do zrealizowania, prosimy chętnych o pozostanie 2 godziny dłużej w pracy. Płacimy 200% extra.`
+
 
 Przykład wywołania API z języka Python
 ``` python
