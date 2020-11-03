@@ -11,7 +11,7 @@ Obecnie aktualizacja wymaga wgrania nowego oprogramowania do urządzenia z przeg
 ## Aktualizacja krok po kroku
 
 :::danger ostrzeżenie
-NIE PRÓBUJ UAKTUALIZOWAĆ WERSJI Z NUMEREM MNIJSZYM NIŻ 7.7 BEZPOŚREDION DO BIEŻĄCEJ WERSJI.
+NIE PRÓBUJ AKTUALIZOWAĆ WERSJI Z NUMEREM MNIEJSZYM NIŻ 7.7 BEZPOŚREDNIO DO BIEŻĄCEJ WERSJI.
 Sprawdź ścieżkę aktualizacji na stronie projektu [TASMOTA](https://tasmota.github.io/docs/Upgrading/#migration-path) lub skontaktuj się z nami [info@sviete.pl](mailto:info@sviete.pl) w celu uzyskania informacji o bezpiecznej ścieżce migracji do najnowszej wersji z Twojej bieżącej wersji oprogramowania.
 :::
 
@@ -132,10 +132,10 @@ Ręczna konfiguracja połączenia MQTT opisana jest tu -> [Skonfiguruj MQTT za p
 ## Wariant oprogramowania Tasmota
 
 
-Oprogramowanie Tasmota działa na ogromnej liczbie urządzeń z ESP8266, dodatkowo obsługuje wiele protokołów komunikacji, funkcji oraz umożliwia dołączania np. czujników, silników, wyświetlaczy itd. To powoduje, ogromną ilość możliwych konfiguracji i kompilacji.
+Oprogramowanie Tasmota działa na ogromnej liczbie urządzeń z ESP8266, dodatkowo obsługuje wiele protokołów komunikacji, funkcji oraz umożliwia dołączenie np. czujników, silników, wyświetlaczy itd. To powoduje ogromną ilość możliwych konfiguracji i kompilacji.
 Nasza kompilacja, którą udostępniamy i instalujemy na sprzedawanych przez nas urządzeniach, obsługuje większość funkcji. Udostępniamy 2 pliki binarne:
 
-- ![tasmota-minimal](/img/en/iot/tasmota-minimal.svg) **tasmota-minimal.bin** - to jest specjalna wersja umożliwiającą aktualizację z przeglądarki (bez programatora). Ta wersja służy tylko do wykonania aktualizacji. Układ ESP8266 ma 1 MB pamięci, a oprogramowanie Tasmota z wszystkimi funkcjami, które mamy włączone zajmuje ponad 600 KB. Czyli w uproszczeniu, z dostępnego 1 MB miejsca na oprogramowanie, mamy na urządzeniu ponad 600 KB zajętego miejsca przez aktualne oprogramowanie i niecałe 400 KB wolnego miejsca. Nie możemy przesłać 600 KB z aktualizacją, bo taki plik się nie zmieści... dlatego wykonujemy pewną "sztuczkę" - w pierwszym kroku podmieniamy oprogramowanie na urządzeniu, które zajmuje 600 KB na oprogramowanie minimal, które zajmuje 266 KB, a w kolejnym kroku wysyłamy docelowe oprogramowanie, bo gdy na urządzeniu jest oprogramowanie minimal to mamy już ponad 600 KB miejsca wolnego (dostępnego do przesłania aktualizacji).
+- ![tasmota-minimal](/img/en/iot/tasmota-minimal.svg) **tasmota-minimal.bin** - to jest specjalna wersja umożliwiająca aktualizację z przeglądarki (bez programatora). Ta wersja służy tylko do wykonania aktualizacji. Układ ESP8266 ma 1 MB pamięci, a oprogramowanie Tasmota z wszystkimi funkcjami, które mamy włączone zajmuje ponad 600 KB. Czyli w uproszczeniu, z dostępnego 1 MB miejsca na oprogramowanie, mamy na urządzeniu ponad 600 KB zajętego miejsca przez aktualne oprogramowanie i niecałe 400 KB wolnego miejsca. Nie możemy przesłać 600 KB z aktualizacją, bo taki plik się nie zmieści... dlatego wykonujemy pewną "sztuczkę" - w pierwszym kroku podmieniamy oprogramowanie na urządzeniu, które zajmuje 600 KB na oprogramowanie minimal, które zajmuje 266 KB, a w kolejnym kroku wysyłamy docelowe oprogramowanie, bo gdy na urządzeniu jest oprogramowanie minimal to mamy już ponad 600 KB miejsca wolnego (dostępnego do przesłania aktualizacji).
 
 - ![tasmota-PL](/img/en/iot/tasmota-PL.svg) **tasmota-PL.bin** - to jest kompilacja, która obsługuje większość funkcji i jest przez nas wgrywana do urządzeń. Obecnie sprzedajemy gniazdo S26, dlatego w tej kompilacji taki moduł jest ustawiony jako domyślny.
 
