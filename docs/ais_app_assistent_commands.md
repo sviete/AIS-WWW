@@ -21,6 +21,14 @@ Możesz powiedzieć "włącz oświetlenie w kuchni", "wyłącz światło w salon
 'Wyłącz {szukana-fraza}'; 'Zgaś Światło w {szukana-fraza}'
 ```
 
+* **Przełączanie urządzeń**:
+
+Możesz powiedzieć "przełącz wentylator" itd. żeby przełączyć urządzenie z włączone na wyłączone lub odwrotnie. Jest to szczególnie przydatne, gdy sterujesz urządzeniem za pomocą komendy w tagu NFC - w ten sposób możesz jedną komendą "przełącz" zapisaną w tagu wykonywać dwie akcje "włącz" i "wyłącz".
+
+```text
+'Przełącz {szukana-fraza}'
+```
+
 * **Otwieranie i zamykanie**
 
 Możesz powiedzieć "otwórz bramę w garażu", "odsłoń rolety w salonie" lub "zasłoń wszystkie rolety". W ten sposób możesz sterować roletami i bramami.
