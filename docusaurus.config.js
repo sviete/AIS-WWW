@@ -129,19 +129,15 @@ module.exports = {
       style: 'dark',
       links: [
         {
-          title: 'Zasoby',
+          title: 'Marketing',
           items: [
             {
-              label: 'Repozytorium kodów GitHub',
-              href: 'https://github.com/sviete',
+              label: 'Facebook',
+              href: 'https://www.facebook.com/AISpeaker/',
             },
             {
-              label: 'Repozytorium aktualizacji OTA',
-              to: 'https://www.ai-speaker.com/ota',
-            },
-            {
-              label: 'Repozytorium pakietów APT',
-              to: 'https://www.ai-speaker.com/apt',
+              label: 'YouTube',
+              href: 'https://www.youtube.com/channel/UCA6XfwahvzKQDx8nmhsPFTw',
             },
           ],
         },
@@ -156,26 +152,40 @@ module.exports = {
               label: 'O projekcie AI-Speaker',
               to: 'https://www.ai-speaker.com/project/',
             },
+          ],
+        },
+        {
+          title: 'Zasoby',
+          items: [
             {
-              label: 'Prezentacja Asystenta',
-              to: 'https://www.ai-speaker.com/project/dom/',
+              label: 'Repozytorium OTA',
+              to: 'https://www.ai-speaker.com/ota',
+            },
+            {
+              label: 'Repozytorium APT',
+              to: 'https://bintray.com/sviete',
             },
           ],
         },
         {
-          title: 'Marketing',
+          title: 'Legal',
           items: [
             {
-              label: 'Facebook',
-              href: 'https://www.facebook.com/AISpeaker/',
+              label: 'Polityka prywatności',
+              href: '/ords/f?p=DOM1:PRIVACY_POLICY',
             },
             {
-              label: 'YouTube',
-              href: 'https://www.youtube.com/channel/UCA6XfwahvzKQDx8nmhsPFTw',
+              label: 'Regulamin',
+              href: '/ords/f?p=DOM1:TERMS_OF_SERVICE',
             },
           ],
         },
       ],
+      logo: {
+        alt: 'AI-Speaker Logo',
+        src: '/images/brands/logo_open_source.png',
+        href: 'https://github.com/sviete',
+      },
       copyright: `Copyright © ${new Date().getFullYear()} AI-Speaker.com`,
     },
   },
