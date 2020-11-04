@@ -28,7 +28,11 @@ Są to urządzenia, które spełniają wszystkie cechy, by były przez nas rekom
 
 Aktualna cena urządzeń jest dostępna:
 
-- u naszego oficjalnego dystrybutora [botland.com.pl ![](/img/en/icons/botland.png)](https://botland.com.pl/pl/227_prd_ai-speaker)
+- u naszego oficjalnego dystrybutora [botland.com.pl](https://botland.com.pl/pl/227_prd_ai-speaker)
 
-- na naszych aukcjach na platformie [allegro.pl ![](/img/en/icons/allegro.png)](https://allegro.pl/uzytkownik/AI-Speaker) 
+[<img src="/img/en/icons/botland.png" alt="drawing" width="200"/>](https://botland.com.pl/pl/227_prd_ai-speaker)
+
+- na naszych aukcjach na platformie [allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker) 
+
+[<img src="/img/en/icons/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker) 
 :::
