@@ -172,11 +172,11 @@ module.exports = {
           items: [
             {
               label: 'Polityka prywatności',
-              href: '/ords/f?p=DOM1:PRIVACY_POLICY',
+              href: 'https://ai-speaker.com/ords/f?p=DOM1:PRIVACY_POLICY',
             },
             {
               label: 'Regulamin',
-              href: '/ords/f?p=DOM1:TERMS_OF_SERVICE',
+              href: 'https://ai-speaker.com/ords/f?p=DOM1:TERMS_OF_SERVICE',
             },
           ],
         },
