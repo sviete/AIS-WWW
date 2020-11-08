@@ -16,6 +16,8 @@ Nazwa         | Protokół | Porty | Komenda/URL                                
  MQTT         | mqtt     | **1883**         | ```mosquitto_sub -h ais-dom.local -t '#'```               | serwer mqtt
  Terminal     | http     | **8888**         | [http://ais-dom.local:8888](http://ais-dom.local:8888)    | powłoka bash w aplikacji webowej
  Zigbee2Mqtt  | http     | **8099**         | [http://ais-dom.local:8099](http://ais-dom.local:8099)    | aplikajca zigbee2mqtt
+ Rest API     | http     | **8122**         | [http://ais-dom.local:8122](http://ais-dom.local:8122)    | api bramki
+
 
 ## Przydatne linki
 
