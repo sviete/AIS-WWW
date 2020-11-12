@@ -48,6 +48,11 @@ Gdy masz już połączoną bramkę z domową siecią, możesz przejść do konfi
 
 W tym celu przełącz bramkę na sterowanie bez monitora przyciskiem w pilocie lub klawiszem 'esc' na klawiaturze, na monitorze zobaczysz zmianę trybu działania:
 
+:::info Informacja
+Podczas sterowania bez monitora naciśnięcia przycisku na pilocie, klawiaturze czy innym kontrolerze podłączonym do bramki przesyłane są do Asystenta domowego jako zdarzenia, które mogą wyzwalać automatyzację. Przykład takiej automatyzacji opisany jest w [Automatyzacja wyzwalana przyciskiem](ais_bramka_key_event_automation).
+:::
+
+
 ![Sterowanie bez monitora](/img/en/bramka/bramka_start_menu_off_screen.png)
 
 Możesz teraz uruchomić w dowolnej przeglądarce adres bramki (który jest wyświetlany w aplikacji) i przejść do konfiguracji Asystenta domowego.
