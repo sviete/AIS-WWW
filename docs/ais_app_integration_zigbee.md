@@ -12,11 +12,11 @@ Integracja Zigbee w Asystencie domowym daje możliwość łatwego korzystania z 
 
 ## Integracja
 
-Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowanego urządzenia CC2531](/docs/ais_zigbee_index). Asystent domowy sam rozpozna to urządzenie USB, poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie w kongiguracji pojawi się możliwość dodawania urządzeń zigbee.
+Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowanego urządzenia CC2531](/docs/ais_zigbee_index). Asystent domowy sam rozpozna to urządzenie USB, poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie w konfiguracji pojawi się możliwość dodawania urządzeń zigbee.
 
 ## Obsługiwane urządzenia
 
-Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 10/2020 obsługiwanych jest ponad 1000 urządzeń od 168 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html).Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
+Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 10/2020 obsługiwanych jest ponad 1000 urządzeń od 168 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
 
 ## Dodanie nowego urządzenia Zigbee
 
