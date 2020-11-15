@@ -68,7 +68,7 @@ mode: single
 
 Możemy w automatyzacji zmienic tryb edycji na YAML i łatwo przekleić kod do swojej automatyzacji
 
-![AIS button](/img/en/bramka/ais_remote_key_events_5.png)
+![AIS button](/img/en/bramka/ais_remote_key_events_6.png)
 
 
 
