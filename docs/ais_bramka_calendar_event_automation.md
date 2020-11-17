@@ -11,8 +11,8 @@ Dodanie integracji z kalendarzem opisane jest w sekcji integracje: [AIS Kalendar
 
 ![AIS scan](/img/en/frontend/ais_calendars_10.png)
 
-Poniżej na przykładzie pokażemy jak wykonać automatyzację która przychodzące zdarzenia z kalendarza będzie wykonywała tak jak komendy. 
-W ten spobów można sterować urządzeniami, włączać automatyzacje, wysyłać powiadomienia, uruchamiać muzykę itd.
+Poniżej na przykładzie pokażemy jak wykonać automatyzację, która przychodzące zdarzenia z kalendarza będzie wykonywała tak jak komendy. 
+W ten sposób można sterować urządzeniami, włączać automatyzacje, wysyłać powiadomienia, uruchamiać muzykę itd.
 
 
 ### Kalendarze
@@ -21,7 +21,7 @@ Kalendarze dostępne są w encjach systemu jako czujniki binarne z atrybutami. M
 
 ![AIS scan](/img/en/frontend/ais_calendars_8.png)
 
-Gdy zdarzenie z kalendarza jest aktywne to status czujnika ma wartość **on** a w jego atrybutach widzimy opis aktywnego zdarzenia.
+Gdy zdarzenie z kalendarza jest aktywne, to status czujnika ma wartość **on** a w jego atrybutach widzimy opis aktywnego zdarzenia.
 
 
 
@@ -57,7 +57,7 @@ data_template:
 
 ### Kod automatyzacji
 
-Gotowy do przeklejenia (oczywiście należy zmianić nazwę kalendarza na własną) kod automatyzacji w formacie YAML:
+Gotowy do przeklejenia (oczywiście należy zmienić nazwę kalendarza na własną) kod automatyzacji w formacie YAML:
 
 ``` yaml
 alias: Wydarzenie z kalendarza
@@ -83,7 +83,7 @@ mode: single
 
 ### Działanie automatyzacji
 
-Zdarzenia które dodaliśmy w kalendarzu Google:
+Zdarzenia, które dodaliśmy w kalendarzu Google:
 
 ![Calendar](/img/en/frontend/calendar_automation_5.png)
 
@@ -98,7 +98,7 @@ ostatnie zdarzenie pokazywane jest w stanach, w encji kalendarza:
 ![Calendar](/img/en/frontend/calendar_automation_7.png)
 
 
-Gdy encja kalendarza ma status ``on`` wiadomość z kalendarza wysyłana jest do wykonania jako komenda (tak samo, jak komenda głosowa czy komenda wpisywana w pole czatu z Jolką).
-W efekcje Jolka wykonuje komendę - czyli w naszym przykładzie mówi/czyta tekst:
+Gdy encja kalendarza ma status ``on``, to wiadomość z kalendarza wysyłana jest do wykonania jako komenda (tak samo, jak komenda głosowa czy komenda wpisywana w pole czatu z Jolką).
+W efekcie Jolka wykonuje komendę - czyli w naszym przykładzie mówi/czyta tekst:
 
 ![Calendar](/img/en/frontend/calendar_automation_8.png)
