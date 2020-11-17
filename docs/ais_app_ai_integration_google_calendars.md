@@ -48,7 +48,15 @@ Identyfikator Twojego podstawowego kalendarza **calendar_id** to adres email, in
 ![AIS scan](/img/en/frontend/ais_calendars_7.png)
 
 
-Oczywiście akcję dodania zdarzenia do kalendarza można wywołać z automatyzacji i np. zaznaczyć w kalendarzu czas rozpoczęcia sezonu grzewczego którego definicja znajduje się w par. 2 pkt. 20 rozporządzenia Ministra Gospodarki z dnia 15 stycznia 2007 r. w sprawie szczegółowych warunków funkcjonowania systemów ciepłowniczych.
+Oczywiście akcję dodania zdarzenia do kalendarza można wywołać z automatyzacji.
+
+
+### Dodanie nowego kalendarza
+
+Nowe kalendarze, które dodajemy w Google Calendars, będą cyklicznie automatycznie wykrywane przez Asystenta domowego.
+W celu dodania nowego kalendarza który nie został jeszcze wykryty możemy wykonać usługę ```google.found_calendar```
+
+![AIS scan](/img/en/frontend/ais_calendars_7.png)
 
 
 
@@ -63,7 +71,7 @@ Gdy zdarzenie z kalendarza jest aktywne to status sensora ma wartość **on** a 
 Dzięki temu Kalendarza można używać jako zewnętrznego harmonogramu wydarzeń uruchamiających automatyzację, zamiast kodowania wyzwalaczy automatyzacji "na stałe" w automatyzacjach.
 
 
-> TODO Pokażemy to na przykładzie Automatyzacja wyzwalana zdarzeniem z kalendarza.
+W sekcji dotyczącej automatyzacji opisaliśmy [Przykładową automatyzację wyzwalaną zdarzeniem z kalendarza](ais_bramka_calendar_event_automation)
 
 
 ### Rozwiązywania problemów

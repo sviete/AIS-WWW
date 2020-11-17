@@ -38,6 +38,7 @@ module.exports = {
           "ais_bramka_automation_helpers",
           "ais_bramka_key_event_automation",
           "ais_bramka_tag_automation",
+          "ais_bramka_calendar_event_automation",
           "ais_bramka_presence_detection"
         ]
     },
