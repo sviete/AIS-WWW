@@ -5,24 +5,25 @@ sidebar_label: Automatyzacja wyzwalana przyciskiem
 
 ## Wprowadzenie
 
-Podczas sterowania w [trybie bez monitora](ais_bramka_first_run#sterowanie-bez-monitora) naciśnięcia przycisku na pilocie, klawiaturze czy innym kontrolerze podłączonym do bramki przesyłane są do Asystenta domowego jako zdarzenia.
-Takie zdarzenia mogą wyzwalać automatyzację opiszemy to na przykładzie pniżej.
+Podczas sterowania w [trybie bez monitora](ais_bramka_first_run#sterowanie-bez-monitora), naciśnięcie przycisku na pilocie, klawiaturze czy innym kontrolerze podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie.
+Takie zdarzenia mogą wyzwalać automatyzację. Opiszemy to na przykładzie poniżej.
 
 ![AIS button](/img/en/bramka/ais_remote_key_events.jpg)
 
-### Rozpoznawania zdarzeń typu naciśnięcie przycisku
+### Rozpoznawanie zdarzeń typu 'naciśnięcie przycisku'
 
-Po podłączeniu do usb kontrolera i jego poprawnym rozpoznaniu przez system asystent powie "Dodano urządzenie ....". 
-Gdy jesteś w [trybie sterowania bez monitora](ais_bramka_first_run#sterowanie-bez-monitora) to przyciski wysyłane są do Asystenta domowego jako zdarzenia typu **ais_key_event**
+Po podłączeniu do USB kontrolera i jego poprawnym rozpoznaniu przez system, asystent powie "Dodano urządzenie ....". 
+Gdy jesteś w [trybie sterowania bez monitora](ais_bramka_first_run#sterowanie-bez-monitora), to przyciski wysyłane są do Asystenta domowego jako zdarzenia typu **ais_key_event**
 
-Żeby dowiedzieć się jaki kod ma przycisk który naciskamy, wystarczy sprawdzić stan encji: **binary_sensor.ais_remote_button**, to jest kod ostatnio odebranego przycisku.
+Żeby dowiedzieć się, jaki kod ma przycisk, który naciskamy, wystarczy sprawdzić stan encji: **binary_sensor.ais_remote_button** - to jest kod ostatnio odebranego przycisku.
 
 ![AIS button](/img/en/bramka/ais_remote_key_events_1.png)
 
-Oczywiście dla wygody można dodać tą encję jako kartę w aplikacji:
+Oczywiście dla wygody można dodać tę encję jako kartę w aplikacji:
+
 ![AIS button](/img/en/bramka/ais_remote_key_events_2.png)
 
-Gdy już wiemy jaki kod ma przycisk którym chcemy wyzwalać automatyzacje to przechodzimy do jej definiowania.
+Gdy już wiemy jaki kod ma przycisk, którym chcemy wyzwalać automatyzacje, to przechodzimy do jej definiowania.
 
 
 ### Dodnie automatyzacji
@@ -38,7 +39,7 @@ Gdy już wiemy jaki kod ma przycisk którym chcemy wyzwalać automatyzacje to pr
 ![AIS button](/img/en/bramka/ais_remote_key_events_4.png)
 
 
-3. Akcja do wyonania
+3. Akcja do wykonania
 
 ![AIS button](/img/en/bramka/ais_remote_key_events_5.png)
 
@@ -66,7 +67,7 @@ action:
 mode: single
 ```
 
-Możemy w automatyzacji zmienic tryb edycji na YAML i łatwo przekleić kod do swojej automatyzacji
+Możemy w automatyzacji zmienić tryb edycji na YAML i łatwo przekleić kod do swojej automatyzacji
 
 ![AIS button](/img/en/bramka/ais_remote_key_events_6.png)
 
