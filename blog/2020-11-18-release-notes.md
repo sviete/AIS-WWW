@@ -42,9 +42,9 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 :::
 
 
-## Uwaga dwuetapowa aktualizacja
+## Uwaga! Dwuetapowa aktualizacja
 
-Tym razem wyjątkowo, aktualizacja będzie 2 etapowa:
+Tym razem wyjątkowo aktualizacja będzie 2-etapowa:
 
 ### 1. Etap. Aktualizacja składowych AIS HA i Android
 
@@ -79,12 +79,12 @@ Ten etap będzie już bardzo szybki, po 1-2 minutach (pobranie 20 MB i rozpakowa
 W tej wersji opisujemy nowe możliwości wyzwalania automatyzacji. Dodaliśmy trzy przykłady wyzwalaczy automatyzacji:
 - zdarzenia z kalendarza, 
 - skan QR kod z aplikacji mobilnej, 
-- naciśnięcie przycisku kontrolera podłaczonego do bramki.
+- naciśnięcie przycisku kontrolera podłączonego do bramki.
 
 
 ### Automatyzacja wyzwalana zdarzeniem z kalendarza
 
-Kalendarza można używać jako zewnętrznego harmonogramu zdarzeń / komend do wykonania w sytemie zamiast kodowania ich na stałe w automatyzacjach.
+Kalendarza można używać jako zewnętrznego harmonogramu zdarzeń / komend do wykonania w systemie zamiast kodowania ich na stałe w automatyzacjach.
 
 ![AIS scan](/img/en/frontend/ais_calendars_10.png)
 
@@ -123,9 +123,9 @@ Jesteśmy w kontakcie z Google Cloud Trust & Safety Team i na bieżąco wyjaśni
 :::
 
 Nie znaczy to jednak, że przyszłość integracji Kalendarze AIS nie jest jeszcze pewna i może zniknąć z Asystenta domowego.
-Kalendarz jako sposób wyzwalania automatyzacji ma szanse być prostrzym sposobem na harmonogramowanie zdaań w Asystencie domowym (sterowanie ogrzewaniem itp.). Dlatego jeżeli nie dostaniemy autoryzacji od Google lub integracja nie będzie działać prawidłowo, to uruchomimy kalendarz CalDAV w portalu integratora.
+Kalendarz jako sposób wyzwalania automatyzacji ma szanse być prostszym sposobem na harmonogramowanie zadań w Asystencie domowym (sterowanie ogrzewaniem itp.). Dlatego jeżeli nie dostaniemy autoryzacji od Google lub integracja nie będzie działać prawidłowo, to uruchomimy kalendarz CalDAV w portalu integratora.
 
-**Podsumowując - Kalendarze AIS to integracja która będzie w systemie Asystent domowy i będzie działać z każdą wersją coraz łatwiej i lepiej.**
+**Podsumowując - Kalendarze AIS to integracja, która będzie w systemie Asystent domowy i będzie działać z każdą wersją coraz łatwiej i lepiej.**
 
 
 ![AIS scan](/img/en/frontend/ais_calendars_3.png)
@@ -145,9 +145,9 @@ Poprawki i ulepszenia, oraz oczywiście obsługa nowych urządzeń. Opis całego
 
 Cała lista zmian, nowości i poprawek dostępna jest na stronie projektu [Tasmota](https://github.com/arendst/Tasmota/releases/tag/v9.1.0)
 
-Nasze kompilacje udostępniamy są tu [AIS-Tasmota](https://github.com/sviete/AIS-Tasmota/tree/firmware)
+Nasze kompilacje udostępniamy tutaj [AIS-Tasmota](https://github.com/sviete/AIS-Tasmota/tree/firmware)
 
-Pracujemy nad tym, żeby dołączenie nowego urządzenia z oprogramowaniem AIS Tasmota było jeszcze łatwiejsze podobnie jak jego aktualizacja. 
+Pracujemy nad tym, żeby dołączenie nowego urządzenia z oprogramowaniem AIS Tasmota było jeszcze łatwiejsze, podobnie jak jego aktualizacja. 
 W portalu integratora można zobaczyć przypisane do bramki urządzenia z naszą kompilacją oprogramowania Tasmota:
 
 ![Home Assistant](/img/en/blog/202011/iot.png)
@@ -161,7 +161,7 @@ Obecny proces dodawania urządzeń IoT działa bez zmian. Nowy proces dodania ur
 ## ![](/img/en/blog/202007/hass.png) Home Assistant 0.117.6
 
 
-Najnowszy (stabilny) Home Assistant 0.117.6, oczwyiście jak zwykle jest ogromna liczba poprawek i nowych rzeczy. 
+Najnowszy (stabilny) Home Assistant 0.117.6, oczywiście jak zwykle jest ogromna liczba poprawek i nowych rzeczy. 
 Cała lista nowości dostępna jest na stronie projektu: [Home Assistant 0.117.6](https://www.home-assistant.io/blog/2020/10/28/release-117/)
 
 
