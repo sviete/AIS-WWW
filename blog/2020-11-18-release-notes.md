@@ -7,7 +7,7 @@ title: Wersja systemu 0.117.7
 tags: [google calendars, home assistant, automatyzacje, zigbee2mqtt, tasmota]
 ---
 
-# 0.116.7 Automatyzujemy
+# 0.117.7 Automatyzujemy
 
 - ![AIS](/img/en/blog/202010/mechanical-arm.png) **Automatyzujemy**
 - ![AIS Kalendarze](/img/en/blog/202011/ais_calendar.png) Kalendarze AIS
