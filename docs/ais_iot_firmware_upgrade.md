@@ -5,6 +5,7 @@ sidebar_label: Aktualizacja oprogramowania
 
 :::tip Wskazówka
 Obecnie aktualizacja wymaga wgrania nowego oprogramowania do urządzenia z przeglądarki internetowej.
+Pracujemy nad automatyczną aktualizacją OTA, tak żeby urządzenia miały możliwość automatycznej aktualizacji oprogramowania.
 :::
 
 
@@ -12,27 +13,23 @@ Obecnie aktualizacja wymaga wgrania nowego oprogramowania do urządzenia z przeg
 
 :::danger ostrzeżenie
 NIE PRÓBUJ AKTUALIZOWAĆ WERSJI Z NUMEREM MNIEJSZYM NIŻ 7.7 BEZPOŚREDNIO DO BIEŻĄCEJ WERSJI.
-Sprawdź ścieżkę aktualizacji na stronie projektu [TASMOTA](https://tasmota.github.io/docs/Upgrading/#migration-path) lub skontaktuj się z nami [info@sviete.pl](mailto:info@sviete.pl) w celu uzyskania informacji o bezpiecznej ścieżce migracji do najnowszej wersji z Twojej bieżącej wersji oprogramowania.
+Sprawdź ścieżkę aktualizacji na stronie projektu [TASMOTA](https://tasmota.github.io/docs/Upgrading/#migration-path) lub skontaktuj się z nami [info@ai-speaker.com](mailto:info@ai-speaker.com) w celu uzyskania informacji o bezpiecznej ścieżce migracji do najnowszej wersji z Twojej bieżącej wersji oprogramowania.
 :::
 
 ### Pobranie plików
 
-Pliki ze skompilowaną najnowszą wersją oprogramowania dla urządzeń dostępne są:
-
-1. W serwisie Github [FIRMWARE](https://github.com/sviete/AIS-Tasmota/tree/firmware) gdzie automatycznie kompilujemy wiele wariantów oprogramowania dla każdej wersji.
+Pliki ze skompilowaną najnowszą wersją oprogramowania dla urządzeń dostępne są w serwisie Github [FIRMWARE](https://github.com/sviete/AIS-Tasmota/tree/firmware) gdzie automatycznie kompilujemy wiele wariantów oprogramowania dla każdej wersji.
 
 ![FIRMWARE AIS dom](/img/en/iot/iot_ais_dom_github_firmware.png)
-
-2. Na naszej stronie z aktualizacjami, pod adresem [OTA](https://www.ai-speaker.com/ota/).
 
 
 
 Pobierz najnowsze wersje 2 plików:
+1. tasmota-minimal.bin
+2. tasmota-PL.bin 
 
-- [![tasmota-minimal](/img/en/iot/tasmota-minimal.svg) tasmota-minimal.bin](https://powiedz.co/ota/dom/tasmota-minimal.bin)
-- [![tasmota-minimal](/img/en/iot/tasmota-PL.svg) tasmota-PL.bin](https://powiedz.co/ota/dom/tasmota-PL.bin)
+![FIRMWARE AIS dom](/img/en/iot/ais-tasmota.png)
 
-![OTA AIS dom](/img/en/iot/iot_ais_dom_device_rf433_firmware.png)
 
 
 ### Ustalenie adresu IP urządzenia
