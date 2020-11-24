@@ -71,7 +71,7 @@ Gdy zdarzenie z kalendarza jest aktywne, to status sensora ma wartość **on** a
 Dzięki temu Kalendarza można używać jako zewnętrznego harmonogramu wydarzeń uruchamiających automatyzację, zamiast kodowania wyzwalaczy automatyzacji "na stałe" w automatyzacjach.
 
 
-W sekcji dotyczącej automatyzacji opisaliśmy [Przykładową automatyzację wyzwalaną zdarzeniem z kalendarza](ais_bramka_calendar_event_automation)
+W sekcji dotyczącej automatyzacji opisaliśmy [Przykładową automatyzację wyzwalaną zdarzeniem z kalendarza](/docs/ais_bramka_calendar_event_automation)
 
 
 ### Rozwiązywanie problemów
