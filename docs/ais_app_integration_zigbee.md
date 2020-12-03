@@ -16,7 +16,7 @@ Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowan
 
 ## Obsługiwane urządzenia
 
-Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 10/2020 obsługiwanych jest ponad 1000 urządzeń od 168 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
+Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 12/2020 obsługiwanych jest ponad 1100 urządzeń od 184 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
 
 ## Dodanie nowego urządzenia Zigbee
 
@@ -25,10 +25,10 @@ Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zi
 Aby zapewnić bezpieczeństwo sieci Zigbee i uniknąć przypadkowego dołączenia innych urządzeń Zigbee, domyślnie w konfiugracji mamy ustawiony parametr **enable_join: false**.
 
 Przed rozpoczęciem parowania nowego urządzenia należy włączyć w aplikacji możliwość czasowego parowania z bramką. W przeciwnym razie nowe urządzenia nie będą mogły dołączyć do sieci!
-Możliwość czasowego parowania z bramką włączamy po przejściu do konfiguracji zigbee2mqtt, w menu wybieramy **Konfiguracja** -> **Konfiguracja urządzeń zigbee** 
+Możliwość czasowego parowania z bramką włączamy po przejściu do konfiguracji zigbee2mqtt, w menu wybieramy **Konfiguracja** -> **Konfiguracja urządzeń zigbee**
 
 ![Zigbee integracja](/img/en/frontend/zigbee2mqtt_ais_dom_1.png)
- 
+
 następnie naciskamy przycisk **permit join** - zezwolenie na dołączenie nowych urządzeń
  
 
@@ -68,3 +68,43 @@ Po wybraniu urządzenia możemy zobaczyć jego szczegóły i przejść do dodani
 
 
 Oczywiście nowe encje możemy umieszczać na karcie i wykorzystywać w automatyzacjach, przykłady gotowych rozwiązań zostaną dodane [na forum](https://ai-speaker.discourse.group/).
+
+
+-----------------------------------------------------
+## Informacje techniczne
+
+### Proces zigbee
+
+Procesami na bramce steruje [Menedżer procesów PM2](http://pm2.keymetrics.io/).
+PM2 odpowiedzialny jest też za uruchomienie procesu zigbee po wykryciu urządzenia CC2531, a następnie czuwa nad jego ciągłym działaniem.
+
+Żeby zobaczyć status procesu zigbee w konsoli wpisujemy:
+
+```
+pm2 show zigbee
+```
+
+![zigbee](/img/en/bramka/pm2_zigbee.png)
+
+
+### Aplikacja i binarka
+
+Proces zigbee oparty jest na aplikacji [zigbee2mqtt](https://www.zigbee2mqtt.io/) która działa na binarce [nodejs-lts](https://nodejs.org/en/)
+
+Naszą kompilację nodejs udostępniamy w naszym repozytorium pakietów binarnych [bintray](https://bintray.com/sviete/ais/nodejs-lts)
+
+![zigbee](/img/en/bramka/nodejs_binary.png)
+
+
+### Dostęp lokalny
+
+Aplikacja 8099 działa na porcie **8099** w lokalnej sieciu można połączyć się z ją bezpośrednio, wpisując w przeglądarce ``http://<ip-bramki>:8099``
+
+![zigbee](/img/en/bramka/app_zigbee2mqtt.png)
+
+
+### Dostęp zdalny
+
+Umożliwiamy też na zdalny dostęp do aplikacji webowej zigbee2mqtt. Dostęp ten jest możliwy tylko po zalogowaniu do Asystenta domowego i jest realizowany z pomocą naszego dodatku ais_proxy - mechnizmu typu [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
+
+![zigbee](/img/en/bramka/app_zigbee2mqtt_proxy.png)

@@ -12,7 +12,7 @@ Pracujemy nad automatyczną aktualizacją OTA, tak żeby urządzenia miały moż
 ## Aktualizacja krok po kroku
 
 :::danger ostrzeżenie
-NIE PRÓBUJ AKTUALIZOWAĆ WERSJI Z NUMEREM MNIEJSZYM NIŻ 7.7 BEZPOŚREDNIO DO BIEŻĄCEJ WERSJI.
+**NIE PRÓBUJ AKTUALIZOWAĆ BEZPOŚREDNIO DO BIEŻĄCEJ WERSJI.**
 Sprawdź ścieżkę aktualizacji na stronie projektu [TASMOTA](https://tasmota.github.io/docs/Upgrading/#migration-path) lub skontaktuj się z nami [info@ai-speaker.com](mailto:info@ai-speaker.com) w celu uzyskania informacji o bezpiecznej ścieżce migracji do najnowszej wersji z Twojej bieżącej wersji oprogramowania.
 :::
 
@@ -21,80 +21,6 @@ Sprawdź ścieżkę aktualizacji na stronie projektu [TASMOTA](https://tasmota.g
 Pliki ze skompilowaną najnowszą wersją oprogramowania dla urządzeń dostępne są w serwisie Github [FIRMWARE](https://github.com/sviete/AIS-Tasmota/tree/firmware) gdzie automatycznie kompilujemy wiele wariantów oprogramowania dla każdej wersji.
 
 ![FIRMWARE AIS dom](/img/en/iot/iot_ais_dom_github_firmware.png)
-
-
-
-Pobierz najnowsze wersje 2 plików:
-1. tasmota-minimal.bin
-2. tasmota-PL.bin 
-
-![FIRMWARE AIS dom](/img/en/iot/ais-tasmota.png)
-
-
-
-### Ustalenie adresu IP urządzenia
-
-W systemie Asystent domowy przejdź do grupy "Menu" -> "Konfiguracja" -> "Konfiguracja Urządzeń AIS dom" a następnie wybierz urządzenie i sprawdź jego status, by odczytać jego aktualny adres IP
-
-
-![Urządzenia w Twojej sieci](/img/en/iot/iot_device_discovery.png)
-
-
-
-### Menu urządzenia
-
-Znając IP urządzenia, wpisz go w przeglądarce internetowej, by przejść do strony urządzenia.
-![Główne menu urządzenia](/img/en/iot/iot_device_menu.png)
-
-W głównym menu, aplikacji na urządzeniu wybierz opcję "Aktualizacja oprogramowania"
-![Główne menu urządzenia](/img/en/iot/iot_device_menu_go_to_update.png)
-
-
-
-
-### Pierwszy plik, tasmota-minimal.bin
-
-Wybierz plik **tasmota-minimal.bin** i naciśnij "Start aktualizacji"
-
-![Pierwszy plik](/img/en/iot/iot_device_menu_upgrade_1.png)
-
-
-Odczekaj, aż pojawi się informacja o powodzeniu aktualizacji i wróć do menu głównego
-
-![Pierwszy plik](/img/en/iot/iot_device_menu_upgrade_2.png)
-
-
-Z głównego menu przejdź do wgrywania kolejnego pliku
-
-![Pierwszy plik](/img/en/iot/iot_device_menu_upgrade_3.png)
-
-
-### Drugi plik, tasmota-PL.bin
-
-Wybierz plik **tasmota-PL.bin** i naciśnij "Start aktualizacji"
-
-![Drugi plik](/img/en/iot/iot_device_menu_upgrade_4.png)
-
-
-Odczekaj, aż pojawi się informacja o powodzeniu aktualizacji.
-Następnie urządzenie się zrestartuje i powróci do głównego menu.
-
-
-
-### Konsola
-
-Z głównego menu możemy przejść do konsoli urządzenia
-
-![Przejście do konsoli](/img/en/iot/iot_device_menu_upgrade_5.png)
-
-
-Jeżeli chcesz mieć pewność, że urządzenie pracuje z naszymi domyślnymi ustawieniami (a nie ustawieniami z innego oprogramowania, które było na urządzeniu wcześniej) to w konsoli urządzenia, wykonaj polecenie **Reset 5** dzięki temu będziesz miał pewność, że urządzenie będzie miało konfigurację taką jak dostarczona w oprogramowaniu.
-
-:::important informacja
-Uwaga. Polecenie **Reset 5**  wykasuje wszystkie ustawienia urządzenia (poza konfiguracją WiFi), jeśli urządzenie komunikowało się z systemem automatyki domowej, to może być konieczne nowe parowanie lub ręczna konfiguracja.
-:::
-
-![Reset 5](/img/en/iot/iot_device_menu_upgrade_6.png)
 
 
 ## Konfiguracja
@@ -130,11 +56,7 @@ Ręczna konfiguracja połączenia MQTT opisana jest tu -> [Skonfiguruj MQTT za p
 
 
 Oprogramowanie Tasmota działa na ogromnej liczbie urządzeń z ESP8266, dodatkowo obsługuje wiele protokołów komunikacji, funkcji oraz umożliwia dołączenie np. czujników, silników, wyświetlaczy itd. To powoduje ogromną ilość możliwych konfiguracji i kompilacji.
-Nasza kompilacja, którą udostępniamy i instalujemy na sprzedawanych przez nas urządzeniach, obsługuje większość funkcji. Udostępniamy 2 pliki binarne:
-
-- ![tasmota-minimal](/img/en/iot/tasmota-minimal.svg) **tasmota-minimal.bin** - to jest specjalna wersja umożliwiająca aktualizację z przeglądarki (bez programatora). Ta wersja służy tylko do wykonania aktualizacji. Układ ESP8266 ma 1 MB pamięci, a oprogramowanie Tasmota z wszystkimi funkcjami, które mamy włączone zajmuje ponad 600 KB. Czyli w uproszczeniu, z dostępnego 1 MB miejsca na oprogramowanie, mamy na urządzeniu ponad 600 KB zajętego miejsca przez aktualne oprogramowanie i niecałe 400 KB wolnego miejsca. Nie możemy przesłać 600 KB z aktualizacją, bo taki plik się nie zmieści... dlatego wykonujemy pewną "sztuczkę" - w pierwszym kroku podmieniamy oprogramowanie na urządzeniu, które zajmuje 600 KB na oprogramowanie minimal, które zajmuje 266 KB, a w kolejnym kroku wysyłamy docelowe oprogramowanie, bo gdy na urządzeniu jest oprogramowanie minimal to mamy już ponad 600 KB miejsca wolnego (dostępnego do przesłania aktualizacji).
-
-- ![tasmota-PL](/img/en/iot/tasmota-PL.svg) **tasmota-PL.bin** - to jest kompilacja, która obsługuje większość funkcji i jest przez nas wgrywana do urządzeń. Obecnie sprzedajemy gniazdo S26, dlatego w tej kompilacji taki moduł jest ustawiony jako domyślny.
+Nasza kompilacja, którą udostępniamy i instalujemy na sprzedawanych przez nas urządzeniach, obsługuje większość funkcji. W naszym repozytorium kodów udostępniamy wszystkie warianty kompilacji.
 
 ### Dostępne funkcje i czujniki
 
@@ -333,3 +255,9 @@ Nasza kompilacja oprogramowania Tasmota ma lokalne polskie ustawienia:
 - regionalne serwery czasu NTP (pl.pool.ntp.org, 0.pl.pool.ntp.org),
 - strefę czasową dla Polski,
 - lokalizacja to środek polski (52.069528, 19.480300) do wykorzystania podczas ustawiania charmonogramu opartego na wschodzie i zachodzie słońca.
+
+
+### Zabezpiecznia
+
+W naszej kompilacji od wersji 9.1.0 dodaliśmy mechanizm zabezpieczenia (safeguard), przed wgraniem niepoprawnej wersji oprogramowania (z pominięciem ścieżki migracji).
+Jest to element mechanizmu aktualizacji online, nad którym pracujemy.
