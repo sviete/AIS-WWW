@@ -55,6 +55,9 @@ Oczywiście akcję dodania zdarzenia do kalendarza można wywołać z automatyza
 
 Nowe kalendarze, które dodajemy w Google Calendars, będą cyklicznie automatycznie wykrywane przez Asystenta domowego.
 W celu dodania nowego kalendarza, który nie został jeszcze wykryty, możemy wykonać usługę ```google.found_calendar```
+Usługa ta wywoływana jest po naciśnięciu przycisku 
+
+
 
 ![AIS scan](/img/en/frontend/ais_calendars_7.png)
 

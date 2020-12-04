@@ -1,6 +1,6 @@
 ---
 title: "AIS Google Home"
-sidebar_label: Google Home
+sidebar_label: AIS Google Home
 ---
 
 ## Wprowadzenie

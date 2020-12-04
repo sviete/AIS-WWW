@@ -1,6 +1,6 @@
 ---
-title: "Galeria"
-sidebar_label: Galeria
+title: "AIS Galeria"
+sidebar_label: AIS Galeria
 ---
 
 
