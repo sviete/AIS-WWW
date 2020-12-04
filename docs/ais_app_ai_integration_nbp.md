@@ -5,7 +5,7 @@ sidebar_label: AIS NBP
 
 ## Wprowadzenie
 
-AIS NBP jest to integracja Asystenta domowego z serwisem api.nbp.pl który umożliwia pobieranie kursów walut oraz cen złota z Narodowego Banku Polskiego.
+AIS NBP jest to integracja Asystenta domowego z serwisem api.nbp.pl, który umożliwia pobieranie kursów walut oraz cen złota z Narodowego Banku Polskiego.
 
 
 ![AIS NBP](/img/en/frontend/ais_nbp1.png)
@@ -18,26 +18,28 @@ Aby skonfigurować AIS NBP, przejdź do konfiguracji a następnie do panelu inte
 ![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp2.png)
 
 
-Potiwerdz, że chcesz dodaś integraję:
+Potwierdź, że chcesz dodać integrację:
 
 ![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp3.png)
 
 
-Wybież jakie waluty chcesz obserwować i naciśnij **ZATWIERDZ**:
+Wybierz, jakie waluty chcesz obserwować i naciśnij **ZATWIERDŹ**:
 
 ![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp4.png)
 
 
 ## Encje integracji
 
-Integracja dodaje kilka sensorów (w zależności od ilości wybranych walut do śledzenia), sensory są automatycznie cyklicznie odświeżane tak żeby ich wartość reprezentowała aktualne kursy w NBP.
+Integracja dodaje kilka sensorów (w zależności od ilości wybranych walut do śledzenia), sensory są automatycznie i cyklicznie odświeżane tak, żeby ich wartość reprezentowała aktualne kursy w NBP.
+
 ![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp5.png)
 
-Encje mogą być dodane do interfejsu w ten spoób można prezentować ich status w wybrany sposób.
+Encje mogą być dodane do interfejsu, w ten sposób można prezentować ich status w wybrany sposób.
 
 ## Komendy głosowe
 
-O status encji nbp pytamy tak samo jak o status każdej innej encji w wsytemie:
+O status encji NBP pytamy tak samo, jak o status każdej innej encji w systemie:
+
 ![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp6.png)
 
 
@@ -58,7 +60,7 @@ Integracje usuwamy przechodząc do konfiguracji a następnie do panelu integracj
 
 ## Dodatkowa informacja
 
-Integracje AIS NBP powstała na [forum Asystenta domowego](https://ai-speaker.discourse.group/t/wlasna-integracja-7-przyklad-nowej-integracji/1029) jako przykład/szablon opisujący dodawanie własnej nowej integracji do Asystenta domowego.
+Integracja AIS NBP powstała na [forum Asystenta domowego](https://ai-speaker.discourse.group/t/wlasna-integracja-7-przyklad-nowej-integracji/1029) jako przykład/szablon opisujący dodawanie własnej, nowej integracji do Asystenta domowego.
 
 ![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp9.png)
 
