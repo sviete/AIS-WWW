@@ -13,7 +13,7 @@ tags: [google calendars, home assistant, automatyzacje, zigbee2mqtt, tasmota]
 - ![AIS LTS](/img/en/blog/202012/handshake.png) AIS LTS
 - ![AIS Kalendarze](/img/en/blog/202011/ais_calendar.png) Kalendarze AIS
 - ![Zigbee](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.2
-- ![Home Assistant](/img/en/blog/202007/hass.png) AIS HA 0.118.5
+- ![Home Assistant](/img/en/blog/202007/hass.png) AIS HA 0.118.5 + Konferencja Home Assistant
 
 
 <!--truncate-->
@@ -131,11 +131,14 @@ Cała lista nowości dostępna jest na stronie projektu: [Home Assistant 0.118.5
 
 Będzie kilka ciekawych tematów - cały harmonogram konferencji dostępny jest na stronie [Home Assistant Conference](https://hopin.com/events/home-assistant-conference#schedule)
 
-### Wiemy, że na konferencji zostanie ogłoszone wydanie Home Assistant Core 1.0! :) 
+### Home Assistant Core 1.0! :) 
 
-Oznacza to zakończenie 7-letniego okresu bety, co bardzo nas cieszy. 
+Wiemy, że na konferencji zostanie ogłoszone wydanie Home Assistant Core 1.0. Oznacza to zakończenie 7-letniego okresu bety, co bardzo nas cieszy. 
+
+### Nasze plany i zapowiedzi na 2021 rok.
+
 W przyszłym tygodniu podsumujemy zapowiedzi HA, które będą miały wpływ na nasz system - być może zmieni się cykl wydawniczy.
-W przyszłym tygodniu opublikujemy też nasze plany i zapowiedzi na 2021 rok.
+**Opublikujemy też nasze plany i zapowiedzi na 2021 rok.**
 
 
 
