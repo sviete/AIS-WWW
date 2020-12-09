@@ -85,7 +85,7 @@ Największa zmiana to najnowszy Python 3.9, który będzie wspierany do 2025 rok
 
 Na forum opisaliśmy całą [procedurę przejścia do wersji LTS](https://ai-speaker.discourse.group/t/ais-lts-long-time-support-dlugoterminowe-wsparcie/1013).
 
-Ci, którzy wykonają [Pełny reset aplikacji],(/docs/ais_bramka_reset_ais_step_by_step) dostaną nowe binarki bez potrzeby instalacji, bo dodaliśmy je do najnowszej paczki z kodami startowymi (bootstrap).
+Ci, którzy wykonają [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step) dostaną nowe binarki bez potrzeby instalacji, bo dodaliśmy je do najnowszej paczki z kodami startowymi (bootstrap).
 
 ![AIS LTS](/img/en/blog/202012/bootstrap.png)
 
