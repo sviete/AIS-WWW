@@ -46,7 +46,7 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 
 #### Od tej wersji zmieniamy nazwy wersji systemu z numerów na imiona.
 
-Nazywając naszą werję systemu **Asia** nie chdziło nam o brytyjską grupę muzyczną Asia, ani też o planetoidę o numerze katalogowym 67, czy prowincję rzymską, ani Asię która w mitologii greckiej była jedną z Nereid... 
+Nazywając naszą werję systemu **Asia** nie chodziło nam o brytyjską grupę muzyczną Asia, ani też o planetoidę o numerze katalogowym 67, czy prowincję rzymską, ani też Asię, która w mitologii greckiej była jedną z Nereid... 
 
 **Asia**, wg nas, to zdrobnienie imienia Joanna. Wg [wikipedia.pl](https://pl.wikipedia.org/wiki/Joanna) Asia to zdrobnienie imienia żeńskiego, odpowiednika imienia Jan pochodzącego z języka hebrajskiego: Jo-hanan – „Jahwe jest łaskawy”.
 
@@ -59,15 +59,15 @@ Witamy w systemie **Asia** i zapraszamy do aktualizacji :)
 
 ### ![](/img/en/blog/202012/nbp.png) AIS - Narodowy Bank Polski
 
-Dodaliśmy integrację AIS NBP. Której opis działania dostępny jest w dokumentacji: [AIS Narodowy Bank Polski](/docs/ais_app_ai_integration_nbp)
+Dodaliśmy integrację AIS NBP, której opis działania dostępny jest w dokumentacji: [AIS Narodowy Bank Polski](/docs/ais_app_ai_integration_nbp)
 
 ![Konfiguracja AIS NBP](/img/en/frontend/ais_nbp6.png)
 
-Co ważniejsze, proces powstawania tej integracji został ze szczegółami krok po kroku opisany na naszym forumw dziale [programowanie](https://ai-speaker.discourse.group/c/programowanie/15)
+Co ważniejsze, proces powstawania tej integracji został ze szczegółami krok po kroku opisany na naszym forum w dziale [programowanie](https://ai-speaker.discourse.group/c/programowanie/15)
 ![](/img/en/blog/202012/programowanie.png) 
 
 Szablon integracji umieściliśmy w GitHub [AIS-hello](https://github.com/sviete/AIS-hello). 
-Jest to minimalna implementacja integracji czujnika / licznika która można użyć jako wzór/szablon do własnej integracji.
+Jest to minimalna implementacja integracji czujnika / licznika, której można użyć jako wzór/szablon do własnej integracji.
 
 ![AIS Hello](/img/en/blog/202012/ais-hello.png)
 
@@ -79,17 +79,17 @@ Jest to minimalna implementacja integracji czujnika / licznika która można uż
 
 Jednym z elementów projektu, nad którym obecnie pracujemy, jest zapewnienie długoterminowego wsparcia. Chodzi o to, żeby dostarczyć urządzenie z zainstalowanymi binarkami w wersji, która będzie wspierana przez kilka nadchodzących lat.
 
-Największa zmiana to najnowszy Python 3.9 który będzie wspierany do 2025 roku:
+Największa zmiana to najnowszy Python 3.9, który będzie wspierany do 2025 roku:
 
 ![AIS LTS](/img/en/blog/202012/python.png)
 
 Na forum opisaliśmy całą [procedurę przejścia do wersji LTS](https://ai-speaker.discourse.group/t/ais-lts-long-time-support-dlugoterminowe-wsparcie/1013).
 
-Ci którzy wykonają [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step) dostaną nowe binarki bez potrzeby instalacji bo dodaliśmy je do najnowszej paczki z kodami startowymi (bootstrap).
+Ci, którzy wykonają [Pełny reset aplikacji],(/docs/ais_bramka_reset_ais_step_by_step) dostaną nowe binarki bez potrzeby instalacji, bo dodaliśmy je do najnowszej paczki z kodami startowymi (bootstrap).
 
 ![AIS LTS](/img/en/blog/202012/bootstrap.png)
 
-Przejście na najnowszą wersję binarek jest oczywiście dobrowolne :) Jeżeli tego nie zrobimy to też przez kikla najbliższych wydać wszystko będzie działać ok i się aktualizować.
+Przejście na najnowszą wersję binarek jest oczywiście dobrowolne :) Jeżeli tego nie zrobimy, to też przez kilka najbliższych wydań wszystko będzie działać ok i się aktualizować.
 Za kilka miesięcy zakończymy wsparcie do Python 3.7 i wtedy system, który ma nadal Python 3.7, przestanie się aktualizować, ale o tym oczywiście poinformujemy.
 
 
@@ -106,7 +106,7 @@ Opis jak dodać integrację dostępny jest w dokumentacji: [AIS Kalendarze](/doc
 
 ### ![](/img/en/blog/202007/zigbee.png) Zigbee2Mqtt 1.16.2
 
-Poprawki i ulepszenia, oraz oczywiście obsługa nowych urządzeń. Opis całego wydania dostępny na stronie projektu [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.16.2)
+Poprawki i ulepszenia oraz oczywiście obsługa nowych urządzeń. Opis całego wydania dostępny na stronie projektu [Zigbee2Mqtt](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.16.2)
 
 ![](/img/en/blog/202012/z2m.png)
 
@@ -125,21 +125,21 @@ Cała lista nowości dostępna jest na stronie projektu: [Home Assistant 0.118.5
 
 ## ![](/img/en/blog/202007/hass.png) Konferencja Home Assistant
 
-13 Grudnia, czyli w najbliższą niedzielę zapowiedziana jest konferencja Home Assistant - największej otwartej platformy do automatyki domowej.
+13 Grudnia, czyli w najbliższą niedzielę, zapowiedziana jest konferencja Home Assistant - największej otwartej platformy do automatyki domowej.
 
 ![Home Assistant](/img/en/blog/202012/conference-header.png)
 
-Będzie kilka ciekawych tematów - czały harmonogram konferencji dostępny jest na stronie [Home Assistant Conference](https://hopin.com/events/home-assistant-conference#schedule)
+Będzie kilka ciekawych tematów - cały harmonogram konferencji dostępny jest na stronie [Home Assistant Conference](https://hopin.com/events/home-assistant-conference#schedule)
 
 ### Wiemy, że na konferencji zostanie ogłoszone wydanie Home Assistant Core 1.0! :) 
 
 Oznacza to zakończenie 7-letniego okresu bety, co bardzo nas cieszy. 
 W przyszłym tygodniu podsumujemy zapowiedzi HA, które będą miały wpływ na nasz system - być może zmieni się cykl wydawniczy.
-W przyszłym tygodniu opublikujemy też nasze plany i zapowiedzi na 2021.
+W przyszłym tygodniu opublikujemy też nasze plany i zapowiedzi na 2021 rok.
 
 
 
 ----
 Zapraszamy do aktualizacji i [komentowania na forum :)](https://ai-speaker.discourse.group/)
 
-##### AI-Speaker 09/2020
+##### AI-Speaker 12/2020
