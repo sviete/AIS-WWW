@@ -248,3 +248,7 @@ div.IntroAisBlogMenu {
 div.IntroAisBlogMenu p {
   margin-left: 20px;
 }
+
+div.AisCenterImg {
+  text-align: center;
+}
