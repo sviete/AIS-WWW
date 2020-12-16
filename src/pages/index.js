@@ -12,13 +12,13 @@ import domDemoLogo from '../../static/img/main/Anzela-Demo.png';
 
 const ais_features = [
   {
-    title: <>Ponad <span className="strongInfo">1700</span> urządzeń WiFi</>,
+    title: <>Ponad <span className="strongInfo">1760</span> urządzeń WiFi</>,
     imageUrl: 'img/main/wifi.svg',
     imageBttomUrl: 'img/main/wifi.svg',
     description: (
       <>
         <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
-        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/index.html" target="_blank">ponad 1700 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
+        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/index.html" target="_blank">ponad 1760 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
     addClass: 'col col--4 aisFeature row1',

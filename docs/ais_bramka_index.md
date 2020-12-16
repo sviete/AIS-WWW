@@ -11,28 +11,25 @@ Bramka do domowego Internetu Rzeczy z inteligentnym asystentem głosowym to urz�
 
 ### Zdjęcie produktu
 
-<img
-  src='/img/en/bramka/bramka_full.jpg'
-  alt='Bramka AIS dom'
-/>
+![AIS dom DEV2](/img/en/bramka/bramka_full.jpg)
 
 ### Specyfikacja techniczna
 
 Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada wbudowane WiFi oraz dysk, a także porty LAN/Ethernet, 4 x USB, SPDIF, Aux, HDMI.
 
-|                       | dev1                                                    |
+|                       | AIS DEV2                                                    |
 |-----------------------|---------------------------------------------------------|
-| oprogramowanie        | Asystent domowy, środowisko Linux, Android 7.1.2(root)  |
+| oprogramowanie        | Asystent domowy, środowisko Linux, Android (root)  |
 | procesor              | Amlogic S905 ARM Cortex-A53 (cztero-rdzeniowy)          |
-| pamięć                | 1 GB                                                    |
-| wbudowany dysk        | 8 GB                                                    |
-| Gniazdo karty pamięci | SD/MMC                                                  |
-| USB                   | 4 (1x OTG, 3x USB 2.0)                                  |
+| pamięć                | 2 GB DDR3                                               |
+| wbudowany dysk        | 16 GB eMMC                                              |
+| Gniazdo karty pamięci | TF                                                      |
+| USB                   | 2 (1x OTG, 1x USB 2.0)                                  |
 | HDMI                  | 2.0A                                                    |
 | AV                    | 3,5mm jack                                              |
 | SPDIF                 | 3,5mm jack                                              |
 | Ethernet RJ45         | 10/100M                                                 |
-| WiFI                  | 2.4 GHz                                                 |
+| WiFI                  | 2.4 GHz 802.11 b/g/n                                    |
 | Dodatkowo w zestawie  | kabel HDMI, zasilacz 5V 2A                              |
 | Do kupienia osobno    | pilot radiowy, inteligentne urządzenia                  |
 

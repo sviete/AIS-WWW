@@ -13,7 +13,7 @@ Przy pierwszym uruchomieniu bramki, na telewizorze lub monitorze podłączonym d
 Możesz nawigować po ekranie menu za pomocą pilta radiowego, myszki lub klawiatury.
 
 
-## Połączenie z siecią WiFi
+## Połączenie bramki z siecią WiFi
 
 Na początek jeżeli nie łączysz bramki do sieci za pomocą kabla sieciowego LAN to skonfiguruj połączenie WiFi:
 ![Główne menu](/img/en/bramka/bramka_start_menu_wifi.png)
