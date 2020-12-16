@@ -31,9 +31,13 @@ Z boku urządzenia mamy 2 porty USB (1x OTG, 1x USB 2.0) oraz gniazdo karty pami
 ### TV lub monitor
 
 Bramkę podłącz do telewizora lub monitora za pomocą kabla HDMI, następnie podłącz do zasilania.
-Żeby połączyć bramkę z Internetem możesz użyć kabla ethernet lub sieci WiFi.
+
 
 ![AIS DEV2 First run](/img/en/bramka/first_run_2_1.png)
+
+### Ethernet lub WiFi
+
+Żeby połączyć bramkę z Internetem możesz użyć kabla ethernet lub sieci WiFi.
 
 
 ### Dodatkowe urządzenia
