@@ -9,10 +9,10 @@
     "deploy": "docusaurus deploy"
   },
   "dependencies": {
-    "@docusaurus/core": "^2.0.0-alpha.69",
-    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.69",
-    "@docusaurus/plugin-pwa": "^2.0.0-alpha.69",
-    "@docusaurus/preset-classic": "^2.0.0-alpha.69",
+    "@docusaurus/core": "^2.0.0-alpha.70",
+    "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.70",
+    "@docusaurus/plugin-pwa": "^2.0.0-alpha.70",
+    "@docusaurus/preset-classic": "^2.0.0-alpha.70",
     "classnames": "^2.2.6",
     "color": "^3.1.2",
     "http-server": "^0.12.3",

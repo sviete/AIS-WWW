@@ -4,14 +4,14 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: AIS 20/21 - podsumownie i zapowiedzi
-tags: [DEV2, PRO, EASY, AI-SPEAKER]
+tags: [2020, 2021, DEV2, PRO, EASY, AI-SPEAKER]
 ---
 
 [![AIS DEV2 First run](/img/en/bramka/first_run_video.png)](https://youtu.be/1qSQWAFizCM?cc_load_policy=1)
 
 
 <div class="IntroAisBlogMenu" >
-<a href="2020-12-15-release-notes#ais-2020"> Podsumowanie roku 2020</a> 
+<a href="2020-12-18-release-notes#ais-2020"> Podsumowanie roku 2020</a>
 <div>
 
 ![AIS 2020](/img/en/blog/202012/2020_icon.png)
@@ -21,7 +21,7 @@ tags: [DEV2, PRO, EASY, AI-SPEAKER]
 
 
 <div class="IntroAisBlogMenu" >
-<a href="2020-12-15-release-notes#ais-2021"> AIS DEV2</a> 
+<a href="2020-12-18-release-notes#ais-2021"> AIS DEV2</a>
 <div>
 
 ![AIS DEV2](/img/en/blog/202012/dev2_icon.png)
@@ -31,7 +31,7 @@ tags: [DEV2, PRO, EASY, AI-SPEAKER]
 
 <div class="IntroAisBlogMenu" >
 
-<a href="2020-12-15-release-notes#ais-pro"> AIS PRO</a>
+<a href="2020-12-18-release-notes#ais-pro"> AIS PRO</a>
 <div>
 
 ![AIS PRO](/img/en/blog/202012/pro_icon.png)
@@ -41,7 +41,7 @@ tags: [DEV2, PRO, EASY, AI-SPEAKER]
 
 <div class="IntroAisBlogMenu" >
 
-<a href="2020-12-15-release-notes#ais-easy"> AIS EASY</a>
+<a href="2020-12-18-release-notes#ais-easy"> AIS EASY</a>
 
 <div>
 
@@ -51,7 +51,7 @@ tags: [DEV2, PRO, EASY, AI-SPEAKER]
 </div>
 
 <div class="IntroAisBlogMenu" >
-<a href="2020-12-15-release-notes#ai-speaker"> AI-Speaker</a>
+<a href="2020-12-18-release-notes#ai-speaker"> AI-Speaker</a>
 <div>
 
 ![AIS](/img/en/blog/202012/speaker_icon.png)
@@ -72,7 +72,7 @@ tags: [DEV2, PRO, EASY, AI-SPEAKER]
 - da się zintegrować urządzenia różnych producentów i sprowadzić do wspólnego API
 - dostęp do usług/API i możliwość zautomatyzowania, daje ogromne możliwości sterowania i łączenia elementów w całość bez ryzyka uzależnienia się od jednego dostawcy.
 
-Rozmawialiśmy też z producentami, którzy od dziesiątek lat są na rynku i dzisiaj nie mają jeszcze problemów ze sprzedażą, ale powoli czują, że nadchodzi czas gdy zwykłe urządzenie to będzie za mało. Bo klienci stali się bardziej wyrafinowani, mają większe zasoby finansowe i potrzeby, szukają czegoś więcej niż włącznik światła, chcą kompleksowych rozwiązań smart dom. 
+Rozmawialiśmy też z producentami, którzy od dziesiątek lat są na rynku i dzisiaj nie mają jeszcze problemów ze sprzedażą, ale powoli czują, że nadchodzi czas gdy zwykłe urządzenie to będzie za mało. Bo klienci stali się bardziej wyrafinowani, mają większe zasoby finansowe i potrzeby, szukają czegoś więcej niż włącznik światła, chcą kompleksowych rozwiązań smart dom.
 
 Zauważyliśmy też, że część klientów zaczyna dostrzegać, że producent zamkniętego rozwiązanie nie jest w stanie zaspokoić ich potrzeb. Bo nikt w ofercie nie ma wszystkich urządzeń, a to że klimatyzacja działa z aplikacji mobilnej firmy X, oświetlenie firmy Y a ogrzewanie firmy Z... itd. to za mało. Ważne jest aby urządzenia rozumiały standardowe protokoły IoT i integrowały się z innymi urządzeniami, tylko wtedy można sterować urządzeniami z różnych systemów, definiować sceny i zautomatyzować dom.
 
@@ -90,15 +90,17 @@ Zapewniamy, że robimy co w naszej mocy, żeby rok 2021 był rokiem w którym po
 
 ### ![](/img/en/blog/202012/dev2_icon.png) AIS DEV2
 
-Wydajemy bramkę DEV2, która ma 2 razy więcej RAM i ROM niż DEV1 no i jest 2 razy mniejsza. Ma też wbudowany tag NFC i jej uruchomienie jest prostsze, odrobiliśmy lekcje i poprawiliśmy sporo rzeczy.
-Nie jest to jakaś rewolucja w stosunku do DEV1, ale ewolucja i zgodność z prawem Moore’a wymyślonym przez pracownika firmy Intel ;) Czyli 2 razy więcej w 2 razy mniejszej obudowie.
+Wydajemy bramkę DEV2, która ma 2 razy więcej RAM i ROM niż DEV1 no i jest 2 razy mniejsza. Odrobiliśmy lekcje DEV1 i poprawiliśmy sporo rzeczy "pod spodem", dodatkowo cała bramka wg nas jest teraz ładniejsza. Ma też kod QR na plakietce znamionowej którego zeskanowaniu aparatem w telefonie poprowadzi do instalacji naszej aplikacji, ma też wbudowany tag NFC, dzięki czemujej uruchomienie jest prostsze.
+Nie jest to jakaś rewolucja w stosunku do DEV1, ale ewolucja i zgodność z prawem Moore’a (wymyślonym przez pracownika firmy Intel) - czyli 2 razy więcej w 2 razy mniejszej obudowie co 2 lata.
 
-Nasz system dojrzewa i wersja 1.0 to już kwestia bardziej dni niż miesięcy, ale chcemy mieć zawsze w ofercie wersję DEV, która będzie konkurencją cenową i funkcjonalną dla RPi i innych rozwiązań DIY.
+Nasz system dojrzewa i wersja nie beta to już kwestia bardziej tygodni niż miesięcy, ale chcemy mieć zawsze w ofercie wersję DEV, która będzie konkurencją cenową i funkcjonalną dla RPi i innych rozwiązań DIY. Dlatego nadal jest to DEV z root-em a nie zamknięty produkt.
 
 ![DEV2](/img/en/blog/202012/dev2.jpg)
 
 
-Bardzo szanujemy kreatywnych ludzi którzy potrafią sami rozwiązywać problemy a nie je stwarzać, bo nie sztuką jest udowadnianie, że coś nie działa, że się nie da... to jest nam w stanie udowodnić 5 letnia Asia - jak jej damy dostęp root do bramki ;). Sztuką jest dostarczenie bramki IoT za 200zł, którą da się sterować całym mieszkaniem czy biurem.
+Bardzo szanujemy kreatywnych ludzi którzy potrafią sami rozwiązywać problemy a nie je stwarzać, bo nie sztuką jest udowadnianie, że coś nie działa, że się nie da... to jest nam w stanie udowodnić 5 letnia Asia - jak jej damy dostęp root do bramki ;).
+
+Sztuką jest dostarczenie bramki IoT za 200zł, którą da się sterować całym mieszkaniem czy biurem.
 My udowodniliśmy, że to możliwe. Sami sterujemy oświetleniem, roletami i ogrzewaniem w naszym biurze za pomocą naszej bramki DEV. Dodatkowo bramka odtwarza audio i wykonuje dziesiątki automatyzacji. Nie mamy najmniejszej potrzeby żeby tą bramkę zastępować czymś innym - jesteśmy dumni z tego rozwiązania :)
 
 DEV2 to parametry porównywalne (w sumie trochę nawet lepsze) z Fibaro HC3, przy 10 krotnie mniejszej cenie.
@@ -114,10 +116,10 @@ AIS DEV to bramka IoT o ogromnych możliwościach i najbardziej przystępnej cen
 ### ![](/img/en/blog/202012/pro_icon.png) AIS PRO
 
 Część naszych użytkowników to zaawansowani technicznie pasjonaci automatyki, którzy niemal codziennie coś integrują. Otrzymujemy też maile od użytkowników którzy chętnie skorzystaliby z naszego rozwiązania ale chcieliby żeby na urządzeniu “działało wszystko”. Wszystko czyli: baza danych, rejestracja wideo z kamer, setki urządzeń w kilkupiętrowym domu. To wszystko podłączone po zigbee, wifi, knx itd..
-Takie złożone systemy automatyki nie da się dostarczyć za 200 zł i uczciwie musieliśmy przyznać, że nie mamy rozwiązania dedykowanego do tak zaawansowanych zastosowań. 
+Takie złożone systemy automatyki nie da się dostarczyć za 200 zł i uczciwie musieliśmy przyznać, że nie mamy rozwiązania dedykowanego do tak zaawansowanych zastosowań.
 Użytkownicy takich systemów mogą używać kilka bramek (po jednej na piętro) lub są skazani na mini serwer w garażu i 50 zł rachunku za prąd który ten serwer zużywa.
 
-Rozumiemy potrzebę mienia wszystkiego, bo jak ktoś powiedział - potrzeby człowieka są nieograniczone. Dla pasjonatów automatyki domowej którym nie chodzi tylko o to żeby sterować światłem, ogrzewaniem i bramą, zakup mocnej bramki z ogromną ilością zasobów sprzętowych jest naturalnym wyborem. Sensowność istniena takiej bramki na rynku pokazuje też ostatnia zapowiedz Home Assistant. 
+Rozumiemy potrzebę mienia wszystkiego, bo jak ktoś powiedział - potrzeby człowieka są nieograniczone. Dla pasjonatów automatyki domowej którym nie chodzi tylko o to żeby sterować światłem, ogrzewaniem i bramą, zakup mocnej bramki z ogromną ilością zasobów sprzętowych jest naturalnym wyborem. Sensowność istniena takiej bramki na rynku pokazuje też ostatnia zapowiedz Home Assistant.
 
 Dlatego w 2021 chcemy zaproponować alternatywę dla mini serwerów z procesorami Intel. Będzie to bramka AIS PRO, z najbardziej wydajnym 6 rdzeniowym procesorem ARM dostępnym na rynku. Bramka która będzie miała tak mocne parametry, że cały system uruchomi się w kilka sekund a jednocześnie nie będzie się przegrzewał i do pracy na pełnych obrorach wystarczy jej pasywne chłodzenie, dzięki czemu będzie zużywał 1/10 energii którą zużywa procesor Intel. Bramka AIS PRO to coś więcej niż IoT & Audio. To prawdziwy multimedialny kombajn dla tych co chcą mieć wszystko! :)
 
@@ -139,8 +141,8 @@ Proste i tanie produkty realizujące konkretną potrzebę to coś co zawsze dobr
 <img src="/img/en/blog/202012/ais_easy.jpg" alt="AIS Easy" width="200"/>
 </div>
 
-Wprowadzimy do oferty produkty które tak jak nasze inteligentne gniazdko, realizują podstawowe rzeczy w prosty sposób. 
-Od takich produktów, typu sterowanie bramy smartfonem, czy sterowanie światłem albo roletami, zwykle zaczyna się przygodę z automatyką domową. 
+Wprowadzimy do oferty produkty które tak jak nasze inteligentne gniazdko, realizują podstawowe rzeczy w prosty sposób.
+Od takich produktów, typu sterowanie bramy smartfonem, czy sterowanie światłem albo roletami, zwykle zaczyna się przygodę z automatyką domową.
 
 #### Chcemy, żeby próg wejścia w świat automatyki domowej był w 2021 niższy, dla wszystkich!
 
@@ -153,7 +155,7 @@ Inteligentny głośnik, to zdecydowanie najbardziej ambitny produkt jak robimy. 
 
 Z głośnikiem jest tak, że jesteśmy bliżej niż dalej :) Każda aktualizacja systemu i bramki DEV przybliża nas powoli do celu.
 
-Mamy nadzieję, że uda nam się zaoferować ten produkt w 2021 roku. 
+Mamy nadzieję, że uda nam się zaoferować ten produkt w 2021 roku.
 
 Mamy to szczęście, że nie gonią nas terminy, dotacje, inwestorzy, opłaty za serwery w Amazon cloud czy inne zobowiązania które zmuszały by nas do szybkiego wypuszczania kolejnych produków (w celu utrzymania poprzenich).  
 
