@@ -11,7 +11,7 @@ tags: [2020, 2021, DEV2, PRO, EASY, AI-SPEAKER]
 
 
 <div class="IntroAisBlogMenu" >
-<a href="2020-12-18-release-notes#ais-2020"> Podsumowanie roku 2020</a>
+<a href="#ais-2020"> Podsumowanie roku 2020</a>
 <div>
 
 ![AIS 2020](/img/en/blog/202012/2020_icon.png)
@@ -21,7 +21,7 @@ tags: [2020, 2021, DEV2, PRO, EASY, AI-SPEAKER]
 
 
 <div class="IntroAisBlogMenu" >
-<a href="2020-12-18-release-notes#ais-2021"> AIS DEV2</a>
+<a href="#ais-2021"> AIS DEV2</a>
 <div>
 
 ![AIS DEV2](/img/en/blog/202012/dev2_icon.png)
@@ -31,7 +31,7 @@ tags: [2020, 2021, DEV2, PRO, EASY, AI-SPEAKER]
 
 <div class="IntroAisBlogMenu" >
 
-<a href="2020-12-18-release-notes#ais-pro"> AIS PRO</a>
+<a href="#ais-pro"> AIS PRO</a>
 <div>
 
 ![AIS PRO](/img/en/blog/202012/pro_icon.png)
@@ -41,7 +41,7 @@ tags: [2020, 2021, DEV2, PRO, EASY, AI-SPEAKER]
 
 <div class="IntroAisBlogMenu" >
 
-<a href="2020-12-18-release-notes#ais-easy"> AIS EASY</a>
+<a href="#ais-easy"> AIS EASY</a>
 
 <div>
 
@@ -51,7 +51,7 @@ tags: [2020, 2021, DEV2, PRO, EASY, AI-SPEAKER]
 </div>
 
 <div class="IntroAisBlogMenu" >
-<a href="2020-12-18-release-notes#ai-speaker"> AI-Speaker</a>
+<a href="#ai-speaker"> AI-Speaker</a>
 <div>
 
 ![AIS](/img/en/blog/202012/speaker_icon.png)
