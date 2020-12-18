@@ -40,9 +40,15 @@ Podłącz bramkę do telewizora lub monitora za pomocą kabla HDMI, następnie p
 Żeby połączyć bramkę z Internetem możesz użyć kabla ethernet lub sieci WiFi.
 
 
-### Dodatkowe urządzenia
+### Dodatkowe urządzenia 
 
 Opcjonalnie, możesz dołączyć do gniazd USB z boku bramki: [pilot radiowy zdalnego sterowania z mikrofonem](/docs/ais_remote_index) i/lub [kontroler zigbee](/docs/ais_zigbee_index).
+
+
+### Wbudowany chip NFC
+
+W lewym, dolnym rogu obudowy znajduje się wbudowany tag NFC, który ma domyślnie zaprogramowany unikalny identyfikator Twojej bramki. Jeśli Twój telefon posiada NFC, to możesz w ten sposób szybko i łatwo połączyć się z bramką z naszej darmowej aplikacji AIS dom (bez potrzeby wpisywania adresu bramki).
+
 
 ![AIS DEV2 First run](/img/en/bramka/first_run_3.png)
 
