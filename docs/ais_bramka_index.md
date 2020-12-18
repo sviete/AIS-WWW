@@ -7,7 +7,7 @@ sidebar_label: Karta produktu
 
 ### Opis produktu
 
-Bramka do domowego Internetu Rzeczy z inteligentnym asystentem głosowym to urządzenie, którego celem jest komunikacja i zarządzanie inteligentnymi urządzeniami w Twoim domu. **Bramka "tłumaczy" polecenia głosowe na komendy, które są zrozumiałe przez urządzenia** oraz automatycznie wykonuje czynności (np. włączenie urządzeń) w określonych okolicznościach.
+Celem bramki do domowego Internetu Rzeczy z inteligentnym asystentem głosowym jest komunikacja i zarządzanie inteligentnymi urządzeniami w Twoim domu. **Bramka "tłumaczy" polecenia głosowe na komendy, które są zrozumiałe przez urządzenia** oraz automatycznie wykonuje czynności (np. włączenie urządzeń) w określonych okolicznościach.
 
 ### Zdjęcie produktu
 
@@ -29,19 +29,19 @@ Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada
 | AV                    | 3,5mm jack                                              |
 | SPDIF                 | 3,5mm jack                                              |
 | Ethernet RJ45         | 10/100M                                                 |
-| WiFI                  | 2.4 GHz 802.11 b/g/n                                    |
+| WiFi                  | 2.4 GHz 802.11 b/g/n                                    |
 | Dodatkowo w zestawie  | kabel HDMI, zasilacz 5V 2A                              |
 | Do kupienia osobno    | pilot radiowy, inteligentne urządzenia                  |
 
 
 ### Oprogramowanie
 
-Oprogramowanie obsługuje najbardziej popularne urządzenia inteligentnego domu i **działa lokalnie w Twoim domu - nie gromadzi danych w chmurze**.
+Oprogramowanie obsługuje najbardziej popularne urządzenia smart home i **działa lokalnie w Twoim domu - nie gromadzi danych w chmurze**.
 
 W naszym rozwiązaniu bramka jest odpowiedzialna za kontrolę nad urządzeniami oraz dostarczanie treści.
 Bramka umożliwia zarządzanie urządzeniami i sensorami oraz pełni rolę mostu między Internetem Rzeczy a Twoją siecią domową. Urządzenie jest „tłumaczem” protokołów IoT i przekazuje komunikację sieciową do aplikacji w celu prezentacji stanu urządzeń oraz dostarczeniu kontroli dla użytkownika.
 
-Główne zadania, które realizuje oprogramowanie zainstalowane na bramce to:
+Główne zadania realizowane przez zainstalowane na bramce oprogramowanie to:
 
  * tłumaczenie poleceń głosowych na komendy, które są zrozumiałe przez urządzenia,
  * zbieranie informacji i kontrolowanie urządzeń,
@@ -53,7 +53,7 @@ Technicznie nasza platforma zawiera 4 główne komponenty systemowe, pierwsze tr
  * **System Android ze środowiskiem Linux**: minimalny system podstawowy oraz dodatkowe pakiety dostępne za pomocą menedżera pakietów APT z naszego repozytorium pakietów [Ais Linux](https://github.com/sviete/AIS-LINUX-PACKAGES).
  * **Platforma automatyki**: zmodyfikowana i uzupełniona (o dodatkowe usługi, automatyczne wykrywanie urządzeń i inne ulepszenia) platfroma [Home Assistant](https://github.com/sviete/AIS-home-assistant)
  * **Aplikacje dodatkowe**: nasze aplikacje dostępne w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)
- * **Usługi online**: w serwisie online mamy zdefiniowane stacje radiowe, podcasty, kanały wiadomości oraz dostępy do usług zewnętrznych wymagających autentykacji.
+ * **Usługi online**: w serwisie online mamy zdefiniowane stacje radiowe, podcasty, kanały wiadomości oraz dostępy do usług zewnętrznych wymagających uwierzytelnienia.
 
 
  ## Dostępność i cena
