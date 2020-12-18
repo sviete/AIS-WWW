@@ -7,17 +7,31 @@ title: AIS 20/21 - podsumownie i zapowiedzi
 tags: [DEV2, PRO, EASY, AI-SPEAKER]
 ---
 
+[![AIS DEV2 First run](/img/en/bramka/first_run_video.png)](https://youtu.be/1qSQWAFizCM?cc_load_policy=1)
+
+
 <div class="IntroAisBlogMenu" >
-AIS DEV2
+<a href="2020-12-15-release-notes#ais-2020"> Podsumowanie roku 2020</a> 
 <div>
 
-![AIS DEV2](/img/en/blog/202012/dev2_icon.png) 
+![AIS 2020](/img/en/blog/202012/2020_icon.png)
+
+</div>
+</div>
+
+
+<div class="IntroAisBlogMenu" >
+<a href="2020-12-15-release-notes#ais-2021"> AIS DEV2</a> 
+<div>
+
+![AIS DEV2](/img/en/blog/202012/dev2_icon.png)
 
 </div>
 </div>
 
 <div class="IntroAisBlogMenu" >
-AIS PRO
+
+<a href="2020-12-15-release-notes#ais-pro"> AIS PRO</a>
 <div>
 
 ![AIS PRO](/img/en/blog/202012/pro_icon.png)
@@ -26,7 +40,9 @@ AIS PRO
 </div>
 
 <div class="IntroAisBlogMenu" >
-AIS EASY
+
+<a href="2020-12-15-release-notes#ais-easy"> AIS EASY</a>
+
 <div>
 
 ![AIS EASY](/img/en/blog/202012/easy_icon.png)
@@ -35,7 +51,7 @@ AIS EASY
 </div>
 
 <div class="IntroAisBlogMenu" >
-AI-Speaker
+<a href="2020-12-15-release-notes#ai-speaker"> AI-Speaker</a>
 <div>
 
 ![AIS](/img/en/blog/202012/speaker_icon.png)
@@ -74,19 +90,20 @@ Zapewniamy, że robimy co w naszej mocy, żeby rok 2021 był rokiem w którym po
 
 ### ![](/img/en/blog/202012/dev2_icon.png) AIS DEV2
 
-Wydajemy bramkę DEV2, która ma 2 razy więcej RAM i ROM niż DEV1 no i jest 2 razy mniejsza. Ma też wbudowany tag NFC i jej uruchomienie jest prostsze, odrobiliśmy lekcje i poprawiliśmy sporo rzeczy ;)
-Nie jest to jakaś rewolucja w stosunku do DEV1, ale ewolucja i zgodność z prawem Moore’a wymyślonym przez pracownika firmy Intel ;)
+Wydajemy bramkę DEV2, która ma 2 razy więcej RAM i ROM niż DEV1 no i jest 2 razy mniejsza. Ma też wbudowany tag NFC i jej uruchomienie jest prostsze, odrobiliśmy lekcje i poprawiliśmy sporo rzeczy.
+Nie jest to jakaś rewolucja w stosunku do DEV1, ale ewolucja i zgodność z prawem Moore’a wymyślonym przez pracownika firmy Intel ;) Czyli 2 razy więcej w 2 razy mniejszej obudowie.
 
-Nasz system dojrzewa, wersja 1.0 to już kwestia dni :) 
+Nasz system dojrzewa i wersja 1.0 to już kwestia bardziej dni niż miesięcy, ale chcemy mieć zawsze w ofercie wersję DEV, która będzie konkurencją cenową i funkcjonalną dla RPi i innych rozwiązań DIY.
 
-Ale chcemy mieć zawsze w ofercie wersję DEV, która będzie konkurencją cenową i funkcjonalną dla RPi i innych rozwiązań DIY.
+![DEV2](/img/en/blog/202012/dev2.jpg)
+
 
 Bardzo szanujemy kreatywnych ludzi którzy potrafią sami rozwiązywać problemy a nie je stwarzać, bo nie sztuką jest udowadnianie, że coś nie działa, że się nie da... to jest nam w stanie udowodnić 5 letnia Asia - jak jej damy dostęp root do bramki ;). Sztuką jest dostarczenie bramki IoT za 200zł, którą da się sterować całym mieszkaniem czy biurem.
 My udowodniliśmy, że to możliwe. Sami sterujemy oświetleniem, roletami i ogrzewaniem w naszym biurze za pomocą naszej bramki DEV. Dodatkowo bramka odtwarza audio i wykonuje dziesiątki automatyzacji. Nie mamy najmniejszej potrzeby żeby tą bramkę zastępować czymś innym - jesteśmy dumni z tego rozwiązania :)
 
 DEV2 to parametry porównywalne (w sumie trochę nawet lepsze) z Fibaro HC3, przy 10 krotnie mniejszej cenie.
 
-![DEV2](/img/en/blog/202012/ais_dev2_device_nameplate.png)
+![DEV2](/img/en/bramka/first_run_4.png)
 
 Na bramce DEV dostarczamy największą na świecie platformę do automatyki domowej Home Assistant, broker MQTT, aplikację Zigbee2Mqtt, lokalny TTS, piękny nowoczesny i konfigurowalny interfejs użytkownika, wbudowany odtwarzacz audio wraz z biblioteką audio, i oczywiście Asystenta głosowego.Do tego dodajemy darmowy zdalny dostęp, aplikację mobilną oraz na zegarek i wbudowane łatwo konfigurowalne integracje AIS.
 To wszystko w cenie w jakiej inni oferują przełącznik... ;)
@@ -97,11 +114,14 @@ AIS DEV to bramka IoT o ogromnych możliwościach i najbardziej przystępnej cen
 ### ![](/img/en/blog/202012/pro_icon.png) AIS PRO
 
 Część naszych użytkowników to zaawansowani technicznie pasjonaci automatyki, którzy niemal codziennie coś integrują. Otrzymujemy też maile od użytkowników którzy chętnie skorzystaliby z naszego rozwiązania ale chcieliby żeby na urządzeniu “działało wszystko”. Wszystko czyli: baza danych, rejestracja wideo z kamer, setki urządzeń w kilkupiętrowym domu. To wszystko podłączone po zigbee, wifi, knx itd..
-Takie złożone systemy automatyki kosztują kilkadziesiąt tysięcy złotych i uczciwie musieliśmy przyznać, że nie mamy rozwiązania dedykowanego do tak zaawansowanych zastosowań. Użytkownicy takich systemów mogą używać kilka bramek (po jednej na piętro) lub są skazani na mini serwer w garażu i 50 zł rachunku za prąd który ten serwer zużywa.
+Takie złożone systemy automatyki nie da się dostarczyć za 200 zł i uczciwie musieliśmy przyznać, że nie mamy rozwiązania dedykowanego do tak zaawansowanych zastosowań. 
+Użytkownicy takich systemów mogą używać kilka bramek (po jednej na piętro) lub są skazani na mini serwer w garażu i 50 zł rachunku za prąd który ten serwer zużywa.
 
-Rozumiemy potrzebę mienia wszystkiego ;) Dla pasjonatów automatyki domowej którym nie chodzi tylko o to żeby sterować światłem, ogrzewaniem i bramą zakup mocnej bramki z ogromną ilością zasobów sprzętowych jest naturalnym wyborem.
+Rozumiemy potrzebę mienia wszystkiego, bo jak ktoś powiedział - potrzeby człowieka są nieograniczone. Dla pasjonatów automatyki domowej którym nie chodzi tylko o to żeby sterować światłem, ogrzewaniem i bramą, zakup mocnej bramki z ogromną ilością zasobów sprzętowych jest naturalnym wyborem. Sensowność istniena takiej bramki na rynku pokazuje też ostatnia zapowiedz Home Assistant. 
 
-Dlatego w 2021 chcemy zaproponować alternatywę dla mini serwerów z procesorami Intel. Będzie to bramka AIS PRO, z najbardziej wydajnym 6 rdzeniowym procesorem ARM dostępnym na rynku. Bramka która będzie miała tak mocne parametry, że cały system uruchomi się w kilka sekund a jednocześnie będzie miała pasywne chłodzenie i zużywał 1/10 energii którą zużywa procesor Intel. Bramka AIS PRO to coś więcej niż IoT & Audio. To prawdziwy multimedialny kombajn dla tych co chcą mieć wszystko! :)
+Dlatego w 2021 chcemy zaproponować alternatywę dla mini serwerów z procesorami Intel. Będzie to bramka AIS PRO, z najbardziej wydajnym 6 rdzeniowym procesorem ARM dostępnym na rynku. Bramka która będzie miała tak mocne parametry, że cały system uruchomi się w kilka sekund a jednocześnie nie będzie się przegrzewał i do pracy na pełnych obrorach wystarczy jej pasywne chłodzenie, dzięki czemu będzie zużywał 1/10 energii którą zużywa procesor Intel. Bramka AIS PRO to coś więcej niż IoT & Audio. To prawdziwy multimedialny kombajn dla tych co chcą mieć wszystko! :)
+
+Nad ofertą takie bramki pracowaliśmy już jakiś czas (finalizujemy umowę z naszym partnerem), Home Assitant trochę nas ubiegł z zapowiedzią. Oczywiście to tylko świadczy o sensowności tej drogi. Ponieważ bramka Home Assistant to serwer bez multimediów i nie ma w nim elementów potrzebnych do projektu inteligentnego głośnika, więc nasza bramka PRO która będzie miała całego Home Assistan, będzie uzupełniała możliwości bramki HA.
 
 ![](/img/en/blog/202012/ais_arm.jpeg)
 
@@ -131,13 +151,13 @@ Od takich produktów, typu sterowanie bramy smartfonem, czy sterowanie światłe
 
 Inteligentny głośnik, to zdecydowanie najbardziej ambitny produkt jak robimy. Połączenie bramki IoT & audio, mikrofonu, w obudowie ze wzmacniaczem i głośnikiem tak żeby otrzymać aktywny inteligentny głośnik sterujący automatyką i ładnie odtwarzający audio... niestety nie jest takie proste jak się może wydawać.
 
-Jeżeli nie wierzycie to spróbujcie zaprojektować i zamówić wykonanie jednego elementu obudowy z aluminium, albo wytrenować wake word czy dobrać pełnozakresowy głośnik który ma odpowiednie parametry i gra tak, że jesteście z tego zadowoleni. 
-
 Z głośnikiem jest tak, że jesteśmy bliżej niż dalej :) Każda aktualizacja systemu i bramki DEV przybliża nas powoli do celu.
 
 Mamy nadzieję, że uda nam się zaoferować ten produkt w 2021 roku. 
 
-Na szczęście mamy ten komfort, że nie gonią nas terminy, dotacje, inwestorzy czy inne zobowiązania. Dlatego możemy spokojnie zadeklarować, że "zrobimy co w naszej mocy i wydamy jak tylko będzie gotowy" :)
+Mamy to szczęście, że nie gonią nas terminy, dotacje, inwestorzy, opłaty za serwery w Amazon cloud czy inne zobowiązania które zmuszały by nas do szybkiego wypuszczania kolejnych produków (w celu utrzymania poprzenich).  
+
+Dlatego możemy uczciwie zadeklarować, że "zrobimy co w naszej mocy i wydamy jak tylko będzie gotowy" :)
 
 
 ## Życzymy Wszystkim mienia i spełniania marzeń w 2021!
