@@ -20,7 +20,7 @@ W pudełku znajdziesz bramkę oraz niezbędne akcesoria:
 
 ## Gniazda dostępne w urządzeniu
 
-Na tylnym panelu, licząc od lewej strony, znajdują się kolejno następujące porty: Zasilanie, HDMI, AV, LAN, SPDIF
+Na tylnym panelu, licząc od lewej strony, znajdują się kolejno następujące porty: zasilanie, HDMI, AV, LAN, SPDIF
 
 ![AIS DEV2 First run](/img/en/bramka/first_run_2.png)
 
@@ -30,7 +30,7 @@ Z boku urządzenia mamy 2 porty USB (1x OTG, 1x USB 2.0) oraz gniazdo karty pami
 
 ### TV lub monitor
 
-Bramkę podłącz do telewizora lub monitora za pomocą kabla HDMI, następnie podłącz do zasilania.
+Podłącz bramkę do telewizora lub monitora za pomocą kabla HDMI, następnie podłącz do zasilania.
 
 
 ![AIS DEV2 First run](/img/en/bramka/first_run_2_1.png)
@@ -42,15 +42,15 @@ Bramkę podłącz do telewizora lub monitora za pomocą kabla HDMI, następnie p
 
 ### Dodatkowe urządzenia
 
-Opcjonalnie, możesz dołączyć do gniazd USB z boku bramki: [radiowy pilot USB zdalnego sterowania z mikrofonem](/docs/ais_remote_index) i/lub [USB kontroler zigbee](/docs/ais_zigbee_index).
+Opcjonalnie, możesz dołączyć do gniazd USB z boku bramki: [pilot radiowy zdalnego sterowania z mikrofonem](/docs/ais_remote_index) i/lub [kontroler zigbee](/docs/ais_zigbee_index).
 
 ![AIS DEV2 First run](/img/en/bramka/first_run_3.png)
 
 
 ## Zdalne połączenie z bramką
 
-Do bramki mozesz łączyć się z naszej darmowej aplikacji na platformę Android lub z dowolnej przeglądarki Internetowej.
+Możesz połączyć się z bramką używając naszej darmowej aplikacji na platformę Android lub dowolnej przeglądarki internetowej.
 
-Aplikację możesz zainstalować po zeskanowaniu aparatem w telefonie z systemem Android kodu QR z plakietki znamionowej znajdującej się pod spodem urządzenia
+Jeśli posiadasz telefon z systemem Android, to możesz pobrać aplikację AIS dom z Google Play lub zainstalować ją po zeskanowaniu aparatem kodu QR z plakietki znamionowej znajdującej się na spodzie urządzenia.
 
 ![AIS DEV2 First run](/img/en/bramka/first_run_4.png)
