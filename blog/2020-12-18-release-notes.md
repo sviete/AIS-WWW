@@ -3,7 +3,7 @@ author: Jola AI-Speaker
 authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
-title: AIS 20/21 - podsumownie i zapowiedzi
+title: AIS 20/21 - podsumowanie i zapowiedzi
 tags: [2020, 2021, DEV2, PRO, EASY, AI-SPEAKER]
 ---
 
