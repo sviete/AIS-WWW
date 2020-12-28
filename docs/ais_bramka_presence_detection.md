@@ -85,3 +85,15 @@ Wyzwalacze strefy oraz geolokalizacji mogą uruchamiać się, gdy osoba wchodzi 
 W kolejnym kroku wybierz strefę oraz zaznacz typ zdarzenia (wejście w strefę lub opuszczenie strefy)
 
 ![Dodanie automatyzacji](/img/en/bramka/presence_detection_16.png)
+
+
+## Schemat automatyzacji
+
+Automatyzację wyzwalaną przez zmianę lokalizacji możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).
+
+Wystarczy, że:
+1. Wybierzemy predefiniowany schemat **Powiadomienie po opuszczeniu strefy**
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_zone_0.png)
+
+2. Uzupełnimy i zapiszemy zdefiniowany szablon:
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_zone.png)

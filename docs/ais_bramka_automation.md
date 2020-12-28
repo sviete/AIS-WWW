@@ -65,3 +65,16 @@ Możesz wrócić do ekranu z listą automatyzacji, z którego można zarządzać
 Z tego miejsca możesz też wypróbować działanie swojej nowej automatyzacji uruchamiając ją ręcznie
 
 ![Dodanie nowej automatyzacji](/img/en/bramka/automation9.png)
+
+
+## Schemat automatyzacji
+
+Powyższą automatyzację możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).
+
+Wystarczy, że:
+1. Wybierzemy predefiniowany schemat **Oświetlenie po zachodzie słońca**
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_light_0.png)
+
+2. Uzupełnimy i zapiszemy zdefiniowany szablon:
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_light.png)
+

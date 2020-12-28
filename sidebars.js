@@ -35,6 +35,7 @@ module.exports = {
         "label": "Automatyzacje",
         "items": [
           "ais_bramka_automation",
+          "ais_bramka_automation_blueprint",
           "ais_bramka_automation_helpers",
           "ais_bramka_key_event_automation",
           "ais_bramka_tag_automation",

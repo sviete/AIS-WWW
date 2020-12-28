@@ -74,3 +74,13 @@ Możemy w automatyzacji zmienić tryb edycji na YAML i łatwo przekleić kod do 
 
 
 
+## Schemat automatyzacji
+
+Automatyzację wyzwalaną przez zdarzenie naciśnięcia przycisku możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).
+
+Wystarczy, że:
+1. Wybierzemy predefiniowany schemat **Wykonanie komendy po naciśnięciu przycisku**
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_button_0.png)
+
+2. Uzupełnimy i zapiszemy zdefiniowany szablon:
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_button.png)

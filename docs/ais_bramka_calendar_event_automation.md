@@ -102,3 +102,17 @@ Gdy encja kalendarza ma status ``on``, to wiadomość z kalendarza wysyłana jes
 W efekcie Jolka wykonuje komendę - czyli w naszym przykładzie mówi/czyta tekst:
 
 ![Calendar](/img/en/frontend/calendar_automation_8.png)
+
+
+
+
+## Schemat automatyzacji
+
+Automatyzację wyzwalaną przez wydarzenie z kalendarza możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).
+
+Wystarczy, że:
+1. Wybierzemy predefiniowany schemat **Wykonanie wydarzenie z kalendarza jako komendy**
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_calendar_0.png)
+
+2. Uzupełnimy i zapiszemy zdefiniowany szablon:
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_calendar.png)

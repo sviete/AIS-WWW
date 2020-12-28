@@ -86,5 +86,3 @@ https://myaccount.google.com/permissions
 
 
 ![AIS scan](/img/en/frontend/ais_calendars_6.png)
-
-

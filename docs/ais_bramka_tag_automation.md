@@ -100,3 +100,15 @@ Akcja do wykonania to przełączenie (toggle) naszego światła w salonie:
 
 <iframe width="560" height="315"  src="https://www.youtube.com/embed/nzRBeRZZX7Q" frameBorder="0" allowFullScreen></iframe>
 
+
+
+## Schemat automatyzacji
+
+Automatyzację wyzwalaną przez skan TAG-a możemy w łatwy sposób utworzyć na podstawie gotowego [schematu automatyzacji](ais_bramka_automation_blueprint).
+
+Wystarczy, że:
+1. Wybierzemy predefiniowany schemat **Wykonanie komendy po zeskanowaniu TAG-a**
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_tag_0.png)
+
+2. Uzupełnimy i zapiszemy zdefiniowany szablon:
+![Dodanie nowej automatyzacji](/img/en/bramka/blueprint_tag.png)
