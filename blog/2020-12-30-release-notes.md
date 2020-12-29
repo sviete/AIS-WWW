@@ -89,7 +89,9 @@ Zastanawiamy się nad możliwością wykorzystania tego mechanizmu do domeny int
 
 ## ![](/img/en/blog/202012/christmas-tree.png) Życzymy Wszystkim spełniania marzeń w 2021!
 
-W 2021 wydawać będziemy wersję raz na miesiąc. Pierwsze wydanie BETA będzie w pierwszą środę miesiąca a na kanale stabilnym w ostatnią środę miesiąca.
+**W 2021 wydawać będziemy wersję raz na miesiąc.** 
+
+Pierwsze wydanie BETA będzie w pierwszą środę każdego miesiąca, a wydanie na kanale STABILNYM będzie ostatnią środę każdego miesiąca.
 
 ![Calendar](/img/en/blog/202012/calendar_releases.png)
 
