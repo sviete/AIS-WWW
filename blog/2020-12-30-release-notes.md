@@ -65,7 +65,7 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 ## ![](/img/en/blog/202012/blueprint.png) Schematy Automatyzacji
 
 W tej wersji dostarczamy aktualizcję [Home Assistant do najnowszej wersji 2020.12](https://www.home-assistant.io/blog/2020/12/13/release-202012/).
-Największa nowością w Home Assistant 2020.12 są **Blueprints** - Schematy Automatyzacji.
+Największą nowością w Home Assistant 2020.12 są **Blueprints** - Schematy Automatyzacji.
 
 Schematy automatyzacji to gotowe szablony automatyzacji, które można łatwo dostosować i dodać do swojego Asystenta domowego jako automatyzacje.
 Czyli są to takie wstępnie skonfigurowane automatyzacje, które wystarczy dostosować do własnych potrzeb.
@@ -100,7 +100,7 @@ Dodaliśmy kilka przykładowych schematów automatyzacji w aplikacji:
 ![Przycisk](/img/en/blog/202012/blueprint_zone.png)
 
 
-Do wpisywania komend używamy własny [selektor](https://www.home-assistant.io/docs/blueprint/selectors/) typu "text". 
+Do wpisywania komend używamy własnego [selektora](https://www.home-assistant.io/docs/blueprint/selectors/) typu "text". 
 
 Zastanawiamy się nad możliwością wykorzystania tego mechanizmu do domeny intencji - żeby można było definiować [komendy](/docs/ais_app_assistent_add_command) (szablony sentencja -> intencja -> akcja) z poziomu interfejsu użytkownika. Może uda się dostarczyć w 2021 :) 
 
@@ -112,13 +112,17 @@ Największa poprawka dotyczy wysyłania komend głosowych w sieci lokalnej, przy
 Okazało się, że jest tu błąd - dzięki za zgłoszenia. To już powinno działać OK.
 
 2. Ulepszone sterowanie głośnością bramki (głośnika AIS) za pomocą przycisków vol+ / vol- w aplikacji mobilnej.
+
 ![App VOL](/img/en/blog/202012/mob_app_vol.png)
 
 
 3. Nowe wytrenowane Wake / Hot Word-y
+
 ![Hey Maya](/img/en/blog/202012/mob_app_hot_word.png)
+
 Funkcjonalność nadal w menu eksperymentalnym w aplikacji mobilnej.
 Więcej informacji na forum [Trenujemy nowe Wake / Hot Word-y](https://ai-speaker.discourse.group/t/trenujemy-nowe-wake-hot-word-y/1075)
+
 ![Hey Maya](/img/en/blog/202012/hey_maya.png)
 
 
@@ -126,7 +130,7 @@ Więcej informacji na forum [Trenujemy nowe Wake / Hot Word-y](https://ai-speake
 
 **W 2021 wydawać będziemy wersję raz na miesiąc.** 
 
-Pierwsze wydanie BETA będzie w pierwszą środę każdego miesiąca, a wydanie na kanale STABILNYM będzie ostatnią środę każdego miesiąca.
+Pierwsze wydanie BETA będzie w pierwszą środę każdego miesiąca, a wydanie na kanale STABILNYM będzie w ostatnią środę każdego miesiąca.
 
 ![Calendar](/img/en/blog/202012/calendar_releases.png)
 
