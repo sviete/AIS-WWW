@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu Bartek
-tags: [AI-SPEAKER, AUTOMATYZACJE]
+tags: [automatyzacje, ais dom, home assistant]
 ---
 
 <div class="IntroAisBlogMenu" >
@@ -13,8 +13,27 @@ tags: [AI-SPEAKER, AUTOMATYZACJE]
 ![AIS 2020](/img/en/blog/202012/blueprint.png)
 
 </div>
-<h2>Schematy Automatyzacji</h2>
+<h2>Schematy <br/>Automatyzacji</h2>
 </div>
+
+<div class="IntroAisBlogMenu" >
+<div>
+
+![AIS 2020](/img/en/blog/202012/mob_app.png)
+
+</div>
+<h2>Aplikacja Mobila</h2>
+</div>
+
+<div class="IntroAisBlogMenu" >
+<div>
+
+![AIS 2020](/img/en/blog/202012/christmas-tree.png)
+
+</div>
+<h2>2021 Wydania</h2>
+</div>
+
 
 <!--truncate-->
 
@@ -85,6 +104,22 @@ Do wpisywania komend używamy własny [selektor](https://www.home-assistant.io/d
 
 Zastanawiamy się nad możliwością wykorzystania tego mechanizmu do domeny intencji - żeby można było definiować [komendy](/docs/ais_app_assistent_add_command) (szablony sentencja -> intencja -> akcja) z poziomu interfejsu użytkownika. Może uda się dostarczyć w 2021 :) 
 
+
+## ![](/img/en/blog/202012/mob_app.png) Aplikacja mobilna 1.8.1.LocalUrlFix
+
+1. Kilka poprawek i optymalizacji.
+Największa poprawka dotyczy wysyłania komend głosowych w sieci lokalnej, przy wyłączonym tunelu i przy podaniu w parametrach połączenia z bramką jej identyfikatora (a nie lokalnego adresu URL).
+Okazało się, że jest tu błąd - dzięki za zgłoszenia. To już powinno działać OK.
+
+2. Ulepszone sterowanie głośnością bramki (głośnika AIS) za pomocą przycisków vol+ / vol- w aplikacji mobilnej.
+![App VOL](/img/en/blog/202012/mob_app_vol.png)
+
+
+3. Nowe wytrenowane Wake / Hot Word-y
+![Hey Maya](/img/en/blog/202012/mob_app_hot_word.png)
+Funkcjonalność nadal w menu eksperymentalnym w aplikacji mobilnej.
+Więcej informacji na forum [Trenujemy nowe Wake / Hot Word-y](https://ai-speaker.discourse.group/t/trenujemy-nowe-wake-hot-word-y/1075)
+![Hey Maya](/img/en/blog/202012/hey_maya.png)
 
 
 ## ![](/img/en/blog/202012/christmas-tree.png) Życzymy Wszystkim spełniania marzeń w 2021!
