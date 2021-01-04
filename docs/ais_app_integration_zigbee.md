@@ -16,7 +16,7 @@ Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowan
 
 ## Obsługiwane urządzenia
 
-Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 12/2020 obsługiwanych jest ponad 1100 urządzeń od 184 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
+Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 12/2020 obsługiwanych jest ponad 1200 urządzeń od 180 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
 
 ## Dodanie nowego urządzenia Zigbee
 
@@ -108,3 +108,85 @@ Aplikacja 8099 działa na porcie **8099** w lokalnej sieciu można połączyć s
 Umożliwiamy też na zdalny dostęp do aplikacji webowej zigbee2mqtt. Dostęp ten jest możliwy tylko po zalogowaniu do Asystenta domowego i jest realizowany z pomocą naszego dodatku ais_proxy - mechnizmu typu [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 
 ![zigbee](/img/en/bramka/app_zigbee2mqtt_proxy.png)
+
+
+### Aktualizacja automatyczna
+
+Zigbee2Mqtt jest dostarczane jako składowa systemu Asystent domowy. Aktualizacja **Zigbee2Mqtt do najnowszej stabilnej wersji** jest wykonywana automatycznie z interfejsu użytkownika i polega na pobraniu i rozpakowaniu na bramkę gotowej paczki Zigbee2Mqtt z naszego serwisu OTA.
+
+![zigbee](/img/en/bramka/zigbee2mqtt_upgrade.png)
+
+### Aktualizacja/instalacja ręczna
+
+:::caution Uwaga
+**Uwaga!** Ręczna aktualizacja jest skomplikowanym procesem dostępnym dla programistów i technicznie zaawansowanych użytkowników.
+W przypadku wystąpienia problemów po ręcznej aktualizacji zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)
+:::
+
+
+Jeżeli chcemy zainstalować wersję dev Zigbee2Mqtt, żeby dodać obsługę nowego urządzenia lub przetestować nowe funkcje, to możemy to zrobić ręcznie z konsoli.
+Instalacja ręczna polega na pobraniu kodów Zigbee2Mqtt z repozytorium GIT, a następnie uruchomieniu na bramce instalacji zależności (dependencies) aplikacji zigbee2mqtt. 
+Poniżej skrypt bash (do uruchomienia w konsoli) z wyjaśnieniem kroków instalacji ręcznej.
+
+
+``` bash
+echo "Zatrzymanie serwisu zigbee..."
+pm2 stop zigbee
+
+echo "kopia konfiguracji zigbee..."
+cp -R ~/zigbee2mqtt/data/configuration.yaml ~/configuration.yaml
+
+echo "Usuwamy bieżącą wersję zigbee2mqtt..."
+rm -rf ~/zigbee2mqtt
+
+echo "Kolonujemy kody najnowszej wersji..."
+git clone --depth=1 https://github.com/Koenkk/zigbee2mqtt.git
+
+echo "Przechodzimy do folderu z kodami zigbee2mqtt..."
+cd ~/zigbee2mqtt
+
+echo "Przełączamy się na wersję kodu zigbee2mqtt który chcemy uruchomić..."
+git checkout HEAD -- npm-shrinkwrap.json
+git pull
+
+echo "Instalujemy zależności..."
+npm ci --unsafe-perm
+
+echo "Przywracamy konfigurację zigbee2mqtt..."
+cp ~/configuration.yaml ~/zigbee2mqtt/data/configuration.yaml
+rm ~/configuration.yaml
+
+echo "Uruchomienie serwisu zigbee2mqtt..."
+pm2 start zigbee
+
+```
+
+### Konfiguracja
+
+Konfiguracja Zigbee2Mqtt znajduje się na bramce w pliku ``~/zigbee2mqtt/data/configuration.yaml``
+
+:::caution Uwaga
+**Uwaga!** W przypadku podstawowej konfiguracji ustawienia domyślne są dobre i nie trzeba nic zmieniać.
+
+Potrzeba zmiany konfiguracji może dotyczyć tylko programistów i technicznie zaawansowanych użytkowników którzy np. chcą zmienić parametry połączenia z brkerem MQTT (dodać autentykację itp.).
+W przypadku wystąpienia problemów po zmianie konfiguracji Zigbee2Mqtt zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)
+:::
+
+Nasza standardowa konfiguracja w pliku ``~/zigbee2mqtt/data/configuration.yaml`` jest taka. 
+
+``` yaml
+# configuration.yaml Zigbee2MQTT v 1.7.0   
+homeassistant: true
+permit_join: false
+mqtt:
+  base_topic: zigbee2mqtt
+  server: 'mqtt://localhost'
+serial:
+  port: /dev/ttyACM0
+advanced:
+  log_level: info
+  log_output:
+    - console
+frontend:
+  port: 8099
+```
