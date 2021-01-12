@@ -95,20 +95,17 @@ Naszą kompilację nodejs udostępniamy w naszym repozytorium pakietów binarnyc
 
 ![zigbee](/img/en/bramka/nodejs_binary.png)
 
-
 ### Dostęp lokalny
 
 Aplikacja 8099 działa na porcie **8099** w lokalnej sieciu można połączyć się z ją bezpośrednio, wpisując w przeglądarce ``http://<ip-bramki>:8099``
 
 ![zigbee](/img/en/bramka/app_zigbee2mqtt.png)
 
-
 ### Dostęp zdalny
 
 Umożliwiamy też na zdalny dostęp do aplikacji webowej zigbee2mqtt. Dostęp ten jest możliwy tylko po zalogowaniu do Asystenta domowego i jest realizowany z pomocą naszego dodatku ais_proxy - mechnizmu typu [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/)
 
 ![zigbee](/img/en/bramka/app_zigbee2mqtt_proxy.png)
-
 
 ### Aktualizacja automatyczna
 
@@ -123,11 +120,9 @@ Zigbee2Mqtt jest dostarczane jako składowa systemu Asystent domowy. Aktualizacj
 W przypadku wystąpienia problemów po ręcznej aktualizacji zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)
 :::
 
-
 Jeżeli chcemy zainstalować wersję dev Zigbee2Mqtt, żeby dodać obsługę nowego urządzenia lub przetestować nowe funkcje, to możemy to zrobić ręcznie z konsoli.
 Instalacja ręczna polega na pobraniu kodów Zigbee2Mqtt z repozytorium GIT, a następnie uruchomieniu na bramce instalacji zależności (dependencies) aplikacji zigbee2mqtt. 
 Poniżej skrypt bash (do uruchomienia w konsoli) z wyjaśnieniem kroków instalacji ręcznej.
-
 
 ``` bash
 echo "Zatrzymanie serwisu zigbee..."
@@ -172,7 +167,16 @@ Potrzeba zmiany konfiguracji może dotyczyć tylko programistów i technicznie z
 W przypadku wystąpienia problemów po zmianie konfiguracji Zigbee2Mqtt zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)
 :::
 
-Nasza standardowa konfiguracja w pliku ``~/zigbee2mqtt/data/configuration.yaml`` jest taka. 
+Plik z konfiguracją dostępny jest do edycji z aplikacji. Wystarczy przejść do konfiguracji i wybrać konfigurację urządzeń zigbee:
+
+![zigbee](/img/en/integrations/zigbee2mqtt_go_to_configuration_yaml.png)
+
+Następnie w prawym górnym rogu z rozwijalnego menu wybrać opcję "Edit Zigbee2Mqtt configuraton.yaml"
+![zigbee](/img/en/integrations/zigbee2mqtt_configuration_yaml.png)
+
+![zigbee](/img/en/integrations/zigbee2mqtt_configuration_file.png)
+
+Standardowa konfiguracja w pliku ``~/zigbee2mqtt/data/configuration.yaml`` jest następująca:
 
 ``` yaml
 # configuration.yaml Zigbee2MQTT v 1.7.0   
