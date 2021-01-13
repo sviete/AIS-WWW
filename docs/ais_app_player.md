@@ -5,11 +5,47 @@ sidebar_label: Odtwarzacze
 
 ## Wbudowany Odtwarzacz Mediów
 
-Na urządzeniu dostarczamy odtwarzacz wraz ze skonfigurowanymi serwisami dostarczającymi media do odtwarzania.
+Na urządzeniu dostarczamy wbudowany odtwarzacz oraz biblotekę mediów do odtwarzania.
 
 ![AIS Radio](/img/en/frontend/ais_exo_player.png)
 
-## Przekierowanie Mediów
+
+## Dodatkowe odtwarzacze AIS
+
+Dodatkowym odtwarzaczem AIS w systemie Asystent domowy mogą być:
+
+1. Inne bramki/głośnik z systeme Asystent domowy 
+
+2. Urządzenia z systemem Android i zainstalowaną naszą darmową aplikacją mobilną AIS dom.
+
+:::info Informacja
+Po zainstalowaniu na urządzeniu z systemem Android naszej darmowej aplikacji [AIS-dom](ais_app_android_dom) żeby urządzenie było wykrywane przez bramkę jako odtwarzacz należy:
+1. Być podłączonym do tej samej lokalnej sieci co bramka
+1. W ustawiniach aplikacji włączyć usługę odtwarzacza audio tak jak na rysunku poniżej
+:::
+![AIS Radio](/img/en/frontend/ais_exo_player_mob.jpg)
+
+
+### Dodanie odtwarzacza do bramki
+
+W konfiguracji integracji wybieramy integrację **AI Speaker**
+
+![AIS Radio](/img/en/frontend/ais_exo_player_add_new.png)
+
+
+następnie wypełniamy formatkę konfiguratora i zatwierdzamy
+![AIS Radio](/img/en/frontend/ais_exo_player_add_new2.png)
+
+w efekcie otrzymamy nowy odtwarzacz w systemie Aystent domowy
+![AIS Radio](/img/en/frontend/ais_exo_player_add_new3.png)
+
+Każdy dodatkowy odtwarzacz możemy dodać do interfejsu - umieścić na karcie w widoku i dostosować jego wyświetlanie.
+![AIS Radio](/img/en/frontend/ais_exo_player_add_new4.png)
+
+
+## Dodatkowe funkcje odtwarzaczy AIS
+
+### Przekierowanie Mediów
 
 Przekierowanie mediów to jednorazowa akcja polegająca na przesłaniu aktualnie odtwarzanych mediów na bramce do innego odtwarzacza. Przekazujemy adres URL do multimediów i jeżeli odtwarzacz jest w stanie odtwarzać wideo (telewizor, chromecast, tv box), to w ten sposób można przesyłać wideo z YT do odtwarzaczy.
 
@@ -17,28 +53,14 @@ Przekierowanie mediów to jednorazowa akcja polegająca na przesłaniu aktualnie
 
 
 
-## Grupowanie Odtwarzaczy
+### Czytanie tekstu na głośniku
 
-Odtwarzacze zintegrowane z bramką można grupować a następnie sterować nimi jak jednym. Odtwarzacze w grupie będą dostawały wszystkie utwory z aktualnej listy odtwarzania - ta opcja to coś więcej niż jednarazowe przekierownie mediów.
+Odtwarzacz AIS może też zamieniać tekst na mowę:
 
-![AIS Audio](/img/en/frontend/app_audio_player_2.png)
-
-
-## Wysyłanie mediów do grupy Odtwarzaczy
-
-Jeśli posidamy link URL do np. radia internetowego czy innej treści do odtwarzania to możemy go wysłać do odtwarzania.
-
-> Ta funkcja jest w przygotowaniu i w przyszłości będzie używana do dodawania własnych stacji radiowych.
+![AIS Audio](/img/en/frontend/app_audio_player_tts.png)
 
 
-## Wysyłanie tekstu do Odtwarzaczy
-
-Możemy przesłać tekst do przeczytania na odtwarzaczu, jest to tak zwana usługa "broadcast". Na tą chwilę działa to tylko z naszym odtwarzaczem audio - więcej info w [Panel sterowania](/docs/ais_app_android_dom_tablet#instalacja)
-
-![AIS Audio](/img/en/frontend/app_audio_player_2.png)
-
-
-## Zdalne sterowanie
+### Zdalne sterowanie
 
 Możemy zdalnie sterować odtwarzaczem na bramce z poziomu ekranu powiadomień na "Panelu sterowania", więcej informacji w dokumentacji [Panel sterowania - Odtwarzacz audio](/docs/ais_app_android_dom_tablet#odtwarzacz-audio)
 
@@ -49,4 +71,4 @@ Możemy zdalnie sterować odtwarzaczem na bramce z poziomu ekranu powiadomień n
 Odtwarzacz, tak jak każda integracja, udostępnia swoje usługi, dzięki czemu można [automatyzować](/docs/ais_bramka_automation) sterowanie odtwarzaczem i np. uruchamiać stację radiową jako budzik, włączać wybraną audycję o wybranej porze dnia, itp.
 
 
-> Szczegółowy opis w przygotowaniu
+![AIS Radio](/img/en/frontend/app_audio_player_api.png)

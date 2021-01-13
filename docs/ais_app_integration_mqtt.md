@@ -39,6 +39,13 @@ pm2 show mqtt
 
 ### Konfiguracja brokera mqtt
 
+:::caution Uwaga
+**Uwaga!** W przypadku podstawowej konfiguracji ustawienia domyślne są dobre i nie trzeba nic zmieniać.
+Potrzeba zmiany konfiguracji brokera MQTT może dotyczyć tylko programistów i technicznie zaawansowanych użytkowników którzy np. chcą dodać połączenie mostkowe, autentykację itp.
+W przypadku wystąpienia problemów po zmianie konfiguracji brokeram Mqtt zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)
+:::
+
+
 Broker, który dostarczamy na bramce to [mosquitto](https://mosquitto.org/), jego konfiguracja znajduje się w standardowym pliku **mosquitto.conf** w lokalizacji
 ``/data/data/pl.sviete.dom/files/usr/etc/mosquitto/mosquitto.conf``
 
