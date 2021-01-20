@@ -179,3 +179,10 @@ Jeżeli Asystent Google działa z innych urządzeń (na koncie, które podaliśm
 ![Konfiguracja Google Home](/img/en/bramka/ais_google_home_25.png)
 
 to można przejść do wywoływania Asystenta Google z Asystenta domowego.
+
+
+### Brak odpowiedzi tekstowej
+
+API Google Home nie zapewnia odpowiedzi tekstowej na wszystkie żądania. Asystent Google jest oparty na odpowiedziach audio (czyli do głośnika zwracane jest audio do odtworzenia), a nie tekst do przeczytania przez syntezator mowy (tak jak w przypadku Asystenta domowego).
+
+Wiecej informacji w przykładowym projekcie [Google SDK w Github](https://github.com/googlesamples/assistant-sdk-nodejs/issues/13)
