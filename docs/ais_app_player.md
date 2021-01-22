@@ -14,14 +14,14 @@ Na urządzeniu dostarczamy wbudowany odtwarzacz oraz biblotekę mediów do odtwa
 
 Dodatkowym odtwarzaczem AIS w systemie Asystent domowy mogą być:
 
-1. Inne bramki/głośnik z systeme Asystent domowy 
+1. Inne bramki/głośnik z systemem Asystent domowy 
 
 2. Urządzenia z systemem Android i zainstalowaną naszą darmową aplikacją mobilną AIS dom.
 
 :::info Informacja
-Po zainstalowaniu na urządzeniu z systemem Android naszej darmowej aplikacji [AIS-dom](ais_app_android_dom) żeby urządzenie było wykrywane przez bramkę jako odtwarzacz należy:
-1. Być podłączonym do tej samej lokalnej sieci co bramka
-1. W ustawiniach aplikacji włączyć usługę odtwarzacza audio tak jak na rysunku poniżej
+Po zainstalowaniu na urządzeniu z systemem Android naszej darmowej aplikacji [AIS-dom](ais_app_android_dom), żeby urządzenie było wykrywane przez bramkę jako odtwarzacz należy:
+1. Być podłączonym do tej samej lokalnej sieci, co bramka
+1. W ustawiniach aplikacji włączyć usługę odtwarzacza audio tak, jak na rysunku poniżej
 :::
 ![AIS Radio](/img/en/frontend/ais_exo_player_mob.jpg)
 
@@ -34,12 +34,15 @@ W konfiguracji integracji wybieramy integrację **AI Speaker**
 
 
 następnie wypełniamy formatkę konfiguratora i zatwierdzamy
+
 ![AIS Radio](/img/en/frontend/ais_exo_player_add_new2.png)
 
-w efekcie otrzymamy nowy odtwarzacz w systemie Aystent domowy
+w efekcie otrzymamy nowy odtwarzacz w systemie Asystent domowy
+
 ![AIS Radio](/img/en/frontend/ais_exo_player_add_new3.png)
 
 Każdy dodatkowy odtwarzacz możemy dodać do interfejsu - umieścić na karcie w widoku i dostosować jego wyświetlanie.
+
 ![AIS Radio](/img/en/frontend/ais_exo_player_add_new4.png)
 
 
