@@ -121,7 +121,7 @@ W przypadku wystąpienia problemów po ręcznej aktualizacji zalecamy [Wykonanie
 :::
 
 Jeżeli chcemy zainstalować wersję dev Zigbee2Mqtt, żeby dodać obsługę nowego urządzenia lub przetestować nowe funkcje, to możemy to zrobić ręcznie z konsoli.
-Instalacja ręczna polega na pobraniu kodów Zigbee2Mqtt z repozytorium GIT, a następnie uruchomieniu na bramce instalacji zależności (dependencies) aplikacji zigbee2mqtt. 
+Instalacja ręczna polega na pobraniu kodów Zigbee2Mqtt z repozytorium GIT, a następnie uruchomieniu na bramce instalacji zależności (dependencies) aplikacji zigbee2mqtt.
 Poniżej skrypt bash (do uruchomienia w konsoli) z wyjaśnieniem kroków instalacji ręcznej.
 
 ``` bash
@@ -187,10 +187,11 @@ mqtt:
   server: 'mqtt://localhost'
 serial:
   port: /dev/ttyACM0
+frontend:
+  port: 8099
 advanced:
   log_level: info
   log_output:
     - console
-frontend:
-  port: 8099
+  channel: 11
 ```
