@@ -115,6 +115,7 @@ Dostępne komendy
 | `micOff` | `true` | Wyłączenie mikrofonu |
 | `addBookmark` | `true` | Dodanie zakładki do odtwarzanych multimediów, przydatne przy audiobookach |
 | `goToActivity` | `ActivityMenu` | Przejście do aktywności (ekranu na bramce). Dostępne opcje to:<ul><li>`ActivityMenu` - "Aktywność menu - sterowanie na monitorze",</li><li>`SplashScreenActivity` - "Sterowanie bez monitora",</li><li>`ExoPlayerActivity` - "Aktywność odtwarzacz multimediów",</li><li>`ConsoleActivity` - "Konsola Asystenta domowego", </li><li>`AndroidSettingsActivity` - "Ustawienia systemu Android",</li><li>`SettingsActivity`  - "Ustawienia Serwisu Asystent domowy na bramce",</li><li>`FilesActivity` - "Aplikacja menedżer plików na bramce",</li><li>`AndroidWifiActivity` - "Ustawienia WiFi w systemie Android",</li><li>`SpotifyActivity` - "Przejście do aplikacji Spotify"</li></ul>  |
+| `showCamera` | `{"streamUrl": "rtsp://192.168.2.38/unicast", "openAutomationName": "Otwieranie bramy"}` | Wyświetlanie wideo (obraz i dzwięk) z kamery w aktywności, w parametrze openAutomationName podajemy nazwę automatyzacji do wykonania po naciśnięciu przycisku otweirania na wideo. |
 
 
 

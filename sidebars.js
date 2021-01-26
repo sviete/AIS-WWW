@@ -85,6 +85,7 @@ module.exports = {
     ],
     "Aplikacje Android": [
       "ais_app_android_dom",
+      "ais_app_android_dom_mob",
       "ais_app_android_dom_tablet",
       "ais_app_android_dom_wear",
       "ais_app_android_launcher",
