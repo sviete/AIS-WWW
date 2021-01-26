@@ -111,7 +111,6 @@ module.exports = {
       "ais_app_player",
       "ais_app_radio",
       "ais_app_podcast",
-      "ais_app_news",
       "ais_app_youtube_dl",
       "ais_app_spotify",
       "ais_app_drives",
