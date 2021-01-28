@@ -9,6 +9,11 @@ Na urządzeniu dostarczamy wbudowany odtwarzacz oraz biblotekę mediów do odtwa
 
 ![AIS Radio](/img/en/frontend/ais_exo_player.png)
 
+Media moga być odtwarzane na podłączonym do bramki głosniku i/lub na podłączonym do bramki po HDMI telewizorze lub monitorze.
+Możemy zdalnie (z przeglądarki internetowej lub aplikacji mobilnej) sterować aktywnościami (ekranami) na bramce podłączonej do TV. W ten sposób możemy odtwarzać treści wideo z serwisów lub kamer.
+
+![AIS Video](/img/en/frontend/video_doorbell2.png)
+
 
 ## Dodatkowe odtwarzacze AIS
 

@@ -37,15 +37,19 @@ Dzięki czemu można przesyłać treści multimedialne z bramki do zdalnego klie
 ![Smart glass ustawienia](/img/en/frontend/redirect_media_to_client.png)
 
 
-## Wideo dmofon
+## Wideodomofon
 
-Na wbudowany odtwarzacz mediów na bramce można przekierować też obraz z kamery oraz nazwę automatyzacji, która ma być wykonana po naciśnięciu przycisku otwarcia drzwi/bramy.
+Na odtwarzacz mediów w aplikacji AIS dom, można też przekierować obraz z kamery.
 
 ![Mob](/img/en/frontend/video_doorbell.png)
 
 
+:::caution UWAGA
 W opisie [API bramki](ais_bramka_api_index#zasób-command), w zasobie ```command``` umieściliśmy opis i składnię komendy ```showCamera``` która realizuje tę funkcjonalność. 
-Ta funkcjonalność będzie też docelowo wbudowana i łatwo wywoływana z poziomu aplikacji (bez potrzeby użycia API).
+Ta komenda dostepna też jest jako usługa na bramce ```redirect_camera_stream```
+Funkcjonalność ta będzie docelowo łatwo wywoływana z poziomu aplikacji (bez potrzeby użycia API).
+:::
+
 
 ## Powiększenie aplikacji
 
