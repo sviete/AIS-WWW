@@ -63,7 +63,7 @@ Do pełnej realizacji planu brakuje nam tego ostatniego kroku, w którym bramka 
 
 
 Kwestią dyskusyjną nie jest już czy AIS wyda głośnik, ale defakto ;), kiedy AIS wyda głośnik.
-Jak niewiele brakuje, żeby te elementy, połączyć w całość pokażemy już za kilka tygodni (na 99% w lutym 2021), kiedy wydamy KIT do przerobienia bramki w głośnik.
+Jak niewiele brakuje, żeby te elementy, połączyć w całość pokażemy już za kilka tygodni (na 99% jeszcze w lutym 2021), kiedy wydamy KIT do przerobienia bramki w głośnik.
 
 Tak jak zapowiadaliśmy, opublikujemy sszczegółową instrukcję, tak żeby każdy mógł sam kupić potrzebne elementy (nie koniecznie od nas - bo nie będziemy mieli dużo takich zestawów) i przerobić bramkę w głośnik.
 
