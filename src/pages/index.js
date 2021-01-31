@@ -217,7 +217,7 @@ function Home() {
         <div className={styles.announcementInner}>
           <p>Automatyzujemy Twój dom, łącząc zalety lokalnego przetwarzania<br/>z łącznością z usługami w chmurze IoT.</p>
           <Link to={useBaseUrl('/docs/ais_bramka_index')}>
-            <div>
+            <div className="miniImages">
             <img alt="AIS dom text to speech" className="aisPointInfo" src="img/main/text-to-speech.svg" />
             <img alt="AIS dom plus" className="aisPointInfo" src="img/main/plus.svg" />
             <img alt="AIS dom speaker" className="aisPointInfo" src="img/main/monitor-speaker.svg" />
@@ -225,6 +225,7 @@ function Home() {
             <img alt="AIS dom assistant" className="aisPointInfo" src="img/main/home-assistant.svg" />
             <br />
             </div>
+            <div className="shapeshifter play"></div>
             Bramka do sterowania automatyką domową i multimiediami<br />z wbudowanym inteligentnym asystentem głosowym.
           </Link>
           <br /><br />

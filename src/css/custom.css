@@ -177,15 +177,6 @@ a.button.button--danger {
   }
 
   /* pulse in CSS */
-  .pulse-css {
-    width: 50px;
-    height: 50px;
-    -webkit-border-radius: 25px;
-    -moz-border-radius: 25px;
-    border-radius: 25px;
-    background: orange;
-    position: relative;
-  }
   .pulse-css:before, .pulse-css:after {
     content: '';
     width: 50px;
@@ -224,10 +215,62 @@ a.button.button--danger {
       opacity: 0;
     }
   }
-  
 }
 
+@media only screen and (min-width: 600px) {
+  @keyframes play270 {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: -160920px 0px;
+    }
+  }
+  div.miniImages {
+    display: none;
+  }
+  .shapeshifter {
+    animation-duration: 13000ms;
+    animation-timing-function: steps(270);
+    width: 596px;
+    height: 500px;
+    background-repeat: no-repeat;
+  }
+  .shapeshifter.play {
+    animation-delay: 4s;
+    margin: auto;
+    animation-name: play270;
+    background-image: url(/img/sprite_30fps.svg);
+    animation-iteration-count:infinite;
+    margin-top: -100px;
+  }
 
+  
+  @keyframes play480 {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: -286080px 0px;
+    }
+  }
+  .shapeshifter2 {
+    animation-duration: 20000ms;
+    animation-timing-function: steps(480);
+    width: 596px;
+    height: 596px;
+    background-repeat: no-repeat;
+  }
+  .shapeshifter2.play {
+    animation-delay: 14s;
+    animation-name: play480;
+    background-image: url(/img/sprite_full_30fps.svg);
+    animation-iteration-count:infinite;
+    margin-top: -50px;
+    margin-left: 60px;
+  }
+  
+}
 
 @media only screen and (max-width: 1023px) {
 }
