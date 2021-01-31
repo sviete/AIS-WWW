@@ -74,7 +74,7 @@ Na forum można poczytać o szczegółach [Projekt DEV KIT głośnik](https://ai
 
 ## ![](/img/en/blog/202012/mob_app.png) Aplikacja mobilna 2.0.2.CamCast
 
-Najnowsza aplikacja AIS dom to kolejne uproszczenia i nowe możliwości. 
+Najnowsza aplikacja AIS dom to kolejne uproszczenia i nowe możliwości.
 
 Ponieważ aplikacja działa na różnych urządzeniach (od zegarka poprzez telefon, tablet do TV) to żeby, łatwiej było wybrać, w jaki sposób chcemy ją wykorzystywać, dodaliśmy możliwość włączania dodatkowych funkcjonalności, w zależności od tego, do czego chcemy używać aplikacji.
 Oczywiście moglibyśmy to robić automatycznie w zależności od typu urządzenia, ale nie chcemy nikogo ograniczać i narzucać "jedynie słusznego rozwiązania". Dzięki temu można użyć starego telefonu jako panelu sterowania (a nie tylko tabletu) itd.
@@ -103,7 +103,7 @@ ale też wideo wraz z audio z kamer:
 
 
 :::caution UWAGA przekirowanie obrazu z kamery nie jest jeszcze proste
-W opisie [API bramki](ais_bramka_api_index#zasób-command), w zasobie ```command``` umieściliśmy opis i składnię komendy ```showCamera``` która realizuje tę funkcjonalność. 
+W opisie [API bramki](/docs/ais_bramka_api_index), w zasobie ```command``` umieściliśmy opis i składnię komendy ```showCamera``` która realizuje tę funkcjonalność. 
 Ta komenda dostepna też jest jako usługa na bramce ```redirect_camera_stream```
 Funkcjonalność ta będzie docelowo łatwo wywoływana z poziomu aplikacji (bez potrzeby użycia API).
 :::
@@ -137,7 +137,7 @@ W [Konfiguracja bramki - ustawienia głosu asystenta](/docs/ais_bramka_configura
 ## ![](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt
 
 
-Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.7.0 
+Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.7.0
 Sporo poprawek i oczywiście wsprawcie dla nowych urządzeń, wszystkie szczegóły tu [1.17.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.17.0)
 
 Dodaliśmy możliwość zmiany konfiguracji zigbee2mqtt oraz restartu serwisu zigbee z poziomu aplikacji:
@@ -155,7 +155,7 @@ i na forum: [Zigbee2mqtt cc2531 - przestało działać
 
 Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.
 
-![Asystent domowy](/img/en/blog/202101/ha_social.png) 
+![Asystent domowy](/img/en/blog/202101/ha_social.png)
 
 Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.1: Happy New Year!](https://www.home-assistant.io/blog/2021/01/06/release-20211/)
 
@@ -164,14 +164,14 @@ Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assis
 
 Tak jak zapowiedzialiśmy na forum [Budujemy mosty](https://ai-speaker.discourse.group/t/kolejna-celina-beta-wydana/1277)
 
-![MQTT Bridge](/img/en/blog/202101/mqtt_bridge.jpeg) 
+![MQTT Bridge](/img/en/blog/202101/mqtt_bridge.jpeg)
 
 Pozwoli to na łatwą integrację z SUPLA Cloud, porozumieliśmy się w tej sprawie z zespołem SUPLA i otrzymaliśmy dostęp do wykonania takiej integracji.
 W kolejnej wersji skupimy się na tym temacie tak żeby cała integracja sprowadziła się do kilku kliknięć w aplikacji.
 
 
-Gdyby ktoś chciał już testować integrację z MQTT Supla to w konfiguracji MQTT dostaliśmy możliwość zmiany konfiguracji brokera MQTT z poziomu aplikacji 
- 
+Gdyby ktoś chciał już testować integrację z MQTT Supla to w konfiguracji MQTT dostaliśmy możliwość zmiany konfiguracji brokera MQTT z poziomu aplikacji
+
  ![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)
 
 
