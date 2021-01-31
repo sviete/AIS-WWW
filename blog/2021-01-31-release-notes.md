@@ -63,20 +63,20 @@ Do pełnej realizacji planu brakuje nam tego ostatniego kroku, w którym bramka 
 <div className="shapeshifter2 play"></div>
 
 
-Kwestią dyskusyjną nie jest już czy AIS wyda głośnik, ale defakto ;), kiedy AIS wyda głośnik.
-Jak niewiele brakuje, żeby te elementy, połączyć w całość pokażemy już za kilka tygodni (na 99% jeszcze w lutym 2021), kiedy wydamy KIT do przerobienia bramki w głośnik.
+Kwestią dyskusyjną nie jest już, czy AIS wyda głośnik, ale de facto ;) kiedy AIS wyda głośnik.
+Jak niewiele brakuje, żeby te elementy połączyć w całość. Pokażemy to już za kilka tygodni (na 99% jeszcze w lutym 2021), kiedy wydamy KIT do przerobienia bramki w głośnik.
 
-Tak jak zapowiadaliśmy, opublikujemy sszczegółową instrukcję, tak żeby każdy mógł sam kupić potrzebne elementy (nie koniecznie od nas - bo nawet nie będziemy mieli dużo takich zestawów) i przerobić bramkę w głośnik.
+Tak jak zapowiadaliśmy, opublikujemy szczegółową instrukcję tak, żeby każdy mógł sam kupić potrzebne elementy (niekoniecznie od nas - bo nawet nie będziemy mieli dużo takich zestawów) i przerobić bramkę w głośnik.
 Na forum można poczytać o szczegółach [Projekt DEV KIT głośnik](https://ai-speaker.discourse.group/t/dev-kit-glosnik-ankieta/1108)
 
 
-![](/img/en/blog/202101/dev-kit.jpeg
+![](/img/en/blog/202101/dev-kit.jpeg)
 
 ## ![](/img/en/blog/202012/mob_app.png) Aplikacja mobilna 2.0.2.CamCast
 
 Najnowsza aplikacja AIS dom to kolejne uproszczenia i nowe możliwości.
 
-Ponieważ aplikacja działa na różnych urządzeniach (od zegarka poprzez telefon, tablet do TV) to żeby, łatwiej było wybrać, w jaki sposób chcemy ją wykorzystywać, dodaliśmy możliwość włączania dodatkowych funkcjonalności, w zależności od tego, do czego chcemy używać aplikacji.
+Ponieważ aplikacja działa na różnych urządzeniach (od zegarka poprzez telefon, tablet do TV), to żeby łatwiej było wybrać, w jaki sposób chcemy ją wykorzystywać, dodaliśmy możliwość włączania dodatkowych funkcjonalności w zależności od tego, do czego chcemy używać aplikacji.
 Oczywiście moglibyśmy to robić automatycznie w zależności od typu urządzenia, ale nie chcemy nikogo ograniczać i narzucać "jedynie słusznego rozwiązania". Dzięki temu można użyć starego telefonu jako panelu sterowania (a nie tylko tabletu) itd.
 
 ![Mob](/img/en/frontend/mob_special_functions.png)
@@ -112,7 +112,7 @@ Funkcjonalność ta będzie docelowo łatwo wywoływana z poziomu aplikacji (bez
 ## ![](/img/en/blog/202101/tv.png) Sterowanie TV
 
 
-Jeżeli podłączymy bramkę do TV lub monitora to możemy teraz zdalnie (z przeglądarki lub aplikacji AIS dom) sterować aktywnościami/eraniami na bramce:
+Jeżeli podłączymy bramkę do TV lub monitora to możemy teraz zdalnie (z przeglądarki lub aplikacji AIS dom) sterować aktywnościami/ekranami na bramce:
 
 ![Gate to tv](/img/en/frontend/gate_to_tv.jpeg)
 
@@ -123,7 +123,7 @@ Na forum dodaliśmy opis w jaki sposób bramka może sterować urządzeniemi pod
 
 ![Gate to tv](/img/en/blog/202101/cec.jpeg)
 
-Połączenie tych funkcjonalność pozwala na wykonanie wideodomofonu. W przyszłości udostępnimy to w formie szablonu automatyzacji.
+Połączenie tych funkcjonalności pozwala na wykonanie wideodomofonu. W przyszłości udostępnimy to w formie szablonu automatyzacji.
 
 
 ## ![](/img/en/blog/202101/tts_icon.png) Tekst powitalny
@@ -144,7 +144,7 @@ Dodaliśmy możliwość zmiany konfiguracji zigbee2mqtt oraz restartu serwisu zi
 
 ![Oprogramowanie bramki](/img/en/blog/202101/zigbee_config.png)
 
-Może to być pomocne w przypadku problemów do zmiany kanału na którym działa zigbee:
+Może to być pomocne w przypadku problemów i do zmiany kanału, na którym działa zigbee:
 Szczegóły w dokumentacji [AIS Zigbee2MQTT](/docs/ais_app_integration_zigbee)
 i na forum: [Zigbee2mqtt cc2531 - przestało działać
 ](https://ai-speaker.discourse.group/t/zigbee2mqtt-cc2531-przestalo-dzialac/743/93)
@@ -167,10 +167,10 @@ Tak jak zapowiedzialiśmy na forum [Budujemy mosty](https://ai-speaker.discourse
 ![MQTT Bridge](/img/en/blog/202101/mqtt_bridge.jpeg)
 
 Pozwoli to na łatwą integrację z SUPLA Cloud, porozumieliśmy się w tej sprawie z zespołem SUPLA i otrzymaliśmy dostęp do wykonania takiej integracji.
-W kolejnej wersji skupimy się na tym temacie tak żeby cała integracja sprowadziła się do kilku kliknięć w aplikacji.
+W kolejnej wersji skupimy się na tym temacie tak, żeby cała integracja sprowadziła się do kilku kliknięć w aplikacji.
 
 
-Gdyby ktoś chciał już testować integrację z MQTT Supla to w konfiguracji MQTT dostaliśmy możliwość zmiany konfiguracji brokera MQTT z poziomu aplikacji
+Gdyby ktoś chciał już testować integrację z MQTT Supla to w konfiguracji MQTT dodaliśmy możliwość zmiany konfiguracji brokera MQTT z poziomu aplikacji
 
  ![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)
 
