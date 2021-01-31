@@ -108,7 +108,7 @@ W ustawieniach możemy ręcznie wybrać parametry aplikacji lub uruchomić ponow
 Najważniejszy parametr to adres URL lub identyfikator bramki, **należy poprawnie ustawić adres lub identyfikator bramki, by komunikacja z bramką była możliwa.** Jeżeli chcemy łączyć się z naszą bramką będąc poza siecią domową to należy pamiętać o włączeniu [dostępu z Internetu](/docs/ais_bramka_remote_www_index).
 
 
-## Ogólne funkcjonalność aplikacji
+## Ogólne funkcjonalności aplikacji
 
 ### Aplikacja Asystent domowy
 
@@ -134,7 +134,7 @@ Funkcje te opisane są tu: [AIS dom mobile](ais_app_android_dom_mob)
 ## Funkcje panelu sterowania
 
 
-W ustawieniach aplikacji AIS dom, możesz właczyć dodatkowe funkcję dedykowane dla wykożystania aplikacji jako panelu sterowania. 
+W ustawieniach aplikacji AIS dom, możesz włączyć dodatkowe funkcje dedykowane dla wykorzystania aplikacji jako panelu sterowania. 
 
 
 Funkcje te opisane są tu: [AIS dom panel](ais_app_android_dom_tablet)
