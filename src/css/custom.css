@@ -237,12 +237,38 @@ a.button.button--danger {
     background-repeat: no-repeat;
   }
   .shapeshifter.play {
+    animation-delay: 4s;
     margin: auto;
     animation-name: play270;
     background-image: url(/img/sprite_30fps.svg);
     animation-iteration-count:infinite;
     margin-top: -100px;
   }
+
+  
+  @keyframes play480 {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: -286080px 0px;
+    }
+  }
+  .shapeshifter2 {
+    animation-duration: 20000ms;
+    animation-timing-function: steps(480);
+    width: 596px;
+    height: 596px;
+    background-repeat: no-repeat;
+  }
+  .shapeshifter2.play {
+    animation-delay: 14s;
+    animation-name: play480;
+    background-image: url(/img/sprite_full_30fps.svg);
+    animation-iteration-count:infinite;
+    margin-top: -50px;
+  }
+  
 }
 
 @media only screen and (max-width: 1023px) {
