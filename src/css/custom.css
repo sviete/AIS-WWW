@@ -267,6 +267,7 @@ a.button.button--danger {
     background-image: url(/img/sprite_full_30fps.svg);
     animation-iteration-count:infinite;
     margin-top: -50px;
+    margin-left: 60px;
   }
   
 }

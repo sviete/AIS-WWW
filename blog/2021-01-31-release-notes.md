@@ -53,45 +53,24 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 Animacje wyświetlą się tylko na ekranach o szerokości co najmniej 600px. Mogą nie być wyświetlane na telefonie.
 :::
 
-Asystent domowy i AI-Speaker powolij i konsekwentnie ewoluuje i przekształca się z oprogramowania do głośnika.
-Jesteśmy na ostatniej prostej, dokładnie tu:
+Asystent domowy i AI-Speaker konsekwentnie ewoluuje i przekształca się z oprogramowania poprzez bramkę w głośnik. Jesteśmy na ostatniej prostej, dokładnie tu:
 
 <div className="shapeshifter play"></div>
 
+Do pełnej realizacji planu brakuje nam tego ostatniego kroku, w którym bramka staje się głośnikiem:
 
-Do pełnej realizacji planu brakuje nam tego ostatniego kroku w którym bramka staje się głośnikiem:
 <div className="shapeshifter2 play"></div>
 
 
+Kwestią dyskusyjną nie jest już czy AIS wyda głośnik, ale defakto ;), kiedy AIS wyda głośnik.
+Jak niewiele brakuje, żeby te elementy, połączyć w całość pokażemy już za kilka tygodni (na 99% w lutym 2021), kiedy wydamy KIT do przerobienia bramki w głośnik.
+
+Tak jak zapowiadaliśmy, opublikujemy sszczegółową instrukcję, tak żeby każdy mógł sam kupić potrzebne elementy (nie koniecznie od nas - bo nie będziemy mieli dużo takich zestawów) i przerobić bramkę w głośnik.
 
 ## ![](/img/en/blog/202012/mob_app.png) Aplikacja mobilna 2.0.2.CamCast
 
-1. Kilka poprawek i optymalizacji.
-Największa poprawka dotyczy wysyłania komend głosowych w sieci lokalnej, przy wyłączonym tunelu i przy podaniu w parametrach połączenia z bramką jej identyfikatora (a nie lokalnego adresu URL).
-Okazało się, że jest tu błąd - dzięki za zgłoszenia. To już powinno działać OK.
 
-2. Ulepszone sterowanie głośnością bramki (głośnika AIS) za pomocą przycisków vol+ / vol- w aplikacji mobilnej.
-
-![App VOL](/img/en/blog/202012/mob_app_vol.png)
-
-3. Nowe wytrenowane Wake / Hot Word-y
-
-![Hey Maya](/img/en/blog/202012/mob_app_hot_word.png)
-
-Funkcjonalność nadal w menu eksperymentalnym w aplikacji mobilnej.
-Więcej informacji na forum [Trenujemy nowe Wake / Hot Word-y](https://ai-speaker.discourse.group/t/trenujemy-nowe-wake-hot-word-y/1075)
-
-![Hey Maya](/img/en/blog/202012/hey_maya.png)
-
-
-## ![](/img/en/blog/202012/christmas-tree.png) Życzymy Wszystkim spełniania marzeń w 2021!
-
-**W 2021 wydawać będziemy wersję raz na miesiąc.** 
-
-Pierwsze wydanie BETA będzie w pierwszą środę każdego miesiąca, a wydanie na kanale STABILNYM będzie w ostatnią środę każdego miesiąca.
-
-![Calendar](/img/en/blog/202012/calendar_releases.png)
 
 -------
 
-##### AI-Speaker 12/2020
+##### AI-Speaker 01/2021
