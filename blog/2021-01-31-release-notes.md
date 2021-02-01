@@ -18,9 +18,7 @@ tags: [ais dom, home assistant, zigbee2mqtt]
 
 </div>
 
-![AIS Aplikacja mobilna](/img/en/blog/202101/mob_app.png) Aplikacja Mobilna ![AIS Kamery](/img/en/blog/202101/camera.png) Kamery ![AIS Media Cast](/img/en/blog/202101/mobile-request.png) Przekierowanie mediów ![AIS Zigbee2Mqtt](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt
-
-![AIS TV](/img/en/blog/202101/tv.png) Sterowanie TV ![AIS TTS](/img/en/blog/202101/tts_icon.png) Tekst powitalny ![AIS HA](/img/en/blog/202101/hass.png) Asystent domowy ![AIS Edit](/img/en/blog/202101/bridge.png) MQTT bridge
+![AIS Aplikacja mobilna](/img/en/blog/202101/mob_app.png) Aplikacja Mobilna ![AIS Kamery](/img/en/blog/202101/camera.png) Kamery ![AIS Media Cast](/img/en/blog/202101/mobile-request.png) Przekierowanie mediów ![AIS Zigbee2Mqtt](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt ![AIS TV](/img/en/blog/202101/tv.png) Sterowanie TV ![AIS TTS](/img/en/blog/202101/tts_icon.png) Tekst powitalny ![AIS HA](/img/en/blog/202101/hass.png) Asystent domowy ![AIS Edit](/img/en/blog/202101/bridge.png) MQTT bridge
 
 <!--truncate-->
 
@@ -103,7 +101,7 @@ ale też wideo wraz z audio z kamer:
 
 
 :::caution UWAGA przekirowanie obrazu z kamery nie jest jeszcze proste
-W opisie [API bramki](/docs/ais_bramka_api_index), w zasobie ```command``` umieściliśmy opis i składnię komendy ```showCamera``` która realizuje tę funkcjonalność. 
+W opisie [API bramki](/docs/ais_bramka_api_index), w zasobie ```command``` umieściliśmy opis i składnię komendy ```showCamera``` która realizuje tę funkcjonalność.
 Ta komenda dostepna też jest jako usługa na bramce ```redirect_camera_stream```
 Funkcjonalność ta będzie docelowo łatwo wywoływana z poziomu aplikacji (bez potrzeby użycia API).
 :::
