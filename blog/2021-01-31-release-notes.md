@@ -18,7 +18,7 @@ tags: [ais dom, home assistant, zigbee2mqtt]
 
 </div>
 
-![AIS Aplikacja mobila](/img/en/blog/202101/mob_app.png) Aplikacja Mobila ![AIS Kamery](/img/en/blog/202101/camera.png) Kamery ![AIS Media Cast](/img/en/blog/202101/mobile-request.png) Przekirowanie mediów ![AIS Zigbee2Mqtt](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt
+![AIS Aplikacja mobilna](/img/en/blog/202101/mob_app.png) Aplikacja Mobilna ![AIS Kamery](/img/en/blog/202101/camera.png) Kamery ![AIS Media Cast](/img/en/blog/202101/mobile-request.png) Przekierowanie mediów ![AIS Zigbee2Mqtt](/img/en/blog/202101/zigbee.png) Zigbee2Mqtt
 
 ![AIS TV](/img/en/blog/202101/tv.png) Sterowanie TV ![AIS TTS](/img/en/blog/202101/tts_icon.png) Tekst powitalny ![AIS HA](/img/en/blog/202101/hass.png) Asystent domowy ![AIS Edit](/img/en/blog/202101/bridge.png) MQTT bridge
 
