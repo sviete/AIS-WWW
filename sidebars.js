@@ -122,6 +122,7 @@ module.exports = {
       "ais_app_ai_integration_google_calendars",
       "ais_app_ai_integration_google_home",
       "ais_app_ai_integration_nbp",
+      "ais_app_auto_proxy",
       "ais_app_integration_ikea",
       "ais_app_supla",
       "ais_app_tauron",
