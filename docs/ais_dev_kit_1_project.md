@@ -20,11 +20,12 @@ Jeżeli ktoś chce zmienić wygląd obudowy to może to zrobić w aplikacji Sket
 
 ![|624x500](https://lh6.googleusercontent.com/xHFuK2n25Kge2Tw8u98gx6S932it3sHNPFO_FSVntEfFcY4eqfV2_a4U0NCSsvELYG227alHjs5zBVKu1Ca47q3tHGR4gZXSZ3kjzB-2FZDRgFeaSgOjgRLmSjnMDXbcGLVkf3Km)
 
-Sketchup umożliwia też eksport do formatu STL(Standard Tessellation Language) - to jest format który rozumie większość programów do modelowania oraz programów do tłumaczenia modelu na komendy dla maszyny cnc czy drukarki 3d.
+Sketchup umożliwia też eksport do formatu STL (Standard Tessellation Language) - to jest format, który rozumie większość programów do modelowania oraz programów do tłumaczenia modelu na komendy dla maszyny cnc czy drukarki 3d.
 
-Pliki z rozszerzeniem stl można zaimportować do darmowego narzędzia PrusaSlicer https://github.com/prusa3d/PrusaSlicer/releases w celu podzielenia modelu na warstwy i wyeksportowaniu do formatu G-code. G-code to jest format który rozumą maszyny cnc i drukarki 3D.
+Pliki z rozszerzeniem stl można zaimportować do darmowego narzędzia PrusaSlicer https://github.com/prusa3d/PrusaSlicer/releases w celu podzielenia modelu na warstwy i wyeksportowaniu do formatu G-code. 
+G-code to jest format, który rozumieją maszyny cnc i drukarki 3D.
 
-Żeby dało się wydrukować obudowę głośnika na drukarce Prusa MK3 podzieliliśmy ją na 2 części. Drukowanie tyłu obudowy (bass reflex) w dobrej jakości trwa około 15 godzin. Zużycie filamentu to około 160g.
+Żeby dało się wydrukować obudowę głośnika na drukarce Prusa MK3, podzieliliśmy ją na 2 części. Drukowanie tyłu obudowy (bass reflex) w dobrej jakości trwa około 15 godzin. Zużycie filamentu to około 160g.
 
 ![|624x476](https://lh6.googleusercontent.com/cgNVFYY3TzOs_3rNbu8JvToySMEmRO14hftcK46KRXbkZJ13aEDDMVNQAkuADsliQCmTrx7M0PEJSzLMhHgkBplOqU5Ks83kH7TGRx8RHWhr-0DWwOvQJzrLE6EOQXHCg-jEuqOr)
 
