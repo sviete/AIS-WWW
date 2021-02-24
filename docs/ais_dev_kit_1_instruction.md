@@ -30,17 +30,17 @@ b) Umieścić wzmacniacz w obudowie i przykręcić 4x M3 x 6mm
 
 Zdjąć osłonę taśmy wewnątrz obudowy. 
 
-Szczelnie wypełnić pianką wytłumiająca zaczynając od formatu 30cm/15cm 
+Szczelnie wypełnić pianką wytłumiającą zaczynając od formatu 30cm/15cm 
 
 a następnie dokładając fragment 17cm/15cm
 
 Dokładnie wypełnić klejem dwa wewnętrzne rowki głównej części obudowy.
 
-UWAGA: zbyt duża ilość kleju lub zalanie 3 rowka może powodować wycieki na zewnątrz, a nie dokładne naniesienie na całym obwodzie może być przyczyną nieszczelności obudowy.
+UWAGA: zbyt duża ilość kleju lub zalanie 3 rowka może powodować wycieki na zewnątrz, a niedokładne naniesienie na całym obwodzie może być przyczyną nieszczelności obudowy.
 
 Złożyć obie części obudowy na wcisk i odczekać do wyschnięcia.
 
-Przykleić uszczelkę głośnikowa na obwodzie frontu, prowadząc ją po krawędzi wgłębienia i docinając odpowiednio końcówki.
+Przykleić uszczelkę głośnikową na obwodzie frontu, prowadząc ją po krawędzi wgłębienia i docinając odpowiednio końcówki.
 
 Dokręcić głośnik śrubami 4x M4 x 16mm, tak aby zlicować powierzchnię obudowy i głośnika.
 
