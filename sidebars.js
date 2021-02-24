@@ -166,6 +166,15 @@ module.exports = {
     "ais_remote_mode_off_tv",
     "ais_remote_faq_index"
   ],
+  "AI-SPEAKER DEV KIT 1": [
+    "ais_dev_kit_1_index",
+    "ais_dev_kit_1_parts",
+    "ais_dev_kit_1_instruction",
+    "ais_dev_kit_1_controll_from_ais",
+    "ais_dev_kit_1_project",
+    "ais_dev_kit_1_audio",
+    "ais_dev_kit_1_codes"
+  ],
   "Zarządzanie urządzeniami AIS dom z bramki": [
     "ais_iot_gate",
     "ais_iot_gate_add_device",

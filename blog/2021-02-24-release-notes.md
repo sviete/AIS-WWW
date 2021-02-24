@@ -18,7 +18,7 @@ tags: [ais dom, home assistant, zigbee2mqtt]
 
 </div>
 
-![AIS DEV KIT](/img/en/blog/202102/speaker.png) DEV KIT  ![AIS Supla MQTT](/img/en/blog/202102/bridge.png) SUPLA MQTT ![AIS Python](/img/en/blog/202102/snake.png) Python3.9.1 ![AIS Zigbee2Mqtt](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
+![AIS Supla MQTT](/img/en/blog/202102/bridge.png) SUPLA MQTT ![AIS DEV KIT](/img/en/blog/202102/speaker.png) DEV KIT ![AIS Python](/img/en/blog/202102/snake.png) Python3.9.1 ![AIS Zigbee2Mqtt](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
 
 <!--truncate-->
 
@@ -48,40 +48,74 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 
 ## ![](/img/en/blog/202102/darek.png) Darek LTS!
 
-> TODO
+
+Uwaga ta wersja wymaga Python w wersji nowszej niż 3.7, spowodowane jest to przejściem Home Assistant na nowszą wersję Python.
+
+![](/img/en/blog/202102/python_update_ha.png)
+
+
+Jeżeli podczas pobieraniu informacji o wersji pojawi się taki komunikat **Masz Python w wersji 3.x.x Przejdz na wersję LTS**
+
+![](/img/en/blog/202102/python_update.png)
+
+
+To należy przed aktualizacją wykonać aktualizację pakietów binarnych na bramce (w tym języka Python). Nie robimy tego automatycznie, można to zrobić ręcznie na 2 sposoby:
+
+
+1. Sposób - pełen reset aplikacji:
+
+    a) Wykonanie [kopii zapasowej konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji),
+ 
+    b) Uruchomienie [pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step),
+
+    c) Przywrócenie konfiguracji z kopii [podczas pierwszego uruchomenia aplikacji](/docs/ais_bramka_first_run_step_account)
+
+lub
+
+2. Sposób - uruchomienie skryptu i cierpliwe poczekanie na jego zakończenie:
+
+    Cała procedura opisana jest na forum: [AIS LTS long time support / długoterminowe wsparcie](https://ai-speaker.discourse.group/t/ais-lts-long-time-support-dlugoterminowe-wsparcie/1013)
+
+
+Po aktualizacji dostępna będzie na bramce najnowsza wersja języka Python:
+
 
 ![](/img/en/blog/202102/python.png) 
 
-## ![](/img/en/blog/202102/speaker.png) AIS DEV KIT
 
-Tak jak zapowiadaliśmy, publikujemy szczegółową instrukcję tak, żeby każdy mógł sam kupić potrzebne elementy w celu przerobienia bramki w głośnik.
+Kolejne aktualizacje będą wykonywane automatycznie. Testujemy już wersję Python 3.9.2. Tylko przejście na wersję 4 będzie znowu bardziej skomplikowane, ale to za kilka lat :) i pewnie do tego czasu AIS będzie jeszcze prostszy w aktualizacji.
 
-> TODO
 
-![](/img/en/blog/202101/dev-kit.jpeg)
+
+------------------------------
+Oczywiście nie ma obowiązku aktualizacji bramki, ale zachęcamy do tego, bo z każdą wersją bramka działa lepiej. Życzymy cierpliwości, wtedy na pewno wszystko będzie dobrze.
+
+Gdyby coś komuś się nie udało to nie martwcie się - Celina wprowadziła “Usługę programowania urządzeń w AI-Speaker”, koszt jest symboliczny i macie urządzenie zaprogramowane w AI-Spekaer :)
+Na rorum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)
 
 
 
 ## [](/img/en/blog/202102/bridge.png) SUPLA MQTT bridge
 
-Tak jak zapowiedzialiśmy na forum [Budujemy mosty](https://ai-speaker.discourse.group/t/kolejna-celina-beta-wydana/1277)
-
-![MQTT Bridge](/img/en/blog/202101/mqtt_bridge.jpeg)
-
-Pozwoli to na łatwą integrację z SUPLA Cloud, porozumieliśmy się w tej sprawie z zespołem SUPLA i otrzymaliśmy dostęp do wykonania takiej integracji.
-W kolejnej wersji skupimy się na tym temacie tak, żeby cała integracja sprowadziła się do kilku kliknięć w aplikacji.
+Oferujemy w systemie Asystent domowy oficjalną integrację z SUPLA MQTT. Ta integracja skierowana jest do osób, które chcą sterować swoimi urządzeniami SUPLA głosowo z Asystenta domowego oraz automatyzować sterowanie tymi urządzeniami na bramce AIS dom.
 
 
-Gdyby ktoś chciał już testować integrację z MQTT Supla to w konfiguracji MQTT dodaliśmy możliwość zmiany konfiguracji brokera MQTT z poziomu aplikacji
+![Integracja SUPLA](/img/en/frontend/integration_supla_2.png)
 
- ![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)
-
-
- Więcej informacji w dokumentacji: [Konfiguracja brokera mqtt](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)
+Nawiązaliśmy współpracę z zespołem SUPLA, o której napiszemy niebawem więcej.
+Cała integracja sprowadza się do kilku kliknięć w aplikacji zgodnie z opisem [AIS SUPLA MQTT](/docs/ais_app_supla)
 
 
+## ![](/img/en/blog/202102/speaker.png) AI-Speaker DEV KIT
+
+Tak jak zapowiadaliśmy, publikujemy szczegółową instrukcję tak, żeby każdy mógł sam kupić potrzebne elementy w celu przerobienia bramki w głośnik.
 
 
+![DEV KIT 1](/img/en/iot/dev_kit_1.jpeg)
+
+
+Instrukcja dostępna jest w dokumentacji: [AI-Speaker DEV KIT 1](/docs/ais_dev_kit_1_index)
+Jutro (25 lutego 2021) uzupełnimy instrukcję o zdjęcia z montażu i wystawimy kilka egzemplarzy na Allegro.
 
 
 ## ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
@@ -90,10 +124,21 @@ Gdyby ktoś chciał już testować integrację z MQTT Supla to w konfiguracji 
 Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.7.1
 Sporo poprawek, wsprawcie dla nowych urządzeń i nowe oprogramowanie do adapterów zigbee, wszystkie szczegóły tu [1.17.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.17.1)
 
+![](/img/en/blog/202102/z2m.png)
 
-Dodaliśmy usługę programania urządzeń - szczegóły:
 
-> TODO
+Gdyby ktoś miał problem ze swoim adapterem Zigbee to tak jak już wspominaliśmy - dodaliśmy usługę programania urządzeń - szczegóły na forum:
+
+ [![](/img/en/blog/202102/ais_devices_suport.png)](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)
+
+
+## ![](/img/en/blog/202101/hass.png) AIS Tasmota
+
+Najnowsze wersje kodów i binarek, jak zwykle dostępne w naszym repoztyrorium: [AIS Tasmota v9.3.1 Kenneth](https://github.com/sviete/AIS-Tasmota/tree/firmware/firmware)
+
+Pełny opis zmian na strone [Tasmota](https://github.com/arendst/Tasmota/releases/tag/v9.3.1): 
+
+[![](/img/en/blog/202102/tasmota.png)](https://github.com/arendst/Tasmota/releases/tag/v9.3.1)
 
 
 
