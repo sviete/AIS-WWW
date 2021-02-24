@@ -35,7 +35,7 @@ Po pomyślnym dodaniu integracji możemy dodać do interfejsu aplikacji sensor z
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_3.png)
 
-Dzięki temu możemy łatwo monitorować status połączenia, oraz ilość wiadomości wysyłanych i odbieranych z SUPLA:
+Dzięki temu możemy łatwo monitorować status połączenia oraz ilość wiadomości wysyłanych i odbieranych z SUPLA:
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_4.png)
 
@@ -43,7 +43,7 @@ Dzięki temu możemy łatwo monitorować status połączenia, oraz ilość wiad
 ## Prezentacja integracji z SUPLA
 
 Po dodaniu integracji można sterować głosowo urządzeniami SUPLA oraz używać ich w automatyzacjach tak samo, jak wszystkie inne urządzenia.
-W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik, odkurzacz) mają to samo API niezależnie od producenta danego urządzenia.
+W systemie Asystent domowy wszystkie typy urządzeń (żarówka, przełącznik, odkurzacz) mają to samo API, niezależnie od producenta danego urządzenia.
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_4.png)
 
@@ -52,4 +52,4 @@ W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik,
 
 Integracja działa ze wszystkimi urządzeniami, które udostępnia SUPLA.
 
-W obecnej wersji integracja pozwala na połączenie z jednym serwerem SUPLA Cloud. Jeżeli ktoś posiada urządzenia w wielu różnych serwerach SUPLA Cloud, to może zdefiniować ręcznie połączenie mostkowe pomiędzy brokeem MQTT działającym na bramce AIS dom oraz brokerami SUPLA. Dostęp do konfiguracji brokera MQTT działającego na bramce AIS możliwy jest z aplikacji, opis znajduje się w: [Konfiguracja brokera mqtt](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)
+W obecnej wersji integracja pozwala na połączenie z jednym serwerem SUPLA Cloud. Jeżeli ktoś posiada urządzenia w wielu różnych serwerach SUPLA Cloud, to może zdefiniować ręcznie połączenie mostkowe pomiędzy brokerem MQTT działającym na bramce AIS dom oraz brokerami SUPLA. Dostęp do konfiguracji brokera MQTT działającego na bramce AIS możliwy jest z aplikacji, opis znajduje się w: [Konfiguracja brokera mqtt](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)
