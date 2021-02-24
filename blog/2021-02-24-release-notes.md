@@ -122,7 +122,7 @@ Jutro (25 lutego 2021) uzupełnimy instrukcję o zdjęcia z montażu i wystawimy
 
 
 Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.7.1
-Sporo poprawek, wsprawcie dla nowych urządzeń i nowe oprogramowanie do adapterów zigbee, wszystkie szczegóły tu [1.17.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.17.1)
+Sporo poprawek, wsparcie dla nowych urządzeń i nowe oprogramowanie do adapterów zigbee, wszystkie szczegóły tu [1.17.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.17.1)
 
 ![](/img/en/blog/202102/z2m.png)
 
