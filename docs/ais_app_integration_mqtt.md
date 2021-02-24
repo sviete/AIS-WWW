@@ -8,17 +8,19 @@ sidebar_label: Broker MQTT
 Na bramce dostarczamy wbudowany broker MQTT oraz usługę zapewniającą jego działanie "z pudełka" po starcie bramki.
 
 MQTT (MQ Telemetry Transport), to protokół łączności maszyna-maszyna lub „Internet rzeczy” będący uzupełnieniem protokołu TCP/IP. Pozwala na niezwykle lekki transport komunikatów publikowania/subskrypcji.
-Urządzenia z naszym oprograwmowaniem komunikują się z bramką w sieci lokalnej za pomocą MQTT. Dzięki czemu są automatycznie wykrywane przez bramkę bez potrzeby konfiguracyji po stronie użytkownika.
+Urządzenia z naszym oprograwmowaniem komunikują się z bramką w sieci lokalnej za pomocą MQTT. Dzięki czemu są automatycznie wykrywane przez bramkę bez potrzeby konfiguracji po stronie użytkownika.
 
 ![WEB console](/img/en/bramka/mqtt_broker.png)
 
 ## Połączenie z borkerem MQTT z systemu Asystent domowy
 
 Aplikacja Asystent domowy (serwer) działająca na bramce łączy się domyślnie z brokerem MQTT działającym również na bramce.
-Zaawansowaniu użytkownicy mogą w razie potrzeby połączyć aplikację Asystent domowy z dowolnym innym brokerem MQTT. W tym celu wystarczy w konfiguracji integracji MQTT:
+Zaawansowani użytkownicy mogą w razie potrzeby połączyć aplikację Asystent domowy z dowolnym innym brokerem MQTT. W tym celu wystarczy w konfiguracji integracji MQTT:
+
 ![zigbee](/img/en/integrations/mqtt_go_to_config.png)
 
 wybrać opcje **RE-KONFIGURACJA POŁĄCZENIA MQTT**:
+
 ![zigbee](/img/en/integrations/mqtt_re_config.png)
 
 -----------------------------------------------------
@@ -41,12 +43,12 @@ pm2 show mqtt
 
 :::caution Uwaga
 **Uwaga!** W przypadku podstawowej konfiguracji ustawienia domyślne są dobre i nie trzeba nic zmieniać.
-Potrzeba zmiany konfiguracji brokera MQTT może dotyczyć tylko programistów i technicznie zaawansowanych użytkowników którzy np. chcą dodać połączenie mostkowe, autentykację itp.
+Potrzeba zmiany konfiguracji brokera MQTT może dotyczyć tylko programistów i technicznie zaawansowanych użytkowników, którzy np. chcą dodać połączenie mostkowe, autentykację itp.
 W przypadku wystąpienia problemów po zmianie konfiguracji brokeram Mqtt zalecamy [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step)
 :::
 
 
-Broker, który dostarczamy na bramce to [mosquitto](https://mosquitto.org/), jego konfiguracja znajduje się w standardowym pliku **mosquitto.conf** w lokalizacji
+Broker, który dostarczamy na bramce, to [mosquitto](https://mosquitto.org/). Jego konfiguracja znajduje się w standardowym pliku **mosquitto.conf** w lokalizacji
 ``/data/data/pl.sviete.dom/files/usr/etc/mosquitto/mosquitto.conf``
 
 ![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)
