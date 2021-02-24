@@ -1,6 +1,6 @@
 ---
-title: "SUPLA"
-sidebar_label: SUPLA
+title: "AIS SUPLA MQTT"
+sidebar_label: AIS SUPLA
 ---
 
 
@@ -11,36 +11,34 @@ sidebar_label: SUPLA
 
 ## Integracja
 
-Oferujemy w systemie Asystent domowy integrację z SUPLA OpenAPI. Jest to pierwsza, jeszcze niekompletna wersja (obecnie obsługiwane są tylko żaluzje i przełączniki). Bazujemy na pakiecie [PySupla](https://github.com/mwegrzynek/pysupla) i na integracji z Home Assistant autorstwa Michała Węgrzynka [mwegrzynek](https://github.com/mwegrzynek).
-
+Oferujemy w systemie Asystent domowy oficjalną integrację z SUPLA MQTT.
 Ta integracja skierowana jest do osób, które chcą sterować swoimi urządzeniami SUPLA także głosowo z Asystenta domowego.
-
-W tej chwili nie można dodawać pojedynczych urządzeń - wszystkie urządzenia są wykrywane jednocześnie z serwerów Supla Cloud lub lokalnego serwera Supla.
 
 ## Dodanie integracji
 
-Integracja wymaga podania trzech parametrów:
+Integracja wymaga zalogowania w SUPLA Cloud.
 
-- Serwer
-- Token
-- Interwał skanowania
+W tym celu należy uruchomić konfigurator integracji
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_1.png)
 
 
-### Parametr serwer
+który poprowadzi przez proces krok po kroku
 
-To adres Twojego serwera Supla Cloud (nazwa IP lub nazwa DNS)
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_2.png)
 
 
-### Parametr Token
+## Informacja o połączeniu z SUPLA 
 
-Token dostępu do konfiguracji interfejsu API REST. Można go uzyskać na stronie http[s]://twoj.server.org/integrations/tokens
-Podczas generowania tokena należy dodać przynajmniej uprawnienia do odczytu kanału i wykonywania akcji.
+Po pomyślnym dodaniu integracji możemy dodać do interfejsu aplikacji sensor z informacją o połączeniu z SUPLA:
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_3.png)
+
+Dzięki temu możemy łatwo monitorować status połączenia, oraz ilość wiadomości wysyłanych i odbieranych z SUPLA:
+
+![Integracja SUPLA](/img/en/frontend/integration_supla_4.png)
+
 
 ## Prezentacja integracji z SUPLA
 
@@ -48,3 +46,10 @@ Po dodaniu integracji można sterować głosowo urządzeniami SUPLA oraz używa�
 W systemie Asystent domowy, wszystkie typy urządzeń (żarówka, przełącznik, odkurzacz) mają to samo API niezależnie od producenta danego urządzenia.
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_4.png)
+
+
+## Ograniczenia
+
+Integracja działa ze wszystkimi urządzeniami, które udostępnia SUPLA.
+
+W obecnej wersji integracja pozwala na połączenie z jednym serwerem SUPLA Cloud. Jeżeli ktoś posiada urządzenia w wielu różnych serwerach SUPLA Cloud, to może zdefiniować ręcznie połączenie mostkowe pomiędzy brokeem MQTT działającym na bramce AIS dom oraz brokerami SUPLA. Dostęp do konfiguracji brokera MQTT działającego na bramce AIS możliwy jest z aplikacji, opis znajduje się w: [Konfiguracja brokera mqtt](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)
