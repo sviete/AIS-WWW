@@ -53,6 +53,6 @@ Pełna lista komend dostępna jest w naszym repozytorium na stronie https://gith
 
 ![|624x523](https://lh3.googleusercontent.com/Sq9rvuSQX1fjqvne9khXxe_EHNJaeslIuF-JRkf7lPxypZu6lPbUN5S3DLHSIMT0JtoHyxWR-E_DM9KsMTKBM34senx0PUS9HI6P4JftVv_vYyCYKjzzB3TsHXUWpWWt8qw6Et6a)
 
-Część komend dotyczy obsługi radia FM czy sterowania odtwarzaniem treści audio z karty SD lub pamięci USB wpiętej bezpośrednio do płyty audio - komend/funkcjonalności tych nigdy nie testowaliśmy, bo nie były nam to potrzebne.
+Część komend dotyczy obsługi radia FM czy sterowania odtwarzaniem treści audio z karty SD lub pamięci USB wpiętej bezpośrednio do płyty audio - komend/funkcjonalności tych nigdy nie testowaliśmy, bo nie było nam to potrzebne.
 
-Na płycie audio dostępne jest też złącze do mikrofonu. Nie wiadomo jednak czy i jak BK3266 obsługuje funkcjonalność mikrofonu, a to dlatego, że Beken nie zaktualizował swojej witryny internetowej o żadne informacje o chipie BK3266. Nie udało się nam też ustalić w korespondencji z firmą Beken w jaki sposób można obsługiwać mikrofon software’owo. Dlatego nie dodaliśmy mikrofonu do DEV KIT SPEAKER 1. 
+Na płycie audio dostępne jest też złącze do mikrofonu. Nie wiadomo jednak czy i jak BK3266 obsługuje funkcjonalność mikrofonu - a to dlatego, że Beken nie zaktualizował swojej witryny internetowej o żadne informacje o chipie BK3266. Nie udało się nam też ustalić w korespondencji z firmą Beken, w jaki sposób można obsługiwać mikrofon software’owo. Dlatego nie dodaliśmy mikrofonu do DEV KIT SPEAKER 1. 
