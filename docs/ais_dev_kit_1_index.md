@@ -1,5 +1,5 @@
 ---
-title: "Głośnik AIS"
+title: "Głośnik AIS (DEV KIT)"
 sidebar_label: Wprowadzenie
 ---
 
@@ -21,7 +21,7 @@ Ponieważ głośniki i jakość dźwięku są ogólnie ważne dla wielu ludzi, c
 
  ## Dostępność i cena
 
-Głośnik można wykonać samemu wg opisu potrzebnych części: [Części zestawu](ais_dev_kit_1_parts), instrukcji montażu: [Montaż zestawu](ais_dev_kit_1_instruction), udostępniamy do tego wszystkie [Kody DEV KIT 1](ais_dev_kit_1_codes).
+Głośnik można wykonać samemu wg opisu potrzebnych części: [Części zestawu](/docs/ais_dev_kit_1_parts), instrukcji montażu: [Montaż zestawu](/docs/ais_dev_kit_1_instruction), udostępniamy do tego wszystkie [Kody DEV KIT 1](/docs/ais_dev_kit_1_codes).
 
 
 Można też kupić gotowy zestaw od nas.

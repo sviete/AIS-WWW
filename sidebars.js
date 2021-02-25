@@ -166,7 +166,7 @@ module.exports = {
     "ais_remote_mode_off_tv",
     "ais_remote_faq_index"
   ],
-  "AI-SPEAKER DEV KIT 1": [
+  "AI-Speaker (DEV KIT1)": [
     "ais_dev_kit_1_index",
     "ais_dev_kit_1_parts",
     "ais_dev_kit_1_instruction",
