@@ -91,7 +91,7 @@ Kolejne aktualizacje będą wykonywane automatycznie. Testujemy już wersję Pyt
 Oczywiście nie ma obowiązku aktualizacji bramki, ale zachęcamy do tego, bo z każdą wersją bramka działa lepiej. Życzymy cierpliwości, wtedy na pewno wszystko będzie dobrze.
 
 Gdyby coś komuś się nie udało to nie martwcie się - Celina wprowadziła “Usługę programowania urządzeń w AI-Speaker”, koszt jest symboliczny i macie urządzenie zaprogramowane w AI-Spekaer :)
-Na rorum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)
+Na forum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)
 
 
 
