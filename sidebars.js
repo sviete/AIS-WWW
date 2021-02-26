@@ -173,7 +173,8 @@ module.exports = {
     "ais_dev_kit_1_controll_from_ais",
     "ais_dev_kit_1_project",
     "ais_dev_kit_1_audio",
-    "ais_dev_kit_1_codes"
+    "ais_dev_kit_1_codes",
+    "ais_dev_kit_1_files"
   ],
   "Zarządzanie urządzeniami AIS dom z bramki": [
     "ais_iot_gate",

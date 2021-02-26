@@ -48,24 +48,36 @@ Umieścić wzmacniacz w obudowie i przykręcić śrubami 4x M3 x 6mm
 
 Dokładnie wypełnić klejem trzy wewnętrzne rowki głównej części obudowy na całym obwodzie
 
-![|624x309](https://lh3.googleusercontent.com/OVr8BBJ_lirHQaxl3J7hM9qDv1sCNljkozSeLK0XfoiLE2S6QP2KKjGiIHn5Ob6Ly-0RLpv6-tTjxQ06xxOTu5G8Ut8a6-EoFKOx3pKVQI7k9_pXht2R6p9j7C8RIDmpcdN5raET)
+![|569x282](https://lh3.googleusercontent.com/OVr8BBJ_lirHQaxl3J7hM9qDv1sCNljkozSeLK0XfoiLE2S6QP2KKjGiIHn5Ob6Ly-0RLpv6-tTjxQ06xxOTu5G8Ut8a6-EoFKOx3pKVQI7k9_pXht2R6p9j7C8RIDmpcdN5raET)
 
 UWAGA: zbyt duża ilość kleju lub zalanie 4 rowka może powodować wycieki na zewnątrz, a nie dokładne naniesienie na całym obwodzie może być przyczyną nieszczelności obudowy.
 
-![|292x305](https://lh5.googleusercontent.com/UH_EFI_glrawq5-I61k404pUz-hVtCmdOGvkSTn674cS2rjpO9hUOggoF4dFpCO26sMblsdQTHdMx79dttSAyqS0_Up543j16MfZHmDaNUN1UFS4o8xHPBmnAGFTkuoJPrWHGk2C)![|315x304](https://lh4.googleusercontent.com/LpV-L8gVS0f3EbDIBrrr2_HxtZrn-2hwUP01vx8MGUx_SOGGszeIItqqdziBLRV-KJIxXWI1Mmkkv3FyqAMwC_kX9kV5nFvc6PutL7HHnI8zB_Va6_OuDmmKrNEElLkgxF4Ib1-3)
+![|260x272](https://lh5.googleusercontent.com/UH_EFI_glrawq5-I61k404pUz-hVtCmdOGvkSTn674cS2rjpO9hUOggoF4dFpCO26sMblsdQTHdMx79dttSAyqS0_Up543j16MfZHmDaNUN1UFS4o8xHPBmnAGFTkuoJPrWHGk2C)![|335x272](https://lh3.googleusercontent.com/rkQQ-xDqgPkwjWeca6SDpVINRvSvJB85qA68PcjEdFIB_oVjtM6gJ9UpwNG1Ld7zHEbolkfl5ffkRaJA08HNGlhNWvR2GVUAg5id6SemhFOXxRkVnASJMYlp_lakKEmfp4c4AoEV)
 
 Złożyć obie części obudowy na wcisk i odczekać do wyschnięcia kleju.
 
-Zdjąć osłonę taśmy wewnątrz obudowy.
+![|446x181](https://lh5.googleusercontent.com/fPg_JiXTKCB1DBaa8dmn0THouDO91f4RJPGU5bvH5kKn2HpoCAYvCZUQyatGYsKu0cy5Gi3lQ_rMl20x87IOe-EmhcUN2BWNw6lYf4GKMoHIl-M74N0QI5hmxmK1-VqG38zYsHtK)
+
+Zdjąć osłonę taśmy dwustronnej wewnątrz obudowy.
+
+![|540x256](https://lh3.googleusercontent.com/BegoO-uSkRTJSq_ebr61Pns46ziXWUeckaov0WAyMtAkISdyFRqjqD26N97kEIHmYaOWlh6KV1wOSBY0OuCY6nMeunqz-tpccKaIDsGHnkhXxWOA8ofBitl_a7mEDuXPkYaJupQH)
 
 Szczelnie wypełnić pianką wytłumiająca zaczynając od formatu 30cm/15cm
 
-> Zdjęcie TODO
+![|555x278](https://lh5.googleusercontent.com/76jzqkXzLOnF-MKgxrV23lp1yZbgeV6w-4gO0e90LrQLhgIrRUmcPSjSbIYBRLsJT0z4Kx8x9_KrqQB6ED6jBiiw0E_CTg4DsHLCfry0L26zyYBNcKXQfNezLDzXMyTr8I2C6Rcn)
 
+![|556x256](https://lh4.googleusercontent.com/GZ9KZJef-G7FVMo-tPsANgt9Wx3CdjTtT6BY6dztnzT-GDrdmR13RnvcQfxiekIcPVw3_meTnriKuymRleJN0uPn-ZXxtyT_Ljtsv05RDpOXtwbsL2OoukhWAZSg1NyxE5kPmj2Y)
 
 a następnie dokładając fragment 17cm/15cm
 
-Przykleić uszczelkę głośnikowa na obwodzie frontu, prowadząc ją po krawędzi wgłębienia i docinając odpowiednio końcówki.
+![|483x254](https://lh3.googleusercontent.com/YlwZiiYUeBzxOk2TGq2I3zPenLAeL9mVC7r0WGxiGwQVXijyhl1IE6PrrS-jLMlhmd_PeewqOtRPk5xeHKBBqqoEYw4UOgiFe5ntfkV_p4uGwyWD6Zla3YN2MTRaobIVkeQdeq3k)![|132x254](https://lh4.googleusercontent.com/sDoAt6q8uNRHe0Htdw3Rq0y2V9mGeToC6OfSc49REnj6vmXMwmsko6_v7DCU4AhQn64ZqAj7OKq4fD7fpYe6zZfJLn9VH8TSu9kEO-UoNio45A2I4ANbNd68fxWcYdy4VT7fd7ZP)
+
+Przykleić uszczelkę głośnikowa na obwodzie frontu, prowadząc ją po krawędzi wgłębienia i docinając odpowiednio końcówki. Nakłuć otwory prowadzące śruby w uszczelce.
+
+![|477x233](https://lh4.googleusercontent.com/84D04Om8LNokhHhIw6tXn9kVEnwt6fFaITe_TIcYX92m6dwufQhDGSdKXEThU2y0-uB7Dja4Al7Lf3GGXhSuvn9xRfArpBjyh7xD9eX6xHpZdSPYy-nB-Inq8YNqxCDadd8pveGn)![|138x233](https://lh6.googleusercontent.com/YHivq9V9J9sUmNQBdevxRROF9JLGXPLRqBzNeTEvvd14rpe8QLYgOIAPB_P4YB51CBLgEMXoJR5byBfgepkuPL8anVJwtZhTk5SzMGk3D1hPsxTHOzcoMPohL2oS2JwZ96kzaEE8)
+
+![|620x279](https://lh3.googleusercontent.com/aD1x-wvkhqhoZ5_3RZIe9eTiB7Yjb-Y_xCy114qfAFFMMbXPFrIviJMyxo6udGfZuVkTevdXxIDtxFx0Fnx25cdKdBz18NcUbD0iwHwgjT4lkPUEUK_3xEPr4qHpVPeDUb2s77jM)
+
 
 
 Podłączyć zaciski głośnikowe
