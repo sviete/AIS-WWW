@@ -12,39 +12,39 @@ import domDemoLogo from '../../static/img/main/Anzela-Demo.png';
 
 const ais_features = [
   {
-    title: <>Ponad <span className="strongInfo">1800</span> urządzeń WiFi</>,
+    title: <>Ponad <span className="strongInfo">1890</span> urządzeń WiFi</>,
     imageUrl: 'img/main/wifi.svg',
     imageBttomUrl: 'img/main/wifi.svg',
     description: (
       <>
         <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
-        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/index.html" target="_blank">ponad 1800 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
+        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/index.html" target="_blank">ponad 1890 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
       </>
     ),
     addClass: 'col col--4 aisFeature row1',
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: <>Ponad <span className="strongInfo">1200</span> urządzeń Zigbee</>,
+    title: <>Ponad <span className="strongInfo">1350</span> urządzeń Zigbee</>,
     imageUrl: 'img/main/zigbee.svg',
     imageBttomUrl: 'img/main/zigbee.svg',
     description: (
       <>
         Dzięki <a href="/docs/ais_zigbee_index"> USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
-        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 1200 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
+        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 1350 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
       </>
     ),
     addClass: 'col col--4 aisFeature row1',
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: <>Ponad <span className="strongInfo">1700</span> Integracji Home Assistant</>,
+    title: <>Ponad <span className="strongInfo">1740</span> Integracji Home Assistant</>,
     imageUrl: 'img/main/ha.svg',
     imageBttomUrl: 'img/main/ha.svg',
     description: (
       <>
         Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a rel="noopener" href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
-        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1700 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
+        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1740 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
       </>
     ),
     addClass: 'col col--4 aisFeature row1',

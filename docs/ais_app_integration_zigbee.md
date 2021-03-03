@@ -16,7 +16,7 @@ Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowan
 
 ## Obsługiwane urządzenia
 
-Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 12/2020 obsługiwanych jest ponad 1200 urządzeń od 180 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
+Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 12/2020 obsługiwanych jest ponad 1350 urządzeń od 200 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
 
 ## Dodanie nowego urządzenia Zigbee
 
