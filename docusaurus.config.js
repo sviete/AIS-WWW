@@ -9,6 +9,18 @@ module.exports = {
   projectName: 'AI-Speaker',
   organizationName: 'sviete',
   favicon: 'img/favicon.ico',
+  i18n: {
+    defaultLocale: 'pl',
+    locales: ['pl', 'en'],
+    localeConfigs: {
+      en: {
+        label: 'English',
+      },
+      pl: {
+        label: 'Polski',
+      },
+    },
+  },
   plugins: [
     [
      '@docusaurus/plugin-ideal-image',
@@ -117,6 +129,8 @@ module.exports = {
         {to: 'docs/ais_app_index', label: 'Aplikacja', position: 'left'},
         {to: 'docs/ais_app_player', label: 'Integracje', position: 'left'},
         {to: 'docs/ais_zigbee_index', label: 'Urządzenia', position: 'left'},
+        { type: 'localeDropdown', position: 'right',
+        },
         {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://ai-speaker.discourse.group/',
