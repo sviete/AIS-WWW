@@ -1,0 +1,30 @@
+{
+  "title": {
+    "message": "Asystent domowy",
+    "description": "The title in the navbar"
+  },
+  "item.label.Bramka": {
+    "message": "Bramka",
+    "description": "Navbar item with label Bramka"
+  },
+  "item.label.Aplikacja": {
+    "message": "Aplikacja",
+    "description": "Navbar item with label Aplikacja"
+  },
+  "item.label.Integracje": {
+    "message": "Integracje",
+    "description": "Navbar item with label Integracje"
+  },
+  "item.label.Urządzenia": {
+    "message": "Urządzenia",
+    "description": "Navbar item with label Urządzenia"
+  },
+  "item.label.Blog": {
+    "message": "Blog",
+    "description": "Navbar item with label Blog"
+  },
+  "item.label.Forum": {
+    "message": "Forum",
+    "description": "Navbar item with label Forum"
+  }
+}

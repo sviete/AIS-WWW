@@ -6,20 +6,33 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Image from '@theme/IdealImage';
+import Translate, {translate} from '@docusaurus/Translate';
 import googlePlayLogo from '../../static/img/main/google-play-badge.png';
 import domDemoLogo from '../../static/img/main/Anzela-Demo.png';
 
 
 const ais_features = [
   {
-    title: <>Ponad <span className="strongInfo">1890</span> urządzeń WiFi</>,
+    title:
+    <Translate
+        id="homepage.ais_features.wifi.title"
+        description="Wifi number devices title"
+        values={{devices: <span className="strongInfo">1900</span>}}>
+        {'{devices} urządzeń WiFi'}
+    </Translate>,
     imageUrl: 'img/main/wifi.svg',
     imageBttomUrl: 'img/main/wifi.svg',
     description: (
-      <>
-        <a href="/docs/ais_iot_s26">Inteligentne gniazdo WiFi</a> to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. <br/>
-        Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru <a rel="noopener" href="https://templates.blakadder.com/index.html" target="_blank">ponad 1890 różnych urządzeń WiFi</a>, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.
-      </>
+      <Translate
+          id="homepage.ais_features.wifi.description"
+          description="Wifi number devices description"
+          values={{
+            aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
+            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1900</Link>
+          }}
+       >
+        {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
+      </Translate>
     ),
     addClass: 'col col--4 aisFeature row1',
     addImgClass: 'aisFeatureImg',

@@ -1,21 +1,31 @@
 {
   "name": "ai-speaker",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "private": true,
   "scripts": {
     "start": "docusaurus start",
     "build": "docusaurus build",
     "swizzle": "docusaurus swizzle",
-    "deploy": "docusaurus deploy"
+    "deploy": "docusaurus deploy",
+    "serve": "docusaurus serve",
+    "write-translations": "docusaurus write-translations",
+    "write-heading-ids": "docusaurus write-heading-ids"
   },
   "dependencies": {
+    "@babel/helper-define-map": "^7.12.13",
+    "@babel/helper-regex": "^7.10.5",
     "@docusaurus/core": "^2.0.0-alpha.71",
+    "@docusaurus/plugin-content-blog": "^2.0.0-alpha.71",
+    "@docusaurus/plugin-content-docs": "^2.0.0-alpha.71",
+    "@docusaurus/plugin-content-pages": "^2.0.0-alpha.71",
     "@docusaurus/plugin-ideal-image": "^2.0.0-alpha.71",
     "@docusaurus/plugin-pwa": "^2.0.0-alpha.71",
     "@docusaurus/preset-classic": "^2.0.0-alpha.71",
     "classnames": "^2.2.6",
     "color": "^3.1.2",
     "http-server": "^0.12.3",
+    "invariant": "^2.2.4",
+    "levenary": "^1.1.1",
     "react": "^16.8.4",
     "react-dom": "^16.8.4"
   },

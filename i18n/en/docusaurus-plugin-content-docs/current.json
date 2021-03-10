@@ -1,0 +1,102 @@
+{
+  "version.label": {
+    "message": "Next",
+    "description": "The label for version current"
+  },
+  "sidebar.System.category.Bramka IoT": {
+    "message": "Bramka IoT",
+    "description": "The label for category Bramka IoT in sidebar System"
+  },
+  "sidebar.System.category.Początkowa konfiguracja Asystenta domowego": {
+    "message": "Początkowa konfiguracja Asystenta domowego",
+    "description": "The label for category Początkowa konfiguracja Asystenta domowego in sidebar System"
+  },
+  "sidebar.System.category.Zarządzanie bramką z poziomu Asystenta domowego": {
+    "message": "Zarządzanie bramką z poziomu Asystenta domowego",
+    "description": "The label for category Zarządzanie bramką z poziomu Asystenta domowego in sidebar System"
+  },
+  "sidebar.System.category.Automatyzacje": {
+    "message": "Automatyzacje",
+    "description": "The label for category Automatyzacje in sidebar System"
+  },
+  "sidebar.System.category.Dostęp w sieci lokalnej": {
+    "message": "Dostęp w sieci lokalnej",
+    "description": "The label for category Dostęp w sieci lokalnej in sidebar System"
+  },
+  "sidebar.System.category.Dostęp z Internetu": {
+    "message": "Dostęp z Internetu",
+    "description": "The label for category Dostęp z Internetu in sidebar System"
+  },
+  "sidebar.System.category.Portal Integratora": {
+    "message": "Portal Integratora",
+    "description": "The label for category Portal Integratora in sidebar System"
+  },
+  "sidebar.System.category.Ustawienia zaawansowane": {
+    "message": "Ustawienia zaawansowane",
+    "description": "The label for category Ustawienia zaawansowane in sidebar System"
+  },
+  "sidebar.System.category.Reset urządzenia do ustawień fabrycznych": {
+    "message": "Reset urządzenia do ustawień fabrycznych",
+    "description": "The label for category Reset urządzenia do ustawień fabrycznych in sidebar System"
+  },
+  "sidebar.Aplikacja.category.Aplikacja internetowa": {
+    "message": "Aplikacja internetowa",
+    "description": "The label for category Aplikacja internetowa in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Aplikacje Android": {
+    "message": "Aplikacje Android",
+    "description": "The label for category Aplikacje Android in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Komendy głosowe": {
+    "message": "Komendy głosowe",
+    "description": "The label for category Komendy głosowe in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Aktualizacja": {
+    "message": "Aktualizacja",
+    "description": "The label for category Aktualizacja in sidebar Aplikacja"
+  },
+  "sidebar.Aplikacja.category.Pełny reset aplikacji": {
+    "message": "Pełny reset aplikacji",
+    "description": "The label for category Pełny reset aplikacji in sidebar Aplikacja"
+  },
+  "sidebar.Integracje.category.Wbudowane integracje audio": {
+    "message": "Wbudowane integracje audio",
+    "description": "The label for category Wbudowane integracje audio in sidebar Integracje"
+  },
+  "sidebar.Integracje.category.Wbudowane inne integracje": {
+    "message": "Wbudowane inne integracje",
+    "description": "The label for category Wbudowane inne integracje in sidebar Integracje"
+  },
+  "sidebar.Integracje.category.IFTTT przykłady": {
+    "message": "IFTTT przykłady",
+    "description": "The label for category IFTTT przykłady in sidebar Integracje"
+  },
+  "sidebar.Integracje.category.Integracje dodatkowe": {
+    "message": "Integracje dodatkowe",
+    "description": "The label for category Integracje dodatkowe in sidebar Integracje"
+  },
+  "sidebar.Urządznia.category.Zigbee USB CC2531": {
+    "message": "Zigbee USB CC2531",
+    "description": "The label for category Zigbee USB CC2531 in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Inteligentne gniazdo WiFi": {
+    "message": "Inteligentne gniazdo WiFi",
+    "description": "The label for category Inteligentne gniazdo WiFi in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Pilot radiowy z mikrofonem": {
+    "message": "Pilot radiowy z mikrofonem",
+    "description": "The label for category Pilot radiowy z mikrofonem in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.AI-Speaker (DEV KIT1)": {
+    "message": "AI-Speaker (DEV KIT1)",
+    "description": "The label for category AI-Speaker (DEV KIT1) in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Zarządzanie urządzeniami AIS dom z bramki": {
+    "message": "Zarządzanie urządzeniami AIS dom z bramki",
+    "description": "The label for category Zarządzanie urządzeniami AIS dom z bramki in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Oprogramowanie dla urządzeń AIS dom": {
+    "message": "Oprogramowanie dla urządzeń AIS dom",
+    "description": "The label for category Oprogramowanie dla urządzeń AIS dom in sidebar Urządznia"
+  }
+}
