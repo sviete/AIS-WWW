@@ -18,7 +18,7 @@ const ais_features = [
         id="homepage.ais_features.wifi.title"
         description="Wifi number devices title"
         values={{devices: <span className="strongInfo">1900</span>}}>
-        {'{devices} urządzeń WiFi'}
+        {'Ponad {devices} urządzeń WiFi'}
     </Translate>,
     imageUrl: 'img/main/wifi.svg',
     imageBttomUrl: 'img/main/wifi.svg',
@@ -38,40 +38,81 @@ const ais_features = [
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: <>Ponad <span className="strongInfo">1350</span> urządzeń Zigbee</>,
+    title: 
+    <Translate
+        id="homepage.ais_features.zigbee.title"
+        description="Zigbee number devices title"
+        values={{devices: <span className="strongInfo">1350</span>}}>
+        {'Ponad {devices} urządzeń Zigbee'}
+    </Translate>,    
     imageUrl: 'img/main/zigbee.svg',
     imageBttomUrl: 'img/main/zigbee.svg',
     description: (
-      <>
-        Dzięki <a href="/docs/ais_zigbee_index"> USB Zigbee2Mqtt</a> możesz łatwo dołączyć do bramki urządzenia Zigbee.
-        <a href="https://www.zigbee2mqtt.io/information/supported_devices.html" target="_blank" rel="noopener"> Ponad 1350 urządzeń</a> jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.
-      </>
+      <Translate
+          id="homepage.ais_features.zigbee.description"
+          description="Zigbee number devices description"
+          values={{
+            aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
+            moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1350</Link>
+          }}
+       >
+        {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  Ponad {moreZigbeeDevices} jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
+      </Translate>
     ),
     addClass: 'col col--4 aisFeature row1',
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: <>Ponad <span className="strongInfo">1740</span> Integracji Home Assistant</>,
+    title: 
+    <Translate
+        id="homepage.ais_features.ha.title"
+        description="HA number of integrations title"
+        values={{devices: <span className="strongInfo">1740</span>}}>
+        {'Ponad {devices} Integracji Home Assistant'}
+    </Translate>,  
     imageUrl: 'img/main/ha.svg',
     imageBttomUrl: 'img/main/ha.svg',
     description: (
-      <>
-        Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej <a rel="noopener" href="https://www.home-assistant.io/" target="_blank">Home Assistant Core</a>.
-        Z zainstalowanymi i gotowymi do użycia <a href="/docs/ais_app_player"> integracjami</a> oraz z możliwością dodania <a href="https://www.home-assistant.io/integrations/" target="_blank" rel="noopener">ponad 1740 dodatkowych integracji</a> które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.
-      </>
+      <Translate
+          id="homepage.ais_features.ha.description"
+          description="HA number of integrations description"
+          values={{
+            aisHomeAssistant: <Link to="https://www.home-assistant.io/">Home Assistant Core</Link>,
+            aisHomeAssistantIntegrations: <Link to="/docs/ais_app_player">AIS</Link>,
+            moreHomeAssistantMoreIntegrations: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1740 HA Integrations</Link>
+          }}
+       >
+        {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej {aisHomeAssistant} z zainstalowanymi i gotowymi do użycia wbudowanymi integracjami {aisHomeAssistantIntegrations}, oraz z możliwością dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}
+      </Translate>
     ),
     addClass: 'col col--4 aisFeature row1',
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: <>Sterowanie głosowe</>,
+    title: 
+    <Translate
+        id="homepage.ais_features.voice.title"
+        description="Voice commands in AIS title">
+        Sterowanie głosowe
+    </Translate>,  
     imageUrl: 'img/main/account-voice.svg',
     imageBttomUrl: '',
     description: (
-      <>
-        Na bramce dostarczamy <a href="/docs/ais_app_assistent_commands">wbudowane komendy</a>, dzięki czemu możesz sterować dołączonymi urządzeniami za pomocą komend. Komendy można przesyłać z <a href="/docs/ais_app_index"> aplikacji w przeglądarce</a>  internetowej, naszej<a href="/docs/ais_app_android_dom"> aplikacji mobilnej</a> lub <a href="/docs/ais_remote_index">pilota z mikrofonem</a>.
-        Można też wysyłać komendy z innych systemów/aplikacji za pomocą <a href="/docs/ais_bramka_api_index">API</a>. Oraz definiować <a href="/docs/ais_app_assistent_add_command">własne komendy</a>.
-      </>
+      <Translate
+          id="homepage.ais_features.voice.description"
+          description="Voice commands in AIS description"
+          values={{
+            aisVoiceCommands: <Link to="/docs/ais_app_assistent_commands">AIS TTS/STT</Link>,
+            aisVoiceCommandsWeb: <Link to="/docs/ais_app_index">AIS Web App</Link>,
+            aisVoiceCommandsMob: <Link to="/docs/ais_app_android_dom">AIS Mob App</Link>,
+            aisVoiceCommandsRemote: <Link to="/docs/ais_remote_index">AIS Remote</Link>,
+            aisVoiceCommandsApi: <Link to="/docs/ais_bramka_api_index">STT API</Link>,
+            aisVoiceCommandsCreate: <Link to="/docs/ais_app_assistent_add_command">AIS Conversation</Link>
+          }}
+       >
+        {'Na bramce dostarczamy {aisVoiceCommands} (zamianę tekstu na mowę i mowy na tekst) oraz wbudowane komendy, dzięki czemu możesz sterować dołączonymi urządzeniami za pomocą poleceń głosowych. Komendy można przesyłać z aplikacji działającej w przeglądarce {aisVoiceCommandsWeb}, aplikacji mobilnej {aisVoiceCommandsMob} lub pilota z mikrofonem {aisVoiceCommandsRemote}.  Można też wysyłać komendy z innych systemów/aplikacji za pomocą {aisVoiceCommandsApi}. Oraz definiować własne komendy {aisVoiceCommandsCreate}.'}
+      </Translate>
+      
     ),
     addClass: 'col col--4 col--offset-2 aisFeature row2',
     addImgClass: 'aisFeatureImg',
@@ -81,99 +122,25 @@ const ais_features = [
     imageUrl: 'img/main/monitor-speaker-2.svg',
     imageBttomUrl: '',
     description: (
-      <>
-        Na bramce dostarczmy wbudowany <a href="/docs/ais_app_player">odtwarzacz audio</a>, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z <a href="/docs/ais_app_youtube_dl">YouTube</a> oraz <a href="/docs/ais_app_spotify">Spotify</a>.
-        Istnieje też możliwość definiowania własnych dodatkowych treści audio w <a href="/docs/ais_dom_cloud_login">portalu integratora</a>.
-      </>
+      <Translate
+          id="homepage.ais_features.audio.description"
+          description="Audio in AIS description"
+          values={{
+            aisAudioPlayer: <Link to="/docs/ais_app_player">AIS Audio Player</Link>,
+            aisAudioYouTube: <Link to="/docs/ais_app_youtube_dl">YouTube</Link>,
+            aisAudioSpotify: <Link to="/docs/ais_app_spotify">Spotify</Link>,
+            aisAudioPortal: <Link to="/docs/ais_dom_cloud_login">AIS Portal</Link>
+          }}
+       >
+        {'Na bramce dostarczamy wbudowany odtwarzacz audio {aisAudioPlayer}, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z {aisAudioYouTube} oraz {aisAudioSpotify}. Istnieje też możliwość definiowania własnych dodatkowych treści audio w {aisAudioPortal}.'}
+       </Translate>
+      
     ),
     addClass: 'col col--4 aisFeature row2',
     addImgClass: 'aisFeatureImg',
   },
 ];
 
-const features = [
-  {
-    title: 'Prywatność. Nie musisz płacić za usługę smart home utratą prywatności.',
-    imageUrl: 'img/main/ais-privacy.svg',
-    description: (
-      <>
-        <p>
-          Gdy masz w domu stale włączony mikrofon firmy, która zarabia na dostarczaniu spersonalizowanych reklam, wtedy
-          to o czym rozmawiasz i co robisz w domu, może być towarem sprzedawanym firmom trzecim.
-          Dane o Tobie mogą też zostać użyte do politycznej propagandy.
-          To nie jest scenariusz z powieści dystopijnej, to już rzeczywistość.
-        </p>
-        <p>
-        <img alt="AIS dom info" className="aisPointInfo" src="img/main/solution.svg" />
-        To, co nas odróżnia od innych asystentów to fakt, że oferujemy rozwiązanie, które działa lokalnie w Twoim domu i nie wysyła nikomu żadnych Twoich danych.
-        Skoro <b>nie gromadzimy danych, to też ich nikomu nie sprzedajemy - proste!</b>
-        </p>
-      </>
-    ),
-    addClass: 'col col--6',
-  },
-  {
-    title: 'Działanie lokalne. Kontroluj swoje urządzenia lokalnie, nie pozwól by zrobiono z Twoich danych produkt.',
-    imageUrl: 'img/main/ais-local.svg',
-    description: (
-      <>
-      <p>
-          Popularne technologie smart home, wykorzystują chmurę do sterowania automatyką domową.
-          To niesie ze sobą kilka problemów, takich jak opóźnienia w reakcji urządzeń na komendę, utrata prywatności, uzależnienie się od dostawcy - jeśli firma, od której kupiłeś urządzenie, postanowi zamknąć usługę, Twój smart home przestanie działać.
-      </p>
-      <p>
-        <img alt="AIS dom info" className="aisPointInfo" src="img/main/solution.svg" />
-        W naszym rozwiązaniu system sterowania działa w Twoim domu, nie w chmurze producenta.
-        Dzięki naszej bramce z brokerem MQTT i oprogramowaniem Home Assistant możesz sterować urządzeniami lokalnie.
-        <b> Chmurę traktujemy jako rozszerzenie inteligentnego domu, a nie jego podstawę.</b>
-      </p>
-      </>
-    ),
-    addClass: 'col col--6',
-  },
-  {
-    title: 'Wolność. To co ważne',
-    imageUrl: 'img/main/ais-freedom.svg',
-    description: (
-      <>
-        <p>
-           Gdy pytasz o daną rzecz lub jej szukasz w sieci, to znaczy, że się nią interesujesz i chętnie wysłuchasz "porady asystenta" lub przejrzysz zwracane wyniki.
-           Niestety często nie są to najlepsze dla Ciebie odpowiedzi, ale takie, za które ktoś najwięcej zapłacił, żeby zostały Ci zaprezentowane.
-           Reklamy spersonalizowane, godne zaufania, trafne... są prawdziwą kopalnią złota dla gigantów technologicznych.
-           Tylko jak można ufać prywatnemu asystentowi, który umieszcza reklamy w odpowiedzi na pytania?
-        </p>
-        <p>
-        <img alt="AIS dom info" className="aisPointInfo" src="img/main/solution.svg" />
-          Nie "wysysamy" danych z Twojego domu i <b>nie umieszczamy w żaden sposób reklam w żadnej formie w odpowiedziach, które zwracamy</b>
-          . Jesteśmy otwarci i udostępniamy kody naszego systemu za darmo dla wszystkich ludzi.
-          Asystent domowy to wybór dla ludzi ceniących sobie ponadczasowe wartości, takie jak wolność,
-          prywatność i szczerość.
-        </p>
-      </>
-    ),
-    addClass: 'col col--6',
-  },
-  {
-    title: 'Otwartość i dostępność. Asystent dostępny dla każdego',
-    imageUrl: 'img/main/ais-open.svg',
-    description: (
-      <>
-      <p>
-        Uzależnienie od dostawcy (ang. vendor lock-in), to sytuacja, w której klient jest uzależniony od produktów dostawcy.
-        W przypadku systemów automatyki termin ten odnosi się też do niemożności zastosowania urządzenia innego producenta z powodu niekompatybilności.
-        Często niekompatybilność urządzeń jest celowym zamierzeniem dostawcy, który z uzależnienia nabywcy czerpie korzyści – w modelu biznesowym powiązanych produktów, dostawca sprzedaje główny produkt (np. centralkę) po zaniżonej cenie po to, aby czerpać korzyści ze sprzedaży komponentów, które do niego pasują.
-      </p>
-        <p>
-          <img alt="AIS dom info" className="aisPointInfo" src="img/main/solution.svg" />
-          Nasza <b>bramka może być konfigurowana i sterowana z przeglądarki internetowej</b>, nie zamykamy nikogo w jednym ekosystemie.
-          Asystent domowy jest kompatybilny z popularnymi urządzeniami automatyki domowej, jest wyposażony w wiele wbudowanych integracji.
-          Bazujemy na Home Assistant, gdzie aktywna społeczność użytkowników dzieli się pomysłami, spostrzeżeniami i rozwiązaniami.
-        </p>
-      </>
-    ),
-    addClass: 'col col--6',
-  },
-];
 
 function Feature({imageUrl, imageBttomUrl, title, description, addClass, addImgClass}) {
   const imgUrl = useBaseUrl(imageUrl);
@@ -196,16 +163,38 @@ function Home() {
   const {siteConfig = {}} = context;
   return (
     <Layout
-      title="Dokumentacja AIS"
-      description="Automatyzujemy Twój dom lokalnie.">
+      title={
+        translate({
+          message: 'Dokumentacja AIS',
+          description: 'The homepage title',
+        })
+      }
+      description={
+        translate({
+          message: 'Automatyzujemy Twój dom lokalnie.',
+          description: 'The homepage description',
+        })
+      }>
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
           <div className="row">
             <div className={classnames('col col--5 col--offset-1')}>
-              <h1 className="hero__title">{siteConfig.title}</h1>
-              <p className="hero__subtitle">{siteConfig.tagline}</p>
+              <h1 className="hero__title">
+                <Translate
+                    id="homepage.hero_title"
+                    description="The homepage hero title">
+                    Asystent domowy
+                </Translate>
+              </h1>
+              <p className="hero__subtitle">
+                <Translate
+                    id="homepage.hero_subtitle"
+                    description="The homepage hero subtitle">
+                    Lokalny, niezawodny, szybki i prywatny.
+                </Translate>                
+              </p>
               <div className={styles.buttons}>
-                <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" aria-label="Zainstaluj AIS z Google Play">
+                <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" aria-label={translate({message: 'Zainstaluj z Google Play.', description: 'Install from Google Play label',})}>
                   <Image img={googlePlayLogo} alt="AIS in Google Play"/>
                 </a>
               </div>
@@ -218,7 +207,12 @@ function Home() {
           </div>
           <div className={classnames(styles.announcement)}>
             <div className={styles.announcementInner}>
-              Chcesz zobaczyć, jak to działa?<br></br>
+                <Translate
+                    id="homepage.demo_ask_to_try"
+                    description="The homepage ask to try demo">
+                    Chcesz zobaczyć, jak to działa?
+                </Translate>
+              <br></br>
               <Link to="https://dom-demo.paczka.pro">
                 <Image className={styles.aisDemoImg} img={domDemoLogo} alt="Dom demo"/>
               </Link>
@@ -228,7 +222,19 @@ function Home() {
       </header>
       <div className={classnames(styles.announcement, styles.announcementDark)}>
         <div className={styles.announcementInner}>
-          <p>Automatyzujemy Twój dom, łącząc zalety lokalnego przetwarzania<br/>z łącznością z usługami w chmurze IoT.</p>
+            <p>
+            <Translate
+                id="homepage.ais_announcement_line_one"
+                description="Announcement line one">
+                  Automatyzujemy Twój dom, łącząc zalety lokalnego przetwarzania
+            </Translate>
+              <br/>
+              <Translate
+                id="homepage.ais_announcement_line_two"
+                description="Announcement line two">
+                  z łącznością z usługami w chmurze IoT.
+            </Translate>
+            </p>
           <Link to={useBaseUrl('/docs/ais_bramka_index')}>
             <div className="miniImages">
             <img alt="AIS dom text to speech" className="aisPointInfo" src="img/main/text-to-speech.svg" />
@@ -239,10 +245,14 @@ function Home() {
             <br />
             </div>
             <div className="shapeshifter play"></div>
-            Bramka do sterowania automatyką domową i multimiediami<br />z wbudowanym inteligentnym asystentem głosowym.
+          <p> 
+            <Translate
+                id="homepage.ais_gate_description"
+                description="Gate description on first page">
+                  Innowacyjna bramka steruje urządzeniami lokalnie, zapewniając błyskawiczną reakcję i prywatność, a dodatkowo odtwarza multimedia i ma większe możliwości niż konkurencyjne rozwiązania.
+            </Translate>
+          </p>
           </Link>
-          <br /><br />
-          <p>Nasza innowacyjna bramka steruje urządzeniami lokalnie, zapewniając błyskawiczną reakcję i prywatność, a dodatkowo odtwarza multimedia i ma większe możliwości niż konkurencyjne rozwiązania.</p>
         </div>
       </div>
 
@@ -250,7 +260,11 @@ function Home() {
         <div className={classnames('row', styles.aisDiferencesFromOthers)}>
         <h1>
           <br/>
-          Wiele inteligentnych urządzeń i jeden system, by nimi sterować!
+          <Translate
+                id="homepage.ais_one_gate_for_all_text"
+                description="One gate to rule them all text">
+                  Wiele inteligentnych urządzeń i jeden system, by nimi sterować!
+            </Translate>
         </h1>
         </div>
      </div>
@@ -272,44 +286,17 @@ function Home() {
             </div>
           </section>
         )}
-      </main>
-
-
-      <div className="container">
-        <div className={classnames('row', styles.aisDiferencesFromOthers)}>
-        <h1>
-          <br/>
-          Co nas wyróżnia? Jakie problemy rozwiązujemy?
-        </h1>
-        <h3>
-          W miarę jak inteligentne domy i technologia głosowa stają się coraz bardziej zintegrowane z naszym codziennym życiem, coraz większe znaczenie mają kluczowe względy dotyczące kosztów, prywatności i praktyczności.
-        </h3>
-        <p>
-          Obecnie na rynku systemów do sterowania automatyką domową dominują rozwiązania technicznie oparte całkowicie na usługach w chmurze. Takie podejście ma pewne wady, co skutkuje nieoptymalnymi doświadczeniami zarówno dla klientów, jak i producentów inteligentnych urządzeń.
-          Popularne dzisiaj rozwiązania dostępne na rynku mają też problem z modelem biznesowym, ponieważ producent sprzedając urządzenie musi utrzymać usługi w chmurze przez lata i dlatego często w celu pokrycia kosztów utrzymania serwisów, sprzedaje dane użytkownika, wprowadza abonament albo przestaje wspierać urządzenia po gwarancji i zostawia klienta z niedziałającym rozwiązaniem.
-        </p>
-          <p>
-            Poniżej przedstawimy, co wyróżnia rozwiązania AI-Speaker i w jaki sposób staramy się skutecznie i etycznie rozszerzać technologie inteligentnego domu, jednocześnie chroniąc prywatność użytkowników, zapewniając długoterminowe wsparcie dla urządzeń oraz budując lojalność i zaufanie pomiędzy producentem i klientami.
-          </p>
-        </div>
-     </div>
-      <main>
-        {features && features.length && (
-          <section className={styles.features}>
-            <div className="container">
-              <div className="row">
-                {features.map((props, idx) => (
-                  <Feature key={idx} {...props} />
-                ))}
-              </div>
-            </div>
-          </section>
-        )}
         <section className={styles.loveSection}>
           <div className={classnames('container')}>
             <div className="row">
               <div className={classnames('col col--10', styles.aisPeoples)}>
-                <div className="aisFeatureTitle">Projekt tworzony i sponsorowany przez ludzi - dziękujemy!</div>
+                <div className="aisFeatureTitle">
+                  <Translate
+                    id="homepage.ais_project_people_info"
+                    description="This project is sponsored by people info">
+                      Projekt tworzony i sponsorowany przez ludzi - dziękujemy!
+                  </Translate>
+              </div>
                 <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Andrzej.webp" /></a>
                 <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Sebastian.webp" /></a>
                 <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Celka.webp" /></a>
@@ -332,10 +319,29 @@ function Home() {
                 <Link
                   className={classnames('button button--danger')}
                   to="https://allegro.pl/uzytkownik/AI-Speaker">
-                  ZOSTAŃ BOHATEREM.<br/>
-                  Kup nasze urządzenie i <br/>
-                  wesprzyj nasz projekt.<br/>
-                  Dołącz do nas!
+                  <Translate
+                    id="homepage.ais_project_join_button_line_1"
+                    description="Join button line 1">
+                      ZOSTAŃ BOHATEREM.
+                  </Translate>
+                  <br/>
+                  <Translate
+                    id="homepage.ais_project_join_button_line_2"
+                    description="Join button line 2">
+                      Kup nasze urządzenie i
+                  </Translate>
+                  <br/>
+                  <Translate
+                    id="homepage.ais_project_join_button_line_3"
+                    description="Join button line 3">
+                      wesprzyj nasz projekt.
+                  </Translate>
+                  <br/>
+                  <Translate
+                    id="homepage.ais_project_join_button_line_4"
+                    description="Join button line 4">
+                      Dołącz do nas!
+                  </Translate>
                 </Link>
               </div>
             </div>

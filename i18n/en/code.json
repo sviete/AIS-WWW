@@ -4,7 +4,7 @@
     "description": "Wifi number devices title"
   },
   "homepage.ais_features.wifi.description": {
-    "message": "{aisSocket} to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru {moreWiFiDevices}, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.",
+    "message": "{aisSocket} is the easiest way to add a touch of intelligence to your home devices. The device runs on software, the sources of which and the compiled version are provided for free. So you have a choice of {moreWiFiDevices} devices, that you can connect to the gate in the same simple way as our Smart Socket.",
     "description": "Wifi number devices description"
   },
   "theme.NotFound.title": {
@@ -210,5 +210,93 @@
   "theme.PwaReloadPopup.closeButtonAriaLabel": {
     "message": "Close",
     "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "Dokumentacja AIS": {
+    "message": "AIS Documentation",
+    "description": "The homepage title"
+  },
+  "Automatyzujemy Twój dom lokalnie.": {
+    "message": "Automate your home locally.",
+    "description": "The homepage description"
+  },
+  "homepage.hero_title": {
+    "message": "Assistant at home",
+    "description": "The homepage hero title"
+  },
+  "homepage.hero_subtitle": {
+    "message": "Local, reliable, fast and private.",
+    "description": "The homepage hero subtitle"
+  },
+  "homepage.demo_ask_to_try": {
+    "message": "Do you want to see how it works?",
+    "description": "The homepage ask to try demo"
+  },
+  "Zainstaluj z Google Play.": {
+    "message": "Install from Google Play.",
+    "description": "Install from Google Play label"
+  },
+  "homepage.ais_announcement_line_one": {
+    "message": "We automate your home by combining the advantages of local processing",
+    "description": "Announcement line one"
+  },
+  "homepage.ais_announcement_line_two": {
+    "message": "with connectivity to IoT cloud services.",
+    "description": "Announcement line two"
+  },
+  "homepage.ais_gate_description": {
+    "message": "The innovative gateway controls devices locally, ensuring instant response and privacy, and also plays multimedia and has more possibilities than competing solutions.",
+    "description": "Gate description on first page"
+  },
+  "homepage.ais_one_gate_for_all_text": {
+    "message": "Many intelligent devices and one system to rule them all!",
+    "description": "One gate to rule them all text"
+  },
+  "homepage.ais_project_people_info": {
+    "message": "Project created and sponsored by people - thank you!",
+    "description": "This project is sponsored by people info"
+  },
+  "homepage.ais_project_join_button_line_4": {
+    "message": "Join us!",
+    "description": "Join button line 4"
+  },
+  "homepage.ais_project_join_button_line_1": {
+    "message": "BECOME A HERO.",
+    "description": "Join button line 1"
+  },
+  "homepage.ais_project_join_button_line_2": {
+    "message": "Buy our device to",
+    "description": "Join button line 2"
+  },
+  "homepage.ais_project_join_button_line_3": {
+    "message": "support our project.",
+    "description": "Join button line 3"
+  },
+  "homepage.ais_features.zigbee.title": {
+    "message": "Over {devices} Zigbee devices",
+    "description": "Zigbee number devices title"
+  },
+  "homepage.ais_features.zigbee.description": {
+    "message": "With {aisZigbee} you can easily attach Zigbee devices to the gateway. More than {moreZigbeeDevices} are supported by the Zigbee2Mqtt software we provide on the gateway.",
+    "description": "Zigbee number devices description"
+  },
+  "homepage.ais_features.ha.title": {
+    "message": "Over {devices} Home Assistant Integrations",
+    "description": "HA number of integrations title"
+  },
+  "homepage.ais_features.ha.description": {
+    "message": "One of the components of the software delivered on the gateway is the {aisHomeAssistant} home automation system with installed and ready-to-use embedded {aisHomeAssistantIntegrations} integrations, and with the ability to add more than {moreHomeAssistantMoreIntegrations} that are supported and developed by the Home Assistant community.",
+    "description": "HA number of integrations description"
+  },
+  "homepage.ais_features.voice.title": {
+    "message": "Voice control",
+    "description": "Voice commands in AIS title"
+  },
+  "homepage.ais_features.voice.description": {
+    "message": "We provide {aisVoiceCommands} (speech-to-text) _ and built-in commands on the gateway, so you can control attached devices using voice commands. Commands can be sent from the {aisVoiceCommandsWeb} browser application, the {aisVoiceCommandsMob} mobile application or the {aisVoiceCommandsRemote} remote control. You can also send commands from other systems / applications using {aisVoiceCommandsApi}. And define your own {aisVoiceCommandsCreate} commands.",
+    "description": "Voice commands in AIS description"
+  },
+  "homepage.ais_features.audio.description": {
+    "message": "We provide a built-in {aisAudioPlayer} audio player on the gateway, with which you can play hundreds of radio stations, podcasts, free audiobooks, free content from {aisAudioYouTube} and {aisAudioSpotify}. It is also possible to define your own additional audio content in {aisAudioPortal}.",
+    "description": "Audio in AIS description"
   }
 }
