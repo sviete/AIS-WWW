@@ -33,7 +33,7 @@ Dokładną procedurę "krok po kroku" opisujemy na forum. **Zaplanuj sobie migra
 Nic się nie stanie, jeśli nie wykonasz migracji - nadal będziesz dostawał aktualizację aplikacji Asystent domowy.
 Wszystko będzie działało tak jak dotychczas. Nie będziesz miał jedynie dostępu do najnowszych usług takich jak włączanie mikrofonu czy odtwarzanie wideo.
 
-Jeśli coś pójdzie nie tak i nie uda Ci się wykonać migracji, to też nic się nie stanie. W takim przypadku napisz do nas na serwis: [info@sviete.pl](mailto:info@sviete.pl) i postaramy się pomóc - w najgorszym wypadku, wyślesz nam bramkę a my ją zaktualizujemy - oczywiście usługa bezpłatna, relax :)
+Jeśli coś pójdzie nie tak i nie uda Ci się wykonać migracji, to też nic się nie stanie. W takim przypadku napisz do nas na serwis: [info@ai-speaker.com](mailto:info@ai-speaker.com) i postaramy się pomóc - w najgorszym wypadku, wyślesz nam bramkę a my ją zaktualizujemy - oczywiście usługa bezpłatna, relax :)
 :::
 
 ## Nowa strona dokumentacji

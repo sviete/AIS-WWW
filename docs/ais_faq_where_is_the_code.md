@@ -21,6 +21,6 @@ Jeśli chcesz, aby Twój program czy urządzenie korzystało z systemowego API d
 
 Jeśli masz pomysł jak coś ulepszyć, to jesteśmy otwarci na propozycję zmiany/ulepszenia w kodzie - wystarczy, że wyślesz nam prośbę o ściągnięcie twojego ulepszonego kodu (pull request).
 
-Nie przejmuj się, jeśli nie potrafisz kodować, możesz zgłosić nam swój pomysł na ulepszenie systemu bezpośrednio w repozytorium lub na adres email info@sviete.pl. Postaramy się w miarę możliwości technicznych i czasowych uwzględnić każdą sugestię.
+Nie przejmuj się, jeśli nie potrafisz kodować, możesz zgłosić nam swój pomysł na ulepszenie systemu bezpośrednio w repozytorium lub na adres email info@ai-speaker.com. Postaramy się w miarę możliwości technicznych i czasowych uwzględnić każdą sugestię.
 
 Jeśli chcesz się zaangażować w ulepszenie i rozwój Asystenta domowego, to możesz też zacząć od ulepszenia dokumentacji — popatrz, jak działa przycisk **EDIT** na górze, po prawej stronie strony, którą teraz czytasz :)

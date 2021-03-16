@@ -23,5 +23,5 @@ Jeśli eksperymentujesz z ustawieniami systemu, tworzysz własne integracje, zmi
 :::danger ostrzeżenie
 Przywracanie ustawień fabrycznych urządzenia, to procedura, która polega na cofnięciu się z wersją systemu do... ustawień fabrycznych (do wersji systemu z dnia zakupu).
 
-Żeby otrzymać opis, jak wykonać `Przywracanie ustawień fabrycznych urządzenia` napisz do nas: [info@sviete.pl](mailto:info@sviete.pl)
+Żeby otrzymać opis, jak wykonać `Przywracanie ustawień fabrycznych urządzenia` napisz do nas: [info@ai-speaker.com](mailto:info@ai-speaker.com)
 :::

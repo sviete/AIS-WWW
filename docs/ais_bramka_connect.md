@@ -3,10 +3,6 @@ title: "Podłączenie bramki"
 sidebar_label: Podłączenie
 ---
 
-## Pierwsze uruchomienie - prezentacja wideo
-
-[![AIS DEV2 First run](/img/en/bramka/first_run_video.png)](https://youtu.be/1qSQWAFizCM?cc_load_policy=1)
-
 ## Zawartość opakowania
 
 W pudełku znajdziesz bramkę oraz niezbędne akcesoria:
@@ -14,8 +10,9 @@ W pudełku znajdziesz bramkę oraz niezbędne akcesoria:
  * Bramka
  * Zasilacz
  * Kabel HDMI
+ * Pilot radiowy z mikrofonem
 
-![AIS DEV2 First run](/img/en/bramka/first_run_1.png)
+![AIS dom DEV2](/img/en/bramka/bramka_full.jpg)
 
 
 ## Gniazda dostępne w urządzeniu
@@ -40,9 +37,9 @@ Podłącz bramkę do telewizora lub monitora za pomocą kabla HDMI, następnie p
 Żeby połączyć bramkę z Internetem możesz użyć kabla ethernet lub sieci WiFi.
 
 
-### Dodatkowe urządzenia 
+### Pilot radiowy z mikrofonem
 
-Opcjonalnie, możesz dołączyć do gniazd USB z boku bramki: [pilot radiowy zdalnego sterowania z mikrofonem](/docs/ais_remote_index) i/lub [kontroler zigbee](/docs/ais_zigbee_index).
+Połącz do gniaza USB: [pilot radiowy zdalnego sterowania z mikrofonem](/docs/ais_remote_index).
 
 
 ### Wbudowany chip NFC

@@ -1,13 +1,11 @@
 ---
 title: "Bramka IoT"
-sidebar_label: Karta produktu
+sidebar_label: Opis produktu
 ---
 
 ## Bramka z inteligentnym asystentem głosowym
 
-### Opis produktu
-
-Celem bramki do domowego Internetu Rzeczy z inteligentnym asystentem głosowym jest komunikacja i zarządzanie inteligentnymi urządzeniami w Twoim domu. **Bramka "tłumaczy" polecenia głosowe na komendy, które są zrozumiałe przez urządzenia** oraz automatycznie wykonuje czynności (np. włączenie urządzeń) w określonych okolicznościach.
+Celem bramki do Internetu Rzeczy z inteligentnym asystentem głosowym jest komunikacja i zarządzanie inteligentnymi urządzeniami. **Bramka "tłumaczy" polecenia głosowe na komendy, które są zrozumiałe przez urządzenia** oraz automatycznie wykonuje czynności (np. włączenie urządzeń) w określonych okolicznościach.
 
 ### Zdjęcie produktu
 
@@ -15,23 +13,26 @@ Celem bramki do domowego Internetu Rzeczy z inteligentnym asystentem głosowym j
 
 ### Specyfikacja techniczna
 
-Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada wbudowane WiFi oraz dysk, a także porty LAN/Ethernet, 4 x USB, SPDIF, Aux, HDMI.
+Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada wbudowane WiFi oraz dysk, a także porty LAN/Ethernet, 2 x USB, SPDIF, Aux, HDMI.
 
-|                       | AIS DEV2                                                    |
+|                       | AIS DEV3                                                |
 |-----------------------|---------------------------------------------------------|
-| oprogramowanie        | Asystent domowy, środowisko Linux, Android (root)  |
-| procesor              | Amlogic S905 ARM Cortex-A53 (cztero-rdzeniowy)          |
-| pamięć                | 2 GB DDR3                                               |
-| wbudowany dysk        | 16 GB eMMC                                              |
-| Gniazdo karty pamięci | TF                                                      |
-| USB                   | 2 (1x OTG, 1x USB 2.0)                                  |
+| oprogramowanie        | Asystent domowy, środowisko Linux, Android (root)       |
+| procesor              | Amlogic S905X3 Quad-Core 4xCortex-A55                   |
+| pamięć                | 4G DDR3                                                 |
+| wbudowany dysk        | 128 GB eMMC                                             |
+| Gniazdo karty pamięci | TF card max. 64GB (nie zawarte w zestawie)              |
+| USB                   | 2 (1x OTG, 1x USB 3.0)                                  |
 | HDMI                  | 2.0A                                                    |
 | AV                    | 3,5mm jack                                              |
-| SPDIF                 | 3,5mm jack                                              |
+| SPDIF                 | Optical SPDIF                                           |
 | Ethernet RJ45         | 10/100M                                                 |
-| WiFi                  | 2.4 GHz 802.11 b/g/n                                    |
-| Dodatkowo w zestawie  | kabel HDMI, zasilacz 5V 2A                              |
-| Do kupienia osobno    | pilot radiowy, inteligentne urządzenia                  |
+| WiFi                  | 2.4 GHz / 5 GHz 802.11 a/b/g/n                          |
+| Bluetooth             | 4.1                                                     |
+| Zasilanie             | wejście 100-240V / 50-60Hz, wyjście 2A / 5V             |
+| Pilot                 | Pilot radiowy 2.4 GHz z mikrofonem                      |
+| Dodatkowo w zestawie  | kabel HDMI, zasilacz 5V 2A, wbudowany tag NFC           |
+| Do kupienia osobno    | inteligentne urządzenia                                 |
 
 
 ### Oprogramowanie
@@ -51,7 +52,7 @@ Główne zadania realizowane przez zainstalowane na bramce oprogramowanie to:
 Technicznie nasza platforma zawiera 4 główne komponenty systemowe, pierwsze trzy z nich są zainstalowane na bramce:
 
  * **System Android ze środowiskiem Linux**: minimalny system podstawowy oraz dodatkowe pakiety dostępne za pomocą menedżera pakietów APT z naszego repozytorium pakietów [Ais Linux](https://github.com/sviete/AIS-LINUX-PACKAGES).
- * **Platforma automatyki**: zmodyfikowana i uzupełniona (o dodatkowe usługi, automatyczne wykrywanie urządzeń i inne ulepszenia) platfroma [Home Assistant](https://github.com/sviete/AIS-home-assistant)
+ * **Platforma automatyki**: platfroma AIS-dom  bazująca na [Home Assistant](https://github.com/sviete/AIS-home-assistant)
  * **Aplikacje dodatkowe**: nasze aplikacje dostępne w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)
  * **Usługi online**: w serwisie online mamy zdefiniowane stacje radiowe, podcasty, kanały wiadomości oraz dostępy do usług zewnętrznych wymagających uwierzytelnienia.
 
@@ -68,7 +69,7 @@ Aktualna cena urządzeń jest dostępna:
 
 [<img src="/img/en/icons/botland.png" alt="drawing" width="200"/>](https://botland.com.pl/pl/227_prd_ai-speaker)
 
-- na naszych aukcjach na platformie [allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker) 
+- na naszych aukcjach na platformie [allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
 
-[<img src="/img/en/icons/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker) 
+[<img src="/img/en/icons/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker)
 :::
