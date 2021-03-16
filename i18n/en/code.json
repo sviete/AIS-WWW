@@ -292,7 +292,7 @@
     "description": "Voice commands in AIS title"
   },
   "homepage.ais_features.voice.description": {
-    "message": "We provide {aisVoiceCommands} (speech-to-text) _ and built-in commands on the gateway, so you can control attached devices using voice commands. Commands can be sent from the {aisVoiceCommandsWeb} browser application, the {aisVoiceCommandsMob} mobile application or the {aisVoiceCommandsRemote} remote control. You can also send commands from other systems / applications using {aisVoiceCommandsApi}. And define your own {aisVoiceCommandsCreate} commands.",
+    "message": "We provide {aisVoiceCommands} (speech-to-text) and built-in commands on the gateway, so you can control attached devices using voice commands. Commands can be sent from the {aisVoiceCommandsWeb} browser application, the {aisVoiceCommandsMob} mobile application or the {aisVoiceCommandsRemote} remote control. You can also send commands from other systems / applications using {aisVoiceCommandsApi}. And define your own {aisVoiceCommandsCreate} commands.",
     "description": "Voice commands in AIS description"
   },
   "homepage.ais_features.audio.description": {

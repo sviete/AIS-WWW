@@ -256,7 +256,6 @@ function Home() {
           <section className={styles.features}>
             <div className="container aisFeaturesConteiner">
               <div className="pulse-container">
-
               </div>
               <div className="row aisFeatures">
                 {ais_features.map((props, idx) => (
