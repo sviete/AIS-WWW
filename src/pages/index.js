@@ -38,13 +38,13 @@ const ais_features = [
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: 
+    title:
     <Translate
         id="homepage.ais_features.zigbee.title"
         description="Zigbee number devices title"
         values={{devices: <span className="strongInfo">1350</span>}}>
         {'Ponad {devices} urządzeń Zigbee'}
-    </Translate>,    
+    </Translate>,
     imageUrl: 'img/main/zigbee.svg',
     imageBttomUrl: 'img/main/zigbee.svg',
     description: (
@@ -63,13 +63,13 @@ const ais_features = [
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: 
+    title:
     <Translate
         id="homepage.ais_features.ha.title"
         description="HA number of integrations title"
         values={{devices: <span className="strongInfo">1740</span>}}>
         {'Ponad {devices} Integracji Home Assistant'}
-    </Translate>,  
+    </Translate>,
     imageUrl: 'img/main/ha.svg',
     imageBttomUrl: 'img/main/ha.svg',
     description: (
@@ -89,12 +89,12 @@ const ais_features = [
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: 
+    title:
     <Translate
         id="homepage.ais_features.voice.title"
         description="Voice commands in AIS title">
         Sterowanie głosowe
-    </Translate>,  
+    </Translate>,
     imageUrl: 'img/main/account-voice.svg',
     imageBttomUrl: '',
     description: (
@@ -112,7 +112,7 @@ const ais_features = [
        >
         {'Na bramce dostarczamy {aisVoiceCommands} (zamianę tekstu na mowę i mowy na tekst) oraz wbudowane komendy, dzięki czemu możesz sterować dołączonymi urządzeniami za pomocą poleceń głosowych. Komendy można przesyłać z aplikacji działającej w przeglądarce {aisVoiceCommandsWeb}, aplikacji mobilnej {aisVoiceCommandsMob} lub pilota z mikrofonem {aisVoiceCommandsRemote}.  Można też wysyłać komendy z innych systemów/aplikacji za pomocą {aisVoiceCommandsApi}. Oraz definiować własne komendy {aisVoiceCommandsCreate}.'}
       </Translate>
-      
+
     ),
     addClass: 'col col--4 col--offset-2 aisFeature row2',
     addImgClass: 'aisFeatureImg',
@@ -134,7 +134,7 @@ const ais_features = [
        >
         {'Na bramce dostarczamy wbudowany odtwarzacz audio {aisAudioPlayer}, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z {aisAudioYouTube} oraz {aisAudioSpotify}. Istnieje też możliwość definiowania własnych dodatkowych treści audio w {aisAudioPortal}.'}
        </Translate>
-      
+
     ),
     addClass: 'col col--4 aisFeature row2',
     addImgClass: 'aisFeatureImg',
@@ -191,7 +191,7 @@ function Home() {
                     id="homepage.hero_subtitle"
                     description="The homepage hero subtitle">
                     Lokalny, niezawodny, szybki i prywatny.
-                </Translate>                
+                </Translate>
               </p>
               <div className={styles.buttons}>
                 <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" aria-label={translate({message: 'Zainstaluj z Google Play.', description: 'Install from Google Play label',})}>
@@ -235,24 +235,7 @@ function Home() {
                   z łącznością z usługami w chmurze IoT.
             </Translate>
             </p>
-          <Link to={useBaseUrl('/docs/ais_bramka_index')}>
-            <div className="miniImages">
-            <img alt="AIS dom text to speech" className="aisPointInfo" src="img/main/text-to-speech.svg" />
-            <img alt="AIS dom plus" className="aisPointInfo" src="img/main/plus.svg" />
-            <img alt="AIS dom speaker" className="aisPointInfo" src="img/main/monitor-speaker.svg" />
-            <img alt="AIS dom plus" className="aisPointInfo" src="img/main/plus.svg" />
-            <img alt="AIS dom assistant" className="aisPointInfo" src="img/main/home-assistant.svg" />
-            <br />
-            </div>
-            <div className="shapeshifter play"></div>
-          <p> 
-            <Translate
-                id="homepage.ais_gate_description"
-                description="Gate description on first page">
-                  Innowacyjna bramka steruje urządzeniami lokalnie, zapewniając błyskawiczną reakcję i prywatność, a dodatkowo odtwarza multimedia i ma większe możliwości niż konkurencyjne rozwiązania.
-            </Translate>
-          </p>
-          </Link>
+            <br/>
         </div>
       </div>
 
@@ -274,9 +257,7 @@ function Home() {
           <section className={styles.features}>
             <div className="container aisFeaturesConteiner">
               <div className="pulse-container">
-                    <div className="pulse-box">
-                      <div className="pulse-css"></div>
-                    </div>
+
               </div>
               <div className="row aisFeatures">
                 {ais_features.map((props, idx) => (
