@@ -15,7 +15,7 @@ Po każdym uruchomieniu bramki, na telewizorze lub monitorze podłączonym do br
 
 Bramka może być użytkowana w dwóch trybach:
 
-- **Z monitorem** (sterowanie na monitorze) - pilot działa jak myszka, którą możesz wybierać opcje na monitorze i je klikać.
+- **Z monitorem** (sterowanie na monitorze) - pilot działa jak myszka, którą możesz wybierać opcje na monitorze i je uruchamiać klikając.
 - **Bez monitora** (z dołączonym głośnikiem) - pilot pozwala na nawigowanie po menu Asystenta domowego oraz wybieranie/uruchamianie pozycji. Informacje zwrotne przekazywane są przez Asystenta w formie komunikatów głosowych.
 
 
@@ -44,7 +44,7 @@ Automatycznie uruchomi się strona startowa aplikacji Asystent domowy i kreator 
 
 
 
-Najwygodniej jednak jest uruchomić w przeglądarce internetowej, lokalny adres bramki (który jest wyświetlany w aplikacji):
+Najwygodniej jednak jest uruchomić w przeglądarce internetowej na komputerze, lokalny adres bramki (który jest wyświetlany w aplikacji):
 
 ![Sterowanie bez monitora](/img/en/bramka/bramka_start_menu_app_url.png)
 

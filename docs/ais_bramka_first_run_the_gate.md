@@ -14,8 +14,6 @@ Domyślnym językiem jest polski:
 
 ![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_1.png)
 
-Z boku urządzenia mamy 2 porty USB (1x OTG, 1x USB 2.0) oraz gniazdo karty pamięci TF
-
 ### Ustawienia ekranu
 
 Jeżeli obraz na monitorze lub telewizorze podłączonym do bramki za pomocą złącza HDMI jest ucięty lub przesunięty, to w tym miejscu możesz dostosować obraz do rozmiaru ekranu.
