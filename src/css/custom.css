@@ -121,13 +121,13 @@ a.button.button--danger {
     display: none;
   }
   div.aisFeature.row1 {
-    padding-bottom: 6em;
+    margin-bottom: 1em;
   }
   div.aisFeature.row2 {
-    padding-top: 8em;
+    margin-top: 24em;
   }
   div.aisFeaturesConteiner {
-    background-image: url(/img/ais_gate.png);
+    background-image: url(//powiedz.co/img/ais_gate.png);
     background-repeat: no-repeat;
     background-position: center;
     position: relative;
@@ -151,7 +151,7 @@ a.button.button--danger {
     position: absolute;
     top: 2%;
     transform: translateZ(0) rotate(-45deg);
-    width: 50%;    
+    width: 50%;
   }
 
   .aisComiksImgBottom::after {
@@ -161,7 +161,6 @@ a.button.button--danger {
   div.pulse-container {
     width: 50px;
     height: 50px;
-    position: absolute;
     top: 50%;
     left: 50%;
     margin: -25px 0 0 -25px;
@@ -198,7 +197,7 @@ a.button.button--danger {
   .pulse-css:after {
     animation-delay: 2s;
   }
-  
+
   @keyframes pulse-me {
     0% {
       transform: scale(0.5);
@@ -245,7 +244,7 @@ a.button.button--danger {
     margin-top: -100px;
   }
 
-  
+
   @keyframes play480 {
     0% {
       background-position: 0px 0px;
@@ -269,7 +268,7 @@ a.button.button--danger {
     margin-top: -50px;
     margin-left: 60px;
   }
-  
+
 }
 
 @media only screen and (max-width: 1023px) {
