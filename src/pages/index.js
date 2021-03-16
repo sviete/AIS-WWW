@@ -226,7 +226,7 @@ function Home() {
             <Translate
                 id="homepage.ais_announcement_line_one"
                 description="Announcement line one">
-                  Automatyzujemy Twój dom, łącząc zalety lokalnego przetwarzania
+                  Automatyzujemy, łącząc zalety lokalnego przetwarzania
             </Translate>
               <br/>
               <Translate
@@ -235,7 +235,6 @@ function Home() {
                   z łącznością z usługami w chmurze IoT.
             </Translate>
             </p>
-            <br/>
         </div>
       </div>
 
