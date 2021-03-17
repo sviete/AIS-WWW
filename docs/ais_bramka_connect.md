@@ -10,18 +10,18 @@ W pudełku znajdziesz bramkę oraz niezbędne akcesoria:
  * Bramka
  * Zasilacz
  * Kabel HDMI
- * Pilot radiowy z mikrofonem
+ * Pilot radiowy z mikrofonem + dongle (klucz sprzętowy USB)
 
 ![AIS dom DEV2](/img/en/bramka/bramka_full.jpg)
 
 
 ## Gniazda dostępne w urządzeniu
 
-Na tylnym panelu, licząc od lewej strony, znajdują się kolejno następujące porty: zasilanie, HDMI, AV, LAN, SPDIF
+Na tylnym panelu, licząc od lewej strony, znajdują się kolejno następujące porty: zasilanie, SPDIF, HDMI, LAN, AV
 
 ![AIS DEV2 First run](/img/en/bramka/first_run_2.png)
 
-Z boku urządzenia mamy 2 porty USB (1x OTG, 1x USB 2.0) oraz gniazdo karty pamięci TF
+Z boku urządzenia mamy 2 porty USB (1x OTG, 1x USB 3.0) oraz gniazdo karty pamięci TF
 
 ## Podłączenie bramki
 
