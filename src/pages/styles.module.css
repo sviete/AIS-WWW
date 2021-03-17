@@ -59,7 +59,6 @@
 .heroLogo {
   animation-duration: 3s;
   animation-name: jackInTheBox;
-  float: right;
   max-width: 30%;
 }
 

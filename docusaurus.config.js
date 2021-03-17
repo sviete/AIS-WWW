@@ -177,7 +177,7 @@ module.exports = {
             },
             {
               label: 'Repozytorium APT',
-              to: 'https://bintray.com/sviete',
+              to: 'https://powiedz.co/apt',
             },
           ],
         },

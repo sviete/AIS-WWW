@@ -193,29 +193,30 @@ function Home() {
                     Lokalny, niezawodny, szybki i prywatny.
                 </Translate>
               </p>
-              <div className={styles.buttons}>
-                <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" aria-label={translate({message: 'Zainstaluj z Google Play.', description: 'Install from Google Play label',})}>
-                  <Image img={googlePlayLogo} alt="AIS in Google Play"/>
-                </a>
-              </div>
-            </div>
-            <div className={classnames('col col--5')}>
               <a href="docs/ais_bramka_index">
                 <img alt="AIS dom logo" className={styles.heroLogo} src="img/logo-responsive.svg" />
               </a>
+
+            </div>
+            <div className={classnames('col col--5')}>
+                  <Translate
+                      id="homepage.demo_ask_to_try"
+                      description="The homepage ask to try demo">
+                      Chcesz zobaczyć, jak to działa?
+                  </Translate>
+                <br></br>
+                <Link to="https://dom-demo.paczka.pro">
+                  <Image className={styles.aisDemoImg} img={domDemoLogo} alt="Dom demo"/>
+                </Link>
             </div>
           </div>
           <div className={classnames(styles.announcement)}>
             <div className={styles.announcementInner}>
-                <Translate
-                    id="homepage.demo_ask_to_try"
-                    description="The homepage ask to try demo">
-                    Chcesz zobaczyć, jak to działa?
-                </Translate>
-              <br></br>
-              <Link to="https://dom-demo.paczka.pro">
-                <Image className={styles.aisDemoImg} img={domDemoLogo} alt="Dom demo"/>
-              </Link>
+            <div className={styles.buttons}>
+              <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" aria-label={translate({message: 'Zainstaluj z Google Play.', description: 'Install from Google Play label',})}>
+                <Image img={googlePlayLogo} alt="AIS in Google Play"/>
+              </a>
+            </div>
             </div>
           </div>
         </div>
@@ -226,13 +227,13 @@ function Home() {
             <Translate
                 id="homepage.ais_announcement_line_one"
                 description="Announcement line one">
-                  Automatyzujemy, łącząc zalety lokalnego przetwarzania
+                  Łączymy zalety lokalnego sterowania i automatyzacji z usługami w chmurach.
             </Translate>
               <br/>
               <Translate
                 id="homepage.ais_announcement_line_two"
                 description="Announcement line two">
-                  z łącznością z usługami w chmurze IoT.
+                  Asystent domowy jest kompatybilny z popularnymi urządzeniami automatyki domowej, zawiera wiele wbudowanych integracji i ma aktywną społeczność użytkowników, która dzieli się pomysłami i rozwiązaniami.
             </Translate>
             </p>
         </div>
