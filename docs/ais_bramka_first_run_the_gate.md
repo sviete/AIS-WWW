@@ -59,5 +59,11 @@ Po aktualizacji nastąpi przekierowanie do głównego menu aplikacji:
 
 ![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_8.png)
 
-Dalszą konfigurację i korzystanie z Asystenta możesz wykonać zdalnie:
+## Aplikacja działająca na bramce
+
+Adres aplikacji działającej na bramce:
 ![AIS DEV3 First run](/img/en/bramka/ais_first_wizard_9.png)
+
+Dalszą konfigurację możesz wykonać zdalnie, wpisując adres aplikacji działającej na bramce w przeglądarce internetowej: [Początkowa konfiguracja Asystenta domowego - dodanie konta właściciela](/docs/ais_bramka_first_run_step_account).
+
+Jeżeli nie posiadasz komputera ani innego urządzenia z przeglądarką internetową to możesz dokończyć konfigurację na bramce. W tym celu zapoznaj się z [Główne menu systemu](/docs/ais_bramka_first_run) i uruchom przeglądarkę na bramce: [Uruchomienie przeglądarki na bramce](/docs/ais_bramka_first_run#sterowanie-na-monitorze).
