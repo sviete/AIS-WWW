@@ -29,10 +29,11 @@ Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada
 | Ethernet RJ45         | 10/100M                                                 |
 | WiFi                  | 2.4 GHz / 5 GHz 802.11 a/b/g/n                          |
 | Bluetooth             | 4.1                                                     |
-| Zasilanie             | wejście 100-240V / 50-60Hz, wyjście 2A / 5V             |
+| Wyświetlacz VFD       | Pokazuje aktualną godzinę i status urządzenia           |
+| Zasilanie             | Wejście 100-240V / 50-60Hz, wyjście 2A / 5V             |
 | Pilot                 | Pilot radiowy 2.4 GHz z mikrofonem, dongle              |
-| Dodatkowo w zestawie  | kabel HDMI, zasilacz 5V 2A, wbudowany tag NFC           |
-| Do kupienia osobno    | inteligentne urządzenia                                 |
+| Dodatkowo w zestawie  | Kabel HDMI, zasilacz 5V 2A, wbudowany tag NFC           |
+| Do kupienia osobno    | Inteligentne urządzenia                                 |
 
 
 ### Oprogramowanie
