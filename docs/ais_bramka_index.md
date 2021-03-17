@@ -21,7 +21,7 @@ Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada
 | procesor              | Amlogic S905X3 Quad-Core 4xCortex-A55                   |
 | pamięć                | 4G DDR3                                                 |
 | wbudowany dysk        | 128 GB eMMC                                             |
-| Gniazdo karty pamięci | TF card max. 64GB (nie zawarte w zestawie)              |
+| Gniazdo karty pamięci | TF card max. 64GB (karty nie ma w zestawie)             |
 | USB                   | 2 (1x OTG, 1x USB 3.0)                                  |
 | HDMI                  | 2.0A                                                    |
 | AV                    | 3,5mm jack                                              |
@@ -30,7 +30,7 @@ Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada
 | WiFi                  | 2.4 GHz / 5 GHz 802.11 a/b/g/n                          |
 | Bluetooth             | 4.1                                                     |
 | Zasilanie             | wejście 100-240V / 50-60Hz, wyjście 2A / 5V             |
-| Pilot                 | Pilot radiowy 2.4 GHz z mikrofonem                      |
+| Pilot                 | Pilot radiowy 2.4 GHz z mikrofonem, dongle              |
 | Dodatkowo w zestawie  | kabel HDMI, zasilacz 5V 2A, wbudowany tag NFC           |
 | Do kupienia osobno    | inteligentne urządzenia                                 |
 
