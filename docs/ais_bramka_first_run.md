@@ -5,7 +5,7 @@ sidebar_label: Główne menu systemu
 
 ## Wprowadzenie
 
-Po każdym uruchomieniu bramki, na telewizorze lub monitorze podłączonym do bramki (za pomocą złącza HDMI), zobaczysz następujące główne menu systemu. Możesz nawigować po ekranie menu za pomocą pilta radiowego, myszki lub klawiatury.
+Po każdym uruchomieniu bramki na telewizorze lub monitorze podłączonym do bramki (za pomocą złącza HDMI), zobaczysz następujące główne menu systemu. Możesz nawigować po ekranie menu za pomocą pilota radiowego, myszki lub klawiatury.
 
 ![Główne menu](/img/en/bramka/bramka_start_menu.png)
 
@@ -35,7 +35,7 @@ Informacje zwrotne przekazywane są przez Asystenta w formie komunikatów głoso
 
 ### Sterowanie na monitorze
 
-Jeżeli nie posiadasz komputera ani innego urządzenia z przeglądarką internetową to możesz dokończyć konfigurację na bramce w trybie sterowania na monitorze.
+Jeżeli nie posiadasz komputera ani innego urządzenia z przeglądarką internetową, to możesz dokończyć konfigurację na bramce w trybie sterowania na monitorze.
 W tym celu wystarczy, że uruchomisz przeglądarkę na bramce:
 
 ![Przeglądarka na bramce](/img/en/bramka/bramka_start_menu_browser.png)
@@ -44,7 +44,7 @@ Automatycznie uruchomi się strona startowa aplikacji Asystent domowy i kreator 
 
 
 
-Najwygodniej jednak jest uruchomić w przeglądarce internetowej na komputerze, lokalny adres bramki (który jest wyświetlany w aplikacji):
+Najwygodniej jednak jest uruchomić w przeglądarce internetowej na komputerze lokalny adres bramki (który jest wyświetlany w aplikacji):
 
 ![Sterowanie bez monitora](/img/en/bramka/bramka_start_menu_app_url.png)
 
