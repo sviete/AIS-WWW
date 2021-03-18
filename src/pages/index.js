@@ -67,7 +67,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.ha.title"
         description="HA number of integrations title"
-        values={{devices: <span className="strongInfo">1740</span>}}>
+        values={{devices: <span className="strongInfo">1760</span>}}>
         {'Ponad {devices} Integracji Home Assistant'}
     </Translate>,
     imageUrl: 'img/main/ha.svg',
@@ -79,7 +79,7 @@ const ais_features = [
           values={{
             aisHomeAssistant: <Link to="https://www.home-assistant.io/">Home Assistant Core</Link>,
             aisHomeAssistantIntegrations: <Link to="/docs/ais_app_player">AIS</Link>,
-            moreHomeAssistantMoreIntegrations: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1740 HA Integrations</Link>
+            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1760 HA Integrations</Link>
           }}
        >
         {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej {aisHomeAssistant} z zainstalowanymi i gotowymi do użycia wbudowanymi integracjami {aisHomeAssistantIntegrations}, oraz z możliwością dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}
@@ -92,8 +92,10 @@ const ais_features = [
     title:
     <Translate
         id="homepage.ais_features.voice.title"
-        description="Voice commands in AIS title">
-        Sterowanie głosowe
+        description="Voice commands in AIS title"
+        values={{aisTtsStt: <span className="strongInfo">TTS/STT</span>}}
+        >
+        {'Komunikacja głosowa {aisTtsStt}'}
     </Translate>,
     imageUrl: 'img/main/account-voice.svg',
     imageBttomUrl: '',
@@ -106,7 +108,7 @@ const ais_features = [
             aisVoiceCommandsWeb: <Link to="/docs/ais_app_index">AIS Web App</Link>,
             aisVoiceCommandsMob: <Link to="/docs/ais_app_android_dom">AIS Mob App</Link>,
             aisVoiceCommandsRemote: <Link to="/docs/ais_remote_index">AIS Remote</Link>,
-            aisVoiceCommandsApi: <Link to="/docs/ais_bramka_api_index">STT API</Link>,
+            aisVoiceCommandsApi: <Link to="/docs/ais_bramka_api_index">AIS API</Link>,
             aisVoiceCommandsCreate: <Link to="/docs/ais_app_assistent_add_command">AIS Conversation</Link>
           }}
        >
@@ -118,7 +120,7 @@ const ais_features = [
     addImgClass: 'aisFeatureImg',
   },
   {
-    title: <>Audio</>,
+    title: <span className="strongInfo">Audio</span>,
     imageUrl: 'img/main/monitor-speaker-2.svg',
     imageBttomUrl: '',
     description: (
@@ -233,7 +235,7 @@ function Home() {
               <Translate
                 id="homepage.ais_announcement_line_two"
                 description="Announcement line two">
-                  Asystent domowy jest kompatybilny z popularnymi urządzeniami automatyki domowej, zawiera wiele wbudowanych integracji i ma aktywną społeczność użytkowników, która dzieli się pomysłami i rozwiązaniami.
+                  Nasza bramka AIoT jest kompatybilna z popularnymi urządzeniami automatyki domowej, zawiera wiele wbudowanych integracji i ma aktywną społeczność użytkowników, która dzieli się pomysłami i rozwiązaniami.
             </Translate>
             </p>
         </div>

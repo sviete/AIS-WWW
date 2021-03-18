@@ -1,6 +1,6 @@
 module.exports = {
   "System": {
-    "Bramka IoT": [
+    "Bramka AIoT": [
       "ais_bramka_index",
       "ais_bramka_connect",
       "ais_bramka_first_run_the_gate",

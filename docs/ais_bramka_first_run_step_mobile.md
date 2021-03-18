@@ -13,7 +13,7 @@ Dzięki aplikacji mobilnej możesz wysyłać komendy głosowe, otrzymywać powia
 
 By zainstalować aplikację wystarczy zeskanować aparatem w telefonie z systemem Android), kod QR wyświtlany w aplikacji lub plakietki znamionowej znajdującej się pod spodem urządzenia:
 
-![Aplikacja mobilna](/img/en/bramka/first_run_4.png)
+![Aplikacja mobilna](/img/en/bramka/first_run_4.jpeg)
 
 Konfigurację i działanie aplikacji opisane jest [Aplikacja Android AIS dom](/docs/ais_app_android_dom), gdzie krok po kroku prezentujemy proces konfiguracji aplikacji mobilnej i połączenia z bramką.
 

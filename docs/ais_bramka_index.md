@@ -1,5 +1,5 @@
 ---
-title: "Bramka IoT"
+title: "Bramka AIoT"
 sidebar_label: Opis produktu
 ---
 
@@ -13,9 +13,9 @@ Celem bramki do Internetu Rzeczy z inteligentnym asystentem głosowym jest komun
 
 ### Specyfikacja techniczna
 
-Sprzętowo nasza konstrukcja oparta jest na wydajnym procesorze Amlogic, posiada wbudowane WiFi oraz dysk, a także porty LAN/Ethernet, 2 x USB, SPDIF, Aux, HDMI.
+Sprzętowo nasza konstrukcja oparta jest na wydajnym układzie Amlogic SoC S905X3, posiada wbudowane WiFi oraz dysk, a także porty LAN/Ethernet, 2 x USB, SPDIF, Aux, HDMI.
 
-|                       | AIS DEV3                                                |
+| MODEL                 | AIS DEV3                                                |
 |-----------------------|---------------------------------------------------------|
 | oprogramowanie        | Asystent domowy, środowisko Linux, Android (root)       |
 | procesor              | Amlogic S905X3 Quad-Core 4xCortex-A55                   |
@@ -53,7 +53,7 @@ Główne zadania realizowane przez zainstalowane na bramce oprogramowanie to:
 Technicznie nasza platforma zawiera 4 główne komponenty systemowe, pierwsze trzy z nich są zainstalowane na bramce:
 
  * **System Android ze środowiskiem Linux**: minimalny system podstawowy oraz dodatkowe pakiety dostępne za pomocą menedżera pakietów APT z naszego repozytorium pakietów [Ais Linux](https://github.com/sviete/AIS-LINUX-PACKAGES).
- * **Platforma automatyki**: platfroma AIS-dom  bazująca na [Home Assistant](https://github.com/sviete/AIS-home-assistant)
+ * **Platforma automatyki**: platfroma AIS-dom  bazująca na [Home Assistant](https://powiedz.co/apt/)
  * **Aplikacje dodatkowe**: nasze aplikacje dostępne w [Google Play](https://play.google.com/store/apps/details?id=pl.sviete.dom)
  * **Usługi online**: w serwisie online mamy zdefiniowane stacje radiowe, podcasty, kanały wiadomości oraz dostępy do usług zewnętrznych wymagających uwierzytelnienia.
 

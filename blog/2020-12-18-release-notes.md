@@ -105,12 +105,12 @@ My udowodniliśmy, że to możliwe. Sami sterujemy oświetleniem, roletami i ogr
 
 DEV2 to parametry porównywalne (w sumie trochę nawet lepsze) z Fibaro HC3, przy 10 krotnie mniejszej cenie.
 
-![DEV2](/img/en/bramka/first_run_4.png)
+![DEV2](/img/en/bramka/first_run_4.jpeg)
 
 Na bramce DEV dostarczamy największą na świecie platformę do automatyki domowej Home Assistant, broker MQTT, aplikację Zigbee2Mqtt, lokalny TTS, piękny nowoczesny i konfigurowalny interfejs użytkownika, wbudowany odtwarzacz audio wraz z biblioteką audio, i oczywiście Asystenta głosowego. Do tego dodajemy darmowy zdalny dostęp, aplikację mobilną oraz na zegarek i wbudowane łatwo konfigurowalne integracje AIS.
 To wszystko w cenie w jakiej inni oferują jeden przełącznik... ;)
 
-AIS DEV to bramka IoT o ogromnych możliwościach i najbardziej przystępnej cenie na rynku. To jest bardzo dobry, bezkonkurencyjny produkt w segmencie DIY. I tak już zawsze będzie z naszymi bramkami AIS DEV!
+AIS DEV to bramka AIoT o ogromnych możliwościach i najbardziej przystępnej cenie na rynku. To jest bardzo dobry, bezkonkurencyjny produkt w segmencie DIY. I tak już zawsze będzie z naszymi bramkami AIS DEV!
 
 
 ### ![](/img/en/blog/202012/pro_icon.png) AIS PRO
@@ -127,7 +127,7 @@ Nad ofertą takiej bramki pracowaliśmy już jakiś czas (finalizujemy umowę z 
 
 ![](/img/en/blog/202012/ais_arm.jpeg)
 
-Z tym produktem chcemy trafić do dystrybutorów / instalatorów automatyki, chcemy żeby na tym produkcie nasi partnerzy zarabiali i mogli oferować go końcowym klientom. Oczywiście super wydajne podzespoły i marże dystrybutorów spowodują, że to nie będzie tani produkt, taki jak nasza bramka DEV. 
+Z tym produktem chcemy trafić do dystrybutorów / instalatorów automatyki, chcemy żeby na tym produkcie nasi partnerzy zarabiali i mogli oferować go końcowym klientom. Oczywiście super wydajne podzespoły i marże dystrybutorów spowodują, że to nie będzie tani produkt, taki jak nasza bramka DEV.
 **Zapewniamy, że będzie to bardzo dobra, funkcjonalna i cenowa alternatywa dla mini serwerów PC.**
 
 

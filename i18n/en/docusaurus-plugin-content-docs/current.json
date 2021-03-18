@@ -3,9 +3,9 @@
     "message": "Next",
     "description": "The label for version current"
   },
-  "sidebar.System.category.Bramka IoT": {
-    "message": "Bramka IoT",
-    "description": "The label for category Bramka IoT in sidebar System"
+  "sidebar.System.category.Bramka AIoT": {
+    "message": "Bramka AIoT",
+    "description": "The label for category Bramka AIoT in sidebar System"
   },
   "sidebar.System.category.Początkowa konfiguracja Asystenta domowego": {
     "message": "Początkowa konfiguracja Asystenta domowego",
