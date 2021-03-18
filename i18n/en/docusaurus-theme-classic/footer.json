@@ -37,7 +37,7 @@
   },
   "link.item.label.Repozytorium APT": {
     "message": "APT Repository",
-    "description": "The label of footer link with label=Repozytorium APT linking to https://bintray.com/sviete"
+    "description": "The label of footer link with label=Repozytorium APT linking to https://powiedz.co/apt"
   },
   "link.item.label.Polityka prywatności": {
     "message": "Privacy policy",

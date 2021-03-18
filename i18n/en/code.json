@@ -288,7 +288,7 @@
     "description": "HA number of integrations description"
   },
   "homepage.ais_features.voice.title": {
-    "message": "Voice control",
+    "message": "Voice control {aisTtsStt}",
     "description": "Voice commands in AIS title"
   },
   "homepage.ais_features.voice.description": {
