@@ -27,7 +27,7 @@ Trwa to tak szybko, ponieważ nie musimy analizować, pobierać i aktualizować 
 ![Ustawienia serwisu Asystent domowy](/img/en/bramka/settings_ais_service_app_reset.png)
 
 :::caution Uwaga
-**Uwaga!** po takim restarcie / takiej aktualizacji mamy kompletnie nowy system Asystent domowy z domyślnymi ustawieniami i część urządzeń może wymagać ponownej integracji z bramką.
+**Uwaga!** po takim resecie / takiej aktualizacji mamy kompletnie nowy system Asystent domowy z domyślnymi ustawieniami i część urządzeń może wymagać ponownej integracji z bramką.
 
 Jeśli wykonałeś wcześniej działającą kopię konfiguracji, to po wykonaniu resetu możesz ją przywrócić korzystając z opcji [kopia zapasowa konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji)
 :::

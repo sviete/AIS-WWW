@@ -34,10 +34,13 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 
 * Posiadanie konta w Spotify, konto można założyć za darmo (bez konieczności podawania karty kredytowej) pod tym adresem: https://www.spotify.com/pl/
 
-* Urządzenie z systemem Asystent domowy, zaktualizowane do wersji >= 0.89.1, [Procedura Aktualizacji](/docs/ais_bramka_update_index)
+* Urządzenie z systemem Asystent domowy
 
+:::caution Uwaga
+Żeby można było kontrolować aplikację Spotify (działającą na bramce w tle jako usługa) z Asystenta domowego, trzeba zalogować się w aplikacji Spotify i w aplikacji Asystetn domowy na to samo konto Spotify.
+:::
 
-### 2. Zaloguj się do aplikacji Spotify na urządzeniu z systemem "Asystent domowy"
+### 2. Logowanie do aplikacji Spotify
 
 * Podłącz urządzenie do telewizora lub monitora po HDMI
 
@@ -50,7 +53,9 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 * Zaloguj się do serwisu Spotify
 
 
-### 3. Pozwól "Asystentowi domowemu" na pobieranie danych ze Spotify oraz na sterowanie odtwarzaczem
+### 3. Autoryzacja Asystenta domowego w Spotify
+
+Wykonaj te kroki w przeglądarce internetowej.
 
 * Przejdź do aplikacji "Asystent domowy" z przeglądarki internetowej w Twojej lokalnej sieci [Dostęp do bramki po HTTP](/docs/ais_bramka_remote_http)
 
@@ -102,3 +107,31 @@ Wyszukiwanie na Spotify można też uruchamiać za pomocą naszego dedykowanego 
 
 
 ![Konfiguracja Spotify](/img/en/frontend/configure_spotify_s6.png)
+
+
+## Informacje techniczne
+
+
+Integracja oparta jest na [Spotify Android SDK](https://developer.spotify.com/documentation/android/)
+
+![Spotify](/img/en/frontend/spotify_sdk.png)
+
+Spotify SDK umożliwia interakcję aplikacji AIS z aplikacją Spotify działającą w tle jako usługa. Możliwości tego interfejsu API obejmują pobieranie metadanych dla aktualnie odtwarzanej ścieżki i kontekstu, wydawanie podstawowych poleceń odtwarzania i inicjowanie odtwarzania ścieżek.
+
+
+:::caution Uwaga
+Ta integracja jest to jedyny legalny sposób na integracje z odtwarzaczem Spotify. Inne sposoby integracji nie są wspierane przez Spotify.
+:::
+
+Jak ostrzega Spotify na swojej stronie, ten sposób integracji jest stosunkowo nowy i obecnie jest w statusie BETA. **Funkcjonalność prawdopodobnie zmienią się znacząco bez ostrzeżenia w przyszłych wersjach.**
+
+![Spotify](/img/en/frontend/spotify_sdk_beta.png)
+
+
+## Znane problemy
+
+Zdaża się, że ta integracja przestaje działać z powodu błędu zgłoszonego do programisty Spotify -> https://github.com/spotify/android-sdk/issues/252#issuecomment-803311964
+Dzieje się to prawdopodobnie po aktualizacji systemu AIS. Nie mamy jeszcze odpowiedzi jak rozwiązać ten problem i jedynym obejściem jakie zamy jest:
+1. Wylogowanie z aplikacji Spotify na bramce
+2. Ponowne zalogowanie się do aplikacji Spotify na bramce
+3. Restart bramki AIS (ponowne uruchomienie)

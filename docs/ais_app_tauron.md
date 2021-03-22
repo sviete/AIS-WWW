@@ -5,7 +5,7 @@ sidebar_label: TAURON eLicznik
 
 ## Wprowadzenie
 
-Ta integracja dodaje do Asystenta domowego czujniki, które używają nieoficjalnego API do pobierania danych o zużyciu energii z [TAURON eLicznik](https://elicznik.tauron-dystrybucja.pl/).
+Ta integracja dodaje do Asystenta domowego czujniki, które używają **nieoficjalnego API** do pobierania danych o zużyciu energii z [TAURON eLicznik](https://elicznik.tauron-dystrybucja.pl/).
 
 ## Integracja
 
@@ -67,3 +67,16 @@ W systemie Asystent domowy, wszystkie typy urządzeń (czujnik, przełącznik, o
     <source src="/video/tauron.webm" type="video/webm"/>
   </video>
 </div>
+
+
+## Informacje Technicznie
+
+Integracja bazuje na komponencie [Tauron-AMIplus](https://github.com/PiotrMachowski/Home-Assistant-custom-components-Tauron-AMIplus) autorstwa [Piotra Machowskiego](https://github.com/PiotrMachowski)
+Ponieważ Tauron nie udostępnia oficjalnego API, komponent Tauron-AMIplus, używa **nieoficjalnego API** do pobierania danych o zużyciu energii ze strony Tauron.
+
+## Znane problemy
+
+:::caution Uwaga
+Ponieważ ta integracja działa na nieoficjalnym API, dlatego w każdej chwili może przestać działać - np. gdy tylko Tauron zmieni sposób prezentowania danych w swoim portalu.
+AI-Speaker jest autorem konfiguratora do integracji Tauron-AMIplus, **działanie kodu integracji oraz API Taurona nie jest w zakresie możliwości naszego wsparcia**.
+:::
