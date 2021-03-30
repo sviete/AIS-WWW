@@ -114,7 +114,8 @@ module.exports = {
       "ais_app_youtube_dl",
       "ais_app_spotify",
       "ais_app_drives",
-      "ais_app_books"
+      "ais_app_books",
+      "ais_app_add_media",
     ],
     "Wbudowane inne integracje": [
       "ais_app_ai_integration",

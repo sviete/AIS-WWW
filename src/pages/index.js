@@ -131,10 +131,10 @@ const ais_features = [
             aisAudioPlayer: <Link to="/docs/ais_app_player">AIS Audio Player</Link>,
             aisAudioYouTube: <Link to="/docs/ais_app_youtube_dl">YouTube</Link>,
             aisAudioSpotify: <Link to="/docs/ais_app_spotify">Spotify</Link>,
-            aisAudioPortal: <Link to="/docs/ais_dom_cloud_login">AIS Portal</Link>
+            aisAudioPortal: <Link to="/docs/ais_app_add_media">Media</Link>
           }}
        >
-        {'Na bramce dostarczamy wbudowany odtwarzacz audio {aisAudioPlayer}, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z {aisAudioYouTube} oraz {aisAudioSpotify}. Istnieje też możliwość definiowania własnych dodatkowych treści audio w {aisAudioPortal}.'}
+        {'Na bramce dostarczamy wbudowany odtwarzacz audio {aisAudioPlayer}, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z {aisAudioYouTube} oraz {aisAudioSpotify}. Istnieje też możliwość odtwarzania mediów udostępnionych przez innych użytkowników oraz definiowania własnych dodatkowych zasobów mediów i udostępniania ich dla społeczności {aisAudioPortal}.'}
        </Translate>
 
     ),
@@ -201,11 +201,14 @@ function Home() {
 
             </div>
             <div className={classnames('col col--5')}>
+                <br></br>
+                 <h4>
                   <Translate
                       id="homepage.demo_ask_to_try"
                       description="The homepage ask to try demo">
                       Chcesz zobaczyć, jak to działa?
                   </Translate>
+                  </h4>
                 <br></br>
                 <Link to="https://dom-demo.paczka.pro">
                   <Image className={styles.aisDemoImg} img={domDemoLogo} alt="Dom demo"/>
