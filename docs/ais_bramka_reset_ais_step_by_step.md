@@ -34,11 +34,13 @@ Jeśli wykonałeś wcześniej działającą kopię konfiguracji, to po wykonaniu
 
 ## Co się dzieje podczas resetu ustawień Asystenta domowego do domyślnych
 
-Technicznie procedura polega na wykonaniu trzech kroków:
-
+Technicznie procedura polega na wykonaniu dwóch kroków:
 1. Skasowaniu wszystkich bieżących kodów i konfiguracji użytkownika.
 2. Pobraniu spakowanej paczki startowej z najnowszą wersją kodów i konfiguracji Asystenta domowego.
-3. Rozpakowaniu najnowszej wersji z domyślnymi ustawieniami.
+
+Pierwszy krok nie różni się niczym od wyczyszczenia danych w aplikacji Android. Dlatego zamiennie zamiast uruchamiać reset z ustawień Asystenta domowego można, wyczyścić dane w aplikacji i po ponownym uruchomieniu system sam zainstaluje najnowsze kody.
+
+![Pierwszy krok](/img/en/bramka/settings_ais_service_app_reset_1.jpeg)
 
 
 ## Przebieg pełnego resetu na wideo
