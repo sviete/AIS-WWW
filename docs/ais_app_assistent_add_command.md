@@ -12,10 +12,11 @@ Np: "Jolka: podlej trawnik":
 ![Działanie komend](/img/en/frontend/jolka-assistant-automation.png)
 
 
-## Odpowiedz asystenta
+## Odpowiedź asystenta
 
-W zdefiniowanej automatyzacji można dodać szereg akcji, takich jak uruchamienia urządzeń oraz wywołanie usług.
-Jedną z takich usług może być głosowa odpowiedz asystenta:
+W zdefiniowanej automatyzacji można dodać szereg akcji, takich jak uruchomienia urządzeń oraz wywołanie usług.
+Jedną z takich usług może być głosowa odpowiedź asystenta:
+
 ![Akcja](/img/en/frontend/action_say_it.png)
 
 
@@ -42,7 +43,7 @@ Usługi można testować/wywoływać z **Narzędzi deweloperskich**
 ![Test nowej komendy](/img/en/frontend/conversation_dev_service.png)
 
 
-Możemy dynamicznie przekazywać informację do usługi, za pomocą funkcjonalność szablonów  **data_template**. 
+Możemy dynamicznie przekazywać informację do usługi za pomocą funkcjonalności szablonów  **data_template**. 
 Szablony można tworzyć/sprawdzać w **Narzędziach deweloperskich**
 
 ![Test nowej komendy](/img/en/frontend/conversation_dev_template.png)
