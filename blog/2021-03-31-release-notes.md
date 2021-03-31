@@ -54,11 +54,11 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 W tej aktualizujemy wiele pakietów w tym Python do wersji 3.9.2 i mosquitto do wersji 2.0.7.
 O szczegółach pisaliśmy na blogu: [Python 3.9.2](https://ai-speaker.discourse.group/t/nowe-wersje-pakietow-binarnych-w-repozytorium-apt/1492) i [mosquitto  2.0.7](https://ai-speaker.discourse.group/t/broker-mqtt-nowe-mosquitto-2-0-7/1493)
 
-Aktualujemy też aplikację Android dzięki czemu cały system jest teraz ładniejszy i przechodzenie pomięszy ekranami jest bardziej przejrzyste, dla przypomnienia tak wygląda start systemu, o tym jak to działa pisaliśmy na blogu [Ułatwienia na starcie](https://ai-speaker.discourse.group/t/aktualizacja-aplikacji-android-na-bramce-ulatwienia-na-starcie/1477)
+Aktualujemy też aplikację Android dzięki czemu cały system jest teraz ładniejszy i przechodzenie pomięszy ekranami jest bardziej przejrzyste. O tym jak to działa pisaliśmy na blogu [Ułatwienia na starcie](https://ai-speaker.discourse.group/t/aktualizacja-aplikacji-android-na-bramce-ulatwienia-na-starcie/1477)
 
 
-Zdajemy sobie sprawę, że te wszystkie rewolucyjne zmiany które wprowadzamy w oprogramowaniu, wymagają cierpliwości podczas instalacji.
-Przy niektórych konfiguracjach może nawet podczas instalacji zdażyć się jakiś wyjątek i komuś pójdzie coś nie tak... jesteśmy na to przygotowani. Jeżeli ktoś ma problem z aktualizacją automatyczną to zawsze może wykonać pełny reset aplikacji - pobrać startową paczkę z naszymi aktualnymi domyślnymi kodami.
+Zdajemy sobie sprawę, że te wszystkie "rewolucyjne zmiany" które wprowadzamy w oprogramowaniu, wymagają cierpliwości podczas instalacji.
+Przy niektórych konfiguracjach może nawet podczas instalacji zdarzyć się jakiś wyjątek i komuś może pójść coś nie tak... jesteśmy na to przygotowani. Jeżeli ktoś ma problem z aktualizacją automatyczną, to zawsze może wykonać pełny reset aplikacji - pobrać startową paczkę z naszymi aktualnymi domyślnymi kodami.
 
 Cała procedura opisna jest krok po kroku tu: [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step)
 Ten groźnie brzmiący "Pełny reset aplikacji" to coś bardzo podobnego do wyczyszczenia danych w aplikacji Android i... tak naprawdę to nie jest takie straszne.
@@ -66,7 +66,7 @@ Ten groźnie brzmiący "Pełny reset aplikacji" to coś bardzo podobnego do wycz
 ![Reset](/img/en/bramka/settings_ais_service_app_reset_1.jpeg)
 
 
-Oczywiście rozumiemy, że nie każdemu ta procedura może się udać, bo TV/monitor nie działa, bo Internetu nie ma, bo zabrakło prądu... bo nie czytałem jak to robić, bo niech to Jolka zrobi! ;)
+Oczywiście rozumiemy, że nie każdemu ta procedura może się udać, bo TV/monitor nie działa, bo Internetu nie ma, bo zabrakło prądu... bo niech to Jolka zrobi! ;)
 
 Dobra wiadomość jest taka, że **Jolka lubi programować urządzenia i chętnie zrobi :) !**  
 
@@ -144,13 +144,12 @@ Bramka miała swoją premierę na forum [DEV3 - nowa bramka AIoT już jest](http
 
 ![](/img/en/blog/202103/dev3_dekielek.png)
 
-Zdecydowaliśmy się na wstrzymanie sprzedaży i zmianę dekielka na twardszy ;) 
-Nowe dekielki już do nas jadą:
+Zdecydowaliśmy się na wstrzymanie sprzedaży i zmianę dekielka na twardszy. Nowe dekielki już do nas jadą:
 
 ![](/img/en/blog/202103/dekielek1.png)
 
 
-Wznowienie sprzedaży i możliwość "wymiany dekielków" zaoferujemy po Świętach. 
+Wznowienie sprzedaży i możliwość "wymiany dekielków" zaoferujemy na spokojnie po Świętach. 
 
 Parametry nowej bramki są opisane tu: [Bramka AIoT](/docs/ais_bramka_index), dodaliśmy też nowy konfigurator który ma ułatwić [Pierwsze uruchomienie](/docs/ais_bramka_first_run_the_gate).
  
