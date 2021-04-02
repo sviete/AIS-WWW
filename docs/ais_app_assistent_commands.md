@@ -115,23 +115,6 @@ Zapytaj "jaki jest adres IP" by otrzymać informację o IP urządzenia, lub "jak
 'Jaki jest {szukana-fraza}'; 'Jaka jest {szukana-fraza}''
 ```
 
-## Informacja o pogodzie
-
-* **Sprawdzanie aktualnej pogody**
-
-Wystarczy, że zapytasz "jaka jest pogoda" by otrzymać informację o aktualnej pogodzie w Twojej lokalizacji
-
-```text
-'[aktualna] pogoda'
-```
-
-* **Sprawdzanie prognozy pogody**
-
-Wystarczy, że zapytasz "jaka będzie pogoda" by otrzymać informację o prognozie pogody dla Twojej lokalizacji
-
-```text
-'Prognoza pogody'; 'Jaka będzie pogoda'
-```
 
 ## Wyszukiwanie informacji
 
@@ -240,6 +223,9 @@ lub
 Automatyzacja {nazwa automatyzacji}
 ```
 
+Możemy też dodać do nazwy automatyzacji prefiks "Jolka: ", dzięki temu Asystent zrozumie, że nazwa po prefiksie to komenda i po jej wypowiedzeniu uruchomi automatyzację.
+Czyli jeżeli nazwiemy automatyzację "Jolka: podlej trawnik", to wystarczy, że uruchomimy w systemie komendę "Podlej trawnik" żeby wykonać automatyzację o nzawie **"Jolka: podlej trawnik"**.
+Więcej informacji na stronie [Komenda w automatyzacji](/docs/ais_app_assistent_add_command/#komenda-w-automatyzacji).
 
 ## Google  Home
 

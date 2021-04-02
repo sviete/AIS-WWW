@@ -17,7 +17,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.wifi.title"
         description="Wifi number devices title"
-        values={{devices: <span className="strongInfo">1900</span>}}>
+        values={{devices: <span className="strongInfo">1920</span>}}>
         {'Ponad {devices} urządzeń WiFi'}
     </Translate>,
     imageUrl: 'img/main/wifi.svg',
@@ -28,7 +28,7 @@ const ais_features = [
           description="Wifi number devices description"
           values={{
             aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1900</Link>
+            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1920</Link>
           }}
        >
         {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
@@ -42,7 +42,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.zigbee.title"
         description="Zigbee number devices title"
-        values={{devices: <span className="strongInfo">1350</span>}}>
+        values={{devices: <span className="strongInfo">1400</span>}}>
         {'Ponad {devices} urządzeń Zigbee'}
     </Translate>,
     imageUrl: 'img/main/zigbee.svg',
@@ -53,7 +53,7 @@ const ais_features = [
           description="Zigbee number devices description"
           values={{
             aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
-            moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1350</Link>
+            moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1400</Link>
           }}
        >
         {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  Ponad {moreZigbeeDevices} jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
