@@ -12,12 +12,12 @@ Nazwa         | Protokół | Porty | Komenda/URL                                
 ----          | ----     | ------- | -------                                                            | -----------
  Aplikacja AIS| http     | **80** / `8180`  | [http://ais-dom.local](http://ais-dom.local)              | serwer http
  FTP          | ftp      | **21** / `1024`  | [ftp://ais-dom.local](ftp://ais-dom.local)                | serwer ftp
- SSH          | ssh      | **22** / `8022`  | ```ssh ais-dom```                                         | serwer ssh
+ SSH          | ssh      | **22** / `8022`  | ```ssh ais-dom.local```                                   | serwer ssh
  MQTT         | mqtt     | **1883**         | ```mosquitto_sub -h ais-dom.local -t '#'```               | serwer mqtt
  Terminal     | http     | **8888**         | [http://ais-dom.local:8888](http://ais-dom.local:8888)    | powłoka bash w aplikacji webowej
  Zigbee2Mqtt  | http     | **8099**         | [http://ais-dom.local:8099](http://ais-dom.local:8099)    | aplikajca zigbee2mqtt
  Rest API     | http     | **8122**         | [http://ais-dom.local:8122](http://ais-dom.local:8122)    | api bramki
- ADB          | icp/ip   | **5555**         | ```adb ais-dom```                                         | android debug bridge
+ ADB          | icpip    | **5555**         | ```adb ais-dom.local```                                   | android debug bridge
 
 
 ## Przydatne linki

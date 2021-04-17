@@ -17,7 +17,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.wifi.title"
         description="Wifi number devices title"
-        values={{devices: <span className="strongInfo">1920</span>}}>
+        values={{devices: <span className="strongInfo">1930</span>}}>
         {'Ponad {devices} urządzeń WiFi'}
     </Translate>,
     imageUrl: 'img/main/wifi.svg',
@@ -28,7 +28,7 @@ const ais_features = [
           description="Wifi number devices description"
           values={{
             aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1920</Link>
+            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1930</Link>
           }}
        >
         {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}

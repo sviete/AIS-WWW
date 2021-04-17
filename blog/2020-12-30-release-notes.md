@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu Bartek
-tags: [automatyzacje, ais dom, home assistant]
+tags: ["automatyzacje", "ais dom", "home assistant"]
 ---
 
 <div class="IntroAisBlogMenu" >

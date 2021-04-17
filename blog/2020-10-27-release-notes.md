@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.116.6
-tags: [ais dom, ais proxy, home assistant]
+tags: ["ais dom", "ais proxy", "home assistant"]
 ---
 
 # 0.116.6 Szybciej i ładniej

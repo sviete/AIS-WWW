@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.112.6
-tags: [location, demo, home assistant, wizard]
+tags: ["location", "demo", "home assistant", "wizard"]
 ---
 
 # 0.112.6 Location, Location, Location... 
