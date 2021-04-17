@@ -17,7 +17,7 @@ Nazwa         | Protokół | Porty | Komenda/URL                                
  Terminal     | http     | **8888**         | [http://ais-dom.local:8888](http://ais-dom.local:8888)    | powłoka bash w aplikacji webowej
  Zigbee2Mqtt  | http     | **8099**         | [http://ais-dom.local:8099](http://ais-dom.local:8099)    | aplikajca zigbee2mqtt
  Rest API     | http     | **8122**         | [http://ais-dom.local:8122](http://ais-dom.local:8122)    | api bramki
- ADB          | icp/ip   | **5555**         | ```adb ip-bramki```                                       | Android Debug Bridge
+ ADB          | icp/ip   | **5555**         | ```adb ais-dom```                                         | android debug bridge
 
 
 ## Przydatne linki
