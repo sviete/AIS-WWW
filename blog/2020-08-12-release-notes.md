@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.113.4
-tags: [location, gps, demo, home assistant, zigbee2mqtt, apk api]
+tags: ["location", "gps", "demo", "home assistant", "zigbee2mqtt", "apk api"]
 ---
 
 # 0.113.4 Gdzie jest Jolka?

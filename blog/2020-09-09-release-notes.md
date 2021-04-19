@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.114.5
-tags: [sync, demo, home assistant, zigbee2mqtt, nfc, wearos, tasmota]
+tags: ["sync", "demo", "home assistant", "zigbee2mqtt", "nfc", "wearos", "tasmota"]
 ---
 
 # 0.114.5 NFC+

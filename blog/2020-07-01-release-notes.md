@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.111.6
-tags: [spotify, zigbee, home assistant, mqtt bridge, exta life]
+tags: ["spotify", "zigbee", "home assistant", "mqtt bridge", "exta life"]
 ---
 
 # 0.111.6 Biblioteka Spotify, MQTT bridge, EXTA LIFE...

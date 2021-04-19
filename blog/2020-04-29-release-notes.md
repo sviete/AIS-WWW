@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.108.9
-tags: [zigbee, mqtt, home assistant]
+tags: ["zigbee", "mqtt", "home assistant"]
 ---
 
 # 0.108.9 Zigbee, Ikony, Poprawki 🥳

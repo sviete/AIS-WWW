@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: AIS 20/21 - podsumowanie i zapowiedzi
-tags: [2020, 2021, DEV2, PRO, EASY, AI-SPEAKER]
+tags: ["2020", "2021", "DEV2", "PRO", "EASY", "AI-SPEAKER"]
 ---
 
 [![AIS DEV2 First run](/img/en/bramka/first_run_video.png)](https://youtu.be/1qSQWAFizCM?cc_load_policy=1)

@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu 0.109.7
-tags: [notifications, tasmota, zigbee, home assistant]
+tags: [:notifications", "tasmota", "zigbee", "home assistant"]
 ---
 
 # 0.109.7 Powiadomienia, Tasmota, Zigbee

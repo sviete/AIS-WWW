@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu Darek
-tags: [ais dom, home assistant, zigbee2mqtt]
+tags: ["ais dom", "home assistant", "zigbee2mqtt"]
 ---
 
 <div class="IntroAisBlogMenu" >

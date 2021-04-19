@@ -4,7 +4,7 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu Asia
-tags: [google calendars, home assistant, automatyzacje, zigbee2mqtt, tasmota]
+tags: ["google calendars", "home assistant", "automatyzacje", "zigbee2mqtt", "tasmota"]
 ---
 
 # Asia ![](/img/en/blog/202012/asia.png) 
