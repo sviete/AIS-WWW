@@ -34,7 +34,7 @@ Sprzętowo nasza konstrukcja oparta jest na wydajnym układzie Amlogic SoC S905X
 | Pilot                 | Pilot radiowy 2.4 GHz z mikrofonem, dongle              |
 | Dodatkowo w zestawie  | Kabel HDMI, zasilacz 5V 2A, wbudowany tag NFC           |
 | Do kupienia osobno    | Inteligentne urządzenia                                 |
-| Uwagi                 | *Ethernet 1000 Mbps dodano wersji DEV3, <br/>dostępnej w sprzedaży po 20 kwietnia 2021 |
+| Uwagi                 | *Ethernet 1000 Mbps dodano w wersji DEV3 <br/>dostępnej w sprzedaży po 20 kwietnia 2021 |
 
 
 ### Oprogramowanie
