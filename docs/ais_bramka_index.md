@@ -9,7 +9,7 @@ Celem bramki do Internetu Rzeczy z inteligentnym asystentem głosowym jest komun
 
 ### Zdjęcie produktu
 
-![AIS dom DEV2](/img/en/bramka/bramka_full.jpg)
+![AIS dom DEV2](/img/en/bramka/ais_dev3_in_box.jpg)
 
 ### Specyfikacja techniczna
 
@@ -26,14 +26,15 @@ Sprzętowo nasza konstrukcja oparta jest na wydajnym układzie Amlogic SoC S905X
 | HDMI                  | 2.0A                                                    |
 | AV                    | 3,5mm jack                                              |
 | SPDIF                 | Optical SPDIF                                           |
-| Ethernet RJ45         | 10/100M                                                 |
+| Ethernet RJ45         | 10/100/1000* Mbps                                                 |
 | WiFi                  | 2.4 GHz / 5 GHz 802.11 a/b/g/n                          |
 | Bluetooth             | 4.1                                                     |
-| Wyświetlacz VFD       | Pokazuje aktualną godzinę i status urządzenia           |
+| Wyświetlacz VFD       | Pokazuje aktualną godzinę                               |
 | Zasilanie             | Wejście 100-240V / 50-60Hz, wyjście 2A / 5V             |
 | Pilot                 | Pilot radiowy 2.4 GHz z mikrofonem, dongle              |
 | Dodatkowo w zestawie  | Kabel HDMI, zasilacz 5V 2A, wbudowany tag NFC           |
 | Do kupienia osobno    | Inteligentne urządzenia                                 |
+| Uwagi                 | *Ethernet 1000 Mbps dodano wersji DEV3, <br/>dostępnej w sprzedaży po 20 kwietnia 2021 |
 
 
 ### Oprogramowanie

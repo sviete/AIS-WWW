@@ -12,7 +12,7 @@ W pudełku znajdziesz bramkę oraz niezbędne akcesoria:
  * Kabel HDMI
  * Pilot radiowy z mikrofonem + dongle (klucz sprzętowy USB)
 
-![AIS dom DEV2](/img/en/bramka/ais_dev3_in_box.png)
+![AIS dom DEV2](/img/en/bramka/bramka_full.jpg)
 
 
 ## Gniazda dostępne w urządzeniu
