@@ -39,7 +39,7 @@ Jeśli poprzedzedzimy nazwę automatyzacji zwrotem "Jolka: [nazwa automatyzacji]
 
 Np: "Jolka: podlej trawnik":
 
-![Działanie komend](/img/en/frontend/jolka-assistant-automation.png)
+![Działanie komend](/img/en/frontend/jolka-assistant-automation.jpeg)
 
 To po wypowiedzeniu komendy [nazwa automatyzacji] asystent zrozumie, że chodzi nam o uruchomienie automatyzacji o tej nazwie.
 

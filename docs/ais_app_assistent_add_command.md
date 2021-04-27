@@ -7,9 +7,14 @@ sidebar_label: Dodawanie komendy
 
 Najprostszy sposób na dodanie własnej komendy głosowej to poprzedzenie nazwy automatyzacji zwrotem "Jolka: [własna komenda]". 
 
-Np: "Jolka: podlej trawnik":
+Np: "Jolka: podlej trawnik". **Tak dodane komendy nadpisują wbudowane komendy, dzięki czemu można całkowicie dostosować działanie asystenta do własnych potrzeb.**
 
-![Działanie komend](/img/en/frontend/jolka-assistant-automation.png)
+![Działanie komend](/img/en/frontend/jolka-assistant-automation.jpeg)
+
+Dodatkowo można dodać aliasy poleceń, dzięki czemu tę samą automatyzację można uruchomić wieloma komendami.
+
+
+![Działanie komend](/img/en/frontend/jolka-assistant-automation-aliases.jpeg)
 
 
 ## Odpowiedź asystenta
@@ -17,7 +22,7 @@ Np: "Jolka: podlej trawnik":
 W zdefiniowanej automatyzacji można dodać szereg akcji, takich jak uruchomienia urządzeń oraz wywołanie usług.
 Jedną z takich usług może być głosowa odpowiedź asystenta:
 
-![Akcja](/img/en/frontend/action_say_it.png)
+![Akcja](/img/en/frontend/action_say_it.jpeg)
 
 
 ## Dialog
@@ -47,6 +52,18 @@ Możemy dynamicznie przekazywać informację do usługi za pomocą funkcjonalno�
 Szablony można tworzyć/sprawdzać w **Narzędziach deweloperskich**
 
 ![Test nowej komendy](/img/en/frontend/conversation_dev_template.png)
+
+
+
+Szablon ``data_template`` można dodać podczas edycji automatyzacji w formacie YAML:
+
+```yaml
+service: ais_ai_service.say_it
+data_template:
+  text: 'Jest godzina {{ states(''sensor.time'') }} uruchamiam podlewanie'
+```
+
+![Test nowej komendy](/img/en/frontend/conversation_template.jpeg)
 
 
 szczegóły w [dokumentacji dla developerów Home Assistant](https://www.home-assistant.io/docs/configuration/templating/)

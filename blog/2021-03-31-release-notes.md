@@ -86,7 +86,7 @@ Na forum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speak
 Z tematu na forum [Co powiedziała Jolka](https://ai-speaker.discourse.group/t/co-powiedziala-jolka/1544/14) zrodził się pomysł na ciekawą funkcjonalność.
 Oto najprostszy sposób na dodanie własnej komendy głosowej - poprzedzenie nazwy automatyzacji zwrotem "Jolka: [własna komenda]".
 
-![Działanie komend](/img/en/frontend/jolka-assistant-automation.png)
+![Działanie komend](/img/en/frontend/jolka-assistant-automation.jpeg)
 
 Szczegóły [Dodawanie komendy](/docs/ais_app_assistent_add_command/)
 
