@@ -18,7 +18,7 @@ tags: ["ais dom", "home assistant", "zigbee2mqtt", "ais-tasmota"]
 
 </div>
 
-![DEV3](/img/en/blog/202104/dev3.png) DEV3 ![AIS Commands](/img/en/blog/202104/commands.png) Komendy ![AIS Tasmota](/img/en/blog/202104/robot.png) Automatyzacji
+![DEV3](/img/en/blog/202104/dev3.png) DEV3 ![AIS Commands](/img/en/blog/202104/commands.png) Komendy ![AIS Tasmota](/img/en/blog/202104/robot.png) Automatyzacje
 
 <!--truncate-->
 
