@@ -80,7 +80,7 @@ Teraz idziemy krok dalej i dodajemy:
 - nadpisujemy wbudowane komendy
 
 :::caution Uwaga
-**Od tej wersji komendy dodane przez Was mają największy priorytet i nadpsują wbudowane komendy.**
+**Od tej wersji komendy dodane przez Was mają największy priorytet i nadpisują wbudowane komendy.**
 Dzięki temu każdy może całkowicie dostosować działanie asystenta do własnych potrzeb i nawet samemu oprogramować odpowiedzi na pytania o godzinę itd. 
 :::
 
@@ -96,9 +96,10 @@ Szczegóły w dokumentacji [Dodawanie komendy](/docs/ais_app_assistent_add_comma
 Pełna kontrola lokalna z szybką konfiguracją i aktualizacjami. Sterowanie urządzeń za pomocą MQTT, interfejsu WWW, protokołu HTTP. 
 Kolejne wydanie niesamowicie rozszerzalnego, elastycznego, otwartego i coraz bardziej niezawodnego oprogramowania do urządzeń **ESP8266**.
 [To już **1940** wspierawnych urządzeń](https://templates.blakadder.com/index.html).
-W tej wersji dodany został konfigurator połączenia z siecią wifi którego nie powstydził by się żaden komencyjny produkt.
+W tej wersji dodany został konfigurator połączenia z siecią WiFi, którego nie powstydziłby się żaden komercyjny produkt.
 
 Więcej na naszym forum: 
+
 [![](/img/en/blog/202104/tasmota.jpeg)](https://ai-speaker.discourse.group/t/tasmota-v9-4-0-leslie/1703)
 
 
@@ -127,7 +128,7 @@ Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazujące
 
 Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.4: For our advanced users](https://www.home-assistant.io/blog/2021/04/07/release-20214/)
 
-Największa zmiana to możliwość śledzienia wykonania automatyzacji. Poniższy zrzut ekranu przedstawia poprzednie uruchomienie automatyzacji. Automatyzacja jest wyświetlana za pomocą interaktywnego wykresu, który przedstawia ścieżkę, którą przeszła automatyzacja. Każdy węzeł na wykresie można kliknąć, aby wyświetlić szczegółowe informacje o tym, co stało się z automatyzacją podczas tego konkretnego kroku. 👏 brawo HA bardzo ładnie.
+Największa zmiana to możliwość śledzienia wykonania automatyzacji. Poniższy zrzut ekranu przedstawia poprzednie uruchomienie automatyzacji. Automatyzacja jest wyświetlana za pomocą interaktywnego wykresu, który przedstawia ścieżkę, którą przeszła automatyzacja. Każdy węzeł na wykresie można kliknąć, aby wyświetlić szczegółowe informacje o tym, co stało się z automatyzacją podczas tego konkretnego kroku. 👏 brawo HA! Bardzo ładnie! 
 
 ![](/img/en/blog/202104/trace.jpeg)
 
@@ -135,13 +136,13 @@ Największa zmiana to możliwość śledzienia wykonania automatyzacji. Poniżs
 
 ## ![](/img/en/blog/202103/dev3.png) DEV3
 
-Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak dotychczas najszybszą, najprostsza w konfiguracji i obsłudze bramka AIS.
+Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak do tej pory najszybsza, najprostsza w konfiguracji i obsłudze bramka AIS.
 
 ![AIS dom DEV2](/img/en/bramka/ais_dev3_in_box.jpg)
 
 
 Parametry nowej bramki są opisane tu: [Bramka AIoT](/docs/ais_bramka_index), dodaliśmy też nowy konfigurator, który ma ułatwić [Pierwsze uruchomienie](/docs/ais_bramka_first_run_the_gate).
-Polecamy, to naprawdę świetny sprzęt o ogromnych możliwościach, które będziemy wspólnie eksplorowali przez 2 lata. 
+Szczerze polecamy! To naprawdę świetny sprzęt o ogromnych możliwościach, które będziemy wspólnie eksplorowali przez najbliższe 2 lata. 
 
 -------
 
