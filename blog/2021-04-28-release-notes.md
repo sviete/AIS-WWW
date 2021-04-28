@@ -32,7 +32,7 @@ UWAGA Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/doc
 :::
 
 :::important Konsola i logi na bramce.
-### ![B](/img/en/blog/202009/alpha-b-circle.png)Konsola i logi na bramce.
+### ![B](/img/en/blog/202009/alpha-b-circle.png) Konsola i logi na bramce.
 
 W razie problemów z aktualizacją, sprawdź procedurę [Aktualizacja ręczna](/docs/ais_bramka_update_manual) lub [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).
 To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe niestandardowe komponenty.
