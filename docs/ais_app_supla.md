@@ -44,7 +44,7 @@ W systemie Asystent domowy wszystkie typy urządzeń (żarówka, przełącznik, 
 
 Integracja działa z urządzeniami, które udostępnia SUPLA w swoim brokerze MQTT.
 
-Podczas dodawania lub usuwania integracji SUPLA MQTT konfiguracja brokera MQTT na bramce jest nadpisywana i broker MQTT jest automatycznie restartowany.
+Podczas dodawania lub usuwania integracji SUPLA MQTT konfiguracja brokera MQTT działającego na bramce jest nadpisywana i usługa MQTT jest automatycznie restartowana w celu zatwierdzenia zmian w konfiguracji połączenia.
 
 W obecnej wersji integracja pozwala na połączenie z jednym serwerem SUPLA Cloud.
 :::

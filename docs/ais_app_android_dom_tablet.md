@@ -34,7 +34,7 @@ Dzięki czemu można przesyłać treści multimedialne z bramki do zdalnego klie
 ![Smart glass ustawienia](/img/en/frontend/redirect_media_to_client_gate.png)
 
 
-![Smart glass ustawienia](/img/en/frontend/redirect_media_to_client.png)
+![Smart glass ustawienia](/img/en/frontend/redirect_media_to_client.jpeg)
 
 
 ## Wideodomofon

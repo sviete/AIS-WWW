@@ -29,7 +29,7 @@ Otwiera to szereg możliwości takich jak:
 
 Tematem tym planujemy zająć się szerzej, niebawem opiszemy krok po kroku zastosowanie kamer w systemie.
 
-![Kamery](/img/en/frontend/stream_cams.png)
+![Kamery](/img/en/frontend/stream_cams.jpeg)
 
 
 ### Łatwe dodawanie urządzeń
