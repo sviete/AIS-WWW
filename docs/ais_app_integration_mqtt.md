@@ -55,15 +55,41 @@ Broker, który dostarczamy na bramce, to [mosquitto](https://mosquitto.org/). Je
 
 Edycja pliku konfiguracji brokera MQTT możliwa jest z aplikacji.  W tym celu wystarczy w konfiguracji integracji MQTT w prawym górnym rogu wybrać opcję **Edit mosquitto.conf**
 
-![MQTT](/img/en/integrations/mqtt_edit_mosquito_config2.png)
+![Integracja SUPLA](/img/en/frontend/integration_supla_6.png)
 
 W ten sposób możemy łatwo dodawać np. mostkowe połaczenia z innymi brokeremi MQTT.
 
-### Binarka
+### Standardowe ustawienia
 
-Naszą kompilację mosquitto udostępniamy w naszym repozytorium pakietów binarnych [libmosquitto](https://bintray.com/sviete/ais/libmosquitto)
+Fabrycznie mamy takie ustawiania brokera MQTT działającego na bramce:
 
-![MQTT broker](/img/en/bramka/libmosquitto_binary.png)
+``` text
+# AIS Config file for mosquitto on gate
+listener 1883 0.0.0.0
+allow_anonymous true
+
+```
+
+Po dodaniu integracji SUPLA MQTT ustawienia są automatycznie zmieniane na takie:
+
+``` text
+# AIS Config file for mosquitto on gate
+listener 1883 0.0.0.0
+allow_anonymous true
+
+# SUPLA MQTT bridge connection
+connection bridge-dom-unikalny-identyfilator-bramki*
+address host-i-port-od-supla*
+topic supla/# in
+topic homeassistant/# in
+topic supla/+/devices/+/channels/+/execute_action out
+topic supla/+/devices/+/channels/+/set/+ out
+remote_username nazwa-użytkownika-z-supla*
+remote_password hasło-z-supla*
+bridge_cafile /data/data/pl.sviete.dom/files/usr/etc/tls/cert.pem
+
+```
+
 
 ### Dostęp tylko lokalny
 
