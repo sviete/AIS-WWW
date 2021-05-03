@@ -17,7 +17,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.wifi.title"
         description="Wifi number devices title"
-        values={{devices: <span className="strongInfo">1930</span>}}>
+        values={{devices: <span className="strongInfo">1950</span>}}>
         {'Ponad {devices} urządzeń WiFi'}
     </Translate>,
     imageUrl: 'img/main/wifi.svg',
@@ -28,7 +28,7 @@ const ais_features = [
           description="Wifi number devices description"
           values={{
             aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1930</Link>
+            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1950</Link>
           }}
        >
         {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
@@ -67,7 +67,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.ha.title"
         description="HA number of integrations title"
-        values={{devices: <span className="strongInfo">1760</span>}}>
+        values={{devices: <span className="strongInfo">1770</span>}}>
         {'Ponad {devices} Integracji Home Assistant'}
     </Translate>,
     imageUrl: 'img/main/ha.svg',
@@ -79,7 +79,7 @@ const ais_features = [
           values={{
             aisHomeAssistant: <Link to="https://www.home-assistant.io/">Home Assistant Core</Link>,
             aisHomeAssistantIntegrations: <Link to="/docs/ais_app_player">AIS</Link>,
-            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1760 HA Integrations</Link>
+            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1770 HA Integrations</Link>
           }}
        >
         {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej {aisHomeAssistant} z zainstalowanymi i gotowymi do użycia wbudowanymi integracjami {aisHomeAssistantIntegrations}, oraz z możliwością dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}

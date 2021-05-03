@@ -12,7 +12,7 @@ Urządzenia z naszym oprograwmowaniem komunikują się z bramką w sieci lokaln
 
 ![WEB console](/img/en/bramka/mqtt_broker.png)
 
-## Połączenie z borkerem MQTT z systemu Asystent domowy
+## Połączenie z brokerem MQTT z systemu Asystent domowy
 
 Aplikacja Asystent domowy (serwer) działająca na bramce łączy się domyślnie z brokerem MQTT działającym również na bramce.
 Zaawansowani użytkownicy mogą w razie potrzeby połączyć aplikację Asystent domowy z dowolnym innym brokerem MQTT. W tym celu wystarczy w konfiguracji integracji MQTT:
@@ -57,7 +57,7 @@ Edycja pliku konfiguracji brokera MQTT możliwa jest z aplikacji.  W tym celu wy
 
 ![Integracja SUPLA](/img/en/frontend/integration_supla_6.png)
 
-W ten sposób możemy łatwo dodawać np. mostkowe połaczenia z innymi brokeremi MQTT.
+W ten sposób możemy łatwo dodawać np. mostkowe połączenia z innymi brokerami MQTT.
 
 ### Standardowe ustawienia
 
@@ -93,4 +93,4 @@ bridge_cafile /data/data/pl.sviete.dom/files/usr/etc/tls/cert.pem
 
 ### Dostęp tylko lokalny
 
-Broker MQTT pozowala na dostęp bez uwierzytelniania. Dlatego dostęp do brokera MQTT na bramce możliwy jest tylko z sieci lokalnej.
+Broker MQTT pozwala na dostęp bez uwierzytelniania. Dlatego dostęp do brokera MQTT na bramce możliwy jest tylko z sieci lokalnej.

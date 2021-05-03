@@ -83,10 +83,10 @@ pm2 logs mqtt
 
 
 
-Opis brokeram MQTT działającego na bramce i jego ręcznej konfiguracji znajduje się w: [Konfiguracja brokera mqtt](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)
+Opis brokera MQTT działającego na bramce i jego ręcznej konfiguracji znajduje się w: [Konfiguracja brokera mqtt](/docs/ais_app_integration_mqtt#konfiguracja-brokera-mqtt)
 
 
-Parametry które ustawiamy konfiguratorem SUPLA MQTT:
+Parametry, które ustawiamy konfiguratorem SUPLA MQTT:
 
 ``` text
 # AIS Config file for mosquitto on gate
