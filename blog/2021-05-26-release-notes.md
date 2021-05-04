@@ -50,9 +50,10 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 :::caution Poczekaj cierpliwie.
 ### ![C](/img/en/blog/202009/alpha-c-circle.png) Cierpliwość. Pierwsze uruchomienie po aktualizacji trwa dłużej - poczekaj cierpliwie.
 
- **Po aktualizacji pierwsze uruchomienie może trwać nawet 20 minut.**
+ **Po aktualizacji pierwsze uruchomienie może trwać długo.**
  W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.
- **Poczekaj cierpliwie na zakończenie aktualizacji.**
+ **Poczekaj cierpliwie na zakończenie aktualizacji. 
+ Możesz sprawdzić status uruchamiania(dowiedzieć się co robi system) w konsoli komendą ``htop`` i/lub ``pm2 logs``** 
 :::
 
 
@@ -60,22 +61,16 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 ## ![](/img/en/blog/202105/greta.png) Greta
 
 
-W tej wersji znowu aktualizujemy pakiety binarne:
+W tej wersji aktualizujemy następujące pakiety binarne:
 - Python do najnowszej wersji 3.9.4
-- Rclone do najnowszej wersji 
-- FFmpeg do najnowszej wersji 
+- Rclone do najnowszej wersji 1.55
+- FFmpeg do najnowszej wersji 4.4
+- Clang/llvm do najnowszej wersji 12.0.0
 
+... i jeszcze ponda 20 innych pakietów zainstalowanych na bramce.
 
-Ten groźnie brzmiący "Pełny reset aplikacji" to coś bardzo podobnego do wyczyszczenia danych w aplikacji Android i... tak naprawdę to nie jest takie straszne :) 
-Cała procedura opisna jest krok po kroku tu: [Pełny reset aplikacji](/docs/ais_bramka_reset_ais_step_by_step)
-
-
-Jeżeli ktoś nie poradzi sobie z aktualizacją, to wystarczy odezwać się do Celiny, która wprowadziła [Usługę programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368).
-
-**Dzięki temu macie urządzenie zaprogramowane (osobiście przez Jolkę) najnowszym oprogramowaniem w AI-Speaker!**
-
-Na forum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speaker](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)
-
+Aktualizacja może trwać dłużej, w zależności od tego ile macie na bramkach integracji i jakie dodatkowe pakiety zostaną zainstalowane lub czasami skompilowane na bramce.
+Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka w konsoli poleceniem ``htop``
 
 
 ### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie
@@ -115,7 +110,7 @@ Największa zmiana to możliwość śledzienia wykonania automatyzacji. Poniżs
 
 
 
-## ![](/img/en/blog/202103/dev3.png) DEV3 ![](/img/en/blog/202105/placard.png)
+## ![](/img/en/blog/202105/placard.png) AIS DEV3 
 
 Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak do tej pory najszybsza, najprostsza w konfiguracji i obsłudze bramka AIS.
 
@@ -123,8 +118,16 @@ Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to ja
 
 
 Parametry nowej bramki są opisane tu: [Bramka AIoT](/docs/ais_bramka_index), dodaliśmy też nowy konfigurator, który ma ułatwić [Pierwsze uruchomienie](/docs/ais_bramka_first_run_the_gate).
-Szczerze polecamy! To naprawdę świetny sprzęt o ogromnych możliwościach, które będziemy wspólnie eksplorowali przez najbliższe 2 lata. 
+
+Zobaczcie co mówi o nim Greta:
+:::tip Greta
+
+"Szczerze polecam AIS DEV3! To naprawdę świetny sprzęt o ogromnych możliwościach!." 
+
+:::
+
+![Greta](/img/en/blog/202105/greta.png)
 
 -------
 
-##### AI-Speaker 04/2021
+##### AI-Speaker 05/2021
