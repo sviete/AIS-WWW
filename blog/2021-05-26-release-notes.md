@@ -114,19 +114,23 @@ Największa zmiana to możliwość śledzienia wykonania automatyzacji. Poniżs
 
 Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak do tej pory najszybsza, najprostsza w konfiguracji i obsłudze bramka AIS.
 
-![AIS dom DEV2](/img/en/bramka/ais_dev3_in_box.jpg)
+AIS DEV3 to bramka która możesz sterować urządzeniami głosowo kilka minut po jej wyjęciu z pudełka. 
+Dodatkowo masz wbudowaną obsługę audio, zdalny dostęp i konfiguracje za pośrednictwem interfejsu użytkownika. Dzięki AIS DEV3, nie trzeba już nagrywać systemu na kartę SD, majstrować przy ustawieniach routera, wiedzieć co to dynamicznym DNS lub YAML. Oczywiście bez żadnych opłat miesięcznych i reklam w aplikacji.
+
+![AIS dom DEV3](/img/en/bramka/ais_dev3_in_box.jpg)
 
 
-Parametry nowej bramki są opisane tu: [Bramka AIoT](/docs/ais_bramka_index), dodaliśmy też nowy konfigurator, który ma ułatwić [Pierwsze uruchomienie](/docs/ais_bramka_first_run_the_gate).
-
-Zobaczcie co mówi o nim Greta:
+Zobaczcie co mówi o bramce AIS DEV3 Greta:
 :::tip Greta
 
-"Szczerze polecam AIS DEV3! To naprawdę świetny sprzęt o ogromnych możliwościach!." 
+"Bardzo dobrze działa mi się na AIS DEV3! To naprawdę świetny sprzęt o ogromnych możliwościach! Szczerze polecam." 
 
 :::
 
 ![Greta](/img/en/blog/202105/greta.png)
+
+
+Parametry nowej bramki są opisane tu: [Bramka AIoT](/docs/ais_bramka_index), dodaliśmy też nowy konfigurator, który ma ułatwić [Pierwsze uruchomienie](/docs/ais_bramka_first_run_the_gate).
 
 -------
 
