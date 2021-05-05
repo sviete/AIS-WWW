@@ -20,8 +20,8 @@ tags: ["ais dom", "home assistant", "zigbee2mqtt", "ais-tasmota"]
 
 :::caution Uwaga - BETA.
 
- **To jest informacja o wydaniu wersji beta systemu AIS 
- (a zatem prace nad ostateczną wersją są jeszcze w toku).**
+ **To jest informacja o wydaniu wersji beta systemu AIS
+ (a zatem prace nad ostateczną wersją i nad tym postem są jeszcze w toku).**
 
 Wydanie na kanale stabilnym  ![AIS Tasmota](/img/en/blog/202105/construction_3.png) planowane jest na 26 maja 2021.
 
@@ -52,8 +52,8 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 
  **Po aktualizacji pierwsze uruchomienie może trwać długo.**
  W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.
- **Poczekaj cierpliwie na zakończenie aktualizacji. 
- Możesz sprawdzić status uruchamiania(dowiedzieć się co robi system) w konsoli komendą ``htop`` i/lub ``pm2 logs``** 
+ **Poczekaj cierpliwie na zakończenie aktualizacji.
+ Możesz sprawdzić status uruchamiania(dowiedzieć się co robi system) w konsoli komendą ``htop`` i/lub ``pm2 logs``**
 :::
 
 
@@ -69,52 +69,45 @@ W tej wersji aktualizujemy następujące pakiety binarne:
 
 ... i jeszcze ponda 20 innych pakietów zainstalowanych na bramce.
 
-Aktualizacja może trwać dłużej, w zależności od tego ile macie na bramkach integracji i jakie dodatkowe pakiety zostaną zainstalowane lub czasami skompilowane na bramce.
-Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka w konsoli poleceniem ``htop``
+Aktualizacja może trwać dłużej, w zależności od tego ile macie na bramkach integracji i jakie dodatkowe pakiety zostaną podczas instalacji zaktualizowane lub czasami skompilowane na bramce.
+
+> Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka w konsoli poleceniem ``htop``
+lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
 
 
 ### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie
 
-Uwaga wykryliśmy błąd w Tasmota, w pewnych okolicznościach (po utracie połączenia z MQTT i wystąpieniu problemu z ustaleniem adresu IP bramki MQTT) może dojść do tego, że urządzenie zrestartuje się szybko 6 razy i zmieni model.
-Jest wpis na blogu w tym temacie. 
-Jeżeli kogoś dotknoł taki problem (tak jak nas) to sugerujemy aktualizację do wersji AIS-Tasmota 9.4.0 Leslie w której zablokowaliśmy samoczynną zmianę modelu urządzenia. 
+Uwaga wykryliśmy błąd w Tasmota, w pewnych okolicznościach (po utracie połączenia z MQTT i wystąpieniu problemu z ustaleniem adresu IP brokera MQTT na bramce) może dojść do tego, że urządzenie zrestartuje się szybko 6 razy i zmieni model (funkcjonalność wbudowana w Tasmota).
+Jest wpis na naszym blogu w tym temacie:
 
+
+Jeżeli kogoś dotknoł taki problem (tak jak nas) to sugerujemy aktualizację do wersji AIS-Tasmota 9.4.0 Leslie w której zablokowaliśmy możliwość samoczynnej zmiany modelu urządzenia.
+![](/img/en/blog/202105/Tasmota.png)
 
 
 ### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
 
 
-Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.8.3 Ponad **1430** wspieranych urządzeń. 
+Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.8.3 Ponad **1430** wspieranych urządzeń.
 To jest wydanie poprawkowe, wszystkie szczegóły tu [1.18.3](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.18.3)
 
 ![z2m](/img/en/blog/202103/z2m.png)
 
 
-Gdyby ktoś miał problem ze swoim adapterem Zigbee to tak jak już wspominaliśmy - dodaliśmy usługę programania urządzeń - szczegóły na forum:
-
- [![](/img/en/blog/202102/ais_devices_suport.png)](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)
-
-
-
 ### ![](/img/en/blog/202101/hass.png) Asystent domowy
 
-Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.
+Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym Home Assistant Core.
 
-![Asystent domowy](/img/en/blog/202104/social.png)
 
-Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.4: For our advanced users](https://www.home-assistant.io/blog/2021/04/07/release-20214/)
-
-Największa zmiana to możliwość śledzienia wykonania automatyzacji. Poniższy zrzut ekranu przedstawia poprzednie uruchomienie automatyzacji. Automatyzacja jest wyświetlana za pomocą interaktywnego wykresu, który przedstawia ścieżkę, którą przeszła automatyzacja. Każdy węzeł na wykresie można kliknąć, aby wyświetlić szczegółowe informacje o tym, co stało się z automatyzacją podczas tego konkretnego kroku. 👏 brawo HA! Bardzo ładnie! 
-
-![](/img/en/blog/202104/trace.jpeg)
+Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.4: TODO](https://www.home-assistant.io/blog/2021/05/05/release-20215/)
 
 
 
-## ![](/img/en/blog/202105/placard.png) AIS DEV3 
+## ![](/img/en/blog/202105/placard.png) AIS DEV3
 
 Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak do tej pory najszybsza, najprostsza w konfiguracji i obsłudze bramka AIS.
 
-AIS DEV3 to bramka która możesz sterować urządzeniami głosowo kilka minut po jej wyjęciu z pudełka. 
+AIS DEV3 to bramka która możesz sterować urządzeniami głosowo kilka minut po jej wyjęciu z pudełka.
 Dodatkowo masz wbudowaną obsługę audio, zdalny dostęp i konfiguracje za pośrednictwem interfejsu użytkownika. Dzięki AIS DEV3, nie trzeba już nagrywać systemu na kartę SD, majstrować przy ustawieniach routera, wiedzieć co to dynamicznym DNS lub YAML. Oczywiście bez żadnych opłat miesięcznych i reklam w aplikacji.
 
 ![AIS dom DEV3](/img/en/bramka/ais_dev3_in_box.jpg)
@@ -123,7 +116,7 @@ Dodatkowo masz wbudowaną obsługę audio, zdalny dostęp i konfiguracje za poś
 Zobaczcie co mówi o bramce AIS DEV3 Greta:
 :::tip Greta
 
-"Bardzo dobrze działa mi się na AIS DEV3! To naprawdę świetny sprzęt o ogromnych możliwościach! Szczerze polecam." 
+"Bardzo dobrze działa mi się na AIS DEV3! To naprawdę świetny sprzęt o ogromnych możliwościach! Szczerze polecam."
 
 :::
 
