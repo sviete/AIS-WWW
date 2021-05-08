@@ -54,8 +54,7 @@ Dostępne parametry TTS
 | `rate` |  1.0  | Szybkość mowy / 1.0 to normalna szybkość mowy, niższe wartości spowalniają mowę (0,5 to połowa normalnej szybkości mowy), większe wartości ją przyspieszają (2,0 to dwukrotność normalnej szybkości mowy).|
 | `language` | `pl_PL` | Język / Inne dostępne opcje to uk_UA, en_GB, en_US|
 | `voice` | `Jola` | Głos / Dostępne opcje to: <br/> **pl_PL: ** Jola, Celina, Anżela, Asia, Sebastian, Bartek, Andrzej<br/> **uk_UA: ** Mariya<br/> **en_GB: ** Allison, Jon<br/> **en_US: ** Sophia, Sam <br/> |
-| `path` | - | Ścieżka do zapisu pliku / TODO|
-| `format` | - | Format pliku / mp3 lub wav|
+| `path` | - | Ścieżka do zapisu pliku w formacie wav|
 
 
 Dla uproszczenia, zasób **text_to_speech** pozwala też na wywolanie metodą **GET** - czyli wystarczy np. wkleić adres bramki z tekstem do przeczytania do przeglądarki internetowej żeby wywołać API.
