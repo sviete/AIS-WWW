@@ -78,8 +78,7 @@ lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
 ### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie
 
 Uwaga wykryliśmy błąd w Tasmota, w pewnych okolicznościach (po utracie połączenia z MQTT i wystąpieniu problemu z ustaleniem adresu IP brokera MQTT na bramce) może dojść do tego, że urządzenie zrestartuje się szybko 6 razy i zmieni model (funkcjonalność wbudowana w Tasmota).
-Jest wpis na naszym blogu w tym temacie:
-
+Jest wpis na naszym blogu w tym temacie [Utrata konfiguracji w urządzeniach z Tasmotą](https://ai-speaker.discourse.group/t/utrata-konfiguracji-w-urzadzeniach-z-tasmota/1734).
 
 Jeżeli kogoś dotknoł taki problem (tak jak nas) to sugerujemy aktualizację do wersji AIS-Tasmota 9.4.0 Leslie w której zablokowaliśmy możliwość samoczynnej zmiany modelu urządzenia.
 ![](/img/en/blog/202105/Tasmota.png)
@@ -97,9 +96,11 @@ To jest wydanie poprawkowe, wszystkie szczegóły tu [1.18.3](https://github.com
 ### ![](/img/en/blog/202101/hass.png) Asystent domowy
 
 Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym Home Assistant Core.
+Ta wersja to głównie poprawki stabilizacji, uruchamianie bez czekania na migracje danych i kilka innych ulepszeń.
 
+![hass](/img/en/blog/202105/social.png)
 
-Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.4: TODO](https://www.home-assistant.io/blog/2021/05/05/release-20215/)
+Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.5: Stability, performance, triggers, color modes!](https://www.home-assistant.io/blog/2021/05/05/release-20215/)
 
 
 

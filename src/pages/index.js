@@ -185,7 +185,7 @@ function Home() {
                 <Translate
                     id="homepage.hero_title"
                     description="The homepage hero title">
-                    Asystent domowy
+                    AI-Speaker
                 </Translate>
               </h1>
               <p className="hero__subtitle">

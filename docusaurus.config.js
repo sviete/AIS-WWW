@@ -2,7 +2,7 @@ const path = require('path');
 
 
 module.exports = {
-  title: 'Asystent domowy',
+  title: 'AI-Speaker',
   tagline: 'Lokalny, niezawodny, szybki i prywatny.',
   url: 'https://Ai-Speaker.com',
   baseUrl: '/',
@@ -119,9 +119,9 @@ module.exports = {
     //   textColor: '#091E42', // Defaults to `#000`.
     // },
     navbar: {
-      title: 'Asystent domowy',
+      title: 'AI-Speaker',
       logo: {
-        alt: 'Asystent domowy Logo',
+        alt: 'AI-Speaker Logo',
         src: 'img/logo-responsive.svg',
       },
       items: [
