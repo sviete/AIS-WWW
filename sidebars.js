@@ -142,7 +142,8 @@ module.exports = {
       "ais_app_integration_mqtt",
       "ais_app_integration_terminal",
       "ais_app_integration_ftp",
-      "ais_app_integration_zigbee"
+      "ais_app_integration_zigbee",
+      "ais_app_integration_zwave"
     ],
     "Integracje dodatkowe": [
       "ais_iot_index",

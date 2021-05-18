@@ -62,10 +62,11 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 
 
 W tej wersji aktualizujemy następujące pakiety binarne:
-- Python do najnowszej wersji 3.9.4
+- Python do najnowszej wersji 3.9.5
 - Rclone do najnowszej wersji 1.55
 - FFmpeg do najnowszej wersji 4.4
 - Clang/llvm do najnowszej wersji 12.0.0
+- Mosquitto 2.0.10
 
 ... i jeszcze ponda 20 innych pakietów zainstalowanych na bramce.
 
