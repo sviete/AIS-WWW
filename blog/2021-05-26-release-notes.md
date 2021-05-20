@@ -75,6 +75,41 @@ Aktualizacja może trwać dłużej, w zależności od tego ile macie na bramkach
 > Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka w konsoli poleceniem ``htop``
 lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
 
+### Integracja Zwave
+
+Dodaliśmy pierwszą wersję integracji Zwave. Zastosowaliśmy ten sam mechanizm co w przypadku Zigbee czy Supli (integracja przez MQTT). Wg nas tego typu integracja to najlepszy sposób i tak powinno to działać w przypadku wszystkich urządzeń, MQTT powinno być rozwijane jako API w Home Assistant do integracji z innymi systemami i technologiami. Możliwe, że kiedyś tak będzie.
+
+:::caution Uwaga
+**Integracja jest w trakcie rozwoju i testowania**
+
+W obecnej wersji integracja wymaga instalacji ręcznej kodów projektu ZwaveJs2Mqtt.
+Cała procedura opisana jest na forum AI-Speaker: [ZWave na bramce AIS - Zwavejs2Mqtt](https://ai-speaker.discourse.group/t/zwave-na-bramce-ais-zwavejs2mqtt/1769)
+
+:::
+
+Integracja testowana jest z popularnym na rynku adapterem Aeotec Z-Stick który komunikuje się za pomocą USB CDC (Communication Device Class).
+
+![Zwave](/img/en/frontend/zwave_adapter.jpeg)
+
+
+Integracja może też działać z adapterami, które nie obsługują USB CDC, za pomocą zdalnego połączenia tcp socket, obsługiwanego przez ZwaveJs2Mqtt:
+```
+ tcp://dongle.lan:5000
+```
+
+
+
+
+### USB HID
+
+Bramka obsługuje urządzenia USB klasy HID (Human Interface Device) które służą głównie do interakcji z użytkownikiem. Naciśnięcie przycisku na klawiaturze czy innym kontrolerze USB HID podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie. Takie zdarzenia mogą wyzwalać automatyzację.
+
+
+![AIS button](/img/en/bramka/ais_remote_key_events_0.png)
+
+Realizując zamówienie funkcjonalności dla klienta, dodaliśmy wysyłanie zdarzenia naciśnięcia przycisku kontrolera w obu trybach pracy bramki (na i bez monitora), więcej informacji w dokumentacji: [Automatyzacja wyzwalana przyciskiem](/docs/ais_bramka_key_event_automation)
+
+
 
 ### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie
 

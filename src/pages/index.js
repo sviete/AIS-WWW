@@ -17,7 +17,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.wifi.title"
         description="Wifi number devices title"
-        values={{devices: <span className="strongInfo">1950</span>}}>
+        values={{devices: <span className="strongInfo">1960</span>}}>
         {'Ponad {devices} urządzeń WiFi'}
     </Translate>,
     imageUrl: 'img/main/wifi.svg',
@@ -28,7 +28,7 @@ const ais_features = [
           description="Wifi number devices description"
           values={{
             aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1950</Link>
+            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1960</Link>
           }}
        >
         {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
@@ -42,7 +42,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.zigbee.title"
         description="Zigbee number devices title"
-        values={{devices: <span className="strongInfo">1400</span>}}>
+        values={{devices: <span className="strongInfo">1430</span>}}>
         {'Ponad {devices} urządzeń Zigbee'}
     </Translate>,
     imageUrl: 'img/main/zigbee.svg',
@@ -53,7 +53,7 @@ const ais_features = [
           description="Zigbee number devices description"
           values={{
             aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
-            moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1400</Link>
+            moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1430</Link>
           }}
        >
         {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  Ponad {moreZigbeeDevices} jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
@@ -67,7 +67,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.ha.title"
         description="HA number of integrations title"
-        values={{devices: <span className="strongInfo">1770</span>}}>
+        values={{devices: <span className="strongInfo">1780</span>}}>
         {'Ponad {devices} Integracji Home Assistant'}
     </Translate>,
     imageUrl: 'img/main/ha.svg',
@@ -79,13 +79,39 @@ const ais_features = [
           values={{
             aisHomeAssistant: <Link to="https://www.home-assistant.io/">Home Assistant Core</Link>,
             aisHomeAssistantIntegrations: <Link to="/docs/ais_app_player">AIS</Link>,
-            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1770 HA Integrations</Link>
+            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1780 HA Integrations</Link>
           }}
        >
         {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej {aisHomeAssistant} z zainstalowanymi i gotowymi do użycia wbudowanymi integracjami {aisHomeAssistantIntegrations}, oraz z możliwością dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}
       </Translate>
     ),
     addClass: 'col col--4 aisFeature row1',
+    addImgClass: 'aisFeatureImg',
+  },
+  {
+    title:
+    <Translate
+        id="homepage.ais_features.voice.title"
+        description="Voice commands in AIS title"
+        values={{aisTtsStt: <span className="strongInfo">Zwave</span>}}
+        >
+        {'{aisTtsStt}'}
+    </Translate>,
+    imageUrl: 'img/main/account-voice.svg',
+    imageBttomUrl: '',
+    description: (
+      <Translate
+          id="homepage.ais_features.zwave.description"
+          description="Zwave in AIS description"
+          values={{
+            aisZwave: <Link to="/docs/ais_app_integration_zwave">ZwaveJs2Mqtt</Link>
+          }}
+       >
+        {'Na bramce dostarczamy {aisZwave}, dzięki czemu możesz łatwo dodać do bramki obsługę swoich urządzeń Zwave i nimi sterować. Automatyzować ich działanie oraz sterować komendami głosowymi.'}
+      </Translate>
+
+    ),
+    addClass: 'col col--4 aisFeature row2',
     addImgClass: 'aisFeatureImg',
   },
   {
@@ -116,7 +142,7 @@ const ais_features = [
       </Translate>
 
     ),
-    addClass: 'col col--4 col--offset-2 aisFeature row2',
+    addClass: 'col col--4 aisFeature row2',
     addImgClass: 'aisFeatureImg',
   },
   {

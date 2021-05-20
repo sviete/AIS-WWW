@@ -276,8 +276,16 @@
     "description": "Zigbee number devices title"
   },
   "homepage.ais_features.zigbee.description": {
-    "message": "With {aisZigbee} you can easily attach Zigbee devices to the gateway. More than {moreZigbeeDevices} are supported by the Zigbee2Mqtt software we provide on the gateway.",
+    "message": "With {aisZigbee} you can easily attach Zwave devices to the gateway. More than {moreZigbeeDevices} are supported by the Zigbee2Mqtt software we provide on the gateway.",
     "description": "Zigbee number devices description"
+  },
+  "homepage.ais_features.zwave.title": {
+    "message": "All the Zwave devices supported by the ZwaveJs2Mqtt",
+    "description": "Zwave number devices title"
+  },
+  "homepage.ais_features.zwave.description": {
+    "message": "With {aisZwave} you can easily attach Zwave devices to the gateway. You can use all the Zwave devices supported by the ZwaveJs2Mqtt software we provide on the gateway.",
+    "description": "Zwave number devices description"
   },
   "homepage.ais_features.ha.title": {
     "message": "Over {devices} Home Assistant Integrations",
