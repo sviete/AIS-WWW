@@ -5,7 +5,7 @@ sidebar_label: Zamiana tekstu na mowę
 
 ## AIS TTS
 
-System posiada funkcjonalność umożliwiającą zamianę tekstu na mowę. W ten sposób ''Jolka'' rozmawia z urzytkownikiem - odpowiada na pytania i potwierdza wykonanie komendy.
+System posiada funkcjonalność umożliwiającą zamianę tekstu na mowę. W ten sposób ''Jolka'' rozmawia z użytkownikiem - odpowiada na pytania i potwierdza wykonanie komendy.
 
 ![TTS](/img/en/frontend/ais_tts_app.png)
 
@@ -74,11 +74,11 @@ mode: single
 
 ```
 
-Tak wygląda przebieg tej automatyzacji - widać, że kolejne komunikaty były zapowiadane dopiero gdy dostaliśmy informację z systemu o tym, że TTS skończył czytać poprzedni komunikat:
+Tak wygląda przebieg tej automatyzacji - widać, że kolejne komunikaty były zapowiadane dopiero, gdy dostaliśmy informację z systemu o tym, że TTS skończył czytać poprzedni komunikat:
 
 ![AIS TTS](/img/en/frontend/ais_tts_speech_trace.png)
 
 
-Możemy też wykonać automatyzację, którą w czasie gdy asystent mówi: ścisza muzykę, włącza światło lub zapisuje status mechanizmu TTS do encji typu pomocnik, a następnie wykorzystuje ją w interfejsie użytkownika, pokazując stan mowy.
+Możemy też wykonać automatyzację, która w czasie, gdy asystent mówi, ścisza muzykę, włącza światło lub zapisuje status mechanizmu TTS do encji typu pomocnik, a następnie wykorzystuje ją w interfejsie użytkownika, pokazując stan mowy.
 
 Na forum pokazujemy taki przykład: [AI-Speaker forum](https://ai-speaker.discourse.group/)
