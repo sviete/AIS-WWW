@@ -53,7 +53,7 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
  **Po aktualizacji pierwsze uruchomienie może trwać długo.**
  W tym czasie aktualizowane są biblioteki do integracji dodanych na bramce i baza danych jest migrowana do nowego formatu.
  **Poczekaj cierpliwie na zakończenie aktualizacji.
- Możesz sprawdzić status uruchamiania(dowiedzieć się co robi system) w konsoli komendą ``htop`` i/lub ``pm2 logs``**
+ Możesz sprawdzić status uruchamiania (dowiedzieć się co robi system) w konsoli komendą ``htop`` i/lub ``pm2 logs``**
 :::
 
 
@@ -68,7 +68,7 @@ W tej wersji aktualizujemy następujące pakiety binarne:
 - Clang/llvm do najnowszej wersji 12.0.0
 - Mosquitto 2.0.10
 
-... i jeszcze ponda 20 innych pakietów zainstalowanych na bramce.
+... i jeszcze ponad 20 innych pakietów zainstalowanych na bramce.
 
 Aktualizacja może trwać dłużej, w zależności od tego ile macie na bramkach integracji i jakie dodatkowe pakiety zostaną podczas instalacji zaktualizowane lub czasami skompilowane na bramce.
 
@@ -77,7 +77,7 @@ lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
 
 ### Integracja Zwave
 
-Dodaliśmy pierwszą wersję integracji Zwave. Zastosowaliśmy ten sam mechanizm co w przypadku Zigbee czy Supli (integracja przez MQTT). Wg nas tego typu integracja to najlepszy sposób i tak powinno to działać w przypadku wszystkich urządzeń, MQTT powinno być rozwijane jako API w Home Assistant do integracji z innymi systemami i technologiami. Możliwe, że kiedyś tak będzie.
+Dodaliśmy pierwszą wersję integracji Zwave. Zastosowaliśmy ten sam mechanizm co w przypadku Zigbee czy Supla (integracja przez MQTT). Według nas tego typu integracja to najlepszy sposób i tak powinno to działać w przypadku wszystkich urządzeń, MQTT powinno być rozwijane jako API w Home Assistant do integracji z innymi systemami i technologiami. Możliwe, że kiedyś tak będzie.
 
 :::caution Uwaga
 **Integracja jest w trakcie rozwoju i testowania**
@@ -87,7 +87,7 @@ Cała procedura opisana jest na forum AI-Speaker: [ZWave na bramce AIS - Zwavejs
 
 :::
 
-Integracja testowana jest z popularnym na rynku adapterem Aeotec Z-Stick który komunikuje się za pomocą USB CDC (Communication Device Class).
+Integracja testowana jest z popularnym na rynku adapterem Aeotec Z-Stick, który komunikuje się za pomocą USB CDC (Communication Device Class).
 
 ![Zwave](/img/en/frontend/zwave_adapter.jpeg)
 
@@ -100,7 +100,7 @@ Integracja może też działać z adapterami, które nie obsługują USB CDC, za
 
 ### USB HID
 
-Bramka obsługuje urządzenia USB klasy HID (Human Interface Device) które służą głównie do interakcji z użytkownikiem. Naciśnięcie przycisku na klawiaturze czy innym kontrolerze USB HID podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie. Takie zdarzenia mogą wyzwalać automatyzację.
+Bramka obsługuje urządzenia USB klasy HID (Human Interface Device), które służą głównie do interakcji z użytkownikiem. Naciśnięcie przycisku na klawiaturze czy innym kontrolerze USB HID podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie. Takie zdarzenia mogą wyzwalać automatyzacje.
 
 
 ![AIS button](/img/en/bramka/ais_remote_key_events_0.png)
@@ -109,7 +109,7 @@ Realizując zamówienie funkcjonalności dla klienta, dodaliśmy wysyłanie zdar
 
 
 
-### Ofline TTS - ulepszenia
+### Offline TTS - ulepszenia
 
 Kolajna funkcjonalność zamówiona przez klienta wymagała rozbudowania mechanizmu TTS działającego offline na bramce.
 W tym celu do usługi ``ais_ai_service.say_it`` dodaliśmy wybór języka, głosu oraz innych parametrów mechanizmu zamiany tekstu na mowę:
@@ -117,10 +117,10 @@ W tym celu do usługi ``ais_ai_service.say_it`` dodaliśmy wybór języka, głos
 ![AIS TTS](/img/en/frontend/ais_tts.png)
 
 
-Dodatkowo dodaliśmy zdarzenie w systemie ``ais_speech_status`` które raportuje status mowy z mechanizmu tts.
-Chodzi o to, żebyśmy wiedzieli, kiedy Jolka (Marya, Jon, itd...) skończyli mówić wpisany tekst, tak żebyśmy mogli wykonać kolejny krok automatyzacji.
+Dodatkowo dodaliśmy zdarzenie w systemie ``ais_speech_status``, które raportuje status mowy z mechanizmu TTS.
+Chodzi o to, żebyśmy wiedzieli, kiedy Jolka (Marya, Jon, itd...) skończy mówić wpisany tekst, tak żebyśmy mogli wykonać kolejny krok automatyzacji.
 
-Chcemy, żeby komunikaty były mówione po sobie bez względu na to, z jaką prędkością będą mówione i jaka będzie treść komunikatu. Jedyny sposób na osiągnięcie tego to właśnie zdarzenie informujące o statusie mówienie - informacja że TTS zakończył czytanie tekstu.
+Chcemy, żeby komunikaty były mówione po sobie bez względu na to, z jaką prędkością będą mówione i jaka będzie treść komunikatu. Jedyny sposób na osiągnięcie tego, to właśnie zdarzenie informujące o statusie mówienia - informacja, że TTS zakończył czytanie tekstu.
 
 ![AIS TTS](/img/en/frontend/ais_tts_speech_status.png)
 
@@ -165,20 +165,21 @@ mode: single
 
 ```
 
-Tak wygląda przebieg tej automatyzacji - widać, że kolejne komunikaty były zapowiadane dopiero gdy dostaliśmy informację z systemu o tym, że TTS skończył czytać poprzedni komunikat:
+Tak wygląda przebieg tej automatyzacji - widać, że kolejne komunikaty były zapowiadane dopiero, gdy dostaliśmy informację z systemu o tym, że TTS skończył czytać poprzedni komunikat:
 
 ![AIS TTS](/img/en/frontend/ais_tts_speech_trace.png)
 
-Dla tych którzy chcieli by wykożystać ten mechanizm w swoich automatyzacjach, polecamy opis w dokumentacji [AIS TTS](/docs/ais_bramka_key_event_automation)
+Dla tych, którzy chcieliby wykorzystać ten mechanizm w swoich automatyzacjach, polecamy opis w dokumentacji [AIS TTS](/docs/ais_bramka_key_event_automation)
 
 
 
 ### ![](/img/en/blog/202104/robot.png) Tasmota 9.4.0 Leslie
 
-Uwaga wykryliśmy błąd w Tasmota, w pewnych okolicznościach (po utracie połączenia z MQTT i wystąpieniu problemu z ustaleniem adresu IP brokera MQTT na bramce) może dojść do tego, że urządzenie zrestartuje się szybko 6 razy i zmieni model (funkcjonalność wbudowana w Tasmota).
-Jest wpis na naszym blogu w tym temacie [Utrata konfiguracji w urządzeniach z Tasmotą](https://ai-speaker.discourse.group/t/utrata-konfiguracji-w-urzadzeniach-z-tasmota/1734).
+Uwaga! Wykryliśmy błąd w Tasmota, w pewnych okolicznościach (po utracie połączenia z MQTT i wystąpieniu problemu z ustaleniem adresu IP brokera MQTT na bramce) może dojść do tego, że urządzenie zrestartuje się szybko 6 razy i zmieni model (funkcjonalność wbudowana w Tasmota).
+Na naszym forum jest wątek na ten temat [Utrata konfiguracji w urządzeniach z Tasmotą](https://ai-speaker.discourse.group/t/utrata-konfiguracji-w-urzadzeniach-z-tasmota/1734).
 
-Jeżeli kogoś dotknoł taki problem (tak jak nas) to sugerujemy aktualizację do wersji AIS-Tasmota 9.4.0 Leslie w której zablokowaliśmy możliwość samoczynnej zmiany modelu urządzenia.
+Jeżeli kogoś dotknął taki problem (tak jak nas), to sugerujemy aktualizację do wersji AIS-Tasmota 9.4.0 Leslie, w której zablokowaliśmy możliwość samoczynnej zmiany modelu urządzenia.
+
 ![](/img/en/blog/202105/Tasmota.png)
 
 
@@ -206,8 +207,8 @@ Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assis
 
 Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak do tej pory najszybsza, najprostsza w konfiguracji i obsłudze bramka AIS.
 
-AIS DEV3 to bramka która możesz sterować urządzeniami głosowo kilka minut po jej wyjęciu z pudełka.
-Dodatkowo masz wbudowaną obsługę audio, zdalny dostęp i konfiguracje za pośrednictwem interfejsu użytkownika. Dzięki AIS DEV3, nie trzeba już nagrywać systemu na kartę SD, majstrować przy ustawieniach routera, wiedzieć co to dynamicznym DNS lub YAML. Oczywiście bez żadnych opłat miesięcznych i reklam w aplikacji.
+AIS DEV3 to bramka, którą możesz sterować urządzeniami głosowo kilka minut po jej wyjęciu z pudełka.
+Dodatkowo masz wbudowaną obsługę audio, zdalny dostęp i konfiguracje za pośrednictwem interfejsu użytkownika. Dzięki AIS DEV3 nie trzeba już nagrywać systemu na kartę SD, majstrować przy ustawieniach routera, wiedzieć co to dynamiczny DNS lub YAML. Oczywiście bez żadnych opłat miesięcznych i reklam w aplikacji.
 
 ![AIS dom DEV3](/img/en/bramka/ais_dev3_in_box.jpg)
 
