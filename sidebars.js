@@ -119,6 +119,7 @@ module.exports = {
     ],
     "Wbudowane inne integracje": [
       "ais_app_ai_integration",
+      "ais_app_tts",
       "ais_app_integration_gallery",
       "ais_app_ai_integration_google_calendars",
       "ais_app_ai_integration_google_home",

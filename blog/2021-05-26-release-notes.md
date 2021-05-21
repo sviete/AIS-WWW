@@ -98,8 +98,6 @@ Integracja może też działać z adapterami, które nie obsługują USB CDC, za
 ```
 
 
-
-
 ### USB HID
 
 Bramka obsługuje urządzenia USB klasy HID (Human Interface Device) które służą głównie do interakcji z użytkownikiem. Naciśnięcie przycisku na klawiaturze czy innym kontrolerze USB HID podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie. Takie zdarzenia mogą wyzwalać automatyzację.
@@ -108,6 +106,70 @@ Bramka obsługuje urządzenia USB klasy HID (Human Interface Device) które słu
 ![AIS button](/img/en/bramka/ais_remote_key_events_0.png)
 
 Realizując zamówienie funkcjonalności dla klienta, dodaliśmy wysyłanie zdarzenia naciśnięcia przycisku kontrolera w obu trybach pracy bramki (na i bez monitora), więcej informacji w dokumentacji: [Automatyzacja wyzwalana przyciskiem](/docs/ais_bramka_key_event_automation)
+
+
+
+### Ofline TTS - ulepszenia
+
+Kolajna funkcjonalność zamówiona przez klienta wymagała rozbudowania mechanizmu TTS działającego offline na bramce.
+W tym celu do usługi ``ais_ai_service.say_it`` dodaliśmy wybór języka, głosu oraz innych parametrów mechanizmu zamiany tekstu na mowę:
+
+![AIS TTS](/img/en/frontend/ais_tts.png)
+
+
+Dodatkowo dodaliśmy zdarzenie w systemie ``ais_speech_status`` które raportuje status mowy z mechanizmu tts.
+Chodzi o to, żebyśmy wiedzieli, kiedy Jolka (Marya, Jon, itd...) skończyli mówić wpisany tekst, tak żebyśmy mogli wykonać kolejny krok automatyzacji.
+
+Chcemy, żeby komunikaty były mówione po sobie bez względu na to, z jaką prędkością będą mówione i jaka będzie treść komunikatu. Jedyny sposób na osiągnięcie tego to właśnie zdarzenie informujące o statusie mówienie - informacja że TTS zakończył czytanie tekstu.
+
+![AIS TTS](/img/en/frontend/ais_tts_speech_status.png)
+
+Kod przykładowej automatyzacji:
+
+``` yaml
+alias: Komunikat powitalny w 3 językach
+description: ''
+trigger:
+  - platform: event
+    event_type: ais_key_event
+    event_data:
+      code: 1
+condition: []
+action:
+  - service: ais_ai_service.say_it
+    data:
+      text: Witamy w parku rozrywki (komunikat po polsku)
+      language: pl_PL
+      voice: Jola
+  - wait_for_trigger:
+      - platform: event
+        event_type: ais_speech_status
+        event_data:
+          status: DONE
+  - service: ais_ai_service.say_it
+    data:
+      language: en_US
+      voice: Allison
+      text: Welcome to the amusement park (announcement in English)
+  - wait_for_trigger:
+      - platform: event
+        event_type: ais_speech_status
+        event_data:
+          status: DONE
+  - service: ais_ai_service.say_it
+    data:
+      language: uk_UA
+      voice: Mariya
+      text: Ласкаво просимо до парку розваг (анонс українською мовою)
+mode: single
+
+```
+
+Tak wygląda przebieg tej automatyzacji - widać, że kolejne komunikaty były zapowiadane dopiero gdy dostaliśmy informację z systemu o tym, że TTS skończył czytać poprzedni komunikat:
+
+![AIS TTS](/img/en/frontend/ais_tts_speech_trace.png)
+
+Dla tych którzy chcieli by wykożystać ten mechanizm w swoich automatyzacjach, polecamy opis w dokumentacji [AIS TTS](/docs/ais_bramka_key_event_automation)
 
 
 
