@@ -5,9 +5,9 @@ sidebar_label: Automatyzacja wyzwalana przyciskiem
 
 ## Wprowadzenie
 
-Bramka obsługuje urządzenia USB klasy HID (Human Interface Device) które służą głównie do interakcji z użytkownikiem. 
+Bramka obsługuje urządzenia USB klasy HID (Human Interface Device), które służą głównie do interakcji z użytkownikiem. 
 Naciśnięcie przycisku na klawiaturze czy innym kontrolerze USB HID podłączonym do bramki, przesyłane jest do Asystenta domowego jako zdarzenie.
-Takie zdarzenia mogą wyzwalać automatyzację. Opiszemy to na przykładzie poniżej.
+Takie zdarzenia mogą wyzwalać automatyzacje. Opiszemy to na przykładzie poniżej.
 
 ![AIS button](/img/en/bramka/ais_remote_key_events.jpg)
 
@@ -41,11 +41,11 @@ icon: 'hass:keyboard-settings'
 name: Kod przycisku kontrolera HID
 
 ```
-Dzięki tej karcie możemy wiszieć w aplikacji, jakie kody kryją się pod przyciskami w naszych kontrolerach HID.
+Dzięki tej karcie możemy zobaczyć w aplikacji, jakie kody kryją się pod przyciskami w naszych kontrolerach HID.
 
 ![AIS button](/img/en/bramka/ais_remote_key_events_0.png)
 
-Gdy już wiemy jaki kod ma przycisk, którym chcemy wyzwalać automatyzacje, to przechodzimy do jej definiowania.
+Gdy już wiemy, jaki kod ma przycisk, którym chcemy wyzwalać automatyzacje, to przechodzimy do jej definiowania.
 
 
 ### Dodnie automatyzacji
