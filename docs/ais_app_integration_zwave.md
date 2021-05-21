@@ -20,7 +20,7 @@ Cała procedura opisana jest na forum AI-Speaker: [ZWave na bramce AIS - Zwavejs
 
 :::
 
-Integracja testowana jest z popularnym na rynku adapterem Aeotec Z-Stick który komunikuje się za pomocą USB CDC (Communication Device Class).
+Integracja testowana jest z popularnym na rynku adapterem Aeotec Z-Stick, który komunikuje się za pomocą USB CDC (Communication Device Class).
 
 ![Zwave](/img/en/frontend/zwave_adapter.jpeg)
 
@@ -63,12 +63,12 @@ pm2 show zwave
 
 ### Dostęp do aplikacji w sieci lokalnej
 
-Aplikacja Zwavejs2MQTT działa na porcie **8091** w lokalnej sieciu można połączyć się z ją bezpośrednio, wpisując w przeglądarce ``http://<ip-bramki>:8091``
+Aplikacja Zwavejs2MQTT działa na porcie **8091** w lokalnej sieci, można połączyć się z nią bezpośrednio wpisując w przeglądarce ``http://<ip-bramki>:8091``
 
 ![Zwavejs2MQTT](/img/en/frontend/app_zwavejs2mqtt.png)
 
 
-### Dostęp do konfiguracja
+### Dostęp do konfiguracji
 
 Cała konfiguracja ZwaveJs2Mqtt możliwa jest z aplikacji webowej.
 Obecnie nie wspieramy jeszcze przesyłania plików konfiguracji Zwave do serwisu AIS i jej kopiowania pomiędzy bramkami.
