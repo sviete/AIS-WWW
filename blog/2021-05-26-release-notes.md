@@ -18,17 +18,8 @@ tags: ["ais dom", "home assistant", "zigbee2mqtt", "ais-tasmota"]
 
 </div>
 
-:::caution Uwaga - BETA.
-
- **To jest informacja o wydaniu wersji beta systemu AIS
- (a zatem prace nad ostateczną wersją i nad tym postem są jeszcze w toku).**
-
-Wydanie na kanale stabilnym  ![AIS Tasmota](/img/en/blog/202105/construction_3.png) planowane jest na 26 maja 2021.
-
-:::
-
-
-
+ ![Zwave](/img/en/blog/202105/package.png) Pakiety ![Zwave](/img/en/blog/202105/water-wave.png) Zwave ![AIS TTS](/img/en/blog/202105/speaking-head.png) TTS ![AIS Tasmota](/img/en/blog/202104/robot.png) Tasmota
+![Zigbee](/img/en/blog/202105/honeybee.png) Zigbee ![Zigbee](/img/en/blog/202105/keyboard.png) USB HID ![AIS dom](/img/en/blog/202105/ais-dom.png) AIS dom ![DEV3](/img/en/blog/202104/dev3.png) DEV3
 <!--truncate-->
 
 
@@ -169,7 +160,7 @@ Tak wygląda przebieg tej automatyzacji - widać, że kolejne komunikaty były z
 
 ![AIS TTS](/img/en/frontend/ais_tts_speech_trace.png)
 
-Dla tych, którzy chcieliby wykorzystać ten mechanizm w swoich automatyzacjach, polecamy opis w dokumentacji [AIS TTS](/docs/ais_bramka_key_event_automation)
+Dla tych, którzy chcieliby wykorzystać ten mechanizm w swoich automatyzacjach, polecamy opis w dokumentacji [AIS TTS](/docs/ais_app_tts)
 
 
 
