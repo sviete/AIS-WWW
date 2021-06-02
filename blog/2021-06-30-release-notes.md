@@ -58,9 +58,8 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 ## ![](/img/en/blog/202106/hugo.png) Hugo
 
 
-W tej wersji 
 
-> Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka w konsoli poleceniem ``htop``
+> Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka podczas aktualizacji w konsoli poleceniem ``htop``
 lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
 
 
@@ -68,18 +67,31 @@ lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
 ### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
 
 
-Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.9.0 Ponad **1490** wspieranych urządzeń.
-Wszystkie szczegóły tu [1.19.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.19.0)
+Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.9.0 Ponad **1490** wspieranych urządzeń i interfejs w języku Polskim:
 
-![z2m](/img/en/blog/202103/z2m.png)
+
+![z2m](/img/en/blog/202106/zigbee2mqtt_pl.png)
+
+Wszystkie szczegóły tu [1.19.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.19.0)
 
 
 ### ![](/img/en/blog/202101/hass.png) Asystent domowy
 
 Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym Home Assistant Core.
-Ta wersja to głównie poprawki i ulepszenia.
+W tej wersji jest sporo poprawek i aktualizacji bibliotek. W tym **UWAGA** aktualizacja frontend (aplikacji webowej), aby korzystał z Lit 2.0 (komponenty webowe w aplikacji):
 
-![hass](/img/en/blog/202105/social.png)
+https://lit.dev/
+
+
+Czyli oczywiście jak zwykle będzie mnóstwo świetnych ulepszeń, ale także kilka przełomowych zmian.
+
+:::caution Lit 2.0. - Duża aktualizacja bibliotek w aplikacji webowej
+###  Wszystkie nasze elementy w aplikacji webowej zostały przetestowane i działaję bez problemów z Lit 2.0
+
+Jeżeli używasz niestandardowych kart czy innych elementów interfejsu to ich autor musi zapewnić zgodności karty z Lit 2.0... inaczej może być problem z wyświetlaniem tej karty w aplikacji webowej.
+:::
+
+
 
 Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: 
 
