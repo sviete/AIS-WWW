@@ -27,7 +27,8 @@
     "invariant": "^2.2.4",
     "levenary": "^1.1.1",
     "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "react-dom": "^16.8.4",
+    "typewriter-effect": "^2.17.0"
   },
   "browserslist": {
     "production": [

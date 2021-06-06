@@ -224,12 +224,20 @@
     "description": "The homepage hero title"
   },
   "homepage.hero_subtitle": {
-    "message": "Local, reliable, fast and private.",
+    "message": "Home automation that works.",
     "description": "The homepage hero subtitle"
   },
   "homepage.demo_ask_to_try": {
     "message": "Do you want to see how it works?",
     "description": "The homepage ask to try demo"
+  },
+  "homepage.demo_tip": {
+    "message": "Click me 👆 to try demo?",
+    "description": "The homepage tip to try demo"
+  },
+  "homepage.scroll_tip": {
+    "message": "scroll",
+    "description": "The homepage tip to scroll"
   },
   "Zainstaluj z Google Play.": {
     "message": "Install from Google Play.",

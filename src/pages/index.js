@@ -9,6 +9,7 @@ import Image from '@theme/IdealImage';
 import Translate, {translate} from '@docusaurus/Translate';
 import googlePlayLogo from '../../static/img/main/google-play-badge.png';
 import domDemoLogo from '../../static/img/main/Anzela-Demo.png';
+import Typewriter from 'typewriter-effect';
 
 
 const ais_features = [
@@ -17,7 +18,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.wifi.title"
         description="Wifi number devices title"
-        values={{devices: <span className="strongInfo">1960</span>}}>
+        values={{devices: <span className="strongInfo">1990</span>}}>
         {'Ponad {devices} urządzeń WiFi'}
     </Translate>,
     imageUrl: 'img/main/wifi.svg',
@@ -28,7 +29,7 @@ const ais_features = [
           description="Wifi number devices description"
           values={{
             aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1960</Link>
+            moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1990</Link>
           }}
        >
         {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by dodać odrobinę inteligencji do urządzeń w domu. Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
@@ -42,7 +43,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.zigbee.title"
         description="Zigbee number devices title"
-        values={{devices: <span className="strongInfo">1430</span>}}>
+        values={{devices: <span className="strongInfo">1490</span>}}>
         {'Ponad {devices} urządzeń Zigbee'}
     </Translate>,
     imageUrl: 'img/main/zigbee.svg',
@@ -53,7 +54,7 @@ const ais_features = [
           description="Zigbee number devices description"
           values={{
             aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
-            moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1430</Link>
+            moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1490</Link>
           }}
        >
         {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  Ponad {moreZigbeeDevices} jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
@@ -67,7 +68,7 @@ const ais_features = [
     <Translate
         id="homepage.ais_features.ha.title"
         description="HA number of integrations title"
-        values={{devices: <span className="strongInfo">1780</span>}}>
+        values={{devices: <span className="strongInfo">1800</span>}}>
         {'Ponad {devices} Integracji Home Assistant'}
     </Translate>,
     imageUrl: 'img/main/ha.svg',
@@ -79,7 +80,7 @@ const ais_features = [
           values={{
             aisHomeAssistant: <Link to="https://www.home-assistant.io/">Home Assistant Core</Link>,
             aisHomeAssistantIntegrations: <Link to="/docs/ais_app_player">AIS</Link>,
-            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1780 HA Integrations</Link>
+            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1800 HA Integrations</Link>
           }}
        >
         {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej {aisHomeAssistant} z zainstalowanymi i gotowymi do użycia wbudowanymi integracjami {aisHomeAssistantIntegrations}, oraz z możliwością dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}
@@ -189,7 +190,7 @@ function Feature({imageUrl, imageBttomUrl, title, description, addClass, addImgC
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
-  return (
+  return ( 
     <Layout
       title={
         translate({
@@ -203,6 +204,7 @@ function Home() {
           description: 'The homepage description',
         })
       }>
+      <div className={styles.Container}>
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
           <div className="row">
@@ -218,8 +220,20 @@ function Home() {
                 <Translate
                     id="homepage.hero_subtitle"
                     description="The homepage hero subtitle">
-                    Lokalny, niezawodny, szybki i prywatny.
+                    Automatyka domowa która działa.
                 </Translate>
+                <Typewriter
+                  options={{
+                    strings: [
+                      'Lokalnie, niezawodnie, szybko i prywanie.',
+                      'Fajny świat inteligentnych rzeczy, które możesz łączyć automatyzować i nimi sterować.',
+                      'Świat w którym jesteś niezależny, są społeczności, jest tak wiele możliwości i samouczków.',
+                      'My chcemy, żeby ten świat był bardziej dostępny dla ludzi.'
+                  ],
+                    autoStart: true,
+                    loop: true,
+                  }}
+                />
               </p>
               <a href="docs/ais_bramka_index">
                 <img alt="AIS dom logo" className={styles.heroLogo} src="img/logo-responsive.svg" />
@@ -235,12 +249,19 @@ function Home() {
                       Chcesz zobaczyć, jak to działa?
                   </Translate>
                   </h4>
-                <br></br>
                 <Link to="https://dom-demo.paczka.pro">
                   <Image className={styles.aisDemoImg} img={domDemoLogo} alt="Dom demo"/>
                 </Link>
+                <div className={styles.Text}>
+                <Translate
+                      id="homepage.demo_tip"
+                      description="The homepage tip to try demo">
+                      Kliknij mnie 👆 aby przejść do demo.
+                  </Translate>
+                </div>
             </div>
           </div>
+      
           <div className={classnames(styles.announcement)}>
             <div className={styles.announcementInner}>
             <div className={styles.buttons}>
@@ -252,6 +273,22 @@ function Home() {
           </div>
         </div>
       </header>
+      <div className={styles.MouseContainer}>
+      <div className={styles.Mouse}>
+        <span className={styles.MouseWheel} />
+      </div>
+
+      <div className={styles.ScrollText}>
+                <Translate
+                      id="homepage.scroll_tip"
+                      description="The homepage tip to scroll">
+                      Przewiń
+                  </Translate>
+        
+        
+        </div>
+    </div>
+    </div>
       <div className={classnames(styles.announcement, styles.announcementDark)}>
         <div className={styles.announcementInner}>
             <p>
