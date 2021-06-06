@@ -225,10 +225,10 @@ function Home() {
                 <Typewriter
                   options={{
                     strings: [
-                      'Lokalnie, niezawodnie, szybko i prywatnie.',
-                      'Fajny świat inteligentnych rzeczy, które możesz sterować i automatyzować.',
+                      'Lokalnie, niezawodnie, szybko i z poszanowaniem prywatności.',
+                      'Fajny świat inteligentnych rzeczy, którymi możesz sterować i automatyzować.',
                       'Świat, w którym jesteś niezależny, są społeczności, jest tak wiele możliwości i samouczków.',
-                      'Pracujemy nat tym, żeby ten świat był bardziej dostępny dla ludzi.'
+                      'Pracujemy nad tym, żeby ten świat był bardziej dostępny dla ludzi.'
                   ],
                     autoStart: true,
                     loop: true,
