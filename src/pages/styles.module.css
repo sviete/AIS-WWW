@@ -148,7 +148,7 @@
   left: 50%;
   transform: translateX(-50%);
   position: absolute;
-  bottom: 40px;
+  bottom: 20px;
   z-index: 1;
 }
 
@@ -232,7 +232,6 @@ html[data-theme="dark"] .loveSection {
 .announcement {
   font-weight: bold;
   font-size: 22px;
-  padding: 48px;
   margin: 0 auto;
   text-align: center;
 }
@@ -247,6 +246,7 @@ html[data-theme="dark"] .loveSection {
 }
 .aisDiferencesFromOthers {
   text-align: center;
+  padding: 2em;
 }
 
 .footerIndex {

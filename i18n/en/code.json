@@ -251,6 +251,10 @@
     "message": "with connectivity to IoT cloud services.",
     "description": "Announcement line two"
   },
+  "homepage.ais_announcement_line_three": {
+    "message": "Together, we integrate a cool world of intelligent things that can be controlled and automated. A world where we are independent, where communities are built around open projects, where there are so many possibilities and tutorials. We want this world to be more accessible to all people.",
+    "description": "Announcement line three"
+  },
   "homepage.ais_gate_description": {
     "message": "The innovative gateway controls devices locally, ensuring instant response and privacy, and also plays multimedia and has more possibilities than competing solutions.",
     "description": "Gate description on first page"

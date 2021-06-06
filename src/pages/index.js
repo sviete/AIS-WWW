@@ -225,10 +225,7 @@ function Home() {
                 <Typewriter
                   options={{
                     strings: [
-                      'Lokalnie, niezawodnie, szybko i z poszanowaniem prywatności.',
-                      'Fajny świat inteligentnych rzeczy, którymi możesz sterować i automatyzować.',
-                      'Świat, w którym jesteś niezależny, są społeczności, jest tak wiele możliwości i samouczków.',
-                      'Pracujemy nad tym, żeby ten świat był bardziej dostępny dla ludzi.'
+                      'Lokalnie.', 'Niezawodnie.', 'Szybko.', 'Prywatnie.', 'Prosto.'
                   ],
                     autoStart: true,
                     loop: true,
@@ -303,6 +300,12 @@ function Home() {
                 description="Announcement line two">
                   Nasza bramka AIoT jest kompatybilna z popularnymi urządzeniami automatyki domowej, zawiera wiele wbudowanych integracji i ma aktywną społeczność użytkowników, która dzieli się pomysłami i rozwiązaniami.
             </Translate>
+            <br/><br/>
+            <Translate
+              id="homepage.ais_announcement_line_three"
+              description="Announcement line three">
+              Razem integrujemy fajny świat inteligentnych rzeczy, którymi można sterować i automatyzować. Świat, w którym jesteśmy niezależni, w którym są społeczności tworzone wokół otwartych projektów, w którym jest tak wiele możliwości i samouczków. Chcemy,  żeby ten świat był bardziej dostępny dla wszystkich ludzi.
+          </Translate>
             </p>
         </div>
       </div>
@@ -314,7 +317,7 @@ function Home() {
           <Translate
                 id="homepage.ais_one_gate_for_all_text"
                 description="One gate to rule them all text">
-                  Wiele inteligentnych urządzeń i jeden system, by nimi sterować!
+                  Wiele inteligentnych urządzeń gotowych by nimi sterować!
             </Translate>
         </h1>
         </div>
