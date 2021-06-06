@@ -136,6 +136,11 @@
 }
 
 
+@media screen and (max-width: 600px) {
+  .MouseContainer {
+    visibility: hidden;
+  }
+}
 .MouseContainer {
   display: flex;
   flex-direction: row;

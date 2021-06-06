@@ -190,7 +190,7 @@ function Feature({imageUrl, imageBttomUrl, title, description, addClass, addImgC
 function Home() {
   const context = useDocusaurusContext();
   const {siteConfig = {}} = context;
-  return ( 
+  return (
     <Layout
       title={
         translate({
@@ -225,10 +225,10 @@ function Home() {
                 <Typewriter
                   options={{
                     strings: [
-                      'Lokalnie, niezawodnie, szybko i prywanie.',
-                      'Fajny świat inteligentnych rzeczy, które możesz łączyć automatyzować i nimi sterować.',
-                      'Świat w którym jesteś niezależny, są społeczności, jest tak wiele możliwości i samouczków.',
-                      'My chcemy, żeby ten świat był bardziej dostępny dla ludzi.'
+                      'Lokalnie, niezawodnie, szybko i prywatnie.',
+                      'Fajny świat inteligentnych rzeczy, które możesz sterować i automatyzować.',
+                      'Świat, w którym jesteś niezależny, są społeczności, jest tak wiele możliwości i samouczków.',
+                      'Pracujemy nat tym, żeby ten świat był bardziej dostępny dla ludzi.'
                   ],
                     autoStart: true,
                     loop: true,
@@ -261,7 +261,7 @@ function Home() {
                 </div>
             </div>
           </div>
-      
+
           <div className={classnames(styles.announcement)}>
             <div className={styles.announcementInner}>
             <div className={styles.buttons}>
@@ -284,8 +284,8 @@ function Home() {
                       description="The homepage tip to scroll">
                       Przewiń
                   </Translate>
-        
-        
+
+
         </div>
     </div>
     </div>
