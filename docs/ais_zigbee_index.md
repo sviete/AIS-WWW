@@ -1,26 +1,33 @@
 ---
-title: "Zigbee USB CC2531"
+title: "Zigbee USB Adapter"
 sidebar_label: Wprowadzenie
 ---
 
+## Wprowadzenie
 
-Nasze urządzenie Zigbee USB CC2531 daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. 
-Oprogramowanie na urządzeniu to firmowe oprogramowanie Texas Instruments. Komunikacja pomiędzy Asystentem domowym a urządeniem realizowana jest za pomocą oprogramowania [Zigbee2MQTT](https://www.zigbee2mqtt.io/).
+Urządzenie Zigbee USB adapter daje możliwość łatwego korzystania z urządzeń Zigbee bez potrzeby stosowania bramek producentów. 
+Komunikacja pomiędzy Asystentem domowym a urządeniem realizowana jest za pomocą oprogramowania [Zigbee2MQTT](https://www.zigbee2mqtt.io/).
+
+Obecnie oferujemy i wspieramy 2 adaptery zigbee:
+
+- **Adapter PRO** Zigbee ConBee2
+
+![CC2531](/img/en/iot/ais_con_bee2.jpg)
+
+- **Adapter DEV** Zigbee USB CC2531
 
 ![CC2531](/img/en/iot/zigbee_cc2531_0.jpg)
-
-![CC2531](/img/en/iot/zigbee_cc2531_1.jpg)
-
-
-
-## Wysokiej jakości komponenty przemysłowe
-
-![CC2531](/img/en/iot/zigbee_cc2531_2.jpg)
 
 
 ##
 
 ## Dostępność i cena
+
+Jesteśmy oficjalnym bezpośrednim importerem i sprzedawcą urządzeń od producentów:
+
+- Zigbee USB CC2531 -> [Ebyte Electronic Technology Co](https://www.ebyte.com/en)
+- Zigbee ConBee2 -> [Dresden elektronik ingenieurtechnik gmbh](https://www.dresden-elektronik.com/)
+
 
 :::info SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ
 Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową AIS dom.

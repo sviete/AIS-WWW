@@ -12,11 +12,11 @@ Integracja Zigbee w Asystencie domowym daje możliwość łatwego korzystania z 
 
 ## Integracja
 
-Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowanego urządzenia CC2531](/docs/ais_zigbee_index). Asystent domowy sam rozpozna to urządzenie USB, poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie w konfiguracji pojawi się możliwość dodawania urządzeń zigbee.
+Integracja sprowadza się do włożenia do portu USB  [odpowiednio zaprogramowanego adaptera](/docs/ais_zigbee_index). Asystent domowy sam rozpozna to urządzenie USB, poinformuje głosowo, że uruchamia serwis Zigbee i automatycznie w konfiguracji pojawi się możliwość dodawania urządzeń zigbee.
 
 ## Obsługiwane urządzenia
 
-Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 12/2020 obsługiwanych jest ponad 1350 urządzeń od 200 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
+Obsługujemy to, co obsługuje Zigbee2MQTT, wg informacji na stronie projektu Zigbee2MQTT -> [obecnie 06/2021 obsługiwanych jest ponad 1490 urządzeń od 220 różnych dostawców](https://www.zigbee2mqtt.io/information/supported_devices.html). Projekt rozwija się bardzo intensywnie i nowe urządzenia są stale dodawane.
 
 ## Dodanie nowego urządzenia Zigbee
 
@@ -176,16 +176,19 @@ Następnie w prawym górnym rogu z rozwijalnego menu wybrać opcję "Edit Zigbee
 
 ![zigbee](/img/en/integrations/zigbee2mqtt_configuration_file.png)
 
-Standardowa konfiguracja w pliku ``~/zigbee2mqtt/data/configuration.yaml`` jest następująca:
+Standardowa konfiguracja znajduje się w pliku ``~/zigbee2mqtt/data/configuration.yaml``.
+Konfiugracja różni się w zależności od zastosowanego adaptera i jest następująca:
 
+- Adapter PRO Zigbee ConBee2
 ``` yaml
-# configuration.yaml Zigbee2MQTT v 1.7.0   
+# configuration.yaml Zigbee2MQTT v 1.19.1   
 homeassistant: true
 permit_join: false
 mqtt:
   base_topic: zigbee2mqtt
   server: 'mqtt://localhost'
 serial:
+  adapter: deconz
   port: /dev/ttyACM0
 frontend:
   port: 8099
@@ -195,3 +198,24 @@ advanced:
     - console
   channel: 11
 ```
+
+- Adapter DEV Zigbee USB CC2531
+``` yaml
+# configuration.yaml Zigbee2MQTT v 1.19.1   
+homeassistant: true
+permit_join: false
+mqtt:
+  base_topic: zigbee2mqtt
+  server: 'mqtt://localhost'
+serial:
+  adapter: zstack
+  port: /dev/ttyACM0
+frontend:
+  port: 8099
+advanced:
+  log_level: info
+  log_output:
+    - console
+  channel: 11
+```
+

@@ -152,7 +152,7 @@ module.exports = {
     ]
   },
   "Urządznia": {
-    "Zigbee USB CC2531": [
+    "Zigbee USB Adapter": [
       "ais_zigbee_index",
       "ais_zigbee_add_to_gate"
     ],
