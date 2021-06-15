@@ -3,7 +3,6 @@ import classnames from 'classnames';
 import Layout from '@theme/Layout';
 import Link from '@docusaurus/Link';
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
-import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 import Image from '@theme/IdealImage';
 import Translate, {translate} from '@docusaurus/Translate';
@@ -11,6 +10,7 @@ import googlePlayLogo from '../../static/img/main/google-play-badge.png';
 import domDemoLogo from '../../static/img/main/Anzela-Demo.png';
 import Typewriter from 'typewriter-effect';
 import { Carousel } from '@trendyol-js/react-carousel';
+import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 
 
 export const Highlight = ({children, color, textColor}) => ( <span style={{
@@ -23,24 +23,11 @@ export const Highlight = ({children, color, textColor}) => ( <span style={{
   margin: '1em',
 }} className="AisHighlightFuture"> {children} </span> );
 
-function Feature({imageUrl, imageBttomUrl, title, description, addClass, addImgClass}) {
-  const imgUrl = useBaseUrl(imageUrl);
-  const imgBottomUrl = useBaseUrl(imageBttomUrl);
-  return (
-    <div className={classnames(addClass, styles.feature)}>
-      {imgUrl && (
-        <div className="text--center">
-          <img alt="AIS dom feature" className={classnames(addImgClass, styles.aisComiksImg)} src={imgUrl} alt={title} />
-        </div>
-      )}
-      <div className="aisFeatureTitle">{title}</div>
-      <div>{description}</div>
-    </div>
-  );
-}
 
 function getShowFeaturesNum() {
-  console.log(window.innerWidth);
+  if (!ExecutionEnvironment.canUseDOM) {
+    return 1;
+  }
   const w = window.innerWidth;
   if (w > 1800) {
     return 3.5;
@@ -83,7 +70,7 @@ function Home() {
                     AI-Speaker
                 </Translate>
               </h1>
-              <p className="hero__subtitle">
+              <div className="hero__subtitle">
                 <Translate
                     id="homepage.hero_subtitle"
                     description="The homepage hero subtitle">
@@ -92,13 +79,32 @@ function Home() {
                 <Typewriter
                   options={{
                     strings: [
-                      'Lokalnie.', 'Niezawodnie.', 'Szybko.', 'Prywatnie.', 'Prosto.'
+                        translate({
+                          message: 'Lokalnie.',
+                          description: 'The typewriter item Lokalnie',
+                        }), 
+                        translate({
+                          message: 'Niezawodnie.',
+                          description: 'The typewriter item Niezawodnie',
+                        }), 
+                        translate({
+                          message: 'Szybko.',
+                          description: 'The typewriter item Szybko',
+                        }), 
+                        translate({
+                          message: 'Prywatnie.',
+                          description: 'The typewriter item Prywatnie',
+                        }), 
+                        translate({
+                          message: 'Prosto.',
+                          description: 'The typewriter item Prosto',
+                        })
                   ],
                     autoStart: true,
                     loop: true,
                   }}
                 />
-              </p>
+              </div>
               <a href="docs/ais_bramka_index">
                 <img alt="AIS dom logo" className={styles.heroLogo} src="img/logo-responsive.svg" />
               </a>
@@ -173,7 +179,7 @@ function Home() {
         <Translate
           id="homepage.ais_features.wifi.title"
           description="Wifi number devices title"
-          values={{devices: <span className="strongInfo">1990</span>}}>
+          values={{devices: <span className="strongInfo">1990 🌐 </span>}}>
           {'Ponad {devices} urządzeń WiFi'}
           </Translate>
           <br/>
@@ -193,7 +199,7 @@ function Home() {
           </Translate>
       </Highlight>
 
-      <Highlight color="#f9f8f6" textColor="black">  ‍
+      <Highlight color="#ffffff" textColor="black">  ‍
         <Translate
           id="homepage.ais_features.zigbee.title"
           description="Zigbee number devices title"
@@ -207,18 +213,18 @@ function Home() {
             values={{
               aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
               moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1490</Link>,
-              aizZigbeeConnbee2Img: <Link to="/docs/ais_zigbee_index" alt="AIS in Google Play"> <br /> <img alt="AIS dom feature" src="img/ais_con_bee2_mini.jpg" alt="zigbee adapter" /></Link>
+              aizZigbeeConnbee2Img: <Link to="/docs/ais_zigbee_index" alt="AIS in Google Play"> <br /><br /> <img alt="AIS dom feature" src="img/ais_con_bee2_mini.jpg" alt="zigbee adapter" /><br /></Link>
             }}
         >
-          {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  {aizZigbeeConnbee2Img} Ponad {moreZigbeeDevices} jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
+          {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  {aizZigbeeConnbee2Img} Ponad {moreZigbeeDevices} urządzeń Zigbee od 220 producentów jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
         </Translate>
     </Highlight>
 
-    <Highlight color="#16be48" textColor="#fff">We love Zwave 😍
+    <Highlight color="#16be48" textColor="#fff">
       <Translate
-          id="homepage.ais_features.voice.title"
+          id="homepage.ais_features.zwave.title"
           description="Voice commands in AIS title"
-          values={{aisTtsStt: <span className="strongInfo">Zwave</span>}}
+          values={{aisTtsStt: <span className="strongInfo">Zwave 🌊🌊🌊<br /></span>}}
           >
           {'{aisTtsStt}'}
       </Translate>
@@ -226,59 +232,43 @@ function Home() {
             id="homepage.ais_features.zwave.description"
             description="Zwave in AIS description"
             values={{
-              aisZwave: <Link to="/docs/ais_app_integration_zwave">ZwaveJs2Mqtt</Link>
+              aisZwave: <Link to="/docs/ais_app_integration_zwave">ZwaveJs2Mqtt</Link>,
+              aizZigbeeConnbee2Img: <Link to="/docs/ais_app_integration_zwave" alt="AIS in Google Play"> <br /><br /> <img alt="AIS dom feature" src="img/ais_zwave_mini.png" alt="zigbee adapter" /><br /></Link>
             }}
         >
-          {'Na bramce dostarczamy {aisZwave}, dzięki czemu możesz łatwo dodać do bramki obsługę swoich urządzeń Zwave i nimi sterować. Automatyzować ich działanie oraz sterować komendami głosowymi.'}
+          {'Na bramce dostarczamy {aisZwave}, dzięki czemu możesz dodać do bramki obsługę swoich urządzeń Zwave. {aizZigbeeConnbee2Img} Zwave zapewnia interoperacyjność wszystkich certyfikowanych produktów, dlatego każde certyfikowane urządzenie Z-Wave może działać z bramką.'}
         </Translate>
       </Highlight>
-    
-    <Highlight color="#d53f8c" textColor="#fff">
-      <Translate
-          id="homepage.ais_features.ha.title"
-          description="HA number of integrations title"
-          values={{devices: <span className="strongInfo">1800</span>}}>
-          {'Ponad {devices} Integracji Home Assistant'}
-      </Translate>
-      <Translate
-          id="homepage.ais_features.ha.description"
-          description="HA number of integrations description"
-          values={{
-            aisHomeAssistant: <Link to="https://www.home-assistant.io/">Home Assistant Core</Link>,
-            aisHomeAssistantIntegrations: <Link to="/docs/ais_app_player">AIS</Link>,
-            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1800 HA Integrations</Link>
-          }}
-       >
-        {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej {aisHomeAssistant} z zainstalowanymi i gotowymi do użycia wbudowanymi integracjami {aisHomeAssistantIntegrations}, oraz z możliwością dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}
-      </Translate>
-    </Highlight>
 
-
-    <Highlight color="#d53f8c" textColor="#fff">We love Zwave 😍
+    <Highlight color="#febfb8" textColor="#000">
           <Translate
             id="homepage.ais_features.voice.title"
             description="Voice commands in AIS title"
-            values={{aisTtsStt: <span className="strongInfo">TTS/STT</span>}}
+            values={{aisTtsStt: <span className="strongInfo">📣 TTS/STT 🎙️</span>}}
             >
             {'Komunikacja głosowa {aisTtsStt}'}
         </Translate>
+        <br/>
         <Translate
             id="homepage.ais_features.voice.description"
             description="Voice commands in AIS description"
             values={{
-              aisVoiceCommands: <Link to="/docs/ais_app_assistent_commands">AIS TTS/STT</Link>,
+              aisVoiceCommands: <Link to="/docs/ais_app_assistent_commands">AIS TTS/STT <br /></Link>,
               aisVoiceCommandsWeb: <Link to="/docs/ais_app_index">AIS Web App</Link>,
               aisVoiceCommandsMob: <Link to="/docs/ais_app_android_dom">AIS Mob App</Link>,
               aisVoiceCommandsRemote: <Link to="/docs/ais_remote_index">AIS Remote</Link>,
               aisVoiceCommandsApi: <Link to="/docs/ais_bramka_api_index">AIS API</Link>,
-              aisVoiceCommandsCreate: <Link to="/docs/ais_app_assistent_add_command">AIS Conversation</Link>
+              aisVoiceCommandsCreate: <Link to="/docs/ais_app_assistent_add_command">AIS Conversation</Link>,
+              aisTtsSttImg: <Link to="/docs/ais_app_ai_integration" alt="AIS Integrations"> <br /><br /> <img alt="AIS dom feature" src="img/ais_assistant_mini.jpg" alt="zigbee adapter" /><br /></Link>
             }}
         >
-          {'Na bramce dostarczamy {aisVoiceCommands} (zamianę tekstu na mowę i mowy na tekst) oraz wbudowane komendy, dzięki czemu możesz sterować dołączonymi urządzeniami za pomocą poleceń głosowych. Komendy można przesyłać z aplikacji działającej w przeglądarce {aisVoiceCommandsWeb}, aplikacji mobilnej {aisVoiceCommandsMob} lub pilota z mikrofonem {aisVoiceCommandsRemote}.  Można też wysyłać komendy z innych systemów/aplikacji za pomocą {aisVoiceCommandsApi}. Oraz definiować własne komendy {aisVoiceCommandsCreate}.'}
+          {'Na bramce dostarczamy zamianę tekstu na mowę i mowy na tekst {aisVoiceCommands} Możesz sterować urządzeniami za pomocą poleceń głosowych. {aisTtsSttImg} Komendy można przesyłać z przeglądarki {aisVoiceCommandsWeb}, aplikacji mobilnej {aisVoiceCommandsMob} lub pilota z mikrofonem {aisVoiceCommandsRemote}.  Można też wysyłać komendy z innych systemów/aplikacji za pomocą {aisVoiceCommandsApi}. Oraz definiować własne komendy {aisVoiceCommandsCreate}.'}
         </Translate>
       </Highlight>
       
-      <Highlight color="#f27a1a" textColor="#fff">Audio 😍
+      <Highlight color="black" textColor="#fff">
+        <span className="strongInfo">Audio 📻</span>
+        <br/>
         <Translate
             id="homepage.ais_features.audio.description"
             description="Audio in AIS description"
@@ -286,31 +276,62 @@ function Home() {
               aisAudioPlayer: <Link to="/docs/ais_app_player">AIS Audio Player</Link>,
               aisAudioYouTube: <Link to="/docs/ais_app_youtube_dl">YouTube</Link>,
               aisAudioSpotify: <Link to="/docs/ais_app_spotify">Spotify</Link>,
-              aisAudioPortal: <Link to="/docs/ais_app_add_media">Media</Link>
+              aisAudioPortal: <Link to="/docs/ais_app_add_media">Media</Link>,
+              aisAudioImg: <Link to="/docs/ais_app_ai_integration" alt="AIS Integrations"> <br /><br /> <img alt="AIS dom feature" src="img/ais_audio_mini.png" alt="zigbee adapter" /><br /></Link>
             }}
         >
-          {'Na bramce dostarczamy wbudowany odtwarzacz audio {aisAudioPlayer}, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z {aisAudioYouTube} oraz {aisAudioSpotify}. Istnieje też możliwość odtwarzania mediów udostępnionych przez innych użytkowników oraz definiowania własnych dodatkowych zasobów mediów i udostępniania ich dla społeczności {aisAudioPortal}.'}
+          {'Na bramce dostarczamy wbudowany odtwarzacz audio {aisAudioPlayer}, za pomocą którego możesz odtwarzać setki stacji radiowych, podcastów, darmowych audiobooków, darmowe treści z {aisAudioYouTube} oraz {aisAudioSpotify}. {aisAudioImg} Istnieje też możliwość odtwarzania mediów udostępnionych przez innych użytkowników oraz definiowania własnych dodatkowych zasobów mediów i udostępniania ich dla społeczności {aisAudioPortal}.'}
         </Translate>
        </Highlight>
 
-       <a target="_blank" href="https://github.com/sviete/">
-        <Highlight color="#303846" textColor="#fff">AIS ❤️ OpenSource 
+       <Highlight color="#DC143C" textColor="#fff">
+      <Translate
+          id="homepage.ais_features.ha.title"
+          description="HA number of integrations title"
+          values={{devices: <span className="strongInfo">🏠 1800 Integracji<br /> </span>}}>
+          {'Ponad {devices}'}
+      </Translate>
+      <Translate
+          id="homepage.ais_features.ha.description"
+          description="HA number of integrations description"
+          values={{
+            aisHomeAssistant: <Link to="https://www.home-assistant.io/"> Home Assistant Core</Link>,
+            aisHomeAssistantIntegrations: <Link to="/docs/ais_app_player">AIS</Link>,
+            moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1800 HA Integrations</Link>,
+            aisHomeAssistantImg: <Link to="/docs/ais_app_ai_integration" alt="AIS Integrations"> <br /><br /> <img alt="AIS dom feature" src="img/ais_ha_mini.png" alt="zigbee adapter" /><br /></Link>
+          }}
+          
+       >
+        {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej AIS-dom. {aisHomeAssistantImg}  AIS-dom bazuje na {aisHomeAssistant} i posiada wiele wbudowanych integracji {aisHomeAssistantIntegrations} oraz z możliwość dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}
+      </Translate>
+    </Highlight>
+
+    <Highlight color="#303846" textColor="#fff"><span className="strongInfo">AIS ❤️ OpenSource </span>
+          <br/>
           <Translate
-              id="homepage.ais_features.audio.description"
-              description="Audio in AIS description"
+              id="homepage.ais_features.open.description"
+              description="OpenSource in AIS description"
               values={{
-                aisAudioPlayer: <Link to="/docs/ais_app_player">AIS Audio Player</Link>,
-                aizOpenSourceImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br /> 
+                aisGithub: <Link to="https://github.com/sviete/">AIS Github</Link>,
+              }}
+          >
+            {' Kody zródłowe większości składowych naszego systemu są darmowe i ogólnie dostępne w repozytorium {aisGithub}.'}
+          </Translate>
+          <Translate
+              id="homepage.ais_features.open.description1"
+              description="OpenSource in AIS description2"
+              values={{
+                aisDevKit1: <Link to="/docs/ais_dev_kit_1_index">AIS DEV KIT1</Link>,
+                aizOpenSourceImg: <Link to="https://github.com/sviete/" alt="AIS Wifi"> <br /> 
                   <div className="CarouselImage">
                     <img alt="AIS dom feature" src="img/ais_opensource_mini.png" alt="zigbee adapter" />
                   </div>
                 </Link>
               }}
           >
-            {' {aizOpenSourceImg} .'}
+            {' {aizOpenSourceImg} Wierzymy w otwartość i wolność wyboru. Dzięki temu możesz sam wykonać głośnik wg naszego projektu {aisDevKit1}.'}
           </Translate>
         </Highlight>
-       </a>
     </Carousel>
 
     <div className={classnames(styles.announcement, styles.announcementDark, "announcementDark")}>

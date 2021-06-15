@@ -320,7 +320,7 @@ span.AisHighlightFuture {
   border: 2px solid var(--ifm-color-primary);
   max-width: 100%;
   border-radius: 8px;
-  margin-bottom: 2em;
+  margin-bottom: 10px;
 }
 
 div.announcementDark {

@@ -4,7 +4,7 @@
     "description": "Wifi number devices title"
   },
   "homepage.ais_features.wifi.description": {
-    "message": "{aisSocket} is the easiest way to add a touch of intelligence to your home devices. The device runs on software, the sources of which and the compiled version are provided for free. So you have a choice of {moreWiFiDevices} devices, that you can connect to the gate in the same simple way as our Smart Socket.",
+    "message": "{aisSocket} is the easiest way to add a touch of intelligence to your home devices. {aizWifiImg} The device runs on software, the sources of which and the compiled version are provided for free. So you have a choice of {moreWiFiDevices} devices, that you can connect to the gate in the same simple way as our Smart Socket.",
     "description": "Wifi number devices description"
   },
   "theme.NotFound.title": {
@@ -255,10 +255,6 @@
     "message": "Together, we integrate a cool world of intelligent things that can be controlled and automated. A world where we are independent, where communities are built around open projects, where there are so many possibilities and tutorials. We want this world to be more accessible to all people.",
     "description": "Announcement line three"
   },
-  "homepage.ais_gate_description": {
-    "message": "The innovative gateway controls devices locally, ensuring instant response and privacy, and also plays multimedia and has more possibilities than competing solutions.",
-    "description": "Gate description on first page"
-  },
   "homepage.ais_one_gate_for_all_text": {
     "message": "Many intelligent devices and one system to rule them all!",
     "description": "One gate to rule them all text"
@@ -288,23 +284,19 @@
     "description": "Zigbee number devices title"
   },
   "homepage.ais_features.zigbee.description": {
-    "message": "With {aisZigbee} you can easily attach Zwave devices to the gateway. More than {moreZigbeeDevices} are supported by the Zigbee2Mqtt software we provide on the gateway.",
+    "message": "With {aisZigbee} you can easily attach Zwave devices to the gateway. {aizZigbeeConnbee2Img} More than {moreZigbeeDevices} are supported by the Zigbee2Mqtt software we provide on the gateway.",
     "description": "Zigbee number devices description"
   },
-  "homepage.ais_features.zwave.title": {
-    "message": "All the Zwave devices supported by the ZwaveJs2Mqtt",
-    "description": "Zwave number devices title"
-  },
   "homepage.ais_features.zwave.description": {
-    "message": "With {aisZwave} you can easily attach Zwave devices to the gateway. You can use all the Zwave devices supported by the ZwaveJs2Mqtt software we provide on the gateway.",
-    "description": "Zwave number devices description"
+    "message": "With {aisZwave} you can easily attach Zwave devices to the gateway. {aizZigbeeConnbee2Img}  You can use all the Zwave devices supported by the ZwaveJs2Mqtt software we provide on the gateway.",
+    "description": "Zwave in AIS description"
   },
   "homepage.ais_features.ha.title": {
     "message": "Over {devices} Home Assistant Integrations",
     "description": "HA number of integrations title"
   },
   "homepage.ais_features.ha.description": {
-    "message": "One of the components of the software delivered on the gateway is the {aisHomeAssistant} home automation system with installed and ready-to-use embedded {aisHomeAssistantIntegrations} integrations, and with the ability to add more than {moreHomeAssistantMoreIntegrations} that are supported and developed by the Home Assistant community.",
+    "message": "One of the components of the software delivered on the gateway is the AIS home automation platform. AIS is a fork of {aisHomeAssistant}. {aisHomeAssistantImg} With installed and ready-to-use embedded {aisHomeAssistantIntegrations} integrations, and with the ability to add more than {moreHomeAssistantMoreIntegrations} that are supported and developed by the Home Assistant community.",
     "description": "HA number of integrations description"
   },
   "homepage.ais_features.voice.title": {
@@ -312,11 +304,43 @@
     "description": "Voice commands in AIS title"
   },
   "homepage.ais_features.voice.description": {
-    "message": "We provide {aisVoiceCommands} (speech-to-text) and built-in commands on the gateway, so you can control attached devices using voice commands. Commands can be sent from the {aisVoiceCommandsWeb} browser application, the {aisVoiceCommandsMob} mobile application or the {aisVoiceCommandsRemote} remote control. You can also send commands from other systems / applications using {aisVoiceCommandsApi}. And define your own {aisVoiceCommandsCreate} commands.",
+    "message": "We provide {aisVoiceCommands} Speech-to-text and text-to-speech, together with built-in commands, so you can control devices using voice commands. . {aisTtsSttImg} Commands can be sent from the {aisVoiceCommandsWeb} browser application, the {aisVoiceCommandsMob} mobile application or the {aisVoiceCommandsRemote} remote control. You can also send commands from other systems / applications using {aisVoiceCommandsApi}. And define your own {aisVoiceCommandsCreate} commands.",
     "description": "Voice commands in AIS description"
   },
   "homepage.ais_features.audio.description": {
-    "message": "We provide a built-in {aisAudioPlayer} audio player on the gateway, with which you can play hundreds of radio stations, podcasts, free audiobooks, free content from {aisAudioYouTube} and {aisAudioSpotify}. It is also possible to define your own additional audio content in {aisAudioPortal}.",
+    "message": "We provide a built-in {aisAudioPlayer} audio player on the gateway, with which you can play hundreds of radio stations, podcasts, free audiobooks, free content from {aisAudioYouTube} and {aisAudioSpotify}.  {aisAudioImg} It is also possible to define your own additional audio content in {aisAudioPortal}.",
     "description": "Audio in AIS description"
+  },
+  "Lokalnie.": {
+    "message": "Locally at your home.",
+    "description": "The typewriter item Lokalnie"
+  },
+  "Niezawodnie.": {
+    "message": "Reliably.",
+    "description": "The typewriter item Niezawodnie"
+  },
+  "Szybko.": {
+    "message": "Fast.",
+    "description": "The typewriter item Szybko"
+  },
+  "Prywatnie.": {
+    "message": "Privately.",
+    "description": "The typewriter item Prywatnie"
+  },
+  "Prosto.": {
+    "message": "Simply.",
+    "description": "The typewriter item Prosto"
+  },
+  "homepage.ais_features.zwave.title": {
+    "message": "{aisTtsStt}",
+    "description": "Voice commands in AIS title"
+  },
+  "homepage.ais_features.open.description": {
+    "message": " Source codes for most of the components of our system are free and generally available in the repository {aisGithub}.",
+    "description": "OpenSource in AIS description"
+  },
+  "homepage.ais_features.open.description1": {
+    "message": " {aizOpenSourceImg} We believe in openness and freedom of choice. Thanks to this, you can make the speaker yourself according to our design {aisDevKit1}.",
+    "description": "OpenSource in AIS description2"
   }
 }

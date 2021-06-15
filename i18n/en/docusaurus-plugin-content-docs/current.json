@@ -75,10 +75,6 @@
     "message": "Integracje dodatkowe",
     "description": "The label for category Integracje dodatkowe in sidebar Integracje"
   },
-  "sidebar.Urządznia.category.Zigbee USB CC2531": {
-    "message": "Zigbee USB CC2531",
-    "description": "The label for category Zigbee USB CC2531 in sidebar Urządznia"
-  },
   "sidebar.Urządznia.category.Inteligentne gniazdo WiFi": {
     "message": "Inteligentne gniazdo WiFi",
     "description": "The label for category Inteligentne gniazdo WiFi in sidebar Urządznia"
@@ -98,5 +94,9 @@
   "sidebar.Urządznia.category.Oprogramowanie dla urządzeń AIS dom": {
     "message": "Oprogramowanie dla urządzeń AIS dom",
     "description": "The label for category Oprogramowanie dla urządzeń AIS dom in sidebar Urządznia"
+  },
+  "sidebar.Urządznia.category.Zigbee USB Adapter": {
+    "message": "Zigbee USB Adapter",
+    "description": "The label for category Zigbee USB Adapter in sidebar Urządznia"
   }
 }
