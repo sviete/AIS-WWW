@@ -294,3 +294,41 @@ div.IntroAisBlogMenu p {
 div.AisCenterImg {
   text-align: center;
 }
+
+.exampleCarousel1 button:first-child, .exampleCarousel1 button:last-child {
+  background: url(https://cdn.dsmcdn.com/web/production/slick-arrow.svg) no-repeat 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 2em;
+}
+
+div.exampleCarousel1 > a {
+    color: var(--ifm-link-color);
+}
+
+div.exampleCarousel1 > div > div > div {
+  margin-bottom: 2em;
+}
+
+.exampleCarousel1 button:first-child {
+  transform: rotate(180deg);
+}
+
+span.AisHighlightFuture {
+  border: 2px solid var(--ifm-color-primary);
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 2em;
+}
+
+div.announcementDark {
+  background-color: #000000;
+  color: #fff;
+}
+
+div.CarouselImage {
+  width: 100%;
+
+}
