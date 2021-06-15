@@ -292,7 +292,7 @@
     "description": "Zwave in AIS description"
   },
   "homepage.ais_features.ha.title": {
-    "message": "Over {devices} Home Assistant Integrations",
+    "message": "Over {devices} Integrations",
     "description": "HA number of integrations title"
   },
   "homepage.ais_features.ha.description": {
