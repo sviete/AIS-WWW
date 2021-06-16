@@ -295,13 +295,31 @@ div.AisCenterImg {
   text-align: center;
 }
 
-.exampleCarousel1 button:first-child, .exampleCarousel1 button:last-child {
-  background: url(https://cdn.dsmcdn.com/web/production/slick-arrow.svg) no-repeat 50%;
+.exampleCarousel1 button:first-child {
+  background: url(/img/arrow-left-drop-circle.svg) no-repeat 50%;
   outline: none;
   border: none;
   cursor: pointer;
   position: relative;
-  padding: 2em;
+  padding: 1em;
+}
+
+.exampleCarousel1 button:last-child {
+  background: url(/img/arrow-right-drop-circle.svg) no-repeat 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 1em;
+}
+
+@media only screen and (max-width: 800px) {
+  .exampleCarousel1 button:first-child {
+    padding: 0em;
+  }
+  .exampleCarousel1 button:last-child {
+    padding: 0em;
+  }
 }
 
 div.exampleCarousel1 > a {
@@ -312,9 +330,7 @@ div.exampleCarousel1 > div > div > div {
   margin-bottom: 2em;
 }
 
-.exampleCarousel1 button:first-child {
-  transform: rotate(180deg);
-}
+
 
 span.AisHighlightFuture {
   border: 2px solid var(--ifm-color-primary);

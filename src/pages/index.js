@@ -16,11 +16,11 @@ import ExecutionEnvironment from '@docusaurus/ExecutionEnvironment';
 export const Highlight = ({children, color, textColor}) => ( <span style={{
   backgroundColor: color,
   color: textColor,
-  padding: '90px 0',
+  padding: '10px 0',
   display: 'block',
-  height: '100%',
+  height: '650px',
   textAlign: 'center',
-  margin: '1em',
+  margin: '10px',
 }} className="AisHighlightFuture"> {children} </span> );
 
 
@@ -173,7 +173,7 @@ function Home() {
         </div>
      </div>
 
-    <Carousel className={'exampleCarousel1'} show={getShowFeaturesNum()} slide={1} swiping={true}>
+    <Carousel className={'exampleCarousel1'} show={getShowFeaturesNum()} slide={1} responsive={true} swiping={true} swipeOn={0.3} useArrowKeys={true}>
             
       <Highlight color="#2d66c3" textColor="#fff">
         <Translate
@@ -284,7 +284,7 @@ function Home() {
         </Translate>
        </Highlight>
 
-       <Highlight color="#DC143C" textColor="#fff">
+       <Highlight color="#ffeb3b" textColor="#000">
       <Translate
           id="homepage.ais_features.ha.title"
           description="HA number of integrations title"
