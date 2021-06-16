@@ -2462,6 +2462,11 @@
   dependencies:
     defer-to-connect "^1.0.1"
 
+"@trendyol-js/react-carousel@^1.0.5":
+  version "1.0.5"
+  resolved "https://registry.yarnpkg.com/@trendyol-js/react-carousel/-/react-carousel-1.0.5.tgz#96f250a8b72f3ee68cd482a93e45d31e0c45c860"
+  integrity sha512-bd/UTsyCMHZzgOIQmZRTYN13axeGFgL+s9MgPw1Vn8aD6A8D5XjcwKdiWUQZeEobiAsgZItGgedFsvIfr2Iv+g==
+
 "@trysound/sax@0.1.1":
   version "0.1.1"
   resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.1.1.tgz#3348564048e7a2d7398c935d466c0414ebb6a669"
@@ -8152,7 +8157,7 @@ react-dev-utils@^11.0.1:
     strip-ansi "6.0.0"
     text-table "0.2.0"
 
-react-dom@^16.8.4:
+react-dom@^16.14.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-16.14.0.tgz#7ad838ec29a777fb3c75c3a190f661cf92ab8b89"
   integrity sha512-1gCeQXDLoIqMgqD3IO2Ah9bnf0w9kzhwN5q4FGnHZ67hBm9yePzB5JJAIQCc8x3pFnNlwFq4RidZggNAAkzWWw==
@@ -8275,7 +8280,7 @@ react-waypoint@^9.0.2:
     prop-types "^15.0.0"
     react-is "^16.6.3"
 
-react@^16.8.4:
+react@^16.14.0:
   version "16.14.0"
   resolved "https://registry.yarnpkg.com/react/-/react-16.14.0.tgz#94d776ddd0aaa37da3eda8fc5b6b18a4c9a3114d"
   integrity sha512-0X2CImDkJGApiAlcf0ODKIneSwBPhqJawOa5wCtKbu7ZECrmS26NvtSILynQ66cgkT/RJ4LidJOc3bUESwmU8g==

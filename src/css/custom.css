@@ -313,12 +313,9 @@ div.AisCenterImg {
   padding: 1em;
 }
 
-@media only screen and (max-width: 800px) {
-  .exampleCarousel1 button:first-child {
-    padding: 0em;
-  }
-  .exampleCarousel1 button:last-child {
-    padding: 0em;
+@media (min-width: 1440px) {
+  .container {
+    max-width: 100%;
   }
 }
 
