@@ -69,7 +69,7 @@
 .heroLogo {
   animation-duration: 3s;
   animation-name: jackInTheBox;
-  max-width: 30%;
+  max-width: 25%;
 }
 
 @media only screen and (max-width: 1096px) {
