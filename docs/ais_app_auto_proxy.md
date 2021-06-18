@@ -53,5 +53,6 @@ W sieci lokalnej efekt będzie taki sam jak poprzednio ze zwykłym iframe:
 ![AIS Proxy](/img/en/integrations/ais_proxy4.png)
 
 To, co się zmieniło to możliwość zdalnego dostępu do aplikacji (podczas połączania [szyfrowanym tunelem](ais_bramka_remote_www_index)):
+
 ![AIS Proxy](/img/en/integrations/ais_proxy5.png)
 
