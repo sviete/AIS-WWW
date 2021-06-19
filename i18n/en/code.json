@@ -4,7 +4,7 @@
     "description": "Wifi number devices title"
   },
   "homepage.ais_features.wifi.description": {
-    "message": "{aisSocket} is the easiest way to add a touch of intelligence to your home devices. {aizWifiImg} The device runs on software, the sources of which and the compiled version are provided for free. So you have a choice of {moreWiFiDevices} devices, that you can connect to the gate in the same simple way as our Smart Socket.",
+    "message": "{aisSocket} is the easiest way to control devices in your home locally. {aizWifiImg} The device runs on software, the sources of which and the compiled version are provided for free. So you have a choice of ower {moreWiFiDevices} devices, that you can connect to the gate in the same simple way as our Smart Socket.",
     "description": "Wifi number devices description"
   },
   "theme.NotFound.title": {
@@ -256,7 +256,7 @@
     "description": "Announcement line three"
   },
   "homepage.ais_one_gate_for_all_text": {
-    "message": "Many intelligent devices and one system to rule them all!",
+    "message": "Many intelligent devices ready to be controlled locally!",
     "description": "One gate to rule them all text"
   },
   "homepage.ais_project_people_info": {

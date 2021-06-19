@@ -138,7 +138,7 @@ function Home() {
           <Translate
                 id="homepage.ais_one_gate_for_all_text"
                 description="One gate to rule them all text">
-                  Wiele inteligentnych urządzeń gotowych by nimi sterować!
+                  Wiele inteligentnych urządzeń gotowych by nimi sterować lokalnie!
             </Translate>
         </h1>
         <AisCarousel/>

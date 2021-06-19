@@ -43,7 +43,7 @@ export const AisCarousel = () => {
           <Translate
             id="homepage.ais_features.wifi.title"
             description="Wifi number devices title"
-            values={{devices: <span className="strongInfo">1990 🌐 </span>}}>
+            values={{devices: <span className="strongInfo">2000 🌐 </span>}}>
             {'Ponad {devices} urządzeń WiFi'}
             </Translate>
             <br/>
@@ -59,7 +59,7 @@ export const AisCarousel = () => {
                     </div>
                   </Link>
                 }}>
-              {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by sterować urządzeniami w domu. {aizWifiImg} Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
+              {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by sterować lokalnie urządzeniami w domu. {aizWifiImg} Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru ponad {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
             </Translate>
         </Highlight>
 
