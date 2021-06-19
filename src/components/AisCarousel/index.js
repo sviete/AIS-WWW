@@ -35,10 +35,10 @@ export const AisCarousel = () => {
     if (w > 1900) {
       cards_no =  4.5;
     }
-  
+
   return (
     <Carousel className={'exampleCarousel1'} show={cards_no} slide={1} swiping={true} swipeOn={0.3} useArrowKeys={true} responsive={true}>
-              
+
         <Highlight color="#2d66c3" textColor="#fff">
           <Translate
             id="homepage.ais_features.wifi.title"
@@ -52,8 +52,8 @@ export const AisCarousel = () => {
                 description="Wifi number devices description"
                 values={{
                   aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-                  moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">1990</Link>,
-                  aizWifiImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br /> 
+                  moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2000</Link>,
+                  aizWifiImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br />
                     <div className="CarouselImage">
                       <img alt="AIS dom feature" src="img/ais_wifi_mini.png" alt="zigbee adapter" />
                     </div>
@@ -129,7 +129,7 @@ export const AisCarousel = () => {
             {'Na bramce dostarczamy zamianę tekstu na mowę i mowy na tekst {aisVoiceCommands} Możesz sterować urządzeniami za pomocą poleceń głosowych. {aisTtsSttImg} Komendy można przesyłać z przeglądarki {aisVoiceCommandsWeb}, aplikacji mobilnej {aisVoiceCommandsMob} lub pilota z mikrofonem {aisVoiceCommandsRemote}.  Można też wysyłać komendy z innych systemów/aplikacji za pomocą {aisVoiceCommandsApi}. Oraz definiować własne komendy {aisVoiceCommandsCreate}.'}
           </Translate>
         </Highlight>
-        
+
         <Highlight color="black" textColor="#fff">
           <span className="strongInfo">Audio 📻</span>
           <br/>
@@ -164,7 +164,7 @@ export const AisCarousel = () => {
               moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1800 HA Integrations</Link>,
               aisHomeAssistantImg: <Link to="/docs/ais_app_ai_integration" alt="AIS Integrations"> <br /><br /> <img alt="AIS dom feature" src="img/ais_ha_mini.png" alt="zigbee adapter" /><br /></Link>
             }}
-            
+
         >
           {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej AIS-dom. {aisHomeAssistantImg}  AIS-dom bazuje na {aisHomeAssistant} i posiada wiele wbudowanych integracji {aisHomeAssistantIntegrations} oraz z możliwość dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}
         </Translate>
@@ -186,7 +186,7 @@ export const AisCarousel = () => {
                 description="OpenSource in AIS description2"
                 values={{
                   aisDevKit1: <Link to="/docs/ais_dev_kit_1_index">AIS DEV KIT1</Link>,
-                  aizOpenSourceImg: <Link to="https://github.com/sviete/" alt="AIS Wifi"> <br /> 
+                  aizOpenSourceImg: <Link to="https://github.com/sviete/" alt="AIS Wifi"> <br />
                     <div className="CarouselImage">
                       <img alt="AIS dom feature" src="img/ais_opensource_mini.png" alt="zigbee adapter" />
                     </div>
@@ -197,11 +197,11 @@ export const AisCarousel = () => {
             </Translate>
           </Highlight>
       </Carousel>
-      
+
   );
   } else {
     return "";
-  }            
+  }
 };
 
 
