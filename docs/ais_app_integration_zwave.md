@@ -1,6 +1,6 @@
 ---
-title: "ZwaveJs2Mqtt"
-sidebar_label: ZwaveJs2Mqtt
+title: "Zwave"
+sidebar_label: Zwave
 ---
 
 ## Wprowadzenie
@@ -8,17 +8,24 @@ sidebar_label: ZwaveJs2Mqtt
 
 Integracja Zwavejs w Asystencie domowym daje możliwość korzystania z urządzeń Zwave bez potrzeby stosowania bramek producentów. Rozwiązanie oparte jest na projekcie [ZwaveJs2Mqtt](https://github.com/zwave-js/zwavejs2mqtt). Dzięki czemu możesz dodać swoje urządzenia Zwave do całej infrastruktury inteligentnego domu działającej na systemie Asystent domowy.
 
+
+### <span class="mdi mdi-professional-hexagon"></span> Bramka PRO 
+
+Na bramce AIS PRO <span class="mdi mdi-professional-hexagon"></span> integracja Zwavejs jest zainstalowana i skonfigurowana domyślnie.
+
 ![Zwave](/img/en/frontend/zwave_control_panel_dark.png)
 
-## Integracja Zwave
 
-:::caution Uwaga
-**Integracja jest w trakcie rozwoju i testowania**
+### <span class="mdi mdi-dev-to"></span> Bramka DEV
 
-W obecnej wersji integracja wymaga instalacji ręcznej kodów projektu ZwaveJs2Mqtt.
+W przypadku bramek DEV integracja Zwave wymaga instalacji ręcznej.
 Cała procedura opisana jest na forum AI-Speaker: [ZWave na bramce AIS - Zwavejs2Mqtt](https://ai-speaker.discourse.group/t/zwave-na-bramce-ais-zwavejs2mqtt/1769)
 
-:::
+![Zwave](/img/en/frontend/zwave_dev_integration.png)
+
+
+
+## Integracja Zwave
 
 Integracja testowana jest z popularnym na rynku adapterem Aeotec Z-Stick, który komunikuje się za pomocą USB CDC (Communication Device Class).
 

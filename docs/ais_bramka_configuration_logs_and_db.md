@@ -3,7 +3,6 @@ title: "Konfiguracja bramki - Logi i baza danych"
 sidebar_label: Logi i baza danych
 ---
 
-
 W tej sekcji możesz skonfigurować zapis logów do pliku na wymiennym dysku oraz skonfigurować zapis zdarzeń do bazy danych.
 
 
@@ -11,17 +10,32 @@ W tej sekcji możesz skonfigurować zapis logów do pliku na wymiennym dysku ora
 
 W tej sekcji możemy wybrać silnik bazodanowy do rejestracji zdarzeń.
 
-Najprostszy wybór to baza SQLite, która nie wymaga konfiguracji i może rejestrować dane w pamięci - taka baza jest automatycznie używana, gdy włączysz **Historię** lub **Dziennik**.
+### <span class="mdi mdi-professional-hexagon"></span> Bramka PRO 
 
+Na bramce AIS PRO <span class="mdi mdi-professional-hexagon"></span> domyślnie skonfigurowany jest zapis do lokalnej (zainstalowanej i działającej na bramce PRO) bazy MariaDB/MySQL.
+
+![Konfiguracja zapisu zdarzeń](/img/en/bramka/ais_pro_db.png)
+
+
+### <span class="mdi mdi-dev-to"></span> Bramka DEV
+
+W przypadku bramek DEV użytkownik sam wybiera bazę, do której chce zapisywać zdarzenia i którą chce administrować.
+Najprostszy wybór to baza SQLite, która nie wymaga konfiguracji i może rejestrować dane w pamięci - taka baza jest automatycznie używana na bramkach DEV, gdy włączysz **Historię** lub **Dziennik**.
+Bramka DEV nie ma fabrycznie zainstalowanej relacyjnej bazy danych, ale można ją zainstalować, pokazujemy na forum jak to zrobić krok po kroku dla: [MariaDB/MySQL](https://ai-speaker.discourse.group/t/mariadb-mysql/1830) lub  [PostgreSQL](https://ai-speaker.discourse.group/t/relacyjna-baza-danych-postgresql/1014)
+
+![Konfiguracja zapisu zdarzeń](/img/en/bramka/ais_dev_db.png)
+
+
+### Zdalne bazy - konfiguracja
 
 :::caution Uwaga
-Gdy Twój system generuje więcej zdarzeń lub gdy chcesz mieć dostęp do historii po restarcie urządzenia, to zalecamy zapisywać zdarzenia na zewnętrznym dysku lub w zdalnej bazie danych.
+Gdy Twój system generuje więcej zdarzeń, to zalecamy zapisywać zdarzenia w zdalnej bazie danych.
 :::
 
 
 ![Konfiguracja zapisu zdarzeń](/img/en/bramka/bramka_ais_dom_config_db.png)
 
-### Konfiguracja połączeń z bazami zdalnymi
+#### Konfiguracja połączeń z bazami zdalnymi
 
 
 Połączenia z bazami danych wymagają doinstalowania sterowników, nie instalujemy ich domyślnie wszystkich, żeby nie zajmować miejsca na urządzeniu.

@@ -345,3 +345,13 @@ div.CarouselImage {
   width: 100%;
 
 }
+
+span.mdi-professional-hexagon {
+  font-size: 2em;
+  color: #2196f3;
+}
+
+span.mdi-dev-to {
+  font-size: 2em;
+  color: #ffab00;
+}

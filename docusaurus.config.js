@@ -21,6 +21,9 @@ module.exports = {
       },
     },
   },
+  stylesheets: [
+    "https://cdn.jsdelivr.net/npm/@mdi/font@5.9.55/css/materialdesignicons.min.css",
+  ],
   plugins: [
     [
      '@docusaurus/plugin-ideal-image',
