@@ -45,7 +45,7 @@ function Home() {
                 <Translate
                     id="homepage.hero_subtitle"
                     description="The homepage hero subtitle">
-                    Automatyka domowa która działa.
+                    Automatyka która działa.
                 </Translate>
                 <Typewriter
                   options={{
