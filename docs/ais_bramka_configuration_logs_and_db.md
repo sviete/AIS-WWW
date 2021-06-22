@@ -26,14 +26,37 @@ Bramka DEV nie ma fabrycznie zainstalowanej relacyjnej bazy danych, ale można j
 ![Konfiguracja zapisu zdarzeń](/img/en/bramka/ais_dev_db.png)
 
 
+### Filtrowanie zapisu zdarzeń
+
+Ponieważ niektóre integracje potrafią rejestrować z bardzo dużą częstotliwością i generować ogromne ilości danych, dlatego wymagamy zdefiniowania filtra zapisu do bazy.
+Filtr pozwala na określenie, co ma być zapisywane w bazie (parametr **include**) oraz czego nie chcemy zapisywać (parametr **exclude**).
+Używamy nazewnictwa zgodnego z Home Assistant. W standardowej konfiguracji dostarczamy przykładową konfigurację filtra, w którym są zdefiniowane wszystkie możliwe atrybuty.
+
+Poniżej wyjaśniamy, co one oznaczają:
+
+![Konfiguracja zapisu zdarzeń](/img/en/bramka/ais_db_filter.png)
+
+
+1. **domains** - lista domen, które chcemy rejestrować w bazie.
+2. **entity_globs** - lista obiektów pasujących do podanego wzorca (np. sensor.weather_*) które chcemy rejestrować w bazie.
+3. **entities** - lista identyfikatorów encji, które chcemy rejestrować w bazie.
+------------
+4. **domains** - lista domen, które nie chcemy rejestrować w bazie.
+5. **entity_globs** -lista obiektów pasujących do podanego wzorca (np. sensor.weather_*) które nie chcemy rejestrować w bazie.
+6. **entities** - lista identyfikatorów encji, które nie chcemy rejestrować w bazie.
+7. **event_types** - lista typów zdarzeń które nie chcemy rejestrować w bazie.
+
+
+
+
 ### Zdalne bazy - konfiguracja
 
 :::caution Uwaga
-Gdy Twój system generuje więcej zdarzeń, to zalecamy zapisywać zdarzenia w zdalnej bazie danych.
+Gdy chcesz zapisywać więcej zdarzeń lub/i mieć dostęp do historii z wielu dni to zalecamy zapisywać zdarzenia w zdalnej bazie danych.
 :::
 
 
-![Konfiguracja zapisu zdarzeń](/img/en/bramka/bramka_ais_dom_config_db.png)
+![Konfiguracja zapisu zdarzeń](/img/en/bramka/bramka_ais_dom_config_db_mariadb.png)
 
 #### Konfiguracja połączeń z bazami zdalnymi
 
@@ -44,7 +67,6 @@ Poniżej pokazujemy jak je łatwo doinstalować w narzędziach developerskich. S
 2. Wybranie zakładki "KONSOLA"
 3. Wpisanie w konsoli polecenia/poleceń (poniżej), które spowodują instalację sterowników.
 
-![Konfiguracja zapisu zdarzeń](/img/en/bramka/bramka_ais_dom_config_db_mariadb.png)
 
 1. MariaDB
 
