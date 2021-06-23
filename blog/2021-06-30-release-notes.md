@@ -58,26 +58,55 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 ## ![](/img/en/blog/202106/hugo.png) Hugo
 
 
-
 > Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka podczas aktualizacji w konsoli poleceniem ``htop``
 lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
 
+
+### zWave
+
+> TODO 
+
+### Ustawienia USB
+
+> TODO 
+
+
+[Dokumentacja](/docs/ais_bramka_configuration_usb)
+
+
+### Filtrowanie zdarzeń 
+
+> TODO 
+
+### AIS TTS Local
+
+> TODO
+
+
+### PRO start
+
+> TODO 
+
+
+### Conbee2
+
+> TODO  info
 
 
 ### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
 
 
-Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.9.0 Ponad **1490** wspieranych urządzeń i interfejs w języku Polskim:
+Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.9.1 Ponad **1490** wspieranych urządzeń i interfejs w języku Polskim:
 
 
 ![z2m](/img/en/blog/202106/zigbee2mqtt_pl.png)
 
-Wszystkie szczegóły tu [1.19.0](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.19.0)
+Wszystkie szczegóły tu [1.19.1](https://github.com/Koenkk/zigbee2mqtt/releases/tag/1.19.1)
 
 
 ### ![](/img/en/blog/202101/hass.png) Asystent domowy
 
-Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym Home Assistant Core.
+Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na najnowszym stabilnym Home Assistant Core.
 W tej wersji jest sporo poprawek i aktualizacji bibliotek. W tym **UWAGA** aktualizacja frontend (aplikacji webowej), aby korzystał z Lit 2.0 (komponenty webowe w aplikacji):
 
 https://lit.dev/

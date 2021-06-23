@@ -27,6 +27,7 @@ module.exports = {
           "ais_bramka_configuration_night_mode",
           "ais_bramka_configuration_remote_access",
           "ais_bramka_configuration_logs_and_db",
+          "ais_bramka_configuration_usb",
           "ais_bramka_configuration_restart_stop"
         ]
       },
