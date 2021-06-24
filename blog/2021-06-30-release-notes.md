@@ -62,6 +62,11 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
 
 
+### Fosshost
+
+![](/img/en/blog/202106/fosshost_big.png)
+
+
 ### zWave
 
 > TODO 

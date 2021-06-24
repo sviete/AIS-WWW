@@ -39,29 +39,7 @@ export const AisCarousel = () => {
   return (
     <Carousel className={'exampleCarousel1'} show={cards_no} slide={1} swiping={true} swipeOn={0.3} useArrowKeys={true} responsive={true}>
 
-        <Highlight color="#2d66c3" textColor="#fff">
-          <Translate
-            id="homepage.ais_features.wifi.title"
-            description="Wifi number devices title"
-            values={{devices: <span className="strongInfo">2000 🌐 </span>}}>
-            {'Ponad {devices} urządzeń WiFi'}
-            </Translate>
-            <br/>
-            <Translate
-                id="homepage.ais_features.wifi.description"
-                description="Wifi number devices description"
-                values={{
-                  aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-                  moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2000</Link>,
-                  aizWifiImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br />
-                    <div className="CarouselImage">
-                      <img alt="AIS dom feature" src="img/ais_wifi_mini.png" alt="zigbee adapter" />
-                    </div>
-                  </Link>
-                }}>
-              {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by sterować lokalnie urządzeniami w domu. {aizWifiImg} Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru ponad {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
-            </Translate>
-        </Highlight>
+        
 
         <Highlight color="#ffffff" textColor="black">  ‍
           <Translate
@@ -102,6 +80,31 @@ export const AisCarousel = () => {
           >
             {'Na bramce dostarczamy {aisZwave}, dzięki czemu możesz dodać do bramki obsługę swoich urządzeń Zwave. {aizZigbeeConnbee2Img} Zwave zapewnia interoperacyjność wszystkich certyfikowanych produktów, dlatego każde certyfikowane urządzenie Z-Wave może działać z bramką.'}
           </Translate>
+      </Highlight>
+
+
+      <Highlight color="#2d66c3" textColor="#fff">
+          <Translate
+            id="homepage.ais_features.wifi.title"
+            description="Wifi number devices title"
+            values={{devices: <span className="strongInfo">2000 🌐 </span>}}>
+            {'Ponad {devices} urządzeń WiFi'}
+            </Translate>
+            <br/>
+            <Translate
+                id="homepage.ais_features.wifi.description"
+                description="Wifi number devices description"
+                values={{
+                  aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
+                  moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2000</Link>,
+                  aizWifiImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br />
+                    <div className="CarouselImage">
+                      <img alt="AIS dom feature" src="img/ais_wifi_mini.png" alt="zigbee adapter" />
+                    </div>
+                  </Link>
+                }}>
+              {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by sterować lokalnie urządzeniami w domu. {aizWifiImg} Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru ponad {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
+            </Translate>
         </Highlight>
 
       <Highlight color="#febfb8" textColor="#000">
@@ -196,6 +199,28 @@ export const AisCarousel = () => {
               {' {aizOpenSourceImg} Wierzymy w otwartość i wolność wyboru. Dzięki temu możesz sam wykonać głośnik wg naszego projektu {aisDevKit1}.'}
             </Translate>
           </Highlight>
+
+        <Highlight color="#ffffff" textColor="black">  ‍
+          <Translate
+            id="homepage.ais_features.services.title"
+            description="Free services title"
+            values={{devices: <span className="strongInfo">1490 🐝</span>}}>
+            {'Darmowe usługi'}
+          </Translate>
+          <br/>
+          <Translate
+              id="homepage.ais_features.services.description"
+              description="Services number devices description"
+              values={{
+                aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
+                moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1490</Link>,
+                aizZigbeeConnbee2Img: <Link to="/docs/ais_zigbee_index" alt="AIS in Google Play"> <br /><br /> <img alt="AIS dom feature" src="img/ais_fosshost_mini.png" alt="zigbee adapter" /><br /></Link>
+              }}
+          >
+            {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  {aizZigbeeConnbee2Img} Ponad {moreZigbeeDevices} urządzeń Zigbee od 220 producentów jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
+          </Translate>
+      </Highlight>
+
       </Carousel>
 
   );
