@@ -45,7 +45,7 @@ function Home() {
                 <Translate
                     id="homepage.hero_subtitle"
                     description="The homepage hero subtitle">
-                    Automatyka która działa.
+                    Automatyka, która działa.
                 </Translate>
                 <Typewriter
                   options={{
@@ -53,19 +53,19 @@ function Home() {
                         translate({
                           message: 'Lokalnie.',
                           description: 'The typewriter item Lokalnie',
-                        }), 
+                        }),
                         translate({
                           message: 'Niezawodnie.',
                           description: 'The typewriter item Niezawodnie',
-                        }), 
+                        }),
                         translate({
                           message: 'Szybko.',
                           description: 'The typewriter item Szybko',
-                        }), 
+                        }),
                         translate({
                           message: 'Prywatnie.',
                           description: 'The typewriter item Prywatnie',
-                        }), 
+                        }),
                         translate({
                           message: 'Prosto.',
                           description: 'The typewriter item Prosto',
@@ -130,7 +130,7 @@ function Home() {
         </div>
     </div>
     </div>
-      
+
       <div className="container">
         <div className={classnames('row', styles.aisDiferencesFromOthers)}>
         <h1>

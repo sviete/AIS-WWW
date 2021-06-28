@@ -58,7 +58,7 @@ export const AisCarousel = () => {
                 aizZigbeeConnbee2Img: <Link to="/docs/ais_zigbee_index" alt="AIS in Google Play"> <br /><br /> <img alt="AIS dom feature" src="img/ais_con_bee2_mini.jpg" alt="zigbee adapter" /><br /></Link>
               }}
           >
-            {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  {aizZigbeeConnbee2Img} Ponad {moreZigbeeDevices} urządzeń Zigbee od 220 producentów jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
+            {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  {aizZigbeeConnbee2Img} Ponad {moreZigbeeDevices} urządzeń Zigbee od 220 producentów jest wspieranych przez oprogramowanie Zigbee2Mqtt, które dostarczamy na bramce.'}
           </Translate>
       </Highlight>
 
@@ -103,7 +103,7 @@ export const AisCarousel = () => {
                     </div>
                   </Link>
                 }}>
-              {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by sterować lokalnie urządzeniami w domu. {aizWifiImg} Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki czemu masz do wyboru ponad {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób jak nasze Inteligentne gniazdo.'}
+              {'Inteligentne gniazdo {aisSocket} to najprostszy sposób, by sterować lokalnie urządzeniami w domu. {aizWifiImg} Urządzenie działa na oprogramowaniu, którego źródła oraz skompilowaną wersję udostępniamy za darmo. Dzięki temu masz do wyboru ponad {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób, co nasze Inteligentne gniazdo.'}
             </Translate>
         </Highlight>
 
@@ -129,7 +129,7 @@ export const AisCarousel = () => {
                 aisTtsSttImg: <Link to="/docs/ais_app_ai_integration" alt="AIS Integrations"> <br /><br /> <img alt="AIS dom feature" src="img/ais_assistant_mini.jpg" alt="zigbee adapter" /><br /></Link>
               }}
           >
-            {'Na bramce dostarczamy zamianę tekstu na mowę i mowy na tekst {aisVoiceCommands} Możesz sterować urządzeniami za pomocą poleceń głosowych. {aisTtsSttImg} Komendy można przesyłać z przeglądarki {aisVoiceCommandsWeb}, aplikacji mobilnej {aisVoiceCommandsMob} lub pilota z mikrofonem {aisVoiceCommandsRemote}.  Można też wysyłać komendy z innych systemów/aplikacji za pomocą {aisVoiceCommandsApi}. Oraz definiować własne komendy {aisVoiceCommandsCreate}.'}
+            {'Na bramce dostarczamy zamianę tekstu na mowę i mowy na tekst {aisVoiceCommands} Możesz sterować urządzeniami za pomocą poleceń głosowych. {aisTtsSttImg} Komendy można przesyłać z przeglądarki {aisVoiceCommandsWeb}, aplikacji mobilnej {aisVoiceCommandsMob} lub pilota z mikrofonem {aisVoiceCommandsRemote}.  Można też wysyłać komendy z innych systemów/aplikacji za pomocą {aisVoiceCommandsApi} oraz definiować własne komendy {aisVoiceCommandsCreate}.'}
           </Translate>
         </Highlight>
 
@@ -169,7 +169,7 @@ export const AisCarousel = () => {
             }}
 
         >
-          {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej AIS-dom. {aisHomeAssistantImg}  AIS-dom bazuje na {aisHomeAssistant} i posiada wiele wbudowanych integracji {aisHomeAssistantIntegrations} oraz z możliwość dodania ponad {moreHomeAssistantMoreIntegrations} które są wspierane i rozwijanych przez społeczność skupioną wokół projektu Home Assistant.'}
+          {'Jedną ze składowych oprogramowania dostarczanego na bramce jest system automatyki domowej AIS-dom. {aisHomeAssistantImg}  AIS-dom bazuje na {aisHomeAssistant} i posiada wiele wbudowanych integracji {aisHomeAssistantIntegrations} oraz możliwość dodania ponad {moreHomeAssistantMoreIntegrations}, które są wspierane i rozwijane przez społeczność skupioną wokół projektu Home Assistant.'}
         </Translate>
       </Highlight>
 
@@ -226,7 +226,7 @@ export const AisCarousel = () => {
                   </Link>
                 }}
             >
-              {' {aizOpenSourceImg} Wierzymy w otwartość i wolność wyboru. Dzięki temu możesz sam wykonać głośnik wg naszego projektu {aisDevKit1}.'}
+              {' {aizOpenSourceImg} Wierzymy w otwartość i wolność wyboru. Dzięki temu sam możesz wykonać głośnik wg naszego projektu {aisDevKit1}.'}
             </Translate>
           </Highlight>
 
