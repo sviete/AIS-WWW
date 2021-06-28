@@ -256,7 +256,7 @@
     "description": "Announcement line three"
   },
   "homepage.ais_one_gate_for_all_text": {
-    "message": "Many intelligent devices ready to be controlled locally!",
+    "message": "Many intelligent solutions. Well-chosen for everyone!",
     "description": "One gate to rule them all text"
   },
   "homepage.ais_project_people_info": {
@@ -342,5 +342,37 @@
   "homepage.ais_features.open.description1": {
     "message": " {aizOpenSourceImg} We believe in openness and freedom of choice. Thanks to this, you can make the speaker yourself according to our design {aisDevKit1}.",
     "description": "OpenSource in AIS description2"
+  },
+  "homepage.ais_features.services.title": {
+    "message": "🆓 Free cloud services ☁️",
+    "description": "Free services title"
+  },
+  "homepage.ais_features.pro_services.title": {
+    "message": "🏢 PRO services",
+    "description": "Pro services title"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Sidebar navigation",
+    "description": "The ARIA label for documentation menu"
+  },
+  "homepage.ais_features.pro_services.description": {
+    "message": "We offer gates in the AIS PRO product line, on which it is possible to purchase services on commercial servers with a guarantee of operation. {aisProImg}",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.services.description": {
+    "message": "Our cloud services on DEV gateways are hosted by the organization {aisFosshost}. {aisFosshostImg} Fosshost is a non-profit organization focused on supporting OpenSource projects.",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.pro_services.description2": {
+    "message": "If you have an idea how to use an AIS gateway in commercial production, please contact us info@ai-speaker.com in order to establish the principles of cooperation.",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.services.description2": {
+    "message": "Find out more about free AIS services {aisFosshostFree}",
+    "description": "Services number devices description"
   }
 }

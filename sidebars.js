@@ -63,7 +63,8 @@ module.exports = {
       "ais_dom_cloud_gates",
       "ais_dom_cloud_gate_backup",
       "ais_dom_cloud_content",
-      "ais_dom_cloud_services"
+      "ais_dom_cloud_services",
+      "ais_dom_cloud_services_terms"
     ],
     "Ustawienia zaawansowane": [
       "ais_bramka_services",

@@ -1,6 +1,6 @@
 ---
 title: "AIS SUPLA MQTT"
-sidebar_label: AIS SUPLA
+sidebar_label: AIS SUPLA MQTT
 ---
 
 ## Wprowadzenie

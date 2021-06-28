@@ -8,6 +8,7 @@ sidebar_label: AIS Auto Proxy
 AIS Auto Proxy jest to integracja, która umożliwia innym aplikacją działającym w lokalnej sieci na integrację z interfejsem użytkownika Asystenta domowego. Zasadza działania, opiera się na mechanizmie typu [ingress](https://kubernetes.io/docs/concepts/services-networking/ingress/), który jest wykorzystywany w kontenerowych aplikacjach.
 
 AIS Auto Proxy wykorzystywane jest do aplikacji Zigbee2Mqtt:
+
 ![zigbee](/img/en/bramka/app_zigbee2mqtt_proxy.png)
 
 oraz do urządzeń z oprogramowaniem AIS dom:

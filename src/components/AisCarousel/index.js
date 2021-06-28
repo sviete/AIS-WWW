@@ -173,6 +173,36 @@ export const AisCarousel = () => {
         </Translate>
       </Highlight>
 
+      <Highlight color="#ffffff" textColor="black">  ‍
+        <span className="strongInfo">
+          <Translate
+            id="homepage.ais_features.services.title"
+            description="Free services title">
+            {'🆓 Darmowe usługi ☁️'}
+          </Translate>
+          </span>
+          <br/>
+          <Translate
+              id="homepage.ais_features.services.description"
+              description="Services number devices description"
+              values={{
+                aisFosshost: <Link to="https://fosshost.org/">fosshost.org</Link>,
+                aisFosshostImg: <Link to="/docs/ais_dom_cloud_services_terms" alt="AIS Services"> <br /><br /> <img alt="AIS dom feature" src="img/ais_fosshost_mini.png" alt="zigbee adapter" /><br /></Link>,
+              }}
+          >
+            {'Nasze usługi w chmurze na bramkach DEV są hostowane przez organizację {aisFosshost}. {aisFosshostImg} Fosshost to organizacja non-profit, skupiona na wspieraniu projektów OpenSource.'}
+          </Translate>
+          <Translate
+              id="homepage.ais_features.services.description2"
+              description="Services number devices description"
+              values={{
+                aisFosshostFree: <Link to="/docs/ais_dom_cloud_services_terms"><br /><br />AIS 🆓 ☁️</Link>,
+              }}
+          >
+            {'Dowiedz się więcej o darmowych usługach AIS {aisFosshostFree}'}
+          </Translate>
+        </Highlight>
+
       <Highlight color="#303846" textColor="#fff"><span className="strongInfo">AIS ❤️ OpenSource </span>
             <br/>
             <Translate
@@ -200,26 +230,34 @@ export const AisCarousel = () => {
             </Translate>
           </Highlight>
 
-        <Highlight color="#ffffff" textColor="black">  ‍
+          <Highlight color="#ffffff" textColor="black">  ‍
+        <span className="strongInfo">
           <Translate
-            id="homepage.ais_features.services.title"
-            description="Free services title"
-            values={{devices: <span className="strongInfo">1490 🐝</span>}}>
-            {'Darmowe usługi'}
+            id="homepage.ais_features.pro_services.title"
+            description="Pro services title">
+            {'🏢 Usługi PRO'}
+          </Translate>
+          </span>
+          <br/>
+          <Translate
+              id="homepage.ais_features.pro_services.description"
+              description="Services number devices description"
+              values={{
+                aisPro: "Możliwe jest też wykonanie lub dostosowanie funkcjonalności pod zamówienie klienta.",
+                aisProImg: <Link to="/docs/ais_dom_cloud_services_terms#bramka-pro" alt="AIS Services"><img alt="AIS dom feature" src="img/ais_sla_mini.png" alt="ais sla" /></Link>,
+              }}
+          >
+            {'Oferujemy bramki w lini prduktowej AIS PRO na których istnieje możliwość wykupienia usług na serwerach komercyjnych z gwarancją działania. {aisProImg}'}
           </Translate>
           <br/>
           <Translate
-              id="homepage.ais_features.services.description"
+              id="homepage.ais_features.pro_services.description2"
               description="Services number devices description"
-              values={{
-                aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
-                moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1490</Link>,
-                aizZigbeeConnbee2Img: <Link to="/docs/ais_zigbee_index" alt="AIS in Google Play"> <br /><br /> <img alt="AIS dom feature" src="img/ais_fosshost_mini.png" alt="zigbee adapter" /><br /></Link>
-              }}
+              values={{}}
           >
-            {'Dzięki {aisZigbee} możesz łatwo dołączyć do bramki urządzenia Zigbee.  {aizZigbeeConnbee2Img} Ponad {moreZigbeeDevices} urządzeń Zigbee od 220 producentów jest wspieranych przez oprogramowanie Zigbee2Mqtt które dostarczamy na bramce.'}
+            {'Jeżeli masz pomysł jak wykorzystać bramkę AIS w komercyjnym produkcje, to skontaktuj się z nami info@ai-speaker.com w celu ustalenia zasad współpracy.'}
           </Translate>
-      </Highlight>
+        </Highlight>
 
       </Carousel>
 

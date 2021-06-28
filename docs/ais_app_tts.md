@@ -1,11 +1,13 @@
 ---
-title: "Zamiana tekstu na mowę"
-sidebar_label: Zamiana tekstu na mowę
+title: "AIS Lokalny TTS"
+sidebar_label: AIS Lokalny TTS
 ---
 
-## AIS TTS
+## AIS Lokalny TTS
 
-System posiada funkcjonalność umożliwiającą zamianę tekstu na mowę. W ten sposób ''Jolka'' rozmawia z użytkownikiem - odpowiada na pytania i potwierdza wykonanie komendy.
+System posiada funkcjonalność umożliwiającą zamianę tekstu na mowę. 
+
+W ten sposób ''Jolka'' rozmawia z użytkownikiem - odpowiada na pytania i potwierdza wykonanie komendy.
 
 ![TTS](/img/en/frontend/ais_tts_app.png)
 

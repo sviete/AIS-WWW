@@ -1,6 +1,6 @@
 ---
 title: "Usługi działające na bramce"
-sidebar_label: Usługi bramki
+sidebar_label: Lokalne Usługi bramki
 ---
 
 
