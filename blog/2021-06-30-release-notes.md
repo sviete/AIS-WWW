@@ -10,22 +10,11 @@ tags: ["ais dom", "home assistant", "zigbee2mqtt", "ais-tasmota"]
 <div class="IntroAisBlogMenu" >
 <div>
 
-![AIS](/img/en/blog/202106/hugo.png)
+![AIS](/img/en/blog/202106/tts_local.png)
 
 </div>
-
-<h2>Hugo</h2>
-
 </div>
 
-:::caution Uwaga - BETA.
-
- **To jest informacja o wydaniu wersji beta systemu AIS
- (a zatem prace nad ostateczną wersją i nad tym postem są jeszcze w toku).**
-
-Wydanie na kanale stabilnym  ![AIS Tasmota](/img/en/blog/202105/construction_3.png) planowane jest na 30 czerwca 2021.
-
-:::
 <!--truncate-->
 
 
@@ -58,44 +47,80 @@ To może dotyczyć szczególnie osób, które instalują na bramce dodatkowe nie
 ## ![](/img/en/blog/202106/hugo.png) Hugo
 
 
-> Poczekajcie cierpliwie, zawsze można sprawdzić co robi bramka podczas aktualizacji w konsoli poleceniem ``htop``
-lub sprawdzać na bieżąco logi poleceniem ``pm2 logs``
+
+### 🆓 Darmowe usługi ☁️
 
 
-### Fosshost
+Nasze usługi w chmurze na bramkach DEV są hostowane przez organizację fosshost.org.
 
 ![](/img/en/blog/202106/fosshost_big.png)
 
+Fosshost to organizacja non-profit, skupiona na wspieraniu projektów OpenSource.
 
-### zWave
+Węcej o darmowych usługach AIS w dokumentacji [Usługi zdalne, zasady](/docs/ais_dom_cloud_services_terms)
 
-> TODO 
+
+
+### zWave i Zigbee
+
+Od tej wersji wspieramy jednoczesną możliwość używania 2 adapterów. Jolka sama rozpozna, na którym porcie jest adapter ``/dev/ttyACM...`` dostosuje ustawienia serwisów oraz je uruchomi.
+
+Więcje informacji w dokumentacji integracji: [Zwave](/docs/ais_app_integration_zwave) i [Zigbee](/docs/ais_app_integration_zigbee)
+
+![](/img/en/blog/202106/zwave.png)
+
 
 ### Ustawienia USB
 
-> TODO 
+W konfiguracji można wybrać czy Asystent ma sam rozpoznawać adaptery USB i uruchamiać automatycznie domyślne usługi Zigbee i Zwave. Oraz czy ma głosowo powiadamiać o dodaniu i usunięciu urządzenia USB.
 
 
-[Dokumentacja](/docs/ais_bramka_configuration_usb)
+![](/img/en/blog/202106/usb.png)
 
 
-### Filtrowanie zdarzeń 
-
-> TODO 
-
-### AIS TTS Local
-
-> TODO
+Jeżeli chcesz korzystać z innych integracji do zWave i Zigbee niż nasze standardowe Zigbee2Mqtt i zWaveJs2Mqtt, to wystarczy, że wyłączysz automatyczne rozpoznawania urządzeń i sam skonfigurujesz integrację wg własnych potrzeb.
 
 
-### PRO start
+[Dokumentacja - Konfiguracja bramki - USB](/docs/ais_bramka_configuration_usb)
 
-> TODO 
+
+### Filtrowanie zapisu zdarzeń#
+
+
+Ponieważ niektóre integracje potrafią rejestrować z bardzo dużą częstotliwością i generować ogromne ilości danych, dlatego wymagamy zdefiniowania filtra zapisu do bazy. Filtr pozwala na określenie, co ma być zapisywane w bazie (parametr include) oraz czego nie chcemy zapisywać (parametr exclude). Używamy nazewnictwa zgodnego z Home Assistant. W standardowej konfiguracji dostarczamy przykładową konfigurację filtra, w którym są zdefiniowane wszystkie możliwe atrybuty.
+
+
+![](/img/en/blog/202106/filtr.png)
+
+
+Więcej informacji w dokumentacji [Konfiguracja bramki - Logi i baza danych](/docs/ais_bramka_configuration_logs_and_db)
+
+### AIS TTS Local, ulepszenia
+
+![](/img/en/blog/202106/tts_local.png)
+
+
+Na blogu wyjaśniamy dlaczego to właśnie lokalny TTS działający na bramce AIS nadaje się do profesjonalnych zastosowań:
+[AIS - profesjonalny offline TTS](https://ai-speaker.discourse.group/t/ais-profesjonalny-offline-tts/1893)
+
+
+Ponieważ inne głośniki nie potrafią tak jak bramka AIS jednocześnie odtwarzać muzykę i czytać tekst(bo nie mają tts), dlatego od tej wersji wysyłamy do nich powiadomienie w postaci audio:
+
+![](/img/en/blog/202106/tts.jpeg)
 
 
 ### Conbee2
 
-> TODO  info
+Zostaliśmy oficjalnym dystrybutorem Conbee2 w Polsce
+
+![](/img/en/blog/202106/ais.jpeg)
+
+
+Więcej na forum: [Zigbee ConBee 2 już w sprzedaży!](https://ai-speaker.discourse.group/t/zigbee-conbee-2-juz-w-sprzedazy/1844)
+
+To nie koniec fajnych rzeczy które zamierzamy wprowadzić do sprzedaży i wspierać - będzie się działo ;)
+
+![](/img/en/blog/202106/ais2.jpeg)
 
 
 ### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
@@ -126,11 +151,23 @@ Jeżeli używasz niestandardowych kart czy innych elementów interfejsu to ich a
 :::
 
 
-
 Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: 
 
 
-## ![](/img/en/blog/202105/placard.png) AIS DEV3
+## Ogłoszenia 
+
+### PRO START
+
+Dodajemy do dokumentacji informację o bramce PRO, to ostatni etap przed jej wprowadzeniem do oferty.
+
+![pro](/img/en/blog/202106/pro.png)
+
+Pro to nie tylko nowa szybka bramka, to też nasz nowy model biznesowym i pierwsza oferta dedykowana dla klienta biznesowego z możliwością dodania funkcjonalności oraz gwarancji na usługi. Napiszemy o PRO więcej, jak tylko skończymy dokumentację - postaramy się do końca tygodnia.
+
+
+-------------------------------------------------------------------------
+
+### ![](/img/en/blog/202105/placard.png) AIS DEV3
 
 Wprowadziliśmy już na stałe do oferty nową bramkę **AIS DEV3** - jest to jak do tej pory najszybsza, najprostsza w konfiguracji i obsłudze bramka AIS.
 
