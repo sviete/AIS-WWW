@@ -21,14 +21,14 @@ Na bramce AIS PRO <span class="mdi mdi-professional-hexagon"></span> domyślnie 
 
 W przypadku bramek DEV użytkownik sam wybiera bazę, do której chce zapisywać zdarzenia i którą chce administrować.
 Najprostszy wybór to baza SQLite, która nie wymaga konfiguracji i może rejestrować dane w pamięci - taka baza jest automatycznie używana na bramkach DEV, gdy włączysz **Historię** lub **Dziennik**.
-Bramka DEV nie ma fabrycznie zainstalowanej relacyjnej bazy danych, ale można ją zainstalować, pokazujemy na forum jak to zrobić krok po kroku dla: [MariaDB/MySQL](https://ai-speaker.discourse.group/t/mariadb-mysql/1830) lub  [PostgreSQL](https://ai-speaker.discourse.group/t/relacyjna-baza-danych-postgresql/1014)
+Bramka DEV nie ma fabrycznie zainstalowanej relacyjnej bazy danych, ale można ją zainstalować samemu- pokazujemy na forum jak to zrobić krok po kroku dla: [MariaDB/MySQL](https://ai-speaker.discourse.group/t/mariadb-mysql/1830) lub  [PostgreSQL](https://ai-speaker.discourse.group/t/relacyjna-baza-danych-postgresql/1014)
 
 ![Konfiguracja zapisu zdarzeń](/img/en/bramka/ais_dev_db.png)
 
 
 ### Filtrowanie zapisu zdarzeń
 
-Ponieważ niektóre integracje potrafią rejestrować z bardzo dużą częstotliwością i generować ogromne ilości danych, dlatego wymagamy zdefiniowania filtra zapisu do bazy.
+Niektóre integracje potrafią rejestrować z bardzo dużą częstotliwością i generować ogromne ilości danych, dlatego wymagamy zdefiniowania filtra zapisu do bazy.
 Filtr pozwala na określenie, co ma być zapisywane w bazie (parametr **include**) oraz czego nie chcemy zapisywać (parametr **exclude**).
 Używamy nazewnictwa zgodnego z Home Assistant. W standardowej konfiguracji dostarczamy przykładową konfigurację filtra, w którym są zdefiniowane wszystkie możliwe atrybuty.
 
@@ -38,13 +38,13 @@ Poniżej wyjaśniamy, co one oznaczają:
 
 
 1. **domains** - lista domen, które chcemy rejestrować w bazie.
-2. **entity_globs** - lista obiektów pasujących do podanego wzorca (np. sensor.weather_*) które chcemy rejestrować w bazie.
+2. **entity_globs** - lista obiektów pasujących do podanego wzorca (np. sensor.weather_*), które chcemy rejestrować w bazie.
 3. **entities** - lista identyfikatorów encji, które chcemy rejestrować w bazie.
 ------------
-4. **domains** - lista domen, które nie chcemy rejestrować w bazie.
-5. **entity_globs** -lista obiektów pasujących do podanego wzorca (np. sensor.weather_*) które nie chcemy rejestrować w bazie.
-6. **entities** - lista identyfikatorów encji, które nie chcemy rejestrować w bazie.
-7. **event_types** - lista typów zdarzeń które nie chcemy rejestrować w bazie.
+4. **domains** - lista domen, których nie chcemy rejestrować w bazie.
+5. **entity_globs** -lista obiektów pasujących do podanego wzorca (np. sensor.weather_*), których nie chcemy rejestrować w bazie.
+6. **entities** - lista identyfikatorów encji, których nie chcemy rejestrować w bazie.
+7. **event_types** - lista typów zdarzeń, których nie chcemy rejestrować w bazie.
 
 
 
@@ -52,7 +52,7 @@ Poniżej wyjaśniamy, co one oznaczają:
 ### Zdalne bazy - konfiguracja
 
 :::caution Uwaga
-Gdy chcesz zapisywać więcej zdarzeń lub/i mieć dostęp do historii z wielu dni to zalecamy zapisywać zdarzenia w zdalnej bazie danych.
+Gdy chcesz zapisywać więcej zdarzeń lub/i mieć dostęp do historii z wielu dni, to zalecamy zapisywać zdarzenia w zdalnej bazie danych.
 :::
 
 
@@ -61,7 +61,7 @@ Gdy chcesz zapisywać więcej zdarzeń lub/i mieć dostęp do historii z wielu d
 #### Konfiguracja połączeń z bazami zdalnymi
 
 
-Połączenia z bazami danych wymagają doinstalowania sterowników, nie instalujemy ich domyślnie wszystkich, żeby nie zajmować miejsca na urządzeniu.
+Połączenia z bazami danych wymagają doinstalowania sterowników, nie instalujemy domyślnie wszystkich, żeby nie zajmować miejsca na urządzeniu.
 Poniżej pokazujemy jak je łatwo doinstalować w narzędziach developerskich. Sprowadza się to do 3 kroków:
 1. Przejście w menu do "Narzędzia developerskie"
 2. Wybranie zakładki "KONSOLA"
