@@ -360,7 +360,7 @@
     "description": "The ARIA label for documentation menu"
   },
   "homepage.ais_features.pro_services.description": {
-    "message": "We offer devices in the AIS PRO product line where it is possible to purchase services with commercial servers and a guarantee of operation. {aisProImg}",
+    "message": "We offer AIoT gateways in the AIS PRO product line where it is possible to purchase services with commercial servers and a guarantee of operation. {aisProImg}",
     "description": "Services number devices description"
   },
   "homepage.ais_features.services.description": {
@@ -368,7 +368,7 @@
     "description": "Services number devices description"
   },
   "homepage.ais_features.pro_services.description2": {
-    "message": "If you have an idea how to use an AIS gateway in commercial production, please contact us info@ai-speaker.com in order to establish the terms of cooperation.",
+    "message": "We are open for proposals of using our AIS gateway in commercial products. You can contact us here info@ai-speaker.com in order to establish the terms of cooperation.",
     "description": "Services number devices description"
   },
   "homepage.ais_features.services.description2": {
