@@ -57,7 +57,7 @@ Możemy odświeżyć stronę z mapą sieci Zwave, by zobaczyć urządzenia podł
 ### Proces zwave
 
 Procesami na bramce steruje [Menedżer procesów PM2](http://pm2.keymetrics.io/).
-PM2 odpowiedzialny jest też za uruchomienie procesu zwave po wykryciu urządzenia adapter Zwave Aeotec Z-Stick, a następnie czuwa nad jego ciągłym działaniem.
+PM2 odpowiedzialny jest też za uruchomienie procesu zwave po wykryciu urządzenia (adaptera Zwave Aeotec Z-Stick), a następnie czuwa nad jego ciągłym działaniem.
 
 Żeby zobaczyć status procesu zigbee w konsoli wpisujemy:
 
