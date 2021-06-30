@@ -224,7 +224,7 @@
     "description": "The homepage hero title"
   },
   "homepage.hero_subtitle": {
-    "message": "Home automation that is.",
+    "message": "Home automation that is",
     "description": "The homepage hero subtitle"
   },
   "homepage.demo_ask_to_try": {
@@ -256,7 +256,7 @@
     "description": "Announcement line three"
   },
   "homepage.ais_one_gate_for_all_text": {
-    "message": "Many intelligent solutions. Well-chosen for everyone!",
+    "message": "Many intelligent solutions. A great fit for everyone!",
     "description": "One gate to rule them all text"
   },
   "homepage.ais_project_people_info": {
@@ -360,15 +360,15 @@
     "description": "The ARIA label for documentation menu"
   },
   "homepage.ais_features.pro_services.description": {
-    "message": "We offer gates in the AIS PRO product line, on which it is possible to purchase services on commercial servers with a guarantee of operation. {aisProImg}",
+    "message": "We offer devices in the AIS PRO product line where it is possible to purchase services with commercial servers and a guarantee of operation. {aisProImg}",
     "description": "Services number devices description"
   },
   "homepage.ais_features.services.description": {
-    "message": "Our cloud services on DEV gateways are hosted by the organization {aisFosshost}. {aisFosshostImg} Fosshost is a non-profit organization focused on supporting OpenSource projects.",
+    "message": "Our cloud services on DEV gateways are hosted by the organization {aisFosshost}. {aisFosshostImg} Fosshost is a non-profit organization focused on supporting OpenSource projects. ",
     "description": "Services number devices description"
   },
   "homepage.ais_features.pro_services.description2": {
-    "message": "If you have an idea how to use an AIS gateway in commercial production, please contact us info@ai-speaker.com in order to establish the principles of cooperation.",
+    "message": "If you have an idea how to use an AIS gateway in commercial production, please contact us info@ai-speaker.com in order to establish the terms of cooperation.",
     "description": "Services number devices description"
   },
   "homepage.ais_features.services.description2": {
