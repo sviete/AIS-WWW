@@ -84,10 +84,10 @@ Jeżeli chcesz korzystać z innych integracji do zWave i Zigbee niż nasze stand
 [Dokumentacja - Konfiguracja bramki - USB](/docs/ais_bramka_configuration_usb)
 
 
-### Filtrowanie zapisu zdarzeń#
+### Filtrowanie zapisu zdarzeń
 
 
-Ponieważ niektóre integracje potrafią rejestrować z bardzo dużą częstotliwością i generować ogromne ilości danych, dlatego wymagamy zdefiniowania filtra zapisu do bazy. Filtr pozwala na określenie, co ma być zapisywane w bazie (parametr include) oraz czego nie chcemy zapisywać (parametr exclude). Używamy nazewnictwa zgodnego z Home Assistant. W standardowej konfiguracji dostarczamy przykładową konfigurację filtra, w którym są zdefiniowane wszystkie możliwe atrybuty.
+Niektóre integracje potrafią rejestrować z bardzo dużą częstotliwością i generować ogromne ilości danych, dlatego wymagamy zdefiniowania filtra zapisu do bazy. Filtr pozwala na określenie, co ma być zapisywane w bazie (parametr include) oraz czego nie chcemy zapisywać (parametr exclude). Używamy nazewnictwa zgodnego z Home Assistant. W standardowej konfiguracji dostarczamy przykładową konfigurację filtra, w którym są zdefiniowane wszystkie możliwe atrybuty.
 
 
 ![](/img/en/blog/202106/filtr.png)
@@ -104,7 +104,7 @@ Na blogu wyjaśniamy dlaczego to właśnie lokalny TTS działający na bramce AI
 [AIS - profesjonalny offline TTS](https://ai-speaker.discourse.group/t/ais-profesjonalny-offline-tts/1893)
 
 
-Ponieważ inne głośniki nie potrafią tak jak bramka AIS jednocześnie odtwarzać muzykę i czytać tekst(bo nie mają tts), dlatego od tej wersji wysyłamy do nich powiadomienie w postaci audio:
+Ponieważ inne głośniki nie potrafią tak, jak bramka AIS, jednocześnie odtwarzać muzyki i czytać tekstu (bo nie mają TTS), dlatego od tej wersji wysyłamy do nich powiadomienie w postaci audio:
 
 ![](/img/en/blog/202106/tts.jpeg)
 
@@ -118,7 +118,7 @@ Zostaliśmy oficjalnym dystrybutorem Conbee2 w Polsce
 
 Więcej na forum: [Zigbee ConBee 2 już w sprzedaży!](https://ai-speaker.discourse.group/t/zigbee-conbee-2-juz-w-sprzedazy/1844)
 
-To nie koniec fajnych rzeczy które zamierzamy wprowadzić do sprzedaży i wspierać - będzie się działo ;)
+To nie koniec fajnych rzeczy, które zamierzamy wprowadzić do sprzedaży i wspierać - będzie się działo ;)
 
 ![](/img/en/blog/202106/ais2.jpeg)
 
@@ -162,7 +162,7 @@ Dodajemy do dokumentacji informację o bramce PRO, to ostatni etap przed jej wpr
 
 ![pro](/img/en/blog/202106/pro.png)
 
-Pro to nie tylko nowa szybka bramka, to też nasz nowy model biznesowym i pierwsza oferta dedykowana dla klienta biznesowego z możliwością dodania funkcjonalności oraz gwarancji na usługi. Napiszemy o PRO więcej, jak tylko skończymy dokumentację - postaramy się do końca tygodnia.
+Pro to nie tylko nowa, szybka bramka, to też nasz nowy model biznesowy i pierwsza oferta dedykowana dla klienta biznesowego z możliwością dodania funkcjonalności oraz gwarancji na usługi. Napiszemy o PRO więcej, jak tylko skończymy dokumentację - postaramy się do końca tygodnia.
 
 
 -------------------------------------------------------------------------
