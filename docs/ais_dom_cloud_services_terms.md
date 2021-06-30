@@ -36,5 +36,5 @@ Możliwe jest też wykonanie lub dostosowanie funkcjonalności pod zamówienie k
 
 ![AIS SLA](/img/en/bramka/ais_sla.png)
 
-Jeżeli masz pomysł jak wykorzystać bramkę AIS w komercyjnym produkcje, to skontaktuj się z nami info@ai-speaker.com w celu ustalenia zasad współpracy.
+Jeżeli masz pomysł, jak wykorzystać bramkę AIS w komercyjnym produkcie, to skontaktuj się z nami info@ai-speaker.com w celu ustalenia zasad współpracy.
 
