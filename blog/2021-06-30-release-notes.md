@@ -4,15 +4,13 @@ authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
 title: Wersja systemu Hugo
-tags: ["ais dom", "home assistant", "zigbee2mqtt", "ais-tasmota"]
+tags: ["ais dom", "mqtt", "tts", "home assistant", "zigbee", "tasmota", "zwave"]
 ---
 
-<div class="IntroAisBlogMenu" >
 <div>
 
 ![AIS](/img/en/blog/202106/tts_local.png)
 
-</div>
 </div>
 
 <!--truncate-->
@@ -153,6 +151,8 @@ Jeżeli używasz niestandardowych kart czy innych elementów interfejsu to ich a
 
 Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: 
 
+[Upgrade to Lit 2.0](https://developers.home-assistant.io/blog/2021/05/19/lit-2.0)
+
 
 ## Ogłoszenia 
 
@@ -162,7 +162,9 @@ Dodajemy do dokumentacji informację o bramce PRO, to ostatni etap przed jej wpr
 
 ![pro](/img/en/blog/202106/pro.png)
 
-Pro to nie tylko nowa, szybka bramka, to też nasz nowy model biznesowy i pierwsza oferta dedykowana dla klienta biznesowego z możliwością dodania funkcjonalności oraz gwarancji na usługi. Napiszemy o PRO więcej, jak tylko skończymy dokumentację - postaramy się do końca tygodnia.
+Pro to nie tylko nowa, szybka bramka, to też nasz nowy model biznesowy i pierwsza oferta dedykowana dla klienta biznesowego z możliwością dodania funkcjonalności oraz gwarancji na usługi. 
+
+Napiszemy o PRO więcej, jak tylko skończymy uzupełniać dokumentację - postaramy się do końca tygodnia.
 
 
 -------------------------------------------------------------------------

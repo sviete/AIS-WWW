@@ -152,12 +152,16 @@ export const AisCarousel = () => {
         </Highlight>
 
         <Highlight color="#ffeb3b" textColor="#000">
-        <Translate
-            id="homepage.ais_features.ha.title"
-            description="HA number of integrations title"
-            values={{devices: <span className="strongInfo">🏠 1800 Integracji<br /> </span>}}>
-            {'Ponad {devices}'}
-        </Translate>
+        <span className="strongInfo">
+          <Translate
+              id="homepage.ais_features.ha.title"
+              description="HA number of integrations title"
+              values={{devices: 1800  }}
+          >
+              {'Ponad 🏠 {devices} Integracji'}
+          </Translate>
+        </span>
+        <br />
         <Translate
             id="homepage.ais_features.ha.description"
             description="HA number of integrations description"
