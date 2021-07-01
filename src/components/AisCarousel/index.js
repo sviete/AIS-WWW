@@ -39,13 +39,13 @@ export const AisCarousel = () => {
   return (
     <Carousel className={'exampleCarousel1'} show={cards_no} slide={1} swiping={true} swipeOn={0.3} useArrowKeys={true} responsive={true}>
 
-        
+
 
         <Highlight color="#ffffff" textColor="black">  ‍
           <Translate
             id="homepage.ais_features.zigbee.title"
             description="Zigbee number devices title"
-            values={{devices: <span className="strongInfo">1490 🐝</span>}}>
+            values={{devices: <span className="strongInfo">1540 🐝</span>}}>
             {'Ponad {devices} urządzeń Zigbee'}
           </Translate>
           <br/>
