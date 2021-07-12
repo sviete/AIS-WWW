@@ -54,7 +54,7 @@ export const AisCarousel = () => {
               description="Zigbee number devices description"
               values={{
                 aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
-                moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1490</Link>,
+                moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">1540</Link>,
                 aizZigbeeConnbee2Img: <Link to="/docs/ais_zigbee_index" alt="AIS in Google Play"> <br /><br /> <img alt="AIS dom feature" src="img/ais_con_bee2_mini.jpg" alt="zigbee adapter" /><br /></Link>
               }}
           >
@@ -87,7 +87,7 @@ export const AisCarousel = () => {
           <Translate
             id="homepage.ais_features.wifi.title"
             description="Wifi number devices title"
-            values={{devices: <span className="strongInfo">2000 🌐 </span>}}>
+            values={{devices: <span className="strongInfo">2020 🌐 </span>}}>
             {'Ponad {devices} urządzeń WiFi'}
             </Translate>
             <br/>
@@ -96,7 +96,7 @@ export const AisCarousel = () => {
                 description="Wifi number devices description"
                 values={{
                   aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-                  moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2000</Link>,
+                  moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2020</Link>,
                   aizWifiImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br />
                     <div className="CarouselImage">
                       <img alt="AIS dom feature" src="img/ais_wifi_mini.png" alt="zigbee adapter" />
@@ -156,7 +156,7 @@ export const AisCarousel = () => {
           <Translate
               id="homepage.ais_features.ha.title"
               description="HA number of integrations title"
-              values={{devices: 1800  }}
+              values={{devices: 1820  }}
           >
               {'Ponad 🏠 {devices} Integracji'}
           </Translate>
@@ -168,7 +168,7 @@ export const AisCarousel = () => {
             values={{
               aisHomeAssistant: <Link to="https://www.home-assistant.io/"> Home Assistant Core</Link>,
               aisHomeAssistantIntegrations: <Link to="/docs/ais_app_player">AIS</Link>,
-              moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1800 HA Integrations</Link>,
+              moreHomeAssistantMoreIntegrations: <Link to="https://www.home-assistant.io/integrations/#all">1820 HA Integrations</Link>,
               aisHomeAssistantImg: <Link to="/docs/ais_app_ai_integration" alt="AIS Integrations"> <br /><br /> <img alt="AIS dom feature" src="img/ais_ha_mini.png" alt="zigbee adapter" /><br /></Link>
             }}
 
@@ -235,13 +235,13 @@ export const AisCarousel = () => {
           </Highlight>
 
           <Highlight color="#ffffff" textColor="black">  ‍
-        <span className="strongInfo">
-          <Translate
-            id="homepage.ais_features.pro_services.title"
-            description="Pro services title">
-            {'🏢 Usługi PRO'}
-          </Translate>
-          </span>
+          <span className="strongInfo">
+            <Translate
+              id="homepage.ais_features.pro_services.title"
+              description="Pro services title">
+              {'🏢 Usługi PRO'}
+            </Translate>
+            </span>
           <br/>
           <Translate
               id="homepage.ais_features.pro_services.description"
@@ -260,6 +260,37 @@ export const AisCarousel = () => {
               values={{}}
           >
             {'Jeżeli masz pomysł jak wykorzystać bramkę AIS w komercyjnym produkcje, to skontaktuj się z nami info@ai-speaker.com w celu ustalenia zasad współpracy.'}
+          </Translate>
+        </Highlight>
+        <Highlight color="#ffffff" textColor="black">  ‍
+          <span className="strongInfo">
+            <Translate
+              id="homepage.ais_features.tunnel_service.title"
+              description="Tunnel service title">
+              {'🛡️ Cloudflare Tunnel'}
+            </Translate>
+            </span>
+          <br/>
+          <Translate
+              id="homepage.ais_features.tunnel_service.description"
+              description="Services number devices description"
+          >
+            {'Szyfrowany zdalny dostęp do bramki z Internetu.'}
+          </Translate>
+          <br/>
+          <br/>
+          <Link to="/docs/ais_bramka_remote_www_index" alt="AIS Services"><img alt="AIS dom feature" src="img/ais_tunnel_service.png" alt="ais tunnel service" /></Link>
+
+          <br/>
+          <br/>
+          <Translate
+              id="homepage.ais_features.tunnel_service.description2"
+              description="Services number devices description"
+              values={{
+                aisCloudFlare: <Link to="https://www.cloudflare.com/" alt="cloudflare"> Cloudflare </Link>,
+              }}
+          >
+            {'Zarówno nasze usługi w chmurach, jak i tunel do bramki chroniony jest przez bezpośrednimi atakami za pomocą mechanizmów {aisCloudFlare}. Twoja bramka jest bezpieczna bez względu na to, w jaki sposób uzyskujesz do niej dostęp: z lokalnej sieci, z aplikacji mobilnej, czy z Internetu.'}
           </Translate>
         </Highlight>
 

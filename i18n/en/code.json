@@ -374,5 +374,17 @@
   "homepage.ais_features.services.description2": {
     "message": "Find out more about free AIS services {aisFosshostFree}",
     "description": "Services number devices description"
+  },
+  "homepage.ais_features.tunnel_service.title": {
+    "message": "🛡️ Cloudflare Tunnel",
+    "description": "Tunnel services title"
+  },
+  "homepage.ais_features.tunnel_service.description": {
+    "message": "Encrypted remote gateway access from the Internet.",
+    "description": "Tunnel services description"
+  },
+  "homepage.ais_features.tunnel_service.description2": {
+    "message": "Both our cloud services and the gateway tunnel are protected against direct attacks by {aisCloudFlare} services. Your gateway is secure no matter how you access it: from your local network, from a mobile app, or from the Internet.",
+    "description": "Tunnel services description2"
   }
 }

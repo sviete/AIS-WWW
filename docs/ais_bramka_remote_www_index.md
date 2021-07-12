@@ -6,9 +6,12 @@ sidebar_label: Wprowadzenie
 
 Możesz skonfigurować dostęp do Twojej lokalnej bramki przez Internet. Dzięki temu będziesz mógł sterować automatyką w swoim domu (także głosowo) nie tylko w swojej lokalnej sieci, ale też z dowolnego miejsca z dostępem do Internetu.
 
-Najprostszym ze sposobów na dostęp do bramki z Internetu jest tunelowanie połączenia TCP (**usługa, którą obecnie oferujemy za darmo dla użytkowników bramek**).
+Najprostszym ze sposobów na dostęp do bramki z Internetu jest użycie wbudowanego szyfrowanego tunelu. 
+
+Jest to **usługa, którą obecnie oferujemy za darmo dla wszystkich użytkowników bramek: <span class="mdi mdi-dev-to"></span> <span class="mdi mdi-professional-hexagon"></span>**
 
 ![Zdalny dostęp kod QR](/img/en/bramka/http_remote_access_qr.png)
+
 
 ## Zalety
 
@@ -20,16 +23,16 @@ Zalety tego rozwiązania:
 ## Jak to działa
 
 Każde urządzenie posiada swój unikalny identyfikator, jest on losowo generowany przy pierwszym uruchomieniu i pozostaje stały przez cały okres użytkowania urządzenia.
-Gdy włączysz dostęp z Internetu, otwieramy połączenie TCP pomiędzy Twoim urządzeniem a naszym serwerem i tworzymy na serwerze unikalny (na bazie identyfikatora urządzenia), publicznie dostępny adres URL.
+Gdy włączysz dostęp z Internetu, uruchamiamy (Tunel Cloudflare)[https://www.cloudflare.com/products/tunnel/] pomiędzy Twoim urządzeniem a siecią Cloudflare. Na naszym serwerze paczka.pro tworzymy unikalny (na bazie identyfikatora urządzenia), publicznie dostępny adres URL.
 Adres ten pełni funkcję proxy - wszystkie wywołania do naszego serwera adresowane identyfikatorem bramki przekazujemy do lokalnie działającego serwera na bramce.
-
-Kody źródłowe klienta działającego na urządzeniach są dostępne tu: [dom-tunnel](https://www.npmjs.com/package/dom-tunnel), otwarta licencja MIT.
 
 
 ## Bezpieczeństwo
 
 :::caution Uwaga
-W celu zachowania większego bezpieczeństwa, gdy dostęp do urządzenia z Internetu jest włączony, automatycznie blokujemy możliwość łatwego logowania do aplikacji (wybór użytkownika bez podawania hasła). Dodatkowo zalecamy włączenie modułu uwierzytelniania wieloskładnikowego. Więcej informacji w dokumentacji Home Assistant [Multi-factor authentication](https://www.home-assistant.io/docs/authentication/multi-factor-auth/)
+W celu zachowania większego bezpieczeństwa, gdy dostęp do urządzenia z Internetu jest włączony, automatycznie blokujemy możliwość łatwego logowania do aplikacji (wybór użytkownika bez podawania hasła).
+
+Dodatkowo zalecamy włączenie modułu uwierzytelniania wieloskładnikowego. Więcej informacji w dokumentacji Home Assistant [Multi-factor authentication](https://www.home-assistant.io/docs/authentication/multi-factor-auth/)
 :::
 
 
@@ -60,3 +63,10 @@ https://identyfikator-twojej-bramki.paczka.pro
 
 
 Adres jest dość skomplikowany ale nie musisz go przepisywać - możesz zeskanować kod QR telefonem.
+
+
+## <span class="mdi mdi-professional-hexagon"></span> Bramka PRO 
+
+Na bramce PRO możemy dodatkowo zaoferować abonament na usługę WireGuard® - szybką i nowoczesną sieć VPN, która wykorzystuje najnowocześniejszą kryptografię: https://www.wireguard.com/
+
+Więcej informacji o usługach i zasadach [Usługi zdalne, zasady](/docs/ais_dom_cloud_services_terms)
