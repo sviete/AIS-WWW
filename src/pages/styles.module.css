@@ -1,0 +1,210 @@
+/**
+ * CSS files with the .module.css suffix will be treated as CSS modules
+ * and scoped locally.
+ */
+
+ .Container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  min-height: 100vh;
+}
+
+
+.heroBanner {
+  padding: 4rem 0;
+  text-align: center;
+  position: relative;
+  overflow: hidden;
+  width: 100%
+}
+
+@media screen and (max-width: 966px) {
+  .heroBanner {
+    padding: 2rem;
+  }
+}
+
+.buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features {
+  display: flex;
+  align-items: center;
+  padding: 2rem 0;
+  width: 100%;
+}
+
+.featureImage {
+  height: 200px;
+  width: 200px;
+
+}
+
+@keyframes jackInTheBox {
+  from {
+    opacity: 0;
+    transform: scale(0.1) rotate(30deg);
+    transform-origin: center bottom;
+  }
+
+  50% {
+    transform: rotate(-10deg);
+  }
+
+  70% {
+    transform: rotate(3deg);
+  }
+
+  to {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+.heroLogo {
+  animation-duration: 3s;
+  animation-name: jackInTheBox;
+  max-width: 25%;
+}
+
+@media only screen and (max-width: 1096px) {
+  .hero {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+
+  .heroInner {
+    padding: 0;
+  }
+
+  .heroProjectTagline {
+    font-size: 36px;
+    text-align: center;
+  }
+
+  .heroLogo {
+    display: block;
+    float: none;
+    margin: 0 auto;
+    width: 20%;
+  }
+
+  .indexCtas {
+    justify-content: center;
+  }
+
+  .indexCtasGitHubButton {
+    display: none;
+  }
+}
+
+.loveSection {
+  margin: 20px 0;
+  padding: 20px 0;
+  background-image: url(/img/love-bg-dark.svg);
+}
+
+.loveSectionPlea {
+  text-align: center;
+}
+
+.loveImg {
+  height: 200px;
+}
+
+.googlePlayImg {
+  max-width: 200px;
+}
+
+.aisComiksImg {
+  max-width: 60%;
+  margin: 1.5em;
+}
+
+.aisStartImg{
+  max-width: 200px;
+}
+
+.aisDemoImg{
+  max-width: 350px;
+  display: inline-block;
+}
+
+
+@-webkit-keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+
+@keyframes wheel-up-down {
+  0% {
+    margin-top: 2px;
+    opacity: 0;
+  }
+
+  30% {
+    opacity: 1;
+  }
+
+  100% {
+    margin-top: 20px;
+    opacity: 0;
+  }
+}
+
+
+html[data-theme="dark"] .loveSection {
+  background-image: url(/img/love-bg-dark.svg);
+}
+
+
+.sponsorImg {
+  border: 2px solid white;
+  margin: 2px;
+  max-width: 140px;
+  border-radius: 50%;
+}
+
+.announcementInner {
+  margin: 0 auto;
+  max-width: 968px;
+  padding: 2em;
+}
+.announcement {
+  font-weight: bold;
+  font-size: 22px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.announcementDark {
+  background-color: #dadde1;
+  color: #000000;
+}
+
+.aisPeoples {
+  text-align: center;
+}
+.aisDiferencesFromOthers {
+  text-align: center;
+}
+
+.footerIndex {
+  text-align: center;
+}

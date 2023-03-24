@@ -1,0 +1,370 @@
+/**
+ * Any CSS included here will be global. The classic template
+ * bundles Infima by default. Infima is a CSS framework designed to
+ * work well for content-centric websites.
+ */
+
+/* You can override the default Infima variables here. */
+:root {
+  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #ff9900;
+  --ifm-color-primary-dark: #e68a00;
+  --ifm-color-primary-darker: #d98200;
+  --ifm-color-primary-darkest: #a96705;
+  --ifm-color-primary-light: #ffa31a;
+  --ifm-color-primary-lighter: #ffa826;
+  --ifm-color-primary-lightest: #ffb84d;
+
+}
+
+html {
+  background-color: #fff;
+}
+html[data-theme="dark"] {
+  background-color: #18191a;
+}
+.footer__item {
+    padding: 6px;
+}
+
+div.aisFeatureTitle {
+  font-weight: bold;
+}
+.navbar__item.navbar__link[href*="discourse.group"] {
+  display: flex;
+  font-size: 0.7em;
+}
+.navbar__item.navbar__link[href*="discourse.group"]:before {
+  content: "";
+  width: 38px;
+  height: 28px;
+  background: url("/img/account-supervisor.svg");
+  background-repeat: no-repeat;
+}
+.navbar__item.navbar__link[href*="blog"] {
+  display: flex;
+  font-size: 0.7em;
+}
+.navbar__item.navbar__link[href*="blog"]:before {
+  content: "";
+  width: 38px;
+  height: 28px;
+  background: url("/img/new-box.svg");
+  background-repeat: no-repeat;
+}
+
+a {
+  color: var(--ifm-color-primary-darkest);
+}
+a.button.button--danger {
+  color: white;
+}
+.button.button--danger {
+  background-color: #353f45;
+  border-color: #353f45;
+}
+
+
+.docusaurus-highlight-code-line {
+  background-color: rgb(72, 77, 91);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+}
+
+.admonition {
+  color: black;
+}
+
+.strongInfo {
+  font-size: xx-large;
+}
+
+.navbar {
+  background-color: var(--ifm-color-primary-darker);
+  height: 6em;
+}
+.navbar:before {
+    content: "PRO";
+    font-weight: bold;
+    letter-spacing: 2px;
+    position: fixed;
+    width: 80px;
+    height: 25px;
+    background: var(--ifm-color-primary);
+    top: 7px;
+    left: -20px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    line-height: 27px;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+    box-shadow: 9px 8px 12px 0 rgba(0,0,0,.2);
+    font-family: Roboto,sans-serif;
+}
+
+.navbar .navbar__inner {
+  margin-left: 2em;
+}
+
+
+@media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+}
+
+@media only screen and (min-width: 997px) {
+  img.aisFeatureImg {
+    display: none;
+  }
+  div.aisFeature.row2 {
+    margin-top: 24em;
+  }
+  div.aisFeaturesConteiner {
+    background-image: url(//powiedz.co/img/ais_gate.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    position: relative;
+  }
+  img.hideTopImgOnWideScreen {
+    display: none;
+  }
+  div.floatLeft {
+    float: left;
+    text-align: end;
+  }
+  div.floatRight {
+    float: right;
+    text-align: start;
+  }
+  .aisComiksImgBottom::after {
+    background-color: red;
+    content: "";
+    height: 80%;
+    left: 25%;
+    position: absolute;
+    top: 2%;
+    transform: translateZ(0) rotate(-45deg);
+    width: 50%;
+  }
+
+  .aisComiksImgBottom::after {
+    transform: translateZ(0) rotate(45deg);
+  }
+
+  div.pulse-container {
+    width: 50px;
+    height: 50px;
+    top: 50%;
+    left: 50%;
+    margin: -25px 0 0 -25px;
+  }
+
+  .pulse-box {
+    width: 100%;
+    margin: 0 auto;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /* pulse in CSS */
+  .pulse-css:before, .pulse-css:after {
+    content: '';
+    width: 50px;
+    height: 50px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    border-radius: 25px;
+    background-color: orange;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    margin: auto;
+    transform: scale(0.3);
+    transform-origin: center center;
+    animation: pulse-me 15s linear infinite;
+  }
+  .pulse-css:after {
+    animation-delay: 5s;
+    animation-iteration-count: 3;
+  }
+
+  @keyframes pulse-me {
+    0% {
+      transform: scale(0.5);
+      opacity: 0;
+    }
+    20% {
+      opacity: 0.3;
+    }
+    50% {
+      opacity: 0.15;
+    }
+    70% {
+      opacity: 0.08;
+    }
+    90% {
+      opacity: 0.09;
+    }
+    100% {
+      transform: scale(25);
+      opacity: 0;
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  @keyframes play270 {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: -160920px 0px;
+    }
+  }
+  div.miniImages {
+    display: none;
+  }
+  .shapeshifter {
+    animation-duration: 13000ms;
+    animation-timing-function: steps(270);
+    width: 596px;
+    height: 500px;
+    background-repeat: no-repeat;
+  }
+  .shapeshifter.play {
+    animation-delay: 4s;
+    margin: auto;
+    animation-name: play270;
+    background-image: url(/img/sprite_30fps.svg);
+    animation-iteration-count:infinite;
+    margin-top: -100px;
+  }
+
+
+  @keyframes play480 {
+    0% {
+      background-position: 0px 0px;
+    }
+    100% {
+      background-position: -286080px 0px;
+    }
+  }
+  .shapeshifter2 {
+    animation-duration: 20000ms;
+    animation-timing-function: steps(480);
+    width: 596px;
+    height: 596px;
+    background-repeat: no-repeat;
+  }
+  .shapeshifter2.play {
+    animation-delay: 14s;
+    animation-name: play480;
+    background-image: url(/img/sprite_full_30fps.svg);
+    animation-iteration-count:infinite;
+    margin-top: -50px;
+    margin-left: 60px;
+  }
+
+}
+
+@media only screen and (max-width: 1023px) {
+}
+
+@media only screen and (min-width: 1400px) {
+}
+
+@media only screen and (min-width: 1500px) {
+}
+
+
+div.IntroAisBlogMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: large;
+}
+div.IntroAisBlogMenu p {
+  margin-left: 20px;
+}
+
+div.AisCenterImg {
+  text-align: center;
+}
+
+.exampleCarousel1 button:first-child {
+  background: url(/img/arrow-left-drop-circle.svg) no-repeat 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 1em;
+}
+
+.exampleCarousel1 button:last-child {
+  background: url(/img/arrow-right-drop-circle.svg) no-repeat 50%;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  position: relative;
+  padding: 1em;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 100%;
+  }
+}
+
+div.exampleCarousel1 > a {
+    color: var(--ifm-link-color);
+}
+
+div.exampleCarousel1 > div > div > div {
+  margin-bottom: 2em;
+}
+
+@media (min-width: 997px) {
+  div.logo-text-left {
+    text-align: left;
+  }
+  div.logo-text-left > a > img {
+    max-width: 40% !important;
+  }
+  div.logo-text-right {
+    text-align: right;
+  }
+  div.logo-text-right > a > img {
+    max-width: 40% !important;
+  }
+}
+
+span.AisHighlightFuture {
+  border: 2px solid var(--ifm-color-primary);
+  max-width: 100%;
+  border-radius: 8px;
+  margin-bottom: 10px;
+}
+
+div.announcementDark {
+  background-color: #000000;
+  color: #fff;
+}
+
+div.CarouselImage {
+  width: 100%;
+
+}
+
+span.mdi-professional-hexagon {
+  font-size: 2em;
+  color: #2196f3;
+}
+
+span.mdi-dev-to {
+  font-size: 2em;
+  color: #ffab00;
+}

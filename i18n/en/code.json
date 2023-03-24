@@ -1,0 +1,390 @@
+{
+  "homepage.ais_features.wifi.title": {
+    "message": "Over {devices} WiFi devices",
+    "description": "Wifi number devices title"
+  },
+  "homepage.ais_features.wifi.description": {
+    "message": "{aisSocket} is the easiest way to control devices around your house. {aizWifiImg} This smart plug runs on free and open-source software. Now you can choose from over {moreWiFiDevices} devices which you can connect to the gate in the same simple way as our Smart Plug.",
+    "description": "Wifi number devices description"
+  },
+  "theme.NotFound.title": {
+    "message": "Page Not Found",
+    "description": "The title of the 404 page"
+  },
+  "theme.NotFound.p1": {
+    "message": "We could not find what you were looking for.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Please contact the owner of the site that linked you to the original URL and let them know their link is broken.",
+    "description": "The 2nd paragraph of the 404 page"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of announcement bar"
+  },
+  "theme.blog.paginator.navAriaLabel": {
+    "message": "Blog list page navigation",
+    "description": "The ARIA label for the blog pagination"
+  },
+  "theme.blog.paginator.newerEntries": {
+    "message": "Newer Entries",
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
+  },
+  "theme.blog.paginator.olderEntries": {
+    "message": "Older Entries",
+    "description": "The label used to navigate to the older blog posts page (next page)"
+  },
+  "theme.blog.post.readingTime.plurals": {
+    "message": "One min read|{readingTime} min read",
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.tags.tagsListLabel": {
+    "message": "Tags:",
+    "description": "The label alongside a tag list"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Read More",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.paginator.navAriaLabel": {
+    "message": "Blog post page navigation",
+    "description": "The ARIA label for the blog posts pagination"
+  },
+  "theme.blog.post.paginator.newerPost": {
+    "message": "Newer Post",
+    "description": "The blog post button label to navigate to the newer/previous post"
+  },
+  "theme.blog.post.paginator.olderPost": {
+    "message": "Older Post",
+    "description": "The blog post button label to navigate to the older/next post"
+  },
+  "theme.tags.tagsPageTitle": {
+    "message": "Tags",
+    "description": "The title of the tag list page"
+  },
+  "theme.blog.post.plurals": {
+    "message": "One post|{count} posts",
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.tagTitle": {
+    "message": "{nPosts} tagged with \"{tagName}\"",
+    "description": "The title of the page for a blog tag"
+  },
+  "theme.tags.tagsPageLink": {
+    "message": "View All Tags",
+    "description": "The label of the link targeting the tag list page"
+  },
+  "theme.CodeBlock.copyButtonAriaLabel": {
+    "message": "Copy code to clipboard",
+    "description": "The ARIA label for copy code blocks button"
+  },
+  "theme.CodeBlock.copied": {
+    "message": "Copied",
+    "description": "The copied button label on code blocks"
+  },
+  "theme.CodeBlock.copy": {
+    "message": "Copy",
+    "description": "The copy button label on code blocks"
+  },
+  "theme.docs.paginator.navAriaLabel": {
+    "message": "Docs pages navigation",
+    "description": "The ARIA label for the docs pagination"
+  },
+  "theme.docs.paginator.previous": {
+    "message": "Previous",
+    "description": "The label used to navigate to the previous doc"
+  },
+  "theme.docs.paginator.next": {
+    "message": "Next",
+    "description": "The label used to navigate to the next doc"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Expand sidebar",
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
+  },
+  "theme.docs.sidebar.responsiveCloseButtonLabel": {
+    "message": "Close menu",
+    "description": "The ARIA label for close button of mobile doc sidebar"
+  },
+  "theme.docs.sidebar.responsiveOpenButtonLabel": {
+    "message": "Open menu",
+    "description": "The ARIA label for open button of mobile doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Collapse sidebar",
+    "description": "The title attribute for collapse button of doc sidebar"
+  },
+  "theme.docs.versions.unreleasedVersionLabel": {
+    "message": "This is unreleased documentation for {siteTitle} {versionLabel} version.",
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
+  },
+  "theme.docs.versions.unmaintainedVersionLabel": {
+    "message": "This is documentation for {siteTitle} {versionLabel}, which is no longer actively maintained.",
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionSuggestionLabel": {
+    "message": "For up-to-date documentation, see the {latestVersionLink} ({versionLabel}).",
+    "description": "The label userd to tell the user that he's browsing an unmaintained doc version"
+  },
+  "theme.docs.versions.latestVersionLinkLabel": {
+    "message": "latest version",
+    "description": "The label used for the latest version suggestion link label"
+  },
+  "theme.common.editThisPage": {
+    "message": "Edit this page",
+    "description": "The link label to edit the current page"
+  },
+  "theme.common.headingLinkTitle": {
+    "message": "Direct link to heading",
+    "description": "Title for link to heading"
+  },
+  "theme.lastUpdated.atDate": {
+    "message": " on {date}",
+    "description": "The words used to describe on which date a page has been last updated"
+  },
+  "theme.lastUpdated.byUser": {
+    "message": " by {user}",
+    "description": "The words used to describe by who the page has been last updated"
+  },
+  "theme.lastUpdated.lastUpdatedAtBy": {
+    "message": "Last updated{atDate}{byUser}",
+    "description": "The sentence used to display when a page has been last updated, and by who"
+  },
+  "theme.common.skipToMainContent": {
+    "message": "Skip to main content",
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
+  },
+  "theme.SearchPage.documentsFound.plurals": {
+    "message": "One document found|{count} documents found",
+    "description": "Pluralized label for \"{count} documents found\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.SearchPage.existingResultsTitle": {
+    "message": "Search results for \"{query}\"",
+    "description": "The search page title for non-empty query"
+  },
+  "theme.SearchPage.emptyResultsTitle": {
+    "message": "Search the documentation",
+    "description": "The search page title for empty query"
+  },
+  "theme.SearchPage.inputPlaceholder": {
+    "message": "Type your search here",
+    "description": "The placeholder for search page input"
+  },
+  "theme.SearchPage.inputLabel": {
+    "message": "Search",
+    "description": "The ARIA label for search page input"
+  },
+  "theme.SearchPage.algoliaLabel": {
+    "message": "Search by Algolia",
+    "description": "The ARIA label for Algolia mention"
+  },
+  "theme.SearchPage.noResultsText": {
+    "message": "No results were found",
+    "description": "The paragraph for empty search result"
+  },
+  "theme.SearchPage.fetchingNewResults": {
+    "message": "Fetching new results...",
+    "description": "The paragraph for fetching new search results"
+  },
+  "theme.SearchBar.label": {
+    "message": "Search",
+    "description": "The ARIA label and placeholder for search button"
+  },
+  "theme.PwaReloadPopup.info": {
+    "message": "New version available",
+    "description": "The text for PWA reload popup"
+  },
+  "theme.PwaReloadPopup.refreshButtonText": {
+    "message": "Refresh",
+    "description": "The text for PWA reload button"
+  },
+  "theme.PwaReloadPopup.closeButtonAriaLabel": {
+    "message": "Close",
+    "description": "The ARIA label for close button of PWA reload popup"
+  },
+  "Dokumentacja AIS": {
+    "message": "AIS Documentation",
+    "description": "The homepage title"
+  },
+  "Automatyzujemy Twój dom lokalnie.": {
+    "message": "Automate your home locally.",
+    "description": "The homepage description"
+  },
+  "homepage.hero_title": {
+    "message": "Assistant at home",
+    "description": "The homepage hero title"
+  },
+  "homepage.hero_subtitle": {
+    "message": "Home automation that is",
+    "description": "The homepage hero subtitle"
+  },
+  "homepage.demo_ask_to_try": {
+    "message": "Would you like to see how it works?",
+    "description": "The homepage ask to try demo"
+  },
+  "homepage.demo_tip": {
+    "message": "Click here 👆 to check out our live demo.",
+    "description": "The homepage tip to try demo"
+  },
+  "homepage.scroll_tip": {
+    "message": "scroll",
+    "description": "The homepage tip to scroll"
+  },
+  "Zainstaluj z Google Play.": {
+    "message": "Install from Google Play.",
+    "description": "Install from Google Play label"
+  },
+  "homepage.ais_announcement_line_one": {
+    "message": "We automate your home by combining the advantages of local control",
+    "description": "Announcement line one"
+  },
+  "homepage.ais_announcement_line_two": {
+    "message": "and IoT cloud services.",
+    "description": "Announcement line two"
+  },
+  "homepage.ais_announcement_line_three": {
+    "message": "We integrate the world of cool and intelligent things that you can control and automate. A world where you can be independent and also be a part of community-based open projects with so many possibilities and tutorials. And we want this world to be available and more accessible to everyone.",
+    "description": "Announcement line three"
+  },
+  "homepage.ais_one_gate_for_all_text": {
+    "message": "Many intelligent solutions. A great fit for everyone!",
+    "description": "One gate to rule them all text"
+  },
+  "homepage.ais_project_people_info": {
+    "message": "Project created and sponsored by people - thank you!",
+    "description": "This project is sponsored by people info"
+  },
+  "homepage.ais_project_join_button_line_4": {
+    "message": "Join us!",
+    "description": "Join button line 4"
+  },
+  "homepage.ais_project_join_button_line_1": {
+    "message": "BECOME A HERO.",
+    "description": "Join button line 1"
+  },
+  "homepage.ais_project_join_button_line_2": {
+    "message": "Buy our device to",
+    "description": "Join button line 2"
+  },
+  "homepage.ais_project_join_button_line_3": {
+    "message": "support our project.",
+    "description": "Join button line 3"
+  },
+  "homepage.ais_features.zigbee.title": {
+    "message": "Over {devices} Zigbee devices",
+    "description": "Zigbee number devices title"
+  },
+  "homepage.ais_features.zigbee.description": {
+    "message": "With {aisZigbee} you can easily attach Zigbee devices to the gateway. {aizZigbeeConnbee2Img} More than {moreZigbeeDevices} devices are supported by the Zigbee2Mqtt software which we provide on our gateway.",
+    "description": "Zigbee number devices description"
+  },
+  "homepage.ais_features.zwave.description": {
+    "message": "With {aisZwave} you can easily attach Zwave devices to the gateway. {aizZigbeeConnbee2Img}  You can use all Zwave devices supported by the ZwaveJs2Mqtt software which we provide on the gateway.",
+    "description": "Zwave in AIS description"
+  },
+  "homepage.ais_features.ha.title": {
+    "message": "Over 🏠 {devices} Integrations",
+    "description": "HA number of integrations title"
+  },
+  "homepage.ais_features.ha.description": {
+    "message": "One of the components of the software delivered on the gateway is the AIS home automation platform. AIS is a fork of {aisHomeAssistant}. {aisHomeAssistantImg} With preinstalled and ready-to-use {aisHomeAssistantIntegrations} integrations and the possibility of adding more than {moreHomeAssistantMoreIntegrations} that are supported and developed by the Home Assistant community.",
+    "description": "HA number of integrations description"
+  },
+  "homepage.ais_features.voice.title": {
+    "message": "Voice control {aisTtsStt}",
+    "description": "Voice commands in AIS title"
+  },
+  "homepage.ais_features.voice.description": {
+    "message": "We provide {aisVoiceCommands} Speech-to-text and text-to-speech, together with built-in commands, so you can control devices using voice commands. . {aisTtsSttImg} Commands can be sent from the {aisVoiceCommandsWeb} browser application, the {aisVoiceCommandsMob} mobile application or the {aisVoiceCommandsRemote} remote control. You can also send commands from other systems / applications using {aisVoiceCommandsApi} or even define your own {aisVoiceCommandsCreate} commands.",
+    "description": "Voice commands in AIS description"
+  },
+  "homepage.ais_features.audio.description": {
+    "message": "We provide a built-in {aisAudioPlayer} on the gateway which allows you to choose from hundreds of radio stations, podcasts, free audiobooks and free content from {aisAudioYouTube} and {aisAudioSpotify}.  {aisAudioImg} It is also possible to define your own additional audio content in {aisAudioPortal}.",
+    "description": "Audio in AIS description"
+  },
+  "Lokalnie.": {
+    "message": "Local.",
+    "description": "The typewriter item Lokalnie"
+  },
+  "Niezawodnie.": {
+    "message": "Reliable.",
+    "description": "The typewriter item Niezawodnie"
+  },
+  "Szybko.": {
+    "message": "Fast.",
+    "description": "The typewriter item Szybko"
+  },
+  "Prywatnie.": {
+    "message": "Private.",
+    "description": "The typewriter item Prywatnie"
+  },
+  "Prosto.": {
+    "message": "Simple.",
+    "description": "The typewriter item Prosto"
+  },
+  "homepage.ais_features.zwave.title": {
+    "message": "{aisTtsStt}",
+    "description": "Voice commands in AIS title"
+  },
+  "homepage.ais_features.open.description": {
+    "message": " Source code for most of the components of our system are free and available in the repository {aisGithub}.",
+    "description": "OpenSource in AIS description"
+  },
+  "homepage.ais_features.open.description1": {
+    "message": " {aizOpenSourceImg} We believe in openness and freedom of choice. Thanks to this, you can use our design and build your own smart speaker {aisDevKit1}.",
+    "description": "OpenSource in AIS description2"
+  },
+  "homepage.ais_features.services.title": {
+    "message": "🆓 Free cloud services ☁️",
+    "description": "Free services title"
+  },
+  "homepage.ais_features.pro_services.title": {
+    "message": "🏢 PRO services",
+    "description": "Pro services title"
+  },
+  "theme.blog.sidebar.navAriaLabel": {
+    "message": "Blog recent posts navigation",
+    "description": "The ARIA label for recent posts in the blog sidebar"
+  },
+  "theme.docs.sidebar.navAriaLabel": {
+    "message": "Sidebar navigation",
+    "description": "The ARIA label for documentation menu"
+  },
+  "homepage.ais_features.pro_services.description": {
+    "message": "We offer AIoT gateways in the AIS PRO product line where it is possible to purchase services with commercial servers and a guarantee of operation. {aisProImg}",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.services.description": {
+    "message": "Our cloud services on DEV gateways are hosted by the organization {aisFosshost}. {aisFosshostImg} Fosshost is a non-profit organization focused on supporting OpenSource projects. ",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.pro_services.description2": {
+    "message": "We are open for proposals of using our AIS gateway in commercial products. You can contact us here info@ai-speaker.com in order to establish the terms of cooperation.",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.services.description2": {
+    "message": "Find out more about free AIS services {aisFosshostFree}",
+    "description": "Services number devices description"
+  },
+  "homepage.ais_features.tunnel_service.title": {
+    "message": "🛡️ Cloudflare Tunnel",
+    "description": "Tunnel services title"
+  },
+  "homepage.ais_features.tunnel_service.description": {
+    "message": "Encrypted remote gateway access from the Internet.",
+    "description": "Tunnel services description"
+  },
+  "homepage.ais_features.tunnel_service.description2": {
+    "message": "Both our cloud services and the gateway tunnel are protected against direct attacks by {aisCloudFlare} services. Your gateway is secure no matter how you access it: from your local network, from a mobile app, or from the Internet.",
+    "description": "Tunnel services description2"
+  }
+}

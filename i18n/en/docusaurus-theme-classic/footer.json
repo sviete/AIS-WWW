@@ -1,0 +1,54 @@
+{
+  "link.title.Marketing": {
+    "message": "Marketing",
+    "description": "The title of the footer links column with title=Marketing in the footer"
+  },
+  "link.title.Informacje": {
+    "message": "Information",
+    "description": "The title of the footer links column with title=Informacje in the footer"
+  },
+  "link.title.Zasoby": {
+    "message": "Resources",
+    "description": "The title of the footer links column with title=Zasoby in the footer"
+  },
+  "link.title.Legal": {
+    "message": "Legal",
+    "description": "The title of the footer links column with title=Legal in the footer"
+  },
+  "link.item.label.Facebook": {
+    "message": "Facebook",
+    "description": "The label of footer link with label=Facebook linking to https://www.facebook.com/AISpeaker/"
+  },
+  "link.item.label.YouTube": {
+    "message": "YouTube",
+    "description": "The label of footer link with label=YouTube linking to https://www.youtube.com/channel/UCA6XfwahvzKQDx8nmhsPFTw"
+  },
+  "link.item.label.Forum społeczności": {
+    "message": "Community forum",
+    "description": "The label of footer link with label=Forum społeczności linking to https://ai-speaker.discourse.group/"
+  },
+  "link.item.label.O projekcie AI-Speaker": {
+    "message": "About AI-Speaker",
+    "description": "The label of footer link with label=O projekcie AI-Speaker linking to https://www.ai-speaker.com/project/"
+  },
+  "link.item.label.Repozytorium OTA": {
+    "message": "OTA Repository",
+    "description": "The label of footer link with label=Repozytorium OTA linking to https://www.ai-speaker.com/ota"
+  },
+  "link.item.label.Repozytorium APT": {
+    "message": "APT Repository",
+    "description": "The label of footer link with label=Repozytorium APT linking to https://powiedz.co/apt"
+  },
+  "link.item.label.Polityka prywatności": {
+    "message": "Privacy policy",
+    "description": "The label of footer link with label=Polityka prywatności linking to https://ai-speaker.com/ords/f?p=DOM1:PRIVACY_POLICY"
+  },
+  "link.item.label.Regulamin": {
+    "message": "Regulations",
+    "description": "The label of footer link with label=Regulamin linking to https://ai-speaker.com/ords/f?p=DOM1:TERMS_OF_SERVICE"
+  },
+  "copyright": {
+    "message": "Copyright © 2021 AI-Speaker.com",
+    "description": "The footer copyright"
+  }
+}

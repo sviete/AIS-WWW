@@ -1,0 +1,1144 @@
+<!DOCTYPE html>
+<html lang="pl">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>AI-Speaker</title>
+    <link rel="shortcut icon" href="favicon.ico" >
+    <link rel="icon" type="image/gif" href="animated_favicon.gif" >
+    <!-- Bootstrap Core CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/css/bootstrap-select.min.css" rel="stylesheet">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/flag-icon-css/0.8.2/css/flag-icon.min.css" rel="stylesheet">
+
+
+    <!-- Custom Fonts -->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="fonts/ai-speaker/style.css">
+
+    <!-- Theme CSS -->
+    <link href="css/agency.min.css" rel="stylesheet">
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js" integrity="sha384-0s5Pv64cNZJieYFkXYOTId2HMA2Lfb6q2nAcx2n0RTLUnCAoTTsS0nKEO27XyKcY" crossorigin="anonymous"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js" integrity="sha384-ZoaMbDF+4LeFxg6WdScQ9nnR1QC2MIRxA1O9KWEXQwns1G8UNyIEZIQidzb0T1fo" crossorigin="anonymous"></script>
+    <![endif]-->
+</head>
+
+<body id="page-top" class="index">
+
+    <!-- Navigation -->
+    <nav id="mainNav" class="navbar navbar-default navbar-custom navbar-fixed-top">
+        <a class="navbar-brand page-scroll" href="/">
+            <img class="header-logo" src="images/logo_ais.png" alt="logo">
+        </a>
+
+        <div class="container-fullwidth">
+          <div class="language-selector">
+            <select class="selectpicker" data-width="fit">
+              <option data-content='<span class="flag-icon flag-icon-pl"></span> Polski'>Polski</option>
+              <option  data-content='<span class="flag-icon flag-icon-us"></span> English'>English</option>
+            </select>
+          </div>
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="hidden">
+                        <a href="#page-top"></a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" target="_blank" style="color:#fff;" href="https://ai-speaker.discourse.group/">Forum</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" target="_blank" href="/project/dom" style="color:#fff;">Asystent</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" target="_blank" style="color:#fff;" href="https://www.ai-speaker.com/">Dokumentacja</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#about">Historia</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#team">Zespół</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#media">Media</a>
+                    </li>
+                    <li>
+                      <a class="page-scroll" href="#contact" style="margin-top: -10px;"><span>
+                        <svg width="40px" height="40px" version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="-3.5 -3.5 55 55" enable-background="new -3.5 -3.5 55 55" xml:space="preserve">
+                        <path fill="#f14f06" d="m 20,22.764977 a 9.2165898,9.2165898 0 0 1 -9.216589,-9.21659 l 3.686636,0 A 5.5299539,5.5299539 0 0 0 20,19.078341 5.5299539,5.5299539 0 0 0 25.529954,13.548387 l 3.686636,0 A 9.2165898,9.2165898 0 0 1 20,22.764977 M 20,4.3317971 a 5.5299539,5.5299539 0 0 1 5.529954,5.5299538 l -11.059907,0 A 5.5299539,5.5299539 0 0 1 20,4.3317972 m 12.903226,5.5299537 -3.686636,0 A 9.2165898,9.2165898 0 0 0 20,0.64516115 9.2165898,9.2165898 0 0 0 10.783411,9.8617509 l -3.6866369,0 c -2.046083,0 -3.686636,1.6405531 -3.686636,3.6866361 l 0,22.119816 a 3.686636,3.686636 0 0 0 3.686636,3.686636 l 25.8064519,0 a 3.686636,3.686636 0 0 0 3.686636,-3.686636 l 0,-22.119816 c 0,-2.046083 -1.658987,-3.6866361 -3.686636,-3.6866361 z"></path>
+                      </svg>
+                    </span>
+                    </a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <!-- Header -->
+    <header>
+        <div class="container">
+            <div class="intro-text">
+                <div class="intro-heading">
+                    <div class="tagline-logo"><img src="images/logo_ais.png" alt="logo"></div>
+                    <div class="tagline">
+                        <span class="ai-speaker">AI-Speaker</span>
+                        <br>
+                        <span class="im-listening">Słucham Cię</span>
+                    </div>
+                </div>
+                <a href="#services" class="page-scroll btn btn-xl">
+                    <i class="fa fa-angle-double-down fa-5x" aria-hidden="true"></i>
+                </a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">ASYSTENT, KTÓRY CIĘ ROZUMIE!</h2>
+                    <h3 class="section-subheading text-muted">Prezentujemy urządzenie, które mówi i słucha</h3>
+                </div>
+            </div>
+            <div class="row text-center">
+                <div class="col-md-4">
+                  <i class="fa icon-ais icon-ais-intelligence fa-inverse"/></i>
+                    <h4 class="service-heading">Inteligentny asystent</h4>
+                    <p class="text-muted">Wbudowany komputer pozwala na sterowanie głosem dzięki czemu posłuchasz ulubionego radia, piosenek, podcastów i audiobooków, zapytasz o pogodę oraz wyszukasz informacji w serwisach internetowych.</p>
+                </div>
+                <div class="col-md-4">
+                  <i class="fa icon-ais icon-ais-design fa-inverse"></i>
+                    <h4 class="service-heading">Inteligentny dom</h4>
+                    <p class="text-muted">Nasza platforma pozwala na głosowe sterowanie urządzeniami, wykrywanie zdarzeń oraz automatyzację kontroli. Ty decydujesz, czy sterować głosem i aplikacją czy głosem i pilotem.  </p>
+                </div>
+                <div class="col-md-4">
+                  <i class="fa icon-ais icon-ais-sound fa-stack-1x fa-inverse"></i>
+                    <h4 class="service-heading">Mnóstwo możliwości</h4>
+                    <p class="text-muted">System oparty jest na sprawdzonych otwarto-źródłowych rozwiązaniach, dzięki czemu możemy komunikować się i sterować ponad tysiącem platform i komponentów.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Portfolio Grid Section -->
+    <section id="portfolio" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Funkcjonalność</h2>
+                    <h3 class="section-subheading text-muted">Oto, co wyróżnia naszego asystenta</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal1" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/mikrofon.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Mikrofon</h4>
+                        <p class="text-muted">Sterowanie głosem</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal2" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/pilot_nowy.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Pilot zdalnego sterowania</h4>
+                        <p class="text-muted">Sterowanie bezprzewodowe (radiowe)</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal9" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/apka.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Aplikacja</h4>
+                        <p class="text-muted">Zarządzanie biblioteką audio</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/image10.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Automatyka domowa</h4>
+                        <p class="text-muted">Steruj urządzeniami w domu</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/usb.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>USB</h4>
+                        <p class="text-muted">Odtwarzanie z pamięci zewnętrznej</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal3" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/image104.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4> WiFi </h4>
+                        <p class="text-muted">Łączność z Internetem</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal7" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/aux.jpg" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Analogowe wyjście audio</h4>
+                        <p class="text-muted">Podłączenie słuchawek</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal8" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/hdmi.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>HDMI</h4>
+                        <p class="text-muted">Podłączenie telewizora lub monitora</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal12" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/h3.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Wydajność</h4>
+                        <p class="text-muted">Optymalnie dobrane elementy</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal10" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/share.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Udostępnianie audio dla rodziny</h4>
+                        <p class="text-muted">Współdzielenie treści z bliskimi</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal13" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/inne_funkcje.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Inne funkcjonalności</h4>
+                        <p class="text-muted">Informacje, pogoda i wiele więcej</p>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 portfolio-item">
+                    <a href="#portfolioModal11" class="portfolio-link" data-toggle="modal">
+                        <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                                <i class="fa fa-plus fa-3x"></i>
+                            </div>
+                        </div>
+                        <img src="images/cloud_audio.png" class="img-responsive" alt="">
+                    </a>
+                    <div class="portfolio-caption">
+                        <h4>Serwisy muzyczne</h4>
+                        <p class="text-muted">Muzyka, audiobooki, radio, podcasty</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Historia</h2>
+                    <h3 class="section-subheading text-muted">Historia naszego głośnika.</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <ul class="timeline">
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/history1.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Maj 2016 - Grudzień 2016 </h4>
+                                    <h4 class="subheading">Radio internetowe sterowne pilotem</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Początki historii naszego głośnika można zacząć od powiedzenia „potrzeba jest matką wynalazków”. Chcieliśmy zbudować osobie niewidomej radio internetowe sterowane pilotem radiowym. Urządzenie powstało na bazie mini komputera Raspberry Pi, serwera muzycznego Mopidy oraz  autorskiego plugina. Z biegiem czasu pojawiały się kolejne funkcjonalności, takie jak sterowanie głosem, sprawdzanie pogody, wyszukiwanie informacji w Wikipedii, odtwarzanie muzyki, radia, audiobooków czy podcastów. Ciągle rozwijamy możliwości urządzenia i dodajemy kolejne usługi.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/history2.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Styczeń 2017 -  Luty 2017</h4>
+                                    <h4 class="subheading">Dodanie głośnika</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Kiedy sterowane głosem radio już działało, skupiliśmy się na dźwięku. W celu poprawienia jakości odtwarzanych treści audio postanowiliśmy zintegrować urządzenie z pełnozakresowym markowym głośnikiem. Szybko doszliśmy do wniosku, że aby osiągnąć zamierzony efekt, potrzebujemy minimum dwóch głośników zintegrowanych z pasywnymi membranami. Po wypróbowaniu wielu tworzyw i materiałów w różnych kształtach zdecydowaliśmy, że do wykonania obudowy wykorzystamy jeden kawałek litego drewna.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/history3.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Marzec 2017</h4>
+                                    <h4 class="subheading">Start prac nad aplikacją webową</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Aby ułatwić konfigurację urządzenia, dodawanie nowych usług, odtwarzanie i zarządzanie biblioteką audio, rozpoczęliśmy prace nad webową aplikacją z responsywnym interfejsem przyjaznym użytkownikowi. Naszym celem jest umożliwienie intuicyjnego i łatwego sterowania głośnikiem z dowolnego urządzenia posiadającego przeglądarkę internetową.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                            <div class="timeline-image">
+                                <img class="img-circle img-responsive" src="images/history4.png" alt="">
+                            </div>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Kwiecień 2017 </h4>
+                                    <h4 class="subheading">Drewniana koncepcja obudowy</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted">Projektując obudowę, zdecydowaliśmy się na wykonanie jej z drewna. Naszym ambitnym celem jest otrzymanie naturalnego brzmienia i ponadczasowego wyglądu.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li>
+                           <a href="https://www.facebook.com/AISpeaker" target="_blank">
+                              <div class="timeline-image">
+                                  <img class="img-circle img-responsive" src="images/history5.jpg" alt="">
+                              </div>
+                           </a>
+                            <div class="timeline-panel">
+                                <div class="timeline-heading">
+                                    <h4>Czerwiec 2017</h4>
+                                    <h4 class="subheading">Budujemy społeczość wokół projektu</h4>
+                                </div>
+                                <div class="timeline-body">
+                                    <p class="text-muted"><a href="https://www.facebook.com/AISpeaker" target="_blank">Na naszej stonie na Facebooku</a> znajdziesz zdjęcia, video i artykuły, które pojawiły się na nasz temat.</p>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="timeline-inverted">
+                          <a href="#contact">
+                            <div class="timeline-image">
+                                <h4>Bądź
+                                    <br>częścią naszej
+                                    <br> historii!</h4>
+                            </div>
+                          </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Team Section -->
+    <section id="team" class="bg-light-gray">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Zespół</h2>
+                    <h3 class="section-subheading text-muted">Razem tworzymy coś wielkiego</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="images/Andrzej.png" class="img-responsive alt="">
+                        <h4>Andrzej</h4>
+                        <p class="text-muted">Software Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://github.com/sviete" target="_blank"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/andrzej.raczkowski.58" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://pl.linkedin.com/in/sviete" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="images/Sebastian.png" class="img-responsive alt="">
+                        <h4>Sebastian</h4>
+                        <p class="text-muted">Hardware Engineer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://github.com/sgrzys" target="_blank"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/sebastian-grzy%C5%9B-b5228a51/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="images/Celka.png" class="img-responsive alt="">
+                        <h4>Celina</h4>
+                        <p class="text-muted">Customer Development</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://github.com/boba1000" target="_blank"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/profile.php?id=1186570423" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/celina-raczkowska-bba96b90/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-sm-3">
+                    <div class="team-member">
+                        <img src="images/Bartek.png" class="img-responsive alt="">
+                        <h4>Bartosz</h4>
+                        <p class="text-muted">Software Developer</p>
+                        <ul class="list-inline social-buttons">
+                            <li><a href="https://github.com/bglowacki" target="_blank"><i class="fa fa-github"></i></a>
+                            </li>
+                            <li><a href="https://www.facebook.com/glowacki.bartek" target="_blank"><i class="fa fa-facebook"></i></a>
+                            </li>
+                            <li><a href="https://www.linkedin.com/in/bartekglowacki/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                    <div class="col-sm-3">
+                        <div class="team-member">
+                            <img src="images/Michal.png" class="img-responsive alt="">
+                            <h4>Michał</h4>
+                            <p class="text-muted">Graphic Designer</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.facebook.com/nojmek" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="team-member">
+                            <img src="images/Rysio.png" class="img-responsive alt="">
+                            <h4>Ryszard</h4>
+                            <p class="text-muted">Senior Tester</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://plus.google.com/u/0/114753499658836075703" target="_blank"><i class="fa fa-google-plus"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="team-member">
+                            <img src="images/Tomek.png" class="img-responsive alt="">
+                            <h4>Tomasz</h4>
+                            <p class="text-muted">Prototype Engineer</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.facebook.com/profile.php?id=100019548991847" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.linkedin.com/in/tomaszraczkowski/" target="_blank"><i class="fa fa-linkedin"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                            <div class="team-member">
+                                <img src="images/Anzela.png" class="img-responsive alt="">
+                                <h4>Anżela</h4>
+                                <p class="text-muted">Marketing</p>
+                                <ul class="list-inline social-buttons">
+                                  <li><a href="https://www.facebook.com/angela.grzys" target="_blank"><i class="fa fa-facebook"></i></a>
+                                  </li>
+                                </ul>
+                            </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-3">
+                        <div class="team-member">
+                            <img src="images/Asia.png" class="img-responsive alt="">
+                            <h4>Joanna</h4>
+                            <p class="text-muted">Web Designer</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://github.com/jglowacka" target="_blank"><i class="fa fa-github"></i></a>
+                                </li>
+                                <li><a href="https://www.facebook.com/joanna.straube" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="team-member">
+                            <img src="images/Piotrek.png" class="img-responsive alt="">
+                            <h4>Piotr</h4>
+                            <p class="text-muted">Sound</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.facebook.com/zdrawko.kebabczyk" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="team-member">
+                            <img src="images/Ania.png" class="img-responsive alt="">
+                            <h4>Ania</h4>
+                            <p class="text-muted">Communictions Director</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.facebook.com/atopolnicka" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-sm-3">
+                        <div class="team-member">
+                            <img src="images/Kasia.png" class="img-responsive alt="">
+                            <h4>Kasia</h4>
+                            <p class="text-muted">Social Media</p>
+                            <ul class="list-inline social-buttons">
+                                <li><a href="https://www.facebook.com/katarzyna.pietaa" target="_blank"><i class="fa fa-facebook"></i></a>
+                                </li>
+                                <li><a href="https://www.instagram.com/ai.speaker/" target="_blank"><i class="fa  fa-instagram"></i></a>
+                            </ul>
+                        </div>
+                    </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2 text-center">
+                    <p class="large text-muted">Znamy się od wielu lat i dobrze nam się razem pracuje. Postanowiliśmy stworzyć inteligentny głośnik według własnego projektu i wszystko wskazuje na to, że nam się to udało!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Media about us -->
+    <section id="media" class="about-us">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Media o nas</h2>
+                    <h3 class="section-subheading text-muted">Głośnik, o którym się mówi!</h3>
+                </div>
+            </div>
+            <div class="row">
+                <div class="article clearfix">
+                    <div class="image col-sm-2"><img class="mamstartup-logo" src="images/mslogo.svg" alt="logo"></div>
+                    <div class="body col-sm-10">
+                        <h3>Mam Startup</h3>
+                        <p>"Inteligentny głośnik AI Speaker pozwoli użytkownikom słychać muzyki, wyszukiwać informacji w sieci i nie będzie zbierać danych o domownikach kiedy nie będą sobie tego życzyć. Polacy już tworzą jego prototyp i niebawem ruszą z kampanią crowdfundingową. Liczą, że pokonają Amazon, Apple i Google."</p>
+                        <a class="pull-right" href="http://mamstartup.pl/technologie/11618/polacy-beda-konkurowac-z-amazon-echo-i-google-home-tworza-inteligentny-glosnik" target="_blank">Przeczytaj więcej</a>
+                    </div>
+                </div>
+                <div class="article clearfix">
+                    <div class="image col-sm-2"><img src="images/express-logo.gif" alt="logo"></div>
+                    <div class="body col-sm-10">
+                        <h3>Express-miejski.pl</h3>
+                        <p>"Kilka lat temu tato mieszkanki Szczepanowa stracił częściowo wzrok. Jej najbliżsi wpadli na pomysł skonstruowania dla niego głośnika obsługiwanego głosem."</p>
+                        <a class="pull-right" href="http://sroda.express-miejski.pl/wiadomosc/29595,konstruktorzy-ze-szczepanowa-zbudowali-radio-reagujace-na-glos" target="_blank">Przeczytaj więcej</a>
+                    </div>
+                </div>
+                <div class="article clearfix">
+                    <div class="image col-sm-2"><img class="tabletowo-logo" src="images/tabletowo_logo_biale_350px.png" alt="logo"></div>
+                    <div class="body col-sm-10">
+                        <h3>Tabletowo</h3>
+                        <p>Amazon Echo i Google Home zapoczątkowały modę na inteligentne głośniki. Na rynku pojawia się coraz więcej tego typu urządzeń, ale wciąż żadne z nich nie jest w stanie porozumieć się z użytkownikiem po polsku. Grupa ambitnych Polaków postanowiła więc stworzyć swoją własną propozycję, z którą pogadamy jak z koleżanką lub kolegą."</p>
+                        <a class="pull-right" href="https://www.tabletowo.pl/2017/08/24/ai-speaker/" target="_blank">Przeczytaj więcej</a>
+                    </div>
+                </div>
+                <div class="article clearfix">
+                    <div class="image col-sm-2"><img class="android-logo" src="images/android.png" alt="logo"></div>
+                    <div class="body col-sm-10">
+                        <h3>Android.com.pl</h3>
+                        <p>"Wiele firm dąży do tego, aby wszystko obsługiwać głosowo. Obecnie skupiamy się na dotykowych poleceniach, a zapewne kolejnym krokiem będą… myśli? Czas pokaże. Obecnie trwa swego rodzaju rewolucja wśród asystentów głosowych, wyposażonych w sztuczną inteligencję. To ona jest tak naprawdę podstawą wielu rozwiązań, z których dzisiaj korzystamy."</p>
+                        <a class="pull-right" href="https://android.com.pl/artykuly/95796-inteligentny-glosnik-ai-speaker-asystent-po-polsku/" target="_blank">Przeczytaj więcej</a>
+                    </div>
+                </div>
+                <div class="article clearfix">
+                    <div class="image col-sm-2"><img  src="images/antyradio.png" alt="logo"></div>
+                    <div class="body col-sm-10">
+                        <h3>Antyradio.pl</h3>
+                        <p>"Polacy kończą prace nad inteligentnym głośnikiem, który nie będzie permanentnie inwigilował swoich właścicieli."</p>
+                        <a class="pull-right" href="http://www.antyradio.pl/Technologia/Gadzety/Polacy-zbudowali-inteligentny-glosnik-ktory-nie-podsluchuje-uzytkownikow-16917" target="_blank">Przeczytaj więcej</a>
+                    </div>
+                </div>
+                <div class="article clearfix">
+                    <div class="image col-sm-2"><img class="zet-logo" src="images/logo-zet.svg" alt="logo"></div>
+                    <div class="body col-sm-10">
+                        <h3>Radio Zet</h3>
+                        <p>"Prace nad głośnikiem AI-Speaker rozpoczęły się w maju 2016 roku – początkowo miało to być urządzenie umożliwiającej głosowe sterowanie radiem. Z biegiem czasu rósł jednak apetyt konstruktorów na stworzenie czegoś znacznie ambitniejszego."</p>
+                        <a class="pull-right" href="http://www.radiozet.pl/Nauka-i-Technologia/Technologia/Polacy-stworzyli-konkurenta-dla-Amazon-Echo-i-Google-Home" target="_blank">Przeczytaj więcej</a>
+                    </div>
+                </div>
+                <div class="article clearfix">
+                    <div class="image col-sm-2"><img src="images/ks_logo.png" alt="logo"></div>
+                    <div class="body col-sm-10">
+                        <h3>Komputer Świat</h3>
+                        <p>"Początki projektu Ai Speaker sięgają maja 2016 roku. Wtedy powstał pomysł związany ze stworzeniem radia internetowego, które mogłoby być sterowane przez osobę niewidomą. Z czasem powstała koncepcja głośnika modułowego, jak z klocków Lego i tak narodził się pierwowzór Ai Speakera."</p>
+                        <a class="pull-right" href="http://www.komputerswiat.pl/nowosci/sprzet/2017/34/ai-speaker-modulowy-glosnik-z-ktorym-bedzie-mozna-rozmawiac-po-polsku.aspx" target="_blank">Przeczytaj więcej</a>
+                    </div>
+                </div>
+                <div class="article clearfix">
+                    <div class="image col-sm-2"><img  src="images/inpoland.svg" alt="logo"></div>
+                    <div class="body col-sm-10">
+                        <h3>INN Poland</h3>
+                        <p>"Ponad rok temu grupka polskich konstruktorów postanowiła zbudować urządzenie, które zastąpiłoby tzw. inteligentne głośniki, jakie w ofercie mają Google i Amazon. Również Apple szykuje się do wprowadzenia na rynek swojego rozwiązania. Ale Polacy mogą być pierwsi.
+                            Projekt trafi w listopadzie na platformę Kickstarter, gdzie każdy zainteresowany będzie mógł zamówić go w przedsprzedaży. Głośnik będzie się nazywał AI-Speaker. "</p>
+                        <a class="pull-right" href="http://innpoland.pl/136925,Polacy-zrobili-cos-lepszego-i-nieporownywalnie-tanszego-niz-Amazon-i-Google-z-ich-glosnikiem-pogadasz-po-polsku" target="_blank">Przeczytaj więcej</a>
+                    </div>
+                    <div class="article clearfix">
+                        <div class="image col-sm-2"><img src="images/instalki.png" alt="logo"></div>
+                        <div class="body col-sm-10">
+                            <h3>Instalki.pl</h3>
+                            <p>"AI Speaker to projekt polskiego zespołu, który ma być odpowiedzią na inteligentne głośniki od Google i&nbspAmazonu. Pod jednym względem już teraz można powiedzieć, że będzie on lepszy. Urządzenie przemówi w języku polskim."</p>
+                            <a class="pull-right" href="http://www.instalki.pl/aktualnosci/hardware/27772-ai-speaker.html" target="_blank">Przeczytaj więcej</a>
+                        </div>
+                    </div>
+                    <div class="article clearfix">
+                        <div class="image col-sm-2"><img src="images/dobreprogramy.jpg" alt="logo"></div>
+                        <div class="body col-sm-10">
+                            <h3>dobreprogramy.pl</h3>
+                            <p>"AI Speaker to głośnik z polskojęzycznym asystentem mowy, który ma być odpowiedzią na konkurencyjne urządzenia od Amazona czy Google. Czy spełni pokładane w nim nadzieje? Jak zapewniają twórcy, w przeciwieństwie do urządzeń dostępnych na rynku, AI Speaker nie będzie podsłuchiwał domowników, dostarczy im za to wysokiej jakości audio."</p>
+                            <a class="pull-right" href="https://www.dobreprogramy.pl/AI-Speaker-nachodzi-polski-glosnik-z-polskojezycznym-asystentem,News,82846.html " target="_blank">Przeczytaj więcej</a>
+                        </div>
+                    </div>
+                    <div class="article clearfix">
+                        <div class="image col-sm-2"><img src="images/mobiletrends.jpg" alt="logo"></div>
+                        <div class="body col-sm-10">
+                            <h3>MobileTrends.pl</h3>
+                            <p>"Wydawałoby się, że inteligentny głośnik, który rozumie i mówi po polsku, jeszcze przez wiele lat pozostanie poza naszym zasięgiem. Grupa pasjonatów z Dolnego Śląska postanowiła jednak skrócić czas oczekiwania i zaspokoić rodzimy rynek nieco wcześniej."</p>
+                            <a class="pull-right" href="http://www.mobiletrends.pl/stworzony-dolnym-slasku-ai-speaker-bedzie-pierwszym-inteligentnym-glosnikiem-mowiacym-jezyku-polskim/" target="_blank">Przeczytaj więcej</a>
+                        </div>
+                    </div>
+                    <div class="article clearfix">
+                        <div class="image col-sm-2"><img src="images/roland.png" alt="logo"></div>
+                        <div class="body col-sm-10">
+                            <h3>roland</h3>
+                            <p>"Zaczynali rok temu tworząc inteligentny głośnik, który miał pomóc osobie borykającej się z problemami ze wzrokiem. Po roku jest o nich coraz głośniej w mediach. Kim są i czym jest stworzony przez nich inteligentny głośnik?"</p>
+                            <a class="pull-right" href="http://www.roland-gazeta.pl/14557-wynalazcy-ze-szczepanowa-i-ich-inteligentny-glosnik" target="_blank">Przeczytaj więcej</a>
+                        </div>
+                    </div>
+                    <div class="article clearfix">
+                        <div class="image col-sm-2"><img  src="images/inpoland.svg" alt="logo"></div>
+                        <div class="body col-sm-10">
+                           <h3>INN Poland</h3>
+                            <p>"Ich produkt może być globalnym hitem. Jeśli ktoś może pobić Google'a i Amazona, to tylko ta polska firma”</p>
+                            <a class="pull-right" href="http://innpoland.pl/138915,ich-produkt-moze-byc-globalnym-hitem-jesli-ktos-moze-pobic-google-a-i-amazona-to-tylko-ta-polska-firma" target="_blank">Przeczytaj więcej</a>
+                        </div>
+                    </div>
+                    <div class="article clearfix">
+                        <div class="image col-sm-2"><img src="images/Telepolis.jpg" alt="logo"></div>
+                        <div class="body col-sm-10">
+                            <h3>Telepolis.pl</h3>
+                            <p>"AI-Speaker - polski asystent głosowy odpowiedzią na Alexe. Polacy pracują nad stworzeniem inteligentnego centrum rozrywki z mówiącym po polsku asystentem głosowym. Prace są na bardzo zaawansowanym etapie."</p>
+                            <a class="pull-right" href="http://www.telepolis.pl/wiadomosci/ai-speaker-polski-asystent-glosowy-odpowiedzia-na-alexe,2,3,41890.html" target="_blank">Przeczytaj więcej</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12 text-center">
+                    <h2 class="section-heading">Pierwszy produkt</h2>
+                    <h4 class="service-heading">We wrześniu 2018 roku rozpoczeliśmy sprzedaż naszego pierwszego produktu - bramki IoT z asystentem głosowym. <br>Zapraszamy do naszego sklepu, który znajduje się pod adresem: <a href="https://allegro.pl/uzytkownik/AI-Speaker" target="_blank">https://allegro.pl/uzytkownik/AI-Speaker</a>
+                        <a href="https://allegro.pl/uzytkownik/AI-Speaker" target="_blank"></br> <img class="header-logo" src="images/logo_dom.png" alt="logo" style="width:280px; margin-top:0px; vertical-align: text-bottom;"></a>
+                    </h4>
+                    <h4 class="service-heading">Oficjalnym dystrybutorem naszych urządzeń jest firma <a href="https://botland.com.pl/szukaj?controller=search&orderby=position&orderway=desc&search_query=AIS+Dom&submit_search=" target="_blank">Botland</a>
+                      <a href="https://botland.com.pl/szukaj?controller=search&orderby=position&orderway=desc&search_query=AIS+Dom&submit_search=" target="_blank"></br> <img class="header-logo" src="images/logo_botland.png" alt="logo" style="width:280px; margin-top:0px; vertical-align: text-bottom;"></a>
+                    </h4>
+                    <h5> <br><br><br> Możesz też polubić i obserwować naszą stronę na <a href="https://www.facebook.com/AISpeaker" target="_blank">Facebooku</a>, gdzie na bieżąco będziemy informować o postępach w projekcie i kolejnych urządzeniach w naszej ofercie.</h5>
+                    <div class="privy-embed-form" data-campaign="292202"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4">
+                    <ul class="list-inline social-buttons">
+                        <li><a href="https://www.facebook.com/AISpeaker" target="_blank"><i class="fa fa-facebook"></i></a>
+                        </li>
+                        <li><a href="https://www.instagram.com/ai.speaker/" target="_blank"><i class="fa  fa-instagram"></i></a>
+                        </li>
+                        <li><a href="https://www.youtube.com/user/andrzejraczkowski" target="_blank"><i class="fa  fa-youtube"></i></a>
+                        </li>
+                    </ul>
+                    <span class="copyright">Copyright &copy; AI-Speaker 2018</span>
+                </div>
+                <div class="col-md-4">
+
+                </div>
+                <div class="col-md-4">
+                    <ul class="address">
+                        <li>+48 71 39 62 861</li>
+                        <li><a href="mailto:&#105;&#110;&#102;&#111;&#64;&#115;&#118;&#105;&#101;&#116;&#101;&#46;&#112;&#108;" target="_top">&#105;&#110;&#102;&#111;&#64;&#115;&#118;&#105;&#101;&#116;&#101;&#46;&#112;&#108;</a></li>
+                        <li>Daszyńskiego 4/1</li>
+                        <li>55-300 Środa Śląska, Polska</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Portfolio Modals -->
+    <!-- Use the modals below to showcase details about your portfolio projects! -->
+
+    <!-- Portfolio Modal 1 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal1" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Mikrofon</h2>
+                                <p class="item-intro text-muted">Sterowanie głosem</p>
+                                <img class="img-responsive img-centered" src="images/mikrofon.png" alt="">
+                                <p>Wbudowany mikrofon umożliwia sterowanie głosem. Po uruchomieniu nagrywania polecenia głosowe przetwarzane są na intencje, które powodują uruchomienie zdefiniowanych działań.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 2 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal2" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>Pilot zdalnego sterowania</h2>
+                                <p class="item-intro text-muted">Sterowanie bezprzewodowe (radiowe)</p>
+                                <img class="img-responsive img-centered" src="images/pilot_nowy.png" alt="">
+                                <p>Pilot pozwala na aktywację mikrofonu lub zdalne sterowanie urządzeniem bez konieczności wydawania komend głosowych.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 3 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal3" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>WiFi</h2>
+                                <p class="item-intro text-muted">Łączność z Internetem</p>
+                                <img class="img-responsive img-centered" src="images/image104.png" alt="">
+                                <p>Połączenie z Internetem pozwala na bezprzewodowe odtwarzanie audio z internetowych serwisów oraz na pobieranie żądanych informacji</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 4 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal4" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Automatyka domowa</h2>
+                                <p class="item-intro text-muted">Steruj urządzeniami w domu</p>
+                                <img class="img-responsive img-centered" src="images/image10.png" alt="">
+                                <p>Umożliwia głosowe sterowanie urządzeniami z twojego telefonu, komputera lub tableta.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 5 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal5" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>USB</h2>
+                                <p class="item-intro text-muted">Możliwość korzystania z pamięci zewnętrznej</p>
+                                <img class="img-responsive img-centered" src="images/usb.jpg" alt="">
+                                <p>Umożliwia podłączenie przenośnej pamięci zewnętrznej (pendrive) w celu odtwarzania z niej muzyki, audiobooków, itd.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Portfolio Modal 7 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal7" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Analogowe wyjście audio&nbspjack</h2>
+                                <p class="item-intro text-muted">Podłączenie słuchawek</p>
+                                <img class="img-responsive img-centered" src="images/aux.jpg" alt="">
+                                <p>Pozwala na podłączenie słuchawek.</p>
+
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 8 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal8" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <h2>HDMI</h2>
+                                <p class="item-intro text-muted">Podłączenie telewizora lub monitora</p>
+                                <img class="img-responsive img-centered" src="images/hdmi.png" alt="">
+                                <p> Wyjście HDMI umożliwia podłączenie urządzenia do telewizora lub monitora i skonfigurowanie zestawu (podłączenie do WIFI i konfiguracja serwisów udostępniających treści audio),
+                                    jak również do przesyłania dźwięku w cyfrowej postaci.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 9 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal9" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Aplikacja</h2>
+                                <p class="item-intro text-muted">Zarządzanie biblioteką audio i głośnikiem</p>
+                                <img class="img-responsive img-centered" src="images/apka.png" alt="">
+                                <p>Dzięki aplikacji oraz jej interaktywnemu, przyjaznemu dla użytkownika interfejsowi konfiguracja serwisów udostępniających treści audio,
+                                    organizowanie biblioteki oraz wyszukiwanie i odtwarzanie na dowolnym urządzeniu jest czystą przyjemnością .</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 10 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal10" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Udostępnianie audio dla rodziny</h2>
+                                <p class="item-intro text-muted">Współdzielenie treści z bliskimi</p>
+                                <img class="img-responsive img-centered" src="images/share.png" alt="">
+                                <p>Umożliwia współdzielenie albumów lub wybranych pozycji audio z wybranymi osobami.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 11 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal11" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Serwisy Muzyczne</h2>
+                                <p class="item-intro text-muted">Muzyka, audiobooki, radio, podcasty</p>
+                                <img class="img-responsive img-centered" src="images/cloud_audio.png" alt="">
+                                <p>Możesz odtwarzać treści audio (muzykę, radio, podcasty, audiobooki) z lokalnych zasobów oraz z internetowych serwisów takich jak:
+                                    Spotify, SoundCloud, Google Music, Dirble, TuneIn, YouTube i wiele innych.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 12 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal12" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Wydajność</h2>
+                                <p class="item-intro text-muted">Optymalnie dobrane elementy</p>
+                                <img class="img-responsive img-centered" src="images/h3.png" alt="">
+                                <p>Urządzenie wyposażone jest w wydajny komputer z oparty na platformie Amlogic S905X. Jego głównym elementem jest czterordzeniowy procesor systemowy ARM Cortex-A53
+                                    pracujący z maksymalną częstotliwością 2GHz oraz pęciordzeniowy procesor graficzny GPU Mali450 MP ARM.
+                                    Posiada 2G pamięci SDRAM oraz wbudowaną szybką pamięć wewnętrzną 16GB eMMC.
+                                    Te imponujące parametry techniczne połączone ze stworzonym przez nas oprogramowaniem czynią urządzenie funkcjonalnym rozwiązaniem przygotowanym na przyszłość i rozwój.</p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Zakończ</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Portfolio Modal 13 -->
+    <div class="portfolio-modal modal fade" id="portfolioModal13" tabindex="-1" role="dialog" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="close-modal" data-dismiss="modal">
+                    <div class="lr">
+                        <div class="rl">
+                        </div>
+                    </div>
+                </div>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-8 col-lg-offset-2">
+                            <div class="modal-body">
+                                <!-- Project Details Go Here -->
+                                <h2>Inne Funkcjonalności</h2>
+                                <p class="item-intro text-muted">Informacje, pogoda i wiele więcej</p>
+                                <img class="img-responsive img-centered" src="images/inne_funkcje.png" alt="">
+                                <p></p>
+                                <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i>Zamknij</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- jQuery -->
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js" integrity="sha256-ZosEbRLbNQzLpnKIkEdrPv7lOy9C27hHQ+Xp8a4MxAQ=" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-select/1.6.2/js/bootstrap-select.min.js"></script>
+
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js" integrity="sha384-mE6eXfrb8jxl0rzJDBRanYqgBxtJ6Unn4/1F7q4xRRyIw7Vdg9jP4ycT7x1iVsgb" crossorigin="anonymous"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/agency.min.js"></script>
+
+</body>
+
+</html>

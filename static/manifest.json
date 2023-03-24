@@ -1,0 +1,38 @@
+{
+    "background_color": "#4c4c4c",
+    "description": "Platforma automatyki domowej, kt\u00f3ra stawia lokaln\u0105 kontrol\u0119 i prywatno\u015b\u0107 na pierwszym miejscu.",
+    "dir": "ltr",
+    "display": "standalone",
+    "icons": [
+        {
+            "purpose": "maskable any",
+            "sizes": "192x192",
+            "src": "/img/icons/favicon-192x192.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable any",
+            "sizes": "384x384",
+            "src": "/img/icons/favicon-384x384.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable any",
+            "sizes": "512x512",
+            "src": "/img/icons/favicon-512x512.png",
+            "type": "image/png"
+        },
+        {
+            "purpose": "maskable any",
+            "sizes": "1024x1024",
+            "src": "/img/icons/favicon-1024x1024.png",
+            "type": "image/png"
+        }
+    ],
+    "lang": "pl-PL",
+    "name": "AIS dokumentacja",
+    "prefer_related_applications": false,
+    "short_name": "AIS docs",
+    "start_url": "/",
+    "theme_color": "#FF9800"
+}

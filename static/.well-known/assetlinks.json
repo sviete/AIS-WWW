@@ -1,0 +1,25 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "pl.sviete.dom.devices",
+    "sha256_cert_fingerprints":
+    ["44:97:98:3A:C7:65:88:FA:15:85:E8:20:F5:21:64:FC:0D:69:5E:65:91:BB:29:07:68:15:DA:40:26:6F:01:9A"]
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "web",
+    "site": "https://ai-speaker.com"
+  }
+},
+{
+  "relation": ["delegate_permission/common.get_login_creds"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "pl.sviete.dom.devices",
+    "sha256_cert_fingerprints":
+    ["44:97:98:3A:C7:65:88:FA:15:85:E8:20:F5:21:64:FC:0D:69:5E:65:91:BB:29:07:68:15:DA:40:26:6F:01:9A"]
+  }
+}]
