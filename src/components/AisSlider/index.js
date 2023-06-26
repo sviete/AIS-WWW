@@ -107,7 +107,7 @@ function AisSlider() {
                         <Translate
                             id="homepage.ais_features.wifi.title"
                             description="Wifi number devices title"
-                            values={{devices: <span className="strongInfo">2400 🌐 </span>}}>
+                            values={{devices: <span className="strongInfo">2600 🌐 </span>}}>
                             {'Ponad {devices} urządzeń WiFi'}
                         </Translate>
                     </span>
@@ -118,7 +118,7 @@ function AisSlider() {
                     description="Wifi number devices description"
                     values={{
                       aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
-                      moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2400</Link>,
+                      moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2600</Link>,
                       aizWifiImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br />
                         <div className="CarouselImage">
                           <div className="imgCenter"><img alt="AIS dom feature" src="img/ais_wifi_mini.png" alt="zigbee adapter" /></div>
@@ -144,7 +144,7 @@ function AisSlider() {
                     <Translate
                     id="homepage.ais_features.zigbee.title"
                     description="Zigbee number devices title"
-                    values={{devices: <span>2450 🐝</span>}}>
+                    values={{devices: <span>2970 🐝</span>}}>
                     {'Ponad {devices} urządzeń Zigbee'}
                     </Translate>
                     </span>
@@ -158,7 +158,7 @@ function AisSlider() {
                       moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">2450</Link>,
                     }}
                 >
-                  {'Ponad {moreZigbeeDevices} urządzeń Zigbee od 336 producentów jest wspieranych przez oprogramowanie {aisZigbee}, które dostarczamy na bramce.'}
+                  {'Ponad {moreZigbeeDevices} urządzeń Zigbee od 379 producentów jest wspieranych przez oprogramowanie {aisZigbee}, które dostarczamy na bramce.'}
                 </Translate>
                 </span>
               </div>
@@ -273,7 +273,7 @@ function AisSlider() {
                         <Translate
                             id="homepage.ais_features.ha.title"
                             description="HA number of integrations title"
-                            values={{devices: 2240  }}
+                            values={{devices: 2470  }}
                         >
                             {'Ponad 🏠 {devices} Integracji'}
                         </Translate>
