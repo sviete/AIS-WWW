@@ -101,11 +101,11 @@ O nowościach w poszczególnych wersjach Home Assistant można poczytać na blog
 
 - 2023.3 [![](https://www.home-assistant.io/images/blog/2023-03/social.png)](https://www.home-assistant.io/blog/2023/03/01/release-20233/)
 
-- 2023.1 [![](https://www.home-assistant.io/images/blog/2023-04/social.png)](https://www.home-assistant.io/blog/2023/04/05/release-20234/)
+- 2023.4 [![](https://www.home-assistant.io/images/blog/2023-04/social.png)](https://www.home-assistant.io/blog/2023/04/05/release-20234/)
 
-- 2023.1 [![](https://www.home-assistant.io/images/blog/2023-05/social.png)](https://www.home-assistant.io/blog/2023/05/03/release-20235/)
+- 2023.5 [![](https://www.home-assistant.io/images/blog/2023-05/social.png)](https://www.home-assistant.io/blog/2023/05/03/release-20235/)
 
-- 2023.1 [![](https://www.home-assistant.io/images/blog/2023-06/social.png)](https://www.home-assistant.io/blog/2023/06/07/release-20236/)
+- 2023.6 [![](https://www.home-assistant.io/images/blog/2023-06/social.png)](https://www.home-assistant.io/blog/2023/06/07/release-20236/)
 
 --------
 
