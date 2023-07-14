@@ -11,6 +11,11 @@ tags: ["home assistant", "zigbee2mqtt"]
 
 ![AIS](/img/en/blog/202312/ais_version.png)
 
+:::caution
+
+To jest informacja o rozwojowej wersji systemu, która zostanie wydana w grudniu 2023. Pracę nad tą wersją oraz nad jej opisem jeszcze trwają.
+:::
+
 </div>
 
 <!--truncate-->
