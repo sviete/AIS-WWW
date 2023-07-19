@@ -54,9 +54,25 @@ Jeżeli nie jesteś w stanie wykonać procedury pełnego resetu i Twój system n
 Szczegóły opisane na forum w wątku: [Programowanie w serwisie](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)
 :::
 
-## ![](/img/en/blog/202312/ais_version.png) Paweł
+## Wersja systemu Paweł <img src="/img/en/blog/202312/ais_version.png" alt="drawing" width="100"/>
 
-W tej wersji systemu dostarczamy kody z X wydań zigbee2mqtt: oraz kody z X wydań Home Assistant: 2023.7.
+W tej wersji systemu aktualizujemy środowisko Linux i dostarczamy najnowsze wersje pakietów: apt bash binutils binutils-libs busybox c-ares ca-certificates clang cloudflared cmake command-not-found coreutils curl dash debianutils dialog diffutils dos2unix dpkg ed ffmpeg fontconfig freetype fribidi gawk gdk-pixbuf git glib gpgv grep htop inetutils krb5 ldns less libandroid-support libaom libarchive libass libassuan libbluray libc++ libcap libcompiler-rt libcurl libdav1d libedit libexpat libffi libgc libgcrypt libgd libgnutls libgpg-error libiconv libicu libidn2 libjpeg-turbo libllvm liblzma libmosquitto libmpfr libnettle libnghttp2 libopenblas libopus libpng librav1e libresolv-wrapper libsixel libsoxr libsqlite libssh2 libtiff libunistring libuuid libuv libvidstab libvpx libwebp libx264 libx265 libxml2 libxslt lld llvm lsof make mosquitto nano ncurses ncurses-ui-libs ndk-sysroot nodejs openssh openssh-sftp-server openssl openssl-1.1 p7zip pcre2 perl postgresql psmisc python python-cryptography python-numpy rclone readline rhash sed tar termux-keyring termux-tools ttyd unbound util-linux w3m wget xz-utils zlib zstd.
+
+### Python
+
+![](/img/en/blog/202312/python.png)
+
+### mqtt
+
+![](/img/en/blog/202312/mqtt.png)
+
+### Clang
+
+![](/img/en/blog/202312/clang.png)
+
+### FFmpeg
+
+![](/img/en/blog/202312/ffmpeg.png)
 
 
 ### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
