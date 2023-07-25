@@ -217,9 +217,9 @@ function AisSlider() {
                     id="homepage.ais_features.wifi.description"
                     description="Wifi number devices description"
                     values={{
-                      aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
+                      aisSocket: <Link to="https://templates.blakadder.com/index.html">WiFi S26</Link>,
                       moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2150</Link>,
-                      aizWifiImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br />
+                      aizWifiImg: <Link to="https://templates.blakadder.com/index.html" alt="AIS Wifi"> <br />
                         <div className="CarouselImage">
                           <div className="imgCenter"><img alt="AIS dom feature" src="img/s10_4.webp" alt="ble" /></div>
                         </div>

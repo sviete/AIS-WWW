@@ -78,7 +78,7 @@ W tej wersji systemu aktualizujemy środowisko Linux i dostarczamy najnowsze wer
 ### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
 
 Aktualizacja Zigbee2Mqtt do najnowszej wersji 1.32.1.
-W najnowszej wersji jest obsługiwanych [ponad 2900 urządzeń od ponad 370 producentów](https://www.zigbee2mqtt.io/supported-devices/):
+W najnowszej wersji jest obsługiwanych [ponad 3000 urządzeń od ponad 380 producentów](https://www.zigbee2mqtt.io/supported-devices/):
 
 [![](/img/en/blog/202306/zigbee2mqtt.png)](https://www.zigbee2mqtt.io/supported-devices/)
 
@@ -95,7 +95,7 @@ O nowościach w poszczególnych wersjach Zigbee2Mqtt można poczytać na stronie
 
 
 Najnowsza wersja Asystenta domowego 2023.7.2, czyli naszego pakietu ``ais-dom`` bazującego na Home Assistant Core.
-W najnowszej wersji [dostępne jest 2476 integracji](https://www.home-assistant.io/integrations/):
+W najnowszej wersji [dostępne jest 3489 integracji](https://www.home-assistant.io/integrations/):
 
 
 

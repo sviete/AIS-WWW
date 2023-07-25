@@ -60,7 +60,6 @@ Zastosowaliśmy nowy schemat autentykacji bazujący na mechanizmie IndieAuth.
 
 Tym razem dwie binarki, bo połączyliśmy popularne funkcje dostępne na różnych urządzeniach (gniazdka, rolety, panele dotykowe itd…) w jedną kompilację.
 Czyli ta jedna kompilacja ma wszystkie popularne funkcjonalności i będzie działać na wszystkich modułach.
-Dodatkowo w dokumentacji wyjaśniamy jaki wariant kompilacji dostarczamy i jakie ma [dostępne funkcje i czujniki](/docs/ais_iot_firmware_upgrade#dostępne-funkcje-i-czujniki)
 
 ![Oprogramowanie bramki](/img/en/iot/iot_device_menu.png)
 
