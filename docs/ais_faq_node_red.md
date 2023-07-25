@@ -21,7 +21,7 @@ Celem tego opisu jest wyjaśnienie na przykładzie kilku rzeczy:
 Przechodzimy do [konsoli na bramce](/docs/ais_bramka_remote_ssh) i wklejamy/wpisujemy w niej komendę:
 
 ```bash
-npm i -g --unsafe-perm node-red && termux-fix-shebang /data/data/pl.sviete.dom/files/usr/bin/node-red
+npm i -g --unsafe-perm node-red && termux-fix-shebang /data/data/com.termux/files/usr/bin/node-red
 ```
 
 Efekt powinien być taki jak na poniższym obrazku:

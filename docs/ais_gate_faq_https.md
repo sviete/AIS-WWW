@@ -20,7 +20,7 @@ odpowiedź w konsoli powinna być taka jak poniżej
 ``` bash
 $ cat $PREFIX/bin/Caddyfile
 :8123 {
-    tls /data/data/pl.sviete.dom/files/home/AIS/servercert.pem /data/data/pl.sviete.dom/files/home/AIS/privekey.pem
+    tls /data/data/com.termux/files/home/AIS/servercert.pem /data/data/com.termux/files/home/AIS/privekey.pem
     proxy / localhost:8180 {
         websocket
         transparent

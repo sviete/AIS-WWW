@@ -5,7 +5,7 @@ sidebar_label: Aktualizacja z konsoli
 
 ## Wprowadzenie
 
-System jest otwarty i obsługuje ponad 2300 komponentów. Wiele z tych komponentów jest automatycznie rozpoznawanych i automatycznie instaluje dodatkowe zależne pakiety.
+System jest otwarty i obsługuje ponad 2480 komponentów. Wiele z tych komponentów jest automatycznie rozpoznawanych i automatycznie instaluje dodatkowe zależne pakiety.
 
 Poniższa procedura może okazać się przydatna dla osób, które chcą obserwować przebieg procesu aktualizacji oraz dla osób, które mają problem z aktualizacją z aplikacji.
 
@@ -76,13 +76,15 @@ Kody skryptów aktualizacji dostępne są w repozytorium github pod adresami:
 - ALFA -> https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/alfa.sh
 
 ```bash
-#!/data/data/pl.sviete.dom/files/usr/bin/bash
+#!/data/data/com.termux/files/usr/bin/bash
 # AIS
 # Homepage: https://ai-speaker.com
 ################################################
 # Install ais-dom on PROD chanel
 # run it by executiong in AIS dom console:
-# curl -L https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/prod.sh | bash
+# curl -L https://raw.githubusercontent.com/sviete/AIS-utils/master/releases/prod.sh -o prod.sh
+# chmod +x prod.sh
+# ./prod.sh
 #
 # ...
 

@@ -107,7 +107,7 @@ function AisSlider() {
                         <Translate
                             id="homepage.ais_features.wifi.title"
                             description="Wifi number devices title"
-                            values={{devices: <span className="strongInfo">2600 🌐 </span>}}>
+                            values={{devices: <span className="strongInfo">2690 🌐 </span>}}>
                             {'Ponad {devices} urządzeń WiFi'}
                         </Translate>
                     </span>
@@ -117,19 +117,19 @@ function AisSlider() {
                     id="homepage.ais_features.wifi.description"
                     description="Wifi number devices description"
                     values={{
-                      aisSocket: <Link to="/docs/ais_iot_s26">WiFi S26</Link>,
+                      aisSocket: <Link to="https://templates.blakadder.com/index.html">WiFi S26</Link>,
                       moreWiFiDevices: <Link to="https://templates.blakadder.com/index.html">2600</Link>,
-                      aizWifiImg: <Link to="/docs/ais_iot_s26" alt="AIS Wifi"> <br />
+                      aizWifiImg: <Link to="https://templates.blakadder.com/index.html" alt="AIS Wifi"> <br />
                         <div className="CarouselImage">
-                          <div className="imgCenter"><img alt="AIS dom feature" src="img/ais_wifi_mini.png" alt="zigbee adapter" /></div>
+                          <div className="imgCenter"><img alt="AIS dom feature" src="img/ais_wifi_mini.png" alt="WiFi" /></div>
                         </div>
                       </Link>
                     }}>
-                  {'{aizWifiImg} Masz do wyboru ponad {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki w ten sam prosty sposób, co nasze Inteligentne gniazdo.'}
+                  {'{aizWifiImg} Masz do wyboru ponad {moreWiFiDevices} różnych urządzeń WiFi, które możesz podłączyć do bramki.'}
                 </Translate>
                 </span>
               </div>
-              <a href="/docs/ais_iot_s26" className="link">Read More</a>
+              <a href="https://templates.blakadder.com/index.html" className="link">Read More</a>
             </div>
           </article>
         </div>
@@ -155,7 +155,7 @@ function AisSlider() {
                     description="Zigbee number devices description"
                     values={{
                       aisZigbee: <Link to="/docs/ais_zigbee_index">Zigbee2Mqtt</Link>,
-                      moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">2450</Link>,
+                      moreZigbeeDevices: <Link to="https://www.zigbee2mqtt.io/information/supported_devices.html">3000</Link>,
                     }}
                 >
                   {'Ponad {moreZigbeeDevices} urządzeń Zigbee od 379 producentów jest wspieranych przez oprogramowanie {aisZigbee}, które dostarczamy na bramce.'}
@@ -273,7 +273,7 @@ function AisSlider() {
                         <Translate
                             id="homepage.ais_features.ha.title"
                             description="HA number of integrations title"
-                            values={{devices: 2470  }}
+                            values={{devices: 2480  }}
                         >
                             {'Ponad 🏠 {devices} Integracji'}
                         </Translate>

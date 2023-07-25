@@ -35,7 +35,7 @@ Wykonaj tą komendę, by udostępnić na bramce serwis SSH oraz HTTP w Onion:
 
 ```bash
 $ echo "SOCKSPort 127.0.0.1:9050
-HiddenServiceDir /data/data/pl.sviete.dom/files/home/.tor/hidden_dom
+HiddenServiceDir /data/data/com.termux/files/home/.tor/hidden_dom
 HiddenServicePort 22 127.0.0.1:8022
 HiddenServicePort 80 127.0.0.1:8180" > $PREFIX/etc/tor/torrc
 ```

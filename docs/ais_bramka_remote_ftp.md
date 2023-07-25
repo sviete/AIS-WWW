@@ -30,7 +30,7 @@ Ustawienia można zapisać lub od razu połączyć się przyciskiem Logowanie:
 
 W celu przejścia do edycji konfiguracji bramki, po połączeniu się z bramką za pomocą WinScp, w prawym oknie pojawi się nowa sesja połączenia z bramką - domyślnie katalog: /storage/emulated/0
 Klikamy dwukrotnie obok nazwy ścieżki aby zmienić katalog i wpisujemy:
-/data/data/pl.sviete.dom/files/home/AIS
+/data/data/com.termux/files/home/AIS
 
 ![Uruchomienie klienta ftp](/img/en/bramka/ftp_windows_2.png)
 
@@ -59,6 +59,6 @@ w lokalizacji [ftp://ais-dom.local:1024/sdcard/dom](ftp://ais-dom.local:1024/sdc
 
 
 ## konfiguracja systemu Asystent domowy
-w lokalizacji [ftp://ais-dom.local:1024/data/data/pl.sviete.dom/files/home/AIS](ftp://ais-dom.local:1024/data/data/pl.sviete.dom/files/home/AIS) znajduje się konfiguracja systemu Asystent domowy
+w lokalizacji [ftp://ais-dom.local:1024/data/data/com.termux/files/home/AIS](ftp://ais-dom.local:1024/data/data/pcom.termux/files/home/AIS) znajduje się konfiguracja systemu Asystent domowy
 
 ![Uruchomienie klienta ftp](/img/en/bramka/ftp_connection_4.png)

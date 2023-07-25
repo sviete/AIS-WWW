@@ -3,7 +3,7 @@ title: Integracje
 sidebar_label: Integracje dodatkowe
 ---
 
-Na **Bramce IoT dostarczamy zainstalowaną największą na świecie otwartą platformę do sterowania automatyką domową**, dzięki temu do Asystenta domowego można podłączyć ponad **2300 różnych komponentów**.
+Na **Bramce IoT dostarczamy zainstalowaną największą na świecie otwartą platformę do sterowania automatyką domową**, dzięki temu do Asystenta domowego można podłączyć ponad **2480 różnych komponentów**.
 
 ![Aplikacja asystent domowy](/img/en/iot/iot_hass.png)
 

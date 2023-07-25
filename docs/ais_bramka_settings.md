@@ -38,7 +38,7 @@ PM2 odpowiedzialny jest za zarządzanie stanem serwisów w systemie "Asystent do
 $ pm2 logs
 ```
 
-Użytkownik domyślny ma uprawnienia tylko do folderu /data/data/pl.sviete.dom/files, w którym to folderze znajdują się pakiety systemu Linux, oraz do podfolderu data/data/pl.sviete.dom/files/home/AIS, gdzie znajduje się konfiguracja systemu "Asystent domowy".
+Użytkownik domyślny ma uprawnienia tylko do folderu /data/data/com.termux/files, w którym to folderze znajdują się pakiety systemu Linux, oraz do podfolderu data/data/com.termux/files/home/AIS, gdzie znajduje się konfiguracja systemu "Asystent domowy".
 
 :::caution Uwaga
 W wersjach developerskich bramek dostępny jest też użytkownik **root** który ma dostęp do całego systemu.

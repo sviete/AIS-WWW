@@ -50,7 +50,7 @@ W przypadku wystąpienia problemów po zmianie konfiguracji brokeram Mqtt zaleca
 
 
 Broker, który dostarczamy na bramce, to [mosquitto](https://mosquitto.org/). Jego konfiguracja znajduje się w standardowym pliku **mosquitto.conf** w lokalizacji
-``/data/data/pl.sviete.dom/files/usr/etc/mosquitto/mosquitto.conf``
+``/data/data/com.termux/files/usr/etc/mosquitto/mosquitto.conf``
 
 ![MQTT](/img/en/integrations/mqtt_edit_mosquito_config.png)
 

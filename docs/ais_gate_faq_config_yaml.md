@@ -7,7 +7,7 @@ sidebar_label: configuration.yaml
 
 Dążymy do tego, żeby wszystkie podstawowe ustawienia i popularne integracje były dostępne z interfejsu użytkownika.
 
-Obecnie jednak nie wszystko jest jeszcze konfigurowalne za pośrednictwem interfejsu użytkownika i aby dodać integrację z niektórymi urządzeniami, wymagana jest ręczna edycja pliku konfiguracyjnego Asystenta domowego. Plik ten znajduje się na urządzeniu w folderze **/data/data/pl.sviete.dom/files/home/AIS** i ma nazwę **configuration.yaml**.
+Obecnie jednak nie wszystko jest jeszcze konfigurowalne za pośrednictwem interfejsu użytkownika i aby dodać integrację z niektórymi urządzeniami, wymagana jest ręczna edycja pliku konfiguracyjnego Asystenta domowego. Plik ten znajduje się na urządzeniu w folderze **/data/data//com.termux/files/home/AIS** i ma nazwę **configuration.yaml**.
 
 
 Konfiguracja ręczna w pliku pozwala też zaawansowanym użytkownikom na dodawanie własnych dowolnych komponentów.

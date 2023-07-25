@@ -104,7 +104,7 @@ Szczegóły w dokumentacji Zigbee2Mqtt: https://www.zigbee2mqtt.io/
 
 
 Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazującego na Home Assistant Core.
-W najnowszej wersji [dostępne jest ponad 2300 integracji](https://www.home-assistant.io/integrations/):
+W najnowszej wersji [dostępne jest ponad 2480 integracji](https://www.home-assistant.io/integrations/):
 
 [![](/img/en/blog/202301/ha.png)](https://www.home-assistant.io/integrations/)
 

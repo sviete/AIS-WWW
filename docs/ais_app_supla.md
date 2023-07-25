@@ -102,6 +102,6 @@ topic supla/+/devices/+/channels/+/execute_action out
 topic supla/+/devices/+/channels/+/set/+ out
 remote_username nazwa-użytkownika-z-supla*
 remote_password hasło-z-supla*
-bridge_cafile /data/data/pl.sviete.dom/files/usr/etc/tls/cert.pem
+bridge_cafile /data/data/com.termux/files/usr/etc/tls/cert.pem
 
 ```

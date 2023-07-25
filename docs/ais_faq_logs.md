@@ -36,7 +36,7 @@ pm2 logs mqtt --lines 20
 
 ### Pliki z logami
 
-Pliki logów procesów znajdziemy w lokalizacji **/data/data/pl.sviete.dom/files/home/.pm2/logs/**
+Pliki logów procesów znajdziemy w lokalizacji **/data/data/com.termux/files/home/.pm2/logs/**
 
 ![PM2](/img/en/bramka/pm2_console_logs_files.png)
 
@@ -45,7 +45,7 @@ Interesujący nas plik możemy skopiować do lokalizacji **/sdcard** a następni
 Kopiowanie plików w konsoli:
 ```bash
 mkdir /sdcard/logs
-cp /data/data/pl.sviete.dom/files/home/.pm2/logs/* /sdcard/logs
+cp /data/data/com.termux/files/home/.pm2/logs/* /sdcard/logs
 ```
 Połączenie FTP do bramki:
 [do konsoli łączymy się po FTP](/docs/ais_bramka_remote_ftp)
@@ -55,18 +55,18 @@ Połączenie FTP do bramki:
 
 Logi aktualizacji [dostępne są w aplikacji webowej](/docs/ais_bramka_update_logs)
 
-Możliwy jest też dostęp do nich z konsoli, znajdują się w lokalizacji **/data/data/pl.sviete.dom/files/home/AIS/www**
+Możliwy jest też dostęp do nich z konsoli, znajdują się w lokalizacji **/data/data/com.termux/files/home/AIS/www**
 w pliku **upgrade_log.txt**.
 Zawartość tego pliku możemy wyświetlić standardowymi metodami dostępnymi w systemie Linux, np. za pomocą komendy **cat**:
 
 ```bash
-cat /data/data/pl.sviete.dom/files/home/AIS/www/upgrade_log.txt
+cat /data/data/com.termux/files/home/AIS/www/upgrade_log.txt
 ```
 
 Możemy też na bieżąco kontrolować postęp aktualizacji komendą **tail -f**:
 
 ```bash
-tail -f /data/data/pl.sviete.dom/files/home/AIS/www/upgrade_log.txt
+tail -f /data/data/com.termux/files/home/AIS/www/upgrade_log.txt
 ```
 
 ## Logi systemu Android

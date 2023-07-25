@@ -102,12 +102,12 @@ p281:/ root
 
 ###  Kopia ustawnień aplikacji
 
-Wszystkie ustawienia Asystenta domowego dostępne są w folderze /data/data/pl.sviete.dom/files/home/AIS. Skopiujmy jego zawartość do lokalizacji /sdcard wykonując komendę:
+Wszystkie ustawienia Asystenta domowego dostępne są w folderze /data/data/pcom.termux/files/home/AIS. Skopiujmy jego zawartość do lokalizacji /sdcard wykonując komendę:
 
- **cp -r /data/data/pl.sviete.dom/files/home/AIS /sdcard/AIS**
+ **cp -r /data/data/com.termux/files/home/AIS /sdcard/AIS**
 
 ```bash
-p281:/ # cp -r /data/data/pl.sviete.dom/files/home/AIS /sdcard/AIS
+p281:/ # cp -r /data/data/com.termux/files/home/AIS /sdcard/AIS
 ```
 
 ###  Pobranie aplikacji android serwera OTA Asystent domowy

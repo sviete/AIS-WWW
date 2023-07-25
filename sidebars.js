@@ -146,11 +146,6 @@ module.exports = {
       "ais_zigbee_index",
       "ais_zigbee_add_to_gate"
     ],
-  "Inteligentne gniazdo WiFi": [
-      "ais_iot_s26",
-      "ais_iot_browser",
-      "ais_iot_mqtt"
-    ],
   "Bramka Blutooth LE": [
       "ais_iot_ble"
     ],
@@ -171,10 +166,6 @@ module.exports = {
     "ais_dev_kit_1_codes",
     "ais_dev_kit_1_files"
   ],
-    "Oprogramowanie dla urządzeń AIS dom": [
-      "ais_iot_firmware_index",
-      "ais_iot_firmware_upgrade"
-    ]
   },
   "Oferta PRO": {
     "AIS PRO": [

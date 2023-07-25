@@ -8,7 +8,7 @@ sidebar_label: Własny pakiet do systemu Linux
 Na urządzeniu dostarczamy emulator terminala i zestaw programów działających w konsoli (binarki skompilowane pod architekturę procesora na urządzeniu z uwzględnieniem prefiksu środowiska).
 Nasz system współdzieli jądro Linuksa z systemem Android. Dzięki temu mamy multimedia z Androida oraz interfejs tekstowy do shell-a i repozytorium pakietów APT z dodatkowymi binarkami na jednym urządzeniu w tym samym czasie.
 Jest to kompletne środowisko Linuxa, ale z jedną główną różnicą w stosunku do tradycyjnych dystrybucji — nasze środowisko jest z prefiksem.
-Środowisko z prefiksem (prefixed environment) oznacza, że struktura katalogów jest nieco inna niż w klasycznych dystrybucjach — np. w Ubuntu mamy /bin a w AIS-linux mamy $PREFIX /bin, gdzie $PREFIX w naszym przypadku odnosi się do /data/data/pl.sviete.dom/files/usr.
+Środowisko z prefiksem (prefixed environment) oznacza, że struktura katalogów jest nieco inna niż w klasycznych dystrybucjach — np. w Ubuntu mamy /bin a w AIS-linux mamy $PREFIX /bin, gdzie $PREFIX w naszym przypadku odnosi się do /data/data/com.termux/files/usr.
 
 ![](/img/en/bramka/faq_linux_package_compilation_1.png)
 
