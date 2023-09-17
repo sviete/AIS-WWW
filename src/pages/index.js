@@ -6,7 +6,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext';
 import styles from './styles.module.css';
 import Translate, {translate} from '@docusaurus/Translate';
 import Typewriter from 'typewriter-effect';
-import AisSlider from '../components/AisSlider';
+import HomepageFeatures from '../components/HomepageFeatures'
 
 
 function Home() {
@@ -73,43 +73,66 @@ function Home() {
                   }}
                 />
               </div>
-              <a href="docs/ais_bramka_index">
-                <img alt="AIS dom logo" className={styles.heroLogo} src="img/logo-responsive.svg" />
-              </a>
             </div>
 
-            <div className={classnames('col col--5')}>
-                <br></br>
+            <div className={classnames(styles.heroLogo)}>
+                 <h4>
+                    <Translate
+                        id="homepage.allegro_ask_to_try"
+                        description="The homepage ask to try demo">
+                        🛍️ Kup nasze urządzenie!
+                    </Translate>
+                  </h4>
+                <Link to="https://allegro.pl/uzytkownik/AI-Speaker">
+                <img src="/img/allegro.png"></img>
+                </Link>
+                <a href="https://allegro.pl/uzytkownik/AI-Speaker">
+                  <div className={styles.Text}>
+                  <Translate
+                        id="homepage.allegro_tip"
+                        description="The homepage tip to try demo">
+                        Kliknij 👆 aby przejść do sklepu.
+                    </Translate>
+                </div>
+                </a>
+            </div>
+
+            <div className={classnames(styles.heroLogo)}>
                  <h4>
                     <Translate
                         id="homepage.demo_ask_to_try"
                         description="The homepage ask to try demo">
-                        Chcesz zobaczyć, jak to działa?
+                        Zobacz jak to działa.🚀
                     </Translate>
                   </h4>
                 <Link to="https://dom-842b4861bcb86d18.paczka.pro">
-                  <img alt="AIS dom demo" className={styles.aisDemoImg} src="img/main/Anzela-Demo.png" />
+                  <img alt="AIS dom demo" src="img/main/Anzela-Demo.png" />
                 </Link>
                 <div className={styles.Text}>
+                  <a href="https://dom-842b4861bcb86d18.paczka.pro">
                   <Translate
                         id="homepage.demo_tip"
                         description="The homepage tip to try demo">
-                        Kliknij mnie 👆 aby przejść do demo.
+                        Kliknij 👆 aby przejść do demo.
                     </Translate>
+                  </a>
                 </div>
             </div>
+            
           </div>
-          <br /><br />
+        
+          <HomepageFeatures/>
+
           <div className="row">
             <div className={classnames('col logo-text-right')}>
               <a href="https://play.google.com/store/apps/details?id=pl.sviete.dom" aria-label={translate({message: 'Zainstaluj z Google Play.', description: 'Install from Google Play label',})}>
-                <img src="img/main/google-play-badge.png" alt="AIS in Google Play" max-width="40%"/>
+                <img src="img/main/google-play-badge.png" alt="AIS in Google Play" width="160px"/>
               </a>
             </div>
 
             <div className={classnames('col logo-text-left')}>
               <a href="https://apps.apple.com/us/app/home-assistant/id1099568401" aria-label={translate({message: 'Zainstaluj z Apple Store.', description: 'Install from Apple Store label',})}>
-                <img src="img/main/apple-store-badge.png" alt="AIS in Apple Store" max-width="40%"/>
+                <img src="img/main/apple-store-badge.png" alt="AIS in Apple Store" width="160px"/>
               </a>
             </div>
           </div>
@@ -118,33 +141,7 @@ function Home() {
       </header>
     </div>
 
-    <AisSlider/>
-
-    <div className={classnames(styles.announcement, styles.announcementDark, "announcementDark")}>
-        <div className={styles.announcementInner}>
-            <span>
-            <Translate
-                id="homepage.ais_announcement_line_one"
-                description="Announcement line one">
-                  Łączymy zalety lokalnego sterowania i automatyzacji z usługami w chmurach.
-            </Translate>
-              <br/>
-              <Translate
-                id="homepage.ais_announcement_line_two"
-                description="Announcement line two">
-                  Nasza bramka AIoT jest kompatybilna z popularnymi urządzeniami automatyki domowej, zawiera wiele wbudowanych integracji i ma aktywną społeczność użytkowników, która dzieli się pomysłami i rozwiązaniami.
-            </Translate>
-            <br/><br/>
-            <img alt="AIS gate"  src="img/ais_gate.png" />
-            <br/>
-            <Translate
-              id="homepage.ais_announcement_line_three"
-              description="Announcement line three">
-              Razem integrujemy fajny świat inteligentnych rzeczy, którymi można sterować i automatyzować. Świat, w którym jesteśmy niezależni, w którym są społeczności tworzone wokół otwartych projektów, w którym jest tak wiele możliwości i samouczków. Chcemy,  żeby ten świat był bardziej dostępny dla wszystkich ludzi.
-          </Translate>
-            </span>
-        </div>
-      </div>
+    {/* <AisSlider/> */}
 
       <main>
         <section className={styles.loveSection}>

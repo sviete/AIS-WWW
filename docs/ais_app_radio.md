@@ -5,7 +5,7 @@ sidebar_label: Radia Internetowe
 
 ## Radia internetowe
 
-Jednym z serwisów audio są radia internetowe. Standardowo "z pudełka" dostępne są setki stacji pogrupowanych po typie. Po uruchomieniu urządzenia wystarczy powiedzieć ***"Włącz radio {nazwa stacji}"*** aby słuchać ulubionej stacji radiowej.
+Jednym z serwisów audio są radia internetowe. Standardowo "z pudełka" dostępne są setki stacji pogrupowanych po typie. Po uruchomieniu urządzenia wystarczy powiedzieć ***"Włącz radio nazwa_stacji"*** aby słuchać ulubionej stacji radiowej.
 
 ![AIS Radio](/img/en/frontend/ais_integration_radio.png)
 

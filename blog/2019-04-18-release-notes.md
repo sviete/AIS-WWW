@@ -13,7 +13,7 @@ title: Wersja systemu 0.91.4  Wikipedia, kamery i łatwe dodawnie urządzeń
 Źródłem informacji do Google Knowledge Graph jest głównie Wikipedia. Wraz z bieżącą aktualizacją dodajemy możliwość wyszukania i odsłuchania całego artykułu z Wikipedii.
 
 Nowa komenda w sekcji **Wyszukiwanie informacji**: [Komendy głosowe Wikipedia](/docs/ais_app_assistent_commands#wyszukiwanie-informacji)
-Na początek obsługujemy jedną komendę głosową: "Wikipedia + {szukana fraza}", {szukana fraza} - może być dowolną nazwą.
+Na początek obsługujemy jedną komendę głosową: "Wikipedia + szukana_fraza", szukana_fraza - może być dowolną nazwą.
 
 ![Konfiguracja interfejsu użytkownika](/img/en/frontend/wikipedia_1.png)
 

@@ -151,7 +151,7 @@ Naciskamy przycisk **Deploy** w Node-RED, żeby ustanowić połączenia z Asyste
 - Name: **Cześć Jolka**
 - Domain: **ais_ai_service**
 - Service: **say_it**
-- Data: **{"text":"Cześć :)"}**
+- Data: **"text":"Cześć :)"**
 
 
 ![Połaczenie z asystentem](/img/en/faq/node_red_home_assistant_service_definition.png)

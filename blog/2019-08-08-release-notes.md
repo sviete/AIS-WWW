@@ -33,7 +33,7 @@ Oczywiście pierwszy użytkownik jest administratorem i to on, w konfiguracji, m
 Na pierwszej stronie dodaliśmy kartę z informacją o statusie osób oraz kartę z informacją o zdefiniowanych automatyzacjach.
 Informacje te dostępne też są z pilota (bez monitora).
 
-Automatyzacje możemy włączać głosowo nową komendą: "Uruchom + {nazwa automatyzacji}" lub "Automatyzacja " + {nazwa automatyzacji}
+Automatyzacje możemy włączać głosowo nową komendą: "Uruchom + nazwa_automatyzacji" lub "Automatyzacja " + nazwa_ automatyzacji
 [Komendy głosowe](/docs/ais_app_assistent_commands#uruchamianie-automatyzacji)
 
 

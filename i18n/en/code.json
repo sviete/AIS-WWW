@@ -235,6 +235,14 @@
     "message": "Click here 👆 to check out our live demo.",
     "description": "The homepage tip to try demo"
   },
+  "homepage.allegro_ask_to_try": {
+    "message": "Buy our devices!",
+    "description": "The homepage ask to try demo"
+  },
+  "homepage.allegro_tip": {
+    "message": "Click here 👆 to go to our store.",
+    "description": "The homepage tip to try demo"
+  },
   "homepage.scroll_tip": {
     "message": "scroll",
     "description": "The homepage tip to scroll"
@@ -386,5 +394,53 @@
   "homepage.ais_features.tunnel_service.description2": {
     "message": "Both our cloud services and the gateway tunnel are protected against direct attacks by {aisCloudFlare} services. Your gateway is secure no matter how you access it: from your local network, from a mobile app, or from the Internet.",
     "description": "Tunnel services description2"
+  },
+  "home.featureList.gate.title": {
+    "message": "Automation Controllers",
+    "description": "Automation Controllers title"
+  },
+  "home.featureList.gate.description": {
+    "message": "Our controllers operate on {soc}, have a built-in disk, as well as LAN/Ethernet, USB and HDMI ports.",
+    "description": "Automation Controllers description"
+  },
+  "home.featureList.gate.description.soc": {
+    "message": "efficient components",
+    "description": "Automation Controllers soc"
+  },
+  "home.featureList.esp.title": {
+    "message": "IoT adapters",
+    "description": "IoT adapters"
+  },
+  "home.featureList.esp.description": {
+    "message": "We also offer addapter {zigbee} for the controller, which allows you to easily use devices from various manufacturers.",
+    "description": "Automation Controllers esp"
+  },
+  "home.featureList.esp.description.zigbee": {
+    "message": "Zigbee, Matter and BLE",
+    "description": "Automation Controllers esp"
+  },
+  "home.featureList.system.title": {
+    "message": "System",
+    "description": "Automation Controllers title"
+  },
+  "home.featureList.system.description": {
+    "message": "We deliver the {info} home automation control platform installed on the controller!",
+    "description": "Automation Controllers description"
+  },
+  "home.featureList.system.description.info": {
+    "message": "the largest in the world",
+    "description": "Automation Controllers soc"
+  },
+  "home.featureList.addons.title": {
+    "message": "Addons",
+    "description": "Automation Controllers title"
+  },
+  "home.featureList.addons.description": {
+    "message": "Add-ons allow the user to easily extend {extend} by installing new applications.",
+    "description": "Automation Controllers description"
+  },
+  "home.featureList.addons.description.extend": {
+    "message": "controller functionality",
+    "description": "Automation Controllers soc"
   }
 }

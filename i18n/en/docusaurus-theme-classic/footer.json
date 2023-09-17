@@ -48,7 +48,7 @@
     "description": "The label of footer link with label=Regulamin linking to https://ai-speaker.com/ords/f?p=DOM1:TERMS_OF_SERVICE"
   },
   "copyright": {
-    "message": "Copyright © 2021 AI-Speaker.com",
+    "message": "Copyright © 2023 AI-Speaker.com",
     "description": "The footer copyright"
   }
 }

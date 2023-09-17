@@ -3,21 +3,21 @@
     "message": "Assistant at home",
     "description": "The title in the navbar"
   },
-  "item.label.Bramka": {
-    "message": "IoT Gate",
+  "item.label.Kontrolery": {
+    "message": "Controlers",
     "description": "Navbar item with label Bramka"
-  },
-  "item.label.Aplikacja": {
-    "message": "Application",
-    "description": "Navbar item with label Aplikacja"
-  },
-  "item.label.Integracje": {
-    "message": "Integrations",
-    "description": "Navbar item with label Integracje"
   },
   "item.label.Urządzenia": {
     "message": "Devices",
     "description": "Navbar item with label Urządzenia"
+  },
+  "item.label.Asystent": {
+    "message": "Assistent",
+    "description": "Navbar item with label Aplikacja"
+  },
+  "item.label.Dodatki": {
+    "message": "Addons",
+    "description": "Navbar item with label Integracje"
   },
   "item.label.Blog": {
     "message": "Blog",

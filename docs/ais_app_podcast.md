@@ -5,7 +5,7 @@ sidebar_label: Podkasty
 
 ## Podkasty
 
-Kolejnym serwisem audio dostępnym standardowo "z pudełka" są podkasty. Setki audycji pogrupowanych po typie jest dostępnych bezpośrednio po uruchomieniu urządzenia - wystarczy powiedzieć "Włącz podkast {nazwa audycji}" aby słuchać najnowszego odcinka wybranego podkasta.
+Kolejnym serwisem audio dostępnym standardowo "z pudełka" są podkasty. Setki audycji pogrupowanych po typie jest dostępnych bezpośrednio po uruchomieniu urządzenia - wystarczy powiedzieć "Włącz podkast 'nazwa audycji'" aby słuchać najnowszego odcinka wybranego podkasta.
 
 
 ![AIS Radio](/img/en/frontend/ais_integration_podcast.png)

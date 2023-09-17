@@ -42,8 +42,8 @@ W aplikacji OwnTracks otwórz pasek boczny i kliknij preferencje, a następnie p
 ![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_4.png)
 
 Identyfikacja:
-- Nazwa użytkownika: **<Twoja nazwa użytkownika>**
-- Identyfikator urządzenia: **<Twoja nazwa urządzenia>**
+- Nazwa użytkownika: **Twoja nazwa użytkownika**
+- Identyfikator urządzenia: **Twoja nazwa urządzenia**
 
 
 ![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_5.png)
@@ -58,11 +58,11 @@ W aplikacji OwnTracks kliknij (i) w lewym górnym rogu, następnie kliknij ustaw
 - Tryb: **HTTP**
 - URL: **Adres URL podany podczas konfigurowania integracji**
 - Włącz uwierzytelnianie
-- ID użytkownika: **<Twoje imię>**
+- ID użytkownika: **Twoje imię**
 
 ### Identyfikator urządzenia w systemie
 
-Twoje urządzenie będzie automatycznie dodane w Asystencie domowym jako **device_tracker.<Twoja nazwa użytkownika> _ <Twoja nazwa urządzenia>**.
+Twoje urządzenie będzie automatycznie dodane w Asystencie domowym jako **device_tracker. Twoja nazwa użytkownika _ Twoja nazwa urządzenia**.
 
 ![Konfiguracja wykrywania obecności](/img/en/bramka/presence_detection_6.png)
 

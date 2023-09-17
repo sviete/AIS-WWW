@@ -5,6 +5,7 @@
  */
 
 /* You can override the default Infima variables here. */
+/* AIS OLD */
 :root {
   --ifm-code-font-size: 95%;
   --ifm-color-primary: #ff9900;
@@ -16,6 +17,20 @@
   --ifm-color-primary-lightest: #ffb84d;
 
 }
+
+/* NEW AIS TODO */
+/* :root {
+  --ifm-code-font-size: 95%;
+  --ifm-color-primary: #038fc7;
+  --ifm-color-primary-dark: #017cad;
+  --ifm-color-primary-darker: #03719d;
+  --ifm-color-primary-darkest: #0b6b94  ;
+  --ifm-color-primary-light: #ffa31a;
+  --ifm-color-primary-lighter: #ffa826;
+  --ifm-color-primary-lightest: #ffb84d;
+
+} */
+
 
 html {
   background-color: #fff;

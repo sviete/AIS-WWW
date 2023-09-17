@@ -69,10 +69,16 @@
 .heroLogo {
   animation-duration: 3s;
   animation-name: jackInTheBox;
-  max-width: 25%;
+  max-width: 80%;
 }
 
-@media only screen and (max-width: 1096px) {
+@media only screen and (min-width: 1280px) {
+  .heroLogo {
+    padding: 5px;
+  }
+}
+
+@media only screen and (max-width: 1440px) {
   .hero {
     padding-left: 20px;
     padding-right: 20px;
@@ -91,7 +97,7 @@
     display: block;
     float: none;
     margin: 0 auto;
-    width: 20%;
+    width: 80%;
   }
 
   .indexCtas {

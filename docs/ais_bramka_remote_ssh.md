@@ -9,7 +9,7 @@ Asystent domowy dostarcza połączenie SSH za pośrednictwem bardzo popularnego 
 
 ## Dostęp do konsoli z klienta ssh
 
-W celu połączenia się przez SSH ze zdalnym serwerem SHH działającym na bramce, należy otworzyć konsolę (na swoim komputerze) i wpisać polecenie "ssh <adres_ip_bramki>", gdzie adres_ip_bramki to adres IP naszej bramki (np. 192.168.1.5).
+W celu połączenia się przez SSH ze zdalnym serwerem SHH działającym na bramce, należy otworzyć konsolę (na swoim komputerze) i wpisać polecenie "ssh adres_ip_bramki", gdzie adres_ip_bramki to adres IP naszej bramki (np. 192.168.1.5).
 
 ```bash
 $ ssh <IP-BRAMKI>

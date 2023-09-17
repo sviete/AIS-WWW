@@ -5,7 +5,7 @@ sidebar_label: Muzyka z YouTube
 
 ## YouTube
 
-YouTube to obecnie największy dostępny w Internecie serwis z darmową muzyką. Możemy odtworzyć praktycznie dowolną treść audio, wystarczy powiedzieć ***YouTube {nazwa do wyszukania}***
+YouTube to obecnie największy dostępny w Internecie serwis z darmową muzyką. Możemy odtworzyć praktycznie dowolną treść audio, wystarczy powiedzieć ***YouTube nazwa_do_wyszukania***
 
 ![AIS News](/img/en/frontend/ais_integration_yt.png)
 

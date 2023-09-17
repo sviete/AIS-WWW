@@ -1,12 +1,11 @@
 ---
-title: "Wbudowane komendy"
+title: Wbudowane komendy
 sidebar_label: Wbudowane komendy
 ---
 
 
 Asystent domowy posiada wbudowany komponent konwersacji, który obsługuje polecenia głosowe.
-Dzieje się to za pomocą konwertowania zarejestrowanych sentencji/zdań na intencje. W zdaniach mogą występować zmienne {umieszczone w nawiasach klamrowych} oraz opcjonalne słowa [umieszczone w nawiasach kwadratowych]. Takie zdania przetwarzane są przez system z uwzględnieniem kontekstu wcześniejszych działań, w celu jak najlepszego określenia intencji użytkownika i wykonania powiązanej z nią czynności.
-
+Dzieje się to za pomocą konwertowania zarejestrowanych sentencji/zdań na intencje. W zdaniach mogą występować zmienne "umieszczone w cudzysłowiu" oraz opcjonalne słowa [umieszczone w nawiasach kwadratowych]. Takie zdania przetwarzane są przez system z uwzględnieniem kontekstu wcześniejszych działań, w celu jak najlepszego określenia intencji użytkownika i wykonania powiązanej z nią czynności.
 
 Domyślnie asystent obsługuje:
 
@@ -17,8 +16,8 @@ Domyślnie asystent obsługuje:
 Możesz powiedzieć "włącz oświetlenie w kuchni", "wyłącz światło w salonie", "włącz lampy zewnętrzne", "wyłącz podlewanie trawnika" lub "włącz wentylator poziom dwa". W ten sposób możesz sterować oświetleniem i przełącznikami.
 
 ```text
-'Włącz {szukana-fraza}'; 'Zapal światło w {szukana-fraza}'
-'Wyłącz {szukana-fraza}'; 'Zgaś Światło w {szukana-fraza}'
+'Włącz "szukana-fraza"'; 'Zapal światło w "szukana-fraza"'
+'Wyłącz "szukana-fraza"'; 'Zgaś Światło w "szukana-fraza"'
 ```
 
 * **Przełączanie urządzeń**:
@@ -26,7 +25,7 @@ Możesz powiedzieć "włącz oświetlenie w kuchni", "wyłącz światło w salon
 Możesz powiedzieć "przełącz wentylator" itd. żeby przełączyć urządzenie z włączone na wyłączone lub odwrotnie. Jest to szczególnie przydatne, gdy sterujesz urządzeniem za pomocą komendy w tagu NFC - w ten sposób możesz jedną komendą "przełącz" zapisaną w tagu wykonywać dwie akcje "włącz" i "wyłącz".
 
 ```text
-'Przełącz {szukana-fraza}'
+'Przełącz "szukana-fraza"'
 ```
 
 * **Otwieranie i zamykanie**
@@ -34,8 +33,8 @@ Możesz powiedzieć "przełącz wentylator" itd. żeby przełączyć urządzenie
 Możesz powiedzieć "otwórz bramę w garażu", "odsłoń rolety w salonie" lub "zasłoń wszystkie rolety". W ten sposób możesz sterować roletami i bramami.
 
 ```text
-'Otwórz {szukana-fraza}'; 'Odsłoń {szukana-fraza}'
-'Zamknij {szukana-fraza}'; 'Zasłoń {szukana-fraza}'
+'Otwórz "szukana-fraza"'; 'Odsłoń "szukana-fraza"'
+'Zamknij "szukana-fraza"'; 'Zasłoń "szukana-fraza"'
 ```
 
 ## Odtwarzanie audio
@@ -45,7 +44,7 @@ Możesz powiedzieć "otwórz bramę w garażu", "odsłoń rolety w salonie" lub 
 Wystarczy, że powiesz "Włącz RMF", "Graj radio Zet" lub po prostu "Radio trójka"
 
 ```text
-'Włącz [radio] {szukana-fraza}'; 'Graj {szukana-fraza} radio'
+'Włącz [radio] "szukana-fraza"'; 'Graj "szukana-fraza" radio'
 ```
 
 * **Słuchanie podcastów**
@@ -53,7 +52,7 @@ Wystarczy, że powiesz "Włącz RMF", "Graj radio Zet" lub po prostu "Radio tró
 Żeby pobrać najnowsze odcinki podcasta i włączyć ostatni z nich, wystarczy powiedzieć "Podcast Niebezpiecznik" lub "Włącz podcast jak oszczędzać pieniądze"
 
 ```text
-'Podcast {szukana-fraza}'; 'Włącz [podcast] {szukana-fraza}'
+'Podcast "szukana-fraza"'; 'Włącz [podcast] "szukana-fraza"'
 ```
 
 * **Słuchanie muzyki z YouTube**
@@ -61,7 +60,7 @@ Wystarczy, że powiesz "Włącz RMF", "Graj radio Zet" lub po prostu "Radio tró
 Żeby wyszukać na YouTube interesującą Cię muzykę i ją odtwarzać, wystarczy powiedzieć "Muzyka Maria Peszek" lub "YouTube Brodka"
 
 ```text
-Włącz [z] [na] YouTube {szukana-fraza}'; 'YouTube {szukana-fraza}'
+Włącz [z] [na] YouTube "szukana-fraza"'; 'YouTube "szukana-fraza"'
 ```
 
 ## Sterowanie odtwarzaczem
@@ -104,7 +103,7 @@ Możesz też zapytać Asystenta o status każdego elementu systemu
 Wystarczy, że zapytasz "Jaka jest temperatura w salonie" lub "Jaka jest wilgotność w łazience", możesz też pytać o czujniki zewnętrzne raportujące dane z serwisów, np. "jaki jest poziom UV" czy "jaka jest pozycja słońca"
 
 ```text
-'[Jaki] [ma] status {szukana-fraza}'
+'[Jaki] [ma] status "szukana-fraza"'
 ```
 
 * **Sprawdzanie wartości innych dowolnych elementów systemu**
@@ -112,7 +111,7 @@ Wystarczy, że zapytasz "Jaka jest temperatura w salonie" lub "Jaka jest wilgotn
 Zapytaj "jaki jest adres IP" by otrzymać informację o IP urządzenia, lub "jaki jest status światła w kuchni" by dowiedzieć się, czy światło jest włączone, lub "jaki jest głos" by otrzymać informację o ustawionym głosie asystenta
 
 ```text
-'Jaki jest {szukana-fraza}'; 'Jaka jest {szukana-fraza}''
+'Jaki jest "szukana-fraza"'; 'Jaka jest "szukana-fraza"''
 ```
 
 
@@ -121,13 +120,13 @@ Zapytaj "jaki jest adres IP" by otrzymać informację o IP urządzenia, lub "jak
 Zapytaj "Co to jest ONZ" lub "Kto to jest Andrzej Wajda", by otrzymać zwięzłą informację z bazy wiedzy
 
 ```text
-'Wyszukaj {szukana-fraza}'; 'Znajdź informację o {szukana-fraza}'
+'Wyszukaj "szukana-fraza"'; 'Znajdź informację o "szukana-fraza"'
 ```
 
 Powiedz "Wikipedia Wielkanoc" lub "Wikipedia Polska" by otrzymać pełny artykuł z Wikipedii
 
 ```text
-'Wikipedia {szukana-fraza}'
+'Wikipedia "szukana-fraza"'
 ```
 
 ## Godzina i data
@@ -143,7 +142,7 @@ Tu oczywiście działają komendy typu "Która godzina" i "Jaki jest dzisiaj dzi
 Zdefiniowaną scenę można aktywować komendą "Scena romantyczna" lub "Aktywuj scenę oglądanie filmu"
 
 ```text
-'Scena {szukana-fraza}'; 'Aktywuj [scenę] {szukana-fraza}'
+'Scena "szukana-fraza"'; 'Aktywuj [scenę] "szukana-fraza"'
 ```
 
 ## Sterowanie ogrzewaniem
@@ -153,7 +152,7 @@ Zdefiniowaną scenę można aktywować komendą "Scena romantyczna" lub "Aktywuj
 Powiedz "Ogrzewanie kuchnia 21 stopni[e]"
 
 ```text
-'Ogrzewanie [w] {pomieszczenie} {stopni} stopni[e]'
+'Ogrzewanie [w] "pomieszczenie" "stopni" stopni[e]'
 ```
 
 * **Zmiana trybu ogrzewania**
@@ -161,7 +160,7 @@ Powiedz "Ogrzewanie kuchnia 21 stopni[e]"
 Powiedz "Ogrzewanie tryb poza domem" lub Powiedz "Ogrzewanie tryb w domu"
 
 ```text
-'Ogrzewanie tryb {nazwa trybu}'
+'Ogrzewanie tryb "nazwa trybu"'
 ```
 
 Inne możliwe tryby (pod warunkiem, że obsługuje je Twoja konfiguracja ogrzewania) to:
@@ -189,7 +188,7 @@ Włącz całe ogrzewnie
 (docelowo będziemy jeszcze wskazywali na jaki odtwarzacz/głośnik ma być przesyłany tekst)
 
 ```text
-Powiedz {szukana-fraza}'; 'Mów {szukana-fraza}'; 'Echo {szukana-fraza}
+Powiedz "szukana-fraza"'; 'Mów "szukana-fraza"'; 'Echo "szukana-fraza"
 ```
 
 
@@ -198,7 +197,7 @@ Powiedz {szukana-fraza}'; 'Mów {szukana-fraza}'; 'Echo {szukana-fraza}
 Żeby asystentka wyszukała na Spotify i odtworzyła utwory Dawida Podsiadło, wystarczy powiedzieć: "Spotify Dawid Podsiadło"
 W podobny sposób możemy szukać albumu lub listy utworów.
 ```text
-Spotify {wykonawca/album/playlista}
+Spotify "wykonawca/album/playlista"
 ```
 
 ## Literowanie
@@ -206,7 +205,7 @@ Spotify {wykonawca/album/playlista}
 Możemy kazać przeliterować asystentce status dowolnego elementu systemu. Wystarczy powiedzieć "Przeliteruj " i dodać nazwę elementu:
 
 ```text
-Przeliteruj {nazwa elementu}
+Przeliteruj "nazwa elementu"
 ```
 
 ## Uruchamianie automatyzacji
@@ -215,19 +214,19 @@ Przeliteruj {nazwa elementu}
 Możemy uruchomić dowolną zdefiniowaną w systemie automatyzację za pomocą komendy:
 
 ```text
-Jolka {nazwa automatyzacji}
+Jolka "nazwa automatyzacji"
 ```
 
 lub
 
 ```text
-Uruchom {nazwa automatyzacji}
+Uruchom "nazwa automatyzacji"
 ```
 
 lub
 
 ```text
-Automatyzacja {nazwa automatyzacji}
+Automatyzacja "nazwa automatyzacji"
 ```
 
 Możemy też dodać do nazwy automatyzacji prefiks "Jolka: ", dzięki temu Asystent zrozumie, że nazwa po prefiksie to komenda i po jej wypowiedzeniu uruchomi automatyzację.
@@ -240,7 +239,7 @@ Więcej informacji na stronie [Komenda w automatyzacji](/docs/ais_app_assistent_
 Możemy dodać [integrację z Google Home](/docs/ais_app_ai_integration_google_home) i przesyłać komendy głosowe do Google:
 
 ```text
-Google {komenda/polecenie}
+Google "komenda/polecenie"
 ```
 
 ## Sprawdzenie lokalizacji osoby
@@ -248,10 +247,10 @@ Google {komenda/polecenie}
 Możemy sprawdzić lokalizację osoby za pomocą komendy:
 
 ```text
-Gdzie jest {osoba}
+Gdzie jest "osoba"
 ```
 lub
 
 ```text
-Lokalizacja {osoba}
+Lokalizacja "osoba"
 ```

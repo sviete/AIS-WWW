@@ -10,7 +10,7 @@ W aplikacji “Asystent domowy”, w zakładce **Narzędzia deweloperskie** dost
 polecenie `pm2 logs` wyświetla aktualne logi bramki.
 
 
-Będą w lokalnej sieci (taj samej co bramka) możemy uruchomić konsole w osobnym oknie przeglądarki, pod adresem: http://ais-dom.local:8888 lub http://**<lokalny_adres_ip_bramki>**:8888
+Będą w lokalnej sieci (taj samej co bramka) możemy uruchomić konsole w osobnym oknie przeglądarki, pod adresem: http://ais-dom.local:8888 lub http://**lokalny_adres_ip_bramki**:8888
 
 Dzięki temu możemy uruchomić aktualizacje (w jednej karcie przeglądarki) oraz konsole (w drugiej karcie przeglądarki) i ślcedzić logi aktualizacji.
 W przypadku problemu z aktualizacją logi możemy wysłać do serwisu AI-Speaker. info@ai-speaker.com
