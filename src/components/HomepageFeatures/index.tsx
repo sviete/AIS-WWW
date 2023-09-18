@@ -18,7 +18,7 @@ const FeatureList: FeatureItem[] = [
       id: 'home.featureList.gate.title',
       message: 'Kontrolery',
     }),
-    Svg: '/img/ais_gate.png',
+    Svg: '/img/ais_gate_dev3.png',
     linkTo: "docs/ais_bramka_index",
     description: (
       <Translate
@@ -34,7 +34,7 @@ const FeatureList: FeatureItem[] = [
         }}
       >
         {
-          "Nasze kontrolery automatyki działają na {soc}, posiadają wbudowane dysk, a także porty LAN/Ethernet, USB, HDMI."
+          "Nasze kontrolery automatyki działają na {soc}, posiadają wbudowane dysk, a także porty LAN, USB, HDMI."
         }
       </Translate>
     ),
@@ -62,7 +62,7 @@ const FeatureList: FeatureItem[] = [
           ),
         }}
       >
-        {'Do kontrolera oferujemy dodatkowo adapter {zigbee}, który daje możliwość łatwego korzystania z urządzeń różnych producentów.'}
+        {'Do kontrolera oferujemy dodatkowo adapter {zigbee}, który daje możliwość korzystania z urządzeń różnych producentów.'}
       </Translate>
     ),
   },
@@ -127,7 +127,7 @@ const FeatureList: FeatureItem[] = [
           ),
         }}
       >
-        {'Dodatki pozwalają użytkownikowi łatwo rozszerzyć {extend} poprzez poprzez instalacje nowych aplikacji.'}
+        {'Dodatki pozwalają użytkownikowi łatwo rozszerzyć {extend} poprzez instalacje nowych aplikacji.'}
       </Translate>
     ),
   },
