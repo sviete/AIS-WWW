@@ -5,6 +5,9 @@ sidebar_label: Wprowadzenie
 
 ## Opis
 
+![ais](/img/AIS-ADAPTER-1/btproxy.png)
+
+
 GL-S10 to bramka IoT, która obsługuje BLE i Wi-Fi, zapewniając ekonomiczne rozwiązanie do przesyłania danych transmisji BLE. 
 Urządzenie ma wbudowanego standardowego klienta MQTT, który może łączyć się serwerem MQTT, aby przekazywać przychodzące wiadomości BLE do serwera w MQTT. Bramka może być zasilana z portu PoE lub z zewnętrznego zasilacza 5V. 
 
@@ -83,17 +86,10 @@ Urządzenie ma wbudowanego standardowego klienta MQTT, który może łączyć si
 
  ## Dostępność i cena
 
-:::info SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ
-Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową AIS dom.
-Są to urządzenia, które spełniają wszystkie cechy, by były przez nas rekomendowane do zastosowania w Twoim domu.
-
-Aktualna cena urządzeń jest dostępna:
-
-- u naszego oficjalnego dystrybutora [botland.com.pl](https://botland.com.pl/pl/227_prd_ai-speaker)
-
-[<img src="/img/en/icons/botland.png" alt="drawing" width="200"/>](https://botland.com.pl/pl/227_prd_ai-speaker)
-
-- na naszych aukcjach na platformie [allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker) 
-
-[<img src="/img/en/icons/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker) 
+:::warning Sklep
+<center>
+[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
+<br/>
+[<img src="/img/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker)
+</center>
 :::

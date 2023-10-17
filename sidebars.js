@@ -1,7 +1,8 @@
 module.exports = {
   "System": {
-    "Bramka AIoT": [
+    "Kontrolery": [
       "ais_bramka_index",
+      "ais_bramka_pro1",
       "ais_bramka_connect",
       "ais_bramka_first_run_the_gate",
       "ais_bramka_first_run",
@@ -142,9 +143,14 @@ module.exports = {
     ]
   },
   "Urządznia": {
-    "Zigbee USB Adapter": [
-      "ais_zigbee_index",
-      "ais_zigbee_add_to_gate"
+    "AIS Adapter 1": [
+      "ais_zigbee_index"
+    ],
+    "Conbee 2": [
+      "zigbee_conbee2"
+    ],
+    "SLZB-06M": [
+      "zigbee_slzb_06m"
     ],
   "Bramka Blutooth LE": [
       "ais_iot_ble"

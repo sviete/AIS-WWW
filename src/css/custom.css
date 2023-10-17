@@ -68,6 +68,26 @@ div.aisFeatureTitle {
   background-repeat: no-repeat;
 }
 
+.navbar__item.navbar__link[href*="allegro"] {
+  display: flex;
+  font-size: 0.7em;
+}
+.navbar__item.navbar__link[href*="allegro"]:before {
+  content: "";
+  width: 38px;
+  height: 28px;
+  background: url("/img/buy.svg");
+  background-repeat: no-repeat;
+}
+
+.navbar__item.navbar__link[href*="allegro"] > svg {
+  display: none;
+}
+
+.navbar__item.navbar__link[href*="discourse.group"] > svg {
+  display: none;
+}
+
 a {
   color: var(--ifm-color-primary-darkest);
 }
@@ -125,6 +145,9 @@ a.button.button--danger {
 
 
 @media only screen and (min-device-width: 360px) and (max-device-width: 736px) {
+  .navbar__brand {
+    display: none;
+  }
 }
 
 @media only screen and (min-width: 997px) {

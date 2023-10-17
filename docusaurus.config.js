@@ -121,12 +121,17 @@ module.exports = {
         {to: 'docs/ais_dom_pro_index', label: 'PRO', position: 'left'},
         { type: 'localeDropdown', position: 'right',
         },
+        {
+          href: 'https://allegro.pl/uzytkownik/AI-Speaker',
+          label: 'Sklep',
+          position: 'right',
+        },
         {to: 'blog', label: 'Blog', position: 'right'},
         {
           href: 'https://ai-speaker.discourse.group/',
           label: 'Forum',
           position: 'right',
-        },
+        }
       ],
     },
     footer: {

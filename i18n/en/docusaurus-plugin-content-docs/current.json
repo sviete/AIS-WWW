@@ -95,8 +95,8 @@
     "message": "Oprogramowanie dla urządzeń AIS dom",
     "description": "The label for category Oprogramowanie dla urządzeń AIS dom in sidebar Urządznia"
   },
-  "sidebar.Urządznia.category.Zigbee USB Adapter": {
-    "message": "Zigbee USB Adapter",
-    "description": "The label for category Zigbee USB Adapter in sidebar Urządznia"
+  "sidebar.Urządznia.category.Zigbee Adapter": {
+    "message": "Zigbee Adapter",
+    "description": "The label for category Zigbee Adapter in sidebar Urządznia"
   }
 }
