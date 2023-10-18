@@ -1,13 +1,15 @@
 ---
-title: "Pierwsze uruchomienie - Konto właściciela"
-sidebar_label: Konto właściciela
+title: "Bramka na systemie Linux"
+sidebar_label: Bramka na systemie Linux
 ---
 
-Przy pierwszym uruchomieniu **Asystenta domowego** wykonujemy początkową prostą konfigurację. Pierwszym krokiem konfiguracji jest utworzenie konta właściciela - to konto będzie miało uprawniania administratora z pełnym dostępem do wszystkich elementów systemu i możliwością dodawania innych kont.
-
-## Nowe konto
 
 import BrowserWindow from '@site/src/components/BrowserWindow';
+
+W systemie Linux zainstalowany jest Home Assistant Supervised. Ta metoda instalacji zapewnia pełną funkcjonalność Home Assistant w systemie operacyjnym Linux. Oznacza to, że używane są wszystkie komponenty Home Assistant. Supervisor to nie tylko aplikacja, to kompletne narzędzie zarządzające całym systemem.
+
+
+## Połączenie z kontrolerem po ssh
 
 <BrowserWindow url="http://ais-dom.local">
 <center>

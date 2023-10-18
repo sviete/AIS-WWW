@@ -4,37 +4,46 @@ module.exports = {
       "ais_bramka_index",
       "ais_bramka_pro1",
       "ais_bramka_connect",
-      "ais_bramka_first_run_the_gate",
-      "ais_bramka_first_run",
       {
         "type": "category",
-        "label": "Początkowa konfiguracja Asystenta domowego",
+        "label": "Pierwsze uruchomienie kontrolera",
+        "link": {
+          "type": "generated-index"
+        },
+        "collapsed": false,
         "items": [
-          "ais_bramka_first_run_step_account",
-          "ais_bramka_first_run_step_location",
-          "ais_bramka_first_run_step_integration",
-          "ais_bramka_first_run_step_mobile"
+          "ais_bramka_first_run_the_gate_linux",
+          {
+            "type": "category",
+            "label": "Android",
+            "link": {
+              "type": "generated-index"
+            },
+            "collapsed": false,
+            "items": [
+              "ais_bramka_first_run_the_gate",
+              "ais_bramka_first_run",
+              {
+                "type": "category",
+                "label": "Początkowa konfiguracja Asystenta domowego",
+                "link": {
+                "type": "generated-index"
+                },
+                "collapsed": false,
+                "items": [
+                  "ais_bramka_first_run_step_account",
+                  "ais_bramka_first_run_step_location",
+                  "ais_bramka_first_run_step_integration",
+                  "ais_bramka_first_run_step_mobile"
+                ]
+              },
+            ]
+          },
         ]
       },
       {
         "type": "category",
-        "label": "Zarządzanie bramką z poziomu Asystenta domowego",
-        "items": [
-          "ais_bramka_configuration",
-          "ais_bramka_configuration_software",
-          "ais_bramka_configuration_wifi",
-          "ais_bramka_configuration_screen",
-          "ais_bramka_configuration_tts",
-          "ais_bramka_configuration_night_mode",
-          "ais_bramka_configuration_remote_access",
-          "ais_bramka_configuration_logs_and_db",
-          "ais_bramka_configuration_usb",
-          "ais_bramka_configuration_restart_stop"
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Automatyzacje",
+        "label": "Automatyzacje na kontrolerze",
         "items": [
           "ais_bramka_automation",
           "ais_bramka_automation_blueprint",
@@ -46,38 +55,84 @@ module.exports = {
         ]
     },
     ],
-    "Dostęp w sieci lokalnej": [
-      "ais_bramka_remote_index",
-      "ais_bramka_remote_http",
-      "ais_bramka_remote_ftp",
-      "ais_bramka_remote_ssh",
-      "ais_bramka_remote_adb",
-      "ais_bramka_mqtt"
-    ],
-    "Dostęp z Internetu": [
+
+    "Zarządzanie kontrolerem z systemem Android": [
+    {
+      "type": "category",
+      "label": "Dostęp w sieci lokalnej",
+      "link": {
+        "type": "generated-index"
+      },
+      "collapsed": false,
+      "items": [
+          "ais_bramka_remote_index",
+          "ais_bramka_remote_http",
+          "ais_bramka_remote_ftp",
+          "ais_bramka_remote_ssh",
+          "ais_bramka_remote_adb",
+          "ais_bramka_mqtt"
+        ]
+    },
+    {
+      "type": "category",
+      "label": "Dostęp z Internetu",
+      "link": {
+        "type": "generated-index"
+      },
+      "collapsed": false,
+      "items": [
       "ais_bramka_remote_www_index",
       "ais_bramka_remote_dom_others"
-    ],
-    "Portal Integratora": [
-      "ais_dom_cloud_index",
-      "ais_dom_cloud_login",
-      "ais_dom_cloud_gates",
-      "ais_dom_cloud_gate_backup",
-      "ais_dom_cloud_update_chanel",
-      "ais_dom_cloud_content",
-      "ais_dom_cloud_services",
-      "ais_dom_cloud_services_terms"
-    ],
-    "Ustawienia zaawansowane": [
+     ]
+    },
+    {
+      "type": "category",
+      "label": "Portal Integratora",
+      "link": {
+        "type": "generated-index"
+      },
+      "collapsed": false,
+      "items": [
+        "ais_dom_cloud_index",
+        "ais_dom_cloud_login",
+        "ais_dom_cloud_gates",
+        "ais_dom_cloud_gate_backup",
+        "ais_dom_cloud_update_chanel",
+        "ais_dom_cloud_content",
+        "ais_dom_cloud_services",
+        "ais_dom_cloud_services_terms"
+      ]
+    },
+    {
+      "type": "category",
+      "label": "Ustawienia zaawansowane",
+      "link": {
+        "type": "generated-index"
+      },
+      "collapsed": false,
+      "items": [
       "ais_bramka_services",
       "ais_bramka_settings",
       "ais_bramka_api_index",
       "ais_bramka_api_command",
       "ais_bramka_api_led"
-    ],
-    "Reset urządzenia do ustawień fabrycznych": [
+      ],
+    },
+    {
+      "type": "category",
+      "label": "Reset urządzenia do ustawień fabrycznych",
+      "link": {
+        "type": "generated-index"
+      },
+      "collapsed": false,
+      "items": [
       "ais_bramka_reset_index"
-    ]
+      ],
+    },
+  ],
+  "Zarządzanie kontrolerem z systemem Linux": [
+    "ais_bramka_linux_info"
+  ]
   },
   "Aplikacja": {
     "Aplikacja internetowa": [
