@@ -7,6 +7,9 @@ title: Wersja systemu Paweł
 tags: ["home assistant", "zigbee2mqtt"]
 ---
 
+import BrowserWindow from '@site/src/components/BrowserWindow';
+
+
 <div class="IntroAisBlogMenu" >
 
 ![AIS](/img/en/blog/202312/ais_version.png)
@@ -60,32 +63,58 @@ W tej wersji systemu aktualizujemy środowisko Linux i dostarczamy najnowsze wer
 
 ### Python
 Home Assistant serwer jest napisany i działa z Pythonem 3. Na bramce dostarczamy najnowszą, stabilną, wspieraną przez Home Assistant wersję Python.
+
+<BrowserWindow url="http://ais-dom.local">
+<center>
 ![](/img/en/blog/202312/python.png)
+</center>
+</BrowserWindow>
 
 ### mqtt
 Mosquitto to broker komunikatów, który implementuje protokoły MQTT w wersjach 5.0, 3.1.1 i 3.1. Mosquitto jest lekki i nadaje się do stosowania na wszystkich urządzeniach, od bramki AIS czy komputerów jednopłytkowych o niskim poborze mocy po pełne serwery.
 
+<BrowserWindow url="http://ais-dom.local">
+<center>
 ![](/img/en/blog/202312/mqtt.png)
+</center>
+</BrowserWindow>
 
 ### Clang
 Narzędzie clang to kompilator używany do kompilowania języków programowania, takich jak C, C, Objective C i Objective C, do kodu maszynowego. 
 Clang na bramce używamy do kompilowania rozszerzeń Pythona - używamy tego samego kompilatora do budowania rozszerzeń, którego użyto do zbudowania dystrybucji Pythona. Dzięki obecności clang na bramce AIS, można oczywiście kompilować własne programy napisane w C/C++ i je uruchamiać bezpośrednio na bramce AIS.
 
+<BrowserWindow url="http://ais-dom.local">
+<center>
 ![](/img/en/blog/202312/clang.png)
+</center>
+</BrowserWindow>
 
 ### FFmpeg
 FFmpeg umożliwia platformie Home Assistant przetwarzanie strumieni wideo i audio.
-![](/img/en/blog/202312/ffmpeg.png)
 
+<BrowserWindow url="http://ais-dom.local">
+<center>
+![](/img/en/blog/202312/ffmpeg.png)
+</center>
+</BrowserWindow>
 
 ### Coder
 W tej wersji dostarczamy platformę developerską ``Coder``. Dzięki niej można w łatwy sposób rozwijać własne programy lub edytować konfigurację systemu bezpośrednio na bramce AIS.
+
+<BrowserWindow url="http://ais-dom.local">
+<center>
 ![](/img/en/blog/202312/code.png)
+</center>
+</BrowserWindow>
 
 ### Tmux
 Naszym domyślnym terminalem jest teraz Tmux. Tmux pozwala nam ponownie się połączyć do utraconej sesji ssh, czy też pomóc w zarządzaniu długo trwającymi skryptami. Dodatkowo możemy skorzystać z opcji podziału okna na kilka terminali i zarządzać na ekranie jednocześnie kilkoma programami na raz.
 
+<BrowserWindow url="http://ais-dom.local">
+<center>
 ![](/img/en/blog/202312/tmux.png)
+</center>
+</BrowserWindow>
 
 ### ![](/img/en/blog/202102/honeybee.png) Zigbee2Mqtt
 

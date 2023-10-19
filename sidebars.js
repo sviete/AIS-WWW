@@ -44,6 +44,10 @@ module.exports = {
       {
         "type": "category",
         "label": "Automatyzacje na kontrolerze",
+        "link": {
+          "type": "generated-index"
+          },
+          "collapsed": false,
         "items": [
           "ais_bramka_automation",
           "ais_bramka_automation_blueprint",
@@ -55,6 +59,7 @@ module.exports = {
         ]
     },
     ],
+
 
     "Zarządzanie kontrolerem z systemem Android": [
     {
@@ -135,6 +140,8 @@ module.exports = {
   ]
   },
   "Aplikacja": {
+
+
     "Aplikacja internetowa": [
       "ais_app_index",
       "ais_app_dashboards",
