@@ -30,7 +30,7 @@ function Home() {
       <header className={classnames('hero', styles.heroBanner)}>
         <div className="container">
           <div className="row">
-            <div className={classnames('col col--5 col--offset-1')}>
+            <div className={classnames('col col--6 col--offset-1')}>
               <h1 className="hero__title">
                 <Translate
                     id="homepage.hero_title"
@@ -76,13 +76,6 @@ function Home() {
             </div>
 
             <div className={classnames(styles.heroLogo)}>
-                 <h4>
-                    <Translate
-                        id="homepage.allegro_ask_to_try"
-                        description="The homepage ask to try demo">
-                        🛍️ Kup nasze urządzenie!
-                    </Translate>
-                  </h4>
                 <Link to="https://allegro.pl/uzytkownik/AI-Speaker">
                 <img src="/img/allegro.png"></img>
                 </Link>
@@ -97,14 +90,7 @@ function Home() {
                 </a>
             </div>
 
-            <div className={classnames(styles.heroLogo)}>
-                 <h4>
-                    <Translate
-                        id="homepage.demo_ask_to_try"
-                        description="The homepage ask to try demo">
-                        Zobacz jak to działa.🚀
-                    </Translate>
-                  </h4>
+            {/* <div className={classnames(styles.heroLogo)}>
                 <Link to="https://dom-842b4861bcb86d18.paczka.pro">
                   <img alt="AIS dom demo" src="img/main/Anzela-Demo.png" />
                 </Link>
@@ -117,7 +103,7 @@ function Home() {
                     </Translate>
                   </a>
                 </div>
-            </div>
+            </div> */}
             
           </div>
         
@@ -143,7 +129,7 @@ function Home() {
 
     {/* <AisSlider/> */}
 
-      <main>
+      {/* <main>
         <section className={styles.loveSection}>
           <div className={classnames('container')}>
             <div className="row">
@@ -168,6 +154,8 @@ function Home() {
                 <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Tomek.webp" /></a>
                 <a href="https://github.com/sviete"><img alt="AIS dom user" className={styles.sponsorImg} src="img/main/Ania.webp" /></a>
               </div>
+
+
               <div className={classnames('col col--2', styles.loveSectionPlea)}>
                 <div>
                   <a href="https://allegro.pl/uzytkownik/AI-Speaker">
@@ -202,10 +190,12 @@ function Home() {
                   </Translate>
                 </Link>
               </div>
+
             </div>
           </div>
         </section>
-      </main>
+      </main> */}
+
     </Layout>
   );
 }

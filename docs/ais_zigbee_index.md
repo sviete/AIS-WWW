@@ -88,7 +88,18 @@ W zakładce `System tools` dostępna jest aktualizacja systemu. możliwość prz
 
 :::warning Sklep
 <center>
-[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
+<button className="snipcart-add-item button button--outline button--secondary button--lg"
+              data-item-id="ais-adapter-1"
+              data-item-description="AIS ADAPTER 1, Zigbee 3.0 Adapter {info} urządzeń zigbee (będących jednocześnie online), ma zasięg 200 metrów i działa w sieci LAN."
+              data-item-image="/img/ais_adapter_1.png"
+              data-item-name="AIS ADAPTER 1"
+              data-item-price="{&quot;usd&quot;:45,&quot;eur&quot;:40, &quot;pln&quot;: 179}"
+              data-item-custom1-name="Wiadomość"
+              data-item-custom1-type="textarea"
+              >
+              Dodaj do koszyka  
+            </button>
+[Urządzenie jest też dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
 <br/>
 [<img src="/img/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker)
 </center>

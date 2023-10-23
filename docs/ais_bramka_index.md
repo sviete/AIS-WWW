@@ -47,7 +47,18 @@ Bramka umożliwia zarządzanie urządzeniami i sensorami oraz pełni rolę mostu
 
 :::warning Sklep
 <center>
-[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
+<button class="snipcart-add-item button button--outline button--secondary button--lg"
+              data-item-id="ais-dev3"
+              data-item-description="AIS DEV3, Amlogic SoC 905x3, wbudowane WiFi oraz dysk 128GB, porty Ethernet, USB, SPDIF, Aux i HDMI."
+              data-item-image="/img/ais_gate_dev3.png"
+              data-item-name="AIS DEV3"
+              data-item-price="{&quot;usd&quot;:95,&quot;eur&quot;:90, &quot;pln&quot;: 399}"
+              data-item-custom1-name="Wiadomość"
+              data-item-custom1-type="textarea"
+              >
+              Dodaj do koszyka
+            </button>
+[Urządzenie jest też dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
 <br/>
 [<img src="/img/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker)
 </center>

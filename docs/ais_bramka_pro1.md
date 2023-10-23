@@ -48,7 +48,18 @@ Bramka umożliwia zarządzanie urządzeniami i sensorami oraz pełni rolę mostu
 
 :::warning Sklep
 <center>
-[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
+<button className="snipcart-add-item button button--outline button--secondary button--lg"
+              data-item-id="ais-pro1"
+              data-item-description="AIS PRO1, wydajny układ Amlogic SoC s922x-H, wbudowane WiFi oraz dysk 64GB, porty Ethernet, USB, SPDIF, Aux, HDMI."
+              data-item-image="/img/ais_gate_pro1.png"
+              data-item-name="AIS PRO1"
+              data-item-price="{&quot;usd&quot;:250,&quot;eur&quot;:225, &quot;pln&quot;: 999}"
+              data-item-custom1-name="Wiadomość"
+              data-item-custom1-type="textarea"
+              >
+              Dodaj do koszyka 
+            </button>
+[Urządzenie jest też dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
 <br/>
 [<img src="/img/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker)
 </center>

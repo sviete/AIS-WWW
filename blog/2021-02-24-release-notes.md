@@ -95,7 +95,7 @@ Na forum dostępne są szczegóły: [Usługa programowania urządzeń w AI-Speak
 
 
 
-## [](/img/en/blog/202102/bridge.png) SUPLA MQTT bridge
+## ![](/img/en/blog/202102/bridge.png) SUPLA MQTT bridge
 
 Oferujemy w systemie Asystent domowy oficjalną integrację z SUPLA MQTT. Ta integracja skierowana jest do osób, które chcą sterować swoimi urządzeniami SUPLA głosowo z Asystenta domowego oraz automatyzować sterowanie tymi urządzeniami na bramce AIS dom.
 

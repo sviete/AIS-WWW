@@ -48,7 +48,7 @@ W aplikacji webowej, z każdego widoku można teraz wywołać konwersację z Asy
 Ponieważ można komendy mówić lub wpisywać zmieniliśmy ikonkę z mikrofonu na ikonkę chat/pogawędka:
 
 
-[](/img/en/blog/201912/new_conversation.png)
+![](/img/en/blog/201912/new_conversation.png)
 
 
 ## Dostosuj swój interfejs!

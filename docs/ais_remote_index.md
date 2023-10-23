@@ -11,17 +11,22 @@ Asystent domowy został od podstaw zbudowany w ten sposób, aby można go było 
 
  ## Dostępność i cena
 
-:::info SPRZEDAŻ INTELIGENTNYCH URZĄDZEŃ
-Prowadzimy sprzedaż inteligentnych urządzeń z naszym oprogramowaniem pod linią produktową AIS dom.
-Są to urządzenia, które spełniają wszystkie cechy, by były przez nas rekomendowane do zastosowania w Twoim domu.
-
-Aktualna cena urządzeń jest dostępna:
-
-- u naszego oficjalnego dystrybutora [botland.com.pl](https://botland.com.pl/pl/227_prd_ai-speaker)
-
-[<img src="/img/en/icons/botland.png" alt="drawing" width="200"/>](https://botland.com.pl/pl/227_prd_ai-speaker)
-
-- na naszych aukcjach na platformie [allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker) 
-
-[<img src="/img/en/icons/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker) 
+:::warning Sklep
+<center>
+<button className="snipcart-add-item button button--outline button--secondary button--lg"
+              data-item-id="ais-remote-1"
+              data-item-description="AIS Remote 1"
+              data-item-image="/img/en/iot/iot_esp_8266.png"
+              data-item-name="AIS REMOTE 1"
+              data-item-price="{&quot;usd&quot;:15,&quot;eur&quot;:12, &quot;pln&quot;: 1}"
+              data-item-custom1-name="Wiadomość"
+              data-item-custom1-type="textarea"
+              data-item-url = "https://ai-speaker.com/shipcart/ais-remote-1.json"
+              >
+              Dodaj do koszyka  
+            </button>
+[Urządzenie jest też dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
+<br/>
+[<img src="/img/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker)
+</center>
 :::

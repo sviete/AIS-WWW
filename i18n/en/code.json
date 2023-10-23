@@ -407,17 +407,17 @@
     "message": "efficient components",
     "description": "Automation Controllers soc"
   },
-  "home.featureList.esp.title": {
-    "message": "IoT adapters",
-    "description": "IoT adapters"
+  "home.featureList.pro1.title": {
+    "message": "AIS PRO1",
+    "description": "PRO Controller"
   },
-  "home.featureList.esp.description": {
-    "message": "We also offer addapter {zigbee} for the controller, which allows you to easily use devices from various manufacturers.",
-    "description": "Automation Controllers esp"
+  "home.featureList.pro1.description": {
+    "message": "AIS PRO1 operates on an efficient {soc} system, has built-in WiFi and disk, as well as LAN/Ethernet, USB, SPDIF, Aux, HDMI ports.",
+    "description": "Amlogic SoC s922x-H"
   },
-  "home.featureList.esp.description.zigbee": {
-    "message": "Zigbee, Matter and BLE",
-    "description": "Automation Controllers esp"
+  "home.featureList.pro1.description.soc": {
+    "message": "Amlogic SoC s922x-H",
+    "description": "Amlogic SoC s922x-H"
   },
   "home.featureList.system.title": {
     "message": "System",

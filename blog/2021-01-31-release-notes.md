@@ -157,7 +157,7 @@ Najnowsza wersja Asystenta domowego, czyli naszego pakietu ``ais-dom`` bazujące
 Szczegółowy opis zmian w Home Assistant dostępny na blogu projektu Home Assistant: [2021.1: Happy New Year!](https://www.home-assistant.io/blog/2021/01/06/release-20211/)
 
 
-## [](/img/en/blog/202101/bridge.png) MQTT bridge
+## ![](/img/en/blog/202101/bridge.png) MQTT bridge
 
 Tak jak zapowiedzialiśmy na forum [Budujemy mosty](https://ai-speaker.discourse.group/t/kolejna-celina-beta-wydana/1277)
 

@@ -1,0 +1,13 @@
+{
+    "id": "ais-remote-1",
+    "price":  {
+        "usd": "15",
+        "eur": "12",
+        "pln": "1"
+      },
+    "customFields": [ {
+        "name": "Wiadomość",
+        "type": "textarea"
+      }],
+    "url": "https://ai-speaker.com/shipcart/ais-remote-1.json"
+  }

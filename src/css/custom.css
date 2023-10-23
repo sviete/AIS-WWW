@@ -406,3 +406,21 @@ span.mdi-dev-to {
   font-size: 2em;
   color: #ffab00;
 }
+
+img.footer__logo {
+  width: 10em;
+}
+button.snipcart-add-item {
+  background-color: #ff5c00;
+  background-image: linear-gradient(to right, #fe8700f7, #ff5c00);
+  border-color: #ff5e007e;
+  margin-bottom: 2em;
+}
+
+p {
+  margin: 0px !important;
+}
+
+div.padding-horiz--md {
+  margin-bottom: 1em;
+}

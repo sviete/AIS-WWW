@@ -25,7 +25,7 @@ Znajdujemy komendę, która zwraca temperaturę CPU w systemie Linux (google.com
 ```bash
 cat /sys/class/thermal/thermal_zone0/temp
 ```
-[](/img/en/bramka/faq_sensor_1.png)
+![](/img/en/bramka/faq_sensor_1.png)
 
 
 ### Edycja pliku configuration.yaml

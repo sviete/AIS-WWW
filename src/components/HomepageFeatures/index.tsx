@@ -4,19 +4,57 @@ import styles from './styles.module.css';
 import Translate, { translate } from '@docusaurus/Translate';
 import Link from '@docusaurus/Link';
 
-
 type FeatureItem = {
   title: string;
   Svg: string;
   description: JSX.Element;
   linkTo: string;
+  button: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
   {
     title: translate({
+      id: 'home.featureList.pro1.title',
+      message: 'Kontroler AIS PRO1',
+    }),
+    Svg: '/img/ais_gate_pro1.png',
+    linkTo: "docs/ais_bramka_pro1",
+    description: (
+      <Translate
+        id="home.featureList.pro1.description"
+        values={{
+          soc: (
+            <strong>
+              <Translate
+                id="home.featureList.pro1.description.soc"
+                description="SoC s922x-H"
+              >
+               Amlogic SoC s922x-H
+              </Translate>
+            </strong>
+          ),
+        }}
+      >
+        {'AIS PRO1 działa na wydajnym układzie {soc}, posiada wbudowane WiFi oraz dysk, a także porty Ethernet, USB, SPDIF, Aux, HDMI.'}
+      </Translate>
+    ),
+    button: <button className="snipcart-add-item button button--outline button--secondary button--lg"
+              data-item-id="ais-pro1"
+              data-item-description="AIS PRO1, wydajny układ Amlogic SoC s922x-H, wbudowane WiFi oraz dysk 64GB, porty Ethernet, USB, SPDIF, Aux, HDMI."
+              data-item-image="/img/ais_gate_pro1.png"
+              data-item-name="AIS PRO1"
+              data-item-price="{&quot;usd&quot;:250,&quot;eur&quot;:225, &quot;pln&quot;: 999}"
+              data-item-custom1-name="Wiadomość"
+              data-item-custom1-type="textarea"
+              >
+              Dodaj do koszyka 
+            </button>,
+  },
+  {
+    title: translate({
       id: 'home.featureList.gate.title',
-      message: 'Kontrolery',
+      message: 'Kontroler AIS DEV3',
     }),
     Svg: '/img/ais_gate_dev3.png',
     linkTo: "docs/ais_bramka_index",
@@ -27,52 +65,36 @@ const FeatureList: FeatureItem[] = [
           soc: (
             <strong>
               <Translate id="home.featureList.gate.description.soc">
-                wydajnych komponentach
+                AIS DEV3
               </Translate>
             </strong>
           ),
         }}
       >
         {
-          "Nasze kontrolery automatyki działają na {soc}, posiadają wbudowane dysk, a także porty LAN, USB, HDMI."
+          "{soc} działa na układzie Amlogic SoC 905x3, posiada wbudowane WiFi oraz dysk 128GB, a także porty Ethernet, USB, SPDIF, Aux i HDMI."
         }
       </Translate>
     ),
-  },
-  {
-    title: translate({
-      id: 'home.featureList.esp.title',
-      message: 'Adaptery',
-    }),
-    Svg: '/img/mesh.png',
-    linkTo: "docs/ais_zigbee_index",
-    description: (
-      <Translate
-        id="home.featureList.esp.description"
-        values={{
-          zigbee: (
-            <strong>
-              <Translate
-                id="home.featureList.esp.description.zigbee"
-                description="adapter Zigbee"
+    button: <button className="snipcart-add-item button button--outline button--secondary button--lg"
+              data-item-id="ais-dev3"
+              data-item-description="AIS DEV3, Amlogic SoC 905x3, wbudowane WiFi oraz dysk 128GB, porty Ethernet, USB, SPDIF, Aux i HDMI."
+              data-item-image="/img/ais_gate_dev3.png"
+              data-item-name="AIS DEV3"
+              data-item-price="{&quot;usd&quot;:95,&quot;eur&quot;:90, &quot;pln&quot;: 399}"
+              data-item-custom1-name="Wiadomość"
+              data-item-custom1-type="textarea"
               >
-               Zigbee, Matter i BLE
-              </Translate>
-            </strong>
-          ),
-        }}
-      >
-        {'Do kontrolera oferujemy dodatkowo adapter {zigbee}, który daje możliwość korzystania z urządzeń różnych producentów.'}
-      </Translate>
-    ),
+              Dodaj do koszyka 
+            </button>,
   },
   {
     title: translate({
       id: 'home.featureList.system.title',
-      message: 'System',
+      message: 'Adapter AIS 1',
     }),
-    Svg: '/img/ha_logo.png',
-    linkTo: "docs/ais_app_index",
+    Svg: '/img/ais_adapter_1.png',
+    linkTo: "docs/ais_zigbee_index",
     description: (
       <>
         <Translate
@@ -81,61 +103,35 @@ const FeatureList: FeatureItem[] = [
             info: (
               <strong>
                 <Translate id="home.featureList.system.description.info">
-                  największą na świecie
+                  obsługuje 128+
                 </Translate>
               </strong>
             ),
           }}
         >
           {
-            "Na kontrolerze dostarczamy zainstalowaną {info} platformę do sterowania automatyką domową!"
+            "Zigbee 3.0 Adapter {info} urządzeń zigbee (będących jednocześnie online), ma zasięg 200 metrów i działa w sieci LAN!"
           }
         </Translate>
       </>
     ),
-  },
-  {
-    title: translate({
-      id: 'home.featureList.addons.title',
-      message: 'Dodatki',
-    }),
-    Svg: '/img/Moby-logo1.png',
-    linkTo: "docs/ais_app_player",
-    description: (
-      <Translate
-        id="home.featureList.addons.description"
-        values={{
-          tl: (
-            <strong>
-              <Translate
-                id="home.featureList.addons.description.tl"
-                description="any testing libraries"
+    button: <button className="snipcart-add-item button button--outline button--secondary button--lg"
+              data-item-id="ais-adapter-1"
+              data-item-description="AIS ADAPTER 1, Zigbee 3.0 Adapter {info} urządzeń zigbee (będących jednocześnie online), ma zasięg 200 metrów i działa w sieci LAN."
+              data-item-image="/img/ais_adapter_1.png"
+              data-item-name="AIS ADAPTER 1"
+              data-item-price="{&quot;usd&quot;:45,&quot;eur&quot;:40, &quot;pln&quot;: 179}"
+              data-item-custom1-name="Wiadomość"
+              data-item-custom1-type="textarea"
               >
-                any testing libraries
-              </Translate>
-            </strong>
-          ),
-          extend: (
-            <strong>
-              <Translate
-                id="home.featureList.addons.description.extend"
-                description="frontend frameworks"
-              >
-                funkcjonalność kontrolera
-              </Translate>
-            </strong>
-          ),
-        }}
-      >
-        {'Dodatki pozwalają użytkownikowi łatwo rozszerzyć {extend} poprzez instalacje nowych aplikacji.'}
-      </Translate>
-    ),
+              Dodaj do koszyka  
+            </button>,
   },
 ];
 
-function Feature({ title, Svg, description, linkTo }: FeatureItem) {
+function Feature({ title, Svg, description, linkTo, button }: FeatureItem) {
   return (
-        <div className={clsx('col col--3')}>
+        <div className={clsx('col col--4')}>
         <div className="text--center">
             <Link to={linkTo}>
                 <img className={styles.featureSvg} src={Svg} alt="" />
@@ -145,7 +141,9 @@ function Feature({ title, Svg, description, linkTo }: FeatureItem) {
             <h3>{title}</h3>
             <p>{description}</p>
         </div>
+        {button}
         </div>
+        
   );
 }
 
@@ -160,5 +158,5 @@ export default function HomepageFeatures(): JSX.Element {
         </div>
       </div>
     </section>
-  );
+ );
 }

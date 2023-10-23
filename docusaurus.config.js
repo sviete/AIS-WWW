@@ -202,7 +202,10 @@ module.exports = {
   {
     src: './drift.js',
   },
-],
+  {
+    src: './snipcard.js',
+  },
+ ],
   presets: [
     [
       '@docusaurus/preset-classic',
