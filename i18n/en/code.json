@@ -395,15 +395,15 @@
     "message": "Both our cloud services and the gateway tunnel are protected against direct attacks by {aisCloudFlare} services. Your gateway is secure no matter how you access it: from your local network, from a mobile app, or from the Internet.",
     "description": "Tunnel services description2"
   },
-  "home.featureList.gate.title": {
-    "message": "Automation Controllers",
-    "description": "Automation Controllers title"
+  "home.featureList.dev3.title": {
+    "message": "AIS DEV3",
+    "description": "AIS DEV3 Controller title"
   },
-  "home.featureList.gate.description": {
-    "message": "Our controllers operate on {soc}, have a built-in disk, as well as LAN/Ethernet, USB and HDMI ports.",
+  "home.featureList.dev3.description": {
+    "message": "AIS DEV3 controller operate on {soc}, have a built-in disk, as well as LAN/Ethernet, USB and HDMI ports. Has a Home Assistant platform installed.",
     "description": "Automation Controllers description"
   },
-  "home.featureList.gate.description.soc": {
+  "home.featureList.dev3.description.soc": {
     "message": "efficient components",
     "description": "Automation Controllers soc"
   },
@@ -412,35 +412,27 @@
     "description": "PRO Controller"
   },
   "home.featureList.pro1.description": {
-    "message": "AIS PRO1 operates on an efficient {soc} system, has built-in WiFi and disk, as well as LAN/Ethernet, USB, SPDIF, Aux, HDMI ports.",
+    "message": "AIS PRO1 operates on an efficient {soc} system, has built-in WiFi and disk, as well as LAN/Ethernet, USB, SPDIF, Aux, HDMI ports. Has a Home Assistant platform installed.",
     "description": "Amlogic SoC s922x-H"
   },
   "home.featureList.pro1.description.soc": {
     "message": "Amlogic SoC s922x-H",
     "description": "Amlogic SoC s922x-H"
   },
-  "home.featureList.system.title": {
-    "message": "System",
-    "description": "Automation Controllers title"
+  "home.featureList.adapter1.title": {
+    "message": "AIS Adapter 1",
+    "description": "AIS Adapter 1 title"
   },
-  "home.featureList.system.description": {
-    "message": "We deliver the {info} home automation control platform installed on the controller!",
+  "home.featureList.adapter1.description": {
+    "message": "Zigbee 3.0 Adapter {info} zigbee devices (all online at the same time), has a range of 200 meters and works in a LAN! It is compatible with the Zigbee Home Automation and Zigbee2mqtt.",
     "description": "Automation Controllers description"
   },
-  "home.featureList.system.description.info": {
-    "message": "the largest in the world",
+  "home.featureList.adapter1.description.info": {
+    "message": "supports 128+",
     "description": "Automation Controllers soc"
   },
-  "home.featureList.addons.title": {
-    "message": "Addons",
-    "description": "Automation Controllers title"
-  },
-  "home.featureList.addons.description": {
-    "message": "Add-ons allow the user to easily extend {extend} by installing new applications.",
-    "description": "Automation Controllers description"
-  },
-  "home.featureList.addons.description.extend": {
-    "message": "controller functionality",
-    "description": "Automation Controllers soc"
+  "home.featureList.addToBasket": {
+    "message": "Buy now",
+    "description": "Add to basket"
   }
 }

@@ -424,3 +424,11 @@ p {
 div.padding-horiz--md {
   margin-bottom: 1em;
 }
+
+.navbar {
+    z-index: 20;
+}
+
+.snipcart-sidecart--opened .snipcart-test-banner {
+  /* z-index: -1; */
+}

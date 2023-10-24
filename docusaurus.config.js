@@ -203,6 +203,12 @@ module.exports = {
     src: './drift.js',
   },
   {
+    src: 'https://app.ecwid.com/script.js?93913261&data_platform=code&data_date=2023-10-23',
+  },
+  // {
+  //   src: './test.js',
+  // }
+  {
     src: './snipcard.js',
   },
  ],

@@ -90,6 +90,8 @@ function Home() {
                 </a>
             </div>
 
+            <div id="my-store-93913261"></div>
+
             {/* <div className={classnames(styles.heroLogo)}>
                 <Link to="https://dom-842b4861bcb86d18.paczka.pro">
                   <img alt="AIS dom demo" src="img/main/Anzela-Demo.png" />

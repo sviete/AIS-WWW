@@ -18,14 +18,14 @@ Asystent domowy został od podstaw zbudowany w ten sposób, aby można go było 
               data-item-description="AIS Remote 1"
               data-item-image="/img/en/iot/iot_esp_8266.png"
               data-item-name="AIS REMOTE 1"
-              data-item-price="{&quot;usd&quot;:15,&quot;eur&quot;:12, &quot;pln&quot;: 1}"
+              data-item-price="{&quot;usd&quot;:15,&quot;eur&quot;:12, &quot;pln&quot;: 49}"
               data-item-custom1-name="Wiadomość"
               data-item-custom1-type="textarea"
-              data-item-url = "https://ai-speaker.com/shipcart/ais-remote-1.json"
+              data-item-url = "https://ai-speaker.com/snipcart/ais-remote-1.json"
               >
-              Dodaj do koszyka  
+                Dodaj do koszyka
             </button>
-[Urządzenie jest też dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
+[Urządzenie jest dostępne na naszych aukcjach na platformie allegro.pl](https://allegro.pl/uzytkownik/AI-Speaker)
 <br/>
 [<img src="/img/allegro.png" alt="drawing" width="200"/>](https://allegro.pl/uzytkownik/AI-Speaker)
 </center>
