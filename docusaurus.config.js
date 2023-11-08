@@ -122,7 +122,7 @@ module.exports = {
         { type: 'localeDropdown', position: 'right',
         },
         {
-          href: 'https://allegro.pl/uzytkownik/AI-Speaker',
+          href: 'https://get-iot.com',
           label: 'Sklep',
           position: 'right',
         },
@@ -204,12 +204,6 @@ module.exports = {
   },
   {
     src: 'https://app.ecwid.com/script.js?93913261&data_platform=code&data_date=2023-10-23',
-  },
-  // {
-  //   src: './test.js',
-  // }
-  {
-    src: './snipcard.js',
   },
  ],
   presets: [

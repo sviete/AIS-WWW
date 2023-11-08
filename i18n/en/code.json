@@ -434,5 +434,9 @@
   "home.featureList.addToBasket": {
     "message": "Buy now",
     "description": "Add to basket"
+  },
+  "home.featureList.goToDoc": {
+    "message": "Documentation",
+    "description": "Go to documentation"
   }
 }

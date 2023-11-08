@@ -10,6 +10,7 @@ type FeatureItem = {
   description: JSX.Element;
   linkTo: string;
   button: JSX.Element;
+  buttonDoc: JSX.Element;
 };
 
 const FeatureList: FeatureItem[] = [
@@ -40,18 +41,17 @@ const FeatureList: FeatureItem[] = [
       </Translate>
     ),
     button: <button className="snipcart-add-item button button--outline button--secondary button--lg"
-              data-item-id="ais-pro1"
-              data-item-description="AIS PRO1, wydajny układ Amlogic SoC s922x-H, wbudowane WiFi oraz dysk 64GB, porty Ethernet, USB, SPDIF, Aux, HDMI. Ma zainstalowaną platformę Home Assistant."
-              data-item-image="/img/ais_gate_pro1.png"
-              data-item-name="AIS PRO1"
-              data-item-price="{&quot;usd&quot;:250,&quot;eur&quot;:225, &quot;pln&quot;: 1199}"
-              data-item-custom1-name="Wiadomość"
-              data-item-custom1-type="textarea"
-              >
+              onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/index.php?id_product=31&rewrite=ais-pro1-home-assistant&controller=product&id_lang=2';}}>
               <Translate id="home.featureList.addToBasket">
                 Kup teraz
               </Translate>
             </button>,
+    buttonDoc: <button className="snipcart-go-to-doc button button--outline button--secondary button--lg" 
+    onClick={(e) => {e.preventDefault();window.location.href='docs/ais_bramka_pro1';}}>
+          <Translate id="home.featureList.goToDoc">
+            Dokumentacja
+          </Translate>  
+        </button>,
   },
   {
     title: translate({
@@ -79,18 +79,17 @@ const FeatureList: FeatureItem[] = [
       </Translate>
     ),
     button: <button className="snipcart-add-item button button--outline button--secondary button--lg"
-              data-item-id="ais-dev3"
-              data-item-description="AIS DEV3, Amlogic SoC 905x3, wbudowane WiFi oraz dysk 128GB, porty Ethernet, USB, SPDIF, Aux i HDMI. Ma zainstalowaną platformę Home Assistant."
-              data-item-image="/img/ais_gate_dev3.png"
-              data-item-name="AIS DEV3"
-              data-item-price="{&quot;usd&quot;:95,&quot;eur&quot;:90, &quot;pln&quot;: 469}"
-              data-item-custom1-name="Wiadomość"
-              data-item-custom1-type="textarea"
-              >
+    onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/index.php?id_product=27&rewrite=ais-dom-dev-3-bramka-lotaudio-wersja-deweloperska&controller=product&id_lang=2';}}>
               <Translate id="home.featureList.addToBasket">
                 Kup teraz
               </Translate>
             </button>,
+    buttonDoc: <button className="snipcart-go-to-doc button button--outline button--secondary button--lg" 
+    onClick={(e) => {e.preventDefault();window.location.href='docs/ais_bramka_index';}}>
+          <Translate id="home.featureList.goToDoc">
+            Dokumentacja
+          </Translate>  
+        </button>,
   },
   {
     title: translate({
@@ -119,23 +118,22 @@ const FeatureList: FeatureItem[] = [
         </Translate>
       </>
     ),
-    button: <button className="snipcart-add-item button button--outline button--secondary button--lg"
-              data-item-id="ais-adapter-1"
-              data-item-description="AIS ADAPTER 1, Zigbee 3.0 Adapter {info} urządzeń zigbee (będących jednocześnie online), ma zasięg 200 metrów i działa w sieci LAN."
-              data-item-image="/img/ais_adapter_1.png"
-              data-item-name="AIS ADAPTER 1"
-              data-item-price="{&quot;usd&quot;:45,&quot;eur&quot;:40, &quot;pln&quot;: 179}"
-              data-item-custom1-name="Wiadomość"
-              data-item-custom1-type="textarea"
-              >
+    button: <button className="snipcart-add-item button button--outline button--secondary button--lg" 
+        onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/index.php?id_product=30&rewrite=slzb-06-zigbee-ethernet-poe-usb-lan-wifi-adapter&controller=product&id_lang=2';}}>
               <Translate id="home.featureList.addToBasket">
                 Kup teraz
               </Translate>  
             </button>,
+    buttonDoc: <button className="snipcart-go-to-doc button button--outline button--secondary button--lg" 
+    onClick={(e) => {e.preventDefault();window.location.href='docs/ais_zigbee_index';}}>
+          <Translate id="home.featureList.goToDoc">
+            Dokumentacja
+          </Translate>  
+        </button>,
   },
 ];
 
-function Feature({ title, Svg, description, linkTo, button }: FeatureItem) {
+function Feature({ title, Svg, description, linkTo, button, buttonDoc }: FeatureItem) {
   return (
         <div className={clsx('col col--4')}>
         <div className="text--center">
@@ -150,6 +148,7 @@ function Feature({ title, Svg, description, linkTo, button }: FeatureItem) {
         {/* <Link to='https://allegro.pl/uzytkownik/AI-Speaker'>
           {button}
         </Link> */}
+        {buttonDoc}&nbsp;&nbsp;&nbsp;
         {button}
         </div>
         

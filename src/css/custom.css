@@ -412,9 +412,17 @@ img.footer__logo {
 }
 button.snipcart-add-item {
   background-color: #ff5c00;
-  background-image: linear-gradient(to right, #fe8700f7, #ff5c00);
+  background-image: linear-gradient(to right, #ff5c00, #fe8700f7);
   border-color: #ff5e007e;
   margin-bottom: 2em;
+}
+
+button.snipcart-go-to-doc {
+  background-color: #0a0a0a;
+  background-image: linear-gradient(to right, #0a0a0a, #180a02);
+  border-color: #3314027e;
+  margin-bottom: 2em;
+  color: white !important;
 }
 
 p {
