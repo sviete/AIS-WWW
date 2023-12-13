@@ -3,63 +3,108 @@ author: Jola AI-Speaker
 authorURL: https://github.com/sviete
 author_title: Asystentka
 authorImageURL: https://avatars3.githubusercontent.com/u/43966761?s=460&v=4
-title: Wersja systemu Paweł
+title: Wersja systemu Home Assistant Supervised
 tags: ["home assistant", "zigbee2mqtt"]
 ---
 
 import BrowserWindow from '@site/src/components/BrowserWindow';
 
+## Szanowni Użytkownicy,
 
-<div class="IntroAisBlogMenu" >
+Z przyjemnością chcielibyśmy Was poinformować o znaczącej zmianie, która wpłynie na naszą platformę w pozytywny sposób. Po przemyślanej analizie oraz wysłuchaniu Waszych opinii, zdecydowaliśmy się na przejście z systemu operacyjnego Adroid Termux na Linux, a co za tym idzie, z Home Assistant Core na Home Assistant Supervised.
 
-![AIS](/img/en/blog/202312/ais_version.png)
-
-:::caution
-
-To jest informacja o rozwojowej wersji systemu, która zostanie wydana w grudniu 2023. Pracę nad tą wersją oraz nad jej opisem jeszcze trwają.
-:::
-
-</div>
-
-<!--truncate-->
+ ![D](/img/en/blog/202312/linux.jpeg)
 
 
-## ABC bezproblemowej aktualizacji
-
-:::tip Kopia ![A](/img/en/blog/202112/cloud-upload.png)
-
-Przed aktualizacją zalecamy wykonać [kopię zapasową konfiguracji](/docs/ais_bramka_configuration_software#kopia-zapasowa-konfiguracji).
-W ten sposób sprawdzisz poprawność swojej konfiguracji przed rozpoczęciem aktualizacji i zwiększysz prawdopodobieństwo bezproblemowej aktualizacji.
-
-:::
-
-:::important Konsola ![B](/img/en/blog/202112/console.png)
-
-W razie problemów z aktualizacją z aplikacji, uruchom [aktualizację z konsoli](/docs/ais_bramka_update_manual), w ten sposób będziesz miał na bieżąco wgląd w logi i postęp aktualizacji oraz będziesz mógł zdiagnozować przyczynę problemu.
-:::
-
-:::caution Poczekaj ![C](/img/en/blog/202112/timer-sand.png)
-
-Aktualizacja i pierwsze uruchomienie po aktualizacji może trwać dłużej - poczekaj cierpliwie.
-W każdej chwili możesz sprawdzić status systemu (dowiedzieć się co robi bramka) w konsoli komendą ``htop`` i/lub ``pm2 logs``
-:::
-
-## Potrzebujesz pomocy?
-
-:::warning Reset ![D](/img/en/blog/202112/broom.png)
-Jeżeli nie jesteś w stanie zdiagnozować problemu - nie przejmuj się, jesteśmy przygotowani, żeby Ci pomóc.
-Stworzyliśmy specjalnie dla Ciebie prostą procedurę, która pomoże przywrócić domyślne kody i ustawienia systemu - zapoznaj się z opisem: [Wykonanie pełnego resetu aplikacji](/docs/ais_bramka_reset_ais_step_by_step).
-:::
+ <!--truncate-->
 
 
-:::important Programowanie w serwisie ![D](/img/en/blog/202112/lifebuoy.png)
-Jeżeli nie jesteś w stanie wykonać procedury pełnego resetu i Twój system nadal nie działa, to możesz wysłać nam urządzenie do zaprogramowania.
-Szczegóły opisane na forum w wątku: [Programowanie w serwisie](https://ai-speaker.discourse.group/t/usluga-programowania-urzadzen-w-ai-speaker/1368)
-:::
+## Dlaczego ta zmiana?
 
-## Wersja systemu Paweł <img src="/img/en/blog/202312/ais_version.png" alt="drawing" width="100"/>
+### 1. Asystent Głosowy Wbudowany w Home Assistant
 
-W tej wersji systemu aktualizujemy środowisko Linux i dostarczamy najnowsze wersje pakietów: ``apt bash binutils binutils-libs busybox c-ares ca-certificates clang cloudflared cmake command-not-found coreutils curl dash debianutils dialog diffutils dos2unix dpkg ed ffmpeg fontconfig freetype fribidi gawk gdk-pixbuf git glib gpgv grep htop inetutils krb5 ldns less libandroid-support libaom libarchive libass libassuan libbluray libc++ libcap libcompiler-rt libcurl libdav1d libedit libexpat libffi libgc libgcrypt libgd libgnutls libgpg-error libiconv libicu libidn2 libjpeg-turbo libllvm liblzma libmosquitto libmpfr libnettle libnghttp2 libopenblas libopus libpng librav1e libresolv-wrapper libsixel libsoxr libsqlite libssh2 libtiff libunistring libuuid libuv libvidstab libvpx libwebp libx264 libx265 libxml2 libxslt lld llvm lsof make mosquitto nano ncurses ncurses-ui-libs ndk-sysroot nodejs openssh openssh-sftp-server openssl openssl-1.1 p7zip pcre2 perl postgresql psmisc python python-cryptography python-numpy rclone readline rhash sed tar termux-keyring termux-tools ttyd unbound util-linux w3m wget xz-utils zlib zstd``.
+W 2023 roku Home Assistant pracował nad wbudowanym w system asystentem głosowym. Pracę te dobiegają końca i w efekcie nasze rozwiązanie oparte na usługach STT i TTS wbudowanych w system Android przestało być niezbędne do działania asystenta.
+![yolca](/img/en/blog/202312/yolca.jpeg)
+Zdecydowaliśmy się rozwijać i wspierać rozwiązanie dostarczane przez Home Assistant.
+W naszym wpisie na blogu opisujemy jak dodać własne wyrażenie włączające mikrofon “Wake Word:
+[Hey Yolca - “Wake Word”, własne wyrażenie włączające mikrofon](https://ai-speaker.discourse.group/t/hey-yolca-wake-word-wlasne-wyrazenie-wlaczajace-mikrofon/3668)
+To pierwszy s serii wpisów w których będziemy zajmowali się asystentem głosowym wbudowanym w Home Assistant.
+
+### 2. Kontenery Docker-a i dodatki Home Assistant
+
+Kontenery Docker to lekkie, przenośne i samowystarczalne jednostki oprogramowania, które umożliwiają pakowanie, dostarczanie i uruchamianie aplikacji w izolowanym środowisku.
+W przypadku Androida kontererami były Aplikacje, ale prawda jest taka, że Home Assistant działa na kontenerach Dockera a nie Anroida.
+Dzięki przejściu na Linux-a będziemy mieli dostęp do wszystkich dodatków Home Assistant.
+
+![docker](/img/en/blog/202312/docker.jpeg)
+
+### 3. Łatwiejsze Aktualizacje Systemu
+
+Zmiana na Linux ułatwi proces aktualizacji systemu Home Assistant.
+Aktualizacja systemu Home Assistant w przypadku działania Home Assistant w kontenerze sprowadza się do aktualizacji kontenera Docker. Tak samo aktualizowane są dodatki które działają też w kontenerach Docker.
+To ułatwia proces aktualizacji ponieważ aplikacje są pakowane wraz ze wszystkimi niezbędnymi zależnościami i konfiguracją, co sprawia, że są przenośne między różnymi środowiskami. Oznacza to, że to, co działa na jednym systemie, powinno działać na innym bez większych modyfikacji.
+
+![docker2](/img/en/blog/202312/docker2.jpeg)
+
+### 4. Pakiety Linux-a
+
+W przypadku Termux, liczba dostępnych pakietów jest mniej imponująca w porównaniu do tradycyjnych dystrybucji Linuxa na komputerach stacjonarnych lub serwerach. Termux jest środowiskiem do uruchamiania terminala na systemie Android, a liczba pakietów jest ograniczona ze względu na specyficzne wymagania i ograniczenia środowiska Android.
+
+W ostatnich latach Termux znacząco rozszerzył swoją ofertę, a liczba dostępnych pakietów stale rośnie. Aktualnie Termux oferuje dostęp do wielu popularnych narzędzi i programów, w tym edytory tekstowe, języki programowania, narzędzia programistyczne, serwery, narzędzia sieciowe itp. Jednak liczba pakietów nie jest w dziesiątkach tysięcy, jak w przypadku tradycyjnych dystrybucji.
+
+![debian](/img/en/blog/202312/debian.jpeg)
+
+W przypadku systemu Linux bazującego na dystrybucji Debian mamy do dyspozycji praktycznie wszystkie pakiety Linux-a a co za tym idzie możemy instalować na bramce więcej pożytecznych rzeczy.
+
+### 5. Obsługa adapterów i seriala
+
+W systemie Android, który jest zaprojektowany głównie z myślą o urządzeniach mobilnych, takich jak smartfony i tablety, obsługa portu szeregowego (serial port) nie jest domyślnie wbudowana.
+
+Większość producentów adapterów (Zigbee, Z-Wave, Thread, Lora ...) nie oferuje obsługugi USB ale wymaga obsługi portu szeregowego. Taka komunikacja jest zwykle bardziej istotna w kontekście bramek IoT, systemów do kontroli przemysłowej i innych specjalizowanych zastosowań. Natomiast urządzenia Android są głównie ukierunkowane na obsługę standardowych interfejsów komunikacyjnych, takich jak USB, Bluetooth czy Wi-Fi.
+
+![debian](/img/en/blog/202312/serial.jpeg)
+
+Obchodziliśmy te ogranicznia z różnym skutkiem, kompilując jądro Linux-a i/lub urzywając adapterów które rozumiały komunikację USB.
+Teraz dzięki przejściu na system Linux, będziemy w stanie obsługiwać każdy adapter.
+
+
+### Dziękujemy za Wasze zrozumienie i wsparcie. Ta zmiana ma na celu podniesienie standardów naszego systemu i dostarczenie Wam jeszcze lepszego doświadczenia z Home Assistant.
+
+
+## Jak przystąpić do aktualizacji?
+
+Instrukcje dotyczące aktualizacji oraz migracji są dostępne na naszym forum:
+
+- [DEV1, DEV2, DEV3](https://ai-speaker.discourse.group/t/home-assistant-supervised-na-dev1-dev2-i-dev-bt/3562/1)
+
+- [DEV3 i PRO1](https://ai-speaker.discourse.group/t/home-assistant-supervised-na-dev3-i-pro1/3550/1)
+
+Wystarczy zaopatrzyć się w kartę SD lub pendrive i można pobrać nasze obrazy Linuxa z już zainstalowanym i skonfigurowanym Home Assistant, następnie trzeba nagrać obraz systemu na nośnik i uruchomić bramkę na nowym systemie.
+
+![Aktualizacja](/img/en/blog/202312/linux1.png)
+
+## Gotowe karty SD
+
+Dla osób które chciały by kupić gotową kartę z zainstalownym systemem Home Assistant oferujemy w naszym sklepie nowy produkt - [SDCARD 128GB - HOME ASSISTANT SUPERVISED](https://get-iot.com/index.php?id_product=33&id_product_attribute=42&rewrite=sdcard-128gb-home-assistant-supervised&controller=product&id_lang=2#/32-wersja_bramki-dev3):
+
+[![SD](/img/en/blog/202312/sd-card.png)](https://get-iot.com/index.php?id_product=33&id_product_attribute=42&rewrite=sdcard-128gb-home-assistant-supervised&controller=product&id_lang=2#/32-wersja_bramki-dev3)
+
+
+## Bramki AIS
+
+Nowo sprzedawane bramki AIS, dostarczane są już z zainstalowanym systemem Linux oraz Home Assistant Supervised - [AIS DOM DEV-3 BRAMKA IOT&AUDIO - WERSJA DEWELOPERSKA](https://get-iot.com/index.php?id_product=27&rewrite=ais-dom-dev-3-bramka-lotaudio-wersja-deweloperska&controller=product&id_lang=2)
+
+[![SD](/img/en/blog/202312/dev3.png)](https://get-iot.com/index.php?id_product=27&rewrite=ais-dom-dev-3-bramka-lotaudio-wersja-deweloperska&controller=product&id_lang=2)
+
+
+-------------------------------------------------------------------------------------
+
+## AIS Android, co nowego na kanale ALFA :)
+
+Na kanale alfa, będziemy nadal wydawać wersje. Z uwagi jednak na argumenty opisane powyżej: kłopotliwą aktualizację, brak wsparcia dla wszystkich pakietów linux-a, brak obsługi wszystkich adapterów(brak obsługi seriala) w systemie Android, brak obsługi kontenerów w systemie Android, zalecamy przejście na system Linux i Home Assistant Supervised.
+
+![Aktualizacja](/img/en/blog/202312/android.jpeg)
+
 
 ### Python
 Home Assistant serwer jest napisany i działa z Pythonem 3. Na bramce dostarczamy najnowszą, stabilną, wspieraną przez Home Assistant wersję Python.
