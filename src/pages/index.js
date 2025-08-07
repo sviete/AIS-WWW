@@ -75,7 +75,7 @@ function Home() {
               </div>
             </div>
 
-            {/* <div className={classnames(styles.heroLogo)}>
+            <div className={classnames(styles.heroLogo)}>
                 <Link to="https://allegro.pl/uzytkownik/AI-Speaker">
                 <img src="/img/allegro.png"></img>
                 </Link>
@@ -88,9 +88,9 @@ function Home() {
                     </Translate>
                 </div>
                 </a>
-            </div> */}
+            </div>
 
-            <div className={classnames(styles.heroLogo)}>
+            {/* <div className={classnames(styles.heroLogo)}>
                 <Link to="https://dom-842b4861bcb86d18.paczka.pro">
                   <img alt="AIS dom demo" src="img/start_live_demo.png" />
                 </Link>
@@ -103,7 +103,7 @@ function Home() {
                     </Translate>
                   </a>
                 </div>
-            </div>
+            </div> */}
             
           </div>
         

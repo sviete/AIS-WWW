@@ -41,7 +41,7 @@ const FeatureList: FeatureItem[] = [
       </Translate>
     ),
     button: <button className="snipcart-add-item button button--outline button--secondary button--lg"
-              onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/index.php?id_product=31&rewrite=ais-pro1-home-assistant&controller=product&id_lang=2';}}>
+              onClick={(e) => {e.preventDefault();window.location.href='https://allegro.pl/uzytkownik/AI-Speaker';}}>
               <Translate id="home.featureList.addToBasket">
                 Kup teraz
               </Translate>
@@ -79,13 +79,13 @@ const FeatureList: FeatureItem[] = [
       </Translate>
     ),
     button: <button className="snipcart-add-item button button--outline button--secondary button--lg"
-    onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/index.php?id_product=27&rewrite=ais-dom-dev-3-bramka-lotaudio-wersja-deweloperska&controller=product&id_lang=2';}}>
+    onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/';}}>
               <Translate id="home.featureList.addToBasket">
                 Kup teraz
               </Translate>
             </button>,
     buttonDoc: <button className="snipcart-go-to-doc button button--outline button--secondary button--lg" 
-    onClick={(e) => {e.preventDefault();window.location.href='docs/ais_bramka_index';}}>
+    onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/';}}>
           <Translate id="home.featureList.goToDoc">
             Dokumentacja
           </Translate>  
@@ -119,13 +119,13 @@ const FeatureList: FeatureItem[] = [
       </>
     ),
     button: <button className="snipcart-add-item button button--outline button--secondary button--lg" 
-        onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/index.php?id_product=30&rewrite=slzb-06-zigbee-ethernet-poe-usb-lan-wifi-adapter&controller=product&id_lang=2';}}>
+        onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com';}}>
               <Translate id="home.featureList.addToBasket">
                 Kup teraz
               </Translate>  
             </button>,
     buttonDoc: <button className="snipcart-go-to-doc button button--outline button--secondary button--lg" 
-    onClick={(e) => {e.preventDefault();window.location.href='docs/ais_zigbee_index';}}>
+    onClick={(e) => {e.preventDefault();window.location.href='https://get-iot.com/';}}>
           <Translate id="home.featureList.goToDoc">
             Dokumentacja
           </Translate>  
